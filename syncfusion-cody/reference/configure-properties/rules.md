@@ -1,7 +1,7 @@
 ---
 title: "Rules"
 description: "Details about configuring rules that define the behavior and constraints for language models in Cody IDE."
-platform: "syncfusion-cody"
+platform: syncfusion-cody
 control: "IDE"
 documentation: "Getting Started"
 keywords: "cody, IDE, installation, windows, setup, getting-started"

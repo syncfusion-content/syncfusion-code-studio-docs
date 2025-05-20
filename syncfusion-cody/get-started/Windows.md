@@ -1,10 +1,10 @@
 ---
-title: "Installing Cody on Windows"
-description: "Step-by-step guide for installing Cody IDE on Windows operating system"
-platform: "syncfusion-cody"
-control: "IDE"
-documentation: "Getting Started"
-keywords: "cody, IDE, installation, windows, setup, getting-started"
+title: Installing Cody on Windows
+description: Step-by-step guide for installing Cody IDE on Windows operating system
+platform: syncfusion-cody
+control: IDE
+documentation: Getting Started
+keywords: cody, IDE, installation, windows, setup, getting-started
 ---
 
 # Installation on Windows
