@@ -2,7 +2,7 @@
 title: Cody Edit Mode
 description: Edit mode in Cody allows you to make targeted changes to your codebase with the help of AI.
 platform: syncfusion-cody
-keywords: "cody, IDE, AI, developer-tools, syncfusion, code-assistance, productivity, UI-generation, bug-fixing, documentation"
+keywords: cody, IDE, AI, developer-tools, syncfusion, code-assistance, productivity, UI-generation, bug-fixing, documentation
 ---
 
 # Edit Feature Overview

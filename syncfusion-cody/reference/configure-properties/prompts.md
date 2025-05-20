@@ -1,10 +1,10 @@
 ---
-title: "Prompts"
-description: "Details about configuring custom prompts that can be used within Cody IDE."
+title: Prompts
+description: Details about configuring custom prompts that can be used within Cody IDE.
 platform: syncfusion-cody
-control: "IDE"
-documentation: "Getting Started"
-keywords: "cody, IDE, installation, windows, setup, getting-started"
+control: IDE"
+documentation: Getting Started
+keywords: cody, IDE, installation, windows, setup, getting-started
 ---
 
 # prompts

@@ -1,10 +1,10 @@
 ---
-title: "Models"
-description: "Details about configuring language models that are available for use in Cody IDE."
+title: Models
+description: Details about configuring language models that are available for use in Cody IDE.
 platform: syncfusion-cody
-control: "IDE"
-documentation: "Getting Started"
-keywords: "cody, IDE, installation, windows, setup, getting-started"
+control: IDE
+documentation: "Getting Started
+keywords: cody, IDE, installation, windows, setup, getting-started
 ---
 
 # models
