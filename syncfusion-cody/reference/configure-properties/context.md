@@ -1,7 +1,7 @@
 ---
 title: "context"
 description: "Details about configuring context providers that supply additional information to language models in Cody IDE."
-platform: "syncfusion-cody"
+platform: syncfusion-cody
 control: "IDE"
 documentation: "Getting Started"
 keywords: "cody, IDE, installation, windows, setup, getting-started"

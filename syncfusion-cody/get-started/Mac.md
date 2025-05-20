@@ -1,7 +1,7 @@
 ---
 title: "Installing Cody on Mac"
 description: "Step-by-step guide for installing Cody IDE on Mac operating system"
-platform: "syncfusion-cody"
+platform: syncfusion-cody
 documentation: "Getting Started"
 keywords: "cody, IDE, installation, Mac, setup, getting-started"
 ---

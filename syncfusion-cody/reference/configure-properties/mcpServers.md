@@ -1,7 +1,7 @@
 ---
 title: "Mcp Server"
 description: "Details about configuring MCP (Model Context Protocol) servers that can be used as context providers in Cody IDE."
-platform: "syncfusion-cody"
+platform: syncfusion-cody
 control: "IDE"
 documentation: "Getting Started"
 keywords: "cody, IDE, installation, windows, setup, getting-started"

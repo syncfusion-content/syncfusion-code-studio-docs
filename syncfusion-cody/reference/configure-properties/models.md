@@ -1,7 +1,7 @@
 ---
 title: "Models"
 description: "Details about configuring language models that are available for use in Cody IDE."
-platform: "syncfusion-cody"
+platform: syncfusion-cody
 control: "IDE"
 documentation: "Getting Started"
 keywords: "cody, IDE, installation, windows, setup, getting-started"
