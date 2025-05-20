@@ -1,9 +1,9 @@
 ---
-title: "Welcome to Cody"
-description: "An introduction to Cody, the AI-powered IDE by Syncfusion for enhanced developer productivity"
+title: Welcome to Cody
+description: An introduction to Cody, the AI-powered IDE by Syncfusion for enhanced developer productivity
 platform: syncfusion-cody
-documentation: "Getting Started"
-keywords: "cody, IDE, AI, developer-tools, syncfusion, code-assistance, productivity, UI-generation, bug-fixing, documentation"
+documentation: Getting Started
+keywords: cody, IDE, AI, developer-tools, syncfusion, code-assistance, productivity, UI-generation, bug-fixing, documentation
 ---
 
 # Welcome to Cody

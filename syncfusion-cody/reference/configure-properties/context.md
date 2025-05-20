@@ -1,10 +1,10 @@
 ---
-title: "context"
-description: "Details about configuring context providers that supply additional information to language models in Cody IDE."
+title: context
+description: "Details about configuring context providers that supply additional information to language models in Cody IDE.
 platform: syncfusion-cody
-control: "IDE"
-documentation: "Getting Started"
-keywords: "cody, IDE, installation, windows, setup, getting-started"
+control: IDE
+documentation: Getting Started
+keywords: cody, IDE, installation, windows, setup, getting-started
 ---
 # context
 

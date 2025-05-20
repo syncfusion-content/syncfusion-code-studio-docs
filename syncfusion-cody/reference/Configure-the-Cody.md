@@ -1,8 +1,8 @@
 ---
-title: "Cofigure the Cody"
-description: "Instructions on how to set up and customize Cody for your development environment"
+title: Cofigure the Cody
+description: Instructions on how to set up and customize Cody for your development environment
 platform: syncfusion-cody
-keywords: "cody, IDE, AI, developer-tools, syncfusion, code-assistance, productivity, UI-generation, bug-fixing, documentation"
+keywords: cody, IDE, AI, developer-tools, syncfusion, code-assistance, productivity, UI-generation, bug-fixing, documentation
 ---
 # Configure the Cody
 

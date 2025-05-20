@@ -1,10 +1,10 @@
 ---
-title: "docs"
-description: "Details about configuring documentation sources to be indexed and made available for Cody IDE's language models."
+title: docs
+description: Details about configuring documentation sources to be indexed and made available for Cody IDE's language models.
 platform: syncfusion-cody
-control: "IDE"
-documentation: "Getting Started"
-keywords: "cody, IDE, installation, windows, setup, getting-started"
+control: IDE
+documentation: Getting Started
+keywords: cody, IDE, installation, windows, setup, getting-started
 ---
 
 # docs

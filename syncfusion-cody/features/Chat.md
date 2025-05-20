@@ -2,7 +2,7 @@
 title: Cody Chat Mode
 description: Chat mode in Cody enables you to interact with an AI assistant using natural language.
 platform: syncfusion-cody
-keywords: "cody, IDE, AI, developer-tools, syncfusion, code-assistance, productivity, UI-generation, bug-fixing, documentation"
+keywords: cody, IDE, AI, developer-tools, syncfusion, code-assistance, productivity, UI-generation, bug-fixing, documentation
 ---
 # Chat
 Engage in a natural language conversation with the AI to boost productivity. You can ask coding questions, request explanations of complex logic, generate new code snippets, or troubleshoot bugs. The AI understands your project’s context, so its responses are relevant, accurate, and tailored to your current files and development environment. It's like having an expert developer always ready to assist.
