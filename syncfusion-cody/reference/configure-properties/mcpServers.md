@@ -1,3 +1,12 @@
+---
+title: "Mcp Server"
+description: "Details about configuring MCP (Model Context Protocol) servers that can be used as context providers in Cody IDE."
+platform: "syncfusion-cody"
+control: "IDE"
+documentation: "Getting Started"
+keywords: "cody, IDE, installation, windows, setup, getting-started"
+---
+
 # mcpServers
 
 The Model Context Protocol is a standard proposed by Anthropic to unify prompts, context, and tool use. Cody supports any MCP server with the MCP context provider.

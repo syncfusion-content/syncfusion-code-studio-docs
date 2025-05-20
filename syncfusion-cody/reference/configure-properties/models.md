@@ -1,3 +1,12 @@
+---
+title: "Models"
+description: "Details about configuring language models that are available for use in Cody IDE."
+platform: "syncfusion-cody"
+control: "IDE"
+documentation: "Getting Started"
+keywords: "cody, IDE, installation, windows, setup, getting-started"
+---
+
 # models
 
 The `models` section specifies the language models included in your configuration. These models power features like chat, editing, and summarization.

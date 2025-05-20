@@ -1,8 +1,7 @@
 ---
 title: "Installing Cody on Mac"
 description: "Step-by-step guide for installing Cody IDE on Mac operating system"
-platform: "Mac"
-control: "IDE"
+platform: "syncfusion-cody"
 documentation: "Getting Started"
 keywords: "cody, IDE, installation, Mac, setup, getting-started"
 ---
@@ -11,7 +10,14 @@ keywords: "cody, IDE, installation, Mac, setup, getting-started"
 
 The installation process for **Syncfusion Cody IDE** on macOS is straightforward and user-friendly. Simply download the installer from the official Syncfusion website, follow the on-screen instructions, and then launch the IDE. Once installed, you can start using Cody immediately to enhance your development experience.
 
----
+## System Requirements
+
+- **Operating System**: macOS 11 (Big Sur) or later
+- **Processor**: Apple Silicon (M1/M2) (minimum)
+- **RAM**: 8GB (minimum), 16GB (recommended)
+- **Disk Space**: 2GB of available space
+- **Internet Connection**: Required for downloading the installer and receiving updates
+
 
 ##  Steps to Install Cody IDE on macOS
 
@@ -82,13 +88,3 @@ After launching, the IDE displays a **Welcome Page** to help you get started.
 - Ready for integration within your development environment
 
 <img src="./getting_started_image/Chat_window.png" alt="Chat_window" width="100%" height="auto" />
-
----
-
-**You're now ready to explore the full capabilities of Syncfusion Cody IDE on macOS!**
-
-## Additional Resources
-
-- [Troubleshooting Installation Issues](/troubleshooting/installation)
-- [Getting Started Guide](/get-started/first-steps)
-- [Video Tutorial: Installation Process](https://www.syncfusion.com/videos/cody-installation)

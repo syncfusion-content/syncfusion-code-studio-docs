@@ -1,7 +1,7 @@
 ---
 title: Cody Agent Mode
 description: Agent Mode in Cody is an autonomous AI assistant that can analyze, edit, and execute changes across your codebase with minimal input.
-platform: Syncfusion Cody
+platform: syncfusion-cody
 keywords: "cody, IDE, AI, developer-tools, syncfusion, code-assistance, productivity, UI-generation, bug-fixing, documentation"
 ---
 

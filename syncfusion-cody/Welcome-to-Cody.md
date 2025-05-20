@@ -1,7 +1,7 @@
 ---
 title: "Welcome to Cody"
 description: "An introduction to Cody, the AI-powered IDE by Syncfusion for enhanced developer productivity"
-platform: "Cross-platform"
+platform: "syncfusion-cody"
 documentation: "Getting Started"
 keywords: "cody, IDE, AI, developer-tools, syncfusion, code-assistance, productivity, UI-generation, bug-fixing, documentation"
 ---

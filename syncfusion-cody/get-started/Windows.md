@@ -1,7 +1,7 @@
 ---
 title: "Installing Cody on Windows"
 description: "Step-by-step guide for installing Cody IDE on Windows operating system"
-platform: "Windows"
+platform: "syncfusion-cody"
 control: "IDE"
 documentation: "Getting Started"
 keywords: "cody, IDE, installation, windows, setup, getting-started"
@@ -11,7 +11,14 @@ keywords: "cody, IDE, installation, windows, setup, getting-started"
 
 The installation process for **Syncfusion Cody IDE** is straightforward and user-friendly. Simply download the installer from the official Syncfusion website, follow the on-screen instructions to complete the installation, and then launch the IDE. Once installed, you can start using Cody immediately to enhance your development experience.
 
----
+
+## System Requirements
+
+- **Operating System**: Windows 10 or later
+- **Processor**: Intel Core i5 or equivalent (minimum)
+- **RAM**: 8GB (minimum), 16GB (recommended)
+- **Disk Space**: 2GB of available space
+- **Internet Connection**: Required for downloading the installer and receiving updates
 
 ##  Steps to Install Cody IDE
 
@@ -111,16 +118,3 @@ After installation, the IDE launches with a **Welcome Page** to help you get sta
 
 ---
 
-## System Requirements
-
-- **Operating System**: Windows 10 or later
-- **Processor**: Intel Core i5 or equivalent (minimum)
-- **RAM**: 8GB (minimum), 16GB (recommended)
-- **Disk Space**: 2GB of available space
-- **Display**: 1366 x 768 or higher resolution
-
-## Additional Resources
-
-- [Troubleshooting Installation Issues](/troubleshooting/installation)
-- [Getting Started Guide](/get-started/first-steps)
-- [Video Tutorial: Installation Process](https://www.syncfusion.com/videos/cody-installation)

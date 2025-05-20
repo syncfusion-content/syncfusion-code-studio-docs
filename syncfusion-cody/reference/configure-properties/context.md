@@ -1,3 +1,11 @@
+---
+title: "context"
+description: "Details about configuring context providers that supply additional information to language models in Cody IDE."
+platform: "syncfusion-cody"
+control: "IDE"
+documentation: "Getting Started"
+keywords: "cody, IDE, installation, windows, setup, getting-started"
+---
 # context
 
 The context section specifies context providers that deliver extra information to the language models. Each provider can be customized with its own set of parameters

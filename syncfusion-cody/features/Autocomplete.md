@@ -1,3 +1,10 @@
+---
+title: Cody Autocomplete mode
+description: Autocomplete mode in Cody offers real-time, inline code suggestions as you type.
+platform: syncfusion-cody
+keywords: "cody, IDE, AI, developer-tools, syncfusion, code-assistance, productivity, UI-generation, bug-fixing, documentation"
+---
+
 # Autocomplete
 
 Autocomplete provides inline code suggestions as you type. It provides real-time, inline code suggestions as you type, helping you write code faster and with fewer errors. As you begin typing, it predicts and displays context-aware completions directly. This feature enhances productivity by reducing repetitive typing and offering intelligent suggestions based on your current code and project context.
