@@ -6,19 +6,19 @@ Autocomplete provides inline code suggestions as you type. It provides real-time
 
 **Step 1:** Open your `config.yaml` file by clicking the gear icon at the top of the chat.
 
-<img src="/features/Feature_Images/Autocomplete_step-1.png" alt="clicking gear icon" width="100%" height="auto" />
+<img src="./Feature_Images/Autocomplete_step-1.png" alt="clicking gear icon" width="100%" height="auto" />
 
 **Step 2:** Then click the **"open config file"** button to open the `config.yaml` file.
 
-<img src="/features/Feature_Images/Autocomplete_step-2.png" alt="clicking open config file button" width="100%" height="auto" />
+<img src="./Feature_Images/Autocomplete_step-2.png" alt="clicking open config file button" width="100%" height="auto" />
 
 **Step 3:** Inside the `config.yaml` file, add `roles` under the model which you are using in the `models` section. Inside `roles`, add `"autocomplete"`.
 
-<img src="/features/Feature_Images/Autocomplete_step-3.png" alt="add roles" width="100%" height="auto" />
+<img src="./Feature_Images/Autocomplete_step-3.png" alt="add roles" width="100%" height="auto" />
 
 **Step 4:** Now if you type in the file, it will suggest code completions.
 
-<img src="/features/Feature_Images/Autocomplete_step-4.png" alt="autocomplete" width="100%" height="auto" />
+<img src="./Feature_Images/Autocomplete_step-4.png" alt="autocomplete" width="100%" height="auto" />
 
 ---
 
