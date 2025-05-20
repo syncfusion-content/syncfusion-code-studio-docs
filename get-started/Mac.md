@@ -4,7 +4,7 @@ description: "Step-by-step guide for installing Cody IDE on Mac operating system
 platform: "Mac"
 control: "IDE"
 documentation: "Getting Started"
-keywords: "cody, IDE, installation, windows, setup, getting-started"
+keywords: "cody, IDE, installation, Mac, setup, getting-started"
 ---
 
 # Installation on macOS
