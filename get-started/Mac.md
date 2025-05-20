@@ -17,7 +17,7 @@ The installation process for **Syncfusion Cody IDE** on macOS is straightforward
 
 ###  Step 1: Start Installation
 
-- Visit the official website: [Syncfusion Cody](https://www.syncfusion.com/)
+- Visit the official website: [Syncfusion Cody](https://syncfusioncody.com)
 - Click on the **Download** button to obtain the installer for **macOS**.
 - Double-click the downloaded `.dmg` file.
 
