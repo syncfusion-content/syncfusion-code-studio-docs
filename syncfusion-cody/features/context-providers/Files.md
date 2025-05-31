@@ -1,0 +1,43 @@
+---
+title: Using the @Files Context in Syncfusion Code Studio
+description: Learn how to use the @Files context feature in Syncfusion Code Studio to provide AI with document-specific context for more accurate assistance.
+platform: syncfusion-cody
+keywords: cody, syncfusion, files, context, code-studio, documentation, developer-tools, AI, productivity
+---
+
+# @Files Context Feature Overview
+
+The **@Files context** feature is a key component of **Syncfusion Code Studio**. It allows you to include relevant content from selected documents directly in the chat, enabling the AI to deliver responses that are more accurate and aligned with your files.
+
+
+##  How to Use the @Files Context
+
+### 1. Open Syncfusion Code Studio
+
+In the  **Syncfusion Code Studio**, the chat interface is located on the left-hand side of the screen, where you can interact with the AI and get assistance.
+
+<img src="../feature-images/files1.png" alt="Accept Image" width="100%" height="auto" />
+
+### 2. Select @Files Context
+
+In the chat window, click the **“@”** button.
+
+<img src="../feature-images/files2.png" alt="Accept Image" width="100%" height="auto" />
+
+A menu will appear—select **@Files** from the list.
+
+<img src="../feature-images/files3.png" alt="Accept Image" width="100%" height="auto" />
+
+**Note:**  If you cannot locate the @files context option in the list, you will need to add it manually to include this context provider in config.yaml file. Please follow the steps outlined in this [link](/syncfusion-cody/features/context-providers/add-more-contextproviders/How-to-configure-more-contextproviders.md) to do so.
+
+
+### 3. Choose the File
+
+After selecting **@Files**, choose the document you want to include in context. Type a relevant query about the selected file in the chat box and press **Enter**.
+
+<img src="../feature-images/files4.png" alt="Accept Image" width="100%" height="auto" />
+
+
+
+Syncfusion Code Studio will read and analyze the selected file(s), allowing the AI to provide more context-aware and helpful responses based on the content of your files and the query you've submitted.
+<img src="../feature-images/files5.png" alt="Accept Image" width="100%" height="auto" />
