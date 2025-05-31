@@ -1,8 +1,8 @@
 ---
-title: Cody Edit Mode
-description: Edit mode in Cody allows you to make targeted changes to your codebase with the help of AI.
-platform: syncfusion-cody
-keywords: cody, IDE, AI, developer-tools, syncfusion, code-assistance, productivity, UI-generation, bug-fixing, documentation
+title: Syncfusion code studio Edit Mode
+description: Edit mode in Syncfusion code studio allows you to make targeted changes to your codebase with the help of AI.
+platform: syncfusion-code-studio
+keywords: code, IDE, AI, developer-tools, syncfusion, code-assistance, productivity, UI-generation, bug-fixing, documentation
 ---
 
 # Edit Feature Overview
@@ -19,20 +19,20 @@ You can easily get AI help with specific code segments by:
   - `Command + I` (Mac)  
   - `Control + I` (Windows)
 
-- This action will automatically send the selected code to the Cody via chat.
+- This action will automatically send the selected code to the Syncfusion code studio via chat.
 
-- You can then specify the update for the selected code and describe the changes you want the assistant (Cody) to apply.
+- You can then specify the update for the selected code and describe the changes you want the assistant (Syncfusion code studio) to apply.
 
----<img src="./Feature_Images/Edit_img.png" alt="Edit Mode" width="100%" height="auto" />
+---<img src="./feature-images/Edit_img.png" alt="Edit Mode"  />
 
 ### Reviewing Changes
 
 - If you click the **Apply** button, Each change can be **reviewed and applied** individually.
 
----<img src="./Feature_Images/Edit_accept.png" alt="Accept Image" width="100%" height="auto" />
+---<img src="./feature-images/Edit_accept.png" alt="Accept Image"  />
  
 - If you click the **Reject** button, Each change can be **reviewed and rejected** individually.
 
----<img src="./Feature_Images/Edit_reject.png" alt="Reject Image" width="100%" height="auto" />
+---<img src="./feature-images/Edit_reject.png" alt="Reject Image"  />
 
 - You can also use the **Accept All** or **Reject All** buttons in the chat to apply or discard changes when diffs are available.

@@ -1,17 +1,17 @@
 ---
-title: Cofigure the Cody
-description: Instructions on how to set up and customize Cody for your development environment
-platform: syncfusion-cody
-keywords: cody, IDE, AI, developer-tools, syncfusion, code-assistance, productivity, UI-generation, bug-fixing, documentation
+title: Cofigure the Syncfusion code studio
+description: Instructions on how to set up and customize Syncfusion code studio for your development environment
+platform: syncfusion-code-studio
+keywords: code, IDE, AI, developer-tools, syncfusion, code-assistance, productivity, UI-generation, bug-fixing, documentation
 ---
-# Configure the Cody
+# Configure the Syncfusion code studio
 
-The Cody can be configured using the `config.yaml` specification. To open this file, follow the below steps.
+The Syncfusion code studio can be configured using the `config.yaml` specification. To open this file, follow the below steps.
 
-1. Open the settings of Cody chat
+1. Open the settings of Syncfusion code studio chat
 2. And click `Open Config File`
 
-<img src="./reference_images/config_cody.png" alt="open config file" width="100%" height="auto" />
+<img src="./reference_images/config_cody.png" alt="open config file"  />
 
 You add your configuration setting in the opened `config.yaml` file.
 

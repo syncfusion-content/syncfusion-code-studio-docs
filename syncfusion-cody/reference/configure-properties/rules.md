@@ -1,10 +1,10 @@
 ---
 title: Rules
-description: Details about configuring rules that define the behavior and constraints for language models in Cody IDE.
-platform: syncfusion-cody
+description: Details about configuring rules that define the behavior and constraints for language models in Syncfusion code studio IDE.
+platform: syncfusion-code-studio
 control: IDE
 documentation: Getting Started
-keywords: cody, IDE, installation, windows, setup, getting-started
+keywords: code, IDE, installation, windows, setup, getting-started
 ---
 
 # rules
