@@ -2,7 +2,7 @@
 title: Using the @Code Context in Syncfusion Code Studio
 description: Learn how to use the @Code context feature in Syncfusion Code Studio to reference specific code directly in chat for faster assistance.
 platform: syncfusion-code studio
-keywords: cody, syncfusion, code-context, ai-assistance, developer-tools, code-review, productivity
+keywords: code, syncfusion, code-context, ai-assistance, developer-tools, code-review, productivity
 ---
 
 # @Code Context Feature Overview

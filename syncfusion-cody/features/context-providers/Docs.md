@@ -1,8 +1,8 @@
 ---
 title: Using the @Docs Context in Syncfusion Code Studio
 description: Learn how to use the @Docs context provider to reference content from documentation sites directly in Syncfusion Code Studio.
-platform: syncfusion-cody
-keywords: cody, syncfusion, docs-context, documentation, ai-assistance, developer-tools, productivity
+platform: syncfusion-code-studio
+keywords: code, syncfusion, docs-context, documentation, ai-assistance, developer-tools, productivity
 ---
 
 # @Docs Context Feature Overview

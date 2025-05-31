@@ -1,8 +1,8 @@
 ---
 title: Using the @Files Context in Syncfusion Code Studio
 description: Learn how to use the @Files context feature in Syncfusion Code Studio to provide AI with document-specific context for more accurate assistance.
-platform: syncfusion-cody
-keywords: cody, syncfusion, files, context, code-studio, documentation, developer-tools, AI, productivity
+platform: syncfusion-code-studio
+keywords: code, syncfusion, files, context, code-studio, documentation, developer-tools, AI, productivity
 ---
 
 # @Files Context Feature Overview

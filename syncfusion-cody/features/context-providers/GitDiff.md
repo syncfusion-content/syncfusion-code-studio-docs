@@ -1,8 +1,8 @@
 ---
 title: Using the @Git Diff Context in Syncfusion Code Studio
 description: Learn how to use the @GitDiff context feature to summarize, review, and verify changes made in your Git branch using Syncfusion Code Studio.
-platform: syncfusion-cody
-keywords: cody, syncfusion, git-diff, context, ai-assistance, developer-tools, commit-review, code-summary
+platform: syncfusion-code-studio
+keywords: code, syncfusion, git-diff, context, ai-assistance, developer-tools, commit-review, code-summary
 ---
 
 # @Git Diff Context provider
