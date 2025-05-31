@@ -34,4 +34,4 @@ The @Debugger option is only available when your source code is running in debug
 You can then use the Step Over and Step Into options to view detailed information about the variables at each step of the debugging process.  
 AI will now have access to this context, and any suggestions or assistance will be tailored based on the local variables shared.
 
-<img src="../../feature-images/database_output.png" alt="output" />
+<img src="../../feature-images/debugger_output.png" alt="output" />

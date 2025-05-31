@@ -32,8 +32,6 @@ A menu will appear—select @URL.
  
 After selecting @URL, a text box will appear. Paste the link to the webpage that contains the information you want the AI to consider.
 
-<img src="../../feature-images/url_tab.png" alt="choose" />
- 
 After you submit a URL, AI retrieves and processes the webpage content, extracting and summarizing relevant information.
 
 <img src="../../feature-images/url_output.png" alt="output" />
