@@ -1,10 +1,10 @@
 ---
 title: Prompts
-description: Details about configuring custom prompts that can be used within Cody IDE.
-platform: syncfusion-cody
+description: Details about configuring custom prompts that can be used within Syncfusion code studio IDE.
+platform: syncfusion-code-studio
 control: IDE"
 documentation: Getting Started
-keywords: cody, IDE, installation, windows, setup, getting-started
+keywords: code, IDE, installation, windows, setup, getting-started
 ---
 
 # prompts

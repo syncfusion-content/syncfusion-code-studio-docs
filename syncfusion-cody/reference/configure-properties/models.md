@@ -1,10 +1,10 @@
 ---
 title: Models
-description: Details about configuring language models that are available for use in Cody IDE.
-platform: syncfusion-cody
+description: Details about configuring language models that are available for use in Syncfusion code studio IDE.
+platform: syncfusion-code-studio
 control: IDE
 documentation: "Getting Started
-keywords: cody, IDE, installation, windows, setup, getting-started
+keywords: code, IDE, installation, windows, setup, getting-started
 ---
 
 # models
@@ -50,7 +50,7 @@ The `models` section specifies the language models included in your configuratio
     <td><code>capabilities</code></td>
     <td>No</td>
     <td>
-      An array of strings that specify the model's capabilities, overriding Cody's automatic detection based on the provider and model.<br/>
+      An array of strings that specify the model's capabilities, overriding Syncfusion code studio's automatic detection based on the provider and model.<br/>
       Supported capabilities include <code>tool_use</code> and <code>image_input</code>.
     </td>
   </tr>

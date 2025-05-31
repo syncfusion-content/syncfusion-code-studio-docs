@@ -1,10 +1,10 @@
 ---
 title: context
-description: "Details about configuring context providers that supply additional information to language models in Cody IDE.
-platform: syncfusion-cody
+description: "Details about configuring context providers that supply additional information to language models in Syncfusion code studio IDE.
+platform: syncfusion-code-studio
 control: IDE
 documentation: Getting Started
-keywords: cody, IDE, installation, windows, setup, getting-started
+keywords: code, IDE, installation, windows, setup, getting-started
 ---
 # context
 
@@ -37,11 +37,9 @@ The context section specifies context providers that deliver extra information t
   </tr>
 </table>
 
-## Example
+## Add the context provider in the config.yaml file as follows
 
-{% tabs %}
-{% highlight c# tabtitle="YAML" %}
-
+```yaml
 context:
   - provider: file
   - provider: code
@@ -56,6 +54,4 @@ context:
       url: "https://api.example.com/server1"
   - provider: folder
   - provider: terminal
-  
-{% endhighlight %}
-{% endtabs %}
+```

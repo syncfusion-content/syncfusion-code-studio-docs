@@ -1,8 +1,8 @@
 ---
-title: Cody Autocomplete mode
-description: Autocomplete mode in Cody offers real-time, inline code suggestions as you type.
-platform: syncfusion-cody
-keywords: cody, IDE, AI, developer-tools, syncfusion, code-assistance, productivity, UI-generation, bug-fixing, documentation
+title: Syncfusion code studio Autocomplete mode
+description: Autocomplete mode in Syncfusion code studio offers real-time, inline code suggestions as you type.
+platform: syncfusion-code-studio
+keywords: code, IDE, AI, developer-tools, syncfusion, code-assistance, productivity, UI-generation, bug-fixing, documentation
 ---
 
 # Autocomplete
@@ -13,19 +13,19 @@ Autocomplete provides inline code suggestions as you type. It provides real-time
 
 **Step 1:** Open your `config.yaml` file by clicking the gear icon at the top of the chat.
 
-<img src="./Feature_Images/Autocomplete_step-1.png" alt="clicking gear icon" width="100%" height="auto" />
+<img src="./feature-images/Autocomplete_step-1.png" alt="clicking gear icon"  />
 
 **Step 2:** Then click the **"open config file"** button to open the `config.yaml` file.
 
-<img src="./Feature_Images/Autocomplete_step-2.png" alt="clicking open config file button" width="100%" height="auto" />
+<img src="./feature-images/Autocomplete_step-2.png" alt="clicking open config file button"  />
 
 **Step 3:** Inside the `config.yaml` file, add `roles` under the model which you are using in the `models` section. Inside `roles`, add `"autocomplete"`.
 
-<img src="./Feature_Images/Autocomplete_step-3.png" alt="add roles" width="100%" height="auto" />
+<img src="./feature-images/Autocomplete_step-3.png" alt="add roles"  />
 
 **Step 4:** Now if you type in the file, it will suggest code completions.
 
-<img src="./Feature_Images/Autocomplete_step-4.png" alt="autocomplete" width="100%" height="auto" />
+<img src="./feature-images/Autocomplete_step-4.png" alt="autocomplete"  />
 
 ---
 

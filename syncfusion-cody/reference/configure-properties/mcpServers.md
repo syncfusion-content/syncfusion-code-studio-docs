@@ -1,15 +1,15 @@
 ---
 title: Mcp Server
-description: Details about configuring MCP (Model Context Protocol) servers that can be used as context providers in Cody IDE.
-platform: syncfusion-cody
+description: Details about configuring MCP (Model Context Protocol) servers that can be used as context providers in Syncfusion code studio IDE.
+platform: syncfusion-code-studio
 control: IDE
 documentation: Getting Started
-keywords: cody, IDE, installation, windows, setup, getting-started
+keywords: code, IDE, installation, windows, setup, getting-started
 ---
 
 # mcpServers
 
-The Model Context Protocol is a standard proposed by Anthropic to unify prompts, context, and tool use. Cody supports any MCP server with the MCP context provider.
+The Model Context Protocol is a standard proposed by Anthropic to unify prompts, context, and tool use. Syncfusion code studio supports any MCP server with the MCP context provider.
 
 ## Properties
 

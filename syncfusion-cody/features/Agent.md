@@ -1,17 +1,17 @@
 ---
-title: Cody Agent Mode
-description: Agent Mode in Cody is an autonomous AI assistant that can analyze, edit, and execute changes across your codebase with minimal input.
-platform: syncfusion-cody
-keywords: "cody, IDE, AI, developer-tools, syncfusion, code-assistance, productivity, UI-generation, bug-fixing, documentation"
+title: Syncfusion code studio Agent Mode
+description: Agent Mode in Syncfusion code studio is an autonomous AI assistant that can analyze, edit, and execute changes across your codebase with minimal input.
+platform: syncfusion-code-studio
+keywords: "code, IDE, AI, developer-tools, syncfusion, code-assistance, productivity, UI-generation, bug-fixing, documentation"
 ---
 
 # Agent Mode
 
-**Agent mode** in Cody is an AI coding assistant that works independently to explore your code, plan updates, and complete complex tasks. It’s designed to save you time by reading files, editing code, running commands, and using available tools — all with minimal input from you.
+**Agent mode** in Syncfusion code studio is an AI coding assistant that works independently to explore your code, plan updates, and complete complex tasks. It’s designed to save you time by reading files, editing code, running commands, and using available tools — all with minimal input from you.
 
 You can switch to **Agent mode** in the mode selector below the chat input box.
 
-<img src="./Feature_Images/agent.png" alt="Switch to agent mode" width="100%" height="auto" />
+<img src="./feature-images/agent.png" alt="Switch to agent mode"  />
 
 ## Agent Capabilities
 
@@ -49,8 +49,8 @@ You can switch to **Agent mode** in the mode selector below the chat input box.
 
 By default, Agent mode will ask for your permission before using any tool. Click **Continue** to approve the action, or **Cancel** to deny it.
 
-<img src="./Feature_Images/agent_permission.png" alt="Agent permission prompt" width="100%" height="auto" >
+<img src="./feature-images/agent_permission.png" alt="Agent permission prompt"  >
 
 Once tool permission is granted, Agent will proceed with the tool and provide the response in the chat output.
 
-<img src="./Feature_Images/agent_response.png" alt="Agent tool response" width="100%" height="auto" />
+<img src="./feature-images/agent_response.png" alt="Agent tool response"  />
