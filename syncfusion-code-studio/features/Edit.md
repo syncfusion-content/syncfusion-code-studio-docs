@@ -9,7 +9,7 @@ keywords: code, IDE, AI, developer-tools, syncfusion, code-assistance, productiv
 
 Edit makes it easy to quickly update specific code or files. Just highlight the code you want to change, describe the update, and the changes will appear inline for you to **accept** or **reject**. It’s a fast and efficient way to make precise edits directly in your file.
 
----
+
 
 ## Code Selection & AI Assistance Feature
 
@@ -23,16 +23,16 @@ You can easily get AI help with specific code segments by:
 
 - You can then specify the update for the selected code and describe the changes you want the assistant (Syncfusion code studio) to apply.
 
----<img src="./feature-images/Edit_img.png" alt="Edit Mode"  />
+<img src="./feature-images/Edit_img.png" alt="Edit Mode"  />
 
 ### Reviewing Changes
 
 - If you click the **Apply** button, Each change can be **reviewed and applied** individually.
 
----<img src="./feature-images/Edit_accept.png" alt="Accept Image"  />
+<img src="./feature-images/Edit_accept.png" alt="Accept Image"  />
  
 - If you click the **Reject** button, Each change can be **reviewed and rejected** individually.
 
----<img src="./feature-images/Edit_reject.png" alt="Reject Image"  />
+<img src="./feature-images/Edit_reject.png" alt="Reject Image"  />
 
 - You can also use the **Accept All** or **Reject All** buttons in the chat to apply or discard changes when diffs are available.

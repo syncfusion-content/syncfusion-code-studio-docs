@@ -5,11 +5,11 @@ platform: syncfusion-code-studio
 keywords: syncfusion, syncfusion code studio, context providers, add context, config.yaml, ai, developer-tools, productivity
 ---
  
-# Add more context providers in Syncfusion Code Studio
+# How to configure more context providers
  
-The “Add More Context Provider” feature lets you give the AI extra information to help it understand your project better.
+The Add More Context Provider feature lets you give the AI extra information to help it understand your project better.
  
-## How to Use the @Add more context providers
+## How to Use the Add more context providers
  
 ### 1. Open the Syncfusion Code Studio
  
@@ -17,17 +17,17 @@ In the Syncfusion Code Studio, the chat interface is located on the left-hand si
 
 <img src="../../feature-images/open_chat.png" alt="openchat" />
  
-### 2. Select @Add more Context Providers
+### 2. Select Add more Context Providers
  
-In the chat window, click the “@” button.  
-A menu will appear—select **@Add more context providers**.  
+In the chat window, click the `@` button.  
+A menu will appear—select Add more context providers.  
 This action automatically opens the `config.yaml` file in your editor.
 
 <img src="../../feature-images/clickcontext.png" alt="click context" />
  
 ### 3. Add Context Provider
  
-After you click on "Add more context providers", the `config.yaml` file will open. You can then add the appropriate YAML object for the context provider you wish to use from the list below and insert it under `contextProviders:`.
+After you click on "Add more context providers", the `config.yaml` file will open. You can then add the appropriate YAML object for the context provider you wish to use from the list below and insert it under context.
  
 <img src="../../feature-images/addmore.png" alt="add more" />
 
