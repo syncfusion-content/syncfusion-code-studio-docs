@@ -9,7 +9,7 @@ keywords: syncfusion, syncfusion code studio, debugger, context, debug mode, loc
  
 The Debugger context option in Syncfusion Code Studio allows you to enhance your development experience by seamlessly integrating debugging capabilities into your workflow. A key feature is the Debugger context option, which enables users to share relevant local variables from the active debugging session directly in the chat window.
  
-## How to Use the Debugger Context
+## How to Use the Debugger context
  
 ### 1. Open the Syncfusion Code Studio
  

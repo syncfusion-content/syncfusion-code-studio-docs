@@ -9,7 +9,7 @@ keywords: Syncfusion code studio, syncfusion, web, context, code-studio, real-ti
  
 The Web context provider in Syncfusion Code Studio allows the AI to access real-time web content, ensuring responses are accurate, current, and context-aware.
  
-## How to Use the Web Context
+## How to Use the Web context
  
 ### 1. Open the Syncfusion Code Studio
  

@@ -11,13 +11,13 @@ The Docs context provider lets you easily reference content from any documentati
 
 
 
-## How to Use the Docs Context
+## How to Use the Docs context
 
 ### 1. Open the Syncfusion Code Studio
 
 In the Syncfusion Code Studio, the chat interface is located on the left-hand side. This is where you can interact with AI and ask questions or get assistance.
 
-<img src="../feature-images/files1.png" alt="Accept Image"  />
+<img src="../feature-images/open_chat.png" alt="Accept Image"  />
 
 ### 2. Select Docs context
 
@@ -47,6 +47,6 @@ The document will appear in the list—select the one you want to use.
 
 <img src="../feature-images/docs5.png" alt="Accept Image"  />
 
-Press **Enter**, and the AI will respond based on the selected documentation and query.
+Press Enter, and the AI will respond based on the selected documentation and query.
 
 <img src="../feature-images/docs6.png" alt="Accept Image"  />

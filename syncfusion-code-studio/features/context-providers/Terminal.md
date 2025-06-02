@@ -20,7 +20,7 @@ Click the Syncfusion Code Studio icon on the left toolbar to open the Syncfusion
 <img src="../feature-images/terminal_chat_open.png" alt="open chat" />
 
 
-### 2. Select terminal` Context
+### 2. Select Terminal context
 
 In the chat window, click the `@` button.
 

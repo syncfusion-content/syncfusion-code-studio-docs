@@ -10,7 +10,7 @@ The HelpBot context in Syncfusion Code Studio gives quick access to Syncfusionâ€
 
 
 
-## How to Use helpbot Context
+## How to Use Helpbot context
 
 ### 1. Open the Chat Window
 
@@ -19,7 +19,7 @@ Click the Syncfusion Code Studio icon on the left toolbar to open the Syncfusion
 <img src="../feature-images/open_chat.png" alt="open chat"  />
 
 
-### 2. Select helpbot Context
+### 2. Select Helpbot context
 
 In the chat window, click the `@` button.
 > **Note:** If you cannot locate the helpbot context option in the list, you will need to add it manually by including this context provider in the config.yaml file. Please follow the steps outlined in this [link](https://help.syncfusioncody.com/syncfusion-code-studio/features/context-providers/add-more-contextproviders/How-to-configure-more-contextproviders) to do so.

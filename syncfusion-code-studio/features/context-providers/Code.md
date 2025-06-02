@@ -11,13 +11,13 @@ The Code context option in the Syncfusion Code Studio lets you reference specifi
 
 
 
-## How to Use the Code Context
+## How to Use the Code context
 
 ### 1. Open Syncfusion Code Studio
 
 In the Syncfusion Code Studio, the chat interface is located on the left-hand side. This is where you can interact with AI and ask questions or get assistance.
 
-<img src="../feature-images/files1.png" alt="Accept Image"  />
+<img src="../feature-images/open_chat.png" alt="Accept Image"  />
 
 ### 2. Select Code context
 
@@ -27,14 +27,14 @@ In the Syncfusion Code Studio, the chat interface is located on the left-hand si
 <img src="../feature-images/files2.png" alt="Accept Image"  />
 
  A menu will appear—select Code.  
-<img src="../feature-images/code1.png" alt="Accept Image"  />
+<img src="../feature-images/code2.png" alt="Accept Image"  />
 
 
 ### 3. Choose the code
 
  Now choose the code which you want to ask the query about it.
 
-<img src="../feature-images/code2.png" alt="Accept Image"  />
+<img src="../feature-images/code1.png" alt="Accept Image"  />
 
 ### 4. Use Code Context with Query
 

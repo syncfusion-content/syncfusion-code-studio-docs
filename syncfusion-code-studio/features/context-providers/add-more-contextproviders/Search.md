@@ -9,7 +9,7 @@ keywords: syncfusion, syncfusion code studio, search, exactsearch, context, code
  
 The Search context option in the Syncfusion Code Studio allows users to perform precise searches across their codebase or documentation. It is particularly useful for developers and content creators who need to quickly locate specific strings, functions, or variables.
  
-## How to Use the ExactSearch Context
+## How to Use the Search context
  
 ### 1. Open the Syncfusion Code Studio
  
@@ -17,7 +17,7 @@ In the Syncfusion Code Studio, the chat interface is located on the left-hand si
 
 <img src="../../feature-images/open_chat.png" alt="openchat" />
  
-### 2. Select ExactSearch context
+### 2. Select Search context
  
 In the chat window, click the `@` button.  
 > **Note:** If you cannot locate the Search context option in the list, you will need to add it manually to include this context provider. Please follow the steps outlined in this [link](https://help.syncfusioncody.com/syncfusion-code-studio/features/context-providers/add-more-contextproviders/How-to-configure-more-contextproviders) to do so.

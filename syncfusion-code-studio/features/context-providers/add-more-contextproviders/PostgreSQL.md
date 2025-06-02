@@ -9,7 +9,7 @@ keywords: syncfusion, syncfusion code studio, postgresql, database, context, cod
  
 The PostgreSQL context provider in Syncfusion Code Studio enables seamless integration with PostgreSQL databases, allowing you to interact with your database directly from your development environment.
  
-## How to Use the PostgreSQL Context
+## How to Use the PostgreSQL context
  
 ### 1. Open the Syncfusion Code Studio
  

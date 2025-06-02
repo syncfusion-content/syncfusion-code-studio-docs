@@ -20,9 +20,11 @@ Click the **Syncfusion Code Studio** icon on the left toolbar to open the Syncfu
 <img src="../feature-images/open_chat.png" alt="open chat"  />
 
 
-### 2. Select codebase Context
+### 2. Select Codebase context
 
 In the chat window, click the `@` button.
+
+> **Note:** If you cannot locate the codebase context option in the list, you will need to add it manually by including this context provider in the config.yaml file. Please follow the steps outlined in this [link](https://help.syncfusioncody.com/syncfusion-code-studio/features/context-providers/add-more-contextproviders/How-to-configure-more-contextproviders) to do so.
 
 <img src="../feature-images/clickcontext.png" alt="Click context menu"  />
 
@@ -30,8 +32,6 @@ From the context menu that appears, choose codebase.
 
 
 <img src="../feature-images/codebase_opencontext.png" alt="open context" />
-
-> **Note:** If you cannot locate the codebase context option in the list, you will need to add it manually by including this context provider in the config.yaml file. Please follow the steps outlined in this [link](https://help.syncfusioncody.com/syncfusion-code-studio/features/context-providers/add-more-contextproviders/How-to-configure-more-contextproviders) to do so.
 
 
 

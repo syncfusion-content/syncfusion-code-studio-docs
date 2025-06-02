@@ -9,7 +9,7 @@ keywords: syncfusion, syncfusion code studio, openfiles, context, ai, developer-
  
 The OpenFiles context provider in Syncfusion Code Studio helps you work more efficiently by allowing the AI to automatically access and use the content from all currently open files in your editor.
  
-## How to Use the OpenFiles Context
+## How to Use the OpenFiles context
  
 ### 1. Open the Syncfusion Code Studio
  

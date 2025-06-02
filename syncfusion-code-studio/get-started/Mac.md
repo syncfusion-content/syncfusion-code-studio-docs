@@ -49,7 +49,7 @@ The installation process for **Syncfusion code studio IDE** on macOS is straight
 
 <img src="./getting_started_image/application_yes.png" alt="application_yes"  />
 
----
+
 
 ##  Step 5: Launch and Configure
 

@@ -5,17 +5,17 @@ platform: syncfusion-code-studio
 keywords: code, syncfusion, git-diff, context, ai-assistance, developer-tools, commit-review, code-summary
 ---
 
-# GitDiff
+# Git Diff
 
 The Git Diff Context provider lets you reference all changes made in your current branch to get a summary of your work or request a general review. This is especially useful for reviewing progress, identifying improvements, or preparing for a commit by ensuring the modifications align with project goals and coding standards.
 
 
-## How to Use the Git Diff
+## How to Use the Git Diff context
 ### 1. Open the Syncfusion Code Studio
 
 In the Syncfusion Code Studio, the chat interface is located on the left-hand side. This is where you can interact with AI and ask questions or get assistance.
 
-<img src="../feature-images/files1.png" alt="Accept Image"  />
+<img src="../feature-images/open_chat.png" alt="Accept Image"  />
 
 ### 2. Select Git Diff context
 

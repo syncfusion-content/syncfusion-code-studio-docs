@@ -21,10 +21,11 @@ Click the Syncfusion Code Studio icon on the left toolbar to open the Syncfusion
 
 
 
-### 2. Select Commit Context
+### 2. Select Commit context
 
 In the chat window, click the `@` button.
-**Note:**  If you cannot locate the commit context option in the list, you will need to add it manually by including this context provider in the config.yaml file. Please follow the steps outlined in the [link](https://help.syncfusioncody.com/syncfusion-code-studio/features/context-providers/add-more-contextproviders/How-to-configure-more-contextproviders)  to do so.
+
+> **Note:** If you cannot locate the commit context option in the list, you will need to add it manually by including this context provider in the config.yaml file. Please follow the steps outlined in the [link](https://help.syncfusioncody.com/syncfusion-code-studio/features/context-providers/add-more-contextproviders/How-to-configure-more-contextproviders)  to do so.
 
 <img src="../../feature-images/clickcontext.png" alt="Clickcontext" />
 

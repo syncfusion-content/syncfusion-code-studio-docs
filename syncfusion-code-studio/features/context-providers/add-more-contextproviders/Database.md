@@ -9,7 +9,7 @@ keywords: syncfusion, syncfusion code studio, database, context, code-studio, da
  
 The Database context option in Syncfusion Code Studio enables users to add database-related information directly into the chat, making it easier to access data during development.
  
-## How to Use the Database Context
+## How to Use the Database context
  
 ### 1. Open the Syncfusion Code Studio
  

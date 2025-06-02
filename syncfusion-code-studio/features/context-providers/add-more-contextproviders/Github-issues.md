@@ -9,7 +9,7 @@ keywords: syncfusion code studio, syncfusion, github, issues, context, code-stud
  
 The GitHub Issues context option in Syncfusion Code Studio allows users to bring GitHub issue data directly into the chat, enabling quick access to issue details and improving collaboration without switching context.
  
-## How to Use the GitHub Issues Context
+## How to Use the GitHub Issues context
  
 ### 1. Open the Syncfusion Code Studio
  

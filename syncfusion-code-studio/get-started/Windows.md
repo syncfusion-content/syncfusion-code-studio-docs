@@ -76,7 +76,7 @@ The installation process for **Syncfusion code studio IDE** is straightforward a
 
 <img src="./getting_started_image/Finish.png" alt="Finish"  />
 
----
+
 
 ##  Step 8: Launch the IDE
 
@@ -116,5 +116,5 @@ After installation, the IDE launches with a **Welcome Page** to help you get sta
 
 <img src="./getting_started_image/Chat_window.png" alt="Chat_window"  />
 
----
+
 

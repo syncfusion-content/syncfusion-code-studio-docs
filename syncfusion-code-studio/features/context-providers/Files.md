@@ -10,15 +10,15 @@ keywords: code, syncfusion, files, context, code-studio, documentation, develope
 The Files context feature is a key component of Syncfusion Code Studio. It allows you to include relevant content from selected documents directly in the chat, enabling the AI to deliver responses that are more accurate and aligned with your files.
 
 
-##  How to Use the Files Context
+##  How to Use the Files context
 
 ### 1. Open Syncfusion Code Studio
 
 In the  Syncfusion Code Studio, the chat interface is located on the left-hand side of the screen, where you can interact with the AI and get assistance.
 
-<img src="../feature-images/files1.png" alt="Accept Image"  />
+<img src="../feature-images/open_chat.png" alt="Accept Image"  />
 
-### 2. Select Files Context
+### 2. Select Files context
 
 In the chat window, click the `@` button.
 > **Note:** If you cannot locate the files context option in the list, you will need to add it manually to include this context provider in config.yaml file. Please follow the steps outlined in this [link](https://help.syncfusioncody.com/syncfusion-code-studio/features/context-providers/add-more-contextproviders/How-to-configure-more-contextproviders) to do so.
@@ -33,11 +33,13 @@ A menu will appear—select Files from the list.
 
 ### 3. Choose the File
 
-After selecting Files, choose the document you want to include in context. Type a relevant query about the selected file in the chat box and press Enter.
+After selecting Files, choose the document you want to include in context. 
 
 <img src="../feature-images/files4.png" alt="Accept Image"  />
 
 
+### 4. Use file Context with Query
 
+Type a relevant query about the selected file in the chat box and press Enter.
 Syncfusion Code Studio will read and analyze the selected file(s), allowing the AI to provide more context-aware and helpful responses based on the content of your files and the query you've submitted.
 <img src="../feature-images/files5.png" alt="Accept Image"  />
