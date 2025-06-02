@@ -38,4 +38,5 @@ Select the table schemas from the list to enable the AI to access the connected 
  
 Give the detailed query in the chat model window and click Enter.  
 The AI will provide responses based on the PostgreSQL database context.
+
 <img src="../../feature-images/postgres_output.png" alt="output" />
