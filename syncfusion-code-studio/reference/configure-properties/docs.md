@@ -50,12 +50,9 @@ List of documentation sites to index.
 
 ## Example
 
-{% tabs %}
-{% highlight c# tabtitle="YAML" %}
 
+```yaml
 docs:
   - name: Syncfusion PDF
     startUrl: https://help.syncfusion.com/file-formats/pdf/working-with-document
-
-{% endhighlight %}
-{% endtabs %}
+```

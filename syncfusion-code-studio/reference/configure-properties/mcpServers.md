@@ -51,9 +51,7 @@ The Model Context Protocol is a standard proposed by Anthropic to unify prompts,
 
 ## Example
 
-{% tabs %}
-{% highlight c# tabtitle="YAML" %}
-
+```yaml
 mcpServers:
   - name: My MCP Server
     command: uvx
@@ -61,6 +59,4 @@ mcpServers:
       - mcp-server-sqlite
       - --db-path
       - /Users/NAME/test.db
-      
-{% endhighlight %}
-{% endtabs %}
+ ```     

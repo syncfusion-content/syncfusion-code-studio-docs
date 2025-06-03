@@ -3,7 +3,7 @@ title: Models
 description: Details about configuring language models that are available for use in Syncfusion code studio IDE.
 platform: syncfusion-code-studio
 control: IDE
-documentation: "Getting Started
+documentation: Getting Started
 keywords: code, IDE, installation, windows, setup, getting-started
 ---
 
@@ -82,9 +82,7 @@ The `models` section specifies the language models included in your configuratio
 
 ## Example
 
-{% tabs %}
-{% highlight c# tabtitle="YAML" %}
-
+```yaml
 name: Local Assistant
 version: 1.0.0
 schema: v1
@@ -116,6 +114,4 @@ models:
     roles:
       - chat
       - edit
-
-{% endhighlight %}
-{% endtabs %}
+```

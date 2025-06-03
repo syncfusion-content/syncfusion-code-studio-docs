@@ -2,7 +2,7 @@
 title: Prompts
 description: Details about configuring custom prompts that can be used within Syncfusion code studio IDE.
 platform: syncfusion-code-studio
-control: IDE"
+control: IDE
 documentation: Getting Started
 keywords: code, IDE, installation, windows, setup, getting-started
 ---
@@ -13,9 +13,8 @@ A list of custom prompts that can be invoked from the chat window. Each prompt h
 ## Example
 
 
-{% tabs %}
-{% highlight c# tabtitle="YAML" %}
 
+```yaml
 prompts:
   - name: check
     description: Check for mistakes in my code
@@ -24,6 +23,4 @@ prompts:
         - Syntax errors
         - Logic errors
         - Security vulnerabilities
-
-{% endhighlight %}
-{% endtabs %}
+```
