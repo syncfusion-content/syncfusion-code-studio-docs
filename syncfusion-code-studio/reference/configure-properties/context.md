@@ -1,6 +1,6 @@
 ---
 title: context
-description: "Details about configuring context providers that supply additional information to language models in Syncfusion code studio IDE.
+description: Details about configuring context providers that supply additional information to language models in Syncfusion code studio IDE.
 platform: syncfusion-code-studio
 control: IDE
 documentation: Getting Started

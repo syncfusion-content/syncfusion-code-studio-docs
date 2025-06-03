@@ -44,9 +44,8 @@ Explicit rules can either be simple text or an object with the following
 
 ## Example:
 
-{% tabs %}
-{% highlight c# tabtitle="YAML" %}
 
+```yaml
 rules:
   - Always annotate Python functions with their parameter and return types
 
@@ -59,6 +58,4 @@ rules:
     globs:
       - "src/**/*.test.ts"
       - "tests/**/*.ts"
-
-{% endhighlight %}
-{% endtabs %}
+```

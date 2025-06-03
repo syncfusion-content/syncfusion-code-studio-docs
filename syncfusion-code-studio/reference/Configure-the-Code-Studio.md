@@ -77,10 +77,7 @@ The top-level properties in the `config.yaml` configuration file are:
 </table>
 
 ## Example:
-
-{% tabs %}
-{% highlight c# tabtitle="YAML" %}
-
+```yaml
 name: Local Assistant
 version: 1.0.0
 schema: v1
@@ -112,6 +109,4 @@ mcpServers:
     args:
       - /c
       - npx -y @upstash/context7-mcp@latest
-
-{% endhighlight %}
-{% endtabs %}
+```
