@@ -25,7 +25,7 @@ Autocomplete provides inline code suggestions as you type. It provides real-time
 
 **Step 4:** Now if you type in the file, it will suggest code completions.
 
-<img src="./feature-images/Autocomplete_step-4.png" alt="autocomplete"  />
+<img src="./feature-images/autocomplete4.png" alt="autocomplete"  />
 
 ---
 

@@ -7,8 +7,6 @@ keywords: code, IDE, AI, developer-tools, syncfusion, code-assistance, productiv
 # Chat
 Engage in a natural language conversation with the AI to boost productivity. You can ask coding questions, request explanations of complex logic, generate new code snippets, or troubleshoot bugs. The AI understands your project’s context, so its responses are relevant, accurate, and tailored to your current files and development environment. It's like having an expert developer always ready to assist.
 
-<img src="./feature-images/chat1.png" alt="Chat feature screenshot" >
-
 <img src="./feature-images/chat2.png" alt="Chat feature" >
 
 ## Code Selection & AI Assistance Feature
