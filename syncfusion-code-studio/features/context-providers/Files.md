@@ -23,11 +23,11 @@ In the  Syncfusion Code Studio, the chat interface is located on the left-hand s
 In the chat window, click the `@` button.
 > **Note:** If you cannot locate the files context option in the list, you will need to add it manually to include this context provider in config.yaml file. Please follow the steps outlined in this [link](https://help.syncfusioncody.com/syncfusion-code-studio/features/context-providers/add-more-contextproviders/How-to-configure-more-contextproviders) to do so.
 
-<img src="../feature-images/files2.png" alt="Accept Image"  />
+<img src="../feature-images/click-context.png" alt="Accept Image"  />
 
 A menu will appear—select Files from the list.
 
-<img src="../feature-images/files3.png" alt="Accept Image"  />
+<img src="../feature-images/file-opencontext.png" alt="Accept Image"  />
 
 
 
@@ -35,11 +35,11 @@ A menu will appear—select Files from the list.
 
 After selecting Files, choose the document you want to include in context. 
 
-<img src="../feature-images/files4.png" alt="Accept Image"  />
+<img src="../feature-images/file-choose.png" alt="Accept Image"  />
 
 
 ### 4. Use file Context with Query
 
 Type a relevant query about the selected file in the chat box and press Enter.
 Syncfusion Code Studio will read and analyze the selected file(s), allowing the AI to provide more context-aware and helpful responses based on the content of your files and the query you've submitted.
-<img src="../feature-images/files5.png" alt="Accept Image"  />
+<img src="../feature-images/file-output.png" alt="Accept Image"  />

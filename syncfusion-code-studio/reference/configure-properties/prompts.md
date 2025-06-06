@@ -7,7 +7,7 @@ documentation: Getting Started
 keywords: code, IDE, installation, windows, setup, getting-started
 ---
 
-# prompts
+# Prompts
 A list of custom prompts that can be invoked from the chat window. Each prompt has a name, description, and the actual prompt text.
 
 ## Example

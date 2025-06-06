@@ -24,29 +24,29 @@ In the Syncfusion Code Studio, the chat interface is located on the left-hand si
 In the chat window, click the `@` button and select Docs from the menu. 
 > **Note:** If you cannot locate the Docs context option in the list, you will need to add it manually to include this context provider in config.yaml file. Please follow the steps outlined in this [link](https://help.syncfusioncody.com/syncfusion-code-studio/features/context-providers/add-more-contextproviders/How-to-configure-more-contextproviders) to do so. 
 
-<img src="../feature-images/files2.png" alt="Accept Image"  />  
+<img src="../feature-images/click-context.png" alt="Accept Image"  />  
 
 
 
 Click **Add Docs**, enter the title and URL, then click **Add** to save it.
 
-<img src="../feature-images/docs1.png" alt="Accept Image"  />
+<img src="../feature-images/docs-opencontext.png" alt="Accept Image"  />
 
-<img src="../feature-images/docs3.png" alt="Accept Image"  />
+<img src="../feature-images/docs-adddocs.png" alt="Accept Image"  />
 
-<img src="../feature-images/docs2.png" alt="Accept Image"  />
+<img src="../feature-images/docs-enterdetails.png" alt="Accept Image"  />
 
 Syncfusion Code Studio generates embeddings from chunked content and stores them locally.
 
 
-<img src="../feature-images/docs4.png" alt="Accept Image"  />
+<img src="../feature-images/docs-loading.png" alt="Accept Image"  />
 
 ### 3. Use Docs Context with Query
 
 The document will appear in the list—select the one you want to use.
 
-<img src="../feature-images/docs5.png" alt="Accept Image"  />
+<img src="../feature-images/docs-choose.png" alt="Accept Image"  />
 
 Press Enter, and the AI will respond based on the selected documentation and query.
 
-<img src="../feature-images/docs6.png" alt="Accept Image"  />
+<img src="../feature-images/docs-output.png" alt="Accept Image"  />

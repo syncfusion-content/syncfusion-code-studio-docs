@@ -22,9 +22,9 @@ In the Syncfusion Code Studio, the chat interface is located on the left-hand si
 In the chat window, click the `@` button.  	
 > **Note:** If you cannot locate the GitDiff context option in the list, you will need to add it manually to include this context provider in config.yaml file. Please follow the steps outlined in this [link](https://help.syncfusioncody.com/syncfusion-code-studio/features/context-providers/add-more-contextproviders/How-to-configure-more-contextproviders) to do so.
 
-<img src="../feature-images/files2.png" alt="Accept Image"  />
+<img src="../feature-images/click-context.png" alt="Accept Image"  />
 A menu will appear—select GitDiff. 
-<img src="../feature-images/gitdiff1.png" alt="Accept Image"  />
+<img src="../feature-images/gitdiff-opencontext.png" alt="Accept Image"  />
 
 
 
@@ -35,4 +35,4 @@ Git Diff Context allows you to programmatically gather and reference all code ch
 - Request a review of recent modifications.   
 - Generate AI-assisted documentation, commit messages, or release notes.   
 - Verify the scope and impact of changes to ensure they align with the intended feature or fix.
-<img src="../feature-images/gitdiff3.png" alt="Accept Image"  />
+<img src="../feature-images/gitdiff-output.png" alt="Accept Image"  />

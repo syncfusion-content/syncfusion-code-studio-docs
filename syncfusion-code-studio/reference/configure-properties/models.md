@@ -7,7 +7,7 @@ documentation: Getting Started
 keywords: code, IDE, installation, windows, setup, getting-started
 ---
 
-# models
+# Models
 
 The `models` section specifies the language models included in your configuration. These models power features like chat, editing, and summarization.
 
