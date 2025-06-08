@@ -24,7 +24,7 @@ In the chat window, click the `@` button.
 > **Note:** If you cannot locate the Clipboard context option in the list, you will need to add it manually to include this context provider in the config.yaml file. Please follow the steps outlined in this [link](https://help.syncfusioncody.com/syncfusion-code-studio/features/context-providers/add-more-contextproviders/How-to-configure-more-contextproviders) to do so.
 
 
-<img src="../../feature-images/clickcontext.png" alt="Clickcontext" />
+<img src="../../feature-images/click-context.png" alt="Clickcontext" />
 
 
 Select clipboard from the list of context providers.
@@ -32,16 +32,16 @@ Select clipboard from the list of context providers.
 It will show recently copied clipboard contents one by one into your conversation.
 
 
-<img src="../../feature-images/clipboard_opencontext.png" alt="Clipboard opencontext" />
+<img src="../../feature-images/clipboardselect.png" alt="Clipboard opencontext" />
 
 
 Select the necessary copied content you need from the copied clipboard contents list.  
 > **Note:** Once you close the Syncfusion Code Studio  and reopen again the copied contents will not show again.  
 
-<img src="../../feature-images/clipboard_choose.png" alt="Clipboard choose" />
+<img src="../../feature-images/clipboardcontentselect.png" alt="Clipboard choose" />
  
 ### 3. Use Clipboard context with query
  
 After selecting the copied content, input relevant details about the copied content in the chat window and click Enter. You will get the results.
 
-<img src="../../feature-images/clipboard_output.png" alt="Clipboard output" />
+<img src="../../feature-images/clipboardresult.png" alt="Clipboard output" />

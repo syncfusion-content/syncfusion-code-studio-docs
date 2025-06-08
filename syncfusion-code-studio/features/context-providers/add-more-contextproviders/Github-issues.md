@@ -23,18 +23,18 @@ In the Syncfusion Code Studio, the chat interface is located on the left-hand si
 In the chat window, click the `@` button.  
 > **Note:** If you cannot locate the GitHub Issues context option in the list, you will need to add it manually to include this context provider. Please follow the steps outlined in this [link](https://help.syncfusioncody.com/syncfusion-code-studio/features/context-providers/add-more-contextproviders/How-to-configure-more-contextproviders) to do so.
 
-<img src="../../feature-images/clickcontext.png" alt="click context" />
+<img src="../../feature-images/click-context.png" alt="click context" />
  
 A menu will appear—select GitHub Issues context option.
 
-<img src="../../feature-images/issue_opencontext.png" alt="opencontext" />
+<img src="../../feature-images/issue-opencontext.png" alt="opencontext" />
  
 ### 3. Select Required GitHub Issues
  
 A list of your GitHub issues will be displayed. Click on the desired issue to insert it into the chat.  
  
-<img src="../../feature-images/issue_choose.png" alt="choose" />
+<img src="../../feature-images/issue-choose.png" alt="choose" />
 
 Once inserted and click Enter, the AI will provide responses based on the GitHub issue context.
 
-<img src="../../feature-images/issue_output.png" alt="output" />
+<img src="../../feature-images/issue-output.png" alt="output" />

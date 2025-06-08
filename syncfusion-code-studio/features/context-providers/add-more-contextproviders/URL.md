@@ -22,11 +22,11 @@ In the Syncfusion Code Studio, the chat interface is located on the left-hand si
 In the chat window, click the `@` button.  
 > **Note:** If you cannot locate the URL context option in the list, you will need to add it manually to include this context provider, Please follow the steps outlined in this [link](https://help.syncfusioncody.com/syncfusion-code-studio/features/context-providers/add-more-contextproviders/How-to-configure-more-contextproviders) to do so.
 
-<img src="../../feature-images/clickcontext.png" alt="click context" />
+<img src="../../feature-images/click-context.png" alt="click context" />
  
 A menu will appear—select URL.
 
-<img src="../../feature-images/url_opencontext.png" alt="open context" />
+<img src="../../feature-images/url-opencontext.png" alt="open context" />
  
 ### 3. Use URL context with query
  
@@ -34,4 +34,4 @@ After selecting URL, a text box will appear. Paste the link to the webpage that 
 
 After you submit a URL, AI retrieves and processes the webpage content, extracting and summarizing relevant information.
 
-<img src="../../feature-images/url_output.png" alt="output" />
+<img src="../../feature-images/url-output.png" alt="output" />

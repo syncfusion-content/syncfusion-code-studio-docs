@@ -22,15 +22,15 @@ In the Syncfusion Code Studio, the chat interface is located on the left-hand si
 In the chat window, click the `@` button.  
 > **Note:** If you cannot locate the Web context option in the list, you will need to add it manually to include this context provider, Please follow the steps outlined in this [link](https://help.syncfusioncody.com/syncfusion-code-studio/features/context-providers/add-more-contextproviders/How-to-configure-more-contextproviders) to do so.
 
-<img src="../../feature-images/clickcontext.png" alt="click context" />
+<img src="../../feature-images/click-context.png" alt="click context" />
  
 A menu will appear—select Web
 
-<img src="../../feature-images/web_opencontext.png" alt="open context" />
+<img src="../../feature-images/web-opencontext.png" alt="open context" />
  
 ### 3. Use Web context with query
  
 After selecting the Web context provider option, type your query for which you want the AI to provide the latest up-to-date information.  
 Now, the web context provider will give the response from the latest web content and display the context items that are passed to the AI model, providing up-to-date information for the conversation.
 
-<img src="../../feature-images/web_output.png" alt="output" />
+<img src="../../feature-images/web-output.png" alt="output" />

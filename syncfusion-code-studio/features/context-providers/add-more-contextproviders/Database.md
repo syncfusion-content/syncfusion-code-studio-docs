@@ -22,16 +22,16 @@ In the Syncfusion Code Studio, the chat interface is located on the left-hand si
 In the chat window, click the `@` button.  
 > **Note:** If you cannot locate the Database context option in the list, you will need to add it manually to include this context provider. Please follow the steps outlined in this [link](https://help.syncfusioncody.com/syncfusion-code-studio/features/context-providers/add-more-contextproviders/How-to-configure-more-contextproviders) to do so.
 
-<img src="../../feature-images/clickcontext.png" alt="Clickcontext" />
+<img src="../../feature-images/click-context.png" alt="Clickcontext" />
  
 A menu will appear—select Database context option to view the list of table schema.
 
-<img src="../../feature-images/database_contextopen.png" alt="opencontext" />
+<img src="../../feature-images/Databaseselect.png" alt="opencontext" />
  
 ### 3. Select Required Table Schema
  
 Select the table schemas from the list to enable the AI to access the connected database and deliver accurate, data-driven responses.
-<img src="../../feature-images/database_choose.png" alt="output" />
+<img src="../../feature-images/database-choose.png" alt="output" />
 
  
 ### 4. Describe the Query
@@ -39,4 +39,4 @@ Select the table schemas from the list to enable the AI to access the connected 
 Input relevant details about the query in the chat model window and click Enter.  
 The AI will generate the response based on the context datas.
 
-<img src="../../feature-images/database_output.png" alt="output" />
+<img src="../../feature-images/database-output.png" alt="output" />
