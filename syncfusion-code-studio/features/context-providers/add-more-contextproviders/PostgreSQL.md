@@ -26,7 +26,7 @@ In the chat window, click the `@` button.
 
 A menu will appear—select PostgreSQL. This allows the AI to access your PostgreSQL database and utilize its data for context.
 
-<img src="../../feature-images/postgres_opencontext.png" alt="opencontext" />
+<img src="../../feature-images/postgres-opencontext.png" alt="opencontext" />
  
 ### 3. Select Required Table Schema
  

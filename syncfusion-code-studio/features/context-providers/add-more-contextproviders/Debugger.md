@@ -26,7 +26,7 @@ In the chat window, click the `@` button.
  
 A menu will appear—Select Debugger from the list of contexts to embed debug output into your conversation.
 
-<img src="../../feature-images/debugger_contextopen.png" alt="opencontext" />
+<img src="../../feature-images/debuggerSelect.png" alt="opencontext" />
  
 ### 3. Use Debugger context with query
  
