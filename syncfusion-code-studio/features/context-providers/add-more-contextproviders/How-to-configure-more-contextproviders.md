@@ -163,3 +163,8 @@ Reference the markdown-converted contents of a given URL.
 ```yaml
 - provider: url
 ```
+### Search
+Reference results from a code search
+```yaml
+- provider: search
+```
