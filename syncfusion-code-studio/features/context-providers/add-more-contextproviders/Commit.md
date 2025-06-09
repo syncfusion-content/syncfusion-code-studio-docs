@@ -27,11 +27,11 @@ In the chat window, click the `@` button.
 
 > **Note:** If you cannot locate the commit context option in the list, you will need to add it manually by including this context provider in the config.yaml file. Please follow the steps outlined in the [link](https://help.syncfusioncody.com/syncfusion-code-studio/features/context-providers/add-more-contextproviders/How-to-configure-more-contextproviders)  to do so.
 
-<img src="../../feature-images/clickcontext.png" alt="Clickcontext" />
+<img src="../../feature-images/click-context.png" alt="Clickcontext" />
 
 From the context menu that appears, choose commit.
 
-<img src="../../feature-images/commit_opencontext.png" alt="Commit opencontext" />
+<img src="../../feature-images/CommitSelect.png" alt="Commit opencontext" />
 
 
 
@@ -39,7 +39,7 @@ From the context menu that appears, choose commit.
 
 Choose the specific commit you want to ask about from the dropdown list that appears. This provides the AI with access to the details of that commit.
 
-<img src="../../feature-images/commit_choose.png" alt="Commit choose" />
+<img src="../../feature-images/CommitSelectContent.png" alt="Commit choose" />
 
 
 
@@ -52,5 +52,5 @@ Once the commit is selected, enter a relevant query in the chat window. You can 
 - Check for potential issues introduced in the commit
 
 The AI will analyze the commit content and respond with helpful insights.
-<img src="../../feature-images/commit_output.png" alt="Commit output" />
+<img src="../../feature-images/commitresult.png" alt="Commit output" />
 

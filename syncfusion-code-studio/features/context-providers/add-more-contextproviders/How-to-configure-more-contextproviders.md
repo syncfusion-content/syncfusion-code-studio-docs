@@ -23,13 +23,13 @@ In the chat window, click the `@` button.
 A menu will appear—select Add more context providers.  
 This action automatically opens the `config.yaml` file in your editor.
 
-<img src="../../feature-images/clickcontext.png" alt="click context" />
+<img src="../../feature-images/click-context.png" alt="click context" />
  
 ### 3. Add Context Provider
  
 After you click on "Add more context providers", the `config.yaml` file will open. You can then add the appropriate YAML object for the context provider you wish to use from the list below and insert it under context.
  
-<img src="../../feature-images/addmore.png" alt="add more" />
+<img src="../../feature-images/addmorecontext.png" alt="add more" />
 
 ## Available Context Providers
  
@@ -162,4 +162,9 @@ Reference the schema of a table and some sample rows from a PostgreSQL database.
 Reference the markdown-converted contents of a given URL.  
 ```yaml
 - provider: url
+```
+### Search
+Reference results from a code search
+```yaml
+- provider: search
 ```

@@ -6,7 +6,7 @@ control: IDE
 documentation: Getting Started
 keywords: code, IDE, installation, windows, setup, getting-started
 ---
-# context
+# Context
 
 The context section specifies context providers that deliver extra information to the language models. Each provider can be customized with its own set of parameters
 

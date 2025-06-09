@@ -17,7 +17,7 @@ The Terminal context in Syncfusion Code Studio helps you fix errors shown in you
 
 Click the Syncfusion Code Studio icon on the left toolbar to open the Syncfusion Code Studio chat window.
 
-<img src="../feature-images/terminal_chat_open.png" alt="open chat" />
+<img src="../feature-images/open_chat.png" alt="open chat" />
 
 
 ### 2. Select Terminal context
@@ -28,13 +28,13 @@ In the chat window, click the `@` button.
 
 > **Note:** If you cannot locate the terminal context option in the list, you will need to add it manually by including this context provider in the config.yaml file. Please follow the steps outlined in this [link](https://help.syncfusioncody.com/syncfusion-code-studio/features/context-providers/add-more-contextproviders/How-to-configure-more-contextproviders) to do so.
 
-<img src="../feature-images/terminal_clickcontext.png" alt="Click context menu" />
+<img src="../feature-images/terminal-clickcontext.png" alt="Click context menu" />
 
 From the context menu that appears, choose terminal to embed terminal output into your conversation.
 
 
 
-<img src="../feature-images/terminal_context_open.png" alt="open context menu" />
+<img src="../feature-images/terminal-opencontext.png" alt="open context menu" />
 
 
 
@@ -44,4 +44,4 @@ Input relevant details about the issue in the chat model window and click Enter.
 
 The AI will process the terminal data and present you with suggestions or solutions directly in the chat window. Review these recommendations to address the issue or error at hand.
 
-<img src="../feature-images/terminal_output.png" alt="terminal response"  />
+<img src="../feature-images/terminal-output.png" alt="terminal response"  />

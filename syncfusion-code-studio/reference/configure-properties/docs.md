@@ -7,7 +7,7 @@ documentation: Getting Started
 keywords: code, IDE, installation, windows, setup, getting-started
 ---
 
-# docs
+# Docs
 
 List of documentation sites to index.
 

@@ -7,7 +7,7 @@ documentation: Getting Started
 keywords: code, IDE, installation, windows, setup, getting-started
 ---
 
-# rules
+# Rules
 
 A set of rules the LLM must follow, combined into the system message for every Chat, Edit, and Agent request.
 Explicit rules can either be simple text or an object with the following 

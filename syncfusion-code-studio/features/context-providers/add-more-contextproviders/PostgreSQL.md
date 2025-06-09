@@ -22,11 +22,11 @@ In the Syncfusion Code Studio, the chat interface is located on the left-hand si
 In the chat window, click the `@` button.  
 > **Note:** If you cannot locate the PostgreSQL context option in the list, you will need to add it manually to include this context provider. Please follow the steps outlined in this [link](https://help.syncfusioncody.com/syncfusion-code-studio/features/context-providers/add-more-contextproviders/How-to-configure-more-contextproviders) to do so.
  
-<img src="../../feature-images/clickcontext.png" alt="click context" />
+<img src="../../feature-images/click-context.png" alt="click context" />
 
 A menu will appear—select PostgreSQL. This allows the AI to access your PostgreSQL database and utilize its data for context.
 
-<img src="../../feature-images/postgres_opencontext.png" alt="opencontext" />
+<img src="../../feature-images/postgres-opencontext.png" alt="opencontext" />
  
 ### 3. Select Required Table Schema
  

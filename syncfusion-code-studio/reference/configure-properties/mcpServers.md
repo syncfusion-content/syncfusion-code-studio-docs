@@ -7,7 +7,7 @@ documentation: Getting Started
 keywords: code, IDE, installation, windows, setup, getting-started
 ---
 
-# mcpServers
+# MCP Servers
 
 The Model Context Protocol is a standard proposed by Anthropic to unify prompts, context, and tool use. Syncfusion code studio supports any MCP server with the MCP context provider.
 

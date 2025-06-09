@@ -24,11 +24,11 @@ Click the Syncfusion Code Studio icon on the left toolbar to open the Syncfusion
 In the chat window, click the `@` button.
 > **Note:** If you cannot locate the helpbot context option in the list, you will need to add it manually by including this context provider in the config.yaml file. Please follow the steps outlined in this [link](https://help.syncfusioncody.com/syncfusion-code-studio/features/context-providers/add-more-contextproviders/How-to-configure-more-contextproviders) to do so.
 
-<img src="../feature-images/clickcontext.png" alt="Click context menu" />
+<img src="../feature-images/click-context.png" alt="Click context menu" />
 
 From the context menu that appears, choose helpbot.
 
-<img src="../feature-images/helpbot_context_open.png" alt="open context menu" />
+<img src="../feature-images/helpbot-opencontext.png" alt="open context menu" />
 
 
 
@@ -42,4 +42,4 @@ For example, you can ask something like “How to add Title and Content slide in
 
 HelpBot will search the documentation, retrieve relevant information, and display helpful results, giving you accurate answers based on your query.
 
-<img src="../feature-images/helpbot_output.png" alt="helpbot response"  />
+<img src="../feature-images/helpbot-output.png" alt="helpbot response"  />

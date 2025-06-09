@@ -11,7 +11,7 @@ keywords: "code, IDE, AI, developer-tools, syncfusion, code-assistance, producti
 
 You can switch to **Agent mode** in the mode selector below the chat input box.
 
-<img src="./feature-images/agent.png" alt="Switch to agent mode"  />
+<img src="./feature-images/agent1.png" alt="Switch to agent mode"  />
 
 ## Agent Capabilities
 
@@ -49,8 +49,8 @@ You can switch to **Agent mode** in the mode selector below the chat input box.
 
 By default, Agent mode will ask for your permission before using any tool. Click **Continue** to approve the action, or **Cancel** to deny it.
 
-<img src="./feature-images/agent_permission.png" alt="Agent permission prompt"  >
+<img src="./feature-images/agent2.png" alt="Agent permission prompt"  >
 
 Once tool permission is granted, Agent will proceed with the tool and provide the response in the chat output.
 
-<img src="./feature-images/agent_response.png" alt="Agent tool response"  />
+<img src="./feature-images/agent3.png" alt="Agent tool response"  />

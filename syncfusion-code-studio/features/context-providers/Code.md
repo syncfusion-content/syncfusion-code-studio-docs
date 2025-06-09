@@ -24,20 +24,20 @@ In the Syncfusion Code Studio, the chat interface is located on the left-hand si
  In the chat window, click the `@` button.  	
  > **Note:** If you cannot locate the code context option in the list, you will need to add it manually to include this context provider in config.yaml file. Please follow the steps outlined in this [link](https://help.syncfusioncody.com/syncfusion-code-studio/features/context-providers/add-more-contextproviders/How-to-configure-more-contextproviders) to do so.
 
-<img src="../feature-images/files2.png" alt="Accept Image"  />
+<img src="../feature-images/click-context.png" alt="Accept Image"  />
 
  A menu will appear—select Code.  
-<img src="../feature-images/code2.png" alt="Accept Image"  />
+<img src="../feature-images/code-opencontext.png" alt="Accept Image"  />
 
 
 ### 3. Choose the code
 
  Now choose the code which you want to ask the query about it.
 
-<img src="../feature-images/code1.png" alt="Accept Image"  />
+<img src="../feature-images/code-choose.png" alt="Accept Image"  />
 
 ### 4. Use Code Context with Query
 
  The Syncfusion Code Studio analyzes the selected code and offers help based on its content.  
  It can point out issues, suggest improvements, or guide you in making specific changes.  This makes reviewing and editing code faster and more efficient.
-<img src="../feature-images/code3.png" alt="Accept Image"  />
+<img src="../feature-images/code-output.png" alt="Accept Image"  />

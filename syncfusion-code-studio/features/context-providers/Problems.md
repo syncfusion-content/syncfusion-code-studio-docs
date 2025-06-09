@@ -17,14 +17,14 @@ The problems context in Syncfusion Code Studio makes it easier to fix problems i
 
 Ensure the file with the problem is open in your VS Code editor.
 
-<img src="../feature-images/problems_file.png" alt="problems file"  />
+<img src="../feature-images/problems-openfile.png" alt="problems file"  />
 
 
 ### 2. Access the Chat Window
 
 Open the chat model window of the Syncfusion Code Studio by clicking the Syncfusion Code Studio icon on the left toolbar.
 
-<img src="../feature-images/problems_chat_open.png" alt="open chat" />
+<img src="../feature-images/problems-openchat.png" alt="open chat" />
 
 
 ### 3. Select Problems context
@@ -38,7 +38,7 @@ From the context menu that appears, choose problems.
 
 
 
-<img src="../feature-images/problems_open_context.png" alt="open context menu" />
+<img src="../feature-images/problems-opencontext.png" alt="open context menu" />
 
 
 
@@ -49,4 +49,4 @@ Input relevant details about the issue in the chat model window and click Enter.
 The AI will analyze the problems data and offer suggestions or solutions for issues in the currently opened file directly in the chat window. This will help you resolve issues in the file you're working on in the VS Code editor.
 
 
-<img src="../feature-images/problems_output.png" alt="problems response" />
+<img src="../feature-images/problems-output.png" alt="problems response" />
