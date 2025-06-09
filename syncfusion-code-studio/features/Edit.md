@@ -5,7 +5,7 @@ platform: syncfusion-code-studio
 keywords: code, IDE, AI, developer-tools, syncfusion, code-assistance, productivity, UI-generation, bug-fixing, documentation
 ---
 
-# Edit Feature Overview
+# Edit
 
 Edit makes it easy to quickly update specific code or files. Just highlight the code you want to change, describe the update, and the changes will appear inline for you to **accept** or **reject**. It’s a fast and efficient way to make precise edits directly in your file.
 
