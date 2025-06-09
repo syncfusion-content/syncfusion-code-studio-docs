@@ -10,20 +10,23 @@ keywords: code, IDE, installation, Mac, setup, getting-started
 
 The installation process for **Syncfusion code studio IDE** on macOS is straightforward and user-friendly. Simply download the installer from the official Syncfusion website, follow the on-screen instructions, and then launch the IDE. Once installed, you can start using Syncfusion code studio immediately to enhance your development experience.
 
+
+
 ## System Requirements
 
 - **Operating System**: macOS 11 (Big Sur) or later
-- **Processor**: Apple Silicon (M1/M2) (minimum)
+- **Processor**: Apple Intel OR Silicon (M1/M2) (minimum)
 - **RAM**: 8GB (minimum), 16GB (recommended)
 - **Disk Space**: 2GB of available space
 - **Internet Connection**: Required for downloading the installer and receiving updates
 
+> **Note:** For both Silicon and Intel, follow the same steps outlined below.
 
 ##  Steps to Install Syncfusion code studio IDE on macOS
 
 ###  Step 1: Start Installation
 
-- Visit the official website: [Syncfusion code studio](https://syncfusioncody.com)
+- Visit the official website: [Syncfusion code studio](https://www.syncfusion.com/code-studio)
 - Click on the **Download** button to obtain the installer for **macOS**.
 - Double-click the downloaded `.dmg` file.
 
