@@ -22,7 +22,7 @@ In the Syncfusion Code Studio, the chat interface is located on the left-hand si
 ### 2. Select Docs context
 
 In the chat window, click the `@` button and select Docs from the menu. 
-> **Note:** If you cannot locate the Docs context option in the list, you will need to add it manually to include this context provider in config.yaml file. Please follow the steps outlined in this [link](https://help.syncfusioncody.com/syncfusion-code-studio/features/context-providers/add-more-contextproviders/How-to-configure-more-contextproviders) to do so. 
+> **Note:** If you cannot locate the Docs context option in the list, you will need to add it manually to include this context provider in config.yaml file. Please follow the steps outlined in this [link](https://help.syncfusion.com/code-studio/features/context-providers/add-more-contextproviders/How-to-configure-more-contextproviders) to do so. 
 
 <img src="../feature-images/click-context.png" alt="Accept Image"  />  
 
