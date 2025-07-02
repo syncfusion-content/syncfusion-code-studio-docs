@@ -52,7 +52,7 @@ The installation process for **Syncfusion code studio IDE** on macOS is straight
 
 <img src="./getting_started_image/mac2.png" alt="application_yes"  />
 
-
+> **Note:** Code Studio offers a built-in auto-update mechanism to ensure you're always using the latest version. When a new release becomes available, a notification will appear prompting you to update. Simply click “Update Now”, and the latest version will be downloaded and installed automatically—no manual steps required.
 
 ##  Step 5: Launch and Configure
 
