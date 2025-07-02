@@ -13,7 +13,7 @@ Telemetry collection is optional and can be disabled at any time by the user.
 
 ## Analytics Platform
 
-Telemetry data is collected and stored using **PostHog**, an open-source product analytics platform.
+Telemetry data is collected and stored using [PostHog](https://posthog.com/), an open-source product analytics platform.
 
 ## Data Collection Policy
 
