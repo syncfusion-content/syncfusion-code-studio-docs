@@ -27,7 +27,7 @@ Autocomplete provides inline code suggestions as you type. It provides real-time
 
 <img src="./feature-images/autocomplete4.png" alt="autocomplete"  />
 
----
+
 
 ## Accepting a full suggestion:
 Press the **"Tab"** key on your keyboard.
