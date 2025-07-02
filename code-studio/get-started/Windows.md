@@ -76,7 +76,7 @@ The installation process for **Syncfusion code studio IDE** is straightforward a
 
 <img src="./getting_started_image/windows5.png" alt="Finish"  />
 
-
+> **Note:** Code Studio offers a built-in auto-update mechanism to ensure you're always using the latest version. When a new release becomes available, a notification will appear prompting you to update. Simply click “Update Now”, and the latest version will be downloaded and installed automatically—no manual steps required.
 
 ##  Step 8: Launch the IDE
 
