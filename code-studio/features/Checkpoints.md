@@ -1,3 +1,10 @@
+---
+title: Syncfusion Code Studio Checkpoints Feature
+description: The Checkpoints feature in Syncfusion Code Studio allows you to automatically track, preview, and restore your workspace state at key moments.
+platform: syncfusion-code-studio
+keywords: code, IDE, AI, developer-tools, syncfusion, code-assistance, productivity, checkpoints, versioning, history, workspace, file-recovery, diff, restore
+---
+
 # Checkpoints Feature
 
 ## Overview
