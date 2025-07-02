@@ -26,7 +26,7 @@ In the chat window, click the `@` button.
 
 > **Note:** Before using the terminal context, ensure that you have opened a terminal in VS Code and that it contains relevant information or error details necessary for proper functionality.
 
-> **Note:** If you cannot locate the terminal context option in the list, you will need to add it manually by including this context provider in the config.yaml file. Please follow the steps outlined in this [link](https://help.syncfusion.com/code-studio/features/context-providers/add-more-contextproviders/How-to-configure-more-contextproviders) to do so.
+> **Note:** If you cannot locate the terminal context option in the list, you will need to add it manually by including this context provider in the config.yaml file. Please follow the steps outlined in this [link](/code-studio/features/context-providers/add-more-contextproviders/How-to-configure-more-contextproviders) to do so.
 
 <img src="../feature-images/terminal-clickcontext.png" alt="Click context menu" />
 
