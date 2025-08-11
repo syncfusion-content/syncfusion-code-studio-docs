@@ -1,4 +1,4 @@
-# How to Resolve Error (Status Code 403) in OpenAI Integration via OpenRouter
+# How to Resolve Error (Status Code 403) for O3 model in OpenAI Integration via OpenRouter
 
 This guide will help you easily set up and use the OpenAI o3 model through OpenRouter’s platform with your own OpenAI API key. Follow these simple steps to get started and make the most of this powerful integration.
 
