@@ -15,7 +15,7 @@ The Debugger context option in Syncfusion Code Studio allows you to enhance your
  
 In the Syncfusion Code Studio, the chat interface is located on the left-hand side. This is where you can interact with AI and ask questions or get assistance.
 
-<img src="../../feature-images/open_chat.png" alt="openchat" />
+<img src="../../feature-images/open-chat.png" alt="openchat" />
  
 ### 2. Select Debugger context
  
@@ -34,4 +34,4 @@ The Debugger option is only available when your source code is running in debug 
 You can then use the Step Over and Step Into options to view detailed information about the variables at each step of the debugging process.  
 AI will now have access to this context, and any suggestions or assistance will be tailored based on the local variables shared.
 
-<img src="../../feature-images/debugger_output.png" alt="output" />
+<img src="../../feature-images/debugger-output.png" alt="output" />

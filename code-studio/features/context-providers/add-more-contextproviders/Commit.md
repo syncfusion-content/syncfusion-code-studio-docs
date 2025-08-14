@@ -17,7 +17,7 @@ The Commit context in Syncfusion Code Studio lets you bring recent Git commit in
 
 Click the Syncfusion Code Studio icon on the left toolbar to open the Syncfusion Code Studio chat window.
 
-<img src="../../feature-images/open_chat.png" alt="openchat" />
+<img src="../../feature-images/open-chat.png" alt="openchat" />
 
 
 

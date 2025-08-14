@@ -17,7 +17,7 @@ The Docs context provider lets you easily reference content from any documentati
 
 In the Syncfusion Code Studio, the chat interface is located on the left-hand side. This is where you can interact with AI and ask questions or get assistance.
 
-<img src="../feature-images/open_chat.png" alt="Accept Image"  />
+<img src="../feature-images/open-chat.png" alt="Accept Image"  />
 
 ### 2. Select Docs context
 

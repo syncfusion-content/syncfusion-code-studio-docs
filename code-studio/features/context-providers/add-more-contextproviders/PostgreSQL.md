@@ -15,7 +15,7 @@ The PostgreSQL context provider in Syncfusion Code Studio enables seamless integ
  
 In the Syncfusion Code Studio, the chat interface is located on the left-hand side. This is where you can interact with AI and ask questions or get assistance.
 
-<img src="../../feature-images/open_chat.png" alt="openchat" />
+<img src="../../feature-images/open-chat.png" alt="openchat" />
  
 ### 2. Select PostgreSQL context
  
@@ -32,11 +32,11 @@ A menu will appear—select PostgreSQL. This allows the AI to access your Postgr
  
 Select the table schemas from the list to enable the AI to access the connected database and deliver accurate, data-driven responses.
 
-<img src="../../feature-images/postgres_choose.png" alt="choose" />
+<img src="../../feature-images/postgres-choose.png" alt="choose" />
  
 ### 4. Describe the Query
  
 Give the detailed query in the chat model window and click Enter.  
 The AI will provide responses based on the PostgreSQL database context.
 
-<img src="../../feature-images/postgres_output.png" alt="output" />
+<img src="../../feature-images/postgres-output.png" alt="output" />

@@ -15,7 +15,7 @@ The GitHub Issues context option in Syncfusion Code Studio allows users to bring
  
 In the Syncfusion Code Studio, the chat interface is located on the left-hand side. This is where you can interact with AI and ask questions or get assistance.
 
-<img src="../../feature-images/open_chat.png" alt="openchat" />
+<img src="../../feature-images/open-chat.png" alt="openchat" />
 
  
 ### 2. Select GitHub Issues context
