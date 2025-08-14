@@ -41,21 +41,21 @@ This guide will help you easily set up and use the OpenAI o3 model through OpenR
 - **Access OpenRouter Integrations**  
   - Navigate to [Settings > Integrations](https://openrouter.ai/settings/integrations)
   
-    <img src="./Troubleshoot_images/Openrouter_home.png" alt="open config file"  />
+    <img src="./Troubleshoot-images/Openrouter-home.png" alt="open config file"  />
 
 
-    <img src="./Troubleshoot_images/Openrouter_setting.png" alt="open config file"  />
+    <img src="./Troubleshoot-images/Openrouter-setting.png" alt="open config file"  />
 
 
   - Choose **OpenAI** as the provider for the o3 model.
     
 
-    <img src="./Troubleshoot_images/Openrouter_integrations.png" alt="open config file"  />
+    <img src="./Troubleshoot-images/Openrouter-integrations.png" alt="open config file"  />
 
   - Paste your OpenAI API key into the provided field.  
   - Make sure it’s a valid **Tier 3 or higher** key.  
 
-    <img src="./Troubleshoot_images/Openrouter_key.png" alt="open config file"  />
+    <img src="./Troubleshoot-images/Openrouter-key.png" alt="open config file"  />
     
   - Click **Save** to link your key to OpenRouter. The platform will verify your key and set it up for o3 model requests.
 

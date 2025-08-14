@@ -25,7 +25,7 @@ This manual mode gives you full control over which past conversations are refere
 ### How to Use:
 1. Open Syncfusion Code Studio.
 2. Click the Syncfusion Code Studio icon in the left-hand toolbar to open the AI chat interface.
-<img src="./feature-images/open_chat.png" alt="Open chat window" />
+<img src="./feature-images/open-chat.png" alt="Open chat window" />
 3. In the chat window, click the @ button.
 <img src="./feature-images/click-context.png" alt="Click context menu" />
 4. Select Memory from the menu.
