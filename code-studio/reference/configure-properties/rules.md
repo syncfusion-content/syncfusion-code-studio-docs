@@ -7,55 +7,40 @@ documentation: Getting Started
 keywords: code, IDE, installation, windows, setup, getting-started
 ---
 
-# Rules
+# Overview
+ 
+**Rules** in Code Studio allow you to provide specific instructions that guide how the AI assistant behaves when working with your code. Instead of the AI making assumptions about your coding standards, architecture patterns, or project-specific requirements, you can explicitly define guidelines that ensure consistent, contextually appropriate responses.
+ 
 
-A set of rules the LLM must follow, combined into the system message for every Chat, Edit, and Agent request.
-Explicit rules can either be simple text or an object with the following 
+# purpose
+- **Set Standards:** Make sure the AI follows your coding styles, guidelines, and project needs.
+- **Keep Responses Consistent:** Ensure all answers fit your team’s requirements every time.
+- **Easily Update Guidance:** Change rules as your project evolves to always get relevant suggestions.
+- **Support Team Alignment:** Help everyone on the project receive guidance that matches shared practices.
+## How to Use Rules
+ 
+### 1. Open Code Studio Extension
+ 
+Click the **Syncfusion Code Studio** icon on the left toolbar to open the Syncfusion Code Studio chat window.
+<img src="../reference-images/rule1.png" alt="rule" >
 
-## Properties:
+### 2. Add the Rules
+ 
+Navigate to the **rules** section and click the **Add Rules** button. This will navigate to the `config.yaml` file.
+<img src="../reference-images/rule2.png" alt="rule" >
 
-<table>
-  <thead>
-    <tr>
-      <th>Property</th>
-      <th>Is Required</th>
-      <th>Description</th>
-    </tr>
-  </thead>
-  <tr>
-    <td><code>name</code></td>
-    <td>Yes</td>
-    <td>A display name/title for the rule.</td>
-  </tr>
-  <tr>
-    <td><code>rule</code></td>
-    <td>Yes</td>
-    <td>The text content of the rule.</td>
-  </tr>
-  <tr>
-    <td><code>globs</code></td>
-    <td>No</td>
-    <td>
-      When files are provided as context that match this glob pattern, the rule will be included.<br/>
-      This can be either a single pattern (e.g., <code>"**/*.{ts,tsx}"</code>) or an array of patterns (e.g., <code>["src/**/*.ts", "tests/**/*.ts"]</code>).
-    </td>
-  </tr>
-</table>
+In the `config.yaml` file, add a `rules` section. Under that section, specify the rules or instructions you want the AI to follow. The AI will provide responses based on these defined rules.
+<img src="../reference-images/rule3.png" alt="rule" >
+ 
+### 3. Verify the Response
+ 
+After adding the rules, give a query to the model. The response will be based on the rules you provided.
 
-## Example:
+<img src="../reference-images/rule4.png" alt="rule" >
+ 
+### 4. Edit the Rules
+ 
+You can also edit the rules. Navigate to the **rules** section and click the pencil icon to edit the rules.
+This will open the `config.yaml` file where you can edit the rules.
 
-
-```yaml
-rules:
-  - Always annotate Python functions with their parameter and return types
-
-  - name: TypeScript best practices
-    rule: Always use TypeScript interfaces to define shape of objects. Use type aliases sparingly.
-    globs: "**/*.{ts,tsx}"
-
-  - name: TypeScript test patterns
-    rule: In TypeScript tests, use Jest's describe/it pattern and follow best practices for mocking.
-    globs:
-      - "src/**/*.test.ts"
-      - "tests/**/*.ts"
-```
+<img src="../reference-images/rule5.png" alt="rule" >
