@@ -18,12 +18,11 @@ The primary purpose of custom prompts is to streamline and standardize developme
 - **Accelerating Development**: Automate repetitive coding tasks with predefined templates.
  
 
-## Prompt File Structure  
-| **Field**         | **Description**  |
-|-------------------|------------------|
-| `name`        | Unique identifier (e.g., GenerateTestCases)|
-| `description` | Short summary of intent |
-|`prompt`     | Literal instructions (role, tasks, output format) |
+## Prompt File Structure 
+ 
+- **name**: Unique identifier (e.g., GenerateTestCases)
+- **description**: Short summary of intent
+- **prompt**: Literal instructions (role, tasks, output format)
 
 ## How to use Prompt Files  
 1. Click the “Add Prompt” button, Code Studio will automatically generate your new prompt file under the `sfcodestudio/prompts/` directory. 

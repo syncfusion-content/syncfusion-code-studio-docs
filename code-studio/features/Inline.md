@@ -18,23 +18,42 @@ The inline edit feature is designed to accelerate development and improve code q
 - **Standardize Code Quality**: Ensure consistent code quality and documentation across the team.
 
 
-
-
 ## Core Edit Functions
-| Action | Purpose | Use Case | Business Value |
-|--------|---------|----------|----------------|
-| **Fix this code** | Error resolution | Debug syntax/logic issues | Reduced debugging time |
-| **Optimize this code** | Performance enhancement | Improve efficiency | Better application performance |
-| **Write docstring** | Documentation generation | Add comprehensive comments | Improved code maintainability |
-| **Add to context** | Custom analysis | Send to chat for detailed help | Flexible problem-solving |
-| **Write command** | CLI/script generation | Create executable commands | Automation acceleration |
+
+
+- **Add to context**  
+  - *Purpose*: Custom analysis  
+  - *Use Case*: Send to chat for detailed help, Flexible problem-solving  
+ 
+
+- **Fix this code**  
+  - *Purpose*: Error resolution  
+  - *Use Case*: Debug syntax/logic issues, Reduced debugging time  
+  
+
+- **Optimize this code**  
+  - *Purpose*: Performance enhancement  
+  - *Use Case*: Improve efficiency, Better application performance 
+ 
+
+- **Write docstring**  
+  - *Purpose*: Documentation generation  
+  - *Use Case*: Add comprehensive comments, Improved code maintainability  
+  
+
+- **Write command**  
+  - *Purpose*: CLI/script generation  
+  - *Use Case*: Create commands  
+  
 
 ## How to Use Inline Edit
+
 1. **Select** code in your editor
 2. **Right-click** on highlighted section  
 3. **Choose** "Code Studio" from context menu
 4. **Select** desired action from dropdown
 5. **Review** AI suggestions and accept/reject changes
+
 
 <img src="./feature-images/Gif/inline-edits.gif" alt="Inline-Edits" >
 

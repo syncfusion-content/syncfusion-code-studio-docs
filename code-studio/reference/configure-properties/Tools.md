@@ -37,28 +37,30 @@ Syncfusion Code Studio provides a suite of tools to streamline your workflow. Be
 
 To balance speed and safety, each tool in Syncfusion Code Studio can be configured in one of three modes:
 - **Automatic:** When the model requests a tool, Code Studio automatically executes it and sends the response back to the model.
+
 - **Ask First:** When the model requests a tool, Code Studio prompts you to either "Cancel" or "Continue" before proceeding.
+
 - **Excluded:** The model is unaware of the tool and cannot use it.
 
  To change the mode, click on the desired option. Once configured, enter your prompt to perform the task. Code Studio will then leverage the selected tools to build the application.
+
 ### 2. Toolset Overview
 
-The following table lists all available built-in tools and their descriptions:
-| Tool Name | Description |
-|-----------|-------------|
-| `builtin_read_file` | Reads the contents of an existing file. |
-| `builtin_create_new_file` | Creates a new file with specified content. |
-| `builtin_run_terminal_command` | Executes a terminal command in the current directory. |
-| `builtin_grep_search` | Performs a fast text search using exact strings or regex. |
-| `builtin_file_glob_search` | Searches for files matching a glob pattern, returning their paths. |
-| `builtin_search_web` | Conducts a web search and returns top results. |
-| `builtin_view_diff` | Displays the diff of current working changes. |
-| `builtin_read_currently_open_file` | Reads the contents of the currently open file in the IDE. |
-| `builtin_ls` | Lists files and folders in a specified directory. |
-| `builtin_syncfusion_ui_builder` | Generates Syncfusion component metadata or UI layout plans. |
-| `builtin_browser_interaction` | Automates browser tasks using a Puppeteer-controlled environment. |
-| `builtin_replace_in_file` | Makes targeted edits to specific parts of a file. |
-| `builtin_search_files` | Searches for regex patterns within specified files. |
+Available built-in tools and their descriptions:
+
+- **builtin_read_file**: Reads the contents of an existing file.
+- **builtin_create_new_file**: Creates a new file with specified content.
+- **builtin_run_terminal_command**: Executes a terminal command in the current directory.
+- **builtin_grep_search**: Performs a fast text search using exact strings or regex.
+- **builtin_file_glob_search**: Searches for files matching a glob pattern, returning their paths.
+- **builtin_search_web**: Conducts a web search and returns top results.
+- **builtin_view_diff**: Displays the diff of current working changes.
+- **builtin_read_currently_open_file**: Reads the contents of the currently open file in the IDE.
+- **builtin_ls**: Lists files and folders in a specified directory.
+- **builtin_syncfusion_ui_builder**: Generates Syncfusion component metadata or UI layout plans.
+- **builtin_browser_interaction**: Automates browser tasks using a Puppeteer-controlled environment.
+- **builtin_replace_in_file**: Makes targeted edits to specific parts of a file.
+- **builtin_search_files**: Searches for regex patterns
 
 ## How to Use Tools
 
