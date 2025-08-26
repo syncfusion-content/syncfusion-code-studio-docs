@@ -7,7 +7,7 @@ documentation: Getting Started
 keywords: code, IDE, installation, windows, setup, getting-started
 ---
 
-# Overview
+# Rules
  
 **Rules** in Code Studio allow you to provide specific instructions that guide how the AI assistant behaves when working with your code. Instead of the AI making assumptions about your coding standards, architecture patterns, or project-specific requirements, you can explicitly define guidelines that ensure consistent, contextually appropriate responses.
  

@@ -7,7 +7,6 @@ keywords: user-settings, customization, configuration, development-environment, 
 ---
 
 # User Settings
-## Overview
 
 Customize your Code Studio experience with personalized settings that enhance productivity and workflow efficiency. Settings are stored locally and take effect immediately upon change.
 

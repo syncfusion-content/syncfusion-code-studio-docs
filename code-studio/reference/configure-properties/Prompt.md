@@ -7,7 +7,6 @@ keywords: custom-prompts, ai-assistance, templates, workflows, best-practices
 
 # Custom Prompts
 
-## Overview  
 Custom prompts let you encode your team’s coding standards into reusable templates. This delivers consistent, high-quality AI assistance and speeds up routine tasks.
 
 ## Purpose

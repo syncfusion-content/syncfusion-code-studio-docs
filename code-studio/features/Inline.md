@@ -7,8 +7,6 @@ keywords: inline-edit, right-click-actions, ai-assistance, contextual-editing, c
 ---
 
 #  Inline Edit
-## Overview
-
 Syncfusion Code Studio's Inline Edit feature delivers **instant AI-powered code improvements** directly within your editor. This intelligent system enables developers to enhance code quality, fix issues, and optimize performance through contextual right-click actions.
 
 ## Purpose

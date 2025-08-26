@@ -7,7 +7,7 @@ platform: syncfusion-code-studio
 keywords: mcp-marketplace, mcp-server, installation, server-management, code-studio
 ---
 
-## Overview
+## MCP Marketplace
 The MCP Marketplace is a centralized platform for server management, helping users discover, install, and connect the right servers for their needs through an easy-to-use interface. 
 This showcases a variety of available MCP servers. Users can explore server options and configure them for use by simply clicking the "Install" button, which initiates an automated setup process to integrate the server with the code studio extension. 
 

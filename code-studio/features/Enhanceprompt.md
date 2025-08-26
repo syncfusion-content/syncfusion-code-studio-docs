@@ -5,7 +5,7 @@ classification: "User Guide - Feature Documentation"
 platform: syncfusion-code-studio
 keywords: enhance-prompt, ai-query, prompt-optimization, code-quality, developer-productivity, real-time-assistance
 ---
-# Overview
+# Enhance Prompt
  
 The **Enhance Prompt** feature in Code Studio improves your queries to maximize the quality of AI-generated responses. It refines, clarifies, and restructures prompts to ensure they are clear, relevant, and comprehensive. By optimizing the way questions are presented, Enhance Prompt helps the AI deliver more accurate, insightful, and context-aware answers. Users benefit from clearer, more effective queries, enabling the AI to understand their intent and respond with greater precision.
  
@@ -27,7 +27,8 @@ Click the **Syncfusion Code Studio** icon on the left toolbar to open the Syncfu
 Enter the prompt that you want to enhance in the input field and click the **Enhance Prompt** icon button.
 <img src="./feature-images/enhance2.png" alt="enhance" >
 <img src="./feature-images/enhance3.png" alt="enhance" >
-- **Note:** The Enhance Prompt button will be disabled when the chat box is empty. It will become enabled once the user starts typing a query.
+
+> **Note:** The Enhance Prompt button will be disabled when the chat box is empty. It will become enabled once the user starts typing a query.
 
 The enhanced version of the prompt will appear in the input field as a response. You can then use this enhanced prompt to receive a response from the AI.
  <img src="./feature-images/enhance4.png" alt="enhance" >

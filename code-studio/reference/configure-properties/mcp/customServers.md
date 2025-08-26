@@ -7,7 +7,7 @@ platform: syncfusion-code-studio
 keywords: custom-mcp-server, remote-server, npm-server, local-server, code-studio, server-management
 ---
 
-# Overview
+# Custom Servers
 Custom Servers allows users to connect to any custom MCP servers, providing a seamless way to link these servers to the code studio extension for enhanced accessibility and control. 
 1.	Remote server 
 2.	NPM server 

@@ -7,7 +7,6 @@ keywords: ask-code-studio, error-resolution, ai-debugging, code-quality, develop
 ---
 
 # Ask Code Studio
-## Overview
 
 Syncfusion Code Studio's **Ask Code Studio** feature delivers **instant AI-powered error resolution** directly within your development environment. This intelligent debugging assistant reduces troubleshooting time while maintaining code quality standards across development teams.
 
