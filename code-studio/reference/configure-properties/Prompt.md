@@ -32,6 +32,7 @@ The primary purpose of custom prompts is to streamline and standardize developme
 4. Run the prompt and review suggestions.  
 5. Apply accepted changes via IDE refactoring tools.  
 
+<img src="../reference-images/prompt.gif" alt="Prompt" >
 
 ## Example Prompt
 
@@ -45,7 +46,7 @@ prompt:
     4. Verify the return values and edge cases for each test case
     5. Document test cases and set test coverage for each functionality
   ```
-<img src="../reference-images/prompt.gif" alt="Prompt" >
+
 
 
 
