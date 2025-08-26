@@ -11,7 +11,7 @@ keywords: apply-to-current-file, ai-assistance, code-insertion, workflow-automat
 The **Syncfusion Code Studio** provides an efficient way to apply suggested code directly into your currently opened file. With a single click, changes are applied in place so you can review, adjust, and continue coding without copy-paste.
  
 
-## purpose
+## Purpose
 - **Insert Code Instantly:** Place AI-suggested code directly into your open file with one click.
 - **Speed Up Workflow:** Reduce manual copy-paste and keep coding without interruption.
 - **Review and Accept Easily:** Quickly check and apply code changes to your active project files.

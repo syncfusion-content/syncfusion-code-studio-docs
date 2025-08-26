@@ -10,7 +10,7 @@ keywords: enhance-prompt, ai-query, prompt-optimization, code-quality, developer
 The **Enhance Prompt** feature in Code Studio improves your queries to maximize the quality of AI-generated responses. It refines, clarifies, and restructures prompts to ensure they are clear, relevant, and comprehensive. By optimizing the way questions are presented, Enhance Prompt helps the AI deliver more accurate, insightful, and context-aware answers. Users benefit from clearer, more effective queries, enabling the AI to understand their intent and respond with greater precision.
  
 
-## purpose
+## Purpose
 - **Refine Queries:** Make your prompts clearer and more precise for the AI to understand.
 - **Increase Response Quality:** Get more relevant, accurate, and context-aware answers.
 - **Save Time:** Spend less effort rephrasing questions and get to your solution faster.

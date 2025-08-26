@@ -13,7 +13,7 @@ Custom Servers allows users to connect to any custom MCP servers, providing a se
 2.	NPM server 
 3.	Local server 
 
-## steps to add custom servers
+## Steps to add custom servers
 Click the **Syncfusion Code Studio** icon on the left toolbar to open the Syncfusion Code Studio chat window.
 <img src="../../reference-images/openchat.png" alt="customserver" >
 

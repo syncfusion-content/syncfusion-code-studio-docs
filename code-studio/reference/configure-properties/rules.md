@@ -12,7 +12,7 @@ keywords: code, IDE, installation, windows, setup, getting-started
 **Rules** in Code Studio allow you to provide specific instructions that guide how the AI assistant behaves when working with your code. Instead of the AI making assumptions about your coding standards, architecture patterns, or project-specific requirements, you can explicitly define guidelines that ensure consistent, contextually appropriate responses.
  
 
-# purpose
+# Purpose
 - **Set Standards:** Make sure the AI follows your coding styles, guidelines, and project needs.
 - **Keep Responses Consistent:** Ensure all answers fit your team’s requirements every time.
 - **Easily Update Guidance:** Change rules as your project evolves to always get relevant suggestions.
