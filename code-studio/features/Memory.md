@@ -47,3 +47,8 @@ Note: All memories are stored locally on your machine. Syncfusion values your pr
 
 You can also toggle the Memory feature on or off anytime from the User Settings page.
 <img src="./feature-images/memory4.png" alt="edit delete memory" />
+
+## 4. Progress bar
+The progress bar is based on the saved memories storage. When the saved memories increase the size of the progress bar will also increase simultaneously. When you delete the saved memories the size of the progress bar will decrease. If the progress bar limit is full the storage is over(50mb). After that the memories will not be saved. You need to delete the memories to store new ones.
+
+<img src="./feature-images/memory-progressbar.png" alt="memory" >
