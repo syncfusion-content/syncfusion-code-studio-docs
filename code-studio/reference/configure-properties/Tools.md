@@ -31,7 +31,7 @@ The built-in tools are designed to automate and simplify common development task
 
 ## Built-In Tools
 
-Syncfusion Code Studio provides a suite of tools to streamline your workflow. Below is a comprehensive list of available tools, their descriptions, and example usage.
+Syncfusion Code Studio provides a suite of tools to streamline your workflow. Below is a comprehensive list of available tools and their description.
  
 ### 1. Ensure the Required Tools Policy
 

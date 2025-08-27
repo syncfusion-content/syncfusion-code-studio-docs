@@ -16,6 +16,7 @@ The **Syncfusion Code Studio** provides an efficient way to apply suggested code
 - **Speed Up Workflow:** Reduce manual copy-paste and keep coding without interruption.
 - **Review and Accept Easily:** Quickly check and apply code changes to your active project files.
 - **Minimize Errors:** Ensure code is placed exactly where it’s needed, reducing mistakes during integration.
+
 ## How to Apply Changes to the Current File
  
 ### 1. Open Code Studio Extension

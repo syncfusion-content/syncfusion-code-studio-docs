@@ -17,9 +17,7 @@ The inline edit feature is designed to accelerate development and improve code q
 - **Maintain Focus**: Keep developers in the flow by providing AI assistance directly in the editor.
 - **Standardize Code Quality**: Ensure consistent code quality and documentation across the team.
 
-
 ## Core Edit Functions
-
 
 - **Add to context**  
   - *Purpose*: Custom analysis  
@@ -28,24 +26,20 @@ The inline edit feature is designed to accelerate development and improve code q
 
 - **Fix this code**  
   - *Purpose*: Error resolution  
-  - *Use Case*: Debug syntax/logic issues, Reduced debugging time  
-  
+  - *Use Case*: Debug syntax/logic issues, Reduced debugging time    
 
 - **Optimize this code**  
   - *Purpose*: Performance enhancement  
   - *Use Case*: Improve efficiency, Better application performance 
  
-
 - **Write docstring**  
   - *Purpose*: Documentation generation  
   - *Use Case*: Add comprehensive comments, Improved code maintainability  
   
-
 - **Write command**  
   - *Purpose*: CLI/script generation  
   - *Use Case*: Create commands  
   
-
 ## How to Use Inline Edit
 
 1. **Select** code in your editor
