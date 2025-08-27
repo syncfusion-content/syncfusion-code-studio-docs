@@ -20,7 +20,7 @@ The inline edit feature is designed to accelerate development and improve code q
 ## Core Edit Functions
 
 - **Add to context**  
-  - *Purpose*: Custom analysis  
+  - *Purpose*: Custom analysis of code 
   - *Use Case*: Send to chat for detailed help, Flexible problem-solving  
  
 
@@ -37,8 +37,8 @@ The inline edit feature is designed to accelerate development and improve code q
   - *Use Case*: Add comprehensive comments, Improved code maintainability  
   
 - **Write command**  
-  - *Purpose*: CLI/script generation  
-  - *Use Case*: Create commands  
+  - *Purpose*: commands generation 
+  - *Use Case*: Develop clear commands in the code to enhance developer maintainability 
   
 ## How to Use Inline Edit
 

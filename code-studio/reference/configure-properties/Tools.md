@@ -12,7 +12,6 @@ keywords: tools, syncfusion, code-studio, development, automation, workflow, bui
 ## Purpose
 
 The built-in tools are designed to automate and simplify common development tasks, allowing you to focus on writing code. Key purposes include:
-
 ### 1. File Management
 - Create new files or edit existing ones.
 - Perform bulk search-and-replace operations.
