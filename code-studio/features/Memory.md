@@ -43,7 +43,8 @@ You can edit or delete memories to keep your workspace organized and up to date.
 - Edit: Click the edit icon next to a memory to update its summary.
 - Delete: Click the trash icon to remove a memory that's no longer needed.
 <img src="./feature-images/memory3.png" alt="edit delete memory" />
-Note: All memories are stored locally on your machine. Syncfusion values your privacy and does not upload memory data to the cloud. 
+
+> **Note:**  All memories are stored locally on your machine. Syncfusion values your privacy and does not upload memory data to the cloud. 
 
 You can also toggle the Memory feature on or off anytime from the User Settings page.
 <img src="./feature-images/memory4.png" alt="edit delete memory" />

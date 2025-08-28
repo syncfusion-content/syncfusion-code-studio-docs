@@ -11,10 +11,12 @@ The **Enhance Prompt** feature in Code Studio improves your queries to maximize 
  
 
 ## Purpose
+
 - **Refine Queries:** Make your prompts clearer and more precise for the AI to understand.
 - **Increase Response Quality:** Get more relevant, accurate, and context-aware answers.
 - **Save Time:** Spend less effort rephrasing questions and get to your solution faster.
 - **Reduce Miscommunication:** Lower the risk of misunderstandings between you and the AI.
+
 ## How to Use Enhance Prompt
  
 ### 1. Open Code Studio Extension

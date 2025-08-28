@@ -63,6 +63,7 @@ The following settings are available on the User Settings page.
   - Use Case: Accessibility/multitasking
 
 ### Development Tools
+
 **Wrap Codeblocks:** When enabled, applies text wrapping to code blocks for better readability.
   - Default: Off
   - Use Case: Long code readability

@@ -1,3 +1,11 @@
+---
+title: "Syncfusion Code Studio Troubleshoot"
+description: "Professional guide for resolving O3 Model Integration Error in OpenAI Integration via OpenRouter"
+classification: "User Guide - Troubleshoot"
+platform: syncfusion-code-studio
+keywords: O3, Openrouter, troubleshoot, code-studio, syncfusion
+---
+
 # How to Resolve Error (Status Code 403) for O3 model in OpenAI Integration via OpenRouter
 
 This guide will help you easily set up and use the OpenAI o3 model through OpenRouter’s platform with your own OpenAI API key. Follow these simple steps to get started and make the most of this powerful integration.
