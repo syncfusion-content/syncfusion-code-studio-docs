@@ -19,26 +19,42 @@ The inline edit feature is designed to accelerate development and improve code q
 
 ## Core Edit Functions
 
-- **Add to context**  
-  - *Purpose*: Custom analysis of code 
-  - *Use Case*: Send to chat for detailed help, Flexible problem-solving  
- 
-
-- **Fix this code**  
-  - *Purpose*: Error resolution  
-  - *Use Case*: Debug syntax/logic issues, Reduced debugging time    
-
-- **Optimize this code**  
-  - *Purpose*: Performance enhancement  
-  - *Use Case*: Improve efficiency, Better application performance 
- 
-- **Write docstring**  
-  - *Purpose*: Documentation generation  
-  - *Use Case*: Add comprehensive comments, Improved code maintainability  
-  
-- **Write command**  
-  - *Purpose*: commands generation 
-  - *Use Case*: Develop clear commands in the code to enhance developer maintainability 
+<table border="1" cellpadding="8" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Action</th>
+      <th>Purpose</th>
+      <th>Use Case</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Add to context</strong></td>
+      <td>Custom analysis of code</td>
+      <td>Send to chat for detailed help, Flexible problem-solving</td>
+    </tr>
+    <tr>
+      <td><strong>Fix this code</strong></td>
+      <td>Error resolution</td>
+      <td>Debug syntax/logic issues, Reduced debugging time</td>
+    </tr>
+    <tr>
+      <td><strong>Optimize this code</strong></td>
+      <td>Performance enhancement</td>
+      <td>Improve efficiency, Better application performance</td>
+    </tr>
+    <tr>
+      <td><strong>Write docstring</strong></td>
+      <td>Documentation generation</td>
+      <td>Add comprehensive comments, Improved code maintainability</td>
+    </tr>
+    <tr>
+      <td><strong>Write command</strong></td>
+      <td>Commands generation</td>
+      <td>Develop clear commands in the code to enhance developer maintainability</td>
+    </tr>
+  </tbody>
+</table>
   
 ## How to Use Inline Edit
 

@@ -20,9 +20,28 @@ The primary purpose of custom prompts is to streamline and standardize developme
 
 ## Prompt File Structure 
 
-- **name**: Unique identifier (e.g., GenerateTestCases)
-- **description**: Short summary of intent
-- **prompt**: Literal instructions (role, tasks, output format)
+<table border="1" cellpadding="8" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Field</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>name</strong></td>
+      <td>Unique identifier</td>
+    </tr>
+    <tr>
+      <td><strong>description</strong></td>
+      <td>Short summary of intent</td>
+    </tr>
+    <tr>
+      <td><strong>prompt</strong></td>
+      <td>Literal instructions (role, tasks, output format)</td>
+    </tr>
+  </tbody>
+</table>
 
 ## How to use Prompt Files 
  
