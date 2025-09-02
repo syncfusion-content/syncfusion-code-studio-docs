@@ -15,16 +15,14 @@ After installing Code Studio, you’ll land on a welcome page where you can:
 ### Step 2: Open Authentication page
 When you click on the login or signup button, a dialog box will appear asking for your permission to open an external website.
 
-- Click "Open" to continue to the authentication page.
+- Click **"Open"** to continue to the authentication page.
 
 <img src="./getting-started-image/signopen.png" alt="SignIn" />
 
 ### Step 3: Choose Your Sign-In Method
 You will be redirected to the official Code Studio sign-in page in your web browser. You have three convenient options to sign in:  
-
 • **Sign in with Microsoft:** Use your personal, work, or school Microsoft account.
 • **Sign in with GitHub:** Use your GitHub account.
-
 • **Sign in with Syncfusion:** Use your existing Syncfusion account.
 
 <img src="./getting-started-image/sign3.png" alt="SignIn" />
@@ -35,13 +33,13 @@ You will be redirected to the official Code Studio sign-in page in your web brow
 ### Step 4: Confirm Login and Return to Code Studio
 After successful authentication, you’ll see a confirmation screen.
 
-- Click "Open Code Studio" to go back to the application.
+- Click **"Open Code Studio"** to go back to the application.
 
 <img src="./getting-started-image/sign4.png" alt="SignIn" />
 
 ### Step 5: Access Enterprise Models
 You are now signed in. Your account info will be visible in Code Studio.
-The chat panel will display the available **Enterprise Models**—ready for you to use on your coding projects.
+The chat panel will display the available **Enterprise Models** ready for you to use on your coding projects.
 
 
 <img src="./getting-started-image/sign5.png" alt="SignIn" />
