@@ -16,7 +16,7 @@ The Folder context in Syncfusion Code Studio lets you select a whole folder so t
 
 Click the Syncfusion Code Studio icon on the left toolbar to open the Syncfusion Code Studio chat window.
 
-<img src="../feature-images/open_chat.png" alt="Open chat window" />
+<img src="../feature-images/open-chat.png" alt="Open chat window" />
 
 
 
