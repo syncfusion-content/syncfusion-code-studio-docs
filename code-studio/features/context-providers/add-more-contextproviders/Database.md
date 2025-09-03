@@ -15,7 +15,7 @@ The Database context option in Syncfusion Code Studio enables users to add datab
  
 In the Syncfusion Code Studio, the chat interface is located on the left-hand side. This is where you can interact with AI and ask questions or get assistance.
 
-<img src="../../feature-images/open_chat.png" alt="open chat" />
+<img src="../../feature-images/open-chat.png" alt="open chat" />
  
 ### 2. Select Database context
  

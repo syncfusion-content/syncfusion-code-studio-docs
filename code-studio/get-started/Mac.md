@@ -36,7 +36,7 @@ The installation process for **Syncfusion code studio IDE** on macOS is straight
 - **Drag the app icon** into the **Applications** folder.
 - Close the window.
 
-<img src="./getting_started_image/mac1.png" alt="application_mac"  />
+<img src="./getting-started-image/mac1.png" alt="application_mac"  />
 
 ###  Step 3: Launch the App
 
@@ -50,7 +50,7 @@ The installation process for **Syncfusion code studio IDE** on macOS is straight
 - Click **Open** to proceed.
 
 
-<img src="./getting_started_image/mac2.png" alt="application_yes"  />
+<img src="./getting-started-image/mac2.png" alt="application_yes"  />
 
 > **Note:** Code Studio offers a built-in auto-update mechanism to ensure you're always using the latest version. When a new release becomes available, a notification will appear prompting you to update. Simply click “Update Now”, and the latest version will be downloaded and installed automatically—no manual steps required.
 
@@ -58,36 +58,36 @@ The installation process for **Syncfusion code studio IDE** on macOS is straight
 
 After launching, the IDE displays a **Welcome Page** to help you get started.
 
-<img src="./getting_started_image/macopenchat.png" alt="welcome_page"  />
+<img src="./getting-started-image/macopenchat.png" alt="welcome_page"  />
 
 ###  Open Chat Page
 
 - Start a new chat session to interact with **Syncfusion code studio** directly.
 
-<img src="./getting_started_image/macopenchat2.png" alt="Open the chat"  />
+<img src="./getting-started-image/macopenchat2.png" alt="Open the chat"  />
 
 ### Add Chat Model
 
 - Open a popup to configure your AI model, including provider, model name, and API key. 
 
-<img src="./getting_started_image/addchatmodelopen.png" alt="Add_chat_model"  />
+<img src="./getting-started-image/addchatmodelopen.png" alt="Add_chat_model"  />
 
 - You can select the provider from the dropdown
 
-<img src="./getting_started_image/macaddmodel2.png" alt="License Agreement"  />
+<img src="./getting-started-image/macaddmodel2.png" alt="License Agreement"  />
 
 - You can select the Model from the dropdown
 
-<img src="./getting_started_image/macaddmodel3.png" alt="Select_model"  />
+<img src="./getting-started-image/macaddmodel3.png" alt="Select_model"  />
 
 - Enter the API key to connect the model with the selected provider and click connect button.
 
-<img src="./getting_started_image/macaddmodel4.png" alt="Connect"  />
+<img src="./getting-started-image/macaddmodel4.png" alt="Connect"  />
 
 - Now, the selected model has been added and is displayed in the chat box
 
-<img src="./getting_started_image/macaddmodel5.png" alt="List_model"  />
+<img src="./getting-started-image/macaddmodel5.png" alt="List_model"  />
 
 - Ready for integration within your development environment
 
-<img src="./getting_started_image/macresult.png" alt="Chat_window"  />
+<img src="./getting-started-image/macresult.png" alt="Chat_window"  />

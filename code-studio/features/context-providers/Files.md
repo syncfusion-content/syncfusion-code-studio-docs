@@ -16,7 +16,7 @@ The Files context feature is a key component of Syncfusion Code Studio. It allow
 
 In the  Syncfusion Code Studio, the chat interface is located on the left-hand side of the screen, where you can interact with the AI and get assistance.
 
-<img src="../feature-images/open_chat.png" alt="Accept Image"  />
+<img src="../feature-images/open-chat.png" alt="Accept Image"  />
 
 ### 2. Select Files context
 
