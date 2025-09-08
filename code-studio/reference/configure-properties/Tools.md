@@ -12,18 +12,22 @@ keywords: tools, syncfusion, code-studio, development, automation, workflow, bui
 ## Purpose
 
 The built-in tools are designed to automate and simplify common development tasks, allowing you to focus on writing code. Key purposes include:
+
 ### 1. File Management
 - Create new files or edit existing ones.
 - Perform bulk search-and-replace operations.
 - Organize project structures efficiently.
+
 ### 2. Terminal Integration
 - Run CLI commands like npm install or yarn start.
 - Install dependencies or launch development servers.
 - Automate build and deployment processes.
+
 ### 3. Code Insights
 - Identify and fix bugs with AI-driven suggestions.
 - Refactor code for better performance or readability.
 - Generate inline documentation automatically.
+
 ### 4. Web and Browser Tools
 - Perform web searches to fetch relevant resources.
 - Automate browser tasks like testing or scraping.
@@ -35,6 +39,7 @@ Syncfusion Code Studio provides a suite of tools to streamline your workflow. Be
 ### 1. Ensure the Required Tools Policy
 
 To balance speed and safety, each tool in Syncfusion Code Studio can be configured in one of three modes:
+
 - **Automatic:** When the model requests a tool, Code Studio automatically executes it and sends the response back to the model.
 
 - **Ask First:** When the model requests a tool, Code Studio prompts you to either "Cancel" or "Continue" before proceeding.

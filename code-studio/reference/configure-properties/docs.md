@@ -8,51 +8,47 @@ keywords: code, IDE, installation, windows, setup, getting-started
 ---
 
 # Docs
+The "Docs" section in Code Studio allows you to integrate documents directly into the environment. This means Code Studio can access and utilize these documents at any time, enhancing its ability to provide relevant assistance based on your specific information.
 
-List of documentation sites to index.
+## Purpose
+By adding your specific documentation, you can provide Code Studio with custom context relevant to your projects and workflows. All added documents are listed for easy management and direct use.
+Keeping your essential resources within Code Studio, reducing the need to switch between applications.
 
-## Properties
+## How to Add Documents
 
-<table>
-  <thead>
-    <tr>
-      <th>Property</th>
-      <th>Is Required</th>
-      <th>Description</th>
-    </tr>
-  </thead>
-  <tr>
-    <td><code>name</code></td>
-    <td>Yes</td>
-    <td>Name of the documentation site, displayed in dropdowns, etc.</td>
-  </tr>
-  <tr>
-    <td><code>startUrl</code></td>
-    <td>Yes</td>
-    <td>Start page for crawling – usually the root or intro page for docs.</td>
-  </tr>
-  <tr>
-    <td><code>maxDepth</code></td>
-    <td>No</td>
-    <td>Maximum link depth for crawling. Default is 4.</td>
-  </tr>
-  <tr>
-    <td><code>favicon</code></td>
-    <td>No</td>
-    <td>URL for site favicon (default is <code>/favicon.ico</code> from <code>startUrl</code>).</td>
-  </tr>
-  <tr>
-    <td><code>useLocalCrawling</code></td>
-    <td>No</td>
-    <td>Skip the default crawler and only crawl using a local crawler.</td>
-  </tr>
-</table>
+### 1. Navigate to the "Docs" Section
+In Code Studio, locate and click on the "Docs" section.
 
-## Example
+### 2. Initiate Document Addition
+Within the "Docs" section, you will find an option labeled "Add Docs". Click on this button.
 
+<img src="../reference-images/adddocs.png" alt="Image of added documents list">
 
-```yaml
-docs:
-  - name: Syncfusion PDF
-    startUrl: https://help.syncfusion.com/file-formats/pdf/working-with-document
-```
+### 3. Enter Document Details
+A new window will appear. Give the title and url for the document.
+
+**Title:** Enter a descriptive title for your document. This title will help you easily identify the document in the list.
+
+**URL:** Provide the URL to your document.
+
+<img src="../reference-images/docs1.png" alt="Image of added documents list">
+
+### 4. Confirm Addition
+Click on the "Add" button to finalize the process. Your document will now be integrated into Code Studio.
+
+<img src="../reference-images/docs.png" alt="Image of added documents list">
+
+## Managing Your Added Documents
+Once documents are added, they will be listed in the "Docs" section.
+
+<img src="../reference-images/docslist.png" alt="Image of added documents list">
+
+### Editing Document Details
+To modify the title or URL of an existing document,
+Click on the "Edit" option next to the desired document in the list.
+This action will open the configuration file.
+You can then edit the name and URL directly within the config page.
+
+<img src="../reference-images/docsedit.png" alt="Image of added documents list">
+
+**Note:** To access the added documents refer the steps in this [page](/code-studio/features/context-providers/Docs.md).

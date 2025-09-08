@@ -1,3 +1,10 @@
+---
+title: Summarization Feature in Code Studio
+description: Learn how the Summarization feature in Syncfusion Code Studio helps manage long conversations by intelligently summarizing chat history, preserving context, and ensuring efficient collaboration.
+platform: syncfusion-code-studio
+keywords: summarization, syncfusion, code-studio, chat, context management, development, efficiency
+---
+
 # Summarization Feature in Code Studio
 
 ## Overview
