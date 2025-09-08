@@ -31,11 +31,11 @@ You can apply different models to the following features:
 
 ## How to Select a Model
 
-### Locate the Model Dropdown
+### 1. Locate the Model Dropdown
 
 In each mode section (e.g., `Chat`, `Edit`, `Autocomplete`), you’ll find a model selection dropdown.
 
-### Choose Based on Your Task
+### 2. Choose Based on Your Task
 
 1.  Click the dropdown and select the model from the list of models.
 2.  Click on the most suitable model for your current task.
