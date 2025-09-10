@@ -4,29 +4,29 @@
 
 ### What is UI Builder?
 
-UI Builder is an AI-powered development assistant integrated into Syncfusion Code Studio that provides essential implementation data and component metadata to enable feature development using Syncfusion components. This intelligent tool analyzes your requirements through natural language prompts and supplies the necessary information for implementing your desired functionality with appropriate Syncfusion components.
+UI Builder is an AI-powered development assistant integrated into Syncfusion Code Studio. It provides essential implementation details and component metadata to enable feature development using Syncfusion components. By analyzing your requirements through natural language prompts, UI Builder intelligently delivers the necessary information and guidance for implementing your desired functionality with the most suitable Syncfusion components.
 
 ### Key Benefits
 
-- **Smart Implementation**: Uses Syncfusion components to build required features
-- **Intelligent Component Selection**: Analyzes requirements and selects optimal Syncfusion controls
-- **Multi-Platform Support**: Implements features across 14 platforms with platform-specific optimizations
-- **Time-Saving**: Eliminates manual component research and configuration
-- **Best Practices**: Applies Syncfusion's proven implementation patterns
+- **Smart Implementation**: Leverages Syncfusion components to efficiently build required features.
+- **Intelligent Component Selection**: Analyzes requirements and selects optimal Syncfusion controls.
+- **Multi-Platform Support**: Implements features across 14 platforms with platform-specific optimizations.
+- **Time-Saving**: Eliminates manual component research and configuration.
+- **Best Practices**: Applies Syncfusion's proven implementation patterns.
 
 ## Getting Started
 
 ### UI Builder Setup
 
-1. **Access Chat Interface**: Open the chat panel in Code Studio
-2. **Enable UI Builder Tool**: Select "UI Builder" from the tools panel
-3. **Choose Mode**: Select between Automatic or Ask First mode
+1. **Access Chat Interface**: Open the chat panel in Code Studio.
+2. **Enable UI Builder Tool**: Select "UI Builder" from the tools panel.
+3. **Choose Mode**: Select between Automatic or Ask First mode.
 
 <img src="../feature-images/ui-builder.png" alt="UI Builder Modes" />
 
 ### Syncfusion Component Licensing
 
-After implementing features with Syncfusion components, proper licensing is required to run your application without licensing popups. If you installed the trial setup or NuGet packages from nuget.org, you must register the Syncfusion license key in your application. Without proper licensing, a licensing popup will appear when running your application. The license key can be obtained from the [My Account » License and downloads section](https://www.syncfusion.com/account/downloads) of the Syncfusion® website. To obtain a license key, you will need one of the following:
+After implementing features with Syncfusion components, proper licensing is required to run your application without licensing pop-ups. If you installed the trial setup or NuGet packages from nuget.org, you must register the Syncfusion license key in your application. Without proper licensing, a licensing pop-up will appear when running your application. The license key can be obtained from the [My Account » License and downloads section](https://www.syncfusion.com/account/downloads) of the Syncfusion® website. To obtain a license key, you will need one of the following:
 
 - **Trial License**: For evaluation purposes with trial installer or NuGet packages
 - **Licensed Version**: For commercial use with licensed installer (no license key registration required)
@@ -34,7 +34,7 @@ After implementing features with Syncfusion components, proper licensing is requ
 ### Quick Start Example
 
 ```
-Enhance a customer management dashboard React application using Syncfusion components with data grid and search functionality
+Enhance a customer management dashboard React application using Syncfusion components with a data grid and search functionality.
 ```
 
 UI Builder will analyze your request and provide the necessary information for implementing the feature using appropriate Syncfusion components.
@@ -49,7 +49,7 @@ UI Builder operates through a sophisticated process where Code Studio handles in
 Code Studio processes your natural language prompt to understand user intentions and feature requirements.
 
 #### Step 2: Platform Detection (Code Studio)
-Code Studio automatically identifies the target framework from project structure or prompt specification (defaults to React if not specified).
+Code Studio automatically identifies the target framework from the project structure or prompt specification (defaults to React if not specified).
 
 #### Step 3: Supported Controls API Response (UI Builder)
 UI Builder responds to the supportedControls API call by providing a comprehensive list of available Syncfusion controls specific to the detected platform.
@@ -62,26 +62,26 @@ UI Builder responds to the context API call by providing three essential compone
 <img src="../feature-images/contextmode.png" alt="Context Mode" />
 
 ##### System Prompt
-- Converts business requirements into technical specifications
-- Applies industry standards and Syncfusion recommended patterns
-- Identifies potential integration considerations
-- Maps user requirements to optimal Syncfusion controls
+- Converts business requirements into technical specifications.
+- Applies industry standards and Syncfusion recommended patterns.
+- Identifies potential integration considerations.
+- Maps user requirements to optimal Syncfusion controls.
 
 <img src="../feature-images/systemprompt.png" alt="System Prompt" />
 
 ##### Layout Configuration
-- Determines optimal layout structures for responsive design
-- Calculates ideal positioning for selected controls
-- Ensures consistent theming across components
-- Maintains accessibility compliance throughout implementation
+- Determines optimal layout structures for responsive design.
+- Calculates ideal positioning for selected controls.
+- Ensures consistent theming across components.
+- Maintains accessibility compliance throughout implementation.
 
 <img src="../feature-images/layoutconfiguration.png" alt="Layout Configuration" />
 
 ##### Controls Metadata
-- Configures appropriate default values and properties for each control
-- Establishes necessary event bindings and data source connections
-- Manages all imports, references, and package requirements
-- Ensures proper component lifecycle management
+- Configures appropriate default values and properties for each control.
+- Establishes necessary event bindings and data source connections.
+- Manages all imports, references, and package requirements.
+- Ensures proper component lifecycle management.
 
 <img src="../feature-images/metadata.png" alt="Controls Metadata" />
 
@@ -137,39 +137,39 @@ Develop [feature description] for [platform] application using Syncfusion compon
 ### Effective Prompt Examples
 
 ```
-Create a comprehensive sales dashboard with interactive charts and data filtering capabilities using Syncfusion React components
+Create a comprehensive sales dashboard with interactive charts and data filtering capabilities using Syncfusion React components.
 ```
 
 ```
-Build a user registration form with validation rules and error handling using Syncfusion WinForms controls
+Build a user registration form with validation rules and error handling using Syncfusion WinForms controls.
 ```
 
 ```
-Develop a responsive product catalog with search and categorization using Syncfusion JavaScript components
+Develop a responsive product catalog with search and categorization using Syncfusion JavaScript components.
 ```
 
 ```
-Build a React-based employee management system with data grid, search capabilities, filtering options, and export functionality using Syncfusion React components
+Build a React-based employee management system with data grid, search capabilities, filtering options, and export functionality using Syncfusion React components.
 ```
 
 ```
-Create an employee management page using Angular Grid Component with CRUD operations
+Create an employee management page using the Angular Grid Component with CRUD operations.
 ```
 
 ```
-Enhance an inventory management dashboard Blazor application using Syncfusion components with search, filtering, and export capabilities
+Enhance an inventory management dashboard Blazor application using Syncfusion components with search, filtering, and export capabilities.
 ```
 
 ```
-Create a project management application React using Syncfusion components with Kanban boards, Gantt charts, and team collaboration features
+Create a project management application using React Syncfusion components with Kanban boards, Gantt charts, and team collaboration features.
 ```
 
 ```
-Enhance a mobile-optimized field service MAUI application using Syncfusion components
+Enhance a mobile-optimized field service MAUI application using Syncfusion components.
 ```
 
 ```
-Build a healthcare management system Vue application using Syncfusion components with Material Design theme
+Build a healthcare management system Vue application using Syncfusion components with the Material Design theme.
 ```
 
 ### Prompt Requirements
@@ -186,18 +186,18 @@ Build a healthcare management system Vue application using Syncfusion components
 
 #### Step 1: Define Requirements
 ```
-Develop a customer management system Angular application using Syncfusion components with CRUD operations and search functionality
+Develop a customer management system Angular application using Syncfusion components with CRUD operations and search functionality.
 ```
 
 #### Step 2: AI Processing and Implementation
 Following your prompt, the system processes your request through:
 
 **UI Builder Analysis:**
-- **supportedControls Mode**: Identifies available Syncfusion controls for Angular platform
+- **supportedControls Mode**: Identifies available Syncfusion controls for the Angular platform
 - **context Mode**: Selects optimal components (DataGrid, TextBox, DropDownList, Dialog) and provides layout configuration
 
 **Code Studio Implementation:**
-- Generates Angular component with modern best practices
+- Generates Angular components with modern best practices
 - Implements CRUD operations with proper data binding
 - Configures search and filtering functionality
 - Sets up responsive layout with consistent theming
@@ -205,23 +205,23 @@ Following your prompt, the system processes your request through:
 
 #### Step 3: Customize Implementation
 ```
-Enhance the customer management system Angular application using Syncfusion components to include Excel export and form validation
+Enhance the customer management system Angular application using Syncfusion components to include Excel export and form validation.
 ```
 
 #### Step 4: Platform-Specific Optimization
 ```
-Optimize the customer management system implementation Angular application using Syncfusion components with TypeScript best practices
+Optimize the customer management system implementation of the Angular application using Syncfusion components with TypeScript best practices.
 ```
 
 ## Best Practices
 
 ### For Optimal Implementation
 
-1. **Include "Syncfusion" Keyword**: Always include "Syncfusion" in your prompt to trigger UI Builder activation
-2. **Be Specific**: Include detailed functionality requirements
-3. **Specify Platform**: Always mention target framework for optimized implementation
-4. **Include Data Context**: Describe data structure and relationships
-5. **Request Features**: Specify needed capabilities (search, export, validation)
+1. **Include "Syncfusion" Keyword**: Always include "Syncfusion" in your prompt to trigger UI Builder activation.
+2. **Be Specific**: Include detailed functionality requirements.
+3. **Specify Platform**: Always mention the target framework for optimized implementation.
+4. **Include Data Context**: Describe data structure and relationships.
+5. **Request Features**: Specify needed capabilities (search, export, validation).
 
 ### Performance Optimization
 
@@ -235,8 +235,8 @@ Optimize the customer management system implementation Angular application using
 ### Common Issues
 
 **UI Builder Not Activating**
-- Ensure "Syncfusion" and "components" keywords are in prompt
-- Verify UI Builder tool is selected
+- Ensure "Syncfusion" and "components" keywords are in the prompt
+- Verify the UI Builder tool is selected.
 - Check AI model configuration and API key
 
 **Incorrect Platform Implementation**
@@ -263,4 +263,4 @@ A: GPT-4 and Claude provide optimal results. Configure your preferred model in C
 A: There are no limits on the number of features you can implement, subject to your AI model usage limits.
 
 **Q: Can UI Builder work with existing projects?**
-A: Yes! UI Builder provides the component information that enables implementation of features using Syncfusion components that integrate with existing codebases.
+A: Yes! UI Builder provides the component information that enables the implementation of features using Syncfusion components that integrate with existing codebases.
