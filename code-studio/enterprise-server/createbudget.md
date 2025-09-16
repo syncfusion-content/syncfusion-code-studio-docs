@@ -2,7 +2,7 @@
 
 The Budget feature in Code Studio enables administrators to allocate and monitor AI usage budgets for teams and individual users. This helps organizations manage costs effectively and optimize AI resource utilization.
 
-**Note**: Only admins and Team Leads can edit and assign budget for all.
+> **Note**: Only admins and Team Leads can edit and assign budget for all.
 
 <img src="./enterprise-images/budgetnew.png" alt="budget"  />
 
