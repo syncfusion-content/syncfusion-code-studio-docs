@@ -2,7 +2,7 @@
 
 ## Overview
 
-UI Builder is a specialized tool that provides essential information for building user interfaces with Syncfusion components. When you describe what you want to create, it automatically analyzes your request and returns the technical guidance developers need for implementation.
+UI Builder is a specialized tool that provides essential information for building user interfaces with Syncfusion components. When you describe what you want to create, it automatically analyzes your request and returns the technical guidance to the code studio for implementation.
 
 ### What UI Builder Provides
 
