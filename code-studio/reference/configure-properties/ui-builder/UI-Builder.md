@@ -121,7 +121,7 @@ UI Builder supports 14 platforms with varying component libraries:
 
 **UI Builder Not Activating**: Include "Syncfusion" keyword and specify platform explicitly (React, Angular, etc.)
 
-**Wrong Platform Detection**: Use exact platform names early in request - "React" not "JavaScript framework"
+**Wrong Platform Detection**: Use exact platform names early in request like "React" or "JavaScript"
 
 **Generic Response**: Be more specific about functionality, include business context and specific features needed
 
