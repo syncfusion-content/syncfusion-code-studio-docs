@@ -2,10 +2,10 @@
 title: Introduction to UI Builder in Syncfusion Code Studio
 description: Learn how to use the Syncfusion UI Builder tool in Code Studio to generate component information, implementation context, and layout guidance for building user interfaces with Syncfusion components across multiple platforms.
 platform: syncfusion-code-studio
-keywords: ui-builder, syncfusion, code-studio, components, user-interface, layout, implementation, guidance, metadata, multi-platform
+keywords: built-in-tools, ui-builder, syncfusion-components, component-metadata, ui-development-guidance
 ---
 
-# Syncfusion UI Builder Guide
+# UI Builder
 
 ## Overview
 
