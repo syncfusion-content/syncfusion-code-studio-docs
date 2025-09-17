@@ -42,7 +42,7 @@ The Budget feature in Code Studio enables administrators to allocate and monitor
 
 <img src="./enterprise-images/memberbudget.png" alt="budget"  />
 
-## Usage Alerts
+## 3. Usage Alerts
 
 Administrators can set up alerts to notify when budget usage exceeds a defined threshold.
 

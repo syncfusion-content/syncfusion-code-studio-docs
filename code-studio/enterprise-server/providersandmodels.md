@@ -25,9 +25,9 @@ To integrate an LLM provider into Code Studio:
    - **API Key**: Paste the API key provided by the LLM service.  
 4. Click **“Add”** to save the provider.
 
-✅ Once added, the provider will be available for model selection.
-
 <img src="./enterprise-images/llm and providers.png" alt="Provider" />
+
+✅ Once added, the provider will be available for model selection.
 
 ## 2. Adding a Model to the Enterprise List
 
