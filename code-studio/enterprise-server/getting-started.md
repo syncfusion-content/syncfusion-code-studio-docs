@@ -1,3 +1,10 @@
+---
+title: Getting started with Syncfusion Code Studio
+description: Set up your account, download the app, and configure your organization to begin using Code Studio for AI-assisted development.
+platform: syncfusion-code-studio
+keywords: getting started, onboarding, setup, account, dashboard, profile, settings, download, syncfusion, code studio
+---
+
 # Getting Started
 
 ## Start using Code Studio
