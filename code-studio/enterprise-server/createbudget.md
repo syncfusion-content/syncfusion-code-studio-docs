@@ -1,3 +1,10 @@
+---
+title: Create Budget in Syncfusion Code Studio
+description: Learn how to configure team and individual user budgets, set budget periods with auto-renewal, and set up usage alerts in Syncfusion Code Studio Enterprise Server.
+platform: syncfusion-code-studio
+keywords: budget, usage, billing, alerts, teams, users, admin, syncfusion, code-studio, enterprise server, getting started
+---
+
 # Create Budget
 
 The Budget feature in Code Studio enables administrators to allocate and monitor AI usage budgets for teams and individual users. This helps organizations manage costs effectively and optimize AI resource utilization.
@@ -35,7 +42,7 @@ The Budget feature in Code Studio enables administrators to allocate and monitor
 
 <img src="./enterprise-images/memberbudget.png" alt="budget"  />
 
-## Usage Alerts
+## 3. Usage Alerts
 
 Administrators can set up alerts to notify when budget usage exceeds a defined threshold.
 
