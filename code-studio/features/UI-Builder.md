@@ -34,7 +34,7 @@ UI Builder is a specialized tool that provides essential information for buildin
 2. **Enable UI Builder Tool**: Select "UI Builder" from the tools panel.
 3. **Choose Mode**: Select between Automatic or Ask First mode.
 
-<img src="../tools/images/ui-builder.png" alt="UI Builder Modes" />
+<img src="../features/feature-images/ui-builder/ui-builder-modes.png" alt="UI Builder Modes" />
 
 ### Basic Usage
 
@@ -69,12 +69,12 @@ UI Builder automatically provides:
 #### Supported Controls Response
 UI Builder provides a comprehensive list of available Syncfusion components for your specific platform:
 
-<img src="../tools/images/supportedcontrols.png" alt="Supported Controls List" />
+<img src="../features/feature-images/ui-builder/supportedcontrols.png" alt="Supported Controls List" />
 
 #### Context Mode Response
 UI Builder delivers detailed implementation guidance including system prompts, layout configuration, and component metadata:
 
-<img src="../tools/images/contextmode.png" alt="Context Mode" />
+<img src="../features/feature-images/ui-builder/contextmode.png" alt="Context Mode" />
 
 ### Syncfusion License Setup
 
