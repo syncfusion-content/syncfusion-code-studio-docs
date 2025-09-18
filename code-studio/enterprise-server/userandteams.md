@@ -9,7 +9,7 @@ keywords: users, teams, roles, admin, team lead, invitations, access control, go
 
 Code Studio empowers administrators and team leads to manage organization members, assign roles, and organize users into teams for seamless collaboration and governance.
 
-## Key Benefits
+## 1. Key Benefits
 
 - **Role Assignment**: Assign roles such as Admin, Team Lead, or User to match your organizational hierarchy.
 - **Team Creation**: Easily create and manage teams with intuitive controls.
@@ -20,7 +20,7 @@ Code Studio empowers administrators and team leads to manage organization member
 
 
 
-## Teams Management
+## 2. Teams Management
 
 ### Team List Panel
 
@@ -47,7 +47,7 @@ Accessible via the context menu (three-dot icon):
 
 <img src="./enterprise-images/teams.png" alt="user&Teams"  />
 
-## User Management
+## 3. User Management
 
 ### Viewing Members
 
@@ -72,7 +72,7 @@ Accessible via the context menu (three-dot icon):
 
 <img src="./enterprise-images/edituser.png" alt="user&Teams"  />
 
-## Best Practices
+## 4. Best Practices
 
 - **Maintain Clear Roles**: Assign roles based on responsibilities.
 - **Audit Teams Regularly**: Ensure team structures reflect current projects.
