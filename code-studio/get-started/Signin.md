@@ -1,3 +1,10 @@
+---
+title: Signing in with Syncfusion Code Studio
+description: Learn how to sign in to Syncfusion Code Studio to access powerful enterprise AI models for advanced code generation, analysis, and developer assistance.
+platform: syncfusion-code-studio
+keywords: signin, login, authentication, syncfusion, code-studio, enterprise models, getting started
+---
+
 # Code Studio Signing In
 
 Signing in connects you to powerful enterprise AI models for advanced code generation, analysis, and developer assistance. This guide will help you sign in step by step
