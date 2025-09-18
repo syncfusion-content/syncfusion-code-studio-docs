@@ -58,11 +58,11 @@ You can monitor:
 - Select custom date ranges to analyze token usage and other metrics over time.
 - Useful for monthly reporting, trend analysis, and budget tracking.
 
-## How to Use the Dashboard
+## 4. How to Use the Dashboard
 
 ### Step 1: Navigate to the Dashboard
 
-- Go to https://app.sfcodestudio.com/dashboard
+- Go to [Dashboard](https://app.sfcodestudio.com/dashboard)
 
 <img src="./enterprise-images/dashboard1.png" alt="dashboard"  />
 
@@ -88,7 +88,7 @@ You can monitor:
 - Review the “Top 5 Users” and “Top 5 Models” sections to identify high-usage patterns.
 - Use this data to optimize resource allocation or investigate anomalies.
 
-## Best Practices
+## 5. Best Practices
 
 - **Regular Monitoring**: Check the dashboard weekly to stay on top of usage trends.
 - **Budget Control**: Use cost and token data to manage spending.
