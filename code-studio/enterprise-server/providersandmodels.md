@@ -1,3 +1,10 @@
+---
+title: Configure LLM Providers and Models in Syncfusion Code Studio
+description: Admin guide to connect LLM providers, manage API keys, and add models to your enterprise catalog in Code Studio.
+platform: syncfusion-code-studio
+keywords: llm, providers, models, configuration, admin, enterprise, syncfusion, code-studio, api keys, model catalog, openai, anthropic, azure openai, gemini
+---
+
 # Configure LLM Providers and Models
 
 This guide provides step-by-step instructions for administrators to configure Large Language Model (LLM) providers and manage models within Code Studio.
@@ -18,9 +25,9 @@ To integrate an LLM provider into Code Studio:
    - **API Key**: Paste the API key provided by the LLM service.  
 4. Click **“Add”** to save the provider.
 
-✅ Once added, the provider will be available for model selection.
-
 <img src="./enterprise-images/llm and providers.png" alt="Provider" />
+
+✅ Once added, the provider will be available for model selection.
 
 ## 2. Adding a Model to the Enterprise List
 
