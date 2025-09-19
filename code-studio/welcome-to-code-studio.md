@@ -27,7 +27,7 @@ Deeply integrated with Syncfusion's rich component library, Syncfusion code stud
 - **Inline Edit**: Apply AI-powered fixes, optimizations, and docs right from the editor’s context menu. See [Inline Edit](/code-studio/features/inline).
 - **Apply to Current File**: Insert AI-suggested code directly into the open file with one click. See [Apply to Current File](/code-studio/features/applytocurrentfile).
 - **Telemetry**: Anonymous usage analytics to improve product quality; can be disabled anytime. See [Telemetry](/code-studio/features/telemetry).
-- **MCP Integration**: Discover and manage servers via the [MCP Marketplace](/code-studio/reference/configure-properties/mcp/marketplace) or connect [Custom Servers](/code-studio/reference/configure-properties/mcp/customservers.md) including Remote, NPM, and Local.
+- **MCP Integration**: Discover and manage servers via the [MCP Marketplace](/code-studio/reference/configure-properties/mcp/marketplace) or connect [Custom Servers](/code-studio/reference/configure-properties/mcp/customservers) including Remote, NPM, and Local.
 
 
 
