@@ -21,7 +21,7 @@ In the  Syncfusion Code Studio, the chat interface is located on the left-hand s
 ### 2. Select Files context
 
 In the chat window, click the `@` button.
-> **Note:** If you cannot locate the files context option in the list, you will need to add it manually to include this context provider in config.yaml file. Please follow the steps outlined in this [link](/code-studio/features/context-providers/add-more-contextproviders/How-to-configure-more-contextproviders) to do so.
+> **Note:** If you cannot locate the files context option in the list, you will need to add it manually to include this context provider in config.yaml file. Please follow the steps outlined in this [link](/code-studio/features/context-providers/add-more-contextproviders/how-to-configure-more-contextproviders) to do so.
 
 <img src="../feature-images/click-context.png" alt="Accept Image"  />
 
