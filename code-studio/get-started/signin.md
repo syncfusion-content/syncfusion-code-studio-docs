@@ -49,7 +49,7 @@ You are now signed in. Your account info will be visible in Code Studio.
 The chat panel will display the available **Enterprise Models** ready for you to use on your coding projects.
 
 
-<img src="./getting-started-image/sign5.png" alt="SignIn" />
+<img src="./getting-started-image/enterprise.png" alt="SignIn" />
 
 Now you can take full advantage of Code Studio’s AI tools.
 
