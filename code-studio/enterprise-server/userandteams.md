@@ -45,7 +45,7 @@ Accessible via the context menu (three-dot icon):
 - **Set Team Owner**: Assign ownership for accountability.
 - **Delete Team**: Remove the team from the organization.
 
-<img src="./enterprise-images/teams.png" alt="user&Teams"  />
+<img src="./enterprise-images/addteamsenterprise.png" alt="user&Teams"  />
 
 ## 3. User Management
 
@@ -70,7 +70,7 @@ Accessible via the context menu (three-dot icon):
 - **Edit** user's name or user's role.
 - **Remove** users from the team.
 
-<img src="./enterprise-images/edituser.png" alt="user&Teams"  />
+<img src="./enterprise-images/edituserenterprise.png" alt="user&Teams"  />
 
 ## 4. Best Practices
 
