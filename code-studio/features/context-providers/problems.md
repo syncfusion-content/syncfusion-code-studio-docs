@@ -30,7 +30,7 @@ Open the chat model window of the Syncfusion Code Studio by clicking the Syncfus
 ### 3. Select Problems context
 
 In the chat window, click the `@` button.
-> **Note:** If you cannot locate the problems context option in the list, you will need to add it manually by including this context provider in the config.yaml file. Please follow the steps outlined in this [link](/code-studio/features/context-providers/add-more-contextproviders/How-to-configure-more-contextproviders) to do so.
+> **Note:** If you cannot locate the problems context option in the list, you will need to add it manually by including this context provider in the config.yaml file. Please follow the steps outlined in this [link](/code-studio/features/context-providers/add-more-contextproviders/how-to-configure-more-contextproviders) to do so.
 
 <img src="../feature-images/problems-clickcontext.png" alt="Click context menu"  />
 

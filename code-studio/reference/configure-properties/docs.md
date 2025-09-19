@@ -51,4 +51,4 @@ You can then edit the name and URL directly within the config page.
 
 <img src="../reference-images/docsedit.png" alt="Image of added documents list">
 
-**Note:** To access the added documents refer the steps in this [page](/code-studio/features/context-providers/Docs).
+**Note:** To access the added documents refer the steps in this [page](/code-studio/features/context-providers/docs).
