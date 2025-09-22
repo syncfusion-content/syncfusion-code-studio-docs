@@ -63,8 +63,8 @@ The following settings are available on the User Settings page.
   - Use Case: Accessibility/multitasking
 
 ### Development Tools
-**Agent:Max Requests:** prompts for confirmation to continue or stop streaming after reaching the maximum allowed requests
-  - Defaul limit:25
+**Agent: Max Requests:** prompts for confirmation to continue or stop streaming after reaching the maximum allowed requests
+  - Defaul limit: 25
   - Use Case: Accessibility preferences
 
 **Wrap Codeblocks:** When enabled, applies text wrapping to code blocks for better readability.
@@ -76,7 +76,7 @@ The following settings are available on the User Settings page.
   - Use Case: Enhanced code assistance
 
 **Browser Viewport:** In webpage development, enables direct navigation to the live browser page for previewing changes.
-  - Default: Off
+  - Default: Large Desktop (1280x800)
   - Use Case: Web development
 
 ### Code Completion
