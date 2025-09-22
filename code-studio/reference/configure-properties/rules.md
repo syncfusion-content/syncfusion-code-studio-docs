@@ -35,7 +35,7 @@ Click the **Syncfusion Code Studio** icon on the left toolbar to open the Syncfu
 You can add rules in two ways. You can use either method, once you save the file, Code Studio will automatically apply the changes.
 
 **1. Using the `config.yaml` file**
-- Go to Rules in the product UI and click **Add Rules**. This opens the `config.yaml` file.
+- Go to Rules and click **Add Rules**. This opens the `config.yaml` file.
 - In the file, create a `rules` section and list the instructions you want the Code Studio to follow.
 - Save the file. The Code Studio will respond according to these rules.
 
