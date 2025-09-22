@@ -30,20 +30,21 @@ keywords: code, IDE, installation, windows, setup, getting-started
 Click the **Syncfusion Code Studio** icon on the left toolbar to open the Syncfusion Code Studio chat window.
 <img src="../reference-images/rule1.png" alt="rule" >
 
-### 2. Add Rules 
+### 2. Add Rules
 
-Rules can be added locally using the “Add Rules” button. Navigate to the rules section and click the **Add Rules** button. This will open the config.yaml file.
+You can add rules in two ways. You can use either method, once you save the file, Code Studio will automatically apply the changes.
+
+1. Using the `config.yaml` file
+- Go to Rules in the product UI and click **Add Rules**. This opens the `config.yaml` file.
+- In the file, create a `rules` section and list the instructions you want the Code Studio to follow.
+- Save the file. The Code Studio will respond according to these rules.
 
 <img src="../reference-images/rule2.png" alt="rule" >
 
-In the `config.yaml` file, add a `rules` section.  Under this section, specify the rules or instructions you want the AI to follow. The AI will provide responses based on these defined rules.
-
-#### Alternative: Create Your First Rule File
-
-This is an alternative way to create Code Studio rules. You can use either the `config.yaml` rules section or this `.sfcoderules` file approach.
-
-To set up a new rules file:
-- Create a file called **.sfcoderules** at the top level of your workspace.Simply add your rules to this file, one per line. Save the file, and the AI will automatically use these rules to guide its responses.
+2. Using a `.sfcoderules` file
+- At the root of your workspace, create a file named `.sfcoderules`.
+- Add your rules to this file, one per line.
+- Save the file. Code Studio will automatically apply these rules.
 
 <img src="../reference-images/rulesfile.png" alt="rule" >
  
