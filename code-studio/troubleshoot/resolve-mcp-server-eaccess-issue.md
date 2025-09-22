@@ -1,3 +1,13 @@
+---
+title: Resolve MCP Server EACCESS Error
+description: Steps to fix EACCESS permission errors when installing MCP servers from the Marketplace in Syncfusion Code Studio.
+platform: syncfusion-code-studio
+control: IDE
+documentation: Troubleshoot
+keywords: mcp, eaccess, permission, marketplace, macos, install, error, troubleshoot, code-studio
+---
+
+
 # Resolving the EACCESS Error in Syncfusion Code Studio
 
 ## Overview

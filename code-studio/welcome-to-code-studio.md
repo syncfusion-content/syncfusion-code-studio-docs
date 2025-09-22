@@ -22,7 +22,7 @@ Deeply integrated with Syncfusion's rich component library, Syncfusion code stud
 - **Built-in Tools**: Perform file edits, searches, terminal commands, and more directly from the agent. See [Tools](/code-studio/reference/configure-properties/toolssupport).
 - **Checkpoints**: Automatically capture, compare, and restore your workspace state to track changes and recover easily. Learn more in [Checkpoints](/code-studio/features/checkpoints).
 - **Memory**: Persist relevant session details and reuse them automatically or via context providers to improve responses. See [Memory](/code-studio/features/memory).
-- **Enhance Prompt**: Refine and optimize your queries for clearer, more effective AI responses. See [Enhance Prompt](/code-studio/features/enhanceprompt.md).
+- **Enhance Prompt**: Refine and optimize your queries for clearer, more effective AI responses. See [Enhance Prompt](/code-studio/features/enhanceprompt).
 - **Ask Code Studio**: Get instant, in-editor AI suggestions to fix errors with context-aware guidance. See [Ask Code Studio](/code-studio/features/askcodestudio).
 - **Inline Edit**: Apply AI-powered fixes, optimizations, and docs right from the editor’s context menu. See [Inline Edit](/code-studio/features/inline).
 - **Apply to Current File**: Insert AI-suggested code directly into the open file with one click. See [Apply to Current File](/code-studio/features/applytocurrentfile).
