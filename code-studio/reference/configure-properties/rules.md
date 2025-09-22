@@ -38,11 +38,12 @@ Rules can be added locally using the “Add Rules” button. Navigate to the rul
 
 In the `config.yaml` file, add a `rules` section.  Under this section, specify the rules or instructions you want the AI to follow. The AI will provide responses based on these defined rules.
 
-#### How to Create Your First Rule File
+#### Alternative: Create Your First Rule File
 
-To set up a new rule file:
+This is an alternative way to create Code Studio rules. You can use either the `config.yaml` rules section or this `.sfcoderules` file approach.
 
-- Create a file called **.sfcoderules** at the top level of your workspace.
+To set up a new rules file:
+- Create a file called **.sfcoderules** at the top level of your workspace.Simply add your rules to this file, one per line. Save the file, and the AI will automatically use these rules to guide its responses.
 
 <img src="../reference-images/rulesfile.png" alt="rule" >
  
