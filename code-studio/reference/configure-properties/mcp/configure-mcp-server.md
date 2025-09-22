@@ -13,7 +13,7 @@ As AI systems evolve, they are often constrained by their dependence on fixed tr
 
 ## How to Configure MCP Servers through config.yaml
 
-You can set up an MCP server by either downloading it from the [Marketplace](./marketplace.md) or adding a local MCP server block to your configuration file.
+You can set up an MCP server by either downloading it from the [Marketplace](/code-studio/reference/configure-properties/mcp/marketplace) or adding a local MCP server block to your configuration file.
 
 ## Accessing the Config Page
 
@@ -32,7 +32,7 @@ The Config page can be accessed by clicking the gear icon located in the header 
 ```yaml
 
 mcpServers:
-  - name: Playwright
+  - name: Browser search
     command: npx
     args:
       - "@playwright/mcp@latest"
