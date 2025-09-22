@@ -14,10 +14,14 @@ keywords: code, IDE, installation, windows, setup, getting-started
 
 ## Purpose
 
-- **Set Standards:** Make sure the AI follows your coding styles, guidelines, and project needs.
-- **Keep Responses Consistent:** Ensure all answers fit your team’s requirements every time.
-- **Easily Update Guidance:** Change rules as your project evolves to always get relevant suggestions.
+- **Set Standards:** Ensure the AI follows your coding styles, guidelines, and project needs.
+- **Keep Responses Consistent:** Ensure all answers align with your team’s requirements every time.
+- **Easily Update Guidance:** Modify rules as your project evolves to maintain relevant suggestions.
 - **Support Team Alignment:** Help everyone on the project receive guidance that matches shared practices.
+
+## How Rules Work in Syncfusion Code Studio
+
+ To form the system message, rules are joined with new lines, in the order they appear in the toolbar.
 
 ## How to Use Rules
  
@@ -26,13 +30,23 @@ keywords: code, IDE, installation, windows, setup, getting-started
 Click the **Syncfusion Code Studio** icon on the left toolbar to open the Syncfusion Code Studio chat window.
 <img src="../reference-images/rule1.png" alt="rule" >
 
-### 2. Add the Rules
- 
-Navigate to the **rules** section and click the **Add Rules** button. This will navigate to the `config.yaml` file.
+### 2. Add Rules
+
+You can add rules in two ways. You can use either method, once you save the file, Code Studio will automatically apply the changes.
+
+**1. Using the `config.yaml` file**
+- Go to Rules and click **Add Rules**. This opens the `config.yaml` file.
+- In the file, create a `rules` section and list the instructions you want the Code Studio to follow.
+- Save the file. The Code Studio will respond according to these rules.
+
 <img src="../reference-images/rule2.png" alt="rule" >
 
-In the `config.yaml` file, add a `rules` section. Under that section, specify the rules or instructions you want the AI to follow. The AI will provide responses based on these defined rules.
-<img src="../reference-images/rule3.png" alt="rule" >
+**2. Using a `.sfcoderules` file**
+- At the root of your workspace, create a file named `.sfcoderules`.
+- Add your rules to this file, one per line.
+- Save the file. Code Studio will automatically apply these rules.
+
+<img src="../reference-images/rulesfile.png" alt="rule" >
  
 ### 3. Verify the Response
  
@@ -41,8 +55,7 @@ After adding the rules, give a query to the model. The response will be based on
 <img src="../reference-images/rule4.png" alt="rule" >
  
 ### 4. Edit the Rules
- 
-You can also edit the rules. Navigate to the **rules** section and click the pencil icon to edit the rules.
-This will open the `config.yaml` file where you can edit the rules.
+
+To edit rules, navigate to the rules section and click the pencil icon. This will open the `config.yaml` file, where you can modify the rules.
 
 <img src="../reference-images/rule5.png" alt="rule" >

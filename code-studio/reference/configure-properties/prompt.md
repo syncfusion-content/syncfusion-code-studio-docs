@@ -46,10 +46,9 @@ The primary purpose of custom prompts is to streamline and standardize developme
 ## How to use Prompt Files 
  
 1. Click the “Add Prompt” button, Code Studio will automatically generate your new prompt file under the `sfcodestudio/prompts/` directory. 
-2. In Code Studio chat, type `/` and pick your prompt.  
-3. Highlight code or supply context.  
-4. Run the prompt and review suggestions.  
-5. Apply accepted changes via IDE refactoring tools.  
+2. In Code Studio chat, type `/` and pick your prompt.   
+3. Run the prompt and review suggestions.  
+4. Apply accepted changes via IDE refactoring tools.  
 
 <img src="../reference-images/prompt.gif" alt="Prompt" >
 
@@ -66,6 +65,25 @@ prompt:
     5. Document test cases and set test coverage for each functionality
   ```
 
+## Using Context with @ Syntax
+
+While editing a prompt file, you can enhance its context by using the @ symbol to reference specific resources. This allows the AI to incorporate relevant information from your workspace. Available options include:
+
+**@currentFile:** References the currently open file.
+
+**@imageURL:** Includes an uploaded image for analysis.
+
+**@openedFiles:** Refers to open files in the editor.
+
+**@os:** Provides operating system-specific context.
+
+**@problems:** Accesses error or warning details from the workspace.
+
+**@repo-map:** Includes a map of the repository structure.
+
+**@terminal:** Incorporates terminal output or commands.
+
+**@fileTree:** Displays the project file tree.
 
 
-
+<img src="../reference-images/promptoptions.png" alt="Prompt" >
