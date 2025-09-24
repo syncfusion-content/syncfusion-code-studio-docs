@@ -29,12 +29,8 @@ You can sign in using one of the following methods:
 Once signed in:
 
 - You’ll be directed to the Dashboard.  
-- Click on your **Profile Icon** to access:
-  - **Settings**
-  - **Download Code Studio**
-- From the profile menu, click **Download Code Studio** to get the setup file.
-
-<img src="./enterprise-images/profile.png" alt="getting started" />
+- Click on your **Profile Icon** to access **Settings**
+  <img src="./enterprise-images/profile.png" alt="getting started" />
 
 ### 3. Managing Settings
 
