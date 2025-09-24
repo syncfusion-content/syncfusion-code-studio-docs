@@ -1,3 +1,12 @@
+---
+title: Debug Desktop Applications in Syncfusion Code Studio
+description: Step-by-step guide to debug Desktop applications in WinForms, WPF and WinUI Platforms using Syncfusion Code Studio's debugging features and tools.
+platform: syncfusion-code-studio
+control: IDE
+documentation: Troubleshoot
+keywords: winforms, wpf, winui, wf, desktop-applications, debug, debugging, breakpoints, step-through, variables, watch, call-stack, output, troubleshoot, code-studio
+---
+
 # This guide provides step-by-step instructions for debugging a Desktop application using Code Studio
 
 ## Prerequisites
