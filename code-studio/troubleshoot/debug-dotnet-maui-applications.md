@@ -51,34 +51,9 @@ Debugging is an essential part of the development process that helps identify an
 
 ## Built-in Extensions of Code Studio
 
-Syncfusion Code Studio comes with pre-installed extensions that enhance .NET MAUI development and debugging capabilities:
+Syncfusion Code Studio comes with pre-installed extensions that enhance .NET MAUI development and debugging capabilities. These extensions provide comprehensive support for cross-platform development and debugging.
 
-### DotRush Extension
-
-**DotRush** is a lightweight C# development environment that enables efficient .NET project management. This extension provides:
-
-- **Roslyn-based IntelliSense** for code completion and navigation
-- **Solution Explorer** for handling multiple projects and solutions
-- **Integrated debugging** support (including .NET Core, Unity, and Godot)
-- **Test exploration** for running NUnit/xUnit tests
-- **Performance profiling** tools
-- **Code decompilation** capabilities
-- **Multi-target diagnostics**
-
-This extension is ideal for seamless .NET and game development across Windows, macOS, and Linux platforms.
-
-**Learn More:** [JaneySprings/DotRush: Lightweight C# development environment for VSCode](https://github.com/JaneySprings/DotRush)
-
-### vscode-solution-explorer Extension
-
-**vscode-solution-explorer** adds a Solution Explorer panel for managing .sln files, mimicking Visual Studio's familiar structure. Key features include:
-
-- **Solution file management** (.sln and .slnx support)
-- **Visual Studio-like interface** for project navigation
-- **Optimized for .NET Core projects**
-- **Seamless project organization**
-
-**Learn More:** [fernandoescolar/vscode-solution-explorer: Visual Studio Solution explorer panel for VS Code](https://github.com/fernandoescolar/vscode-solution-explorer)
+**For detailed information about Code Studio's built-in extensions, see:** [Built-in Extensions of Syncfusion Code Studio](./built-in-extensions.md)
 
 <img src="./Troubleshoot-images/dotnet-maui-extensions.png" alt="Built-in extensions in Syncfusion Code Studio for .NET MAUI development" />
 
