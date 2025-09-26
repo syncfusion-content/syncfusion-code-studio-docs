@@ -68,15 +68,15 @@ Before you can develop and debug a cross-platform .NET MAUI application, you nee
 ### Step 2: Add a .NET MAUI Project to the Solution
 1. Right-click on the solution in the **Solution Explorer** panel.
 2. Select **Add New Project** from the context menu.
-<img src="./Troubleshoot-images/add-new-project.png" alt="Adding a new project to solution in Syncfusion Code Studio" />
+<img src="../../troubleshoot/Troubleshoot-images/add-new-project.png" alt="Adding a new project to solution in Syncfusion Code Studio" />
 3. In the project template selection:
    - Choose **.NET MAUI App** template
    - Specify your **application name**
    - Set the **project location**
 
-<img src="./Troubleshoot-images/maui-project-template.png" alt="Selecting .NET MAUI App template in project creation" />
+<img src="../../troubleshoot/Troubleshoot-images/maui-project-template.png" alt="Selecting .NET MAUI App template in project creation" />
 
-<img src="./Troubleshoot-images/maui-project-template-samples.png" alt="Created .NET MAUI App template in project creation" />
+<img src="../../troubleshoot/Troubleshoot-images/maui-project-template-samples.png" alt="Created .NET MAUI App template in project creation" />
 
 ## Steps to Configure and Debug a Cross-Platform .NET MAUI Application
 
@@ -88,11 +88,11 @@ Once you have successfully created your .NET MAUI project, follow these comprehe
 
 1. **Navigate to the Run and Debug section** and create the `launch.json` file using the **.NET Core Debugger**.
 
-<img src="./Troubleshoot-images/run-debug-section.png" alt="Navigating to Run and Debug section in Syncfusion Code Studio" />
+<img src="../../troubleshoot/Troubleshoot-images/run-debug-section.png" alt="Navigating to Run and Debug section in Syncfusion Code Studio" />
 
 2. **Create a `tasks.json` file** within the `.vscode` folder for build automation.
 
-<img src="./Troubleshoot-images/create-tasks-json.png" alt="Creating tasks.json file in .vscode folder" />
+<img src="../../troubleshoot/Troubleshoot-images/create-tasks-json.png" alt="Creating tasks.json file in .vscode folder" />
 
 #### Step 2: Configure tasks.json
 
@@ -253,7 +253,7 @@ YourSolution/
 
 Before executing the cross-platform application, build your project to ensure all dependencies are properly configured and resolved for target platforms.
 
-<img src="./Troubleshoot-images/Build-maui-project.png" alt="Build a cross-platform .NET MAUI project in Syncfusion Code Studio" />
+<img src="../../troubleshoot/Troubleshoot-images/Build-maui-project.png" alt="Build a cross-platform .NET MAUI project in Syncfusion Code Studio" />
 
 ### Running the Cross-Platform Application
 
@@ -262,7 +262,7 @@ Before executing the cross-platform application, build your project to ensure al
 2. Select **"Debug Windows"** from the platform configuration dropdown
 3. Click the **Start Debugging** button or press `F5`
 
-<img src="./Troubleshoot-images/debug-windows-configuration.png" alt="Windows platform debugging configuration in Run and Debug panel" />
+<img src="../../troubleshoot/Troubleshoot-images/debug-windows-configuration.png" alt="Windows platform debugging configuration in Run and Debug panel" />
 
 #### For Android Platform:
 
