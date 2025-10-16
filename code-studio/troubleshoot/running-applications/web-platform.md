@@ -140,7 +140,111 @@ echo 'console.log("Hello from JavaScript!");' > my-js-app/app.js
 3. **Start development server:** Use appropriate command from the Quick Start table above
 4. **Open application:** Browser will automatically open or navigate to the displayed localhost URL
 
----
+## Debugging Client-Side Web Applications
+
+This section covers VS Code debugging configuration and steps for JavaScript, TypeScript, Vue.js, React, and Angular applications.
+
+### VS Code Debug Configuration
+
+#### Step 1: Create Debug Configuration Files
+
+1. Navigate to the **Run and Debug** panel in Code Studio
+2. Click **"Create a launch.json file"** link
+3. Select the appropriate debugger for your application type
+
+#### Step 2: Framework-Specific Debug Configuration
+
+**For JavaScript Applications (Vanilla):**
+```json
+{
+    "name": "Debug JavaScript App",
+    "type": "chrome",
+    "request": "launch",
+    "file": "${workspaceFolder}/index.html",
+    "webRoot": "${workspaceFolder}",
+    "sourceMaps": true
+}
+```
+
+**For TypeScript Applications:**
+```json
+{
+    "name": "Debug TypeScript App",
+    "type": "chrome",
+    "request": "launch",
+    "url": "http://localhost:3000",
+    "webRoot": "${workspaceFolder}/src",
+    "sourceMaps": true,
+    "resolveSourceMapLocations": [
+        "${workspaceFolder}/**",
+        "!**/node_modules/**"
+    ],
+    "sourceMapPathOverrides": {
+        "webpack:///./*": "${workspaceFolder}/*",
+        "webpack:///src/*": "${workspaceFolder}/src/*"
+    }
+}
+```
+
+**For React Applications:**
+```json
+{
+    "name": "Debug React App",
+    "type": "chrome",
+    "request": "launch",
+    "url": "http://localhost:3000",
+    "webRoot": "${workspaceFolder}/src",
+    "sourceMaps": true,
+    "resolveSourceMapLocations": [
+        "${workspaceFolder}/**",
+        "!**/node_modules/**"
+    ]
+}
+```
+
+**For Vue.js Applications:**
+```json
+{
+    "name": "Debug Vue App",
+    "type": "chrome",
+    "request": "launch",
+    "url": "http://localhost:8080",
+    "webRoot": "${workspaceFolder}/src",
+    "sourceMaps": true,
+    "breakOnLoad": true
+}
+```
+
+**For Angular Applications:**
+```json
+{
+    "name": "Debug Angular App",
+    "type": "chrome",
+    "request": "launch",
+    "url": "http://localhost:4200",
+    "webRoot": "${workspaceFolder}/src",
+    "sourceMaps": true,
+    "sourceMapPathOverrides": {
+        "webpack:/*": "${workspaceFolder}/*",
+        "/./*": "${workspaceFolder}/*",
+        "/src/*": "${workspaceFolder}/src/*",
+        "/*": "*",
+        "/./~/*": "${workspaceFolder}/node_modules/*"
+    }
+}
+```
+
+### Browser Developer Tools Integration
+
+**Open Browser DevTools:**
+- **Chrome/Edge:** Press `F12` or `Ctrl+Shift+I`
+- **Firefox:** Press `F12` or `Ctrl+Shift+I`
+
+**Key Debugging Features:**
+- **Console Tab:** View console.log output and JavaScript errors
+- **Sources Tab:** Set breakpoints and step through code
+- **Network Tab:** Monitor HTTP requests and responses
+- **Elements Tab:** Inspect and modify DOM elements
 
 # ASP.NET Core Web Applications
 
