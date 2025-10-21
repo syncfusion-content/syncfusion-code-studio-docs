@@ -32,21 +32,31 @@ Click the **Syncfusion Code Studio** icon on the left toolbar to open the Syncfu
 
 ### 2. Add Rules
 
-You can add rules in two ways. You can use either method, once you save the file, Code Studio will automatically apply the changes.
+You can add rules in three different ways. Regardless of the method you choose, Code Studio will automatically apply the changes once the file is saved.
 
-**1. Using the `config.yaml` file**
-- Go to Rules and click **Add Rules**. This opens the `config.yaml` file.
-- In the file, create a `rules` section and list the instructions you want the Code Studio to follow.
-- Save the file. The Code Studio will respond according to these rules.
+**1. Using add Rules block**
+- Go to the **Rules** section and click **Add Rules**.
+<img src="../reference-images/rulesbutton.png" alt="rule" >
+- Enter the **rule name** and **description**, then click the **Add** button.
+<img src="../reference-images/Addrulesbutton.png" alt="rule" >
+- Once added, the rule will appear as a block in the interface and will be automatically included in the configuration file.
+<img src="../reference-images/addrulesconfig.png" alt="rule" >
 
-<img src="../reference-images/rule2.png" alt="rule" >
 
 **2. Using a `.sfcoderules` file**
 - At the root of your workspace, create a file named `.sfcoderules`.
 - Add your rules to this file, one per line.
 - Save the file. Code Studio will automatically apply these rules.
 
-<img src="../reference-images/rulesfile.png" alt="rule" >
+
+**3. Using the `config.yaml` file**
+- Open `config.yaml` page by clicking the settings icon and click on `open config file` the config page will be opened.
+- In the file, create a `rules` section and list the instructions you want the Code Studio to follow.
+- Save the file. The Code Studio will respond according to these rules.
+
+<img src="../reference-images/rule2.png" alt="rule" >
+
+
  
 ### 3. Verify the Response
  
@@ -56,6 +66,11 @@ After adding the rules, give a query to the model. The response will be based on
  
 ### 4. Edit the Rules
 
-To edit rules, navigate to the rules section and click the pencil icon. This will open the `config.yaml` file, where you can modify the rules.
+- Navigate to the **Rules** section and click the **pencil icon** next to the rule you want to edit.
 
-<img src="../reference-images/rule5.png" alt="rule" >
+<img src="../reference-images/editrule.png" alt="rule" >
+
+-  The **Edit Rules** interface will open, allowing you to update the rule name or description.
+-  After making your changes, click **Save** to apply the updates.
+
+<img src="../reference-images/saverules.png" alt="rule" >
