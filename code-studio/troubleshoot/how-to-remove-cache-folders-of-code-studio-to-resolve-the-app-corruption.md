@@ -16,12 +16,12 @@ This guide explains how to delete the Code Studio cache folders when you encount
 ### step 1: Delete the config.yaml file 
 ### WINDOWS 
 
-Delete the config.yaml file in this location "C:\Users\YourName\.sfcodestudio\.codestudio\config.yaml"
+Delete the config.yaml file in this location "C:\Users\YourName\ .sfcodestudio\ .codestudio\config.yaml"
 
 <img src="./Troubleshoot-images/windel1.png" alt="cache">
 
 ### MAC
-Delete the config.yaml file in this location "Users\syncfusion\.sfcodestudio\.codestudio\config.yaml"
+Delete the config.yaml file in this location "Users\syncfusion\ .sfcodestudio\ .codestudio\config.yaml"
 
 <img src="./Troubleshoot-images/macdel-1.png" alt="cache">
 
