@@ -29,7 +29,7 @@ Fallback Policies in Code Studio ensure uninterrupted AI workflows by automatica
 
 **Steps**:
 
-1. Go to the Policies page under the Configuration section.  
+1. Go to the fallback Policies page under the BYOK section.  
 
 <img src="./enterprise-images/fallback1.png" alt="fallback"  />
 
@@ -41,7 +41,7 @@ Fallback Policies in Code Studio ensure uninterrupted AI workflows by automatica
 
 <img src="./enterprise-images/fallback2.png" alt="fallback"  />
 
-🔄 You can edit the model list and reorder them anytime to optimize fallback behavior.
+> **Note**: You can edit the model list and reorder them anytime to optimize fallback behavior for BYOK models.
 
 ## 3. Best Practices
 
