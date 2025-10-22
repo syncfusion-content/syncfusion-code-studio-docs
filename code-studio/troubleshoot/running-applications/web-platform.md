@@ -130,8 +130,8 @@ echo 'console.log("Hello from JavaScript!");' > my-js-app/app.js
 |-----------|--------------|-------------|
 | **JavaScript (Vanilla)** | Open `index.html` in browser | `file:///path/to/index.html` |
 | **TypeScript** | `npm start` or `npm run dev` | `http://localhost:3000` |
-| **Vue.js** | `npm run serve` or `npm run dev` | `http://localhost:8080` |
-| **React** | `npm start` | `http://localhost:3000` |
+| **Vue.js** | `npm run dev` | `http://localhost:5173` |
+| **React** | `npm run dev` | `http://localhost:3000` |
 | **Angular** | `ng serve` | `http://localhost:4200` |
 
 ### Development Workflow
@@ -148,56 +148,118 @@ This section covers VS Code debugging configuration and steps for JavaScript, Ty
 
 #### Step 1: Create Debug Configuration Files
 
-1. Navigate to the **Run and Debug** panel in Code Studio
-2. Click **"Create a launch.json file"** link
-3. Select the appropriate debugger for your application type
+1. Open the **Run and Debug** panel in Code Studio (Ctrl+Shift+D)
+2. Click the **"Create a launch.json file"** link
+3. Select the appropriate debugger for your application type from the dropdown menu
 
 #### Step 2: Framework-Specific Debug Configuration
 
-**For JavaScript Applications (Vanilla):**
+**For JavaScript Applications:**
 ```json
 {
-    "name": "Debug JavaScript App",
-    "type": "chrome",
-    "request": "launch",
-    "file": "${workspaceFolder}/index.html",
-    "webRoot": "${workspaceFolder}",
-    "sourceMaps": true
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Debug JavaScript App",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}",
+            "file": "${workspaceFolder}/YourApp/index.html"
+        }
+    ]
 }
 ```
+
+#### Setting up HTTP Server for JavaScript Applications
+For debugging JavaScript applications, you need a local HTTP server to serve your `index.html` and `YourApp.js` files properly. Install a lightweight HTTP server like `http-server` via npm:
+
+```bash
+npm install -g http-server
+```
+
+Then, navigate to your `YourApp` directory in the terminal and run:
+
+```bash
+http-server . -p 8080
+```
+
+This will serve your application on `http://localhost:8080`, which matches the URL in the `launch.json` configuration.
 
 **For TypeScript Applications:**
 ```json
 {
-    "name": "Debug TypeScript App",
-    "type": "chrome",
-    "request": "launch",
-    "url": "http://localhost:3000",
-    "webRoot": "${workspaceFolder}/src",
-    "sourceMaps": true,
-    "resolveSourceMapLocations": [
-        "${workspaceFolder}/**",
-        "!**/node_modules/**"
-    ],
-    "sourceMapPathOverrides": {
-        "webpack:///./*": "${workspaceFolder}/*",
-        "webpack:///src/*": "${workspaceFolder}/src/*"
-    }
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug TypeScript App",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:3000",
+            "webRoot": "${workspaceFolder}/YourWebApp",
+            "sourceMaps": true,
+            "sourceMapPathOverrides": {
+                "webpack://YourWebApp/./src/*": "${webRoot}/src/*",
+                "webpack:///src/*": "${webRoot}/src/*",
+                "webpack:///*": "*",
+                "webpack:///./src/*": "${webRoot}/src/*"
+            },
+            "skipFiles": [
+                "${workspaceFolder}/node_modules/**/*.js",
+                "<node_internals>/**/*.js"
+            ]
+        }
+    ]
 }
+```
+#### Configure Webpack for TypeScript Development
+Create or update a `webpack.config.js` file in the project root with debugging-optimized settings:
+
+```javascript
+module.exports = {
+    mode: 'development',
+    devtool: 'source-map',
+    entry: './src/app.ts',
+    output: {
+        filename: 'bundle.js',
+        path: __dirname + '/dist',
+        publicPath: '/dist/'
+    },
+    resolve: {
+        extensions: ['.ts', '.js']
+    },
+    module: {
+        rules: [
+            {
+                test: /\.ts$/,
+                use: 'ts-loader',
+                exclude: /node_modules/
+            }
+        ]
+    },
+    devServer: {
+        static: './',
+        port: 3000,
+        hot: true
+    }
+};
 ```
 
 **For React Applications:**
 ```json
 {
-    "name": "Debug React App",
-    "type": "chrome",
-    "request": "launch",
-    "url": "http://localhost:3000",
-    "webRoot": "${workspaceFolder}/src",
-    "sourceMaps": true,
-    "resolveSourceMapLocations": [
-        "${workspaceFolder}/**",
-        "!**/node_modules/**"
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Debug React App",
+            "url": "http://localhost:5173",
+            "webRoot": "${workspaceFolder}/my-app/src",
+            "sourceMapPathOverrides": {
+                "webpack:///src/*": "${webRoot}/*"
+            }
+        }
     ]
 }
 ```
@@ -205,32 +267,80 @@ This section covers VS Code debugging configuration and steps for JavaScript, Ty
 **For Vue.js Applications:**
 ```json
 {
-    "name": "Debug Vue App",
-    "type": "chrome",
-    "request": "launch",
-    "url": "http://localhost:8080",
-    "webRoot": "${workspaceFolder}/src",
-    "sourceMaps": true,
-    "breakOnLoad": true
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug Vue App",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:5173",
+            "webRoot": "${workspaceFolder}/my-app/src",
+            "sourceMaps": true
+        }
+    ]
 }
+
+```
+
+#### Install Vue (Official) Extension
+For enhanced Vue.js development and debugging capabilities, install the official Vue extension:
+
+1. Open the **Extensions** panel in Syncfusion Code Studio (`Ctrl+Shift+X`)
+2. Search for **"Vue - Official"** by Vue.js team
+3. Click **Install** on the extension
+4. Restart Code Studio to activate the extension features
+
+#### Configure Vite for Vue.js Development
+Create or update your `vite.config.js` file in the project root with debugging-optimized settings:
+
+```javascript
+import { defineConfig } from 'vite'
+import vue from '@vitejs/plugin-vue'
+
+export default defineConfig({
+  plugins: [vue()],
+  build: {
+    sourcemap: true,
+    rollupOptions: {
+      output: {
+        sourcemapExcludeSources: false
+      }
+    }
+  },
+  server: {
+    port: 5173,
+    host: 'localhost',
+    open: false,
+    strictPort: true
+  },
+  css: {
+    devSourcemap: true
+  },
+  define: {
+    __VUE_PROD_DEVTOOLS__: true,
+  }
+})
 ```
 
 **For Angular Applications:**
 ```json
 {
-    "name": "Debug Angular App",
-    "type": "chrome",
-    "request": "launch",
-    "url": "http://localhost:4200",
-    "webRoot": "${workspaceFolder}/src",
-    "sourceMaps": true,
-    "sourceMapPathOverrides": {
-        "webpack:/*": "${workspaceFolder}/*",
-        "/./*": "${workspaceFolder}/*",
-        "/src/*": "${workspaceFolder}/src/*",
-        "/*": "*",
-        "/./~/*": "${workspaceFolder}/node_modules/*"
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "chrome",
+      "request": "launch",
+      "name": "Debug Angular App",
+      "url": "http://localhost:4200",
+      "webRoot": "${workspaceFolder}/my-angular-app",
+      "sourceMapPathOverrides": {
+        "webpack:///./src/*": "${webRoot}/src/*",
+        "webpack:///src/*": "${webRoot}/src/*",
+        "webpack:///*": "${webRoot}/*",
+        "webpack:///./~/*": "${webRoot}/node_modules/*"
+      }
     }
+  ]
 }
 ```
 
@@ -240,8 +350,8 @@ This section covers VS Code debugging configuration and steps for JavaScript, Ty
 - **Chrome/Edge:** Press `F12` or `Ctrl+Shift+I`
 - **Firefox:** Press `F12` or `Ctrl+Shift+I`
 
-**Key Debugging Features:**
-- **Console Tab:** View console.log output and JavaScript errors
+**Debugging Features:**
+- **Console Tab:** View console.log output and errors
 - **Sources Tab:** Set breakpoints and step through code
 - **Network Tab:** Monitor HTTP requests and responses
 - **Elements Tab:** Inspect and modify DOM elements
@@ -665,7 +775,3 @@ For a comprehensive visual guide on web platform development and running applica
 - [Microsoft Blazor WebAssembly Development Guide](https://docs.microsoft.com/aspnet/core/blazor/debug)
 - [Blazor WebAssembly Performance Best Practices](https://docs.microsoft.com/aspnet/core/blazor/webassembly-performance-best-practices)
 - [Chrome WebAssembly Developer Tools](https://developer.chrome.com/docs/devtools/)
-
-**General Resources:**
-- [Visual Studio Code .NET Development](https://code.visualstudio.com/docs/languages/dotnet)
-- [DotRush Extension Documentation](https://github.com/JaneySprings/DotRush)
