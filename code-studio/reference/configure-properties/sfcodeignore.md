@@ -5,7 +5,7 @@ platform: syncfusion-code-studio
 keywords: sfcodeignore, ignore, indexing
 ---
 
-# .sfcodeignore
+# .Sfcodeignore
 
 The “.sfcodeignore” file allows you to specify files or directories from your workspace that should be ignored during indexing when using the Syncfusion Code Studio. This is useful for excluding irrelevant, sensitive, or unnecessary files from being processed.
 
