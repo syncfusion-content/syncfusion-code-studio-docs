@@ -25,7 +25,15 @@ The installation process for **Syncfusion code studio IDE** is straightforward a
 ### Step 1: Start Installation
 
 - Visit the official website: [Syncfusion code studio](https://www.syncfusion.com/code-studio)
-- Click on the **Download** button to obtain the installer for Windows.
+- Click the **Get Started Now** button.
+  <img src="./getting-started-image/windowsgetstarted.png" alt="Get Started Now"  />
+- Follow the instructions to sign in with [Syncfusion code studio](/code-studio/enterprise-server/getting-started)
+- Click on the download code studio ide.
+  <img src="./getting-started-image/downloadcodestudio.png" alt="download code studio ide"  />
+- A list of download options will appear.
+  <img src="./getting-started-image/downloadoptions.png" alt="download code studio ide"  />
+- Click the **Download Code Editor** option to begin downloading the IDE to your machine.
+  <img src="./getting-started-image/downloadicon.png" alt="download code studio ide"  />
 - Double-click the installer to begin the installation process.
 - The installation wizard will appear on the screen.
 

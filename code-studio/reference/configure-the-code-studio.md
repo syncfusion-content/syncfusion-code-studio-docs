@@ -11,7 +11,7 @@ The Syncfusion code studio can be configured using the `config.yaml` specificati
 1. Open the settings of Syncfusion code studio chat
 2. And click `Open Config File`
 
-<img src="./reference-images/config-cody.png" alt="open config file"  />
+<img src="./reference-images/openconfig.png" alt="open config file"  />
 
 You add your configuration setting in the opened `config.yaml` file.
 
