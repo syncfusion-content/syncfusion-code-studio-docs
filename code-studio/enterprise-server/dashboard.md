@@ -68,8 +68,11 @@ You can monitor:
 
 ### Step 2: Review Summary Metrics
 
+- Separate graphical widgets for premium model and BYOK model.
 - Observe the graphical widgets displaying cost, tokens, requests, and latency.
 - Hover over charts for detailed tooltips and breakdowns.
+
+<img src="./enterprise-images/dashboardBYOK.png" alt="dashboard"  />
 
 ### Step 3: Filter by Team or User
 
