@@ -22,64 +22,58 @@ User settings provide a way to tailor the development environment to individual 
 
 The User Settings page can be accessed by clicking the gear icon located in the header of the Code Studio, then selecting the Settings tab.
 
-<img src="../reference-images/settings.png" alt="UserSettings" >
+
 
 ## Settings Categories
 
 The following settings are available on the User Settings page.
 
-<img src="../reference-images/settings2.png" alt="UserSettings" >
 
-### Interface & Display
+### Chat
 
 **Show Session Tabs:** When enabled, displays tabs above the chat window to organize and access your sessions.
   - Default: Off
   - Use Case: Multi-project workflows
 
+**Wrap Codeblocks:** When enabled, applies text wrapping to code blocks for better readability.
+  - Default: Off
+  - Use Case: Long code readability
+
 **Show Chat Scrollbar:** When enabled, displays a scrollbar in the chat window for easier navigation.
   - Default: Off
   - Use Case: Long conversation navigation
-
-**Font Size:** Sets the base font size for UI elements, allowing customization of text size across the interface.
-  - Default: System
-  - Use Case: Accessibility preferences
-
-**Format Markdown:** When enabled, formats responses as markdown for improved readability. When disabled, responses are shown as raw text.
-  - Default: On
-  - Use Case: Professional presentation
-
-### AI & Memory Features
-
-**Enable Memory:** Allows the assistant to recall and reuse relevant information from past interactions to enhance response context.
-  - Default: On
-  - Use Case: Consistent assistance
-
-**Enable Session Titles:** When enabled, generates summary titles for each chat session after the first message, using the current chat model.
-  - Default: On
-  - Use Case: Better organization
 
 **Text-to-Speech Output:** When enabled, reads the assistant's responses aloud using text-to-speech (TTS) functionality.
   - Default: Off
   - Use Case: Accessibility/multitasking
 
-### Development Tools
+**Enable Session Titles:** When enabled, generates summary titles for each chat session after the first message, using the current chat model.
+  - Default: On
+  - Use Case: Better organization
+
+**Format Markdown:** When enabled, formats responses as markdown for improved readability. When disabled, responses are shown as raw text.
+  - Default: On
+  - Use Case: Professional presentation
+
+**Enable Summarization:** When enabled, intelligently summarizes older messages when conversations exceed context limits, preserving essential points while freeing up capacity for new interactions.
+  - Default: On
+  - Use Case: Long-running conversations and high-traffic sessions
+
 **Agent: Max Requests:** prompts for confirmation to continue or stop streaming after reaching the maximum allowed requests
   - Defaul limit: 25
   - Use Case: Accessibility preferences
 
-**Wrap Codeblocks:** When enabled, applies text wrapping to code blocks for better readability.
-  - Default: Off
-  - Use Case: Long code readability
+<img src="../reference-images/settings2.png" alt="UserSettings" >
 
-**Enable Indexing:** Enables indexing of the codebase for use with @codebase and @code context providers, improving code-related queries.
+### Telemetry
+
+**Allow Anonymous Telemetry:** When enabled, permits Code Studio to collect anonymous telemetry data to improve the product.
   - Default: On
-  - Use Case: Enhanced code assistance
+  - Impact: Helps enhance features
 
-**Browser Viewport:** In webpage development, enables direct navigation to the live browser page for previewing changes.
-  - Default: Large Desktop (1280x800)
-  - Use Case: Web development
+<img src="../reference-images/settings3.png" alt="UserSettings" >
 
-### Code Completion
+### Autocomplete
 
 **Multiline Autocompletions:** Controls multiline autocomplete behavior. Options are:
   - Always: Always provide multiline completions.
@@ -87,12 +81,49 @@ The following settings are available on the User Settings page.
   - Auto: Automatically determine when multiline completions are appropriate.
   - Default: Auto
 
+<img src="../reference-images/settings4.png" alt="UserSettings" >
 
-**Disable Autocomplete in Files:** Specifies a comma-separated list of glob patterns to disable autocomplete in matching files.
-  - Default: None
+### Appearance
 
-### Privacy & Analytics
+**Font Size:** Sets the base font size for UI elements, allowing customization of text size across the interface.
+  - Default: System
+  - Use Case: Accessibility preferences
 
-**Allow Anonymous Telemetry:** When enabled, permits Code Studio to collect anonymous telemetry data to improve the product.
+**Browser Viewport:** In webpage development, enables direct navigation to the live browser page for previewing changes.
+  - Default: Large Desktop (1280x800)
+  - Use Case: Web development
+
+<img src="../reference-images/settings5.png" alt="UserSettings" >
+
+### Indexing
+
+**Enable Indexing:** Enables indexing of the codebase for use with @codebase and @code context providers, improving code-related queries.
   - Default: On
-  - Impact: Helps enhance features
+  - Use Case: Enhanced code assistance
+
+<img src="../reference-images/settings6.png" alt="UserSettings" >
+
+### Memory
+
+**Enable Memory:** Allows the assistant to recall and reuse relevant information from past interactions to enhance response context.
+  - Default: On
+  - Use Case: Consistent assistance
+
+<img src="../reference-images/settings7.png" alt="UserSettings" >
+
+### Help & Support
+
+- **Documentation**  
+  Access the official Syncfusion Code Studio documentation for configuration guidance and usage instructions.
+
+- **Report an Issue**  
+  Encountering a problem? Reach out to our support team at [support@syncfusion.com](https://support.syncfusion.com).
+
+- **Token Usage**  
+  View daily token consumption across supported models for better usage tracking.
+
+## Keyboard Shortcuts
+
+Quickly navigate and interact with Code Studio using the following shortcuts.
+
+<img src="../reference-images/settings8.png" alt="UserSettings" >

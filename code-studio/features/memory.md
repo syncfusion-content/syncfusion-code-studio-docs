@@ -7,20 +7,11 @@ keywords: code, IDE, AI, developer-tools, syncfusion, memory, context, productiv
 
 # Memory
 
-The Memory feature in Syncfusion Code Studio enhances your AI chat experience by allowing the assistant to recall and reuse relevant information from past interactions. This ensures continuity, improves response accuracy, and supports complex or multi-step workflows. Memory is divided into two key components:
-- Automatic Memory
-- Memory Context Provider
+The Memory feature in Syncfusion Code Studio enhances your AI chat experience by allowing the assistant to recall and reuse relevant information from past interactions. This ensures continuity, improves response accuracy, and supports complex or multi-step workflows.
 
-## 1. Automatic Memory
-This mode allows the assistant to automatically include relevant past memory in your current query context. It works silently in the background, surfacing only the most relevant information when needed.
 
-### Benefits:
-- No manual effort required.
-- Seamless continuity across sessions.
-- Ideal for ongoing projects or recurring tasks.
-
-## 2. Memory Context Provider
-This manual mode gives you full control over which past conversations are referenced in your current session.
+## Memory Context Provider
+Memory Context Provider gives you full control over which past conversations are referenced in your current session.
 
 ### How to Use:
 1. Open Syncfusion Code Studio.
@@ -37,7 +28,7 @@ This manual mode gives you full control over which past conversations are refere
 
 Once selected, the memory is added to your context, helping the assistant respond with greater relevance.
 
-## 3. Managing Memories
+## Managing Memories
 You can edit or delete memories to keep your workspace organized and up to date. Click on the open settings icon and navigate to the Memory section.
 <img src="./feature-images/memory2.png" alt="edit delete memory" />
 - Edit: Click the edit icon next to a memory to update its summary.
@@ -49,7 +40,7 @@ You can edit or delete memories to keep your workspace organized and up to date.
 You can also toggle the Memory feature on or off anytime from the User Settings page.
 <img src="./feature-images/memory4.png" alt="edit delete memory" />
 
-## 4. Progress bar
+## Progress bar
 The progress bar is based on the saved memories storage. When the saved memories increase the size of the progress bar will also increase simultaneously. When you delete the saved memories the size of the progress bar will decrease. If the progress bar limit is full the storage is over(50mb). After that the memories will not be saved. You need to delete the memories to store new ones.
 
 <img src="./feature-images/memory-progressbar.png" alt="memory" >
