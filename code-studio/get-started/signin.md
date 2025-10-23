@@ -44,9 +44,9 @@ After successful authentication, you’ll see a confirmation screen.
 
 <img src="./getting-started-image/sign4.png" alt="SignIn" />
 
-### Step 5: Access Premium Models
+### Step 5: Access Premium Models and BYOK models
 You are now signed in. Your account info will be visible in Code Studio.
-The chat panel will display the available **Premium Models** ready for you to use on your coding projects.
+The chat panel will display the available **Premium Models** and **BYOK Models** ready for you to use on your coding projects.
 
 
 <img src="./getting-started-image/enterprise.png" alt="SignIn" />
@@ -60,6 +60,6 @@ If you skip the sign-in, you can still hook up your own AI model by providing an
 <img src="./getting-started-image/signaddmodel.png" alt="SignIn" />
 
 At any time, click the **Login** or **Sign Up** buttons in the top-right corner of the Code Studio window to:
-- Switch to premium models
+- Switch to premium models and BYOK models
 - View or update your account settings
 <img src="./getting-started-image/sign1.png" alt="SignIn" />
