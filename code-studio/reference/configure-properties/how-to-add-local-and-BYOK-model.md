@@ -24,6 +24,8 @@ you can see the added model appear in local model category in model's section
 Navigate to Code Studio dashboard website by clicking the dashboard button in the profile icon.
 
 <img src="../reference-images/BYOK1.png" alt="BYOK">
+<img src="../reference-images/BYOK7.png" alt="BYOK">
+
 
 In the dashboard website navigate to BYOK/LLM keys section and add the LLM key by clicking 'Add LLM key' button
 
