@@ -24,8 +24,7 @@ To integrate an LLM provider into Code Studio:
    - **Provider Name**: Enter the name of the LLM provider (e.g., OpenAI, Anthropic).  
    - **API Key**: Paste the API key provided by the LLM service.  
 4. Click **“Add”** to save the provider.
-
-<img src="./enterprise-images/llm and providers.png" alt="Provider" />
+  <img src="./enterprise-images/llm and providers.png" alt="Provider" />
 
 ✅ Once added, the provider will be available for model selection.
 
@@ -44,7 +43,6 @@ To add a model under a configured provider:
    - **Modes**: Select one or more modes in which the model should be used. This is a multi-select field, allowing you to choose multiple modes for a single model.
   <img src="./enterprise-images/addmode.png" alt="provider" /> 
 5. Click Add to include the model in your BYOK model list.
-
   <img src="./enterprise-images/add model.png" alt="provider" />
 6. Click Manage Default Settings to customize which AI models are used for key IDE functionalities like chat, edit, apply, and autocomplete.
 

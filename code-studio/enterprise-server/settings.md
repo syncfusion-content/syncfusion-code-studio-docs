@@ -58,22 +58,22 @@ Add-on credits fund model usage across your organization.
     <tr>
       <td>Free</td>
       <td>$0</td>
-      <td>IDE access, 4 AI models, UI builder, dashboards, community support</td>
+      <td>IDE access, Enterprise server for 1 user, 4 AI models, UI builder, MCP server integration, Quick actions and codebase search, Memory and image input support.</td>
     </tr>
     <tr>
       <td>Basic</td>
       <td>$20/month</td>
-      <td>Premium & BYOK models, team dashboards, fallback policies, basic support</td>
+      <td>Premium & BYOK models, team dashboards, fallback policies, Team-wide credit pooling, Custom credit recharge, 2000 credits per user</td>
     </tr>
     <tr>
       <td>Pro</td>
       <td>$30/month</td>
-      <td>Everything in Basic + 1300 credits/user, priority support</td>
+      <td>Everything in Basic + 10% bonus in credit, 3300 credits per user.</td>
     </tr>
     <tr>
       <td>Enterprise</td>
-      <td>Custom pricing</td>
-      <td>Everything in Pro + 2000 credits/user, 4800 credits/org, enterprise support</td>
+      <td>$40/month</td>
+      <td>Everything in Pro + 20% bonus in credit, 4800 credits per user.</td>
     </tr>
     <tr>
       <td>BYOK Unlimited</td>
