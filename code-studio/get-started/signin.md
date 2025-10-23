@@ -2,7 +2,7 @@
 title: Signing in with Syncfusion Code Studio
 description: Learn how to sign in to Syncfusion Code Studio to access powerful enterprise AI models for advanced code generation, analysis, and developer assistance.
 platform: syncfusion-code-studio
-keywords: signin, login, authentication, syncfusion, code-studio, enterprise models, getting started
+keywords: signin, login, authentication, syncfusion, code-studio, premium models, getting started
 ---
 
 # Code Studio Signing In
@@ -15,7 +15,7 @@ Signing in connects you to powerful enterprise AI models for advanced code gener
 After installing Code Studio, you’ll land on a welcome page where you can:
 - **Sign Up** to create a new account
 - **Log In** if you already have an account
-- **Skip & Continue** to use Code Studio purely as a code editor without using the enterprise models. You may also connect your own local models by supplying your own API key (**BYOK**).
+- **Skip & Continue** to use Code Studio purely as a code editor without using the premium models. You may also connect your own local models by supplying your own API key (**BYOK**).
 
 <img src="./getting-started-image/sign0.png" alt="SignIn" />
 
@@ -44,9 +44,9 @@ After successful authentication, you’ll see a confirmation screen.
 
 <img src="./getting-started-image/sign4.png" alt="SignIn" />
 
-### Step 5: Access Enterprise Models
+### Step 5: Access Premium Models and BYOK models
 You are now signed in. Your account info will be visible in Code Studio.
-The chat panel will display the available **Enterprise Models** ready for you to use on your coding projects.
+The chat panel will display the available **Premium Models** and **BYOK Models**  ready for you to use on your coding projects.
 
 
 <img src="./getting-started-image/enterprise.png" alt="SignIn" />
@@ -60,6 +60,6 @@ If you skip the sign-in, you can still hook up your own AI model by providing an
 <img src="./getting-started-image/signaddmodel.png" alt="SignIn" />
 
 At any time, click the **Login** or **Sign Up** buttons in the top-right corner of the Code Studio window to:
-- Switch to enterprise models
+- Switch to premium models and BYOK models
 - View or update your account settings
 <img src="./getting-started-image/sign1.png" alt="SignIn" />
