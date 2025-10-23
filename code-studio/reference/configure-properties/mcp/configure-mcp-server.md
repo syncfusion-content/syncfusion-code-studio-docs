@@ -19,7 +19,7 @@ You can set up an MCP server by either downloading it from the [Marketplace](/co
 
 The Config page can be accessed by clicking the gear icon located in the header of the Code Studio, then selecting the Settings tab.
 
-<img src="../../reference-images/settings.png" alt="Config Page" >
+<img src="../../reference-images/openconfig.png" alt="Config Page" >
 
 ## Open Config file
 
