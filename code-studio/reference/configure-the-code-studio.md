@@ -1,14 +1,14 @@
 ---
-title: Cofigure the Syncfusion code studio
-description: Instructions on how to set up and customize Syncfusion code studio for your development environment
+title: Cofigure the Syncfusion Code Studio
+description: Instructions on how to set up and customize Syncfusion Code Studio for your development environment
 platform: syncfusion-code-studio
 keywords: code, IDE, AI, developer-tools, syncfusion, code-assistance, productivity, UI-generation, bug-fixing, documentation
 ---
-# Configure the Syncfusion code studio
+# Configure the Syncfusion Code Studio
 
-The Syncfusion code studio can be configured using the `config.yaml` specification. To open this file, follow the below steps.
+The Syncfusion Code Studio can be configured using the `config.yaml` specification. To open this file, follow the below steps.
 
-1. Open the settings of Syncfusion code studio chat
+1. Open the settings of Syncfusion Code Studio chat
 2. And click `Open Config File`
 
 <img src="./reference-images/openconfig.png" alt="open config file"  />

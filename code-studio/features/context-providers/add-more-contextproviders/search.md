@@ -2,7 +2,7 @@
 title: Using the Search Context in Syncfusion Code Studio
 description: Learn how to use the Search context feature in Syncfusion Code Studio to search across your codebase or documentation efficiently.
 platform: syncfusion-code-studio
-keywords: syncfusion, syncfusion code studio, search, exactsearch, context, codebase, AI, developer-tools, productivity
+keywords: syncfusion, syncfusion Code Studio, search, exactsearch, context, codebase, AI, developer-tools, productivity
 ---
  
 # Search 

@@ -7,7 +7,7 @@ keywords: cache, corruption, troubleshoot
 
 
 
-# How to remove cache folders of code studio to resolve the app corruption.
+# How to remove cache folders of Code Studio to resolve the app corruption.
 
 This guide explains how to delete the Code Studio cache folders when you encounter application corruption issues.
 
@@ -25,7 +25,7 @@ Delete the config.yaml file in this location "Users\syncfusion\ .sfcodestudio\ .
 
 <img src="./Troubleshoot-images/macdel-1.png" alt="cache">
 
-### step 2: Delete the Syncfusion Code studio folders
+### step 2: Delete the Syncfusion Code Studio folders
 ### WINDOWS
 Delete the Syncfusion Code Studio folder in these locations "C:\Program Files\Syncfusion Code Studio" and "C:\Users\YourName\AppData\Roaming\Syncfusion Code Studio"
 

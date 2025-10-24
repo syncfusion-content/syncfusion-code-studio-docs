@@ -1,6 +1,6 @@
 ---
-title: Syncfusion code studio Edit Mode
-description: Edit mode in Syncfusion code studio allows you to make targeted changes to your codebase with the help of AI.
+title: Syncfusion Code Studio Edit Mode
+description: Edit mode in Syncfusion Code Studio allows you to make targeted changes to your codebase with the help of AI.
 platform: syncfusion-code-studio
 keywords: code, IDE, AI, developer-tools, syncfusion, code-assistance, productivity, UI-generation, bug-fixing, documentation
 ---
@@ -19,9 +19,9 @@ You can easily get AI help with specific code segments by:
   - `Command + I` (Mac)  
   - `Control + I` (Windows)
 
-- This action will automatically send the selected code to the Syncfusion code studio via chat.
+- This action will automatically send the selected code to the Syncfusion Code Studio via chat.
 
-- You can then specify the update for the selected code and describe the changes you want the assistant (Syncfusion code studio) to apply.
+- You can then specify the update for the selected code and describe the changes you want the assistant (Syncfusion Code Studio) to apply.
 
 <img src="./feature-images/edit1.png" alt="Edit Mode"  />
 

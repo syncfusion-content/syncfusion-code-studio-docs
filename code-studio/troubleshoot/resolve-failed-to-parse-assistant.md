@@ -16,7 +16,7 @@ Failed to parse assistant: name: Required
 
 <img src="./Troubleshoot-images/confignamemissing.png" alt="Config error"  />
 
-This occurs when the `name` field is missing in the Code studio configuration YAML file. This guide explains how to add the missing field and resolve the issue.
+This occurs when the `name` field is missing in the Code Studio configuration YAML file. This guide explains how to add the missing field and resolve the issue.
 
 
 
