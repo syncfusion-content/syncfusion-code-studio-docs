@@ -1,6 +1,6 @@
 ---
 title: docs
-description: Details about configuring documentation sources to be indexed and made available for Syncfusion code studio IDE's language models.
+description: Details about configuring documentation sources to be indexed and made available for Syncfusion Code Studio IDE's language models.
 platform: syncfusion-code-studio
 control: IDE
 documentation: Getting Started

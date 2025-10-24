@@ -2,7 +2,7 @@
 title: Using the GitHub Issues Context in Syncfusion Code Studio
 description: Learn how to use the GitHub Issues context feature in Syncfusion Code Studio to integrate GitHub issue data directly into your AI interactions for enhanced collaboration.
 platform: syncfusion-code-studio
-keywords: syncfusion code studio, syncfusion, github, issues, context, code-studio, developer-tools, AI, productivity
+keywords: syncfusion Code Studio, syncfusion, github, issues, context, code-studio, developer-tools, AI, productivity
 ---
  
 # GitHub Issues

@@ -1,13 +1,13 @@
 ---
-title: Syncfusion code studio Agent Mode
-description: Agent Mode in Syncfusion code studio is an autonomous AI assistant that can analyze, edit, and execute changes across your codebase with minimal input.
+title: Syncfusion Code Studio Agent Mode
+description: Agent Mode in Syncfusion Code Studio is an autonomous AI assistant that can analyze, edit, and execute changes across your codebase with minimal input.
 platform: syncfusion-code-studio
 keywords: "code, IDE, AI, developer-tools, syncfusion, code-assistance, productivity, UI-generation, bug-fixing, documentation"
 ---
 
 # Agent Mode
 
-**Agent mode** in Syncfusion code studio is an AI coding assistant that works independently to explore your code, plan updates, and complete complex tasks. It’s designed to save you time by reading files, editing code, running commands, and using available tools — all with minimal input from you.
+**Agent mode** in Syncfusion Code Studio is an AI coding assistant that works independently to explore your code, plan updates, and complete complex tasks. It’s designed to save you time by reading files, editing code, running commands, and using available tools — all with minimal input from you.
 
 You can switch to **Agent mode** in the mode selector below the chat input box.
 

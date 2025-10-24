@@ -2,7 +2,7 @@
 title: Using the URL Context in Syncfusion Code Studio
 description: Learn how to use the URL context feature in Syncfusion Code Studio to bring web page content directly into AI conversations for better context.
 platform: syncfusion-code-studio
-keywords: syncfusion, syncfusion code studio, url, context, web, ai, developer-tools, productivity
+keywords: syncfusion, syncfusion Code Studio, url, context, web, ai, developer-tools, productivity
 ---
  
 # URL 
