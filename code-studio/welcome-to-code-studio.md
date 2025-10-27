@@ -1,16 +1,16 @@
 ---
-title: Welcome to Syncfusion code studio
-description: An introduction to Syncfusion code studio, the AI-powered IDE by Syncfusion for enhanced developer productivity
+title: Welcome to Syncfusion Code Studio
+description: An introduction to Syncfusion Code Studio, the AI-powered IDE by Syncfusion for enhanced developer productivity
 platform: syncfusion-code-studio
 documentation: Getting Started
 keywords: code, IDE, AI, developer-tools, syncfusion, code-assistance, productivity, UI-generation, bug-fixing, documentation
 ---
 
-# Welcome to Syncfusion code studio
+# Welcome to Syncfusion Code Studio
 
-Syncfusion code studio is a next-generation AI-powered Integrated Development Environment (IDE), designed to supercharge developer productivity. With built-in AI assistance, Syncfusion code studio understands your codebase, provides context-aware suggestions, and automates tasks such as UI generation, bug fixing, and documentation — all while keeping developers in control.
+Syncfusion Code Studio is a next-generation AI-powered Integrated Development Environment (IDE), designed to supercharge developer productivity. With built-in AI assistance, Syncfusion Code Studio understands your codebase, provides context-aware suggestions, and automates tasks such as UI generation, bug fixing, and documentation — all while keeping developers in control.
 
-Deeply integrated with Syncfusion's rich component library, Syncfusion code studio empowers teams to build robust, scalable applications with speed and precision.
+Deeply integrated with Syncfusion's rich component library, Syncfusion Code Studio empowers teams to build robust, scalable applications with speed and precision.
 
 ## Key Features
 - **Autocomplete Mode**: AI-powered code suggestions as you type, based on your current project. Learn more on the [Autocomplete](/code-studio/features/autocomplete) page.

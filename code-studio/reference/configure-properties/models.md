@@ -1,6 +1,6 @@
 ---
 title: Models
-description: Details about configuring language models that are available for use in Syncfusion code studio IDE.
+description: Details about configuring language models that are available for use in Syncfusion Code Studio IDE.
 platform: syncfusion-code-studio
 control: IDE
 documentation: Getting Started

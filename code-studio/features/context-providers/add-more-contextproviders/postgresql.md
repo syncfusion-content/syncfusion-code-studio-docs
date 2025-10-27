@@ -2,7 +2,7 @@
 title: Using the PostgreSQL Context in Syncfusion Code Studio
 description: Learn how to use the PostgreSQL context feature in Syncfusion Code Studio to interact with PostgreSQL databases directly from your development environment.
 platform: syncfusion-code-studio
-keywords: syncfusion, syncfusion code studio, postgresql, database, context, code-studio, AI, developer-tools, productivity
+keywords: syncfusion, syncfusion Code Studio, postgresql, database, context, code-studio, AI, developer-tools, productivity
 ---
  
 # PostgreSQL 

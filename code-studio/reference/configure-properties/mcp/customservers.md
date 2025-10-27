@@ -8,7 +8,7 @@ keywords: custom-mcp-server, remote-server, npm-server, local-server, code-studi
 ---
 
 # Custom Servers
-Custom Servers allows users to connect to any custom MCP servers, providing a seamless way to link these servers to the code studio extension for enhanced accessibility and control. 
+Custom Servers allows users to connect to any custom MCP servers, providing a seamless way to link these servers to the Code Studio extension for enhanced accessibility and control. 
 1.	Remote server 
 2.	NPM server 
 3.	Local server 
@@ -23,7 +23,7 @@ Navigate to MCP section by clicking MCP icon and move to custom servers tab.
  <img src="../../reference-images/customserver.png" alt="customserver" >
 
 ## Remote Server: 
-This option allows user to connect existing remote servers to the code studio extension using the remote server url end point. 
+This option allows user to connect existing remote servers to the Code Studio extension using the remote server url end point. 
 Fill server name, server url, choose server type as remote server  then click ‘add server’ button 
 <img src="../../reference-images/customremote1.png" alt="customserver" >
 After installation, the custom remote server entry occurs in config.yaml file and user installed servers section.  
@@ -33,7 +33,7 @@ Also, the added custom remote server occurs in MCP section and custom remote ser
  <img src="../../reference-images/customremote4.png" alt="customserver" >
  
 ## NPM Server: 
-This option allows user to install and configure mcp server as npm package to the code studio extension using npm package name. 
+This option allows user to install and configure mcp server as npm package to the Code Studio extension using npm package name. 
 Fill server name, NPM package, choose server type as npm package then click ‘add server’.  
  <img src="../../reference-images/customnpm1.png" alt="customserver" >
 After installation, the custom npm server entry occurs in config.yaml file and user installed servers section.  
@@ -43,7 +43,7 @@ Also, the added custom npm server occurs in MCP section and custom npm server �
  <img src="../../reference-images/customnpm4.png" alt="customserver" >
  
 ## Local server: 
-This option allows user to build and configure the mcp server from the server source to the code studio extension. 
+This option allows user to build and configure the mcp server from the server source to the Code Studio extension. 
 Fill server name, script path, choose server type as local server then click ‘add server’.  
  <img src="../../reference-images/customlocal1.png" alt="customserver" >
 After installation, the custom local server entry occurs in config.yaml file and user installed servers section.  

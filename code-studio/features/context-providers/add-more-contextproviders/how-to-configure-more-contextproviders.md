@@ -2,7 +2,7 @@
 title: Adding More Context Providers in Syncfusion Code Studio
 description: Learn how to add more context providers to enhance AI understanding of your project in Syncfusion Code Studio by editing the config.yaml file.
 platform: syncfusion-code-studio
-keywords: syncfusion, syncfusion code studio, context providers, add context, config.yaml, ai, developer-tools, productivity
+keywords: syncfusion, syncfusion Code Studio, context providers, add context, config.yaml, ai, developer-tools, productivity
 ---
  
 # How to configure more context providers
@@ -45,7 +45,7 @@ Get Problems from the current file.
 ```
 
 ### Terminal
-Reference the most recent command executed in your Syncfusion code studio terminal along with its output.
+Reference the most recent command executed in your Syncfusion Code Studio terminal along with its output.
 ```yaml
 - provider: terminal
 ```

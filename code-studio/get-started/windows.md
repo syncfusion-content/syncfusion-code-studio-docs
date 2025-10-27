@@ -1,6 +1,6 @@
 ---
-title: Installing Syncfusion code studio on Windows
-description: Step-by-step guide for installing Syncfusion code studio IDE on Windows operating system
+title: Installing Syncfusion Code Studio on Windows
+description: Step-by-step guide for installing Syncfusion Code Studio IDE on Windows operating system
 platform: syncfusion-code-studio
 control: IDE
 documentation: Getting Started
@@ -9,7 +9,7 @@ keywords: code, IDE, installation, windows, setup, getting-started
 
 # Installation on Windows
 
-The installation process for **Syncfusion code studio IDE** is straightforward and user-friendly. Simply download the installer from the official Syncfusion website, follow the on-screen instructions to complete the installation, and then launch the IDE. Once installed, you can start using Syncfusion code studio immediately to enhance your development experience.
+The installation process for **Syncfusion Code Studio IDE** is straightforward and user-friendly. Simply download the installer from the official Syncfusion website, follow the on-screen instructions to complete the installation, and then launch the IDE. Once installed, you can start using Syncfusion Code Studio immediately to enhance your development experience.
 
 
 ## System Requirements
@@ -20,20 +20,20 @@ The installation process for **Syncfusion code studio IDE** is straightforward a
 - **Disk Space**: 2GB of available space
 - **Internet Connection**: Required for downloading the installer and receiving updates
 
-##  Steps to Install Syncfusion code studio IDE
+##  Steps to Install Syncfusion Code Studio IDE
 
 ### Step 1: Start Installation
 
-- Visit the official website: [Syncfusion code studio](https://www.syncfusion.com/code-studio)
+- Visit the official website: [Syncfusion Code Studio](https://www.syncfusion.com/code-studio)
 - Click the **Get Started Now** button.
   <img src="./getting-started-image/windowsgetstarted.png" alt="Get Started Now"  />
-- Follow the instructions to sign in with [Syncfusion code studio](/code-studio/enterprise-server/getting-started)
-- Click on the download code studio ide.
-  <img src="./getting-started-image/downloadcodestudio.png" alt="download code studio ide"  />
+- Follow the instructions to sign in with [Syncfusion Code Studio](/code-studio/enterprise-server/getting-started)
+- Click on the download Code Studio ide.
+  <img src="./getting-started-image/downloadcodestudio.png" alt="download Code Studio ide"  />
 - A list of download options will appear.
-  <img src="./getting-started-image/downloadoptions.png" alt="download code studio ide"  />
+  <img src="./getting-started-image/downloadoptions.png" alt="download Code Studio ide"  />
 - Click the **Download Code Editor** option to begin downloading the IDE to your machine.
-  <img src="./getting-started-image/downloadicon.png" alt="download code studio ide"  />
+  <img src="./getting-started-image/downloadicon.png" alt="download Code Studio ide"  />
 - Double-click the installer to begin the installation process.
 - The installation wizard will appear on the screen.
 
@@ -94,13 +94,15 @@ After installation, the IDE launches with a **Welcome Page** to help you get sta
 
 ###  Open Chat Page
 
-- Start a new chat session to interact with **Syncfusion code studio** directly.
+- Start a new chat session to interact with **Syncfusion Code Studio** directly.
 
 <img src="./getting-started-image/openchatpage.png" alt="Open the Chat"  />
 
 ### Add Chat Model
 
 - Open a popup to configure your AI model, including provider, model name, and API key. 
+
+<img src="./getting-started-image/addchatmodelopen0.png" alt="Add the chat model"  />
 
 <img src="./getting-started-image/addchatmodelopen.png" alt="Add the chat model"  />
 

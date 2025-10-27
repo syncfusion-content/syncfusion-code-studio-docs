@@ -2,7 +2,7 @@
 title: Using the Debugger Context in Syncfusion Code Studio
 description: Learn how to use the Debugger context feature in Syncfusion Code Studio to enhance your debugging workflow with AI-powered assistance.
 platform: syncfusion-code-studio
-keywords: syncfusion, syncfusion code studio, debugger, context, debug mode, local variables, developer-tools, productivity
+keywords: syncfusion, syncfusion Code Studio, debugger, context, debug mode, local variables, developer-tools, productivity
 ---
  
 # Debugger 

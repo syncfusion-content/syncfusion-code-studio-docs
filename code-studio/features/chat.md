@@ -1,6 +1,6 @@
 ---
-title: Syncfusion code studio Chat Mode
-description: Chat mode in Syncfusion code studio enables you to interact with an AI assistant using natural language.
+title: Syncfusion Code Studio Chat Mode
+description: Chat mode in Syncfusion Code Studio enables you to interact with an AI assistant using natural language.
 platform: syncfusion-code-studio
 keywords: code, IDE, AI, developer-tools, syncfusion, code-assistance, productivity, UI-generation, bug-fixing, documentation
 ---

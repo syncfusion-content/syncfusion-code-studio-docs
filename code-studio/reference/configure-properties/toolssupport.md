@@ -119,7 +119,7 @@ Available built-in tools and their descriptions:
 
 1. **Open the Chat Window** - Click the Syncfusion Code Studio icon on the left toolbar to open the chat interface.
 
-2. **Enter Your Request** - Type your request in natural language, describing what you want to accomplish. Ensure code Studio is in Agent mode.
+2. **Enter Your Request** - Type your request in natural language, describing what you want to accomplish. Ensure Code Studio is in Agent mode.
 
 3. **Review Tool Execution** - The AI will automatically select and execute the appropriate tools based on your request.
 

@@ -1,6 +1,6 @@
 ---
-title: Syncfusion code studio Autocomplete mode
-description: Autocomplete mode in Syncfusion code studio offers real-time, inline code suggestions as you type.
+title: Syncfusion Code Studio Autocomplete mode
+description: Autocomplete mode in Syncfusion Code Studio offers real-time, inline code suggestions as you type.
 platform: syncfusion-code-studio
 keywords: code, IDE, AI, developer-tools, syncfusion, code-assistance, productivity, UI-generation, bug-fixing, documentation
 ---
