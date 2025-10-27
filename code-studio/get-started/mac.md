@@ -78,6 +78,9 @@ After launching, the IDE displays a **Welcome Page** to help you get started.
 
 - Open a popup to configure your AI model, including provider, model name, and API key. 
 
+<img src="./getting-started-image/addchatmodelopen0.png" alt="Add the chat model"  />
+
+
 <img src="./getting-started-image/addchatmodelopen.png" alt="Add_chat_model"  />
 
 - You can select the provider from the dropdown
