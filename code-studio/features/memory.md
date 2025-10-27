@@ -1,6 +1,6 @@
 ---
-title: Syncfusion code studio Memory
-description: Memory in Syncfusion code studio helps you manage and utilize session memory for improved AI assistance and context awareness.
+title: Syncfusion Code Studio Memory
+description: Memory in Syncfusion Code Studio helps you manage and utilize session memory for improved AI assistance and context awareness.
 platform: syncfusion-code-studio
 keywords: code, IDE, AI, developer-tools, syncfusion, memory, context, productivity, code-assistance
 ---

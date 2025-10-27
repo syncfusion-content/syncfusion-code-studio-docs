@@ -2,7 +2,7 @@
 title: Using the Database Context in Syncfusion Code Studio
 description: Learn how to use the Database context feature in Syncfusion Code Studio to integrate database schema and enable data-aware AI conversations.
 platform: syncfusion-code-studio
-keywords: syncfusion, syncfusion code studio, database, context, code-studio, data-driven, AI, developer-tools, productivity
+keywords: syncfusion, syncfusion Code Studio, database, context, code-studio, data-driven, AI, developer-tools, productivity
 ---
  
 # Database 

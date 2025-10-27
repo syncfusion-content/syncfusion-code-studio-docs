@@ -9,7 +9,7 @@ keywords: mcp-marketplace, mcp-server, installation, server-management, code-stu
 
 ## MCP Marketplace
 The MCP Marketplace is a centralized platform for server management, helping users discover, install, and connect the right servers for their needs through an easy-to-use interface. 
-This showcases a variety of available MCP servers. Users can explore server options and configure them for use by simply clicking the "Install" button, which initiates an automated setup process to integrate the server with the code studio extension. 
+This showcases a variety of available MCP servers. Users can explore server options and configure them for use by simply clicking the "Install" button, which initiates an automated setup process to integrate the server with the Code Studio extension. 
 
 ## Steps to install an MCP server from marketplace
 Click the **Syncfusion Code Studio** icon on the left toolbar to open the Syncfusion Code Studio chat window.
@@ -22,7 +22,7 @@ Navigate to MCP section by clicking MCP icon and navigate to marketplace tab.
 Click the install button to install the MCP server
  <img src="../../reference-images/playwright1.png" alt="marketplace" >
  
-After installation click restart code studio button 
+After installation click restart Code Studio button 
  <img src="../../reference-images/playwright2.png" alt="marketplace" >
 
 After restart, the installed MCP’s tools occurs in tools section and MCP entry occurs in config.yaml file. 

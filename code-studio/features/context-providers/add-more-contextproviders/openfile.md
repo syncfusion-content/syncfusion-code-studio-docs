@@ -2,7 +2,7 @@
 title: Using the OpenFiles Context in Syncfusion Code Studio
 description: Learn how to use the OpenFiles context feature in Syncfusion Code Studio to enable AI access to all currently open files in your editor for better assistance.
 platform: syncfusion-code-studio
-keywords: syncfusion, syncfusion code studio, openfiles, context, ai, developer-tools, productivity
+keywords: syncfusion, syncfusion Code Studio, openfiles, context, ai, developer-tools, productivity
 ---
  
 # OpenFiles 

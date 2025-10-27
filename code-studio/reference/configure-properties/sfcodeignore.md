@@ -21,7 +21,7 @@ Add the required files and folders in ".sfcodeignore" file to ignore while index
 <img src="../reference-images/ignore2.png" alt=".sfcodeignore">
 
 ### step 3: Added files will be ignored
-After adding the required file/folders reload the code studio and the added files and folders will be ignored during indexing. You can check this by using the file and folder context providers. Type '@' and open file and folder context providers. The added files and folders will not appear.
+After adding the required file/folders reload the Code Studio and the added files and folders will be ignored during indexing. You can check this by using the file and folder context providers. Type '@' and open file and folder context providers. The added files and folders will not appear.
 
 <img src="../reference-images/ignore3.gif" alt=".sfcodeignore">
 

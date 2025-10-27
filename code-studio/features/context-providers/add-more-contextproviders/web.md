@@ -2,7 +2,7 @@
 title: Using the Web Context in Syncfusion Code Studio
 description: Learn how to use the Web context feature in Syncfusion Code Studio to access real-time web content for the most current and accurate AI responses.
 platform: syncfusion-code-studio
-keywords: Syncfusion code studio, syncfusion, web, context, code-studio, real-time, AI, developer-tools, productivity
+keywords: Syncfusion Code Studio, syncfusion, web, context, code-studio, real-time, AI, developer-tools, productivity
 ---
  
 # Web 
