@@ -1,5 +1,5 @@
 ---
-title: Resolve "Failed to parse assistant: name: Required" Error
+title: Resolving Failed to Parse Assitant Issue 
 description: Fix the YAML configuration error by adding the required name field in Syncfusion Code Studio.
 platform: syncfusion-code-studio
 control: IDE
