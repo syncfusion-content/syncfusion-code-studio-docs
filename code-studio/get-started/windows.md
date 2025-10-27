@@ -102,6 +102,8 @@ After installation, the IDE launches with a **Welcome Page** to help you get sta
 
 - Open a popup to configure your AI model, including provider, model name, and API key. 
 
+<img src="./getting-started-image/addchatmodelopen0.png" alt="Add the chat model"  />
+
 <img src="./getting-started-image/addchatmodelopen.png" alt="Add the chat model"  />
 
 - You can select the provider from the dropdown
