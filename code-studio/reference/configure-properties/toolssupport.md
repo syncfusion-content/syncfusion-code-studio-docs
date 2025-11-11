@@ -6,49 +6,34 @@ keywords: tools, syncfusion, code-studio, development, automation, workflow, bui
 ---
 
 # Tools
-
+## Purpose
  The Tools feature in Syncfusion Code Studio empowers developers to perform specific actions within the development environment, such as creating folders, reading files, searching within files, and interacting with browsers. This guide provides a step-by-step approach to use the built-in tools, enabling you to streamline your development workflow and automate tasks efficiently with simple prompts.
 
-## Purpose
+## When to Use
+- You want to automate routine development actions (create/edit files, search/replace, browse the web) from chat. 
+- You need the assistant to execute concrete steps with safety controls (Automatic, Ask First, Excluded). 
+- You’re in Agent mode and prefer approving changes before they touch your workspace.
 
-The built-in tools are designed to automate and simplify common development tasks, allowing you to focus on writing code. Key purposes include:
+## Prerequisites
+- Syncfusion Code Studio open with a workspace
 
-### 1. File Management
-- Create new files or edit existing ones.
-- Perform bulk search-and-replace operations.
-- Organize project structures efficiently.
+## Steps
 
-### 2. Terminal Integration
-- Run CLI commands like npm install or yarn start.
-- Install dependencies or launch development servers.
-- Automate build and deployment processes.
+**1.Open the Chat Window**: Click the Syncfusion Code Studio icon on the left toolbar to open the chat interface.
 
-### 3. Code Insights
-- Identify and fix bugs with AI-driven suggestions.
-- Refactor code for better performance or readability.
-- Generate inline documentation automatically.
+**2.Choose tool permissions for each tool set mode**: Automatic, Ask First, or Excluded. Use Ask First for impactful actions (writes, terminal).
+- **Automatic**: When the model requests a tool, Code Studio automatically executes it and sends the response back to the model.
+- **Ask First**: When the model requests a tool, Code Studio prompts you to either “Cancel” or “Continue” before proceeding.
+- **Excluded**: The model is unaware of the tool and cannot use it.
 
-### 4. Web and Browser Tools
-- Perform web searches to fetch relevant resources.
-- Automate browser tasks like testing or scraping.
+**3.Enter Your Request**: Type your request in natural language, describing what you want to accomplish. Ensure Code Studio is in Agent mode.
 
-## Built-In Tools
+**4.Review Tool Execution**: The AI will automatically select and execute the appropriate tools based on your request.
 
-Syncfusion Code Studio provides a suite of tools to streamline your workflow. Below is a comprehensive list of available tools and their description.
- 
-### 1. Ensure the Required Tools Policy
+**5.Approve Changes**: Review any proposed changes and approve or modify them as needed.
 
-To balance speed and safety, each tool in Syncfusion Code Studio can be configured in one of three modes:
 
-- **Automatic:** When the model requests a tool, Code Studio automatically executes it and sends the response back to the model.
-
-- **Ask First:** When the model requests a tool, Code Studio prompts you to either "Cancel" or "Continue" before proceeding.
-
-- **Excluded:** The model is unaware of the tool and cannot use it.
-
- To change the mode, click on the desired option. Once configured, enter your prompt to perform the task. Code Studio will then leverage the selected tools to build the application.
-
-### 2. Toolset Overview
+**Toolset Overview**
 
 Available built-in tools and their descriptions:
 
@@ -115,17 +100,13 @@ Available built-in tools and their descriptions:
   </tbody>
 </table>
 
-## How to Use Tools
-
-1. **Open the Chat Window** - Click the Syncfusion Code Studio icon on the left toolbar to open the chat interface.
-
-2. **Enter Your Request** - Type your request in natural language, describing what you want to accomplish. Ensure Code Studio is in Agent mode.
-
-3. **Review Tool Execution** - The AI will automatically select and execute the appropriate tools based on your request.
-
-4. **Approve Changes** - Review any proposed changes and approve or modify them as needed.
-
 <img src="../reference-images/Tools.gif" alt="Tools" >
 
 
+## Validation
+- File operations: Create any file and ensure the file is created by create file tool; 
+- Web: “Search web for ‘vite coverage exclude config’ and summarize top solutions.” Verify cited results.
+- Terminal: “Run npm test and summarize failures.” Confirm command output and diagnosis.
 
+## Troubleshooting
+- **Tools not running**: ensure mode is in Agent mode and the tool isn’t set to Excluded in tools section.

@@ -5,17 +5,35 @@ platform: syncfusion-code-studio
 keywords: code, IDE, AI, developer-tools, syncfusion, code-assistance, productivity, UI-generation, bug-fixing, documentation
 ---
 # Chat
-Engage in a natural language conversation with the AI to boost productivity. You can ask coding questions, request explanations of complex logic, generate new code snippets, or troubleshoot bugs. The AI understands your project’s context, so its responses are relevant, accurate, and tailored to your current files and development environment. It's like having an expert developer always ready to assist.
 
-<img src="./feature-images/chat2.png" alt="Chat feature" >
+## Purpose
+Chat Mode lets you interact with an AI assistant using natural language to boost your productivity. You can ask coding questions, get explanations, generate code, or troubleshoot issues. The AI understands your project’s context, so its help is always relevant and tailored to your current work.
 
-## Code Selection & AI Assistance Feature
+## When to Use
+- You want conversational AI assistance for coding questions, explanations, and troubleshooting without leaving your workflow.  
+- You need context-aware responses tailored to your project's codebase and development environment.  
+- You prefer natural language interaction to explore ideas, generate snippets, or debug complex logic.
 
-You can easily get AI help with specific code segments by:
+## Prerequisites
+- Syncfusion Code Studio open with chat.
 
-Using your mouse to select any portion of code in your editor
-Pressing `Command+L (on Mac)` or `Control+L (on Windows/Linux)`
-This action will automatically send the selected code to the AI assistant via chat
-You can then type questions or requests about the selected code, and the AI will respond with explanations, suggestions, or improvements
+## Steps
 
-<img src="./feature-images/chat3.png" alt="Code selection feature screenshot" >
+### 1. Attach Context
+- Select code in your editor and press **Command+L** (Mac) or **Control+L** (Windows/Linux) to automatically send the selected code to the chat.  
+- The AI uses this context for tailored responses.
+
+### 2. Code-aware Prompts
+- Ask questions or requests about the attached code—explain logic, suggest improvements, generate alternatives, or troubleshoot bugs.  
+- The AI responds with explanations, suggestions, or new code snippets.Type follow-up questions or refine requests in natural language.  
+- The AI maintains context across the conversation and understands your project structure, so responses remain relevant and accurate.
+
+<img src="./feature-images/chat.png" alt="chat" >
+
+## Validation
+- Select a code segment and press Command+L / Control+L; confirm it appears in the chat with context preserved.  
+- Ask a question about the attached code (e.g., "Explain this function") and verify the response is specific to your code, not generic.
+
+## Troubleshooting
+- **Code doesn't attach to chat**: ensure you've selected text in an active editor file and pressed the correct keyboard shortcut (Command+L or Control+L).  
+- **AI responses feel generic**: provide more context by attaching relevant files or clarifying your project structure in the prompt.

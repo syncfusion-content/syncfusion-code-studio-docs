@@ -7,30 +7,38 @@ keywords: syncfusion, syncfusion Code Studio, search, exactsearch, context, code
  
 # Search 
  
+## Purpose
 The Search context option in the Syncfusion Code Studio allows users to perform precise searches across their codebase or documentation. It is particularly useful for developers and content creators who need to quickly locate specific strings, functions, or variables.
- 
-## How to Use the Search context
- 
-### 1. Open the Syncfusion Code Studio
- 
-In the Syncfusion Code Studio, the chat interface is located on the left-hand side. This is where you can interact with AI and ask questions or get assistance.
 
-<img src="../../feature-images/open-chat.png" alt="openchat" />
- 
-### 2. Select Search context
- 
-In the chat window, click the `@` button.  
+## When to Use
+Use the Search context when you need to:
+- Locate specific strings, functions, or variables across your codebase or documentation.
+- Understand how a particular object is used throughout the project.
+- Quickly navigate large projects without manually opening each file.
+- Perform targeted queries without relying on open tabs.
+
+## Prerequisites
+Syncfusion Code Studio open with a project.
+
+## Steps
+
+### 1. Select Search Context
+- In the Code Studio chat window, click the @ button.
+- A menu will appear—select Search.
 > **Note:** If you cannot locate the Search context option in the list, you will need to add it manually to include this context provider. Please follow the steps outlined in this [link](/code-studio/features/context-providers/add-more-contextproviders/how-to-configure-more-contextproviders) to do so.
 
-<img src="../../feature-images/click-context.png" alt="clickcontext" />
- 
-A menu will appear—select Search.
+### 2. Use Search Context with Query
+- After choosing the Search context, type your query in the chat window.
+- Include relevant details such as the name of the function, variable, or string you're looking for.
+- Press Enter to submit.
+- The AI will search your entire project and return results showing where and how the item is used.
 
-<img src="../../feature-images/search-opencontext.png" alt="opencontext" />
- 
-### 3. Use Search context with query
- 
-Input relevant details about the query in the chat model window and click Enter.  
-This allows you to review how the search object is defined and used throughout the project.
+<img src="../../feature-images/Search.gif" alt="search" />
 
-<img src="../../feature-images/search-output.png" alt="output" />
+## Validation
+- Search for a known function name and verify that the AI returns all its references.
+- Try searching for a string in both code and documentation to test cross-artifact coverage.
+
+## Troubleshooting
+- **Search not in @ menu:** Enable it in `config.yaml` and reload Code Studio.
+- **No results returned:** Ensure the query is spelled correctly and exists in the current workspace.
