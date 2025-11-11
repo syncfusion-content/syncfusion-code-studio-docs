@@ -16,7 +16,7 @@ Agent mode in Syncfusion Code Studio is an AI coding assistant that works indepe
 - You prefer a safety net that records checkpoints so you can review or roll back any change.
 
 ## Prerequisites
-- Syncfusion Code Studio open with a workspace.
+ - Syncfusion Code Studio open with a workspace.
 
 ## Steps
 

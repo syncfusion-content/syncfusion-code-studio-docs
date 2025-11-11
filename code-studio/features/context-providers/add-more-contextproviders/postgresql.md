@@ -15,7 +15,7 @@ The PostgreSQL context provider in Syncfusion Code Studio enables seamless integ
 - To make AI recommendations more relevant by supplying real database schema and data context.
 
 ## Prerequisites
-- Syncfusion Code Studio open with chat.
+- Syncfusion Code Studio open 
 - Access to a PostgreSQL database with necessary credentials (hostname, port, database, user, password).
  
 ## Steps

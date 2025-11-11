@@ -15,13 +15,16 @@ The Git Diff Context provider lets you reference all changes made in your curren
 - You need help preparing a commit, reviewing your changes, generating release notes, or ensuring code modifications align with project goals and standards.
 
 ## Prerequisites
-- Syncfusion Code Studio open with a project.   
+- Syncfusion Code Studio open with a project.  
+- GitDiff Context provider available in the @ menu.  
 - Git branch with code changes.
 
 ## Steps
 
 ### 1. Select GitDiff Context
 - In the Code Studio chat window, click the @ button. A menu will appear—select GitDiff.
+> **Note:** If you cannot locate the GitDiff context option in the list, you will need to add it manually by including this context provider in the config.yaml file. Please follow the steps outlined in this [link](/code-studio/features/context-providers/add-more-contextproviders/how-to-configure-more-contextproviders) to do so.
+
 
 ### 2. Use GitDiff Context with Query
 - Git Diff Context allows you to programmatically gather and reference all code changes made in your current Git branch. It is especially helpful when you want to:  
@@ -33,7 +36,6 @@ The Git Diff Context provider lets you reference all changes made in your curren
 - Narrow scope as needed to ensure quicker feedback and concise reviews.
 
 <img src="../feature-images/gitdiffcontext.gif" alt="gitdiff" />
-
 
 ## Validation
 - Make several changes in your branch, then select @GitDiff and ask for a summary; confirm the assistant lists main updates clearly.  

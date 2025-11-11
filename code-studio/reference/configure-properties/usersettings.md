@@ -21,7 +21,7 @@ User settings provide a way to tailor the development environment to individual 
 
 
 ## Prerequisites
-- Syncfusion Code Studio open with chat.
+- Syncfusion Code Studio open.
 
 ## Steps
 

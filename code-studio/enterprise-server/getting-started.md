@@ -33,7 +33,7 @@ Use **Code Studio** when you need a cloud-based IDE to write, run, debug, and de
 
 Start using Code Studio
 
-### 1. Create and Access Your Account
+## 1. Create and Access Your Account
 
 To start using Code Studio, visit: [Syncfusion Code Studio](https://www.syncfusion.com/code-studio/).
 - Explore the platform’s features and capabilities, then click the **"Get Started Now"** button to launch your coding experience.
@@ -63,7 +63,7 @@ Choose your operating system from the available options, then click the **"Downl
 
 <img src="./enterprise-images/download.png" alt="getting started" />
 
-### 2. Accessing the Dashboard
+## 2. Accessing the Dashboard
 
 Once signed in:
 
@@ -71,16 +71,16 @@ Once signed in:
 - Click on your **Profile Icon** to access **Settings**
   <img src="./enterprise-images/profile.png" alt="getting started" />
 
-### 3. Managing Settings
+## 3. Managing Settings
 
 Click on **Settings** to:
 
 - Update your **Profile Information**  
 - Configure your **Organization Settings**
 
-<img src="./enterprise-images/getting started.png" alt="getting started" />
+<img src="./enterprise-images/settingsprofile.png" alt="getting started"  />
 
-### 4. Validation
+##  Validation
 
 You're ready when:
 
@@ -88,7 +88,7 @@ You're ready when:
 - Successful login redirects to the **Dashboard** (URL ends with `/dashboard`).
 - Opening **Settings → Profile** displays the data you just saved.
 
-### 5. Troubleshooting
+## Troubleshooting
 
 - **Microsoft “Stay signed in?” loop**  
   → Click **No**  

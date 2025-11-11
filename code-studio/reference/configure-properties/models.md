@@ -15,11 +15,12 @@ The Model section lets you select the right language model from the dropdown men
 
 ## When to Use
 
+
 - When you want to decide specfic models excels at specific tasks—some are conversational, while others are optimized for code completion or context understanding.
 - When you want to tailor your experience, choose the model that best matches your use case.
 
 ## Prerequisites
-- Syncfusion Code Studio open with chat.
+- Syncfusion Code Studio open
 - Access to premium/BYOK models, if logged out local models are needed
 
 

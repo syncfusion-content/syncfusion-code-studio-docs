@@ -9,14 +9,22 @@ keywords: users, teams, roles, admin, team lead, invitations, access control, go
 
 Code Studio empowers administrators and team leads to manage organization members, assign roles, and organize users into teams for seamless collaboration and governance.
 
-## 1. Key Benefits
 
-- **Role Assignment**: Assign roles such as Admin, Team Lead, or User to match your organizational hierarchy.
-- **Team Creation**: Easily create and manage teams with intuitive controls.
-- **Usage Visibility**: Monitor usage and spending at both team and individual levels.
-- **Streamlined Control**: Centralized management for onboarding, governance, and collaboration.
+## When to Use
 
-> **Note**: Only Admins and Team Leads can manage users and teams. Regular users do not have permission to make changes to team or user settings.
+- Admins & Team Leads: Invite users, assign roles, create teams, or reorganize members.
+- Onboard new team members with correct role and team access.
+- Update user roles (promote/demote) or team ownership.
+- Clean up: rename, delete teams, or remove users.
+
+
+## Prerequisites
+
+- Administrator or Team Lead role.
+- Valid email addresses for new users.
+- Active Code Studio organization.
+- Browser with internet access.
+
 
 
 
@@ -72,9 +80,44 @@ Accessible via the context menu (three-dot icon):
 
 <img src="./enterprise-images/edituserenterprise.png" alt="user&Teams"  />
 
-## 4. Best Practices
 
-- **Maintain Clear Roles**: Assign roles based on responsibilities.
-- **Audit Teams Regularly**: Ensure team structures reflect current projects.
-- **Monitor Usage**: Use integrated analytics to track activity and spending.
-- **Secure Onboarding**: Verify user details before sending invitations.
+## Validation
+
+- **Invite Sent**: Email received with Accept Invite link.
+- **User Added**: Appears in correct Team and Role column.
+- **Role Change**: User sees new permissions (e.g., Budget tab appears for Team Lead).
+- **Team Created**: Shows in left panel and can be selected.
+- **Delete Team**: Team gone; members moved to Unassigned or removed.
+- **Search**: Only matching users show in grid.
+
+
+## Troubleshooting
+
+- **“Invite User” button missing**  
+  → You’re not Admin/Team Lead  
+  → **Fix**: Ask Admin to promote you
+
+- **User stuck in “Pending”**  
+  → Invite not received or expired (24 hrs)  
+  → **Fix**: Resend invite; check spam folder
+
+- **Can’t change role**  
+  → You’re Team Lead but not org Admin (can’t promote to Admin)  
+  → **Fix**: Only Admins can assign Admin role
+
+- **Team name won’t save**  
+  → Name too long (>50 chars) or contains invalid symbols  
+  → **Fix**: Use letters, numbers, spaces, hyphens
+
+- **Deleted team still shows**  
+  → Browser cache  
+  → **Fix**: Hard refresh `Ctrl + Shift + R`
+
+- **User in wrong team after move**  
+  → Moved but old team still cached  
+  → **Fix**: Refresh page; user should appear only in new team
+
+- **No teams in left panel**  
+  → First-time setup or all deleted  
+  → **Fix**: Click **+ Add Team** to create one
+

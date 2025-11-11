@@ -16,7 +16,7 @@ To provide a centralized, user-friendly platform for managing MCP servers. The M
 - When you want to easily install, or remove MCP servers without manual configurations.
 
 ## Prerequisites
-- Syncfusion Code Studio open with chat.
+- Syncfusion Code Studio open 
 - To install MCP some credentials needed like personal access tokens for figma and azure devops MCP's
 
 ## Steps 

@@ -7,7 +7,7 @@ keywords: apply-to-current-file, ai-assistance, code-insertion, workflow-automat
 ---
 
 # Apply To Current File
- 
+
 ## Purpose 
 
 The Syncfusion Code Studio provides an efficient way to apply suggested code directly into your currently opened file. With a single click, changes are applied in place so you can review, adjust, and continue coding without copy-paste.
@@ -30,7 +30,7 @@ The Syncfusion Code Studio provides an efficient way to apply suggested code dir
  
 ### 1. Enter Your Query
  
-In the chat window, ask for specific tasks, such as code optimization, debugging, or adding documentation about the current opened file in the editor. After you receive a response containing code suggestions, you will have the option to apply the code directly.
+In the chat window, ask for specific tasks, such as code optimization, debugging, or adding documentation. After you receive a response containing code suggestions, you will have the option to apply the code directly.
 <img src="./feature-images/apply2.png" alt="apply" >
  
 ### 2. Apply Changes

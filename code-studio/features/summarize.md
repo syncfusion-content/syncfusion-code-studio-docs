@@ -5,7 +5,7 @@ platform: syncfusion-code-studio
 keywords: summarization, syncfusion, code-studio, chat, context management, development, efficiency
 ---
 
-# Summarization
+# Summarization 
 
 
 ## Purpose
@@ -42,4 +42,3 @@ The Summarization feature ensures that, as conversations grow and exceed the AIâ
 
 ## Troubleshooting
 -**Summarization Not Occurring**: Confirm that the feature is enabled in Code Studio settings.Ensure the mode is agent mode, as summarization does not occur in chat mode.
-

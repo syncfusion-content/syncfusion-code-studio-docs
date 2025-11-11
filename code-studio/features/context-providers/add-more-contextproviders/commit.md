@@ -43,3 +43,4 @@ The Commit context in Syncfusion Code Studio lets you bring recent Git commit in
 ## Troubleshooting
 - **Commits option missing**: add the provider in config.yaml and reload.  
 - **Commit list empty**: verify the folder is a Git repo with recent commits.
+

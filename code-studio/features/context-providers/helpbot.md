@@ -22,6 +22,7 @@ The HelpBot context in Syncfusion Code Studio gives quick access to Syncfusion�
 - In the Code Studio chat window, click the @ button. A menu will appear—select Helpbot.
 > **Note:** If you cannot locate the Helpbot context option in the list, you will need to add it manually by including this context provider in the config.yaml file. Please follow the steps outlined in this [link](/code-studio/features/context-providers/add-more-contextproviders/how-to-configure-more-contextproviders) to do so.
 
+
 ### 2. Use Helpbot Context with Query
 - After choosing the HelpBot context, you can type a question to get helpful info from Syncfusion’s documentation.  
 - For example, you can ask something like “How to add Title and Content slide in PowerPoint library?” Then press Enter.  

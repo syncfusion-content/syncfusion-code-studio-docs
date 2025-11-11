@@ -20,7 +20,7 @@ Custom Servers allows users to connect to any custom MCP servers, providing a se
 - To integrate remote servers, NPM-based servers, or local servers for custom workflows or processing
 
 ## Prerequisites
-- Syncfusion Code Studio open with chat.
+- Syncfusion Code Studio open 
 - Required server details, depending on the server type:
    - Remote Server: Server name and URL endpoint.
    - NPM Server: Server name and NPM package name.

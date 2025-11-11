@@ -21,7 +21,7 @@ Checkpoints help ensure your work remains safe, traceable, and manageable throug
 - You’re experimenting, running tools, or applying large edits and need a safe restore point.
 
 ## Prerequisites
-- Syncfusion Code Studio open with a workspace.  
+- Working in Syncfusion Code Studio with an open workspace.  
 - Stable environment to avoid interrupted snapshots.
 
 ## Steps

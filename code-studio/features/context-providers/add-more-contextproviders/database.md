@@ -15,7 +15,7 @@ The Database context option in Syncfusion Code Studio enables users to add datab
 - When you need to compose, explain, or troubleshoot SQL queries with schema context.
 
 ## Prerequisites
-- Syncfusion Code Studio open with chat.
+- Syncfusion Code Studio open 
 - Access to the target database including credentials.
  
 ## Steps
