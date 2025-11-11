@@ -46,7 +46,7 @@ After successful authentication, you’ll see a confirmation screen.
 
 ### Step 5: Access Premium Models and BYOK models
 You are now signed in. Your account info will be visible in Code Studio.
-The chat panel will display the available **Premium Models** and **BYOK Models**  ready for you to use on your coding projects.
+The chat panel will display the available **Premium Models** and **BYOK Models** ready for you to use on your coding projects.
 
 
 <img src="./getting-started-image/enterprise.png" alt="SignIn" />

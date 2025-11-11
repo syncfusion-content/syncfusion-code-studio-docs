@@ -10,21 +10,21 @@ keywords: O3, Openrouter, troubleshoot, code-studio, syncfusion
 
 This guide will help you easily set up and use the OpenAI o3 model through OpenRouter’s platform with your own OpenAI API key. Follow these simple steps to get started and make the most of this powerful integration.
 
----
+
 
 ## What You Need to Know
 
 - The OpenAI o3 model requires your own OpenAI API key (**Bring Your Own Key - BYOK**) to work with OpenRouter.
 - You’ll need an OpenAI account and an OpenRouter account to proceed.
 
----
+
 
 ## Prerequisites
 
 - An active OpenAI account with a valid API key (**Tier 3 or higher** is required for the o3 model).
 - An OpenRouter account to connect and manage your API key.
 
----
+
 
 ## Step-by-Step Setup
 
@@ -38,7 +38,7 @@ This guide will help you easily set up and use the OpenAI o3 model through OpenR
   - Click **Create API Key** and give it a descriptive name (e.g., `OpenRouter o3 Key`).  
   - Copy the generated key and store it securely. **Do not share it publicly.**
 
----
+
 
 ### 2. Configure OpenRouter with Your OpenAI API Key
 
@@ -67,7 +67,7 @@ This guide will help you easily set up and use the OpenAI o3 model through OpenR
     
   - Click **Save** to link your key to OpenRouter. The platform will verify your key and set it up for o3 model requests.
 
----
+
 
 ## Monitor Your Usage
 
@@ -75,7 +75,7 @@ This guide will help you easily set up and use the OpenAI o3 model through OpenR
 - **Track Costs:** OpenRouter’s dashboard shows your token usage and costs based on your OpenAI API key activity.
 
 
----
+
 
 ## Best Practices
 
@@ -85,7 +85,7 @@ This guide will help you easily set up and use the OpenAI o3 model through OpenR
 
 - **Test the Integration:** After setup, test with a simple request to ensure your API key and configuration work correctly. If errors occur (e.g., “OpenAI is temporarily requiring a Tier 3 API key”), verify your OpenAI account tier.
 
----
+
 
 ## Additional Resources
 
@@ -93,3 +93,29 @@ This guide will help you easily set up and use the OpenAI o3 model through OpenR
 - [OpenRouter Integrations](https://openrouter.ai/settings/integrations) – Manage API keys  
 - [OpenAI Dashboard](https://platform.openai.com/) – API key management and tier status  
 - [OpenRouter Model Details](https://openrouter.ai/docs#models) – Info on o3 and other models
+
+## Validation
+
+- **Send a test request using the o3 model via OpenRouter.**
+- Confirm that the response is successful and no **403 error** appears.
+- If successful, your **API key and tier** are correctly configured.
+- If the error persists, double-check your **API tier and key validity**.
+
+
+
+## Troubleshooting
+
+- **403 Forbidden Error:**
+  - Likely due to an **invalid or insufficient-tier API key**.
+  - Confirm your **OpenAI account is Tier 3 or higher**.
+
+- **Key Not Working:**
+  - Ensure the key is **active**, not expired, and correctly pasted.
+  - Avoid using **test or free-tier keys** for the o3 model.
+
+- **Usage Limits Reached:**
+  - Check your **OpenRouter request quota**. Upgrade if needed.
+
+- **Security Tip:**
+  - Never expose your **API keys** in public.
+  - OpenRouter supports **GitHub secret scanning** to detect leaks.

@@ -47,3 +47,21 @@ name: Local Assistant
 ### Step 3: Restart Code Studio
 1. Close Syncfusion Code Studio.
 2. Reopen it and verify the error is resolved.
+
+### Validation
+
+- **Confirm that Syncfusion Code Studio launches without showing the config error.**
+- Ensure the `config.yaml` file has **valid syntax and consistent indentation**, as YAML is indentation-sensitive.
+
+
+
+### Troubleshooting
+
+- **Still seeing the error?**
+  - Double-check that the `name` field is added correctly.
+  - Ensure there are no syntax issues in the YAML file.
+
+- **Config file won’t open?**
+  - Try accessing it directly from the file system:
+    - **Windows:** `C:\Users\YourName\.sfcodestudio\.codestudio\config.yaml`
+    - **macOS:** `Users\syncfusion\.sfcodestudio\.codestudio\config.yaml`

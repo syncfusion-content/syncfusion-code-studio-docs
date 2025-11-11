@@ -44,6 +44,17 @@ To add a model under a configured provider:
   <img src="./enterprise-images/addmode.png" alt="provider" /> 
 5. Click Add to include the model in your BYOK model list.
   <img src="./enterprise-images/add model.png" alt="provider" />
-6. Click Manage Default Settings to customize which AI models are used for key IDE functionalities like chat, edit, apply, and autocomplete.
+6. Click “Manage Default Settings”. 
+7. In the form: 
+
+  - **Chat Default Model:** Select model  for Chat from dropdown list. 
+
+  - **Apply Default Model:** Select model  for Apply from dropdown list. 
+
+  - **Edit Default Model:** Select model  for Edit from dropdown list. 
+
+  - **Autocomplete Default Model:** Select model  for Autocomplete from dropdown list. 
+8. Click “Update” to set default  model in your enterprise model list.
+   <img src="./enterprise-images/managedefault.png" alt="provider" /> 
 
 

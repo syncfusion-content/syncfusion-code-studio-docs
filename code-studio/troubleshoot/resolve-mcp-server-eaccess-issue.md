@@ -57,3 +57,23 @@ To apply the changes:
 1. Close Syncfusion Code Studio if it is currently open.
 2. Reopen the application.
 3. Navigate to the Marketplace tab and attempt to install the MCP server again to verify that the issue is resolved.
+
+### Validation
+
+- **Confirm that the MCP server installs successfully without triggering the EACCESS error.**
+- Check that the **Marketplace tab** loads and functions as expected.
+- Verify that no **permission-related errors** appear in the terminal or logs.
+
+
+
+### Troubleshooting
+
+- **Still seeing EACCESS error?**
+  - Double-check that you ran both commands correctly.
+  - Ensure you used `sudo` and entered the correct password.
+
+- **Directory not found?**
+  - Make sure **Syncfusion Code Studio** is installed and has launched at least once.
+
+- **Permission denied when running commands?**
+  - Confirm you have **admin rights** on your macOS account.
