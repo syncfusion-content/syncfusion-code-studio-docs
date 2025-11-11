@@ -28,7 +28,7 @@ Code Studio empowers administrators and team leads to manage organization member
 
 
 
-## 2. Teams Management
+## 1. Teams Management
 
 ### Team List Panel
 
@@ -55,7 +55,7 @@ Accessible via the context menu (three-dot icon):
 
 <img src="./enterprise-images/addteamsenterprise.png" alt="user&Teams"  />
 
-## 3. User Management
+## 2. User Management
 
 ### Viewing Members
 

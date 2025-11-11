@@ -51,7 +51,7 @@ Use fallback policies when implementing reliable, uninterrupted AI workflows dur
 
 ## Validation
 
-**Fallback Works:**
+**Check whether Fallback Works:**
 
 - Simulate failure (use invalid API key temporarily)
 - Request should succeed using second model in list

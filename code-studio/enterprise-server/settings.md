@@ -229,6 +229,7 @@ Provides a quick summary of each plan available for an organization.
 
 <img src="./enterprise-images/planimg.png" alt="settings"  />
 <img src="./enterprise-images/byokplan.png" alt="settings"  />
+
 ### Step 3: Update Subscription
 
 - Choose a plan and set the user count for your team.

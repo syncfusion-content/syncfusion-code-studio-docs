@@ -57,8 +57,7 @@ To add a model under a configured provider:
   <img src="./enterprise-images/addmode.png" alt="provider" /> 
 5. Click Add to include the model in your BYOK model list.
   <img src="./enterprise-images/add model.png" alt="provider" />
-6. Click “Manage Default Settings”. 
-7. In the form: 
+6. Click “Manage Default Settings". 
 
   - **Chat Default Model:** Select model  for Chat from dropdown list. 
 
@@ -67,7 +66,7 @@ To add a model under a configured provider:
   - **Edit Default Model:** Select model  for Edit from dropdown list. 
 
   - **Autocomplete Default Model:** Select model  for Autocomplete from dropdown list. 
-8. Click “Update” to set default  model in your enterprise model list.
+7. Click “Update” to set default  model in your enterprise model list.
    <img src="./enterprise-images/managedefault.png" alt="provider" /> 
 
 
