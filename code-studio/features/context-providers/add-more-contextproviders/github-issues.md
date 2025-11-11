@@ -7,34 +7,35 @@ keywords: syncfusion Code Studio, syncfusion, github, issues, context, code-stud
  
 # GitHub Issues
  
+ 
+## Purpose
 The GitHub Issues context option in Syncfusion Code Studio allows users to bring GitHub issue data directly into the chat, enabling quick access to issue details and improving collaboration without switching context.
- 
-## How to Use the GitHub Issues context
- 
-### 1. Open the Syncfusion Code Studio
- 
-In the Syncfusion Code Studio, the chat interface is located on the left-hand side. This is where you can interact with AI and ask questions or get assistance.
 
-<img src="../../feature-images/open-chat.png" alt="openchat" />
+## When to Use
+- You want the assistant to reason over a specific GitHub issue without leaving the editor.
+- You need quick summaries, planning a fix, or writing an implementation plan tied to an issue.
 
- 
-### 2. Select GitHub Issues context
- 
-In the chat window, click the `@` button.  
-> **Note:** If you cannot locate the GitHub Issues context option in the list, you will need to add it manually to include this context provider. Please follow the steps outlined in this [link](/code-studio/features/context-providers/add-more-contextproviders/how-to-configure-more-contextproviders) to do so.
+## Prerequisites
+- Syncfusion Code Studio open with chat.
+- Github repo name, owner name and github token
 
-<img src="../../feature-images/click-context.png" alt="click context" />
- 
-A menu will appear—select GitHub Issues context option.
+## Steps
 
-<img src="../../feature-images/issue-opencontext.png" alt="opencontext" />
- 
-### 3. Select Required GitHub Issues
- 
-A list of your GitHub issues will be displayed. Click on the desired issue to insert it into the chat.  
- 
-<img src="../../feature-images/issue-choose.png" alt="choose" />
+### 1. Select Github Issue Context
+- In the Code Studio chat window, click the @ button. A menu will appear—select Github Issues.
+- A list of your GitHub issues will be displayed. Click on the desired issue to insert it into the chat.
+> **Note:** If you cannot locate the Github Issues context option in the list, you will need to add it manually to include this context provider. Please follow the steps outlined in this [link](/code-studio/features/context-providers/add-more-contextproviders/how-to-configure-more-contextproviders) to do so.
 
-Once inserted and click Enter, the AI will provide responses based on the GitHub issue context.
+### 2. Use Github Issue Context with Query
+- Once inserted type a relevant query and click Enter, the AI will provide responses based on the GitHub issue context.
+- limitations: By default, only the first 30 open issues will be shown in the chat.
 
-<img src="../../feature-images/issue-output.png" alt="output" />
+<img src="../../feature-images/githubissuecontext.gif" alt="issue" />
+
+## Validation
+- Select an issue and ask for a summary; confirm details are reflected.
+- Pick a different issue and ask query,check that suggestions align with the repo.
+
+## Troubleshooting
+- **GitHub Issues not in @ menu**: enable the provider in config.yaml and reload;
+- **Issue list empty or incomplete**: verify GitHub credentials/token, repo selection.

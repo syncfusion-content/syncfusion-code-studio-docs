@@ -8,23 +8,30 @@ keywords: user-settings, customization, configuration, development-environment, 
 
 # User Settings
 
-Customize your Code Studio experience with personalized settings that enhance productivity and workflow efficiency. Settings are stored locally and take effect immediately upon change.
-
 ## Purpose
-
 User settings provide a way to tailor the development environment to individual preferences, which helps to:
 
 - **Optimize Workflow**: Adjust the UI and behavior to match your personal workflow.
 - **Enhance Accessibility**: Modify font sizes and enable text-to-speech for better accessibility.
 - **Manage Privacy**: Control what data is shared to protect privacy.
 
-## Accessing the User Settings Page
+## When to Use
+- You want to customize your Code Studio experience with personalized settings that enhance productivity and workflow efficiency.
+- You need to tune chat behavior, autocomplete, indexing, and memory for large projects.
 
-The User Settings page can be accessed by clicking the gear icon located in the header of the Code Studio, then selecting the Settings tab.
 
+## Prerequisites
+- Syncfusion Code Studio open with chat.
 
+## Steps
 
-## Settings Categories
+### 1.Accessing the User Settings Page
+
+- The User Settings page can be accessed by clicking the gear icon located in the header of the Code Studio, then selecting the Settings tab.
+
+<img src="../reference-images/settings1.png" alt="UserSettings" >
+
+### 2.Settings Categories
 
 The following settings are available on the User Settings page.
 
@@ -111,7 +118,8 @@ The following settings are available on the User Settings page.
 
 <img src="../reference-images/settings7.png" alt="UserSettings" >
 
-### Help & Support
+### Help
+**Help & Support**
 
 - **Documentation**  
   Access the official Syncfusion Code Studio documentation for configuration guidance and usage instructions.
@@ -122,8 +130,17 @@ The following settings are available on the User Settings page.
 - **Token Usage**  
   View daily token consumption across supported models for better usage tracking.
 
-## Keyboard Shortcuts
+**Keyboard Shortcuts**
 
 Quickly navigate and interact with Code Studio using the following shortcuts.
 
 <img src="../reference-images/settings8.png" alt="UserSettings" >
+
+## Validation
+- Toggle session tabs, ensure  tabs dispalys  above the chat window to organize and access your sessions.
+- Change Font Size and confirm UI text updates instantly.
+- Toggle Wrap Codeblocks, ensure the codeblocks wrapped in chat response
+
+
+## Troubleshooting
+- Setting doesn’t apply: toggle Off/On again or reload the window

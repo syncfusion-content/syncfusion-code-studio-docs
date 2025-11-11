@@ -7,50 +7,53 @@ keywords: "code, IDE, AI, developer-tools, syncfusion, code-assistance, producti
 
 # Agent Mode
 
-**Agent mode** in Syncfusion Code Studio is an AI coding assistant that works independently to explore your code, plan updates, and complete complex tasks. It’s designed to save you time by reading files, editing code, running commands, and using available tools — all with minimal input from you.
+## Purpose
+Agent mode in Syncfusion Code Studio is an AI coding assistant that works independently to explore your code, plan updates, and complete complex tasks. It’s designed to save you time by reading files, editing code, running commands, and using available tools — all with minimal input from you.
 
-You can switch to **Agent mode** in the mode selector below the chat input box.
+## When to Use
+- You need an assistant to autonomously plan and carry out multi-step coding tasks (refactors, feature additions, migrations).  
+- You want the AI to read files, make edits, run tools/commands, and verify results with minimal hand-holding—while keeping you in control through approvals and permissions.  
+- You prefer a safety net that records checkpoints so you can review or roll back any change.
 
-<img src="./feature-images/agent1.png" alt="Switch to agent mode"  />
+## Prerequisites
+- Syncfusion Code Studio open with a workspace.
 
-## Agent Capabilities
+## Steps
 
-- **Autonomous Operation**  
-  Automatically explores your code, finds the right files, and makes needed changes on its own.
+### 1. Switch to Agent Mode
+- Use the mode selector in the chat input to choose **Agent** mode.
 
-- **Tool Access**  
-  Uses all available tools to search, edit, create files, and run terminal commands.
+<img src="./feature-images/agent1.png" alt="agent" >
 
-- **Contextual Understanding**  
-  Understands your existing codebase and its dependencies.
+### 2. Provide the Task
+- State a clear goal and constraints: scope, style guidelines, frameworks, performance or API stability requirements.
 
+### 3. Plan (with Approval)
+- The agent drafts a stepwise action plan describing files to read/edit, commands to run, and expected outcomes.  
+- Review the plan and approve or request revisions before execution begins.
 
-## Workflow of Agent
+### 4. Execution
+Upon approval, the agent:
+- Reads relevant files and searches the codebase  
+- Applies diffs/edits and creates new files as needed  
+- Runs commands (build, test, format) to validate progress  
+- Uses tools (search, edit, terminal) within your allowed permissions
 
-1. **Understand Request**  
-   Analyzes your prompt and the current code to grasp the task and its goals.
+### 5. Checkpoints and Progress
+- The agent creates checkpoints at logical milestones so you can review or roll back to a known good state.  
+- Progress updates appear in the chat with diffs, command outputs, and next intended actions.Learn more about checkpoints [here](/code-studio/features/checkpoints) .
 
-2. **Explore Codebase**  
-   Searches your code, documentation, or web to identify relevant files and understand the current implementation.
+### 6. Task Complete
+- Summarizes all changes and hands back control once the task is completed.
 
-3. **Plan Changes**  
-   Breaks the task into clear steps and prepares a change plan based on what it learns.
+<img src="./feature-images/agent2.gif" alt="agent" >
 
-4. **Execute Changes**  
-   Applies edits, adds code, suggests libraries or terminal commands, and performs required actions.
+## Validation
+- Start with a task. Confirm you see a clear plan with files to change and verification steps.  
+- Approve once; verify a checkpoint is created and diffs match the plan.  
+- Run your project/tests to ensure behavior aligns with the acceptance criteria.  
+- If needed, restore from a checkpoint to confirm safe rollback.
 
-5. **Verify Results**  
-   Checks the results, fixes any issues or linter errors, and ensures the code behaves as expected.
-
-6. **Task Complete**  
-   Summarizes all changes and hands back control once the task is completed.
-
-## Giving Agent Permission
-
-By default, Agent mode will ask for your permission before using any tool. Click **Continue** to approve the action, or **Cancel** to deny it.
-
-<img src="./feature-images/agent2.png" alt="Agent permission prompt"  >
-
-Once tool permission is granted, Agent will proceed with the tool and provide the response in the chat output.
-
-<img src="./feature-images/agent3.png" alt="Agent tool response"  />
+## Troubleshooting
+- **Unwanted edits across many files**: use compare to inspect multi-file diffs; restore from the previous checkpoint and refine the plan to limit scope.  
+- **Insufficient token limits**: reduce scope and provide exact file paths or relevant snippets. Ask for a “plan-only” pass first.

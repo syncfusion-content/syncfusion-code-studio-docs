@@ -9,37 +9,32 @@ keywords: mcp-marketplace, mcp-server, installation, server-management, code-stu
 
 # Model Context Protocol (MCP) Configuration Guide
 
-As AI systems evolve, they are often constrained by their dependence on fixed training datasets, which limits their ability to access real-time data or utilize specialized tools. **The Model Context Protocol (MCP)** overcomes these challenges by facilitating seamless connections between AI models and external data sources, tools, and environments, enabling dynamic and enhanced functionality.
+## Purpose
+The Model Context Protocol (MCP) enables the AI in Syncfusion Code Studio to securely connect to external data sources, tools, and environments. This extends the model beyond its fixed training data, allowing real-time information access and specialized actions through a standardized, permissioned interface for more dynamic and reliable assistance.
 
-## How to Configure MCP Servers through config.yaml
+## When to Use
+- You want Code Studio to connect the assistant to external tools/data via Model Context Protocol (MCP). 
+- You need to pass environment variables and secrets safely to MCP servers at launch.
 
-You can set up an MCP server by either downloading it from the [Marketplace](/code-studio/reference/configure-properties/mcp/marketplace) or adding a local MCP server block to your configuration file.
 
-## Accessing the Config Page
+## Prerequisites
+- Syncfusion Code Studio installed.
+- MCP configuration entry with necessary arguments and environment variables if needed
 
-The Config page can be accessed by clicking the gear icon located in the header of the Code Studio, then selecting the Settings tab.
 
-<img src="../../reference-images/openconfig.png" alt="Config Page" >
+## Steps 
+### 1.Accessing the Config File
+- The Config file can be accessed by clicking the gear icon located in the header of the Code Studio, then selecting the Settings tab.
+- Click on the Open Config File button.
+- This will open the config.yaml file in the editor, where you can manually add or modify MCP server configurations.
 
-## Open Config file
+<img src="../../reference-images/configuremcp1.png" alt="Config Page" >
 
-1. Click on the Open Config File button.
+### 2.Adding MCP Server Configuration 
 
-2. This will open the `config.yaml` file in the editor, where you can manually add or modify MCP server configurations.
+- In config.yaml file add the MCP entry that you want to connect.
 
-3. Below is an example of a local MCP server configuration in a `yaml` file:
-
-```yaml
-
-mcpServers:
-  - name: Browser search
-    command: npx
-    args:
-      - "@playwright/mcp@latest"
-```
-<img src="../../reference-images/mcpconfig.png" alt="Config Page" >
-
-## MCP Server Properties
+**MCP Server Properties**
 
 Below are the properties you can configure for an MCP server:
 
@@ -52,7 +47,23 @@ Below are the properties you can configure for an MCP server:
 - **args**: A list of arguments to pass to the command.
 - **env**: Secrets or environment variables to be injected into the command for secure execution.
 
-Once configured, the Playwright tools will be available in the tools list.
+Below is an example of a local MCP server configuration in a yaml file:
 
-<img src="../../reference-images/mcptools.png" alt="Config Page" >
+```yaml
 
+mcpServers:
+  - name: Browser search
+    command: npx
+    args:
+      - "@playwright/mcp@latest"
+```
+
+Once configured, the added MCP's tools will be available in the tools list.
+
+<img src="../../reference-images/configuremcp2.png" alt="Config Page" >
+
+## Validation
+- Save config.yaml, restart the session, then open Chat and check that the new tool(s) appear in tools section.
+
+## Troubleshooting
+- **Tools don’t appear**: check YAML indentation and keys (name, type, command) in config.yaml file, save the file, and reload the window. 
