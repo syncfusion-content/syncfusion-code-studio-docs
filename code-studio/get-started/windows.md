@@ -98,33 +98,6 @@ After installation, the IDE launches with a **Welcome Page** to help you get sta
 
 <img src="./getting-started-image/openchatpage.png" alt="Open the Chat"  />
 
-### Add Chat Model
+- You can customize syncfusion code studio settings by giving Open Settings Button.
 
-- Open a popup to configure your AI model, including provider, model name, and API key. 
-
-<img src="./getting-started-image/addchatmodelopen0.png" alt="Add the chat model"  />
-
-<img src="./getting-started-image/addchatmodelopen.png" alt="Add the chat model"  />
-
-- You can select the provider from the dropdown
-
-<img src="./getting-started-image/AddopenAi.png" alt="Select_provider"  />
-
-- You can select the Model from the dropdown
-
-<img src="./getting-started-image/Addgptmodel.png" alt="Select_model"  />
-
-- Enter the API key to connect the model with the selected provider and click connect button.
-
-<img src="./getting-started-image/AddAPIkey.png" alt="Connect"  />
-
-- Now, the selected model has been added and is displayed in the chat box
-
-<img src="./getting-started-image/selectmodel.png" alt="List_model"  />
-
-- Ready for integration within your development environment
-
-<img src="./getting-started-image/modelresponse.png" alt="Chat_window"  />
-
-
-
+<img src="./getting-started-image/macopenchat2.png" alt="Open the chat"  />
