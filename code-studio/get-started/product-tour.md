@@ -49,13 +49,13 @@ Familiarize yourself with the key interface elements:
 - **Agent Mode:** Let the AI agent perform multi-step tasks like file edits, UI generation, and logic reasoning. [Learn more](../features/agent.md)
 - **Context Pane:** View relevant files, summaries, and session memory to stay oriented as you work. 
 
- <img src="./getting-started-image/gif/productoverview.gif" alt="product tour"  />
+
 
 ### 4. Run Your First Prompt
 In chat mode, ask a question or request a code snippet. Try
 "Can you provide a step by step plan to build an admin dashboard".
 
- <img src="./getting-started-image/gif/chatmode.gif" alt="product tour"  />
+ <img src="./getting-started-image/gif/productoverview.gif" alt="product tour"  />
 
 ## Verify
 

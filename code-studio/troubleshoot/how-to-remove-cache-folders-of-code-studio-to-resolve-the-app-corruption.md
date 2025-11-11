@@ -23,7 +23,7 @@ Use this cleanup process if:
 
 ## Steps to Delete the Cache Folders
 
-### step 1: Delete the config.yaml file 
+### Step 1: Delete the config.yaml file 
 ### WINDOWS 
 
 Delete the config.yaml file in this location "C:\Users\YourName\ .sfcodestudio\ .codestudio\config.yaml"
@@ -35,7 +35,7 @@ Delete the config.yaml file in this location "Users\syncfusion\ .sfcodestudio\ .
 
 <img src="./Troubleshoot-images/macdel-1.png" alt="cache">
 
-### step 2: Delete the Syncfusion Code Studio folders
+### Step 2: Delete the Syncfusion Code Studio folders
 ### WINDOWS
 Delete the Syncfusion Code Studio folder in this locations "C:\Users\YourName\AppData\Roaming\Syncfusion Code Studio"
 
