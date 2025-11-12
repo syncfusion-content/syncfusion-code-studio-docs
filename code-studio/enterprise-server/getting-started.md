@@ -53,10 +53,10 @@ You can sign in using one of the following methods:
 > **Note**: If you don’t have an account, click **“SIGN UP”** to create one.
 
 **Profile Details:** Provide the name you’d like to display on your Code Studio profile.
-<img src="./enterprise-images/profilelogin.png" alt="getting started" />
+<img src="./enterprise-images/profilelogin.jpg" alt="getting started" />
 
 **Organization Details:** Enter the name of your organization.
-<img src="./enterprise-images/org.png" alt="getting started" />
+<img src="./enterprise-images/org.jpg" alt="getting started" />
 
 
 Choose your operating system from the available options, then click the **"Download Code Studio"** button to get the application.
