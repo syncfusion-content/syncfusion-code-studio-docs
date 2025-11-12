@@ -6,45 +6,35 @@ keywords: code, syncfusion, folder, context, ai-assistance, developer-tools
 ---
 # Folder 
 
-The Folder context in Syncfusion Code Studio lets you select a whole folder so the AI can check all the files inside it. It’s helpful when your work is split across many files, like a project or a feature. You can also ask a query about a particular file inside that selected folder. This way, the AI can understand everything better and give you more accurate help.
+## Purpose
+The Folder context in Syncfusion Code Studio lets you select an entire folder so the AI can understand and reference all files within it. This is ideal for multi-file features or projects, enabling cross-file reasoning, targeted questions about specific files in the folder, and more accurate, holistic assistance.
 
+## When to Use
+- You want the assistant to reason over all files in a specific folder of the directory instead of a single file.  
+- You’re facing cross-file issues, reviewing a multi-file change, or asking for a refactor that spans a folder.  
+- You need clear scope control (pick one folder, subfolders).
 
+## Prerequisites
+- Syncfusion Code Studio open with a project.  
 
-## How to Use Folder context
+## Steps
 
-### 1. Open the Chat Window
+### 1. Select Folder Context
+- In the Code Studio chat window, click the @ button. A menu will appear—select Folder.  
+- Now choose the folder which you want to ask the query about.
+> **Note:** If you cannot locate the Folder context option in the list, you will need to add it manually by including this context provider in the config.yaml file. Please follow the steps outlined in this [link](/code-studio/features/context-providers/add-more-contextproviders/how-to-configure-more-contextproviders) to do so.
 
-Click the Syncfusion Code Studio icon on the left toolbar to open the Syncfusion Code Studio chat window.
+### 2. Use Folder Context with Query
+- After selecting a folder in the context, enter a relevant query about the folder and press Enter.  
+- The AI will analyze the contents of all the files within that folder. It will then use this information to improve the accuracy and relevance of its responses.  
+- Larger folders mean higher token usage and slower replies.Narrow the scope to a more specific subfolder and mention key files or entry points in your prompt.
 
-<img src="../feature-images/open-chat.png" alt="Open chat window" />
+<img src="../feature-images/foldercontext.gif" alt="folder" />
 
+## Validation
+- Select a folder and ask for an overview; confirm the answer references files inside that folder.  
+- Ask for a plan across two files in the folder; verify cross-file relationships are correctly identified.
 
-
-### 2. Select Folder context
-
-In the chat window, click the `@` button.
-> **Note:**  If you cannot locate the folder context option in the list, you will need to add it manually by including this context provider in the config.yaml file. Please follow the steps outlined in this [link](/code-studio/features/context-providers/add-more-contextproviders/how-to-configure-more-contextproviders) to do so.
-
-<img src="../feature-images/click-context.png" alt="Click context menu" />
-
-From the context menu that appears, choose folder.
-
-
-
-<img src="../feature-images/folder-opencontext.png" alt="Select folder from context" />
-
-### 3. Choose the Folder
-
-Now select the folder you want to ask about.
-
-<img src="../feature-images/folder-choose.png" alt="Choose folder" />
-
-
-
-### 4. Use folder Context with Query
-
-After selecting a folder in the context, enter a relevant query about the folder and press Enter.
-
-The AI will analyze the contents of all the files within that folder. It will then use this information to improve the accuracy and relevance of its responses.
-
-<img src="../feature-images/folder-output.png" alt="Folder output with AI suggestions" />
+## Troubleshooting
+- **Responses are generic**: narrow the scope to a more specific subfolder and mention key files or entry points in your prompt.  
+- **Slow or truncated responses**: split the task into multiple questions.

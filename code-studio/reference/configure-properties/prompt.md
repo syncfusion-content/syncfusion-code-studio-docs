@@ -7,8 +7,6 @@ keywords: custom-prompts, ai-assistance, templates, workflows, best-practices
 
 # Custom Prompts
 
-Custom prompts let you encode your team’s coding standards into reusable templates. This delivers consistent, high-quality AI assistance and speeds up routine tasks.
-
 ## Purpose
 
 The primary purpose of custom prompts is to streamline and standardize development workflows by:
@@ -17,8 +15,24 @@ The primary purpose of custom prompts is to streamline and standardize developme
 - **Improving Consistency**: Standardize how common tasks are performed.
 - **Accelerating Development**: Automate repetitive coding tasks with predefined templates.
  
+## When to Use
+- You want reusable instructions that produce consistent code, reviews, docs, or tests. 
+- You need fast, repeatable workflows for common tasks.
+- You prefer templates you can version-control and share across the team.
 
-## Prompt File Structure 
+## Prerequisites
+- Syncfusion Code Studio open with a workspace
+
+
+## Steps
+### 1.Using Prompt Files
+
+-  Click the “Add Prompt” button in prompt section, Code Studio will automatically generate your new prompt file under the sfcodestudio/prompts/ directory.
+- In Code Studio chat, type / and pick your prompt.
+- Run the prompt and review suggestions.
+
+**Basic example prompt file structure**
+
 
 <table border="1" cellpadding="8" cellspacing="0">
   <thead>
@@ -43,16 +57,10 @@ The primary purpose of custom prompts is to streamline and standardize developme
   </tbody>
 </table>
 
-## How to use Prompt Files 
- 
-1. Click the “Add Prompt” button, Code Studio will automatically generate your new prompt file under the `sfcodestudio/prompts/` directory. 
-2. In Code Studio chat, type `/` and pick your prompt.   
-3. Run the prompt and review suggestions.  
-4. Apply accepted changes via IDE refactoring tools.  
 
 <img src="../reference-images/prompt.gif" alt="Prompt" >
 
-## Example Prompt
+**Example Prompt**
 
 ```yaml
 name: GenerateTestCases
@@ -65,7 +73,7 @@ prompt:
     5. Document test cases and set test coverage for each functionality
   ```
 
-## Using Context with @ Syntax
+### 2.Using Context with @ Syntax
 
 While editing a prompt file, you can enhance its context by using the @ symbol to reference specific resources. This allows the AI to incorporate relevant information from your workspace. Available options include:
 
@@ -87,3 +95,12 @@ While editing a prompt file, you can enhance its context by using the @ symbol t
 
 
 <img src="../reference-images/promptoptions.png" alt="Prompt" >
+
+## Validation
+- Create a prompt, type / in chat, select it, and confirm the generated output follows your template. 
+- Add @currentFile to the prompt, open a different file, rerun, and verify results change with context.
+
+## Troubleshooting
+- **Prompt not showing in /**: ensure the prompt file is created inside sfcodestudio/prompts/ .
+
+

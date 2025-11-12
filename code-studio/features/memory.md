@@ -7,40 +7,56 @@ keywords: code, IDE, AI, developer-tools, syncfusion, memory, context, productiv
 
 # Memory
 
+## Purpose
 The Memory feature in Syncfusion Code Studio enhances your AI chat experience by allowing the assistant to recall and reuse relevant information from past interactions. This ensures continuity, improves response accuracy, and supports complex or multi-step workflows.
 
+## When to Use
+- You want the AI assistant to recall and reuse relevant information from past interactions to maintain continuity across sessions.  
+- You're working on multi-step projects and need context-aware responses that reference previous conversations.  
+- You prefer organized, searchable access to conversation history without losing important details.
 
-## Memory Context Provider
-Memory Context Provider gives you full control over which past conversations are referenced in your current session.
+## Prerequisites
+- Syncfusion Code Studio open with a workspace. 
+- Memory feature toggled on in User Settings (default is enabled).  
+- Local storage available on your machine (memories are stored locally).
 
-### How to Use:
-1. Open Syncfusion Code Studio.
-2. Click the Syncfusion Code Studio icon in the left-hand toolbar to open the AI chat interface.
-<img src="./feature-images/open-chat.png" alt="Open chat window" />
-3. In the chat window, click the @ button.
-<img src="./feature-images/click-context.png" alt="Click context menu" />
-4. Select Memory from the menu.
-<img src="./feature-images/memory0.png" alt="Click memory" />
-5. Browse the list of saved memory summaries.
-<img src="./feature-images/memory1.png" alt="memory list" />
-6. Choose the memory you want to include in your current session.
+## Steps
 
+### 1. Enable Memory
+- Go to **Settings > Memory** and toggle "Enable memory" on.  
+- This will allow the assistant to recall and reuse relevant information from past interactions to maintain continuity and improve response accuracy.
 
-Once selected, the memory is added to your context, helping the assistant respond with greater relevance.
+### 2. Add Memory Context Provider
+- In the chat window, click the @ button and select **Memory** from the menu.  
+- Browse saved memory summaries grouped by date (e.g., "Yesterday", "Last Week").  
+- Select the memory or conversation you want to include in your current session; it will be added as context for more relevant responses.
 
-## Managing Memories
-You can edit or delete memories to keep your workspace organized and up to date. Click on the open settings icon and navigate to the Memory section.
-<img src="./feature-images/memory2.png" alt="edit delete memory" />
-- Edit: Click the edit icon next to a memory to update its summary.
-- Delete: Click the trash icon to remove a memory that's no longer needed.
-<img src="./feature-images/memory3.png" alt="edit delete memory" />
+<img src="./feature-images/memory1.gif" alt="memory" >
 
-> **Note:**  All memories are stored locally on your machine. Syncfusion values your privacy and does not upload memory data to the cloud. 
+### 3. Manage Saved Memories
+- Hover over any saved memory entry to reveal edit and delete icons.  
+  - **Edit**: Click the pencil icon to update a memory summary or notes.  
+  - **Delete**: Click the trash icon to delete the memories.
 
-You can also toggle the Memory feature on or off anytime from the User Settings page.
-<img src="./feature-images/memory4.png" alt="edit delete memory" />
+<img src="./feature-images/memory2.png" alt="memory" >
 
-## Progress bar
-The progress bar is based on the saved memories storage. When the saved memories increase the size of the progress bar will also increase simultaneously. When you delete the saved memories the size of the progress bar will decrease. If the progress bar limit is full the storage is over(50mb). After that the memories will not be saved. You need to delete the memories to store new ones.
+### 4. Monitor Storage
+- The progress bar below "Saved memories" tracks your local storage usage (based on total size of saved memories).  
+- When usage approaches the 50 MB limit, delete unnecessary memories to free space.  
+- Once full, new memories won't be saved until you clear space.
 
-<img src="./feature-images/memory-progressbar.png" alt="memory" >
+<img src="./feature-images/memory3.png" alt="memory" >
+
+### 5. Scope of the Memory
+- **User-level**: Useful for storing recurring coding patterns, preferences, or general best practices that apply across all your development work.  
+- **Project-level**: Memories tied to a specific project for focused context. These memories help the assistant understand project-specific architectures, coding standards, dependencies, and prior decisions. Project-level memories are isolated from other projects, reducing noise and keeping context relevant to current work.
+
+## Validation
+- Enable Memory in Settings and run a chat query; confirm a memory entry appears in the Saved memories list.  
+- Click @ in chat and select a previous memory; verify the assistant references it in its response.  
+- Edit a memory by clicking the pencil icon and updating the summary; confirm changes are saved.  
+- Delete a memory using the trash icon and verify the progress bar storage decreases.
+
+## Troubleshooting
+- **Memories not in @ menu**: check User Settings > Memory and toggle it on.  
+- **Storage is full in progress bar (50 MB)**: delete unused memories via the trash icon; the progress bar will decrease accordingly.

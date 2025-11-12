@@ -1,13 +1,24 @@
 ---
-title: How to Add Local and BYOK Models
-Description: Steps to add local chat models and BYOK (Bring Your Own Key) models in Code Studio, including adding provider API/LLM keys and registering models.
+title: How to Add Local Models
+Description: Steps to add local chat models in Code Studio, including adding provider API/LLM keys and registering models.
 platform: syncfusion-code-studio
-keywords: local, BYOK
+keywords: local,models
 ---
 
-# How to add local models and BYOK models
+# How to add local models 
 
-## Local Models:
+## Purpose
+To enable users to configure and use their own chat models locally within the application by adding them with the appropriate API keys.
+
+## When to Use
+- When you need to access or switch between different chat models from various providers within a unified interface.
+- When adding a new model to expand the capabilities or options available for AI-powered tasks. 
+
+## Prerequisites
+-The API key for the chat model provider you want to add (e.g., OpenAI, Anthropic, etc.). 
+
+## Steps:
+
 Click the model's section dropdown and click 'Add Chat Model' option.
 
 <img src="../reference-images/localmodel1.png" alt="local">
@@ -20,22 +31,11 @@ you can see the added model appear in local model category in model's section
 
 <img src="../reference-images/localmodel3.png" alt="local">
 
-## BYOK models: 
-Navigate to Code Studio dashboard website by clicking the dashboard button in the profile icon.
+## Validation
+- Verify that the added model appears under the local model category in the model’s section.
+- Ensure the model can be selected for chat or other intended tasks.
+- Perform a quick test (if possible) by issuing a simple query to the new model to confirm connectivity and functionality.
 
-<img src="../reference-images/BYOK7.png" alt="BYOK">
-<img src="../reference-images/BYOK1.png" alt="BYOK">
-
-In the dashboard website navigate to BYOK/LLM keys section and add the LLM key by clicking 'Add LLM key' button
-
-<img src="../reference-images/BYOK2.png" alt="BYOK">
-<img src="../reference-images/BYOK3.png" alt="BYOK">
-
-After adding the LLM key navigate to the BYOK/Models section and add the model by clicking 'Add Model' button
-
-<img src="../reference-images/BYOK4.png" alt="BYOK">
-<img src="../reference-images/BYOK5.png" alt="BYOK">
-
-After adding the model, the added model will appear in Code Studio models section under BYOK models category.
-
-<img src="../reference-images/BYOK6.png" alt="BYOK">
+## Troubleshooting
+- **Model Does Not Appear**:Ensure all fields (provider, model, API key) are filled correctly and try reconnecting.
+- **Connection Fails**: Double-check that the API key is valid.

@@ -7,31 +7,32 @@ keywords: syncfusion, syncfusion Code Studio, url, context, web, ai, developer-t
  
 # URL 
  
-The URL context option in Syncfusion Code Studio allows you to bring content from a web page directly into your conversation with the AI. By processing the page's information, the AI provides more accurate and relevant responses based on the linked content.
- 
-## How to Use the URL context
- 
-### 1. Open the Syncfusion Code Studio
- 
-In the Syncfusion Code Studio, the chat interface is located on the left-hand side. This is where you can interact with AI and ask questions or get assistance.
- 
-<img src="../../feature-images/open-chat.png" alt="openchat" />
+## Purpose
+The URL context option in Syncfusion Code Studio allows you to bring content from a web page directly into your conversation with the AI. By processing the page’s information, the AI provides more accurate and relevant responses based on the linked content.
 
-### 2. Select URL context
- 
-In the chat window, click the `@` button.  
-> **Note:** If you cannot locate the URL context option in the list, you will need to add it manually to include this context provider, Please follow the steps outlined in this [link](/code-studio/features/context-providers/add-more-contextproviders/how-to-configure-more-contextproviders) to do so.
+## When to Use
+- You want the assistant to answer using a specific web page (docs, blog) without pasting its content.  
+- You need quick, link-driven context for explanations, examples, or comparisons.
 
-<img src="../../feature-images/click-context.png" alt="click context" />
- 
-A menu will appear—select URL.
+## Prerequisites
+- Syncfusion Code Studio open with chat.
 
-<img src="../../feature-images/url-opencontext.png" alt="open context" />
- 
-### 3. Use URL context with query
- 
-After selecting URL, a text box will appear. Paste the link to the webpage that contains the information you want the AI to consider.
+## Steps
 
-After you submit a URL, AI retrieves and processes the webpage content, extracting and summarizing relevant information.
+### 1. Select URL Context
+- In the Code Studio chat window, click the @ button. A menu will appear—select URL.  
+> **Note:** If you cannot locate the URL context option in the list, you will need to add it manually to include this context provider. Please follow the steps outlined in this [link](/code-studio/features/context-providers/add-more-contextproviders/how-to-configure-more-contextproviders) to do so.
 
-<img src="../../feature-images/url-output.png" alt="output" />
+### 2. Use URL Context with Query
+- After selecting URL, a text box will appear. Paste the link to the webpage that contains the information you want the AI to consider.  
+- After you submit a URL, AI retrieves and processes the webpage content, extracting and summarizing relevant information.
+
+<img src="../../feature-images/urlcontext.gif" alt="URL" />
+
+## Validation
+- Provide a short documentation URL and request a summary; verify the answer cites details from that page.  
+- Ask for a code sample from a tutorial page; confirm the snippet aligns with the article.
+
+## Troubleshooting
+- **URL option missing**: enable the provider in config.yaml and reload.  
+- **Answer seems generic**: point to a more specific page section or add a clarifying question about what to extract.

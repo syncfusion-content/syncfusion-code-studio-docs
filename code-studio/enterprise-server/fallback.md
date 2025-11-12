@@ -11,6 +11,10 @@ Fallback Policies in Code Studio ensure uninterrupted AI workflows by automatica
 
 > **Note**: Only admins can Configure and manage policies for Model.
 
+## When to Use
+
+Use fallback policies when implementing reliable, uninterrupted AI workflows during model failures
+
 
 ## 1. How Fallback Works
 
@@ -44,8 +48,22 @@ Fallback Policies in Code Studio ensure uninterrupted AI workflows by automatica
 
 > **Note**: You can edit the model list and reorder them anytime to optimize fallback behavior for BYOK models.
 
-## 3. Best Practices
 
-- Choose models with varied capabilities and reliability to ensure coverage.  
-- Limit retries to avoid unnecessary costs.  
-- Regularly review fallback performance and adjust model order accordingly.
+## Validation
+
+**Check whether Fallback Works:**
+
+- Simulate failure (use invalid API key temporarily)
+- Request should succeed using second model in list
+- Retry Limit: After max retries, request fails gracefully (no crash)
+
+
+## Troubleshooting
+
+- **Costs higher than expected**  
+  → Fallback using expensive model  
+  → **Fix**: Reorder list — put cheaper models higher
+
+- **Fallback not triggering**  
+  → Policy disabled or no fallback models added  
+  → **Fix**: Enable toggle; add at least 2 models in order

@@ -6,32 +6,35 @@ keywords: syncfusion, syncfusion Code Studio, context providers, add context, co
 ---
  
 # How to configure more context providers
- 
+
+## Purpose
 The Add More Context Provider feature lets you give the AI extra information to help it understand your project better.
- 
-## How to Use the Add more context providers
- 
-### 1. Open the Syncfusion Code Studio
- 
-In the Syncfusion Code Studio, the chat interface is located on the left-hand side. This is where you can interact with AI and ask questions or get assistance.
 
-<img src="../../feature-images/open-chat.png" alt="openchat" />
- 
-### 2. Select Add more Context Providers
- 
-In the chat window, click the `@` button.  
-A menu will appear—select Add more context providers.  
-This action automatically opens the `config.yaml` file in your editor.
+## When to Use
+- You want the assistant to use additional context providers that aren’t currently listed in your @ menu. 
+- You need project- or org-specific providers and want full control over which ones are enabled.
 
-<img src="../../feature-images/click-context.png" alt="click context" />
- 
-### 3. Add Context Provider
- 
-After you click on "Add more context providers", the `config.yaml` file will open. You can then add the appropriate YAML object for the context provider you wish to use from the list below and insert it under context.
- 
-<img src="../../feature-images/addmorecontext.png" alt="add more" />
 
-## Available Context Providers
+## Prerequisites
+- Syncfusion Code Studio open with chat. 
+
+## Steps
+ 
+### 1. Select Add more Context Providers
+ 
+- In the chat window, click the `@` button.A menu will appear—select Add more context providers.  
+- This action automatically opens the `config.yaml` file in your editor.
+
+
+ 
+### 2. Add Context Provider
+ 
+- After you click on "Add more context providers", the `config.yaml` file will open.
+- You can then add the appropriate YAML object for the context provider you wish to use.
+ 
+<img src="../../feature-images/morecontext.gif" alt="add more" />
+
+### 3.Available Context Providers
  
 ### Files  
 Reference any file within your current workspace.  
@@ -168,3 +171,12 @@ Reference results from a code search
 ```yaml
 - provider: search
 ```
+
+## Validation
+- After editing config.yaml, confirm the new provider appears in the @ picker. 
+- Disable by removing its YAML block; confirm it disappears from @.
+
+
+## Troubleshooting
+- **Context Provider not showing**: check YAML indentation and keys properly; save the file and reload the workspace.
+

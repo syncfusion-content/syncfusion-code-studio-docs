@@ -8,13 +8,21 @@ keywords: code, IDE, installation, windows, setup, getting-started
 ---
 
 # Docs
-The "Docs" section in Code Studio allows you to integrate documents directly into the environment. This means Code Studio can access and utilize these documents at any time, enhancing its ability to provide relevant assistance based on your specific information.
 
 ## Purpose
-By adding your specific documentation, you can provide Code Studio with custom context relevant to your projects and workflows. All added documents are listed for easy management and direct use.
-Keeping your essential resources within Code Studio, reducing the need to switch between applications.
+The "Docs" section in Code Studio allows you to integrate documents directly into the environment. This means Code Studio can access and utilize these documents at any time, enhancing its ability to provide relevant assistance based on your specific information.
 
-## How to Add Documents
+## When to Use
+- You want the assistant to answer using specific external documentation (framework guides, API refs) without pasting text. 
+- You need focused, doc-aware help tied to chosen pages rather than the whole web. You prefer tight scope control and predictable performance.
+
+
+## Prerequisites
+- Syncfusion Code Studio open with a workspace
+- Documentation site link to integrate
+
+
+## Steps
 
 ### 1. Navigate to the "Docs" Section
 In Code Studio, locate and click on the "Docs" section.
@@ -38,12 +46,12 @@ Click on the "Add" button to finalize the process. Your document will now be int
 
 <img src="../reference-images/docs.png" alt="Image of added documents list">
 
-## Managing Your Added Documents
+### 5.Managing Your Added Documents
 Once documents are added, they will be listed in the "Docs" section.
 
 <img src="../reference-images/docslist.png" alt="Image of added documents list">
 
-### Editing Document Details
+### 6.Editing Document Details
 To modify the title or URL of an existing document,
 Click on the "Edit" option next to the desired document in the list.
 This action will open the configuration file.
@@ -52,3 +60,13 @@ You can then edit the name and URL directly within the config page.
 <img src="../reference-images/docsedit.png" alt="Image of added documents list">
 
 **Note:** To access the added documents refer the steps in this [page](/code-studio/features/context-providers/docs).
+
+## Validation
+- Add one doc page and ask for a summary; confirm the answer cites concepts from that page. 
+- Add a second page and ask for a code sample; verify details come from both.
+
+
+## Troubleshooting
+- **Page not indexing or slow**: check network; try a smaller page or wait for indexing to complete. 
+- **Response Too slow/expensive**: reduce the number of URLs or pick shorter pages; avoid whole-site imports.
+

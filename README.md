@@ -1,4 +1,4 @@
-# Syncfusion Syncfusion Code Studio Documentation
+# Syncfusion Code Studio Documentation
 
 This repository contains the official documentation for Syncfusion Code Studio, a next-generation AI-powered Integrated Development Environment (IDE) designed to enhance developer productivity.
 
