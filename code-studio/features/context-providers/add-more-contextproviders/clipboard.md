@@ -22,13 +22,13 @@ The Clipboard context option in the Syncfusion Code Studio enables users to easi
 ### 1. Select Clipboard Context
 - In the Code Studio chat window, click the @ button. A menu will appear—select Clipboard.  
 - Pick the clipboard item you want to ask the query about. The provider shows a short list of your most recent copied contents.  
-> **Note:** If you cannot locate the Clipboard context option in the list, you will need to add it manually to include this context provider in the config.yaml file.
+> **Note:** If you cannot locate the Clipboard context option in the list, you will need to add it manually to include this context provider. Please follow the steps outlined in this [link](/code-studio/features/context-providers/add-more-contextproviders/how-to-configure-more-contextproviders) to do so.
 
 ### 2. Use Clipboard Context with Query
 - After selecting the copied content, input relevant details about the copied content in the chat window and click Enter.  
 - The assistant uses the selected clipboard content as context for this message only.  
 - Limitations: Only the last 10 recently copied items are shown to keep latency low.  
-> **Note:** If you cannot locate the Clipboard context option in the list, you will need to add it manually to include this context provider. Please follow the steps outlined in this [link](/code-studio/features/context-providers/add-more-contextproviders/how-to-configure-more-contextproviders) to do so.
+
 
 <img src="../../feature-images/clipboardcontext.gif" alt="clipboard" />
 

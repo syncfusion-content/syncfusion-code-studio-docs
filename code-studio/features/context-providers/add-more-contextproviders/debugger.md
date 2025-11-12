@@ -30,11 +30,11 @@ The Debugger context option in Syncfusion Code Studio allows you to enhance your
 ### 2. Select Debugger context
  
 - In the chat window, click the `@` button.  
-> **Note:** If you cannot locate the Debugger context option in the list, you will need to add it manually to include this context provider. Please follow the steps outlined in this [link](/code-studio/features/context-providers/add-more-contextproviders/how-to-configure-more-contextproviders) to do so.
 
 <img src="../../feature-images/click-context.png" alt="clickcontext" />
  
 A menu will appear—Select Debugger from the list of contexts to embed debug output into your conversation.
+> **Note:** If you cannot locate the Debugger context option in the list, you will need to add it manually to include this context provider. Please follow the steps outlined in this [link](/code-studio/features/context-providers/add-more-contextproviders/how-to-configure-more-contextproviders) to do so.
 
 <img src="../../feature-images/debuggerSelect.png" alt="opencontext" />
  

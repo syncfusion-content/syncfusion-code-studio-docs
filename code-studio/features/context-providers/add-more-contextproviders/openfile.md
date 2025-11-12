@@ -21,7 +21,7 @@ The OpenFiles context provider in Syncfusion Code Studio helps you work more eff
 ## Steps
 
 ### 1. Select OpenFile Context
-- In the Code Studio chat window, click the @ button. A menu will appear—select OpenFile.  
+- In the Code Studio chat window, click the @ button. A menu will appear—select Open Files.  
 - This will allow the AI to access and understand the content of the files you have currently opened.  
 > **Note:** If you cannot locate the OpenFiles context option in the list, you will need to add it manually to include this context provider. Please follow the steps outlined in this [link](/code-studio/features/context-providers/add-more-contextproviders/how-to-configure-more-contextproviders) to do so.
 

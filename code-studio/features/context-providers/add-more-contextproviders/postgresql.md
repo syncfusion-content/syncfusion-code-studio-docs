@@ -29,11 +29,12 @@ The PostgreSQL context provider in Syncfusion Code Studio enables seamless integ
 ### 2. Select PostgreSQL context
  
 - In the chat window, click the `@` button.  
-> **Note:** If you cannot locate the PostgreSQL context option in the list, you will need to add it manually to include this context provider. Please follow the steps outlined in this [link](/code-studio/features/context-providers/add-more-contextproviders/how-to-configure-more-contextproviders) to do so.
+
  
 <img src="../../feature-images/click-context.png" alt="click context" />
 
 A menu will appear—select PostgreSQL. This allows the AI to access your PostgreSQL database and utilize its data for context.
+> **Note:** If you cannot locate the PostgreSQL context option in the list, you will need to add it manually to include this context provider. Please follow the steps outlined in this [link](/code-studio/features/context-providers/add-more-contextproviders/how-to-configure-more-contextproviders) to do so.
 
 <img src="../../feature-images/postgres-opencontext.png" alt="opencontext" />
  
