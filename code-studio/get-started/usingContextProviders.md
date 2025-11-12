@@ -1,4 +1,3 @@
-
 ---
 title: Using Context Providers in Syncfusion Code Studio
 description: Learn how to use Context Providers in Syncfusion Code Studio to reference code, errors, and terminal output directly in chat for guided bug fixing with AI assistance.

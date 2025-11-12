@@ -92,7 +92,7 @@ You can monitor:
 - **Team-specific usage**: Filter data by individual teams.
 - **User-specific usage**: Drill down into individual user activity.
 
-## 5. Date Range Filtering
+### 5. Date Range Filtering
 
 - Select custom date ranges to analyze token usage and other metrics over time.
 - Useful for monthly reporting, trend analysis, and budget tracking.
@@ -101,7 +101,7 @@ You can monitor:
 
 
 
-## 6: Analyze Top Usage
+### 6: Analyze Top Usage
 
 - Review the “Top 5 Users” and “Top 5 Models” sections to identify high-usage patterns.
 - Use this data to optimize resource allocation or investigate anomalies.

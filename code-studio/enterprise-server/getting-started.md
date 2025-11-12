@@ -33,10 +33,10 @@ Use **Code Studio** when you need a cloud-based IDE to write, run, debug, and de
 
 Start using Code Studio
 
-### 1. Create and Access Your Account
+## 1. Create and Access Your Account
 
 To start using Code Studio, visit: [Syncfusion Code Studio](https://www.syncfusion.com/code-studio/).
-- Explore the platform’s features and capabilities, then click the "Get Started Now" button to launch your coding experience.
+- Explore the platform’s features and capabilities, then click the **"Get Started Now"** button to launch your coding experience.
 
 <img src="./enterprise-images/getstarted.png" alt="getting started" />
 
@@ -53,16 +53,17 @@ You can sign in using one of the following methods:
 > **Note**: If you don’t have an account, click **“SIGN UP”** to create one.
 
 **Profile Details:** Provide the name you’d like to display on your Code Studio profile.
+<img src="./enterprise-images/profilelogin.png" alt="getting started" />
 
 **Organization Details:** Enter the name of your organization.
-
+<img src="./enterprise-images/org.png" alt="getting started" />
 
 
 Choose your operating system from the available options, then click the **"Download Code Studio"** button to get the application.
 
 <img src="./enterprise-images/download.png" alt="getting started" />
 
-### 2. Accessing the Dashboard
+## 2. Accessing the Dashboard
 
 Once signed in:
 
@@ -70,16 +71,16 @@ Once signed in:
 - Click on your **Profile Icon** to access **Settings**
   <img src="./enterprise-images/profile.png" alt="getting started" />
 
-### 3. Managing Settings
+## 3. Managing Settings
 
 Click on **Settings** to:
 
 - Update your **Profile Information**  
 - Configure your **Organization Settings**
 
-<img src="./enterprise-images/getting started.png" alt="getting started" />
+<img src="./enterprise-images/settingsprofile.png" alt="getting started"  />
 
-### 4. Validation
+##  Validation
 
 You're ready when:
 
@@ -87,7 +88,7 @@ You're ready when:
 - Successful login redirects to the **Dashboard** (URL ends with `/dashboard`).
 - Opening **Settings → Profile** displays the data you just saved.
 
-### 5. Troubleshooting
+## Troubleshooting
 
 - **Microsoft “Stay signed in?” loop**  
   → Click **No**  

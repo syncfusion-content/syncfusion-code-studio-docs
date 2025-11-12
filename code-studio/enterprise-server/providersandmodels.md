@@ -12,6 +12,19 @@ This guide provides step-by-step instructions for administrators to configure La
 > **Note**: Only admins can configure LLM providers and models.
 
 
+## When to Use
+
+- As an admin, when you need to centrally manage LLM provider credentials for your organization.
+- When selecting and configuring a custom list of AI models to meet specific team or enterprise needs.
+- To set default models for key AI modes like Chat, Apply, Edit, and Autocomplete.
+
+
+
+## Prerequisites
+
+- Admin role (check **Users & Teams**).
+- Fresh API key from any LLM.
+
 ## 1. Adding an LLM Provider
 
 To integrate an LLM provider into Code Studio:
@@ -44,8 +57,7 @@ To add a model under a configured provider:
   <img src="./enterprise-images/addmode.png" alt="provider" /> 
 5. Click Add to include the model in your BYOK model list.
   <img src="./enterprise-images/add model.png" alt="provider" />
-6. Click “Manage Default Settings”. 
-7. In the form: 
+6. Click “Manage Default Settings". 
 
   - **Chat Default Model:** Select model  for Chat from dropdown list. 
 
@@ -54,7 +66,37 @@ To add a model under a configured provider:
   - **Edit Default Model:** Select model  for Edit from dropdown list. 
 
   - **Autocomplete Default Model:** Select model  for Autocomplete from dropdown list. 
-8. Click “Update” to set default  model in your enterprise model list.
+7. Click “Update” to set default  model in your enterprise model list.
    <img src="./enterprise-images/managedefault.png" alt="provider" /> 
 
 
+
+## Validation
+
+- **LLM Keys**: New provider appears in Models dropdown.
+- **Models Added**: Visible in enterprise list with correct cost/mode tags.
+- **Defaults Applied**: New chat/edit session uses selected default model.
+
+
+
+## Troubleshooting
+
+- **Provider not showing in model list**  
+  → API key invalid or expired  
+  → **Fix**: Re-paste fresh key; test via provider dashboard first
+
+- **Model says “Unavailable” or “Not Found”**  
+  → Model not supported by provider or wrong region  
+  → **Fix**: Confirm model name/ID; check provider docs
+
+- **Default model not applying**  
+  → Cache or user override in settings  
+  → **Fix**: Clear browser cache; check User Preferences
+
+- **“Invalid API Key” error on save**  
+  → Key copied with extra spaces or line breaks  
+  → **Fix**: Paste into notepad first, recopy cleanly
+
+- **No modes available for model**  
+  → Model doesn’t support Chat/Edit/etc.  
+  → **Fix**: Choose compatible model (e.g., gpt-4o supports all modes)
