@@ -40,27 +40,6 @@ npm install -g typescript
 npm install -g ts-node
 ```
 
-## Code Studio Extensions Setup
-
-### Required Extensions
-
-To enable TypeScript development and debugging in Code Studio, install the following extensions:
-
-#### 1. TypeScript Importer
-- **Purpose**: Provides automatic TypeScript import suggestions and auto-import functionality
-- **Installation**: Search for "[TypeScript Importer](https://marketplace.visualstudio.com/items?itemName=pmneo.tsimporter)" in the Extensions view (Ctrl+Shift+X)
-
-#### 2. JavaScript Debugger (Built-in)
-- **Purpose**: Enables debugging capabilities for TypeScript/JavaScript applications with breakpoints, variable inspection, and step-through debugging
-- **Note**: This is typically built into Code Studio, but ensure it's enabled
-
-### Installation Steps
-
-1. Open Code Studio
-2. Navigate to Extensions view (Ctrl+Shift+X)
-3. Search for and install the "TypeScript Importer" extension
-4. Restart Code Studio to activate the extensions
-
 ## Required Node.js Packages
 
 For TypeScript development, install the following packages in your project:
