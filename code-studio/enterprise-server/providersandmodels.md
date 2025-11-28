@@ -11,6 +11,9 @@ This guide provides step-by-step instructions for administrators to configure La
 
 > **Note**: Only admins can configure LLM providers and models.
 
+## Prerequisites
+- You need an active account on Code Studio
+- OpenRouter API Key - create free [openrouter](/code-studio/enterprise-server/freemodel)  api key
 
 ## 1. Adding an LLM Provider
 
