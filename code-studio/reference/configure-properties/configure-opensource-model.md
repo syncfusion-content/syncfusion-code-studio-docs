@@ -74,12 +74,3 @@ Refer the documentation below to download and install Ollama and LM Studio in yo
 • You can select the installed LM Studio model in a model list under Local Models category.
 
 <img src="../reference-images/opensource6.png" alt="configure open source models">
- 
-## Troubleshooting (quick steps)
-• Model not listed after Connect:
-  - Ensure provider runtime is running.
-  - Restart Code Studio and/or the provider service.
-  
-• Model fails to respond or is very slow:
-  - Confirm your machine has sufficient RAM/CPU/GPU for the model.
-  - Try a smaller model for testing.
