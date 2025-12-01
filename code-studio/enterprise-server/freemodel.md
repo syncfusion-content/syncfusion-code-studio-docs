@@ -29,13 +29,12 @@ AI model costs can add up quickly during development. This guide shows you how t
 - Open your API Keys page.
 - Click →Create a new key.
 - Copy the key.
-- Configure Code Studio using OpenRouter - [configuration steps](/code-studio/enterprise-server/providersandmodels).
 
 <img src="./enterprise-images/freemodel2.png" alt="freemodel"  />
  
 ## OpenRouter Free Tier Models
  
-OpenRouter's free tier unlocks powerful, hosted models that are free (with fair usage limits to keep things sustainable). It's perfect for testing and prototyping without cost.
+OpenRouter's free tier unlocks powerful, hosted models that are free (with fair usage limits to keep things sustainable). It's perfect for testing and prototyping without cost. You can easily connect the below recommended free models to Code Studio by following this [Configuration steps](https://help.syncfusion.com/code-studio/enterprise-server/providersandmodels).
  
 1. **Zhipu GLM-4.5 Air** - Lightweight, Fast, Native tool calling and Agentic reasoning.
 2. **DeepSeek R1 (0528 build)** - Open-source model that thinks step-by-step like O1 and shows all reasoning.
