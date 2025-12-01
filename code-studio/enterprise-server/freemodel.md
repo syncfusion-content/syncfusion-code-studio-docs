@@ -19,7 +19,7 @@ AI model costs can add up quickly during development. This guide shows you how t
  
 ## Prerequisites
  
-### 1. Create a free OpenRouter account.
+### 1. Create a free [OpenRouter account](https://openrouter.ai/).
 - Go to openrouter.ai.
 - Sign in or create an account.
 
