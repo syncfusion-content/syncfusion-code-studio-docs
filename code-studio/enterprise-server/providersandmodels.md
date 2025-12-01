@@ -13,7 +13,7 @@ This guide provides step-by-step instructions for administrators to configure La
 
 ## Prerequisites
 - You need an active account on Code Studio
-- OpenRouter API Key - create free [openrouter](/code-studio/enterprise-server/freemodel)  api key
+- OpenRouter API Key - Follow the detailed instructions [here](/code-studio/enterprise-server/freemodel) to obtain an OpenRouter API key and the list of recommended free models for integration.
 
 ## 1. Adding an LLM Provider
 
