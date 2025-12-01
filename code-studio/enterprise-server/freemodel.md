@@ -29,13 +29,12 @@ AI model costs can add up quickly during development. This guide shows you how t
 - Open your API Keys page.
 - Click →Create a new key.
 - Copy the key.
-- Configure Code Studio using OpenRouter - [configuration steps](/code-studio/enterprise-server/providersandmodels).
 
 <img src="./enterprise-images/freemodel2.png" alt="freemodel"  />
  
 ## OpenRouter Free Tier Models
  
-OpenRouter's free tier unlocks powerful, hosted models that are free (with fair usage limits to keep things sustainable). It's perfect for testing and prototyping without cost.
+OpenRouter's free tier unlocks powerful, hosted models that are free (with fair usage limits to keep things sustainable). It's perfect for testing and prototyping without cost. You can easily connect the below recommended free models to Code Studio by following this [Configuration steps](https://help.syncfusion.com/code-studio/enterprise-server/providersandmodels).
  
 1. **Zhipu GLM-4.5 Air** - Lightweight, Fast, Native tool calling and Agentic reasoning.
 2. **DeepSeek R1 (0528 build)** - Open-source model that thinks step-by-step like O1 and shows all reasoning.
@@ -58,17 +57,3 @@ In your OpenRouter account,
 - Enabling this may allow OpenRouter or the model provider to train your prompts/outputs.
 - Do not submit sensitive or proprietary data when using these endpoints.
 - If you cannot enable this setting for compliance reasons, choose a model that does not require it or use a paid/private endpoint.
- 
-## Troubleshooting
- 
-### "Unauthorized" or "Invalid API key"
-Re-copy your key from OpenRouter and re-paste it into Code Studio. Verify no extra spaces or hidden characters.
- 
-### "Model not found" or "Can't select the model".
-Confirm the model is currently listed on OpenRouter and visible in Code Studio's model picker. Switch to another free model if the one you want is temporarily unavailable.
- 
-### "Requests blocked due to privacy settings".
-Enable "Enable free endpoints that may train inputs" in OpenRouter settings if required by the chosen model. Alternatively, select a model that does not require the toggle.
- 
-### Timeouts or slow responses.
-Try again during off-peak hours or switch to a lighter model (e.g., GLM-4.5 Air). Reduce context size or simplify your prompt.
