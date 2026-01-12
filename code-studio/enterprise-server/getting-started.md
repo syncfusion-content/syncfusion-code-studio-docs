@@ -20,7 +20,7 @@ You can sign in using one of the following methods:
 - **GitHub Account**: Sign in with your GitHub credentials.  
 - **Syncfusion Account**: Use your existing Syncfusion login.
 
-<img src="./enterprise-images/sign3.png" alt="getting started" />
+<img src="./enterprise-images/updated-screenshots/sign-in.png" alt="getting started" />
 
 > **Note**: If you don’t have an account, click **“SIGN UP”** to create one.
 
