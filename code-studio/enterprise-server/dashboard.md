@@ -15,9 +15,9 @@ The Code Studios Dashboard provides a centralized interface for monitoring and a
 
 The dashboard presents a visual summary of the following metrics:
 
-- **Total Cost**: Cumulative cost incurred by the organization, team or individual user.
+- **Total Credits**: Cumulative cost incurred by the organization, team or individual user.
 
-<img src="./enterprise-images/dashboard2.png" alt="dashboard"  />
+<img src="./enterprise-images/updated-screenshots/graph.png" alt="dashboard"  />
 
 - **Total Tokens**: Total number of tokens consumed.
 
@@ -43,7 +43,7 @@ The dashboard presents a visual summary of the following metrics:
 
 - **Individual User Metrics**: Detailed usage statistics per user.
 
-<img src="./enterprise-images/dash8.png" alt="dashboard"  />
+<img src="./enterprise-images/updated-screenshots/individual-user-metrics.png" alt="dashboard"  />
 
 ## 2. Team & User Monitoring
 
@@ -64,7 +64,7 @@ You can monitor:
 
 - Go to [Dashboard](https://app.sfcodestudio.com/dashboard)
 
-<img src="./enterprise-images/dashboard1.png" alt="dashboard"  />
+<img src="./enterprise-images/updated-screenshots/dashboard.png" alt="dashboard"  />
 
 ### Step 2: Review Summary Metrics
 
@@ -72,7 +72,7 @@ You can monitor:
 - Observe the graphical widgets displaying cost, tokens, requests, and latency.
 - Hover over charts for detailed tooltips and breakdowns.
 
-<img src="./enterprise-images/dashboardBYOK.png" alt="dashboard"  />
+<img src="./enterprise-images/updated-screenshots/byok.png" alt="dashboard"  />
 
 ### Step 3: Filter by Team or User
 

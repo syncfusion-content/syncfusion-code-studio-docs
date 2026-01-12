@@ -17,13 +17,13 @@ The Settings area centralizes account and organization configuration for Code St
 ## 1. Profile
 
 - View user name, email address, and account type
-<img src="./enterprise-images/settingsprofile.png" alt="settings"  />
+<img src="./enterprise-images/updated-screenshots/profile-setting.png" alt="settings"  />
 
 ## 2. Organization
 
 - View organization name and organization ID
 - Share the organization ID with your admins when requesting access or support
-<img src="./enterprise-images/settingsorg.png" alt="settings"  />
+<img src="./enterprise-images/updated-screenshots/organization.png" alt="settings"  />
 
 ## 3. Credits
 
@@ -33,7 +33,7 @@ Add-on credits fund model usage across your organization.
 - Preset amounts: $50, $100, $500
 - Custom amount: Enter a custom value as needed
 - Purchase flow: Click Buy credits to proceed to the payment page and complete checkout. Credits are applied after successful payment.
-<img src="./enterprise-images/settingscredit.png" alt="settings"  />
+<img src="./enterprise-images/updated-screenshots/credit.png" alt="settings"  />
 
 ## 4. Billing & Subscription
 
