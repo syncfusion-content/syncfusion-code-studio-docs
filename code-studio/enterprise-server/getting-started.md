@@ -30,7 +30,7 @@ Once signed in:
 
 - You’ll be directed to the Dashboard.  
 - Click on your **Profile Icon** to access **Settings**
-  <img src="./enterprise-images/profile.png" alt="getting started" />
+  <img src="./enterprise-images/updated-screenshots/profile.png" alt="getting started" />
 
 ### 3. Managing Settings
 
@@ -39,4 +39,4 @@ Click on **Settings** to:
 - Update your **Profile Information**  
 - Configure your **Organization Settings**
 
-<img src="./enterprise-images/getting started.png" alt="getting started" />
+<img src="./enterprise-images/updated-screenshots/profile-setting.png" alt="getting started" />

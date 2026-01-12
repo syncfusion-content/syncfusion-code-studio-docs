@@ -39,13 +39,13 @@ Code Studio empowers administrators and team leads to manage organization member
 
 Accessible via the context menu (three-dot icon):
 
-- **Add Team**: Add a new team.
+- **Add Team**: Add a new team by clicking **‘+’** button near search teams bar..
 - **Rename Team**: Update the team name.
 - **Add Team Member**: Invite new users to the team.
 - **Set Team Owner**: Assign ownership for accountability.
 - **Delete Team**: Remove the team from the organization.
 
-<img src="./enterprise-images/addteamsenterprise.png" alt="user&Teams"  />
+<img src="./enterprise-images/updated-screenshots/team-actions.png" alt="user&Teams"  />
 
 ## 3. User Management
 
@@ -62,7 +62,7 @@ Accessible via the context menu (three-dot icon):
 4. Enter the user’s email address.
 5. Send the invitation. The user will be added upon acceptance.
 
-<img src="./enterprise-images/invite user.png" alt="user&Teams"  />
+<img src="./enterprise-images/updated-screenshots/invite-user.png" alt="user&Teams"  />
 
 ### Editing or Removing Members
 
@@ -70,7 +70,7 @@ Accessible via the context menu (three-dot icon):
 - **Edit** user's name or user's role.
 - **Remove** users from the team.
 
-<img src="./enterprise-images/edituserenterprise.png" alt="user&Teams"  />
+<img src="./enterprise-images/updated-screenshots/edit-user.png" alt="user&Teams"  />
 
 ## 4. Best Practices
 

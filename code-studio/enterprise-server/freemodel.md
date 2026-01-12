@@ -4,7 +4,7 @@ description: Instructions to use Code Studio effectively while minimizing or eli
 platform: syncfusion-code-studio
 control: IDE
 documentation: Getting Started
-keywords: code, IDE, freemodel, openrouter
+keywords: code, IDE, freemodel, openrouter 
 ---
 
 # Use OpenRouter Free Models in Syncfusion Code Studio
@@ -27,7 +27,7 @@ AI model costs can add up quickly during development. This guide shows you how t
  
 ### 2. Create an OpenRouter API key.
 - Open your API Keys page.
-- Click →Create a new key.
+- Click → Create a new key.
 - Copy the key.
 
 <img src="./enterprise-images/freemodel2.png" alt="freemodel"  />
