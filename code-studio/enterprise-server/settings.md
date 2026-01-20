@@ -58,7 +58,7 @@ Add-on credits fund model usage across your organization.
     <tr>
       <td>Free</td>
       <td>$0</td>
-      <td>IDE access, Enterprise server for 1 user, 4 AI models, UI builder, MCP server integration, Quick actions and codebase search.</td>
+      <td>IDE access, Enterprise server for 1 user, 4 AI models, UI builder, MCP server integration, Quick actions and codebase search, and image input support.</td>
     </tr>
     <tr>
       <td>Basic</td>
