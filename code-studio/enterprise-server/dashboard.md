@@ -80,6 +80,9 @@ You can monitor:
   - All Teams
   - Specific Team
   - Individual User
+  -	Multiple Users
+-	The dashboard will refresh to show metrics for the selected filter.
+
 
 ### Step 4: Set Date Range
 
