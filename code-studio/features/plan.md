@@ -67,6 +67,7 @@ Remain in Plan Mode to refine the plan before moving into implementation. You ca
 - Select Start Implementation , it will appear in the chat box and execute that.  After selection of start implementation , the mode will automatically switch to Agent Mode. 
  
 <img src="./feature-images/plan5.png" alt="Plan Mode"  /> 
+
 - After execution of start implementation, it begins progressing through the planned steps. You can monitor the process using the todo list, where each step is marked as completed one by one according to the plan.
 
 <img src="./feature-images/plan6.png" alt="Plan Mode"  />   
