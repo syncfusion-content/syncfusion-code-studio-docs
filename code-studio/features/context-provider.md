@@ -114,7 +114,7 @@ Problems Context lets you add errors or warnings from your project to the chat. 
 
 This includes TypeScript errors, build errors, ESLint issues, and more.
 
-<img src="./feature-images/problems.jpg" alt="problems"  />
+<img src="./feature-images/problems.png" alt="problems"  />
 
 ### 5. Symbols Context
 
