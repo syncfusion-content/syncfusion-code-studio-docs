@@ -4,7 +4,7 @@ description: Learn how to add more context providers to enhance AI understanding
 platform: syncfusion-code-studio
 keywords: syncfusion, syncfusion Code Studio, context providers, add context, config.yaml, ai, developer-tools, productivity
 ---
-# Code Studio – Provide Context to Chat
+# Provide Context to Chat
 
 ## Overview
 
