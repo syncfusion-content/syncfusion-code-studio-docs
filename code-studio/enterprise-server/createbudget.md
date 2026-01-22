@@ -116,7 +116,7 @@ The Budget feature in Code Studio enables administrators to allocate and monitor
 
 **Steps:**
 
-- Click **“Edit Budget”** from the user’s context menu.
+- Click **“Edit ![alt text](image.png)”** from the user’s context menu.
 - In the **Edit Budget** dialog, click **“Delete”**.
 - In the **Delete Dialog Box**, click **“Delete”** to confirm.
 
