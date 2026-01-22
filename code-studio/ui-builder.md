@@ -15,8 +15,6 @@ UI Builder is a specialized tool that provides essential information for buildin
 
 - **Component Information**: Lists of available Syncfusion components for your platform
 - **Implementation Context**: Platform-specific guidelines and best practices  
-- **Layout Guidance**: Suggestions for structuring your interface effectively
-- **Component Metadata**: Technical details and documentation for each component
 - **Multi-Platform Support**: Works across 14 different development frameworks
 
 ### Key Benefits
@@ -30,15 +28,19 @@ UI Builder is a specialized tool that provides essential information for buildin
 
 ### UI Builder Setup
 
-1. **Access Chat Interface**: Open the chat panel in Code Studio.
-2. **Enable UI Builder Tool**: Select "UI Builder" from the tools panel.
-3. **Choose Mode**: Select between Automatic or Ask First mode.
+By default, the UI Builder tool is enabled in Code Studio. You can verify this by following these steps: 
 
-<img src="./ui-builder-images/ui-builder-modes.png" alt="UI Builder Modes" />
+1. **Access Configure Tools**: Open the Configure Tools panel in Code Studio.
+
+<img src="./ui-builder-images/tool.png" alt="UI Builder Tool" />
+
+2. **Verify UI Builder Tool**: Confirm that the UiBuilder tool is enabled in the tools list.
+
+<img src="./ui-builder-images/toolenable.png" alt="UI Builder Tool Enable" />
 
 ### Basic Usage
 
-Simply describe what you want to build using this format:
+To build with Syncfusion, just describe your requirement in this format:
 
 ```
 Create a [feature description] for [platform] using Syncfusion components with [requirements]
@@ -48,33 +50,27 @@ Create a [feature description] for [platform] using Syncfusion components with [
 ```
 Create a customer dashboard for React using Syncfusion components with data grid, charts, and export functionality.
 ```
+<img src="./ui-builder-images/context.png" alt="UI Builder Context" />
 
 ### Required Elements
 
 For UI Builder to activate and provide accurate results:
 
-1. **Include "Syncfusion"**: This keyword activates the UI Builder tool
-2. **Specify Platform**: Name your framework (React, Angular, Vue, Blazor, etc.)
-3. **Describe Functionality**: Explain what you want to build and key features needed
-
-### What You Get Back
-
-UI Builder automatically provides:
-- **System Prompts**: Platform-specific implementation guidelines
-- **Layout Configuration**: AI-generated structure suggestions based on your requirements
-- **Component Metadata**: Detailed information about available components
+1. **"Syncfusion" keyword**: This keyword activates the UI Builder tool
+2. **Platform Specification**: Name your framework (React, Angular, Vue, Blazor, etc.)
+3. **Functionality Description**: Explain what you want to build and key features needed
 
 ### How UI Builder Works
 
-#### Supported Controls Response
-UI Builder provides a comprehensive list of available Syncfusion components for your specific platform:
+UI Builder operates in two modes:
 
-<img src="./ui-builder-images/supportedcontrols.png" alt="Supported Controls List" />
+#### Platform Info Mode
+UI Builder retrieves a comprehensive list of available Syncfusion components for your specific platform.
 
-#### Context Mode Response
-UI Builder delivers detailed implementation guidance including system prompts, layout configuration, and component metadata:
+#### Context Mode
+UI Builder prepares detailed implementation guidance including system prompts, layout configuration, and component metadata.
 
-<img src="./ui-builder-images/contextmode.png" alt="Context Mode" />
+<img src="./ui-builder-images/buildworks.png" alt="mode" />
 
 ### Syncfusion License Setup
 
@@ -110,11 +106,10 @@ UI Builder supports 14 platforms with varying component libraries:
 | WinUI | 41 components |
 | Flutter | 25 components |
 | PureReact | 17 components |
-| Java | 1 component |
 
 ## Best Practices
 
-- **Be Specific**: "Create a customer form with validation" vs "Create a form"
+- **Be Specific**:  Use "Create a customer form with validation" instead of "Create a form"
 - **Include Features**: Mention export, search, responsive design, validation
 - **Name Platform Clearly**: Use Syncfusion supported platform like "React" and "JavaScript"
 
