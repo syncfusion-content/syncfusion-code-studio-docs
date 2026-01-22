@@ -5,24 +5,24 @@ platform: syncfusion-code-studio
 keywords: "code, IDE, AI, developer-tools, syncfusion, code-assistance, productivity, UI-generation, bug-fixing, documentation"
 ---
 
-**Agent**
+# Agent
 
  Agents are intelligent, goal oriented AI assistants that can perform complex, multistep tasks across your project. Unlike simple prompt-based editing, agents can understand high-level instructions, analyze your codebase, and decide what actions need to be taken to achieve the desired outcome.
 
-**How are agents differ from custom agents?**
+## How are agents differ from custom agents?
 
 Agents and Custom Agents both act as AI assistants that can perform coding tasks for you, but they differ mainly in how they behave and how much control you have over them.
 An **Agent** is a builtin, general-purpose assistant that works automatically. You give it a goal, and it figures out how to complete it by exploring your project, reading files, planning updates, and applying changes.
 A **Custom Agent**, however, is something you create with your own rules, instructions, or constraints—so it behaves exactly the way you want every time.
 Learn more about **creating custom agents**.
 
-**Key benefits**
+## Key benefits
 
 Automates complex, cross-file tasks.
 Speeds iterative development and scaffolding.
 Review and approve changes at each step.
 
-**Agent Capabilities**
+## Agent Capabilities
 
 **Autonomous Operation** - Agents can independently explore your codebase, identify the files related to your request, and determine what needs to be changed. Instead of requiring detailed, step-by-step instructions, they plan the workflow automatically and execute tasks in a structured sequence. This allows them to handle complex operations with minimal user input.
 
@@ -34,7 +34,7 @@ Review and approve changes at each step.
 
 **Cross-File Reasoning** - Unlike simple editing tools, agents can work across your entire project rather than just the active file. They identify every file impacted by your instruction, update them consistently, and ensure that changes in one part of the codebase do not break another. This makes them ideal for large-scale refactoring or feature upgrades.
 
-**Workflow of Agent**
+## Workflow of Agent
 
 **Understand Request** - Read the user's prompt and current project context to identify goals, constraints, and acceptance criteria. Clarify ambiguities or required outputs before making changes.
 
@@ -48,7 +48,7 @@ Review and approve changes at each step.
 
 **Task Complete** - Summarize what was changed, why, and how to reproduce or undo it; provide next steps or follow-ups if needed. Hand control back to the user for review or further instructions.
 
-**How to Enable Agent mode?**
+## How to Enable Agent mode?
 
 **Step 1** : Open settings and select Code Studio settings.
 
@@ -64,7 +64,7 @@ Review and approve changes at each step.
 
 <img src="./feature-images/agentMode.png" alt="Agent Mode" />
 
-**How to Use Agent?**
+## How to Use Agent?
 
 Consider creating the ToDo application,
 - Create a new project folder.
@@ -87,7 +87,8 @@ Consider creating the ToDo application,
 
 - Run your application in terminal; now you have a working ToDo app. By using an agent, you can interactively generate and refine your code in real-time.
 
-**Best Practices**
+## Best Practices
+
 1. **Give Clear, Goal-Focused Instructions** – Provide high-level objectives rather than step-by-step commands.
 2. **Break Large Tasks into Manageable Parts** – While the agent can handle multi-step workflows, extremely large tasks are easier to manage when divided into smaller, logical segments.
 3. **Review Each Action Before Approving** – Agent Mode provides step-by-step previews for every operation. Always review each action to confirm it matches your expectations.

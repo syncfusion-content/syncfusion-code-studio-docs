@@ -5,17 +5,17 @@ platform: syncfusion-code-studio
 keywords: code, IDE, AI, developer-tools, syncfusion, code-assistance, productivity, UI-generation, bug-fixing, documentation
 ---
 
-**Edit**
+# Edit
 
 Edit is an AI-powered feature, to help developers modify source code using prompts. It provides a consistent workflow where users can preview, keep, or undo each suggested change. This ensures high accuracy and full control over your codebase.
 
-**Key Benefits**
+## Key Benefits
 
 • Faster edits, apply bulk or repetitive changes in seconds.
 
 • Precise control over changes we can Keep or Undo each modifications.
 
-**How to use Edit mode?**
+## How to use Edit mode?
 
 **Step 1** : Switch to Edit mode in chat panel.
 
@@ -40,7 +40,7 @@ Note: Before entering a prompt in Edit Mode, make sure the correct file is selec
 
 <img src="./feature-images/addedFiles.png" alt="Chat Input" />
 
-**Edit previews and Change indicators**
+## Edit previews and Change indicators
 
 • Suggested changes are displayed with highlights for added or removed lines. This allows precise control over all modifications.
   Each block includes:
@@ -51,7 +51,7 @@ Note: Before entering a prompt in Edit Mode, make sure the correct file is selec
 
 <img src="./feature-images/keepUndo.png" alt="Chat Input" />
 
-**Best Practices**
+## Best Practices
 
 • **Write short, clear prompts** – Clear and concise prompts help the AI understand your exact intention, resulting in more accurate edits. Avoid long or vague instructions for better outcomes.
 
