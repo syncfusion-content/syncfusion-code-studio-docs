@@ -5,37 +5,85 @@ platform: syncfusion-code-studio
 keywords: local, BYOK
 ---
 
-# How to add local models and BYOK models
 
-## Local Models:
-Click the model's section dropdown and click 'Add Chat Model' option.
+# Add Models for Personal Use
 
-<img src="../reference-images/localmodel1.png" alt="local">
+A model is the underlying AI engine responsible for producing text, code, or explanations. Since every model is built and trained differently, the results you get will depend on the model you select.
 
-In the Add Chat Model dialog box choose the provider and model you want to use and add the API key of that particular provider and click connect button.
+---
 
-<img src="../reference-images/localmodel2.png" alt="local">
+## Why Personal Models?
 
-you can see the added model appear in local model category in model's section
+The **“Add Personal Model”** feature allows you to use required AI model providers and API keys inside Code Studio instead of relying only on organization‑configured models. This gives you more flexibility and control over your AI experience.
 
-<img src="../reference-images/localmodel3.png" alt="local">
+You can:
 
-## BYOK models: 
-Navigate to Code Studio dashboard website by clicking the dashboard button in the profile icon.
+- Experiment with different model providers  
+- Use higher‑capability models for personal tasks  
+- Choose a model that suits your coding style  
+- Avoid affecting your team’s shared configuration  
 
-<img src="../reference-images/BYOK7.png" alt="BYOK">
-<img src="../reference-images/BYOK1.png" alt="BYOK">
+---
 
-In the dashboard website navigate to BYOK/LLM keys section and add the LLM key by clicking 'Add LLM key' button
+## Key Benefits
 
-<img src="../reference-images/BYOK2.png" alt="BYOK">
-<img src="../reference-images/BYOK3.png" alt="BYOK">
+- **Full Flexibility** -  Use the models you prefer, including newer or more advanced ones not configured by your organization.  
+- **Independent Workspace**  - Add, switch, or remove personal models anytime without altering organization settings.  
+- **Improved Experimentation** -  Test various models for performance, accuracy, or creativity to find the best fit for your tasks.  
 
-After adding the LLM key navigate to the BYOK/Models section and add the model by clicking 'Add Model' button
+---
 
-<img src="../reference-images/BYOK4.png" alt="BYOK">
-<img src="../reference-images/BYOK5.png" alt="BYOK">
+## How to Add a Personal Model ?
 
-After adding the model, the added model will appear in Code Studio models section under BYOK models category.
+**Step 1:**   Click the model’s section dropdown and select **Manage Models**.
 
-<img src="../reference-images/BYOK6.png" alt="BYOK">
+<img src="../reference-images/manageModels.png" alt="Manage Models">
+
+**Step 2:**  Choose your preferred **Provider** (e.g., OpenAI, Anthropic).
+
+<img src="../reference-images/selectProvider.png" alt="Select Providers">
+
+**Step 3:**  Enter your **API Key** for the selected provider.  
+
+<img src="../reference-images/apiKey.png" alt="API Key">
+
+> **Note:** Ensure the API key is valid and correct.
+
+**Step 4:**  After adding the key, available models will be listed. Choose the models you want from the list.
+
+<img src="../reference-images/modelList.png" alt="Models">
+
+**Step 5:**  Click **OK** to add the selected model(s).
+
+<img src="../reference-images/clickOk.png" alt="Choose Model">
+
+**Step 6:**  The added models appear under **Other Models**, and you can use them like any built‑in or organization‑configured model.
+
+---
+<img src="../reference-images/otherModels.png" alt="Other Model">
+
+## How to Remove an Added Personal Model ?
+
+Removing a model unregisters it from your available AI models and deletes its saved configuration. It will no longer appear unless you add it again.
+
+**Step 1:**  Open **Manage Models** from the model’s dropdown section.
+
+<img src="../reference-images/manageModels.png" alt="Manage Models">
+
+
+**Step 2:**  Select the provider (e.g., OpenAI, Anthropic).
+
+<img src="../reference-images/selectProvider.png" alt="Select Providers">
+
+**Step 3:**  Uncheck the model you want to remove and click **OK**.
+
+---
+<img src="../reference-images/removeModel.png" alt="Remove Model">
+
+## Best Practices
+
+- **Use separate API keys** for personal and organizational work to avoid mixing usage.  
+- **Choose lightweight models** for small or quick tasks; use heavy models only when necessary to manage costs.  
+- **Keep keys secure**—never share or commit API keys in your repository.  
+- **Test on small tasks first** to understand behavior, speed, and accuracy.  
+- **Remove unused models** periodically to keep your workspace clean and organized.
