@@ -32,11 +32,11 @@ By default, the UI Builder tool is enabled in Code Studio. You can verify this b
 
 1. **Access Configure Tools**: Open the Configure Tools panel in Code Studio.
 
-<img src="./ui-builder-images/tool.png" alt="UI Builder Tool" />
+    <img src="./ui-builder-images/tool.png" alt="UI Builder Tool" />
 
 2. **Verify UI Builder Tool**: Confirm that the UiBuilder tool is enabled in the tools list.
 
-<img src="./ui-builder-images/toolenable.png" alt="UI Builder Tool Enable" />
+    <img src="./ui-builder-images/toolenable.png" alt="UI Builder Tool Enable" />
 
 ### Basic Usage
 
