@@ -53,7 +53,6 @@ Use the context menu to:
 - **Delete:** Remove a user from the organization.
 
    <img src="./enterprise-images/editUser.png" alt="Edit and Remove User" />
-
 ## 3. Teams Management
 
 ### Team List Panel
@@ -94,6 +93,10 @@ Accessible via the context menu (three-dot icon):
 - **Change Team** – Move a user from one team to another.
 
    <img src="./enterprise-images/changeTeam.png" alt="Change Team" />
+
+- **Remove Memeber** – Remove user from selected Team.
+
+   <img src="./enterprise-images/removeMember.png" alt="Remove Member" />
 
 ### Add Team Members
 - Click **Add Users** dropdown button to add users for selected team

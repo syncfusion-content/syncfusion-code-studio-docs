@@ -110,7 +110,7 @@ The Budget feature in Code Studio enables administrators to allocate and monitor
 - Click **“Delete”** in the context menu.
 - In the **Delete Dialog Box**, click **“Delete”** to confirm.
 
-   <img src="./enterprise-images/teamBudgetDelate.png" alt="delete Team budget"  />
+   <img src="./enterprise-images/teamBudgetDelete.png" alt="delete Team budget"  />
 
 ### 6.2 Delete User Budget
 
@@ -120,7 +120,7 @@ The Budget feature in Code Studio enables administrators to allocate and monitor
 - In the **Edit Budget** dialog, click **“Delete”**.
 - In the **Delete Dialog Box**, click **“Delete”** to confirm.
 
-   <img src="./enterprise-images/userBudgetdelete.png" alt="delete User budget"  />
+   <img src="./enterprise-images/userBudgetDelete.png" alt="delete User budget"  />
 
 ## 7. Usage Alerts
 

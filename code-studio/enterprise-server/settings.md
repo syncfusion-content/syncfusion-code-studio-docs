@@ -33,7 +33,7 @@ Add-on credits fund model usage across your organization.
 - Preset amounts: $50, $100, $500
 - Custom amount: Enter a custom value as needed
 - Purchase flow: Click Buy credits to proceed to the payment page and complete checkout. Credits are applied after successful payment.
-<img src="./enterprise-images/settingscredit.png" alt="settings"  />
+<img src="./enterprise-images/settingscredits.png" alt="settings"  />
 
 ## 4. Billing & Subscription
 
