@@ -59,7 +59,6 @@ You can:
 
 **Step 6:**  The added models appear under **Other Models**, and you can use them like any built‑in or organization‑configured model.
 
----
 <img src="../reference-images/otherModels.png" alt="Other Model">
 
 ## How to Remove an Added Personal Model ?

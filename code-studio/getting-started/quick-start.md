@@ -85,7 +85,7 @@ This reduces typing effort and ensures consistency.
 
 **For Example:** “When you begin typing a function call”, Autocomplete may fill in arguments, return handling, or common patterns automatically.
 
-<img src="gettingstarted-images/autoComplete.png" alt="Autocomplete" />
+<img src="gettingstarted-images/autocomplete.png" alt="Autocomplete" />
 
 *Learn more about [Autocomplete](/code-studio/features/autocomplete.md)*
 
