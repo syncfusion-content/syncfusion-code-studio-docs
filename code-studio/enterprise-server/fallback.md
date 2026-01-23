@@ -37,28 +37,28 @@ Fallback Policies in Code Studio ensure uninterrupted AI workflows by automatica
 
 1. Hover over the **Key** icon in the left sidebar and select the **Fallback Policy** from the menu.  
 
-<img src="./enterprise-images/fallback1.png" alt="fallback"  />
+   <img src="./enterprise-images/fallback1.png" alt="fallback"  />
 
 2. Turn on the **Fallback Policy** toggle to enable this feature. 
 
 3. Click the pencil icon to edit your fallback options, including Max retries and the list of models.
 
-<img src="./enterprise-images/fallback2.png" alt="fallback"  />
+   <img src="./enterprise-images/fallback2.png" alt="fallback"  />
 
 4. Add models in the desired Fallback Order:
 
    - Select models from available providers.  
    - Arrange them in priority order.
      
-  <img src="./enterprise-images/fallback3.png" alt="fallback"  />
+   <img src="./enterprise-images/fallback3.png" alt="fallback"  />
 
 5. If you want to remove a model, just click the **Close** icon next to it.
 
-<img src="./enterprise-images/fallback4.png" alt="fallback"  />
+   <img src="./enterprise-images/fallback4.png" alt="fallback"  />
 
 6. Click **Update** to save the configuration.
 
-<img src="./enterprise-images/fallback5.png" alt="fallback"  />
+   <img src="./enterprise-images/fallback5.png" alt="fallback"  />
 
 > **Note**: You can edit the model list and reorder them anytime to optimize fallback behavior for BYOK models.
 

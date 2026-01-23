@@ -5,36 +5,96 @@ platform: syncfusion-code-studio
 keywords: code, IDE, AI, developer-tools, syncfusion, code-assistance, productivity, UI-generation, bug-fixing, documentation
 ---
 
-# Autocomplete
+# Autocomplete in Code Studio
 
-Autocomplete provides inline code suggestions as you type. It provides real-time, inline code suggestions as you type, helping you write code faster and with fewer errors. As you begin typing, it predicts and displays context-aware completions directly. This feature enhances productivity by reducing repetitive typing and offering intelligent suggestions based on your current code and project context.
+## Description
+Syncfusion Code Studio includes an AI-powered autocomplete system that assists you while writing code. As you type, it suggests relevant code completions, comments, and patterns directly inside the editor based on the context of your current file, and it supports a wide range of programming languages and frameworks.
 
-## Steps to Integrate Autocomplete Feature:
+## Purpose
+The purpose of Autocomplete is to make coding faster, more accurate, and easier by:
+- Reducing repetitive typing
+- Completing functions, loops, and patterns automatically
+- Maintaining coding style consistency
+- Generating code from comments
 
-**Step 1:** Open your `config.yaml` file by clicking the gear icon at the top of the chat.
+## Prerequisites
+1. **Create and sign in** to your Syncfusion Code Studio account, visit: [Syncfusion Code Studio](https://app.sfcodestudio.com)
+2. **Download and open Syncfusion Code Studio**, visit: [Install and Configuration](/code-studio/getting-started/install-and-configuration)
 
-<img src="./feature-images/autocomplete1.png" alt="clicking gear icon"  />
+## How Autocomplete Works
+### Inline Suggestion
+Inline suggestions appear as light, faded (ghost) text directly at the cursor while you type. These suggestions help you complete code quickly without interrupting your flow.
 
-**Step 2:** Then click the **"open config file"** button to open the `config.yaml` file.
+### How to get your first inline suggestion in Code Studio
+**Steps:**
+1. Start typing normally inside the Code Studio editor.
+2. A faded (ghost) suggestion will appear based on your context.
+3. **Accept full suggestion:** Press `Tab`
+4. **Dismiss suggestion:** Press `Esc`
+5. **Accept suggestion word-by-word:** Press `Ctrl/Cmd + →`
 
-<img src="./feature-images/autocomplete2.png" alt="clicking open config file button"  />
+   <img src="./feature-images/Gif/autocomplete1.gif" alt="inlinechat"  />
 
-**Step 3:** Inside the `config.yaml` file, add `roles` under the model which you are using in the `models` section. Inside `roles`, add `"autocomplete"`.
+### Maintaining Coding Style Consistency
+Code Studio analyzes your existing code patterns—such as parameter names, method structure, and naming conventions—and automatically suggests completions that match your style. This ensures consistent code quality across your project.
 
-<img src="./feature-images/autocomplete3.png" alt="add roles"  />
+**Example:**
+If your method `calculateTotal` uses parameters like **price** and **quantity**, then when you start writing a new method such as `calculateDiscountedTotal`, Code Studio will suggest the same parameter names to maintain consistency.
 
-**Step 4:** Now if you type in the file, it will suggest code completions.
+ <img src="./feature-images/autocomplete2.png" alt="inlinechat"  />
 
-<img src="./feature-images/autocomplete4.png" alt="autocomplete"  />
+### Alternative Suggestions
+Code Studio may provide multiple inline suggestions. Hover over a suggestion to view alternatives and choose the one that best fits your code.
 
+ <img src="./feature-images/autocomplete3.png" alt="inlinechat"  />
 
+### Code Generation from Comments
+You can instruct Code Studio to generate code by simply writing a comment that describes what you want.
 
-## Accepting a full suggestion:
-Press the **"Tab"** key on your keyboard.
+**Example:**
+If you write comment like,
+```ts
+// Create a PriceCalculator class in Typescript with methods to calculate total price and discounted price
+```
+Code Studio may automatically generate the corresponding class with:
+- Fields
+- Methods
+- Default logic matching your description
 
-## Rejecting a full suggestion:
-Press the **"Esc"** key on your keyboard.
+ <img src="./feature-images/Gif/autocomplete4.gif" alt="inlinechat"  />
 
-## Partially accepting a suggestion:
-Press **"Cmd/Ctrl + →"** on your keyboard to accept parts of the suggestion word-by-word.
+## Configuration Options
+### Enable or Disable Autocomplete
+**Steps:**
+1. Click the **Gear icon** at the bottom-left corner.
+2. Select **Code Studio Settings**.
+
+   <img src="./feature-images/auto-configure1.png" alt="inlinechat"  />
+
+3. In the left panel, select **Autocomplete**.
+4. Toggle **Enable Autocomplete** ON or OFF.
+
+   <img src="./feature-images/auto-configure2.png" alt="inlinechat"  />
+
+### Select a Completion Model
+**Steps:**
+1. Click the dropdown next to the Code Studio icon.
+2. Select **Configure Inline Suggestions**.
+
+   <img src="./feature-images/auto-configure3.png" alt="inlinechat"  />
+
+3. Click **Change Completion Model**.
+
+   <img src="./feature-images/auto-configure4.png" alt="inlinechat"  />
+
+4. Choose the model you prefer from the dropdown list.
+
+   <img src="./feature-images/auto-configure5.png" alt="inlinechat"  />
+
+> **Note:** By default, only the premium autocomplete model is available. If you want to use other models for autocomplete, you must add them through BYOK (Bring Your Own Key). When configuring BYOK, ensure that the model is added with the Autocomplete model option enabled on the server. You can follow the instructions provided in the [BYOK help link]((/code-studio/enterprise-server/providersandmodels)) to complete this setup. Once a model is added via BYOK with autocomplete enabled, it will automatically appear in the Autocomplete model dropdown, allowing you to switch from the default premium model to another supported model.
+
+## Best Practices
+- **Write meaningful comments:** Better clarity leads to more accurate code generation.
+- **Review suggestions carefully:** Avoid unintended logic.
+- **Maintain consistent coding style:** Improves the accuracy and quality of suggestions.
 

@@ -25,7 +25,7 @@ Code Studio allows you to edit any previous chat request in your conversation hi
 
 2. Click the chat request to modify and then resend it.
 
-<img src="./feature-images/Gif/checkpoint1.gif" alt="checkpoint"  />
+   <img src="./feature-images/Gif/checkpoint1.gif" alt="checkpoint"  />
 
 ## Restoring a Checkpoint
 When you restore a checkpoint, Code Studio returns your workspace to the exact state it was in when that checkpoint was created. Any file changes made after that point are undone, allowing you to safely roll back to a known good version.
@@ -38,7 +38,7 @@ When you restore a checkpoint, Code Studio returns your workspace to the exact s
 
 2. Hover over the request and select **Restore Checkpoint**.
 
-<img src="./feature-images/checkpoint2.png" alt="checkpoint"  />
+   <img src="./feature-images/checkpoint2.png" alt="checkpoint"  />
 
 3. Confirm the action to restore the workspace and undo changes made after that point.
 
@@ -49,7 +49,7 @@ After restoring the previous checkpoint, Code Studio allows you to redo the chan
 
 1. To redo these changes, simply select Redo from the Chat view after the checkpoint has been restored.
 
-<img src="./feature-images/checkpoint3.png" alt="checkpoint"  />
+   <img src="./feature-images/checkpoint3.png" alt="checkpoint"  />
 
 ## Best Practices
 
