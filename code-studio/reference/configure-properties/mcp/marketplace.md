@@ -12,22 +12,27 @@ keywords: mcp-marketplace, mcp-server, installation, server-management, code-stu
 ## Overview
 The **MCP Marketplace** is a centralized platform for server management, helping users discover, install, and connect the right servers for their needs through an easy-to-use interface. It showcases a variety of available MCP servers. Users can explore server options and configure them for use by simply clicking the **Install** button, which initiates an automated setup process to integrate the server with the Code Studio extension.
 
----
+
 
 ## Steps to Install an MCP Server from Marketplace
 - Click the **Syncfusion Code Studio** icon on the top right side  to open the Syncfusion Code Studio chat window.
 <img src="../../reference-images/marketplace1.png" alt="marketplace" >
+
 - Navigate to **Configure Chat** by clicking the configure chat icon and go to the **Marketplace** tab.
 <img src="../../reference-images/marketplace2.png" alt="marketplace" >
+
 - Select **MCP Servers** from the drop-down menu.
 <img src="../../reference-images/marketplace3.png" alt="marketplace" >
 - After selecting MCP Servers, it navigates to the Marketplace tab:
-   - You can find predefined MCP servers such as **Azure DevOps, Figma, MongoDB, Playwright, Postgres**, etc.
+
+   - You can find predefined MCP servers such as **Azure DevOps, Figma, MongoDB, Playwright, Postgres,etc**.
    - Choose and install any of them.
    
    <img src="../../reference-images/marketplace4.png" alt="marketplace" >
+
 - Click the **Install** button to install the MCP server.
 <img src="../../reference-images/marketplace5.png" alt="marketplace" >
+
 - After installation, the MCP tools appear in the **Tools** section:
   - Select **Configure Tools**.
 
@@ -39,7 +44,7 @@ The **MCP Marketplace** is a centralized platform for server management, helping
 - Open the Marketplace and select **Installed** to check the servers you’ve added.
 <img src="../../reference-images/marketplace8.png" alt="marketplace" >
 
----
+
 
 ## Filter Support in Marketplace
 - The Marketplace allows you to apply filters to quickly narrow down and find the servers you need:
@@ -72,7 +77,7 @@ The **MCP Marketplace** is a centralized platform for server management, helping
 
     <img src="../../reference-images/mcpfilter7.png" alt="marketplace" >
 
----
+
 
 ## Example Usage of GitHub MCP Server
 
@@ -115,7 +120,7 @@ The **MCP Marketplace** is a centralized platform for server management, helping
 - Ensure the newly created branch (e.g., `exception-handling`) appears in the list.
 <img src="../../reference-images/github1.png" alt="marketplace" >
 
----
+
 
 ## Uninstalling an MCP Server
 - Go to the **Marketplace** tab.
@@ -123,7 +128,7 @@ The **MCP Marketplace** is a centralized platform for server management, helping
 - Choose the MCP server you want to uninstall.
 - Click **Uninstall** to remove the selected server.
 <img src="../../reference-images/uninstallmcp.png" alt="marketplace" >
----
+
 
 ## Best Practices
 - **Clear Service Boundaries**: Keep each MCP server focused on a single responsibility.responsibility (e.g., database, browser automation, API gateway) to simplify scaling and maintenance.
@@ -131,9 +136,9 @@ The **MCP Marketplace** is a centralized platform for server management, helping
 - **Resilience & Reliability**: Implement health checks, retries, and circuit breakers. Design for graceful degradation so services remain usable under stress.
 - **Observability & Monitoring**: Provide metrics, structured logs, and tracing. Use tools like Prometheus/Grafana for visibility into performance and failures.
 - **Developer Friendly Documentation**: Offer clear onboarding guides, versioned APIs, and examples. Good documentation accelerates adoption and reduces support overhead.
----
+
 
 ## Note
 If you want to add a new MCP server, you can request it by creating a support ticket using the link provided below. This ensures your request is tracked, reviewed, and considered for inclusion.
 
-**Link:** [Syncfusion Internal Support](https://internalsupport.bolddesk.com)
+**Link:** [Create Ticket | Syncfusion Support](https://codestudio.syncfusion.com/agent/tickets/create)
