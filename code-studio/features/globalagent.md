@@ -7,7 +7,7 @@ keywords: "code, IDE, AI, developer-tools, syncfusion, code-assistance, producti
 # Global Agents
 
 ## Overview
-Global Agent refers to agents.md, an open-source, standardized file format designed to streamline collaboration between AI coding agents in **Syncfusion® Code Studio**. It serves as a centralized instruction manual, similar to a `README.md`, but specifically tailored for machine interpretation and execution. By consolidating setup instructions, testing protocols, and coding guidelines into a single file, Global Agent simplifies workflows and ensures consistency across projects.  
+Global Agent refers to agents.md, an open-source, standardized file format designed to streamline collaboration between AI coding agents in **Syncfusion® Code Studio**. It serves as a centralized instruction manual—comparable to a README.md—but specifically tailored for machine interpretation and execution. By consolidating setup instructions, testing protocols, and coding guidelines into a single file, Global Agent simplifies workflows and ensures consistency across projects.  
 
 > **Note**: Enable the **Use Agent MD File** option under Agents in the settings.
 
@@ -43,20 +43,20 @@ Using Global Agent in Code Studio is straightforward:
 
 7. Open a chat and send message.
 
-    <img src="./feature-images/globalagent-chat.png" alt="chat" >
+    <img src="./feature-images/globalagent-chat-.png" alt="chat" >
 
-8. The `agents.md` file will then be used as a reference.
+8. The agents.md file will then be used as a reference.
 
     <img src="./feature-images/globalagent-referenceagent.png" alt="reference" >
 
 ## Validation
 - Verify **Agent Enabled** is enabled under Agents.
 - Verify **Use Agent MD File** is enabled under Agents.
-- Check that the file is named `agents.md` and placed in the project root.
-- Verify that Code Studio references `agents.md` when responding
+- Check that the file is named **agents.md** and placed in the project root.
+- Verify that Code Studio references **agents.md** when responding
 
 ## Troubleshoot
-**`agents.md` file is not referenced.**  
+**agents.md file is not referenced.**  
 -   Ensure the file exists in the root directory and is not in a subfolder.
 -	Confirm the extension is exactly .md.
 -	Ensure the file name as agents.md.

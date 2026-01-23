@@ -8,8 +8,6 @@ keywords: user-settings, customization, configuration, development-environment, 
 
 # User Settings
 
-## Overview
-
 The Settings is designed to make it easy for users to manage how the application works for them. It consolidates all essential controls in one place, enabling you to personalize features, monitor credits and usage, and optimize your workflow. The Settings page gives users full control, flexibility, and clarity so they can tailor Code Studio to their needs while staying efficient, cost aware, and compliant. Settings are stored locally and take effect immediately upon change.
 
 ## Purpose
