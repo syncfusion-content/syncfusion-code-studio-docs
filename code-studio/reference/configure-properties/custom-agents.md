@@ -84,8 +84,7 @@ Select your preferred location → click **Continue**.
 
 <img src="../reference-images/agent_review.png" alt="agent_review" />
 
-- Once Created, a new file named **CodeReview.agent.md** will automatically open in the editor. 
-  (This file represents your newly created CodeReview agent.)
+- Once Created, a new file named **CodeReview.agent.md** will automatically open in the editor. This file represents your newly created Custom agent.
 
 <img src="../reference-images/agent_code_review.png" alt="agent_code_review" />
 
