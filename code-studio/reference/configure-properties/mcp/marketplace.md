@@ -16,13 +16,17 @@ The **MCP Marketplace** is a centralized platform for server management, helping
 
 ## Steps to Install an MCP Server from Marketplace
 - Click the **Syncfusion Code Studio** icon on the top right side  to open the Syncfusion Code Studio chat window.
-<img src="../../reference-images/marketplace1.png" alt="marketplace" >
+
+  <img src="../../reference-images/marketplace1.png" alt="marketplace" >
 
 - Navigate to **Configure Chat** by clicking the configure chat icon and go to the **Marketplace** tab.
-<img src="../../reference-images/marketplace2.png" alt="marketplace" >
+
+  <img src="../../reference-images/marketplace2.png" alt="marketplace" >
 
 - Select **MCP Servers** from the drop-down menu.
-<img src="../../reference-images/marketplace3.png" alt="marketplace" >
+
+  <img src="../../reference-images/marketplace3.png" alt="marketplace" >
+
 - After selecting MCP Servers, it navigates to the Marketplace tab:
 
    - You can find predefined MCP servers such as **Azure DevOps, Figma, MongoDB, Playwright, Postgres,etc**.
@@ -31,9 +35,11 @@ The **MCP Marketplace** is a centralized platform for server management, helping
    <img src="../../reference-images/marketplace4.png" alt="marketplace" >
 
 - Click the **Install** button to install the MCP server.
-<img src="../../reference-images/marketplace5.png" alt="marketplace" >
+
+   <img src="../../reference-images/marketplace5.png" alt="marketplace" >
 
 - After installation, the MCP tools appear in the **Tools** section:
+
   - Select **Configure Tools**.
 
    <img src="../../reference-images/marketplace6.png" alt="marketplace" >
@@ -41,8 +47,10 @@ The **MCP Marketplace** is a centralized platform for server management, helping
   - Verify the tools added in the dropdown list.
 
    <img src="../../reference-images/marketplace7.png" alt="marketplace" >
+
 - Open the Marketplace and select **Installed** to check the servers you’ve added.
-<img src="../../reference-images/marketplace8.png" alt="marketplace" >
+
+  <img src="../../reference-images/marketplace8.png" alt="marketplace" >
 
 
 
@@ -84,25 +92,29 @@ The **MCP Marketplace** is a centralized platform for server management, helping
 ### Step 1: Installation of GitHub MCP Server
 - Open the Marketplace tab.
 - There you can find GitHub and click install 
-<img src="../../reference-images/github1.png" alt="marketplace" >
+
+  <img src="../../reference-images/github1.png" alt="marketplace" >
 
 ### Step 2: Provide Access Token
 - After clicking Install, you will be prompted to enter a **GitHub Personal Access Token**.
 - Enter a valid access token generated from your GitHub account.
 - After entering the access token, click Continue to complete the installation successfully
 - Help Link for creating a access token : [Personal Access Tokens](https://github.com/settings/tokens).
-<img src="../../reference-images/github2.png" alt="marketplace" >
+
+  <img src="../../reference-images/github2.png" alt="marketplace" >
 
 ### Step 3: Select the Installed Tool
 - Identify the GitHub MCP server from **Configure Tool**.
 - Select the tools you need from the GitHub MCP server and add them.
-<img src="../../reference-images/github3.png" alt="marketplace" >
+
+  <img src="../../reference-images/github3.png" alt="marketplace" >
 
 ### Step 4: Formulate Your Prompt
 - Decide what action you want the tool to perform.
 - Write the prompt in the chat panel.
   Example : 
-<img src="../../reference-images/github4.png" alt="marketplace" >
+
+  <img src="../../reference-images/github4.png" alt="marketplace" >
 
 ### Step 5: Execute the Command
 - Hit **Enter** to run the command.
@@ -110,7 +122,9 @@ The **MCP Marketplace** is a centralized platform for server management, helping
 
 ### Step 6: Allow or Skip Permissions
 - The system may ask you to allow or skip execution (for security reasons).
-<img src="../../reference-images/github5.png" alt="marketplace" >
+
+    <img src="../../reference-images/github5.png" alt="marketplace" >
+
 - If you choose **Allow**, the tool proceeds.
 - If you choose **Skip**, the action is canceled.
 
@@ -118,7 +132,8 @@ The **MCP Marketplace** is a centralized platform for server management, helping
 - Once allowed, the tool executes the action.
 - After that check the **Branches section** in your GitHub repository.
 - Ensure the newly created branch (e.g., `exception-handling`) appears in the list.
-<img src="../../reference-images/github1.png" alt="marketplace" >
+
+  <img src="../../reference-images/github1.png" alt="marketplace" >
 
 
 
@@ -127,7 +142,8 @@ The **MCP Marketplace** is a centralized platform for server management, helping
 - Select the **Installed** filter to view all installed MCP servers.
 - Choose the MCP server you want to uninstall.
 - Click **Uninstall** to remove the selected server.
-<img src="../../reference-images/uninstallmcp.png" alt="marketplace" >
+
+  <img src="../../reference-images/uninstallmcp.png" alt="marketplace" >
 
 
 ## Best Practices
