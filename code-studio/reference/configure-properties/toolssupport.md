@@ -7,6 +7,8 @@ keywords: tools, syncfusion, code-studio, development, automation, workflow, bui
 
 # Tools Support
 
+## Overview
+
 The Tools Support feature in Syncfusion Code Studio empowers developers to perform specific actions within the development environment, such as creating folders, reading files, searching within files, and interacting with browsers. This guide provides a step-by-step approach to use the built-in tools, enabling you to streamline your development workflow and automate tasks efficiently with simple prompts.
 
 ## Purpose
