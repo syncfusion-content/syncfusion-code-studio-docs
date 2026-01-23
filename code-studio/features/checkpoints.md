@@ -17,7 +17,7 @@ The purpose of these features is to help developers maintain control over their 
 ## Editing a Previous Chat Request
 Code Studio allows you to edit any previous chat request in your conversation history. When you modify an earlier request, Code Studio treats it as a new instruction and sends it again to the AI model. The workspace is then reverted to the state it was in before the original request—undoing any file changes made by that request and the requests that came after it.
 
-### How to Edit Previous Char request
+### How to Edit Previous Chat request ?
 
 **Steps**:
 
@@ -30,7 +30,7 @@ Code Studio allows you to edit any previous chat request in your conversation hi
 ## Restoring a Checkpoint
 When you restore a checkpoint, Code Studio returns your workspace to the exact state it was in when that checkpoint was created. Any file changes made after that point are undone, allowing you to safely roll back to a known good version.
 
-### How to use Restore Check Point in Code Studio
+### How to use Restore Check Point in Code Studio ?
 
 **Steps**:
 
@@ -40,12 +40,13 @@ When you restore a checkpoint, Code Studio returns your workspace to the exact s
 
 <img src="./feature-images/checkpoint2.png" alt="checkpoint"  />
 
+
 3. Confirm the action to restore the workspace and undo changes made after that point.
 
 ## Redo Changes After Restoring a Checkpoint
 After restoring the previous checkpoint, Code Studio allows you to redo the changes that were undone. This is helpful if you restored the checkpoint by mistake or want to reapply the edits you rolled back.
 
-### How to redo changes After Restoring a Checkpoint
+### How to redo changes After Restoring a Checkpoint ?
 
 1. To redo these changes, simply select Redo from the Chat view after the checkpoint has been restored.
 

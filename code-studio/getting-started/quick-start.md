@@ -14,7 +14,7 @@ Start using **Syncfusion Code Studio** in minutes and unlock AI‑powered coding
 ## Overview
 **Syncfusion Code Studio** is an intelligent, AI‑powered coding companion designed to make your development process faster and easier. Instead of writing every line manually or searching for solutions, Code Studio works alongside you—understanding your intent, offering meaningful suggestions, and helping you learn as you build.
 
-This assistant supports developers of **all skill levels**, whether you're writing your first lines of code or managing complex enterprise applications.
+This assistant supports developers of all skill levels whether you're writing your first lines of code or managing complex enterprise applications.
 
 With the help of advanced AI, Code Studio can:
 
@@ -44,8 +44,8 @@ Before getting started, make sure that:
 Follow the steps below to open your project and start working inside the Code Studio environment.
 
 1. **Open the application based on your OS**
-   - **Windows:** Go to the *Start Menu*, search for *Syncfusion Code Studio*, and launch it.
-   - **macOS:** Open *Applications* or *Launchpad*, find *Syncfusion Code Studio*, and open it.
+   - **Windows:**  Go to the **Start Menu**, search for **Syncfusion Code Studio**, and launch it.
+   - **macOS:** Open **Applications** or **Launchpad**, find **Syncfusion Code Studio**, and open it.
 
 2. **Access the File Menu** - At the top menu bar, click **"File"**.
 
@@ -76,7 +76,7 @@ Autocomplete helps you write code faster by predicting the next part of your log
 It analyzes the structure of your file, understands your coding patterns, and suggests additions that match the flow of your project.  
 This reduces typing effort and ensures consistency.
 
-**For Example:** “When you begin typing a function call”, Autocomplete may fill in arguments, return handling, or common patterns automatically.
+**For Example:** *“When you begin typing a function call”*, Autocomplete may fill in arguments, return handling, or common patterns automatically.
 
 <img src="gettingstarted-images/autocomplete.png" alt="Autocomplete" />
 
@@ -88,11 +88,12 @@ Ask mode allows you to communicate with the AI using natural language and receiv
 
 You can request explanations, code examples, best practices, or clarifications for unfamiliar concepts.
 
-**For Example:**  Ask, “Why am I getting an error here?” and the AI will inspect your code, explain the cause, and propose a fix.
+**For Example:**  Ask, *“Why am I getting an error here?”* and the AI will inspect your code, explain the cause, and propose a fix.
 
-*Learn more about [Ask](/code-studio/features/ask)*
 
 <img src="gettingstarted-images/ask.png" alt="Ask" />
+
+*Learn more about [Ask](/code-studio/features/ask)*
 
 ### 3. Edit Mode
 Edit Mode allows you to modify existing code simply by describing the changes.
@@ -100,7 +101,7 @@ Edit Mode allows you to modify existing code simply by describing the changes.
 You can update logic, restructure components, clean up syntax, or improve performance without editing manually.  
 Code Studio shows suggested changes clearly, letting you apply or undo them step by step.
 
-**For Example:**  Give, “Simplify this function using early returns,”as pompt, Edit Mode rewrites it neatly while preserving behavior.
+**For Example:**  Give, *“Simplify this function using early returns”* as pompt, Edit Mode rewrites it neatly while preserving behavior.
 
 <img src="gettingstarted-images/edit.png" alt="Edit" />
 
@@ -112,7 +113,7 @@ Agent Mode handles larger tasks that span multiple files.
 It can plan, update, and refine complex project structures while giving you full control over the process.  
 Ideal for scaffolding features, refactoring modules, or managing structured workflows.
 
-**For Example:**  “Set up user authentication.”  The Agent will outline steps, update backend routes, create frontend components, and explain changes.
+**For Example:**  *“Set up user authentication.”*  The Agent will outline steps, update backend routes, create frontend components, and explain changes.
 
 <img src="gettingstarted-images/agent.png" alt="Agent" />
 
@@ -123,7 +124,7 @@ Use Plan Mode when you want full visibility before making changes.
 
 Plan Mode creates a clear sequence of steps the AI will follow—helping you understand scope and reduce surprises.
 
-**For Example:**  “Give a plan to upgrade this project to use Fetch instead of Axios.”  The AI will generate an ordered list of required updates across files.
+**For Example:**  *“Give a plan to upgrade this project to use Fetch instead of Axios.”*  The AI will generate an ordered list of required updates across files.
 
 <img src="gettingstarted-images/plan.png" alt="Plan" />
 
@@ -133,7 +134,7 @@ Plan Mode creates a clear sequence of steps the AI will follow—helping you und
 Inline Chat allows localized edits directly next to your code.  
 Highlight text and ask for improvements, optimizations, or rewrites without switching views.
 
-**Fo Example:**   Select a loop and ask, “Optimize this for better performance.”  
+**Fo Example:**   Select a loop and ask, *“Optimize this for better performance.”*  
 You’ll see improved code inline with **Accept** and **Dismiss** options.
 
 <img src="gettingstarted-images/inlineChat.png" alt="InlineChat" />
