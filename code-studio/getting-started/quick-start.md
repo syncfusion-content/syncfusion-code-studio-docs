@@ -30,7 +30,7 @@ It helps you write cleaner, more accurate code while staying focused and product
 Before getting started, make sure that:
 
 1. **Syncfusion Code Studio is installed**  
-   If it’s not installed, refer to the installation guide to set it up properly.
+   If it’s not installed, refer to the [installation guide](/code-studio/getting-started/install-and-configuration) to set it up properly.
 
 2. **A local project folder is ready**  
    Code Studio works best with an existing project or a fresh folder for coding.
@@ -66,7 +66,7 @@ Your selected project will open in the editor where you can:
 
 ### Built-in Agent Modes
 Code Studio provides five built‑in agents   **Autocomplete**, **Ask**, **Edit**, **Agent**, **Plan** .
-You can also create [custom agents](/code-studio/reference/configure-properties/custom-agents.md) for specialized workflows.
+You can also create [custom agents](/code-studio/reference/configure-properties/custom-agents) for specialized workflows.
 
 <img src="gettingstarted-images/builtInAgents.png" alt="Built in Agents" />
 
@@ -80,7 +80,7 @@ This reduces typing effort and ensures consistency.
 
 <img src="gettingstarted-images/autocomplete.png" alt="Autocomplete" />
 
-*Learn more about [Autocomplete](/code-studio/features/autocomplete.md)*
+*Learn more about [Autocomplete](/code-studio/features/autocomplete)*
 
 
 ### 2. Ask
@@ -90,7 +90,7 @@ You can request explanations, code examples, best practices, or clarifications f
 
 **For Example:**  Ask, “Why am I getting an error here?” and the AI will inspect your code, explain the cause, and propose a fix.
 
-*Learn more about [Ask](/code-studio/features/ask.md)*
+*Learn more about [Ask](/code-studio/features/ask)*
 
 <img src="gettingstarted-images/ask.png" alt="Ask" />
 
@@ -104,7 +104,7 @@ Code Studio shows suggested changes clearly, letting you apply or undo them step
 
 <img src="gettingstarted-images/edit.png" alt="Edit" />
 
-*Learn more about [Edit](/code-studio/features/edit.md)*
+*Learn more about [Edit](/code-studio/features/edit)*
 
 ### 4. Agent Mode
 Agent Mode handles larger tasks that span multiple files.
@@ -116,7 +116,7 @@ Ideal for scaffolding features, refactoring modules, or managing structured work
 
 <img src="gettingstarted-images/agent.png" alt="Agent" />
 
-*Learn more about [Agent](/code-studio/features/agent.md)*
+*Learn more about [Agent](/code-studio/features/agent)*
 
 ### 5. Plan Mode
 Use Plan Mode when you want full visibility before making changes.
@@ -127,7 +127,7 @@ Plan Mode creates a clear sequence of steps the AI will follow—helping you und
 
 <img src="gettingstarted-images/plan.png" alt="Plan" />
 
-*Learn more about [Plan](/code-studio/features/plan.md)*
+*Learn more about [Plan](/code-studio/features/plan)*
 
 ## Inline Chat
 Inline Chat allows localized edits directly next to your code.  
@@ -138,7 +138,7 @@ You’ll see improved code inline with **Accept** and **Dismiss** options.
 
 <img src="gettingstarted-images/inlineChat.png" alt="InlineChat" />
 
-*Learn more about [Inlinechat](/code-studio/features/inlinechat.md)*
+*Learn more about [Inlinechat](/code-studio/features/inlinechat)*
 
 ## Add Context
 Add Context lets Code Studio understand more of your project by including additional files or folders in the request.
@@ -149,11 +149,10 @@ This leads to smarter, interconnected suggestions.
 
 <img src="gettingstarted-images/addContext.png" alt="Add context" />
 
-*Learn more about [Add Context](/code-studio/features/context-provider.md)*
+*Learn more about [Add Context](/code-studio/features/context-provider)*
 
 ## Next Steps
 Now that you've explored the basics:
 
-- Learn how to create your first automated change with **Agent Mode**  
-- Read **First Agent Run.docx**
+Learn how to create your first automated change with [Agent](/code-studio/features/agent).  
 

@@ -20,7 +20,7 @@ You can sign in using one of the following methods:
 - **GitHub Account**: Sign in with your GitHub credentials.  
 - **Syncfusion Account**: Use your existing Syncfusion login.
 
-<img src="./enterprise-images/sign3.png" alt="getting started" />
+<img src="./enterprise-images/signin.png" alt="getting started" />
 
 > **Note**: If you don’t have an account, click **“SIGN UP”** to create one.
 
@@ -30,13 +30,17 @@ Once signed in:
 
 - You’ll be directed to the Dashboard.  
 - Click on your **Profile Icon** to access **Settings**
-  <img src="./enterprise-images/profile.png" alt="getting started" />
+
+<img src="./enterprise-images/settings.png" alt="settings" />
 
 ### 3. Managing Settings
 
 Click on **Settings** to:
 
 - Update your **Profile Information**  
+
+<img src="./enterprise-images/profile.png" alt="profile" />
+
 - Configure your **Organization Settings**
 
-<img src="./enterprise-images/getting started.png" alt="getting started" />
+<img src="./enterprise-images/organization.png" alt="organization" />
