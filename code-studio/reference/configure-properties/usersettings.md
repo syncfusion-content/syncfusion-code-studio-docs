@@ -26,7 +26,7 @@ Settings allow users to tailor the development environment to their individual p
 
 The User Settings page can be accessed in three ways:
 
-### 1: From the Account
+### 1. From the Account
 
 - Click the Code Studio Account icon.
 
@@ -36,7 +36,7 @@ The User Settings page can be accessed in three ways:
 
 <img src="../reference-images/settings-page-chat.png" alt="UserSettings" >
 
-### 2: From the Toggle Sidebar
+### 2. From the Toggle Sidebar
 
 - Click the **gear icon** on the left sidebar of the Code Studio window.
 - Select Code Studio Settings from the menu.
@@ -47,7 +47,7 @@ The User Settings page can be accessed in three ways:
 
 <img src="../reference-images/settings-page-chat.png" alt="UserSettings" >
 
-### 3: From the Chat Window
+### 3. From the Chat Window
 
 - Navigate to the **Code Studio Chat Window**.
 - Click the **gear icon** located at the top right corner.

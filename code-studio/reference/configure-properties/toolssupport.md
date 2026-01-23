@@ -53,7 +53,7 @@ Syncfusion Code Studio provides a suite of tools to streamline your workflow.You
 
 <img src="../reference-images/tools1.png" alt="Tools" >
 
-### 2. Toolset Overview
+### Toolset Overview
 
 Below is a list of some tools and their descriptions for reference
 
@@ -106,21 +106,21 @@ Before you can use tools in chat, you need to enable them in the **Chat view**. 
 
 > **Note:** Select the agent after that tool picker is visible in the chat. Select only the tools that are relevant to your prompt to improve results.
 
-# To access the tools picker
+### How to access the tools picker
 
-1. Click the Syncfusion Code Studio icon. The chat window is displayed.
+**Step 1:** Click the Syncfusion Code Studio icon. The chat window is displayed.
 
 <img src="../reference-images/tools2.png" alt="Tools" >
 
-2. Select the Agent in the chat window.
+**Step 2:** Select the Agent in the chat window.
 
-3. Click the Configure Tools button in the chat input field. The tools are displayed.
+**Step 3:** Click the Configure Tools button in the chat input field. The tools are displayed.
 
 <img src="../reference-images/tools3.png" alt="Tools" >
 
 > **Note:** Must select the Agent to access the configuration tools.
 
-4. Select or deselect tools to control which ones are available for the current request.
+**Step 4:** Select or deselect tools to control which ones are available for the current request.
 
 <img src="../reference-images/tools4.png" alt="Tools" >
 

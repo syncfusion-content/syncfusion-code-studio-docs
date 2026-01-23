@@ -105,7 +105,7 @@ You will see three options:
 <img src="../reference-images/instruction_repo_file.png" alt="instruction_repo_file">
 
 **Step 3:** Customize the file to fit your project needs.  
-**Step 4:** Open chat view and send a message — your instruction file will be referenced automatically.
+**Step 4:** Open chat view and send a message. Now the instruction file will be **referenced** automatically.
 
 <img src="../reference-images/instruction_repo_refer.png" alt="instruction_repo_refer">
 
@@ -137,7 +137,7 @@ You will see three options:
     - Select your **preferred location** and click to Continue.               
 
 **Step 4:** Name your instruction file
-- (e.g., here the instruction file name entered is `test.instructions.md`).  
+- For example, here the instruction file name entered is `test.instructions.md`.  
 
 <img src="../reference-images/instruction_path_name.png" alt="instruction_path_name">
 
@@ -146,16 +146,16 @@ You will see three options:
 <img src="../reference-images/instruction_path_test.png" alt="instruction_path_test">
 
 **Step 6:** Target the path-specific instructions file
-- (for example, here target the `test.instructions.md` file)
+- For example, here target the `test.instructions.md` file.
 
 - There are **two** options to target your path specific instruction. You can choose any one of them based on your preference.
 
 ### Option 1: Global Path Targeting
 - **Definition:** `applyTo: '**'`  
 - Applies rules **globally** to all files in the repository.  
-- Best when you want rules to apply across ebery file types `(e.g.,.ts, .scss, .js, .html).`
+- Best when you want rules to apply across every file types `(e.g.,.ts, .scss, .js, .html).`
 
-- Steps to target the global path
+- Steps to target the global path:
     - Step 1: Use path Like `'**'`
 
     <img src="../reference-images/instruction_global.png" alt="instruction_global" >
@@ -171,7 +171,7 @@ You will see three options:
 ### Option 2: Pattern-specific Targeting
 - **Definition:** `applyTo: **/*.scss` or other patterns. for example `(**/*.ts, **/*.css)` 
 - Applies rules only to files matching the **given pattern.**  
-- Best for rules limited to certain file types or directories.
+- Best for adding rules to certain file types or directories.
 
 - Steps to target the pattern specific path
     - Step 1: Use any specific path like `‘**/*.scss’.`
@@ -186,7 +186,7 @@ You will see three options:
 
     <img src="../reference-images/instruction_path_context.png" alt="instruction_path_context" >
 
-    - step 4: Open chat and send message your instruction file will come in the **used reference.**
+    - Step 4: Open chat and send message your instruction file will come in the **used reference.**
 
     <img src="../reference-images/instruction_path_result.png" alt="instruction_path_result" >
     

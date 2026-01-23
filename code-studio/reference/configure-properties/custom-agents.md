@@ -60,17 +60,18 @@ Choose **one** of these methods:
 - Choose **Custom Agents** from the menu
 - Click “+ Create new Custom agent”
 
-<img src="../reference-images/new_custom_agent.png" alt="new_Custom_Agent" />
+<img src="../reference-images/custom_agent.png" alt="Custom_Agent" />
 
 ### Step 2: Choose Where to Save Your Agent
 
 **Option 1: Workspace** (recommended for team sharing)
-- Saves to: `YOUR-PROJECT/.codestudio/agents/`
+- Saves to: `YOUR-PROJECT/.codestudio/agents/` folder in your project.
+- Use when: Sharing with your **team** while committing your source.
 - Location: `YOUR-PROJECT/.codestudio/agents/your-agent-name.agent.md`
-- Ideal when committing to source control
 
 **Option 2: User Profile** (personal, cross-project)
 - Saves to your user profile folder
+- Use when: Using across multiple projects.
 - Available in **all** workspaces
 
 <img src="../reference-images/agent_save.png" alt="agent_save" />
