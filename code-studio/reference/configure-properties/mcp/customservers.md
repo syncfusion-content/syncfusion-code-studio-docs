@@ -19,7 +19,7 @@ Click the **Syncfusion Code Studio** icon on the left toolbar to open the Syncfu
 
 Navigate to MCP section by clicking MCP icon and move to custom servers tab.
 
- <img src="../../reference-images/marketplace1.png" alt="customserver" >
+ <img src="../../reference-images/marketplace.png" alt="customserver" >
  <img src="../../reference-images/customserver.png" alt="customserver" >
 
 ## Remote Server: 
