@@ -10,7 +10,6 @@ keywords: ask-code-studio, error-resolution, ai-debugging, code-quality, develop
 
 Start using **Syncfusion Code Studio** in minutes and unlock AI‑powered coding that accelerates your development process.
 
----
 
 ## Overview
 **Syncfusion Code Studio** is an intelligent, AI‑powered coding companion designed to make your development process faster and easier. Instead of writing every line manually or searching for solutions, Code Studio works alongside you—understanding your intent, offering meaningful suggestions, and helping you learn as you build.
@@ -25,7 +24,6 @@ With the help of advanced AI, Code Studio can:
 
 It helps you write cleaner, more accurate code while staying focused and productive.
 
----
 
 ## Prerequisites
 
@@ -40,7 +38,6 @@ Before getting started, make sure that:
 3. **Basic familiarity with writing code**  
    You don’t need to be an expert—just comfortable editing files and understanding simple programming concepts.
 
----
 
 ## Step 1: Open a Project in Code Studio
 
@@ -63,8 +60,6 @@ Your selected project will open in the editor where you can:
 - Edit and create source files  
 - Use AI-powered features like **Chat**, **Autocomplete**, **Agent**, **Edit**, and **Quick Fix**
 
----
-
 <img src="gettingstarted-images/openFolder.png" alt="Open Folder" />
 
 ## Step 2: Explore Core Features
@@ -72,8 +67,6 @@ Your selected project will open in the editor where you can:
 ### Built-in Agent Modes
 Code Studio provides five built‑in agents   **Autocomplete**, **Ask**, **Edit**, **Agent**, **Plan** .
 You can also create [custom agents](/code-studio/reference/configure-properties/custom-agents.md) for specialized workflows.
-
----
 
 <img src="gettingstarted-images/builtInAgents.png" alt="Built in Agents" />
 
@@ -89,7 +82,6 @@ This reduces typing effort and ensures consistency.
 
 *Learn more about [Autocomplete](/code-studio/features/autocomplete.md)*
 
----
 
 ### 2. Ask
 Ask mode allows you to communicate with the AI using natural language and receive accurate, context‑aware help.
@@ -99,8 +91,6 @@ You can request explanations, code examples, best practices, or clarifications f
 **For Example:**  Ask, “Why am I getting an error here?” and the AI will inspect your code, explain the cause, and propose a fix.
 
 *Learn more about [Ask](/code-studio/features/ask.md)*
-
----
 
 <img src="gettingstarted-images/ask.png" alt="Ask" />
 
@@ -116,8 +106,6 @@ Code Studio shows suggested changes clearly, letting you apply or undo them step
 
 *Learn more about [Edit](/code-studio/features/edit.md)*
 
----
-
 ### 4. Agent Mode
 Agent Mode handles larger tasks that span multiple files.
 
@@ -130,8 +118,6 @@ Ideal for scaffolding features, refactoring modules, or managing structured work
 
 *Learn more about [Agent](/code-studio/features/agent.md)*
 
----
-
 ### 5. Plan Mode
 Use Plan Mode when you want full visibility before making changes.
 
@@ -142,8 +128,6 @@ Plan Mode creates a clear sequence of steps the AI will follow—helping you und
 <img src="gettingstarted-images/plan.png" alt="Plan" />
 
 *Learn more about [Plan](/code-studio/features/plan.md)*
-
----
 
 ## Inline Chat
 Inline Chat allows localized edits directly next to your code.  
@@ -156,8 +140,6 @@ You’ll see improved code inline with **Accept** and **Dismiss** options.
 
 *Learn more about [Inlinechat](/code-studio/features/inlinechat.md)*
 
----
-
 ## Add Context
 Add Context lets Code Studio understand more of your project by including additional files or folders in the request.
 
@@ -169,12 +151,9 @@ This leads to smarter, interconnected suggestions.
 
 *Learn more about [Add Context](/code-studio/features/context-provider.md)*
 
----
-
 ## Next Steps
 Now that you've explored the basics:
 
 - Learn how to create your first automated change with **Agent Mode**  
 - Read **First Agent Run.docx**
 
----

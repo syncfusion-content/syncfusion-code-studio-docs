@@ -10,7 +10,6 @@ keywords: local, BYOK
 
 A model is the underlying AI engine responsible for producing text, code, or explanations. Since every model is built and trained differently, the results you get will depend on the model you select.
 
----
 
 ## Why Personal Models?
 
@@ -23,7 +22,6 @@ You can:
 - Choose a model that suits your coding style  
 - Avoid affecting your team’s shared configuration  
 
----
 
 ## Key Benefits
 
@@ -31,7 +29,6 @@ You can:
 - **Independent Workspace**  - Add, switch, or remove personal models anytime without altering organization settings.  
 - **Improved Experimentation** -  Test various models for performance, accuracy, or creativity to find the best fit for your tasks.  
 
----
 
 ## How to Add a Personal Model ?
 
@@ -76,7 +73,6 @@ Removing a model unregisters it from your available AI models and deletes its sa
 
 **Step 3:**  Uncheck the model you want to remove and click **OK**.
 
----
 <img src="../reference-images/removeModel.png" alt="Remove Model">
 
 ## Best Practices
