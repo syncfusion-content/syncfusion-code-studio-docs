@@ -14,7 +14,7 @@ keywords: "code, IDE, AI, developer-tools, syncfusion, code-assistance, producti
 Agents and Custom Agents both act as AI assistants that can perform coding tasks for you, but they differ mainly in how they behave and how much control you have over them.
 An **Agent** is a builtin, general-purpose assistant that works automatically. You give it a goal, and it figures out how to complete it by exploring your project, reading files, planning updates, and applying changes.
 A **Custom Agent**, however, is something you create with your own rules, instructions, or constraints—so it behaves exactly the way you want every time.
-Learn more about creating [custom agents](/code-studio/reference/configure-properties/custom-agents.md).
+Learn more about creating [custom agents](/code-studio/reference/configure-properties/custom-agents).
 
 ## Key benefits
 
