@@ -108,23 +108,23 @@ Before you can use tools in chat, you need to enable them in the **Chat view**. 
 
 ### How to access the tools picker
 
-**Step 1:** Click the Syncfusion Code Studio icon. The chat window is displayed.
+**Step 1** : Click the Syncfusion Code Studio icon. The chat window is displayed.
 
 <img src="../reference-images/tools2.png" alt="Tools" >
 
-**Step 2:** Select the Agent in the chat window.
+#### Step 2: Select the Agent in the chat window.
 
-**Step 3:** Click the Configure Tools button in the chat input field. The tools are displayed.
+**Step 3** : Click the Configure Tools button in the chat input field. The tools are displayed.
 
 <img src="../reference-images/tools3.png" alt="Tools" >
 
 > **Note:** Must select the Agent to access the configuration tools.
 
-**Step 4:** Select or deselect tools to control which ones are available for the current request.
+**Step 4** : Select or deselect tools to control which ones are available for the current request.
 
 <img src="../reference-images/tools4.png" alt="Tools" >
 
-**Tip:** Use the search box to quickly filter the list of tools.
+**💡Tip** : Use the search box to quickly filter the list of tools.
 
 ## How to use tools in your prompts
 
