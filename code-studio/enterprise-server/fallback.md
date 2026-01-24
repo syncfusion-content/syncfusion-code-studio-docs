@@ -18,7 +18,7 @@ Fallback Policies in Code Studio ensure uninterrupted AI workflows by automatica
     - Learn how to configure BYOK, see [BYOK configuration](/code-studio/enterprise-server/providersandmodels)
 
 
-## 1. How Fallback Works
+## 1. How Fallback Works ?
 
 1. The request is first sent to the primary model. 
 2. If the request fails (due to timeout, error, etc.), the system automatically retries using the next model in the fallback list.  

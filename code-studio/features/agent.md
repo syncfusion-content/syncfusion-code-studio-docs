@@ -12,15 +12,20 @@ keywords: "code, IDE, AI, developer-tools, syncfusion, code-assistance, producti
 ## How are agents differ from custom agents?
 
 Agents and Custom Agents both act as AI assistants that can perform coding tasks for you, but they differ mainly in how they behave and how much control you have over them.
+
 An **Agent** is a builtin, general-purpose assistant that works automatically. You give it a goal, and it figures out how to complete it by exploring your project, reading files, planning updates, and applying changes.
+
 A **Custom Agent**, however, is something you create with your own rules, instructions, or constraints—so it behaves exactly the way you want every time.
-Learn more about creating [custom agents](/code-studio/reference/configure-properties/custom-agents).
+
+*Learn more about creating [custom agents](/code-studio/reference/configure-properties/custom-agents).*
 
 ## Key benefits
 
-Automates complex, cross-file tasks.
-Speeds iterative development and scaffolding.
-Review and approve changes at each step.
+- Automates complex, cross-file tasks.
+
+- Speeds iterative development and scaffolding.
+
+- Review and approve changes at each step.
 
 ## Agent Capabilities
 
@@ -36,17 +41,17 @@ Review and approve changes at each step.
 
 ## Workflow of Agent
 
-**Understand Request** - Read the user's prompt and current project context to identify goals, constraints, and acceptance criteria. Clarify ambiguities or required outputs before making changes.
+**1.Understand Request** - Read the user's prompt and current project context to identify goals, constraints, and acceptance criteria. Clarify ambiguities or required outputs before making changes.
 
-**Explore Codebase** - Scan open files and repository structure to find relevant code, dependencies, and tests. Note entry points, state flows, and places likely to require edits.
+**2.Explore Codebase** - Scan open files and repository structure to find relevant code, dependencies, and tests. Note entry points, state flows, and places likely to require edits.
 
-**Plan Changes** - Break the task into discrete steps (edits, new files, tests, commands) with an order and minimal risk strategy. Estimate impacts and list required tools or permissions.
+**3.Plan Changes** - Break the task into discrete steps (edits, new files, tests, commands) with an order and minimal risk strategy. Estimate impacts and list required tools or permissions.
 
-**Execute Changes** - Apply the edits, create files, or run commands in the workspace; update code and tests as planned. Use the IDE/terminal to implement changes and commit or stage them if appropriate.
+**4.Execute Changes** - Apply the edits, create files, or run commands in the workspace; update code and tests as planned. Use the IDE/terminal to implement changes and commit or stage them if appropriate.
 
-**Verify Results** - Run the application and unit tests, inspect logs/output, and fix runtime or lint errors found. Confirm the behavior matches requirements and edge cases are handled.
+**5.Verify Results** - Run the application and unit tests, inspect logs/output, and fix runtime or lint errors found. Confirm the behavior matches requirements and edge cases are handled.
 
-**Task Complete** - Summarize what was changed, why, and how to reproduce or undo it; provide next steps or follow-ups if needed. Hand control back to the user for review or further instructions.
+**6.Task Complete** - Summarize what was changed, why, and how to reproduce or undo it; provide next steps or follow-ups if needed. Hand control back to the user for review or further instructions.
 
 ## How to Enable Agent mode?
 
@@ -70,9 +75,9 @@ Consider creating the ToDo application,
 - Create a new project folder.
 - Open the project folder in Code Studio.
 - Enter the prompt in the chat input field to scaffold the todo app. For example:
-  *“Create a simple todo app with HTML, CSS and JavaScript. Include an input field to add todos, a list to display them, and a delete button for each item”* and Click Send.
+  *“Create a simple todo app with HTML, CSS and JavaScript. Include an input field to add todos, a list to display them, and a delete button for each item”* and Click **"Send"**.
 
-   Note: Make sure agents are enabled in your Code Studio settings.
+> **Note**: Make sure agents are enabled in your Code Studio settings.
 
     <img src="./feature-images/inputPrompt.png" alt="Input Prompt" />
 

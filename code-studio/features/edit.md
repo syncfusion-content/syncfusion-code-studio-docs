@@ -32,11 +32,11 @@ Note: Before entering a prompt in Edit Mode, make sure the correct file is selec
 
 <img src="./feature-images/addContext.png" alt="Chat Input" />
 
-**Step 4** : After clicking “Add Context”, choose the files you want the AI to refer to or modify.
+**Step 5** : After clicking “Add Context”, choose the files you want the AI to refer to or modify.
 
 <img src="./feature-images/addFile.png" alt="Chat Input" />
 
-**Step 5** : Once the files are added, take a moment to confirm that the correct files appear in the chat panel.
+**Step 6** : Once the files are added, take a moment to confirm that the correct files appear in the chat panel.
 
 <img src="./feature-images/addedFiles.png" alt="Chat Input" />
 

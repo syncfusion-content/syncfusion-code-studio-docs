@@ -12,7 +12,7 @@ Quick Fix is an intelligent, AI‑assisted error‑resolution feature built dire
 
 ## Why Quick Fix?
 
-- Quick Fix exists to help developers resolve coding errors **quickly, accurately, and with minimal interruption** to their workflow.  
+- Quick Fix exists to help developers resolve coding errors **quickly, accurately,** and with **minimal interruption** to their workflow.  
 - It is designed to make debugging faster, easier, and less disruptive by providing targeted, **context‑aware solutions** right where you need them.
 
 
@@ -20,7 +20,7 @@ Quick Fix is an intelligent, AI‑assisted error‑resolution feature built dire
 
 **Instant Error Detection** - The moment an error appears, Quick Fix becomes available. No need to open logs or manually track down the issue.
 
-**Inline Fix Preview** - Quick Fix shows exactly what will change before updating your file—**you stay in control**.
+**Inline Fix Preview** - Quick Fix shows exactly what will change before updating your file—you stay in control.
 
 **Context‑Aware AI Suggestions** - It understands your current file, the surrounding code, and coding patterns to offer accurate, relevant fixes.
 
@@ -54,7 +54,7 @@ Use **Fix** when you want a quick, focused correction in place.
 **What happens on selecting Fix?**
 
 - An inline suggestion appears near the error, showing the **proposed code changes**.
-- You can review the diff before applying.
+- You can review the changes before applying.
 
 <img src="./feature-images/fixChanges.png" alt="Fix Changes" />
 
