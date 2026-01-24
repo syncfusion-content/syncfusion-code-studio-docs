@@ -41,10 +41,10 @@ Telemetry can be disabled through the application settings at any time.
 
 1. Open **Settings** in Syncfusion Code Studio.  
 
-<img src="./feature-images/telemetry-setting.png" alt="telemetry"  />
+   <img src="./feature-images/telemetry-setting.png" alt="telemetry"  />
 
 2. Navigate to the User Settings page.
-3. Locate the option **"Enable Anonymous Telemetry”** and toggle it **off**.
+3. Locate the option **”Enable Anonymous Telemetry”** and toggle it **off**.
 Changes take effect immediately and can be reversed at any time.
 
-<img src="./feature-images/enable-telemetry.png" alt="telemetry"  />
+   <img src="./feature-images/enable-telemetry.png" alt="telemetry"  />
