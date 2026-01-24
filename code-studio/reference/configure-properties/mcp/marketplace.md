@@ -157,4 +157,4 @@ The **MCP Marketplace** is a centralized platform for server management, helping
 ## Note
 If you want to add a new MCP server, you can request it by creating a support ticket using the link provided below. This ensures your request is tracked, reviewed, and considered for inclusion.
 
-**Link:** [Create Ticket | Syncfusion Support](https://codestudio.syncfusion.com/agent/tickets/create)
+**Link:** [Create Ticket](https://codestudio.syncfusion.com/agent/tickets/create)
