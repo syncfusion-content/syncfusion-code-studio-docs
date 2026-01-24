@@ -18,7 +18,7 @@ The purpose of Plan Mode is to make coding safer and more reliable by starting w
 - Divide the work into clear, actionable steps while raising open questions for any unclear requirements  
 - Provide a concise draft plan, following a standardized format, for your review and refinement  
 
-## How To Plan a Task
+## How to plan a task?
 
 ### Step 1: Open the Chat View
 - Open the Chat panel in Code Studio IDE.From the agents dropdown, select **Plan** to activate the plan agent. 
@@ -61,7 +61,7 @@ Remain in Plan Mode to refine the plan before moving into implementation. You ca
     - “Focus on the UI first”
     - “Execute only step 1 and step 2”
 
-## How to Use
+## How to use?
 
 ### Start Implementation
 - Select Start Implementation , it will appear in the chat box and execute that.  After selection of start implementation , the mode will automatically switch to Agent Mode. 
@@ -85,7 +85,7 @@ Remain in Plan Mode to refine the plan before moving into implementation. You ca
 
 ---
 
-## Why Use Plan Mode?
+## Why use plan mode?
 - Helps you research tasks thoroughly and identify requirements or constraints before coding  
 - Breaks complex work into manageable, actionable steps for easier execution  
 - Highlights open questions early, reducing ambiguity and misunderstandings  

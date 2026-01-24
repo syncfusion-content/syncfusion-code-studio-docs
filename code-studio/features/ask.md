@@ -12,7 +12,7 @@ Ask Mode in Code Studio IDE is a simple way to get quick help while coding.  Ins
 ## Purpose
 The purpose of Ask Mode is to make learning and problem solving easier.It helps new users understand coding concepts, see ready-to-use code snippets, and get clear guidance on how to apply patterns or practices—all in a fast, conversational way.
 
-## How To Use Ask Mode in Code Studio
+## How to use ask mode in Code Studio
 
 ### Step 1: Select Ask Mode
 - Launch Code Studio IDE.  
@@ -42,7 +42,7 @@ The purpose of Ask Mode is to make learning and problem solving easier.It helps 
 - Use explanations to understand concepts before implementing them.  
 - Refer back to Ask Mode whenever you need quick clarification.
 
-## Why Use Ask Mode?
+## Why use ask mode?
 Ask Mode is designed for learning and exploration. It’s perfect when you want:
 - Quick answers without digging through documentation.  
 - Ready-to-use code snippets for common tasks.  
