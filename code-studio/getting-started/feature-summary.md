@@ -1,3 +1,9 @@
+---
+title: Code Studio Features
+description: Learn about all key features of Syncfusion Code Studio including Autocomplete, Ask, Edit, Agent, Plan, Generate Code, Quick Fix, UI Builder, and Custom Agents.
+platform: syncfusion-code-studio
+keywords: "syncfusion code studio features, ai powered ide, code generation, ai agents, quick fix, autocomplete, plan mode"
+---
 
 # Code Studio Features
 
@@ -51,3 +57,4 @@ Learn more on the [Quick Fix](https://helpstaging.syncfusion.com:14038/code-stud
 
 •   MCP Integration: Discover and manage servers via the [MCP Marketplace](https://helpstaging.syncfusion.com:14038/code-studio/reference/configure-properties/mcp/marketplace) or connect [Custom Servers](https://helpstaging.syncfusion.com:14038/code-studio/reference/configure-properties/mcp/customservers) including Remote, NPM, and Local.
 
+•   Custom Agent: Pre‑configured AI agents for specific tasks that follow fixed rules, tools, and behaviors—ensuring consistent, repeatable workflows across teams. Learn more on the [Custom Agent](https://helpstaging.syncfusion.com:14038/code-studio/reference/configure-properties/custom-agents) page.
