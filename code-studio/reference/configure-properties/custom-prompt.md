@@ -5,85 +5,99 @@ platform: syncfusion-code-studio
 keywords: custom-prompts, ai-assistance, templates, workflows, best-practices
 ---
 
-# Custom Prompts
 
-Custom prompts let you encode your team’s coding standards into reusable templates. This delivers consistent, high-quality AI assistance and speeds up routine tasks.
+# Custom Prompt Files
 
-## Purpose
+## Overview
+Prompt Files in Syncfusion Code Studio are reusable AI instructions you can save and run anytime. They act like templates for common tasks such as generating code, reviewing code, or documentation.
 
-The primary purpose of custom prompts is to streamline and standardize development workflows by:
+Why they matter: Instead of typing the same request again and again, you save it once as a Prompt File.
 
-- **Enforcing Best Practices**: Ensure generated code adheres to team conventions.
-- **Improving Consistency**: Standardize how common tasks are performed.
-- **Accelerating Development**: Automate repetitive coding tasks with predefined templates.
- 
+This makes your workflow faster and ensures consistency.
 
-## Prompt File Structure 
+## Prerequisites
+Before creating Prompt Files, make sure you have:
 
-<table border="1" cellpadding="8" cellspacing="0">
-  <thead>
-    <tr>
-      <th>Field</th>
-      <th>Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>name</strong></td>
-      <td>Unique identifier</td>
-    </tr>
-    <tr>
-      <td><strong>description</strong></td>
-      <td>Short summary of intent</td>
-    </tr>
-    <tr>
-      <td><strong>prompt</strong></td>
-      <td>Literal instructions (role, tasks, output format)</td>
-    </tr>
-  </tbody>
-</table>
+- Syncfusion Code Studio installed and configured (Follow the [Install and Configure](/code-studio/getting-started/install-and-configuration) guide if not yet installed)
+- A project or folder opened in your workspace
 
-## How to use Prompt Files 
- 
-1. Click the “Add Prompt” button, Code Studio will automatically generate your new prompt file under the `sfcodestudio/prompts/` directory. 
-2. In Code Studio chat, type `/` and pick your prompt.   
-3. Run the prompt and review suggestions.  
-4. Apply accepted changes via IDE refactoring tools.  
+## When to Use Prompt Files
+Prompt Files are helpful when you want to:
 
-<img src="../reference-images/prompt.gif" alt="Prompt" >
+- Save time by avoiding repetitive typing
+- Standardize prompts for your team (e.g., code reviews, documentation)
+- Build a library of reusable workflows
 
-## Example Prompt
+## Steps to Create and Use Prompt Files
 
-```yaml
-name: GenerateTestCases
-description: Generate test cases for the current application
-prompt:
-    1. Identify key functionalities to test based on user stories and requirements
-    2. Use best practices and test design techniques for each test case
-    3. Write testable code for each test case using popular testing frameworks
-    4. Verify the return values and edge cases for each test case
-    5. Document test cases and set test coverage for each functionality
-  ```
+### Step 1: Open Chat Window
+Open the Code Studio Chat window.
+<img src="../reference-images/customprompt1.png" alt="Custom Prompt" />
 
-## Using Context with @ Syntax
+### Step 2: Select Prompt Files
+Click the Settings button at the top. In the menu, choose **Prompt Files**.
+<img src="../reference-images/customprompt2.png" alt="Custom Prompt" />
 
-While editing a prompt file, you can enhance its context by using the @ symbol to reference specific resources. This allows the AI to incorporate relevant information from your workspace. Available options include:
+### Step 3: Create a New Prompt File
+Click **New Prompt File**. You’ll see two storage options:
 
-**@currentFile:** References the currently open file.
+- **ProjectSpecific (.codestudio/prompts)** → stored in the current project folder, usable only in that project
+- **Global (User Data)** → stored globally, usable across any project
 
-**@imageURL:** Includes an uploaded image for analysis.
+Creation steps (same for both):
+- Choose your storage option.
+- Enter a name for your prompt file and click Enter.
+- Then in the created prompt file, choose the mode (you can choose which mode to use; default is agent, but you can switch to ask, edit, plan)
+- Add guidelines or instructions that AI should follow.
+<img src="../reference-images/customprompt3.png" alt="Custom Prompt" />
 
-**@openedFiles:** Refers to open files in the editor.
+### Step 4: Use Your Prompt File
+- Open the Chat window
+- Type `/` (slash) in the chat box
+- Select the desired prompt file from the list
+- Press Enter to run it
+<img src="../reference-images/customprompt4.png" alt="Custom Prompt" />
 
-**@os:** Provides operating system-specific context.
+## Prompt File Structure
+A prompt file has two main parts: **Header (YAML frontmatter)** and **Body (prompt text)**.
 
-**@problems:** Accesses error or warning details from the workspace.
+### Header (optional)
+- **description** — A short description of the prompt.
+- **name** — The prompt name shown after typing `/` in chat; if omitted, the file name is used.
+- **argument-hint** — Optional hint shown in the chat input to guide users.
+- **agent** — Which agent(mode) runs the prompt: ask, edit, plan, agent.
+- **model** — The language model to use; if omitted, the currently selected model is used.
+- **tools** — A list of tool or tool set names available to the prompt; missing tools are ignored when running.
 
-**@repo-map:** Includes a map of the repository structure.
+### Body
+The prompt file body contains the prompt text that is sent to the LLM when running the prompt in chat. Provide specific instructions, guidelines, or any other relevant information that you want the AI to follow.
 
-**@terminal:** Incorporates terminal output or commands.
+## Prompt File Example
+```
+---
+agent: 'agent'
+model: GPT-4o
+tools: ['read','edit','web','search/codebase']
+description: 'Generate a new React form component'
+---
+Goal: Make a simple contact form component.
 
-**@fileTree:** Displays the project file tree.
+Requirements:
+- Fields: Name, Email, Message.
+- Show labels, placeholders, and inline errors.
+- All fields are required; Email must contain "@".
+- Submit button and Reset button.
+- On submit, call onSubmit(data) and then clear the form.
+- Export the component and its TypeScript types.
+- Keep the code short and easy to read. No extra libraries.
+```
 
+## Use Cases
+- Organize and store prompts for easy reference
+- Customize templates to match project needs
+- Quickly access saved prompts without retyping
 
-<img src="../reference-images/promptoptions.png" alt="Prompt" >
+## Tips
+- Think of Prompt Files like shortcuts—they save time and reduce repetitive typing
+- Experiment with different agents (modes) to see which works best for your task
+- Share global prompts with your team to ensure consistency
