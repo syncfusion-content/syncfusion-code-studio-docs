@@ -15,7 +15,7 @@ This guide provides step-by-step instructions for administrators to configure La
 - You need an active account on Code Studio
 - OpenRouter API Key - Follow the detailed instructions [here](/code-studio/enterprise-server/freemodel) to obtain an OpenRouter API key and the list of recommended free models for integration.
 
----
+
 ## 1. Adding an LLM Provider
 To integrate an LLM provider into Code Studio:
 
@@ -37,7 +37,7 @@ To integrate an LLM provider into Code Studio:
 
 ✅ Once added, the provider becomes available for model selection.
 
----
+
 ## 2. Adding BYOK Models
 To add a model under a configured provider:
 

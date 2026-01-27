@@ -24,22 +24,23 @@ By the end of this tutorial, you’ll learn how to:
 ## Installation Steps (For both macOS & Windows)
 
 ### Step 1: Download the Installer
-1. Visit the official [Syncfusion Code Studio website](https://www.syncfusion.com/code-studio/).
-2. Click **“Get Started Now”** to open the Code Studio enterprise page.
+- Visit the official [Syncfusion Code Studio website](https://www.syncfusion.com/code-studio/).
+- Click **“Get Started Now”** to open the Code Studio enterprise page.
 <img src="gettingstarted-images/get started.png" alt="Install"/>
 
-> **Note**: The enterprise page is for organizations to monitor and manage AI usage.
-
-3. If you already have Syncfusion Code Studio Account, choose one of these sign-in options to sign-in with Code Studio Enterprise server or else click **“SIGN UP”** to create one:
+  > **Note**: The enterprise page is for organizations to monitor and manage AI usage.
+- If you already have Syncfusion Code Studio Account, choose one of these sign-in options to sign-in with Code Studio Enterprise server or else click **“SIGN UP”** to create one:
    - **Microsoft Account:** Use your personal, work, or school Microsoft credentials.
    - **GitHub Account:** Sign in with your GitHub credentials.
    - **Syncfusion Account:** Create a new account using your email and password.
    <img src="gettingstarted-images/loginform.png" alt="install" />
-4. Click **Code Studio IDE**.
+- Click **Code Studio IDE**.
 <img src="gettingstarted-images/download ide.png" alt="install" />
-5. Choose your preferred operating system, and then select **Download Code Editor**.
+
+- Choose your preferred operating system, and then select **Download Code Editor**.
 <img src="gettingstarted-images/dwnld options.png" alt="install" />
-6. The setup file will be downloaded to your local system.
+
+- The setup file will be downloaded to your local system.
 
 ### Step 2: Install the Application
 

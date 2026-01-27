@@ -65,9 +65,9 @@ Code Studio may automatically generate the corresponding class with:
 <img src="./feature-images/Gif/autocomplete4.gif" alt="Autocomplete"  />
 
 ## Next Edit Suggestion
-Next Edit Suggestions in Syncfusion Code Studio help you move quickly through related edits by predicting where your next change should occur and suggesting what that change might be.
+- Next Edit Suggestions in Syncfusion Code Studio help you move quickly through related edits by predicting where your next change should occur and suggesting what that change might be.
 
-This feature keeps you in the flow of editing—especially when making sequential updates, correcting mistakes, or refactoring code across multiple lines.
+- This feature keeps you in the flow of editing—especially when making sequential updates, correcting mistakes, or refactoring code across multiple lines.
 
 ### How Next Edit Suggestions Work
 
