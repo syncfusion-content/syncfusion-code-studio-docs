@@ -54,9 +54,9 @@ To add a model under a configured provider:
 4. In the form:
    - **Provider:** Select from the list of configured providers.
    - **Model:** Choose from the dropdown list of models available under the selected provider. Each model lists its input and output cost.
-   - **Modes:** Select one or more modes in which the model should be used. This is a multi-select field.
+   - **Modes:** Select Chat,Autoccomplete or both modes in which the model should be used. This is a multi-select field.
 5. Click **Add** to include the model in your BYOK model list.
-6. Click **Manage Default Settings** to customize which AI models are used for IDE functionalities like chat, edit, apply, and autocomplete.
+6. Click **Manage Default Settings** to customize which AI models are used for IDE functionalities like chat and autocomplete.
 
    <img src="./enterprise-images/manageDefaultModel.png" alt="Manage Default Model" />
 
