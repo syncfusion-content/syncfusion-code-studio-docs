@@ -49,10 +49,20 @@ Code Studio empowers administrators and team leads to manage organization member
 
 ### Editing or Removing Members
 Use the context menu to:
+
+ <img src="./enterprise-images/editUser.png" alt="Edit and Remove User" />
+
 - **Edit:** Update a user's name or role.
 - **Delete:** Remove a user from the organization.
 
-   <img src="./enterprise-images/editUser.png" alt="Edit and Remove User" />
+ <img src="./enterprise-images/resendInvitation.png" alt="Resend Invitation" />
+
+   
+- **Resend Invitation:** We can Resend Invitation for users who have not yet accepted their initial invitation. This is helpful when the original email was lost or has expired.
+
+- **Cancel Invitation:** Cancel Invitation for users who are still in the “Invitation Sent” state and have not yet joined the organization. Use this option when you no longer want the invited user to join the organization. Once the invitation is canceled, the user will be removed from the invited users list.
+
+   
 ## 3. Teams Management
 
 ### Team List Panel

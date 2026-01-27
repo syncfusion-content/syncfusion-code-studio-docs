@@ -112,7 +112,7 @@ Before you can use tools in chat, you need to enable them in the **Chat view**. 
 
 <img src="../reference-images/tools2.png" alt="Tools" >
 
-#### Step 2: Select the Agent in the chat window.
+**Step 2**: Select the Agent in the chat window.
 
 **Step 3** : Click the Configure Tools button in the chat input field. The tools are displayed.
 
