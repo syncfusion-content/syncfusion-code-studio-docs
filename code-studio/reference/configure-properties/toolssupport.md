@@ -5,13 +5,15 @@ platform: syncfusion-code-studio
 keywords: tools, syncfusion, code-studio, development, automation, workflow, built-in-tools
 ---
 
-# Tools
+# Tools Support
 
- The Tools feature in Syncfusion Code Studio empowers developers to perform specific actions within the development environment, such as creating folders, reading files, searching within files, and interacting with browsers. This guide provides a step-by-step approach to use the built-in tools, enabling you to streamline your development workflow and automate tasks efficiently with simple prompts.
+## Overview
+
+The Tools Support feature in Syncfusion Code Studio empowers developers to perform specific actions within the development environment, such as creating folders, reading files, searching within files, and interacting with browsers. This guide provides a step-by-step approach to use the built-in tools, enabling you to streamline your development workflow and automate tasks efficiently with simple prompts.
 
 ## Purpose
 
-The built-in tools are designed to automate and simplify common development tasks, allowing you to focus on writing code. Key purposes include:
+The tools are designed to automate and simplify common development tasks, allowing you to focus on writing code. Key purposes include:
 
 ### 1. File Management
 - Create new files or edit existing ones.
@@ -32,25 +34,28 @@ The built-in tools are designed to automate and simplify common development task
 - Perform web searches to fetch relevant resources.
 - Automate browser tasks like testing or scraping.
 
-## Built-In Tools
+## Types of Tools
 
-Syncfusion Code Studio provides a suite of tools to streamline your workflow. Below is a comprehensive list of available tools and their description.
+Syncfusion Code Studio provides a suite of tools to streamline your workflow.You can use two types of tools in chat
  
-### 1. Ensure the Required Tools Policy
+### 1. Built-In Tools
 
-To balance speed and safety, each tool in Syncfusion Code Studio can be configured in one of three modes:
+-	Built-in tools are automatically available in chat.
+-	They cover common development tasks and are optimized for working within your workspace.
+-	No installation or configuration is required — they are ready to use as soon as you start.
 
-- **Automatic:** When the model requests a tool, Code Studio automatically executes it and sends the response back to the model.
+### 2. MCP Tools
 
-- **Ask First:** When the model requests a tool, Code Studio prompts you to either "Cancel" or "Continue" before proceeding.
+-	Model Context Protocol (MCP) is an open standard that enables AI models to use external tools and services through a unified interface.
+-	MCP servers provide tools that you can add to Syncfusion Code Studio to extend chat with additional capabilities.
+-	To use MCP tools, you must install and configure MCP servers first.
+-	MCP servers can run locally on your machine or be hosted remotely.
 
-- **Excluded:** The model is unaware of the tool and cannot use it.
+<img src="../reference-images/tools1.png" alt="Tools" >
 
- To change the mode, click on the desired option. Once configured, enter your prompt to perform the task. Code Studio will then leverage the selected tools to build the application.
+### Toolset Overview
 
-### 2. Toolset Overview
-
-Available built-in tools and their descriptions:
+Below is a list of some tools and their descriptions for reference
 
 <table border="1" cellpadding="8" cellspacing="0">
   <thead>
@@ -61,71 +66,83 @@ Available built-in tools and their descriptions:
   </thead>
   <tbody>
     <tr>
-      <td>builtin_read_file</td>
-      <td>Reads the contents of an existing file.</td>
+      <td>agent</td>
+      <td>Delegate tasks to other agent.</td>
     </tr>
     <tr>
-      <td>builtin_create_new_file</td>
-      <td>Creates a new file with specified content.</td>
+      <td>codestudio</td>
+      <td>Use Code Studio features</td>
     </tr>
     <tr>
-      <td>builtin_run_terminal_command</td>
-      <td>Executes a terminal command in the current directory.</td>
+      <td>edit</td>
+      <td>Edit files in your workspace</td>
     </tr>
     <tr>
-      <td>builtin_grep_search</td>
-      <td>Performs a fast text search using exact strings or regex.</td>
+      <td>execute</td>
+      <td>Execute code and applications on your machine.</td>
     </tr>
     <tr>
-      <td>builtin_file_glob_search</td>
-      <td>Searches for files matching a glob pattern, returning their paths.</td>
+      <td>read</td>
+      <td>Read files in your workspace</td>
     </tr>
     <tr>
-      <td>builtin_search_web</td>
-      <td>Conducts a web search and returns top results.</td>
+      <td>search</td>
+      <td>Search files in your workspace</td>
     </tr>
     <tr>
-      <td>builtin_view_diff</td>
-      <td>Displays the diff of current working changes.</td>
+      <td>todo</td>
+      <td>Manage and track todo items for task planning</td>
     </tr>
     <tr>
-      <td>builtin_read_currently_open_file</td>
-      <td>Reads the contents of the currently open file in the IDE.</td>
-    </tr>
-    <tr>
-      <td>builtin_ls</td>
-      <td>Lists files and folders in a specified directory.</td>
-    </tr>
-    <tr>
-      <td>builtin_syncfusion_ui_builder</td>
-      <td>Generates Syncfusion component metadata or UI layout plans.</td>
-    </tr>
-    <tr>
-      <td>builtin_browser_interaction</td>
-      <td>Automates browser tasks using a Puppeteer-controlled environment.</td>
-    </tr>
-    <tr>
-      <td>builtin_replace_in_file</td>
-      <td>Makes targeted edits to specific parts of a file.</td>
-    </tr>
-    <tr>
-      <td>builtin_search_files</td>
-      <td>Searches for regex patterns.</td>
+      <td>web</td>
+      <td>Fetch information from the web</td>
     </tr>
   </tbody>
 </table>
 
-## How to Use Tools
+## How to Enable Tools for Chat
 
-1. **Open the Chat Window** - Click the Syncfusion Code Studio icon on the left toolbar to open the chat interface.
+Before you can use tools in chat, you need to enable them in the **Chat view**. Tools can be enabled or disabled on a per-request basis using the **tools picker**. 
 
-2. **Enter Your Request** - Type your request in natural language, describing what you want to accomplish. Ensure Code Studio is in Agent mode.
+> **Note:** Select the agent after that tool picker is visible in the chat. Select only the tools that are relevant to your prompt to improve results.
 
-3. **Review Tool Execution** - The AI will automatically select and execute the appropriate tools based on your request.
+### How to access the tools picker
 
-4. **Approve Changes** - Review any proposed changes and approve or modify them as needed.
+**Step 1** : Click the Syncfusion Code Studio icon. The chat window is displayed.
 
-<img src="../reference-images/Tools.gif" alt="Tools" >
+<img src="../reference-images/tools2.png" alt="Tools" >
 
+**Step 2**: Select the Agent in the chat window.
 
+**Step 3** : Click the Configure Tools button in the chat input field. The tools are displayed.
+
+<img src="../reference-images/tools3.png" alt="Tools" >
+
+> **Note:** Must select the Agent to access the configuration tools.
+
+**Step 4** : Select or deselect tools to control which ones are available for the current request.
+
+<img src="../reference-images/tools4.png" alt="Tools" >
+
+**💡Tip** : Use the search box to quickly filter the list of tools.
+
+## How to use tools in your prompts
+
+You can explicitly reference tools in your prompts by typing **#** followed by the **tool name**. This is useful when you want to ensure that a specific tool is used. Type **#** in the chat input field to see a list of available tools.
+
+<img src="../reference-images/tools5.png" alt="Tools" >
+
+**Example of a tool reference:**
+
+<img src="../reference-images/tools6.png" alt="Tools" >
+
+## Tools Approval
+
+When using agents, the agent automatically determines which tools to use from the enabled set based on your prompt and the context of your request. The agent autonomously selects and invokes the relevant tools needed to accomplish the task.
+
+Some tools require your approval before they can run. This is a security measure because tools may perform actions that modify files, change your environment, or attempt prompt injection attacks through malicious output.
+
+<img src="../reference-images/tools7.png" alt="Tools" >
+
+> **Note:** Always review tool parameters carefully before approving, especially for tools that modify files, run commands, or access external services.
 

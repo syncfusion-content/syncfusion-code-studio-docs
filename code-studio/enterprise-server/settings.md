@@ -33,11 +33,11 @@ Add-on credits fund model usage across your organization.
 - Preset amounts: $50, $100, $500
 - Custom amount: Enter a custom value as needed
 - Purchase flow: Click Buy credits to proceed to the payment page and complete checkout. Credits are applied after successful payment.
-<img src="./enterprise-images/settingscredit.png" alt="settings"  />
+<img src="./enterprise-images/settingscredits.png" alt="settings"  />
 
 ## 4. Billing & Subscription
 
-- Available plans: Free, Basic, Pro, Enterprise
+- Available plans: Free, Basic, Pro, Enterprise,BYOK-unlimited.
 - BYOK plan: $15 per month subscription
 - After subscription the current subscription details and billing cycle will be displayed.
 - Manage your subscription plan, billing cycle, and invoices.
@@ -58,7 +58,7 @@ Add-on credits fund model usage across your organization.
     <tr>
       <td>Free</td>
       <td>$0</td>
-      <td>IDE access, Enterprise server for 1 user, 4 AI models, UI builder, MCP server integration, Quick actions and codebase search, Memory and image input support.</td>
+      <td>IDE access, Enterprise server for 1 user, 4 AI models, UI builder, MCP server integration, Quick actions and codebase search, and image input support.</td>
     </tr>
     <tr>
       <td>Basic</td>
