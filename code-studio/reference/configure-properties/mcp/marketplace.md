@@ -50,7 +50,7 @@ The **MCP Marketplace** is a centralized platform for server management, helping
 
 - Open the Marketplace and select **Installed** to check the servers you’ve added.
 
-  <img src="../../reference-images/marketplace8.png" alt="marketplace" >
+   <img src="../../reference-images/mcpfilter2.png" alt="marketplace" >
 
 
 
