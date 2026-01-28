@@ -58,7 +58,7 @@ You can monitor:
 - Select custom date ranges to analyze token usage and other metrics over time.
 - Useful for monthly reporting, trend analysis, and budget tracking.
 
-## 4. How to Use the Dashboard
+## 4. How to Use the Dashboard ?
 
 ### Step 1: Navigate to the Dashboard
 
@@ -80,6 +80,9 @@ You can monitor:
   - All Teams
   - Specific Team
   - Individual User
+  -	Multiple Users
+-	The dashboard will refresh to show metrics for the selected filter.
+
 
 ### Step 4: Set Date Range
 

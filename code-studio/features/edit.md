@@ -7,32 +7,55 @@ keywords: code, IDE, AI, developer-tools, syncfusion, code-assistance, productiv
 
 # Edit
 
-Edit makes it easy to quickly update specific code or files. Just highlight the code you want to change, describe the update, and the changes will appear inline for you to **accept** or **reject**. It’s a fast and efficient way to make precise edits directly in your file.
+Edit is an AI-powered feature, to help developers modify source code using prompts. It provides a consistent workflow where users can preview, keep, or undo each suggested change. This ensures high accuracy and full control over your codebase.
 
+## Key Benefits
 
+• Faster edits, apply bulk or repetitive changes in seconds.
 
-## Code Selection & AI Assistance Feature
+• Precise control over changes we can Keep or Undo each modifications.
 
-You can easily get AI help with specific code segments by:
+## How to use Edit mode?
 
-- **Selecting any portion of code** in your editor and pressing:
-  - `Command + I` (Mac)  
-  - `Control + I` (Windows)
+**Step 1** : Switch to Edit mode in chat panel.
 
-- This action will automatically send the selected code to the Syncfusion Code Studio via chat.
+<img src="./feature-images/editMode.png" alt="Edit Mode" />
 
-- You can then specify the update for the selected code and describe the changes you want the assistant (Syncfusion Code Studio) to apply.
+**Step 2** : In the chat input box, type the instruction you want the AI to perform. For example, “Optimize this loop for better performance.” After typing your prompt, click the “Send” button. The agent will treat this instruction as an edit request and start editing.
 
-<img src="./feature-images/edit1.png" alt="Edit Mode"  />
+<img src="./feature-images/chatInput.png" alt="Chat Input" />
 
-### Reviewing Changes
+**Step 3** : Once you send the prompt, the AI interprets the instruction and applies the necessary changes to the currently active file in your editor.
+> **Note:** Before entering a prompt in Edit Mode, make sure the correct file is selected and active in the editor.
 
-- If you click the **Accept** button, Each change can be **reviewed and applied** individually.
+**Step 4** : If your instruction involves additional files – for example, editing helper functions, updating shared components, or modifying logic across modules—you can include those files by clicking “Add Context”. This option allows you to provide more context so the AI understands how different files relate to your request.
 
-<img src="./feature-images/edit2.png" alt="Accept Image"  />
- 
-- If you click the **Reject** button, Each change can be **reviewed and rejected** individually.
+<img src="./feature-images/addContext.png" alt="Chat Input" />
 
-<img src="./feature-images/edit3.png" alt="Reject Image"  />
+**Step 5** : After clicking “Add Context”, choose the files you want the AI to refer to or modify.
 
-- You can also use the **Accept All** or **Reject All** buttons in the chat to apply or discard changes when diffs are available.
+<img src="./feature-images/addFile.png" alt="Chat Input" />
+
+**Step 6** : Once the files are added, take a moment to confirm that the correct files appear in the chat panel.
+
+<img src="./feature-images/addedFiles.png" alt="Chat Input" />
+
+## Edit previews and Change indicators
+
+• Suggested changes are displayed with highlights for added or removed lines. This allows precise control over all modifications.
+  Each block includes:
+  1. **Keep**: Click to apply suggested changes in file
+  2. **Undo**: Click to remove suggested changes.
+
+• Each file includes navigation arrows that allow you to jump directly between edited lines. Instead of scrolling, you can use the Up and Down arrows to navigate between changes within the file.
+
+<img src="./feature-images/keepUndo.png" alt="Chat Input" />
+
+## Best Practices
+
+• **Write short, clear prompts** – Clear and concise prompts help the AI understand your exact intention, resulting in more accurate edits. Avoid long or vague instructions for better outcomes.
+
+• **Add only relevant files for context** – Providing only necessary files through Add Context keeps the AI focused and prevents unrelated or incorrect edits.
+
+• **Review all changes thoroughly** – Even with AI assistance, it’s important to verify each suggested change to ensure the modifications match your expectations and maintain code quality.
+

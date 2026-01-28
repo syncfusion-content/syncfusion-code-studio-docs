@@ -47,3 +47,4 @@ name: Local Assistant
 ### Step 3: Restart Code Studio
 1. Close Syncfusion Code Studio.
 2. Reopen it and verify the error is resolved.
+
