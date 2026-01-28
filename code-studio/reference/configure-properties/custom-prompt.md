@@ -49,14 +49,14 @@ Creation steps (same for both):
 - Enter a name for your prompt file and click Enter.
 - Then in the created prompt file, choose the mode (you can choose which mode to use; default is agent, but you can switch to ask, edit, plan)
 - Add guidelines or instructions that AI should follow.
-<img src="../reference-images/customprompt3.png" alt="Custom Prompt" />
+<img src="../reference-images/prompt3.gif" alt="Custom Prompt" />
 
 ### Step 4: Use Your Prompt File
 - Open the Chat window
 - Type `/` (slash) in the chat box
 - Select the desired prompt file from the list
 - Press Enter to run it
-<img src="../reference-images/customprompt4.png" alt="Custom Prompt" />
+<img src="../reference-images/prompt4.gif" alt="Custom Prompt" />
 
 ## Prompt File Structure
 A prompt file has two main parts: **Header (YAML frontmatter)** and **Body (prompt text)**.

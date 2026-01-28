@@ -26,7 +26,7 @@ Edit is an AI-powered feature, to help developers modify source code using promp
 <img src="./feature-images/chatInput.png" alt="Chat Input" />
 
 **Step 3** : Once you send the prompt, the AI interprets the instruction and applies the necessary changes to the currently active file in your editor.
-Note: Before entering a prompt in Edit Mode, make sure the correct file is selected and active in the editor.
+> **Note:** Before entering a prompt in Edit Mode, make sure the correct file is selected and active in the editor.
 
 **Step 4** : If your instruction involves additional files – for example, editing helper functions, updating shared components, or modifying logic across modules—you can include those files by clicking “Add Context”. This option allows you to provide more context so the AI understands how different files relate to your request.
 
