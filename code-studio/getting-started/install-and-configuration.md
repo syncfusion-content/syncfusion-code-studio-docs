@@ -29,6 +29,7 @@ By the end of this tutorial, you’ll learn how to:
 <img src="gettingstarted-images/get started.png" alt="Install"/>
 
 > **Note**: The enterprise page is for organizations to monitor and manage AI usage.
+
 - If you already have Syncfusion Code Studio Account, choose one of these sign-in options to sign-in with Code Studio Enterprise server or else click **“SIGN UP”** to create one:
    - **Microsoft Account:** Use your personal, work, or school Microsoft credentials.
    - **GitHub Account:** Sign in with your GitHub credentials.

@@ -71,9 +71,10 @@ You can also create [custom agents](/code-studio/reference/configure-properties/
 <img src="gettingstarted-images/builtInAgents.png" alt="Built in Agents" />
 
 ### 1. Autocomplete
-Autocomplete helps you write code faster by predicting the next part of your logic as you type.
 
-It analyzes the structure of your file, understands your coding patterns, and suggests additions that match the flow of your project.  
+- Autocomplete helps you write code faster by predicting the next part of your logic as you type.
+
+- It analyzes the structure of your file, understands your coding patterns, and suggests additions that match the flow of your project.  
 This reduces typing effort and ensures consistency.
 
 **For Example:** *“When you begin typing a function call”*, Autocomplete may fill in arguments, return handling, or common patterns automatically.
@@ -84,9 +85,10 @@ This reduces typing effort and ensures consistency.
 
 
 ### 2. Ask
-Ask mode allows you to communicate with the AI using natural language and receive accurate, context‑aware help.
 
-You can request explanations, code examples, best practices, or clarifications for unfamiliar concepts.
+- Ask mode allows you to communicate with the AI using natural language and receive accurate, context‑aware help.
+
+- You can request explanations, code examples, best practices, or clarifications for unfamiliar concepts.
 
 **For Example:**  Ask, *“Why am I getting an error here?”* and the AI will inspect your code, explain the cause, and propose a fix.
 
@@ -96,9 +98,10 @@ You can request explanations, code examples, best practices, or clarifications f
 *Learn more about [Ask](/code-studio/features/ask)*
 
 ### 3. Edit Mode
-Edit Mode allows you to modify existing code simply by describing the changes.
 
-You can update logic, restructure components, clean up syntax, or improve performance without editing manually.  
+- Edit Mode allows you to modify existing code simply by describing the changes.
+
+- You can update logic, restructure components, clean up syntax, or improve performance without editing manually.  
 Code Studio shows suggested changes clearly, letting you apply or undo them step by step.
 
 **For Example:**  Give, *“Simplify this function using early returns”* as pompt, Edit Mode rewrites it neatly while preserving behavior.
@@ -108,9 +111,10 @@ Code Studio shows suggested changes clearly, letting you apply or undo them step
 *Learn more about [Edit](/code-studio/features/edit)*
 
 ### 4. Agent Mode
-Agent Mode handles larger tasks that span multiple files.
 
-It can plan, update, and refine complex project structures while giving you full control over the process.  
+- Agent Mode handles larger tasks that span multiple files.
+
+- It can plan, update, and refine complex project structures while giving you full control over the process.  
 Ideal for scaffolding features, refactoring modules, or managing structured workflows.
 
 **For Example:**  *“Set up user authentication.”*  The Agent will outline steps, update backend routes, create frontend components, and explain changes.
@@ -120,9 +124,10 @@ Ideal for scaffolding features, refactoring modules, or managing structured work
 *Learn more about [Agent](/code-studio/features/agent)*
 
 ### 5. Plan Mode
-Use Plan Mode when you want full visibility before making changes.
 
-Plan Mode creates a clear sequence of steps the AI will follow—helping you understand scope and reduce surprises.
+- Use Plan Mode when you want full visibility before making changes.
+
+- Plan Mode creates a clear sequence of steps the AI will follow—helping you understand scope and reduce surprises.
 
 **For Example:**  *“Give a plan to upgrade this project to use Fetch instead of Axios.”*  The AI will generate an ordered list of required updates across files.
 
@@ -131,8 +136,9 @@ Plan Mode creates a clear sequence of steps the AI will follow—helping you und
 *Learn more about [Plan](/code-studio/features/plan)*
 
 ## Inline Chat
-Inline Chat allows localized edits directly next to your code.  
-Highlight text and ask for improvements, optimizations, or rewrites without switching views.
+
+-  Inline Chat allows localized edits directly next to your code.  
+- Highlight text and ask for improvements, optimizations, or rewrites without switching views.
 
 **Fo Example:**   Select a loop and ask, *“Optimize this for better performance.”*  
 You’ll see improved code inline with **Accept** and **Dismiss** options.
@@ -142,9 +148,10 @@ You’ll see improved code inline with **Accept** and **Dismiss** options.
 *Learn more about [Inlinechat](/code-studio/features/inlinechat)*
 
 ## Add Context
-Add Context lets Code Studio understand more of your project by including additional files or folders in the request.
 
-This leads to smarter, interconnected suggestions.
+- Add Context lets Code Studio understand more of your project by including additional files or folders in the request.
+
+- This leads to smarter, interconnected suggestions.
 
 **For Example:**  While editing a UI component, you may add related API client and type definition files so the AI produces improvements fitting your entire structure.
 
@@ -153,7 +160,8 @@ This leads to smarter, interconnected suggestions.
 *Learn more about [Add Context](/code-studio/features/context-provider)*
 
 ## Next Steps
-Now that you've explored the basics:
 
-Learn how to create your first automated change with [Agent](/code-studio/features/agent).  
+- Now that you've explored the basics:
+
+- Learn how to create your first automated change with [Agent](/code-studio/features/agent).  
 
