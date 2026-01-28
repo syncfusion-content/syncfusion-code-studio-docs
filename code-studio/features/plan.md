@@ -47,8 +47,7 @@ The purpose of Plan Mode is to make coding safer and more reliable by starting w
      
    <img src="./feature-images/plan3.png" alt="Plan Mode"  /> 
 
-   💡 **Tip:**  
-Remain in Plan Mode to refine the plan before moving into implementation. You can iterate as needed to clarify requirements, adjust the scope, or resolve any open questions. This iterative process ensures a solid foundation and minimizes risks before any code changes are introduced.  
+
 
 ### Step 5: Finalize and Start Implementation
 - Once the plan is finalized, use the buttons to:  
@@ -76,14 +75,7 @@ Remain in Plan Mode to refine the plan before moving into implementation. You ca
 - If you select **Open in Editor**, the plan details will appear in a new editor. There, you can review the plan, clarify details, iterate as needed, and finalize it for execution by typing **Start Implementation**. After selecting Open in Editor, the mode will automatically change to **Agent Mode**.
 <img src="./feature-images/plan7.png" alt="Plan Mode"  />   
 
-  💡 **Tip:**  
-- You can change the todo list just by typing what you want, for example:  
-  - “Remove step 4 from the list”  
-  - “Reorder tasks so step 5 comes first”  
-- If the list doesn’t look right, you can clear it completely.  
-- Otherwise, the agent will keep the list updated automatically based on your feedback and the information it gathers while working.  
 
----
 
 ## Why use plan mode?
 - Helps you research tasks thoroughly and identify requirements or constraints before coding  
@@ -92,7 +84,6 @@ Remain in Plan Mode to refine the plan before moving into implementation. You ca
 - Provides a standardized draft plan for review, iteration, and team alignment  
 - Builds a solid foundation that minimizes risks before any code changes are introduced  
 
----
 
 ## Best Practices
 - Start with clear, high-level tasks so the agent understands your goal.  

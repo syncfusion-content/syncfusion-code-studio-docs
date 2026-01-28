@@ -19,7 +19,7 @@ The **MCP Marketplace** is a centralized platform for server management, helping
 
   <img src="../../reference-images/marketplace1.png" alt="marketplace" >
 
-- Navigate to **Configure Chat** by clicking the configure chat icon and go to the **Marketplace** tab.
+- Navigate to **Configure Chat** by clicking the gear icon.
 
   <img src="../../reference-images/marketplace2.png" alt="marketplace" >
 
@@ -57,25 +57,20 @@ The **MCP Marketplace** is a centralized platform for server management, helping
 ## Filter Support in Marketplace
 - The Marketplace allows you to apply filters to quickly narrow down and find the servers you need:
 
-   - By selecting **All**, it will display all the MCP servers.
    
-    <img src="../../reference-images/mcpfilter1.png" alt="marketplace" >
+   - By selecting **Available**, it will show the MCP servers currently available.
+
+    <img src="../../reference-images/mcpfilter3.png" alt="marketplace" >
 
    - By selecting **Installed**, it will narrow down to show only the installed servers.
 
     <img src="../../reference-images/mcpfilter2.png" alt="marketplace" >
 
-   - By selecting **Available**, it will show the MCP servers currently available.
+   
 
-    <img src="../../reference-images/mcpfilter3.png" alt="marketplace" >
-
-   - Using the **Search** option, you can quickly find the desired MCP server.
-
-    <img src="../../reference-images/mcpfilter4.png" alt="marketplace" >
+  
 
    - By sorting by **Name**, it will list servers alphabetically.
-
-    <img src="../../reference-images/mcpfilter5.png" alt="marketplace" >
 
    - By sorting by **Newest**, it will show the most recently added MCP servers.
 
@@ -84,6 +79,11 @@ The **MCP Marketplace** is a centralized platform for server management, helping
    - By filtering **Categories**, you can easily narrow down to specific categories (e.g., Database, Cloud Platform), and it will display all available servers in those categories.
 
     <img src="../../reference-images/mcpfilter7.png" alt="marketplace" >
+
+   - Using the **Search** option, you can quickly find the desired MCP server.
+
+    <img src="../../reference-images/mcpfilter4.png" alt="marketplace" >
+
 
 
 
@@ -133,7 +133,6 @@ The **MCP Marketplace** is a centralized platform for server management, helping
 - After that check the **Branches section** in your GitHub repository.
 - Ensure the newly created branch (e.g., `exception-handling`) appears in the list.
 
-  <img src="../../reference-images/github1.png" alt="marketplace" >
 
 
 
