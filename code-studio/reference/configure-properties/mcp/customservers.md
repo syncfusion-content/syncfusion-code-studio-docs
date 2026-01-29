@@ -136,6 +136,7 @@ Open the Command Palette → type >MCP and select Code Studio: MCP Marketplace.
    - NPM package name
    - Pip package name
    - Docker image
+   
 <img src="../../reference-images/custommcp5.png" alt="custom mcp" >
 
 **Step 6:** Enter your custom MCP server name and press Enter.

@@ -1,5 +1,5 @@
 ---
-title: "Syncfusion Code Studio Install and Configure"
+title: Syncfusion Code Studio Install and Configure
 description: "Professional developer guide for AI-driven error resolution and debugging assistance in real-time development workflows"
 classification: "User Guide - Feature Documentation"
 platform: syncfusion-code-studio

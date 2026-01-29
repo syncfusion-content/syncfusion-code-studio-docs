@@ -1,5 +1,5 @@
 ---
-title: Rules
+title: Custom Instruction
 description: Details about configuring rules that define the behavior and constraints for language models in Syncfusion Code Studio IDE.
 platform: syncfusion-code-studio
 control: IDE
