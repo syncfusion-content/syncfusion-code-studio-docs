@@ -1,5 +1,5 @@
 ---
-title: "MCP Marketplace"
+title: MCP Marketplace
 description: "Guide for discovering, installing, and managing MCP servers in Syncfusion Code Studio via the marketplace interface."
 control: IDE
 documentation: Getting Started

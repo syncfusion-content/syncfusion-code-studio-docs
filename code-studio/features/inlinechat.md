@@ -1,5 +1,5 @@
 ---
-title: "Syncfusion Code Studio Inline Edit Reference"
+title: Syncfusion Code Studio Inline Chat
 description: "Professional guide for AI-powered inline code editing and contextual modifications"
 classification: "User Guide - Feature Documentation"
 platform: syncfusion-code-studio

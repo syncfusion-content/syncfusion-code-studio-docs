@@ -1,5 +1,5 @@
 ---
-title: "Syncfusion Code Studio Custom Prompts"
+title: Syncfusion Code Studio Custom Prompts
 description: "Guide for creating and using AI-driven prompt templates to standardize development workflows"
 platform: syncfusion-code-studio
 keywords: custom-prompts, ai-assistance, templates, workflows, best-practices

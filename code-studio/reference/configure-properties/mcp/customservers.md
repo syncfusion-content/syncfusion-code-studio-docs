@@ -110,7 +110,7 @@ Runs an MCP server via .NET packages.
 
 ## How to Add a Custom MCP Server
 
-1. First navigate to Custom MCP server in code studio. You can navigate to a custom MCP server in Code Studio using either of the two entry points below.
+**Step 1:** First navigate to Custom MCP server in code studio. You can navigate to a custom MCP server in Code Studio using either of the two entry points below.
 
 ### Option 1
 Click the gear icon in the chat window and select MCP Server.
@@ -119,44 +119,36 @@ Click the gear icon in the chat window and select MCP Server.
 
 ### Option 2
 Open the Command Palette → type >MCP and select Code Studio: MCP Marketplace.
+<img src="../../reference-images/custommcp9.png" alt="custom mcp" >
 
- <img src="../../reference-images/custommcp9.png" alt="custom mcp" >
+**Step 2:** Then the MCP Marketplace opens, navigate to the Custom Server section and click Add MCP Server.
+<img src="../../reference-images/custommcp2.png" alt="custom mcp" >
 
-2. Then the MCP Marketplace opens, navigate to the Custom Server section and click Add MCP Server.
+**Step 3:** Review the Terms & Conditions → click Accept and Proceed.
+<img src="../../reference-images/custommcp3.png" alt="custom mcp" >
 
- <img src="../../reference-images/custommcp2.png" alt="custom mcp" >
+**Step 4:** A list of MCP server types (Command, HTTP, npm, pip, Docker) appears.
+<img src="../../reference-images/custommcp4.png" alt="custom mcp" >
 
-3. Review the Terms & Conditions → click Accept and Proceed.
-
- <img src="../../reference-images/custommcp3.png" alt="custom mcp" >
-
-4. A list of MCP server types (Command, HTTP, npm, pip, Docker) appears.
-
- <img src="../../reference-images/custommcp4.png" alt="custom mcp" >
-
-5. Select your preferred type and enter the required information:
+**Step 5:** Select your preferred type and enter the required information:
    - Command (path)
    - URL
    - NPM package name
    - Pip package name
    - Docker image
+   
+<img src="../../reference-images/custommcp5.png" alt="custom mcp" >
 
- <img src="../../reference-images/custommcp5.png" alt="custom mcp" >
+**Step 6:** Enter your custom MCP server name and press Enter.
+<img src="../../reference-images/custommcp6.png" alt="custom mcp" >
 
-6. Enter your custom MCP server name and press Enter.
+**Step 7:** Select your Configuration target.
+<img src="../../reference-images/custommcp8.png" alt="custom mcp" >
 
- <img src="../../reference-images/custommcp6.png" alt="custom mcp" >
+**Step 8:** Your server appears in the UI.
 
-7. Select your Configuration target.
-
- <img src="../../reference-images/custommcp8.png" alt="custom mcp" >
-
-8. Your server appears in the UI.
-
-
-9. A green tick indicates successful installation.
-
- <img src="../../reference-images/custommcp7.png" alt="custom mcp" >
+**Step 9:** A green tick indicates successful installation.
+<img src="../../reference-images/custommcp7.png" alt="custom mcp" >
 
 > **Note**: Custom MCP servers installed via pip, Docker, NuGet, or npm rely on AI model–assisted execution. If your Premium model usage budget is exhausted, these AI-assisted custom MCP server configurations cannot be completed until additional budget is available.
 
