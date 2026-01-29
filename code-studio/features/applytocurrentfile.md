@@ -1,5 +1,5 @@
 ---
-title: "Syncfusion Code Studio Apply to Current File"
+title: Syncfusion Code Studio Apply to Current File
 description: "Guide for instantly applying AI-suggested code changes directly into your open file to streamline development workflows"
 classification: "User Guide - Feature Documentation"
 platform: syncfusion-code-studio

@@ -1,5 +1,5 @@
 ---
-title: Syncfusion Code Studio Plan Mode
+title: Syncfusion Code Studio Quickfix
 description: Plan Mode in Syncfusion Code Studio helps you design, review, and refine your steps before moving into execution.
 platform: syncfusion-code-studio
 keywords: code, IDE, AI, developer-tools, syncfusion, code-assistance, productivity, UI-generation, bug-fixing, documentation

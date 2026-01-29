@@ -1,5 +1,5 @@
 ---
-title: "Syncfusion Code Studio User Settings Reference"
+title: Syncfusion Code Studio User Settings Reference
 description: "Professional guide for customizing development environment settings and optimizing workflow efficiency"
 classification: "User Guide - Configuration Documentation"
 platform: syncfusion-code-studio
