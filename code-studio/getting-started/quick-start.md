@@ -53,6 +53,8 @@ Follow the steps below to open your project and start working inside the Code St
 
 4. **Choose your project folder**
 
+5. **Or you can directly open your project folder using 'Open Folder' button under the Code Studio logo**
+
 ### Result :
 Your selected project will open in the editor where you can:
 

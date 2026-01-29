@@ -73,7 +73,7 @@ Removing a model unregisters it from your available AI models and deletes its sa
 
 **Step 3:**  Uncheck the model you want to remove and click **OK**.
 
-<img src="../reference-images/removeModel.png" alt="Remove Model">
+<img src="../reference-images/modelList.png" alt="Remove Model">
 
 ## Best Practices
 
