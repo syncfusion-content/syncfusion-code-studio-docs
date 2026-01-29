@@ -73,7 +73,7 @@ The purpose of Plan Mode is to make coding safer and more reliable by starting w
 
 ### Open in Editor
 - If you select **Open in Editor**, the plan details will appear in a new editor. There, you can review the plan, clarify details, iterate as needed, and finalize it for execution by typing **Start Implementation**. After selecting Open in Editor, the mode will automatically change to **Agent Mode**.
-<img src="./feature-images/plan7.png" alt="Plan Mode"  />   
+<img src="./feature-images/plan8.png" alt="Plan Mode"  />   
 
 
 
