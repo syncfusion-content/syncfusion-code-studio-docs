@@ -32,7 +32,7 @@ Learn more on the [Plan](/code-studio/features/plan) page.
 Learn more on the [Context](/code-studio/features/add-context) page.
 
 -  **UI Builder**: An AI‑powered tool that analyzes your development needs and automatically delivers targeted UI guidance with code examples, component documentation, and layouts specifically for Syncfusion components. By understanding your project context, it provides precise, platform‑specific assistance instead of generic advice.  
-Learn more on the [UI Builder](/code-studio/features/ui-builder) page.
+Learn more on the [UI Builder](/code-studio/ui-builder) page.
 
 -  **Enterprise Server**: Centralized administration for organizations, including users and teams, providers and models, budgets, alerts, and dashboards.  
 Learn more on the [Enterprise Server](/code-studio/enterprise-server/getting-started) page.
