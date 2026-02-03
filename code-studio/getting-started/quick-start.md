@@ -133,7 +133,7 @@ Ideal for scaffolding features, refactoring modules, or managing structured work
 
 **For Example:**  *“Give a plan to upgrade this project to use Fetch instead of Axios.”*  The AI will generate an ordered list of required updates across files.
 
-<img src="gettingstarted-images/plan.png" alt="Plan" />
+<img src="gettingstarted-images/PlanMode.png" alt="Plan" />
 
 *Learn more about [Plan](/code-studio/features/plan)*
 
@@ -159,7 +159,7 @@ You’ll see improved code inline with **Accept** and **Dismiss** options.
 
 <img src="gettingstarted-images/addContext.png" alt="Add context" />
 
-*Learn more about [Add Context](/code-studio/features/context-provider)*
+*Learn more about [Add Context](/code-studio/features/add-context)*
 
 ## Next Steps
 
