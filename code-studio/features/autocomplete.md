@@ -22,7 +22,7 @@ The purpose of Autocomplete is to make coding faster, more accurate, and easier 
 1. **Create and sign in** to your Syncfusion Code Studio account, visit: [Syncfusion Code Studio](https://app.sfcodestudio.com)
 2. **Download and open Syncfusion Code Studio**, visit: [Install and Configuration](/code-studio/getting-started/install-and-configuration)
 
-# How Autocomplete Works
+## How Autocomplete Works
 ## Inline Suggestion
 Inline suggestions appear as light, faded (ghost) text directly at the cursor while you type. These suggestions help you complete code quickly without interrupting your flow.
 
@@ -54,7 +54,7 @@ You can instruct Code Studio to generate code by simply writing a comment that d
 
 **Example:**
 If you write comment like,
-```ts
+```
 // Create a PriceCalculator class in Typescript with methods to calculate total price and discounted price
 ```
 Code Studio may automatically generate the corresponding class with:
