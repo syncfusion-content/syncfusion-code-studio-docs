@@ -8,24 +8,29 @@ keywords: "code, IDE, AI, developer-tools, syncfusion, code-assistance, producti
 # Agent
 
  Agents are intelligent, goal oriented AI assistants that can perform complex, multistep tasks across your project. Unlike simple prompt-based editing, agents can understand high-level instructions, analyze your codebase, and decide what actions need to be taken to achieve the desired outcome.
+ 
 
-## How are agents differ from custom agents?
+# Overview 
 
-Agents and Custom Agents both act as AI assistants that can perform coding tasks for you, but they differ mainly in how they behave and how much control you have over them.
+Agent Mode is an autonomous AI that plans and executes multi-step coding tasks across your project. It explores your codebase, makes changes with workspace tools, and adapts to errors—while you review and approve each step. Enable it in Settings > Agents, switch to Agent mode in chat, then describe your goal.
 
-An **Agent** is a builtin, general-purpose assistant that works automatically. You give it a goal, and it figures out how to complete it by exploring your project, reading files, planning updates, and applying changes.
 
-A **Custom Agent**, however, is something you create with your own rules, instructions, or constraints—so it behaves exactly the way you want every time.
+## Use Cases
 
-*Learn more about creating [custom agents](/code-studio/reference/configure-properties/custom-agents).*
+- Scaffold new apps or components
+- Refactor across files (rename, move, split)
+- Migrate APIs or libraries
+- Generate or fix unit tests
+- Apply repo-wide lint/format changes
+- Update docs and README from code
+- Configure scripts, tasks, and settings
+- Prototype simple UIs and pages
 
-## Key benefits
+## Prerequisites
 
-- Automates complex, cross-file tasks.
-
-- Speeds iterative development and scaffolding.
-
-- Review and approve changes at each step.
+- Syncfusion Code Studio installed [installation guide](/code-studio/getting-started/install-and-configuration)
+- Open a project folder with write access
+- At least one AI model configured ( BYOK, or local)
 
 ## Agent Capabilities
 
@@ -52,6 +57,7 @@ A **Custom Agent**, however, is something you create with your own rules, instru
 **5.Verify Results** - Run the application and unit tests, inspect logs/output, and fix runtime or lint errors found. Confirm the behavior matches requirements and edge cases are handled.
 
 **6.Task Complete** - Summarize what was changed, why, and how to reproduce or undo it; provide next steps or follow-ups if needed. Hand control back to the user for review or further instructions.
+
 
 ## How to Enable Agent mode?
 
@@ -94,9 +100,8 @@ Consider creating the ToDo application,
 
 **Note**: Any project developed using Code Studio is fully compatible with other IDEs, allowing developers to open and work on the same project across different environments without issues. For example, these projects can be used seamlessly in tools like Visual Studio and VS Code.
 
-## Best Practices
+### Related Features
 
-1. **Give Clear, Goal-Focused Instructions** – Provide high-level objectives rather than step-by-step commands.
-2. **Break Large Tasks into Manageable Parts** – While the agent can handle multi-step workflows, extremely large tasks are easier to manage when divided into smaller, logical segments.
-3. **Review Each Action Before Approving** – Agent Mode provides step-by-step previews for every operation. Always review each action to confirm it matches your expectations.
-4. **Provide Additional Context When Needed** – If your goal involves interconnected modules, shared utilities, or cross-file dependencies, consider adding relevant files to the context.
+- Agent: Built-in, general-purpose; explores the project, plans, and applies changes automatically.
+- Custom Agent: User-defined rules/instructions; consistent, constrained behavior tailored to your workflow.
+- Learn more: [Custom Agents](/code-studio/reference/configure-properties/custom-agents)
