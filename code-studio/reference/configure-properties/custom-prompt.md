@@ -8,12 +8,19 @@ keywords: custom-prompts, ai-assistance, templates, workflows, best-practices
 
 # Custom Prompt Files
 
-## Overview
+## Purpose
 Prompt Files in Syncfusion Code Studio are reusable AI instructions you can save and run anytime. They act like templates for common tasks such as generating code, reviewing code, or documentation.
 
 Why they matter: Instead of typing the same request again and again, you save it once as a Prompt File.
 
 This makes your workflow faster and ensures consistency.
+
+## When to Use 
+Prompt Files are helpful when you want to:
+
+- Save time by avoiding repetitive typing
+- Standardize prompts for your team (e.g., code reviews, documentation)
+- Build a library of reusable workflows
 
 ## Prerequisites
 Before creating Prompt Files, make sure you have:
@@ -21,12 +28,7 @@ Before creating Prompt Files, make sure you have:
 - Syncfusion Code Studio installed and configured (Follow the [Install and Configure](/code-studio/getting-started/install-and-configuration) guide if not yet installed)
 - A project or folder opened in your workspace
 
-## When to Use Prompt Files
-Prompt Files are helpful when you want to:
 
-- Save time by avoiding repetitive typing
-- Standardize prompts for your team (e.g., code reviews, documentation)
-- Build a library of reusable workflows
 
 ## Steps to Create and Use Prompt Files
 
@@ -92,12 +94,3 @@ Requirements:
 - Keep the code short and easy to read. No extra libraries.
 ```
 
-## Use Cases
-- Organize and store prompts for easy reference
-- Customize templates to match project needs
-- Quickly access saved prompts without retyping
-
-## Tips
-- Think of Prompt Files like shortcuts—they save time and reduce repetitive typing
-- Experiment with different agents (modes) to see which works best for your task
-- Share global prompts with your team to ensure consistency
