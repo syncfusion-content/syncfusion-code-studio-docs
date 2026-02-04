@@ -8,10 +8,6 @@ keywords: user-settings, customization, configuration, development-environment, 
 
 # User Settings
 
-## Overview
-
-The Settings is designed to make it easy for users to manage how the application works for them. It consolidates all essential controls in one place, enabling you to personalize features, monitor credits and usage, and optimize your workflow. The Settings page gives users full control, flexibility, and clarity so they can tailor Code Studio to their needs while staying efficient, cost aware, and compliant. Settings are stored locally and take effect immediately upon change.
-
 ## Purpose
 
 Settings allow users to tailor the development environment to their individual preferences. They help by providing
@@ -21,6 +17,13 @@ Settings allow users to tailor the development environment to their individual p
 - **Usage Monitoring** – Track daily costs and token usage to stay within budget.
 - **Compliance & Transparency** – Access legal policies, agreements, and telemetry settings for clarity.
 - **Help & Support** – Quickly reach documentation, tutorials, and support tickets when needed.
+
+## When to Use 
+You want to customize your Code Studio experience with personalized settings that enhance productivity and workflow efficiency. 
+You need to tune chat behavior, autocomplete, indexing, and memory for large projects. 
+
+## Prerequisites 
+Syncfusion Code Studio installed and configured on your system. If you have not yet downloaded Code Studio, please refer to this link [installation guide](/code-studio/getting-started/install-and-configuration)  for step-by-step instructions on downloading and configuring Code Studio.
 
 ## How to Access User Settings
 

@@ -79,7 +79,7 @@ Consider creating the ToDo application,
 
 > **Note**: Make sure agents are enabled in your Code Studio settings.
 
-    <img src="./feature-images/inputPrompt.png" alt="Input Prompt" />
+<img src="./feature-images/inputPrompt.png" alt="Input Prompt" />
 
 - By default, Agent mode will ask for your permission before using any tool. Click **“Allow”** to approve the action, or **“Skip”** to deny it.
 
@@ -91,6 +91,8 @@ Consider creating the ToDo application,
 
 
 - Run your application in terminal; now you have a working ToDo app. By using an agent, you can interactively generate and refine your code in real-time.
+
+**Note**: Any project developed using Code Studio is fully compatible with other IDEs, allowing developers to open and work on the same project across different environments without issues. For example, these projects can be used seamlessly in tools like Visual Studio and VS Code.
 
 ## Best Practices
 
