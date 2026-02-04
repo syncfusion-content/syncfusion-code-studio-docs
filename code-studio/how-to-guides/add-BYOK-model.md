@@ -36,12 +36,12 @@ Before you begin, ensure you have the following:
 1. Open **Code Studio** in your machine.
 
 2. Click the **Account** tab in the left top of application.
-   <img src="./how-to-guides-images/account-button.png" alt="Open Dashboard" />
+   <img src="./howtoguide-images/account-button.png" alt="Open Dashboard" />
 
 
 3. Click **Open Dashboard** to access the  dashboard.
 
-   <img src="./how-to-guides-images/open-dashboard.png" alt="Open Dashboard" />
+   <img src="./howtoguide-images/open-dashboard.png" alt="Open Dashboard" />
 
 ---
 
@@ -108,7 +108,7 @@ After adding the model, verify that it appears in the Code Studio IDE:
 
 3. Scroll to the **BYOK Models** section to find your newly added model.
 
-   <img src="./how-to-guides-images/byok-model-added.png" alt="BYOK Model in Dropdown" />
+   <img src="./howtoguide-images/byok-model-added.png" alt="BYOK Model in Dropdown" />
 
 4. If the model is not listed, click **Refresh Models** to sync the latest configurations.
 

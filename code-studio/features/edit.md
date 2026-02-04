@@ -23,7 +23,6 @@ Edit Mode is an AI-powered feature in Syncfusion Code Studio that helps develope
 
 - Access to Syncfusion Code Studio with Edit Mode enabled
 - Appropriate permissions to modify files in the workspace
-- Supported environments: Windows, macOS
 - Recommended: Familiarity with the codebase for best results
 
 ## Steps to Use the Edit mode

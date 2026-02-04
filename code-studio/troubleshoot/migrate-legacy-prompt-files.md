@@ -9,23 +9,19 @@ keywords: code-studio, prompt-migration, markdown, yaml, developer-tools, syncfu
 # Migrate Legacy Prompt Files: Troubleshooting Guide
 
 ## Problem Summary
-Legacy Code Studio prompt files (`.prompt` in `.sfcodestudio/prompts/`) are not recognized or usable in the latest Code Studio versions, which require the new `.prompt.md` format with YAML frontmatter and Markdown support. Users may find their old prompts missing, not appearing in chat, or not functioning as expected.
+Legacy Code Studio prompt files (`.prompt` in `.codestudio/prompts/`) from versions before 2.0.0 are not recognized or usable in Code Studio 2.0.0 and later, which requires the new `.prompt.md` format with YAML frontmatter and Markdown support. Users may find their old prompts missing, not appearing in chat, or not functioning as expected.
 
 ## Possible Causes
-- Prompt files are still in the old `.prompt` format and location (`.sfcodestudio/prompts/`)
-- Prompts lack required YAML frontmatter or use unsupported fields
+- Prompt files are still in the legacy `.prompt` format (`.codestudio/prompts/`)
 - Files are not saved with the `.prompt.md` extension
 - Prompts are not placed in the correct directory (`.codestudio/prompts/` for workspace, user profile folder for user prompts)
-- Syntax errors in YAML frontmatter
-- Unsupported variables or formatting in the prompt body
 
 ## Resolution Steps
 
 Follow these steps to migrate and restore prompt functionality:
 
 ### 1. Locate Your Legacy Prompt Files
-- **Windows:** `C:\Users\<YourName>\.sfcodestudio\prompts\`
-- **macOS:** `/Users/<YourName>/.sfcodestudio/prompts/`
+- **Workspace prompts:** `.codestudio/prompts/` (in your workspace folder)
 - **File Extension:** `.prompt`
 
 ### 2. Open and Copy Prompt Content
@@ -57,7 +53,7 @@ You can create prompts as either **Workspace** or **User** prompts:
 
 #### Example: Legacy vs. New Format
 
-**Legacy Format (`GenerateReactForm.prompt`):**
+**Legacy Format (before 2.0.0) - `GenerateReactForm.prompt`:**
 ```yaml
 name: GenerateReactForm
 description: Generate a new React form component
@@ -78,7 +74,7 @@ prompt:
     - Customize UX-friendly validation rules
 ```
 
-**New Format (`GenerateReactForm.prompt.md`):**
+**New Format (2.0.0 and later) - `GenerateReactForm.prompt.md`:**
 ```markdown
 ---
 agent: 'agent'
@@ -117,13 +113,13 @@ Requirements for the form:
   - `${input:variableName}`
   - `${input:variableName:placeholder}`
 
-### 6. Make Sure Your Migrated Prompts Work
+### 6. Run the Migrated Prompts 
 To confirm your migrated prompts are working:
 1. Open the new `.prompt.md` file in Code Studio.
 2. Check the YAML frontmatter for syntax errors.
  <img src="./troubleshoot-images/migrated-prompt.png" alt="Migrated prompt file opened" />
 3. In Chat, type `/` and see if the prompt appears in the list (look for the prompt name and model used).
-  <img src="./troubleshoot-images/model-used.png" alt="Prompt listed with model used" />
+  <img src="./troubleshoot-images/models.png" alt="Prompt listed with model used" />
 4. Run the prompt and make sure it produces the expected results.
 
 > **Note:** If there are errors in the YAML frontmatter, the prompt's assigned `model` may not be used and a default model could be selected instead. Fix frontmatter errors to ensure the specified model is applied.
