@@ -63,6 +63,7 @@ Edit Mode is an AI-powered feature in Syncfusion Code Studio that helps develope
 • Each file includes navigation arrows that allow you to jump directly between edited lines. Instead of scrolling, you can use the Up and Down arrows to navigate between changes within the file.
 
 <img src="./feature-images/keepUndo.png" alt="Chat Input" />
+
 ## Related Features
 - [Add Context](add-context.md): Provide additional files for more accurate edits
 - [Quick Fix](quickfix.md): Instantly resolve detected issues
