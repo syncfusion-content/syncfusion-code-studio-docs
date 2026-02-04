@@ -28,7 +28,7 @@ Use budget alerts when you want an email notification as soon as spending crosse
 
 ### Steps to Configure Budget Alerts for Teams:
 
-Step 1: Go to the **Budget tab**. Team budgets are displayed on a table, with a **three-dot (More options)** menu on the right side of each row.
+Step 1: Go to the **Budget tab** in CodeStudio dashboard. Team budgets are displayed on a table, with a **three-dot (More options)** menu on the right side of each row.
 
 <img src="./howtoguide-images/three-dots-icon-teams.png" alt="budget-alert"  />
 
