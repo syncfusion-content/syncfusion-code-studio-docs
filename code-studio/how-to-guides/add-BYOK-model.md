@@ -29,7 +29,7 @@ Before you begin, ensure you have the following:
 - A valid API key from your LLM provider (e.g., OpenAI, Anthropic).
 - *(Optional)* An OpenRouter API key for accessing multiple models through a single integration. Follow the detailed instructions [here](/code-studio/enterprise-server/freemodel) to obtain an OpenRouter API key and view the list of recommended free models.
 
-## Steps
+## How to Add Byok Models
 
 ### Step 1: Open the Dashboard
 

@@ -20,12 +20,12 @@ Edit Mode is an AI-powered feature in Syncfusion Code Studio that helps develope
 - Bulk editing UI or business logic
 
 ## Prerequisites
-
+- Syncfusion Code Studio installed and configured on your system. If you have not yet downloaded Code Studio, please refer to this link [Install and Configure](/code-studio/getting-started/install-and-configuration) for step-by-step instructions on downloading and configuring Code Studio.
 - Access to Syncfusion Code Studio with Edit Mode enabled
 - Appropriate permissions to modify files in the workspace
 - Recommended: Familiarity with the codebase for best results
 
-## Steps to Use the Edit mode
+## How to Use the Edit mode
 
 **Step 1:** Open Syncfusion Code Studio in your machine.
 
