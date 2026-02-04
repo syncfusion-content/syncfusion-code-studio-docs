@@ -36,12 +36,15 @@ Follow these steps to migrate and restore prompt functionality:
 You can create prompts as either **Workspace** or **User** prompts:
 - **Workspace Prompt:** `.codestudio/prompts/` (shared with your team)
 - **User Prompt:** User profile folder (available across all workspaces)
+
 1. Open Code Studio
 2. Go to the **Chat view**
 3. Click the **Configure Chat** (gear icon)
 4. Select **Prompt Files** → **New prompt file**
 5. Choose Workspace or User
 6. Enter a filename (no extension needed)
+
+> **Note:** For detailed instructions on creating and configuring prompt files, see the [Custom Prompt Files](/code-studio/reference/configure-properties/custom-prompt) guide.
 
 ### 4. Paste and Format Content in New File
 1. Add YAML frontmatter at the top:
@@ -121,3 +124,4 @@ To confirm your migrated prompts are working:
 3. In Chat, type `/` and see if the prompt appears in the list.
 4. Run the prompt and make sure it produces the expected results.
 
+---
