@@ -36,7 +36,7 @@ Before you begin, ensure you have the following:
 1. Open **Code Studio** in your IDE.
 
 2. Click the **Account** tab in the left top of application.
-   <img src="./how-to-guides-images/account-button.png.png" alt="Open Dashboard" />
+   <img src="./how-to-guides-images/account-button.png" alt="Open Dashboard" />
 
 
 3. Click **Open Dashboard** to access the  dashboard.
