@@ -6,11 +6,22 @@ keywords: code, IDE, AI, developer-tools, syncfusion, code-assistance, productiv
 ---
 # Ask 
 
-## Description
+## Feature Overview
 Ask Mode in Code Studio IDE is a simple way to get quick help while coding.  Instead of digging through long documentation or searching online, you can just ask questions directly in the IDE. Code Studio Chat will give you explanations, examples, or best practices based on what you ask—without touching your project files.
 
-## Purpose
-The purpose of Ask Mode is to make learning and problem solving easier.It helps new users understand coding concepts, see ready-to-use code snippets, and get clear guidance on how to apply patterns or practices—all in a fast, conversational way.
+## Prerequisites
+1. **Create and sign in** to your Syncfusion Code Studio account, visit: [Syncfusion Code Studio](https://app.sfcodestudio.com)
+2. **Download and open Syncfusion Code Studio**, visit: [Install and Configuration](/code-studio/getting-started/install-and-configuration)
+
+## Use Cases
+Ask Mode is optimized for learning and exploration rather than direct file manipulation. Use this mode when you need:
+
+- **Quick Clarifications:** Get answers to coding questions without searching through external documentation.
+- **Code Snippets:** Generate ready-to-use code examples for common programming tasks.
+- **Concept Learning:** Understand complex design patterns, frameworks, or best practices through clear summaries.
+- **Safe Exploration:** Experiment with ideas and logic in a conversational environment that does not touch your workspace context.
+
+
 
 ## How to use ask mode in Code Studio
 
@@ -40,17 +51,16 @@ The purpose of Ask Mode is to make learning and problem solving easier.It helps 
 ### Step 4: Apply What You Learn
 - Copy code snippets directly into your project.  
 - Use explanations to understand concepts before implementing them.  
-- Refer back to Ask Mode whenever you need quick clarification.
-
-## Why use ask mode?
-Ask Mode is designed for learning and exploration. It’s perfect when you want:
-- Quick answers without digging through documentation.  
-- Ready-to-use code snippets for common tasks.  
-- Clear explanations of design patterns and best practices.  
+- Refer back to Ask Mode whenever you need quick clarification. 
 
 ## Best Practices
 - Write clear and direct questions so Ask Mode understands your request.  
 - Add context like code snippets, frameworks, or error messages for accurate answers.  
 - Keep questions focused by asking one at a time.  
 - Review Ask Mode’s response carefully before applying it to your project.  
-- Refine your query or ask follow-up questions if the first answer isn’t enough.  
+- Refine your query or ask follow-up questions if the first answer isn’t enough.
+
+## Related Features
+- [Edit Mode](/code-studio/features/edit) - Make grounded, file‑safe edits.
+- [Agent Mode](/code-studio/features/agent) - Multi‑step automation with tools.
+

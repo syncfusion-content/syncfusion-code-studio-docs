@@ -11,7 +11,7 @@ keywords: tools, syncfusion, code-studio, development, automation, workflow, bui
 
 The Tools Support feature in Syncfusion Code Studio empowers developers to perform specific actions within the development environment, such as creating folders, reading files, searching within files, and interacting with browsers. This guide provides a step-by-step approach to use the built-in tools, enabling you to streamline your development workflow and automate tasks efficiently with simple prompts.
 
-## Purpose
+## When to use
 
 The tools are designed to automate and simplify common development tasks, allowing you to focus on writing code. Key purposes include:
 
@@ -100,13 +100,15 @@ Below is a list of some tools and their descriptions for reference
   </tbody>
 </table>
 
-## How to Enable Tools for Chat
+## Steps
+
+### How to Enable Tools for Chat
 
 Before you can use tools in chat, you need to enable them in the **Chat view**. Tools can be enabled or disabled on a per-request basis using the **tools picker**. 
 
 > **Note:** Select the agent after that tool picker is visible in the chat. Select only the tools that are relevant to your prompt to improve results.
 
-### How to access the tools picker
+#### How to access the tools picker
 
 **Step 1** : Click the Syncfusion Code Studio icon. The chat window is displayed.
 
@@ -126,7 +128,7 @@ Before you can use tools in chat, you need to enable them in the **Chat view**. 
 
 **💡Tip** : Use the search box to quickly filter the list of tools.
 
-## How to use tools in your prompts
+### How to Use Tools in Your Prompt 
 
 You can explicitly reference tools in your prompts by typing **#** followed by the **tool name**. This is useful when you want to ensure that a specific tool is used. Type **#** in the chat input field to see a list of available tools.
 
@@ -136,7 +138,7 @@ You can explicitly reference tools in your prompts by typing **#** followed by t
 
 <img src="../reference-images/tools6.png" alt="Tools" >
 
-## Tools Approval
+### Tools Approval
 
 When using agents, the agent automatically determines which tools to use from the enabled set based on your prompt and the context of your request. The agent autonomously selects and invokes the relevant tools needed to accomplish the task.
 
