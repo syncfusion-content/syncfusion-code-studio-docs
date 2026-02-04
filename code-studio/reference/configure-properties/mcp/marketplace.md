@@ -20,8 +20,9 @@ MCP servers are essential in the following scenarios:
 
 ## Prerequisites 
 Before installing MCP servers from the marketplace, ensure that:
-- You are using **Syncfusion Code Studio** version 2.0.0 or later
+- You are using the latest version of Syncfusion Code Studio
 - You have any required authentication credentials ready (Personal Access Tokens, API keys, or other tokens as needed by specific servers)
+- Node.js and npm are installed on your system, as certain MCP servers depend on npm packages for functionality
 
 ## Steps to Install an MCP Server from Marketplace
 - Click the **Syncfusion Code Studio** icon on the top right side  to open the Syncfusion Code Studio chat window.
