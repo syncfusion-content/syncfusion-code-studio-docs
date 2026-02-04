@@ -2,7 +2,7 @@
 title: Add BYOK Model in Syncfusion Code Studio
 description: Admin guide to add BYOK (Bring Your Own Key) models and connect providers in Code Studio.
 platform: syncfusion-code-studio
-keywords: byok, add model, providers, configuration, admin, enterprise, syncfusion, code-studio, api keys, openai, anthropic, azure openai, gemini
+keywords: byok, add model, providers, configuration, admin, enterprise, syncfusion, code-studio, api keys, openai, anthropic,openrouter
 ---
 
 # Add BYOK Model
@@ -33,7 +33,7 @@ Before you begin, ensure you have the following:
 
 ### Step 1: Open the Dashboard
 
-1. Open **Code Studio** in your IDE.
+1. Open **Code Studio** in your machine.
 
 2. Click the **Account** tab in the left top of application.
    <img src="./how-to-guides-images/account-button.png" alt="Open Dashboard" />
@@ -61,7 +61,7 @@ Follow these steps to add a new LLM provider to Code Studio:
 
    | Field | Description |
    |-------|-------------|
-   | **Provider Name** | Enter the name of the LLM provider (e.g., OpenAI, Anthropic, Azure OpenAI). |
+   | **Provider Name** | Enter the name of the LLM provider (e.g., OpenAI, Anthropic,  Openrouter). |
    | **API Key** | Paste the API key provided by your LLM service. |
 
 4. Click **Add** to save the provider configuration.
