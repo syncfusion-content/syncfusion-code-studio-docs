@@ -8,22 +8,7 @@ keywords: ask-code-studio, error-resolution, ai-debugging, code-quality, develop
 
 # Quick Start Guide about Syncfusion Code Studio
 
-Start using **Syncfusion Code Studio** in minutes and unlock AI‑powered coding that accelerates your development process.
-
-
-## Overview
 **Syncfusion Code Studio** is an intelligent, AI‑powered coding companion designed to make your development process faster and easier. Instead of writing every line manually or searching for solutions, Code Studio works alongside you—understanding your intent, offering meaningful suggestions, and helping you learn as you build.
-
-This assistant supports developers of all skill levels whether you're writing your first lines of code or managing complex enterprise applications.
-
-With the help of advanced AI, Code Studio can:
-
-- **Generate code** for you, reducing repetitive tasks  
-- **Identify and fix errors** automatically  
-- **Explain your code**, line by line or function by function  
-
-It helps you write cleaner, more accurate code while staying focused and productive.
-
 
 ## Prerequisites
 
@@ -38,6 +23,14 @@ Before getting started, make sure that:
 3. **Basic familiarity with writing code**  
    You don’t need to be an expert—just comfortable editing files and understanding simple programming concepts.
 
+## What You’ll Learn
+By the end of this quick start guide, you’ll learn how to:
+
+- Open an existing project folder in the IDE, then navigate and edit files using the Explorer sidebar and built-in editor
+- Access and use the core AI-powered coding features: Autocomplete, Ask, Edit, Agent, and Plan
+- Generate, explain, refactor, and fix code using natural language instructions
+- Perform targeted code improvements with Inline Chat directly in the editor
+- Add extra files or folders from your workspace as context to make AI suggestions more accurate and project-aware
 
 ## Step 1: Open a Project in Code Studio
 
@@ -55,7 +48,16 @@ Follow the steps below to open your project and start working inside the Code St
 
 5. **Or you can directly open your project folder using 'Open Folder' button under the Code Studio logo**
 
-### Result :
+
+**Note: Open folder directly from File Explorer / Finder using terminal**
+- **Windows**  
+  In File Explorer → type `cmd` in the address bar → Enter → then run:  
+  `sfcode .`
+- **macOS**  
+  Right-click inside folder → Services → New Terminal at Folder → then run:  
+  `sfcode .`
+
+### Result:
 Your selected project will open in the editor where you can:
 
 - Browse files in the Explorer sidebar  
@@ -86,7 +88,7 @@ This reduces typing effort and ensures consistency.
 *Learn more about [Autocomplete](/code-studio/features/autocomplete)*
 
 
-### 2. Ask
+### 2. Ask Mode
 
 - Ask mode allows you to communicate with the AI using natural language and receive accurate, context‑aware help.
 
@@ -106,7 +108,7 @@ This reduces typing effort and ensures consistency.
 - You can update logic, restructure components, clean up syntax, or improve performance without editing manually.  
 Code Studio shows suggested changes clearly, letting you apply or undo them step by step.
 
-**For Example:**  Give, *“Simplify this function using early returns”* as pompt, Edit Mode rewrites it neatly while preserving behavior.
+**For Example:**  Give, *“Simplify this function using early returns”* as prompt, Edit Mode rewrites it neatly while preserving behavior.
 
 <img src="gettingstarted-images/edit.png" alt="Edit" />
 
@@ -142,16 +144,16 @@ Ideal for scaffolding features, refactoring modules, or managing structured work
 -  Inline Chat allows localized edits directly next to your code.  
 - Highlight text and ask for improvements, optimizations, or rewrites without switching views.
 
-**Fo Example:**   Select a loop and ask, *“Optimize this for better performance.”*  
+**For Example:**   Select a loop and ask, *“Optimize this for better performance.”*  
 You’ll see improved code inline with **Accept** and **Dismiss** options.
 
 <img src="gettingstarted-images/inlineChat.png" alt="InlineChat" />
 
-*Learn more about [Inlinechat](/code-studio/features/inlinechat)*
+*Learn more about [Inline Chat](/code-studio/features/inlinechat)*
 
 ## Add Context
 
-- Add Context lets Code Studio understand more of your project by including additional files or folders in the request.
+- Add Context lets Code Studio understand more of your project by including additional files or folders from your workspace in the request.
 
 - This leads to smarter, interconnected suggestions.
 

@@ -30,7 +30,7 @@ Follow these steps to migrate and restore prompt functionality:
 
 ### 3. Create a New Prompt File in Code Studio
 You can create prompts as either **Workspace** or **User** prompts:
-- **Workspace Prompt:** `.codestudio/prompts/` (shared with your team)
+- **Workspace Prompt:** `.codestudio/prompts/` 
 - **User Prompt:** User profile folder (available across all workspaces)
 
 1. Open Code Studio
