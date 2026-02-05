@@ -9,14 +9,19 @@ keywords: "code, IDE, AI, developer-tools, syncfusion, code-assistance, producti
 ## Overview
 Global Agent refers to agents.md, an open-source, standardized file format designed to streamline collaboration between AI coding agents in **Syncfusion® Code Studio**. It serves as a centralized instruction manual, similar to a `README.md`, but specifically tailored for machine interpretation and execution. By consolidating setup instructions, testing protocols, and coding guidelines into a single file, Global Agent simplifies workflows and ensures consistency across projects.  
 
-> **Note**: Enable the **Use Agent MD File** option under Agents in the settings.
+## Use Cases
+- Team Collaboration: Standardizes coding guidelines and workflows across multiple developers, ensuring AI agents interpret instructions consistently.
 
-## Purpose
-The goal of Global Agent is to give developers a clear and consistent way to guide AI code generation and tasks.
+- AI-Assisted Code Reviews: Coding guidelines defined in agents.md help AI agents enforce style checks and best practices during reviews
 
-- Provide durable, project specific rules the assistant automatically follows.  
-- Avoid repeating instructions by defining default behavior, style, and tool usage.  
-- Keep outputs consistent across the team.   
+- Testing & Validation: Embeds test cases and quality checks directly into agents.md, enabling automated, uniform validation.
+
+- Cross-Project Reuse: Allows teams to reuse agents.md  across different projects, speeding up knowledge transfer and reducing duplication.
+
+
+## Prerequisites 
+
+- Syncfusion Code Studio installed and configured on your system. If you have not yet downloaded Code Studio, please refer to this link [Install and Configure](/code-studio/getting-started/install-and-configuration) for step-by-step instructions on downloading and configuring Code Studio.
 
 ## How to Configure
 Using Global Agent in Code Studio is straightforward:
@@ -41,31 +46,16 @@ Using Global Agent in Code Studio is straightforward:
 
     <img src="./feature-images/globalagent-enable.png" alt="agentenable" >
 
-7. Open a chat and send message.
+6. Open a chat and send message.
 
     <img src="./feature-images/globalagent-chat.png" alt="chat" >
 
-8. The `agents.md` file will then be used as a reference.
+7. The `agents.md` file will then be used as a reference.
 
     <img src="./feature-images/globalagent-referenceagent.png" alt="reference" >
 
-## Validation
-- Verify **Agent Enabled** is enabled under Agents.
-- Verify **Use Agent MD File** is enabled under Agents.
-- Check that the file is named `agents.md` and placed in the project root.
-- Verify that Code Studio references `agents.md` when responding
+## Related Features
 
-## Troubleshoot
-**`agents.md` file is not referenced.**  
--   Ensure the file exists in the root directory and is not in a subfolder.
--	Confirm the extension is exactly .md.
--	Ensure the file name as agents.md.
+- [Custom Agent](/code-studio/features/agent) - Pre‑configured AI agents for specific tasks that follow fixed rules, tools, and behaviors—ensuring consistent, repeatable workflows across teams.
 
-**Agent not Responding in Chat.**
-- Re-check that Agent Enabled and Use Agent MD File are toggled ON in Settings.
-
-**Instruction Recognition Problems.**
-- Review the document for clear, AI parsable rules and Check clarity of rules.
-
-**Slow suggestions.**
-- Ensure a stable network connection. 
+- [Custom Prompt](/code-studio/reference/configure-properties/custom-prompt) - Prompt files are on‑demand, reusable Markdown prompts that standardize specific development tasks like code generation and reviews.

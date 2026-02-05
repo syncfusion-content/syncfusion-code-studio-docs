@@ -17,11 +17,10 @@ This procedure helps you reset Syncfusion Code Studio to its default state by cl
 
 ## Possible Causes
 
-- **Auto update issues**: Incomplete or interrupted automatic updates may require cache clearing to ensure proper functionality
-- **Configuration reset needed**: The `config.yaml` file requires restoration to default settings
-- **Routine maintenance**: Application cache folders benefit from periodic clearing
-- **System configuration updates**: Changes in system settings may necessitate cache refresh
-- **Performance optimization**: Regular cache clearing maintains optimal application performance
+- **Auto update issues**: Incomplete or interrupted automatic updates can sometimes affect application stability clearing the cache helps refresh the IDE and resolve update-related behavior.
+- **Configuration reset needed**: The `config.yaml` file may need to be restored to its default settings for the IDE to function correctly.
+- **System configuration updates**: Recent changes to your operating system settings may require a cache refresh to ensure compatibility.
+- **Performance optimization**: Regularly clearing the cache helps maintain smooth and optimal application performance over time.
 
 ## Resolution Steps: Steps to Delete the Cache Folders
 
@@ -91,4 +90,4 @@ Once you've completed both steps:
 2. Reinstall Syncfusion Code Studio, refer to the [Syncfusion Code Studio Install and Configure](https://help.syncfusion.com/code-studio/getting-started/install-and-configuration) 
 3. Launch the application - it will create fresh configuration files and cache
 
-**Notes**: Backup Recommendation - If you have custom configurations you want to preserve, consider backing up the folders before deleting them.
+**Note:** Backup Recommendation - If you have custom configurations or settings you want to preserve, back up the relevant folders before deleting or clearing them.
