@@ -42,6 +42,7 @@ Claude Haiku 4.5 is well-suited for developers who want quick, reliable answers 
 
 **Example Task**
 
+```
 Create boilerplate code for a REST API endpoint that:
 
 1. Accepts a GET request for /api/products?category=electronics
@@ -49,6 +50,7 @@ Create boilerplate code for a REST API endpoint that:
 3. Includes a service layer for business logic
 4. Includes proper error handling
 5. Returns JSON response
+```
 
 **Example Outcome**
 
@@ -132,7 +134,9 @@ Claude Sonnet 4.5 is well suited for scenarios where accuracy, clarity, and reas
 
 **Example Task - Deep Reasoning (Step-by-Step Mode)**
 
+```
 Why is my React component re-rendering unnecessarily?
+```
 
 **Example Outcome**
 
@@ -171,7 +175,9 @@ Gemini 2.5 Flash is a strong choice when responsiveness and efficiency matter mo
 
 **Example Task**
 
+```
 Generate a regular expression to validate a simple email address format (e.g., user@domain.com).
+```
 
 **Example Outcome**
 
@@ -201,7 +207,9 @@ Gemini 2.5 Pro is designed for scenarios where a strong understanding of logic, 
 
 **Example Task**
 
+```
 I have a Node.js application with a suspected concurrency bug. I believe there is a race condition in my ordering logic that allows the inventory count to become negative, which should be impossible. Can you please analyze the following code snippets from inventoryService.js and orderService.js, identify the root cause of the bug, and provide a hardened, production-ready solution to fix it? Please explain the underlying problem and why your solution is robust.
+```
 
 **Codebase Snippet**
 
@@ -296,7 +304,9 @@ Gemini 3 Flash (Preview) is designed to combine fast response times with stronge
 
 **Example Task**
 
+```
 Find all customers who bought 'Product A' in 2023 but never purchased 'Product B', then calculate their total lifetime spend.
+```
 
 **Example Outcome**
 
@@ -332,8 +342,9 @@ Gemini 3 Flash (Preview) balances speed, efficiency, and improved reasoning, all
 GPT-4.1 is a dependable model for developers who value consistency and clarity. It performs especially well when tasks require understanding broader context or producing well-explained solutions.
 
 **Example Task**
-
+```
 Refactor a C# class to use dependency injection, explain the changes, and update all usages across multiple files.
+```
 
 ```csharp
 public class EmailService {
@@ -373,7 +384,9 @@ GPT-5 is well suited for scenarios where understanding the full system context i
 
 **Example Task**
 
+```
 Migrate a Node.js/TypeScript API from Express to Fastify, add runtime validation and tracing, update all route usages, generate load tests, and produce a rollback plan.
+```
 
 ```javascript
 import express from 'express';
@@ -449,7 +462,9 @@ GPT-5 Mini is designed for efficiency at scale, delivering strong general-purpos
 
 **Example Task**
 
+```
 Create a small FastAPI endpoint POST /summarize that validates input, caches results, and returns a concise summary plus metadata.
+```
 
 ```python
 A single helper with no validation or caching:
@@ -513,7 +528,9 @@ GPT-5.1 Codex is purpose-built for software engineering workflows, handling ever
 
 **Example Task**
 
+```
 Migrate a large TypeScript/React data grid to server-driven pagination, update the Node.js API, add end-to-end Playwright tests, and summarize the impact for release notes.
+```
 
 **Example Outcome**
 
@@ -537,12 +554,14 @@ GPT-5.2 is designed for demanding engineering and knowledge-work scenarios where
 
 **Example Task**
 
+```
 Migrate a Node.js Express API endpoint to be idempotent and race-safe by introducing:
 
 - an idempotency key header,
 - a database uniqueness constraint,
 - consistent error handling, and
 - Integration tests proving duplicate requests don't create duplicate rows.
+```
 
 **Example Outcome**
 

@@ -34,28 +34,34 @@ The tools are designed to automate and simplify common development tasks, allowi
 - Perform web searches to fetch relevant resources.
 - Automate browser tasks like testing or scraping.
 
+## Prerequisites
+
+1. **Syncfusion Code Studio Account** - Create and sign in at [Syncfusion Code Studio](https://app.sfcodestudio.com)
+2. **Code Studio Installation** - Download and configure the IDE: [Install and Configuration](/code-studio/getting-started/install-and-configuration)
+3. **For MCP Tools** - MCP servers must be installed and configured before they can be used. See [MCP Marketplace](/code-studio/reference/configure-properties/mcp/marketplace) for installation instructions.
+
 ## Types of Tools
 
-Syncfusion Code Studio provides a suite of tools to streamline your workflow.You can use two types of tools in chat
+Syncfusion Code Studio provides a suite of tools to streamline your workflow. You can use two types of tools in chat:
  
 ### 1. Built-In Tools
 
--	Built-in tools are automatically available in chat.
--	They cover common development tasks and are optimized for working within your workspace.
--	No installation or configuration is required — they are ready to use as soon as you start.
+- Built-in tools are automatically available in chat.
+- They cover common development tasks and are optimized for working within your workspace.
+- No installation or configuration is required — they are ready to use as soon as you start.
 
 ### 2. MCP Tools
 
--	Model Context Protocol (MCP) is an open standard that enables AI models to use external tools and services through a unified interface.
--	MCP servers provide tools that you can add to Syncfusion Code Studio to extend chat with additional capabilities.
--	To use MCP tools, you must install and configure MCP servers first.
--	MCP servers can run locally on your machine or be hosted remotely.
+- Model Context Protocol (MCP) is an open standard that enables AI models to use external tools and services through a unified interface.
+- MCP servers provide tools that you can add to Syncfusion Code Studio to extend chat with additional capabilities.
+- To use MCP tools, you must install and configure MCP servers first.
+- MCP servers can run locally on your machine or be hosted remotely.
 
 <img src="../reference-images/tools1.png" alt="Tools" >
 
 ### Toolset Overview
 
-Below is a list of some tools and their descriptions for reference
+Below is a list of some tools and their descriptions for reference:
 
 <table border="1" cellpadding="8" cellspacing="0">
   <thead>
@@ -104,9 +110,9 @@ Below is a list of some tools and their descriptions for reference
 
 ### How to Enable Tools for Chat
 
-Before you can use tools in chat, you need to enable them in the **Chat view**. Tools can be enabled or disabled on a per-request basis using the **tools picker**. 
+Before you can use tools in chat, you need to enable them in the **Chat view**. Tools can be enabled or disabled on a per-request basis using the **tools picker**.
 
-> **Note:** Select the agent after that tool picker is visible in the chat. Select only the tools that are relevant to your prompt to improve results.
+> **Note:** Select the agent after the tools picker is visible in the chat. Select only the tools that are relevant to your prompt to improve results.
 
 #### How to access the tools picker
 

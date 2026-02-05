@@ -1,66 +1,79 @@
 ---
 title: Syncfusion Code Studio Ask Mode
-description: Ask Mode in Code Studio IDE provides quick, AI‑powered explanations, examples, and best practices without altering your project files. 
+description: Ask Mode in Code Studio provides AI-powered explanations, code examples, and best practices in a non-invasive conversational interface that does not modify workspace files.
 platform: syncfusion-code-studio
 keywords: code, IDE, AI, developer-tools, syncfusion, code-assistance, productivity, UI-generation, bug-fixing, documentation
 ---
-# Ask 
+# Ask
 
 ## Feature Overview
-Ask Mode in Code Studio IDE is a simple way to get quick help while coding.  Instead of digging through long documentation or searching online, you can just ask questions directly in the IDE. Code Studio Chat will give you explanations, examples, or best practices based on what you ask—without touching your project files.
+
+Ask Mode is a conversational interface within Code Studio that provides immediate technical guidance without modifying your workspace. It delivers explanations, code examples, and best practice recommendations based on your queries, operating independently of your project files. This mode is designed for knowledge acquisition and exploration rather than direct code manipulation.
 
 ## Prerequisites
-1. **Create and sign in** to your Syncfusion Code Studio account, visit: [Syncfusion Code Studio](https://app.sfcodestudio.com)
-2. **Download and open Syncfusion Code Studio**, visit: [Install and Configuration](/code-studio/getting-started/install-and-configuration)
+
+1. **Syncfusion Code Studio Account** - Create and sign in at [Syncfusion Code Studio](https://app.sfcodestudio.com)
+2. **Code Studio Installation** - Download and configure the IDE: [Install and Configuration](/code-studio/getting-started/install-and-configuration)
 
 ## Use Cases
-Ask Mode is optimized for learning and exploration rather than direct file manipulation. Use this mode when you need:
 
-- **Quick Clarifications:** Get answers to coding questions without searching through external documentation.
-- **Code Snippets:** Generate ready-to-use code examples for common programming tasks.
-- **Concept Learning:** Understand complex design patterns, frameworks, or best practices through clear summaries.
-- **Safe Exploration:** Experiment with ideas and logic in a conversational environment that does not touch your workspace context.
+**Use Ask Mode when you need:**
+
+- **Quick Technical Clarifications** - Resolve coding questions without external documentation searches
+- **Code Snippet Generation** - Obtain ready-to-use code examples for specific programming tasks
+- **Concept Explanations** - Understand design patterns, framework architectures, or language features through concise technical summaries
+- **Non-Invasive Exploration** - Test ideas and validate logic without workspace file modifications or context dependencies
 
 
+## How to Use Ask Mode in Code Studio
 
-## How to use ask mode in Code Studio
+### Step 1: Activate Ask Mode
 
-### Step 1: Select Ask Mode
-- Launch Code Studio IDE.  
-- Open the chat view of Code Studio, select **Ask** from the agents dropdown.
+- Launch Code Studio IDE
+- Open the Code Studio chat panel
+- Select **Ask** from the agent dropdown menu
 
-    <img src="./feature-images/ask1.png" alt="Ask Mode"  />   
+    <img src="./feature-images/ask1.png" alt="Ask Mode Selection" />
 
-### Step 2: Ask Your Question
-- Type your question in plain language, no special format needed.  
-- You can ask about coding concepts, request code snippets, or seek best practice guidance.  
+### Step 2: Submit Your Query
 
-**Example:**
+Type your question using natural language. For optimal results:
+- State the programming language or framework explicitly
+- Include relevant error messages or stack traces when troubleshooting
+- Specify the desired output format (e.g., "provide a TypeScript example")
 
-<img src="./feature-images/ask2.png" alt="Ask Mode"  /> 
+**Example Query:**
 
-**Response:**
+<img src="./feature-images/ask2.png" alt="Ask Mode Query Example" />
 
-<img src="./feature-images/ask3.png" alt="Ask Mode"  /> 
+### Step 3: Review the Response
 
-### Step 3: Get Instant Guidance
-- Code Studio Chat will respond with explanations, examples, or summaries.  
-- The answers are conversational and easy to follow, like having a mentor guide you.  
-- You don’t need to share your project files—Ask Mode works only with the context you provide.
+Code Studio processes your query and returns:
+- Technical explanations with relevant context
+- Executable code snippets with syntax highlighting
+- Best practice recommendations specific to your query
+- References to related concepts when applicable
 
-### Step 4: Apply What You Learn
-- Copy code snippets directly into your project.  
-- Use explanations to understand concepts before implementing them.  
-- Refer back to Ask Mode whenever you need quick clarification. 
+**Example Response:**
+
+<img src="./feature-images/ask3.png" alt="Ask Mode Response Example" />
+
+### Step 4: Apply or Iterate
+
+- **Copy snippets** directly into your editor for immediate use
+- **Refine queries** with follow-up questions to clarify edge cases
+- **Request alternatives** by asking for different approaches or implementations
 
 ## Best Practices
-- Write clear and direct questions so Ask Mode understands your request.  
-- Add context like code snippets, frameworks, or error messages for accurate answers.  
-- Keep questions focused by asking one at a time.  
-- Review Ask Mode’s response carefully before applying it to your project.  
-- Refine your query or ask follow-up questions if the first answer isn’t enough.
+
+- **Be Specific** - Include framework versions, error codes, and technical constraints in your query
+- **Provide Context** - Share minimal code snippets that demonstrate the problem or requirement
+- **Single-Purpose Queries** - Ask one focused question per prompt for clearer responses
+- **Verify Outputs** - Review generated code for security, performance, and compatibility before integration
+- **Iterate When Needed** - Refine queries with additional details if the initial response is insufficient
+- **Use Proper Terminology** - Technical accuracy in your question improves response quality
 
 ## Related Features
-- [Edit Mode](/code-studio/features/edit) - Make grounded, file‑safe edits.
-- [Agent Mode](/code-studio/features/agent) - Multi‑step automation with tools.
 
+- [Edit Mode](/code-studio/features/edit) - Context-aware file editing with workspace integration
+- [Agent Mode](/code-studio/features/agent) - Multi-step task automation with tool execution
