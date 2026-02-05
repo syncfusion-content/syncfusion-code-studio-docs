@@ -5,23 +5,18 @@ platform: syncfusion-code-studio
 keywords: tutorial, ui-builder, syncfusion-components, dashboard, data-grid, charts
 ---
 
-# Build UI using Syncfusion UI Builder
+# Build UI Using Syncfusion UI Builder
 
 ## Overview
 
 Build a complete customer dashboard using Syncfusion UI Builder in Code Studio. You will scaffold a React app, generate a data grid and charts, wire up export actions, and validate the final result.
 
-By the end, you will have:
-- A working customer dashboard built with Syncfusion components
-- A repeatable workflow for using UI Builder requests
-- A foundation to extend with more features
-
 ## Prerequisites
 
-- Code Studio installed with the UI Builder tool enabled
-- Node.js and npm installed
-- Basic React knowledge
-- Syncfusion license key (trial or licensed)
+- Syncfusion Code Studio installed and configured (Follow the [Install and Configure](/code-studio/getting-started/install-and-configuration) guide if not yet installed)
+- Ensure UI Builder tool enabled
+- [Node.js](https://nodejs.org/en/download) and npm installed
+- [Syncfusion license key](https://help.syncfusion.com/common/essential-studio/licensing/how-to-generate) 
 
 ## What You’ll Learn
 
@@ -37,7 +32,7 @@ By the end, you will have:
 
 1. Create a new React app and open it in Code Studio:
    ```bash
-   npx create-react-app customer-dashboard
+   npm create vite@latest customer-dashboard -- --template react
    cd customer-dashboard
    ```
 2. Open the project folder in Code Studio.
@@ -59,7 +54,7 @@ By the end, you will have:
 ### Step 3: Configure Syncfusion License and Theme
 
 1. Ensure required Syncfusion packages are installed. Code Studio typically installs dependencies automatically when generating components.
-2. Register your Syncfusion license key in your app entry (for example, in index.js):
+2. [Register](https://help.syncfusion.com/common/essential-studio/licensing/how-to-register-in-an-application#reactjs) your Syncfusion license key in your app entry (for example, in index.js):
    ```javascript
    import { registerLicense } from '@syncfusion/ej2-base';
    registerLicense('YOUR_LICENSE_KEY');
@@ -70,7 +65,7 @@ By the end, you will have:
 
 1. Start the development server and open the app in the browser:
    ```bash
-   npm start
+   npm run dev
    ```
 2. Confirm all components render without errors and the layout is responsive.
 
@@ -109,7 +104,4 @@ If something fails:
 
 ## Next Steps
 
-- Add customer detail forms with validation
-- Implement real-time updates or server data integration
-- Add advanced filtering and search
-- Explore additional Syncfusion components 
+ - [Configure the default model](/code-studio/how-to-guides/Configure-default-model) to use the UI Builder tool effectively.

@@ -2,7 +2,7 @@
 title: How to Add Personal Models
 description: Learn how to add and manage your own AI models in Code Studio using API keys from providers like OpenAI and Anthropic.
 platform: syncfusion-code-studio
-keywords: how-to, BYOK, personal models, API keys
+keywords: how-to, BYOK, personal-models, API-keys
 ---
 
 # Add Models for Personal Use
@@ -16,8 +16,8 @@ Personal models in Code Studio allow you to integrate AI models from various pro
 Use personal models when you need to:
 
 - Experiment with specific models for personal projects
-- Access models not available in your organization’s configuration
-- Compare providers and model capabilities
+- Access models when they are not available in your organization’s configuration
+- Compare different providers and model capabilities
 - Match models to unique coding or cost requirements
 
 ## Prerequisites
@@ -25,10 +25,9 @@ Use personal models when you need to:
 - Valid API keys from your chosen provider (e.g., OpenAI, Anthropic)
 - Active provider account with sufficient credits or quota
 
-
 ## How To Add a Personal Model?
 
-1. Click the model’s section dropdown and select Manage Models.
+1. Click the model’s section dropdown and select `Manage Models`.
 
    <img src="how-to-guides-images/manageModels.png" alt="Manage Models">
 
@@ -46,17 +45,17 @@ Use personal models when you need to:
 
    <img src="how-to-guides-images/modelList.png" alt="Models">
 
-5. Click OK to add the selected model(s).
+5. Click `OK` to add the selected model(s).
 
    <img src="how-to-guides-images/clickOk.png" alt="Choose Model">
 
-6. The added models appear under Other Models. You can use them like any built‑in or organization‑configured model.
+6. The added models appear under `Other Models`. You can use them like any built‑in or organization‑configured model.
 
    <img src="how-to-guides-images/otherModels.png" alt="Other Model">
 
 ## How To Remove a Personal Model?
 
-1. Open Manage Models from the model’s dropdown section.
+1. Open `Manage Models` from the model’s dropdown section.
 
    <img src="how-to-guides-images/manageModels.png" alt="Manage Models">
 
@@ -64,7 +63,7 @@ Use personal models when you need to:
 
    <img src="how-to-guides-images/selectProvider.png" alt="Select Providers">
 
-3. Uncheck the model you want to remove and click OK.
+3. Uncheck the model you want to remove and click `OK`.
 
    <img src="how-to-guides-images/modelList.png" alt="Remove Model">
 
