@@ -7,6 +7,7 @@ keywords: code, IDE, AI, developer-tools, syncfusion, code-assistance, productiv
 
 # Telemetry
 
+## Overview
 Syncfusion Code Studio collects anonymous usage data to improve product quality and user experience. This data helps the development team understand feature usage, identify performance issues, and prioritize enhancements.
 
 Telemetry collection is optional and can be disabled at any time by the user.

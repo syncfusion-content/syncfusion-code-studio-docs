@@ -63,6 +63,11 @@ After restoring the previous checkpoint, Code Studio allows you to redo the chan
 
    <img src="./feature-images/checkpoint3.png" alt="checkpoint"  />
 
+## How to Undo and Redo the Last Request
+Code Studio lets you quickly reverse or reapply your most recent action. Use Undo Last Request to roll back the workspace to the state before the change was applied. If you change your mind, select Redo Last Request to bring the workspace back to the state with those changes. This helps you stay flexible and in control while experimenting with edits.
+
+<img src="./feature-images/checkpoint4.png" alt="checkpoint"  />
+
 ## Best Practices
 
 ### 1. Review checkpoints before restoring
