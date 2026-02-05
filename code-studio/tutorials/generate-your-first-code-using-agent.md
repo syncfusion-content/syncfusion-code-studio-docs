@@ -77,9 +77,7 @@ By the end of this tutorial, you will be able to:
 1. The Agent automatically creates checkpoints between chat requests.
 2. Checkpoints provide a safety net by allowing you to:
    - Review changes at different stages.
-   - Compare versions side-by-side.
    - Restore your code to any previous checkpoint if needed.
-3. Progress updates, including diffs and command outputs, are displayed in the chat area.
 
    <img src="./tutorials-images/firstagentchange4.png" alt="Checkpoints" />
 
@@ -90,7 +88,7 @@ To confirm everything worked as expected:
 - **Agent Mode:** Verify that Agent Mode is active and you have granted all necessary tool permissions.
 - **Changes Applied:** Review your codebase and confirm that all accepted changes have taken effect.
 - **Summary Accuracy:** Check the final summary to ensure all intended files were modified or created as described.
-- **Checkpoints:** Locate the available checkpoints (usually visible at the bottom of the chat) and attempt to restore one to confirm the feature works correctly.
+- **Checkpoints:** Locate the available checkpoints (usually visible at the bottom of each chat request) and attempt to restore one to confirm the feature works correctly.
 - **Permissions:** If tool calls are not executing, verify that you have granted permission for tool access in the settings.
 
 For more details about checkpoints, see [Checkpoints](/code-studio/features/checkpoints).
@@ -99,7 +97,5 @@ For more details about checkpoints, see [Checkpoints](/code-studio/features/chec
 
 Now that you have successfully generated your first code change using Agent mode:
 
-- Explore **advanced prompting techniques** to generate more complex code changes.
-- Learn about **checkpoint management** to efficiently manage your project versions. See [Checkpoints](/code-studio/features/checkpoints) for details.
+- Learn about **checkpoint** to efficiently manage your project versions. See [Checkpoints](/code-studio/features/checkpoints) for details.
 - Review the **Agent mode features** guide for additional capabilities. See [Agent](/code-studio/features/agent) for details.
-- Practice creating code changes in different project types and languages to become more familiar with Agent mode.

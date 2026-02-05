@@ -72,11 +72,7 @@ Review the corrected line to ensure:
 
 ![Quick Fix Error](./howtoguide-images/quickfix.gif)
 
-## Explain Workflow (Alternative)
-
-Use Explain when you need deeper context or multiple options instead of an immediate automatic fix.
-
-### Steps for Explain
+## Steps for Explain
 
 1. Open the Quick Fix menu (lightbulb) for the highlighted error and select **Explain**.
 2. Review the AI analysis in the chat panel. It includes:

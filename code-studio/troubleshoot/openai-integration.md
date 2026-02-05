@@ -16,7 +16,7 @@ When using the OpenAI O3 model through OpenRouter, requests can fail with HTTP 4
 ## Possible Causes
 
 - **Insufficient API Key Tier**: The OpenAI key used is not Tier 3 or above, which is required for the O3 model.
-- **Incorrect Configuration**: The key was not properly added or linked to the OpenRouter Integrations page.
+- **Incorrect Configuration**: The key was either added incorrectly or not properly linked to the OpenRouter Integrations page.
 - **Usage Limits Reached**: Daily request limits (50 free / 1,000 with credits) may have been exceeded.
 
 ## Prerequisites
@@ -37,7 +37,6 @@ Visit [OpenAI Platform](https://platform.openai.com) and sign into your account.
 1. Navigate to the **API keys** section in the OpenAI dashboard.
 2. Click **Create API Key** and provide a descriptive name (e.g., "OpenRouter O3 Key").
 3. Copy the generated key and store it securely.
-4. Do not share this key publicly.
 
 ### Step 2: Configure OpenRouter with Your OpenAI API Key
 
@@ -48,7 +47,7 @@ Visit [OpenAI Platform](https://platform.openai.com) and sign into your account.
 
 #### Access OpenRouter Integrations
 
-1. Navigate to **Settings > Integrations**.
+1. Navigate to **Settings > Integrations (BYOk)**.
 
    <img src="./troubleshoot-images/Openrouter-home.png" alt="OpenRouter home" />
 
@@ -70,15 +69,8 @@ Visit [OpenAI Platform](https://platform.openai.com) and sign into your account.
 - **Check Usage Limits**: Free accounts on OpenRouter have a limit of 50 requests per day. Purchasing 10+ credits increases this limit to 1,000 requests per day.
 - **Track Costs**: The OpenRouter dashboard displays your token usage and costs based on your OpenAI API key activity.
 
-## Best Practices
-
-- **Secure Your API Keys**: Never expose your OpenAI or OpenRouter API keys in public repositories. OpenRouter helps detect exposed keys through GitHub's secret scanning integration.
-- **Implement Error Handling**: Add error handling for "Forbidden" errors to identify invalid or insufficient-tier API keys promptly.
-- **Test the Integration**: After setup, perform a test request to verify your API key and configuration. If errors occur (e.g., "OpenAI is temporarily requiring a Tier 3 API key"), verify your OpenAI account tier status.
-
 ## Additional Resources
 
 - [OpenRouter Documentation](https://openrouter.ai/docs) – Detailed API specifications
 - [OpenRouter Integrations](https://openrouter.ai/settings/integrations) – Manage API keys
 - [OpenAI Platform](https://platform.openai.com) – API key management and tier status
-
