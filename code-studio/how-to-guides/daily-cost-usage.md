@@ -6,7 +6,7 @@ platform: syncfusion-code-studio
 keywords: cost-usage, daily-cost, token-usage, budget, dashboard, analytics
 ---
 
-# Daily Cost Usage
+# Daily Cost and Token Usage
 
 ## Overview
 Daily cost and token tracking helps you understand how much AI you use and how much it costs.
@@ -81,5 +81,5 @@ Here is what you can track:
     - Model-specific token consumption trends.
 
 
-To calculate **BYOK** model costs and token usage, select the BYOK option at the top of the dashboard (as shown below) and repeat steps 4–7.
+To Check **BYOK** model costs and token usage, select the BYOK option at the top of the dashboard (as shown below) and repeat steps 4–7.
 <img src="../how-to-guides/howtoguide-images/BYOK.png">

@@ -7,9 +7,6 @@ keywords: "code, IDE, AI, developer-tools, syncfusion, code-assistance, producti
 
 # Agent
 
- Agents are intelligent, goal oriented AI assistants that can perform complex, multistep tasks across your project. Unlike simple prompt-based editing, agents can understand high-level instructions, analyze your codebase, and decide what actions need to be taken to achieve the desired outcome.
- 
-
 # Overview 
 
 Agent Mode is an autonomous AI that plans and executes multi-step coding tasks across your project. It explores your codebase, makes changes with workspace tools, and adapts to errors—while you review and approve each step. Enable it in Settings > Agents, switch to Agent mode in chat, then describe your goal.
@@ -98,7 +95,7 @@ Consider creating the ToDo application,
 
 - Run your application in terminal; now you have a working ToDo app. By using an agent, you can interactively generate and refine your code in real-time.
 
-**Note** : Any project developed using Code Studio is fully compatible with other IDEs, allowing developers to open and work on the same project across different environments without issues. For example, these projects can be used seamlessly in tools like Visual Studio and VS Code.
+> **Note** : Any project developed using Code Studio is fully compatible with other IDEs, allowing developers to open and work on the same project across different environments without issues. For example, these projects can be used seamlessly in tools like Visual Studio and VS Code.
 
 ## Related Features
 - Agent (this feature): Explore, plan, and apply changes automatically.
