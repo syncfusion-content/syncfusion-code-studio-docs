@@ -1,11 +1,13 @@
 ---
 title: How to Resolve the "Uncaught Exception" Error During Code Studio AutoUpdate
-Description: Guide to fix the Uncaught Exception error that occurs when Code Studio is launched during automatic updates. Includes quick fixes and clean reinstallation steps.
+description: Guide to fix the Uncaught Exception error that occurs when Code Studio is launched during automatic updates. Includes quick fixes and clean reinstallation steps.
 platform: syncfusion-code-studio
 keywords: uncaught exception, autoupdate, troubleshoot, update error
 ---
 
 # How to Resolve the "Uncaught Exception" Error During Code Studio AutoUpdate
+
+This guide explains how to resolve the "Uncaught Exception" error that occurs when Code Studio is launched during its automatic update process.
 
 ## Problem Summary
 
@@ -15,9 +17,9 @@ Users may encounter an “Uncaught Exception” error when Code Studio is launch
 
 ## Possible Causes
 
-- The automatic update process is still replacing application files.
-- Code Studio was opened before the update completed.
-- Temporary file locks or conflicts occurred during file replacement.
+- **Update In Progress**: The automatic update process is still replacing application files.
+- **Premature Launch**: Code Studio was opened before the update completed.
+- **File Conflicts**: Temporary file locks or conflicts occurred during file replacement.
 
 ## Resolution Steps
 
@@ -25,17 +27,17 @@ Users may encounter an “Uncaught Exception” error when Code Studio is launch
 
 1. Close the error dialog.
 2. Wait a few minutes for the automatic update to complete in the background.
-3. Relaunch Code Studio. It will start successfully with the latest version, and it will automatically launch without requiring any user interaction. 
+3. Relaunch Code Studio. It will start successfully with the latest version and automatically launch without requiring any user interaction.
 
 ### If the Issue Persists (Clean Reinstallation)
 
 #### Step 1: Uninstall Code Studio
 
-1. Open Windows Settings → Apps.
-2. Find and select Syncfusion Code Studio.
-3. Choose Uninstall and follow the prompts to remove the application.
+1. Open **Windows Settings** → **Apps**.
+2. Find and select **Syncfusion Code Studio**.
+3. Click **Uninstall** and follow the prompts to remove the application.
 
-<img src="./troubleshoot-images/uncaughtexception2.png" alt="Uninstall Code Studio from Windows Settings" />
+   <img src="./troubleshoot-images/uncaughtexception2.png" alt="Uninstall Code Studio from Windows Settings" />
 
 #### Step 2: Remove Code Studio Cache Files
 
@@ -47,18 +49,18 @@ Delete cache and configuration folders to ensure a clean reinstallation. See [Ho
 2. Follow the installation guide: [Install and Configuration](/code-studio/getting-started/install-and-configuration.md).
 3. Launch the application and verify it starts without errors.
 
-## Verify Resolution
+## Verification
+
+To confirm the issue is resolved:
 
 - Code Studio launches without the "Uncaught Exception" dialog.
-- The application shows the expected latest version in Help → About (after an update).
+- The application shows the expected latest version in **Help** → **About** (after an update).
 - Subsequent launches are successful without intermittent errors.
 
 ## Best Practices
 
-- Avoid opening Code Studio while an update is in progress.
-- Allow the update to complete fully; the app typically relaunches automatically.
-- Ensure sufficient disk space and memory during update operations.
+- **Avoid Interrupting Updates**: Do not open Code Studio while an update is in progress.
+- **Allow Full Completion**: Let the update complete fully. The application typically relaunches automatically.
+- **Maintain System Resources**: Ensure sufficient disk space and memory during update operations.
 
-## Notes
-
-- Backup recommendation: If you have custom configurations or local files to preserve, back them up before performing a clean reinstallation.
+>**Note:** If you have custom configurations or local files to preserve, back them up before performing a clean reinstallation.
