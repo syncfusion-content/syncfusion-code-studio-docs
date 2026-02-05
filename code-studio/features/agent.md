@@ -11,23 +11,20 @@ keywords: "code, IDE, AI, developer-tools, syncfusion, code-assistance, producti
 
 Agent Mode is an autonomous AI that plans and executes multi-step coding tasks across your project. It explores your codebase, makes changes with workspace tools, and adapts to errors—while you review and approve each step. Enable it in Settings > Agents, switch to Agent mode in chat, then describe your goal.
 
-
 ## Use Cases
 
 - Scaffold new apps or components
 - Refactor across files (rename, move, split)
-- Migrate APIs or libraries
 - Generate or fix unit tests
-- Apply repo-wide lint/format changes
 - Update docs and README from code
 - Configure scripts, tasks, and settings
 - Prototype simple UIs and pages
 
 ## Prerequisites
 
-- Syncfusion Code Studio installed [installation guide](/code-studio/getting-started/install-and-configuration)
-- Open a project folder with write access
-- At least one AI model configured ( BYOK, or local)
+- Syncfusion Code Studio is installed (see the [installation guide](/code-studio/getting-started/install-and-configuration)).
+- Open a project folder with write access.
+- At least one AI model configured ( BYOK, or local).
 
 ## Agent Capabilities
 
@@ -92,10 +89,9 @@ Consider creating the ToDo application,
 
     <img src="./feature-images/keepChanges.png" alt="Keep or Undo" />
 
-
 - Run your application in terminal; now you have a working ToDo app. By using an agent, you can interactively generate and refine your code in real-time.
 
-> **Note** : Any project developed using Code Studio is fully compatible with other IDEs, allowing developers to open and work on the same project across different environments without issues. For example, these projects can be used seamlessly in tools like Visual Studio and VS Code.
+> **Note:** Projects created in Code Studio are compatible with other IDEs (for example, Visual Studio and VS Code), allowing you to open and work on the same project across different development environments.
 
 ## Related Features
 - Agent (this feature): Explore, plan, and apply changes automatically.
