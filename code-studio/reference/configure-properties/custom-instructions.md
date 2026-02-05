@@ -7,16 +7,21 @@ documentation: Getting Started
 keywords: code, IDE, installation, windows, setup, getting-started
 ---
 
-# Custom Instruction 
+# Custom Instruction in Code Studio
  
+## Overview
 **Custom Instruction** in Code Studio allow you to provide specific instructions that guide how the AI assistant behaves when working with your code. Instead of the AI making assumptions about your coding standards, architecture patterns, or project-specific requirements, you can explicitly define guidelines that ensure consistent, contextually appropriate responses.
  
-## What is Custom Instruction?
+## Purpose
 
-- **Define guidelines and rules** that automatically influence how AI generates code and handles development tasks.  
-- **Reduce repeated context** by specifying instructions in a Markdown file instead of every chat prompt.  
-- **Apply instructions automatically** to all chat requests or limit them to specific files.  
-- **Attach instructions manually** to a specific chat prompt when needed.
+Custom Instructions allow you to define guidelines and rules that automatically influence how the AI generates code and handles development tasks in Syncfusion Code Studio.
+
+They serve the following key purposes:
+
+- Provide durable, repository-specific guidance that the assistant follows automatically in every relevant interaction.
+- Reduce repeated context and instructions by specifying them once in a Markdown file instead of including them in every chat prompt.
+- Cut down on repetitive chat instructions by setting default behavior, coding style, preferred tools, naming conventions, project context, architecture rules, and more.
+- Give you the flexibility to manually attach instructions to a specific chat prompt when needed, while still benefiting from persistent repo-level defaults.
 
 ## Types of Instruction Files
 
@@ -37,11 +42,22 @@ There are two types of instruction files:
   - Example: `.codestudio/instructions/python.instructions.md`  
   - Example: `.codestudio/instructions/frontend.instructions.md`
 
-## Purpose
+## When to use Custom Instructions
 
-- Provide **durable, repo-specific** guidance the assistant follows automatically.  
-- Cut repeated **chat instructions** by setting defaults for behavior, style, tools, and project context.  
-- Support **path-specific** rules so guidance matches the code you’re working on.
+Use Custom Instructions when you want to:
+
+- Set clear, permanent coding rules for the project (naming conventions, formatting style, folder structure, file organization)
+- Make sure the AI always follows the same standards in every chat and code suggestion, without explaining the rules again and again
+- Enforce important non-functional requirements automatically, such as:
+    - Security rules (never use inline scripts, always sanitize inputs, prefer prepared statements…)
+    - Performance best practices (avoid nested loops in hot paths, prefer memoization…)
+    - Accessibility guidelines (always add alt text, use semantic HTML…)
+
+## Prerequisites
+
+- You must have a repository actively opened in Code Studio.
+- You need write access to the repository
+
 
 ## Enabling Custom Instruction Files
 

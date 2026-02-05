@@ -8,22 +8,7 @@ keywords: ask-code-studio, error-resolution, ai-debugging, code-quality, develop
 
 # Quick Start Guide about Syncfusion Code Studio
 
-Start using **Syncfusion Code Studio** in minutes and unlock AI‑powered coding that accelerates your development process.
-
-
-## Overview
 **Syncfusion Code Studio** is an intelligent, AI‑powered coding companion designed to make your development process faster and easier. Instead of writing every line manually or searching for solutions, Code Studio works alongside you—understanding your intent, offering meaningful suggestions, and helping you learn as you build.
-
-This assistant supports developers of all skill levels whether you're writing your first lines of code or managing complex enterprise applications.
-
-With the help of advanced AI, Code Studio can:
-
-- **Generate code** for you, reducing repetitive tasks  
-- **Identify and fix errors** automatically  
-- **Explain your code**, line by line or function by function  
-
-It helps you write cleaner, more accurate code while staying focused and productive.
-
 
 ## Prerequisites
 
@@ -38,6 +23,16 @@ Before getting started, make sure that:
 3. **Basic familiarity with writing code**  
    You don’t need to be an expert—just comfortable editing files and understanding simple programming concepts.
 
+## What You’ll Learn
+By the end of this quick start guide, you’ll learn how to:
+
+- Install and launch Syncfusion Code Studio on Windows or macOS
+- Open an existing project folder in the IDE
+- Navigate and edit files using the Explorer sidebar and built-in editor
+- Access and use the core AI-powered coding features: Autocomplete, Ask, Edit, Agent, and Plan
+- Generate, explain, refactor, and fix code using natural language instructions
+- Perform targeted code improvements with Inline Chat directly in the editor
+- Add extra files or folders as context to make AI suggestions more accurate and project-aware
 
 ## Step 1: Open a Project in Code Studio
 
