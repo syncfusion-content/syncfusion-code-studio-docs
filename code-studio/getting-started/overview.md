@@ -13,9 +13,10 @@ keywords: "syncfusion code studio features, ai powered ide, code generation, ai 
 
 <img src="./gettingstarted-images/overview-gif.gif" alt="release notes" >
 
-## What Code Studio can do
+## What can you do with Code Studio 
 
 - **Generate code:** Drafts code snippets and scaffolding to reduce repetitive work.
+- **Implement features:** Turn ideas into complete, working solutions with AI‑assisted development. 
 - **Find and fix errors:** Detects common issues and proposes fixes to help you resolve problems quickly.
 - **Explain code:** Breaks down code line by line or function by function to improve understanding and maintainability.
 
@@ -23,10 +24,12 @@ By combining these capabilities, Code Studio helps you write cleaner, more accur
 
 ## Key Features
 
+Working with Code Studio will give you hands-on experience in the following areas: 
+
 -  **Autocomplete Mode**: AI‑powered code suggestions as you type, based on your current project.  
 Learn more on the [Autocomplete](/code-studio/features/autocomplete) page.
 
--  **Ask Mode**: Get quick answers, explanations, and readytouse code snippets through simple questions in the IDE—no project files required.  
+-  **Ask Mode**: Get quick answers, explanations, and ready-to-use code snippets through simple questions in the IDE—no project files required.  
 Learn more on the [Ask](/code-studio/features/ask) page.
 
 -  **Edit Mode**: Use AI prompts to modify source code with previewed changes, letting you keep or undo each edit for precise control and high accuracy.  
@@ -54,7 +57,7 @@ See [Tools](/code-studio/reference/configure-properties/toolssupport).
 Learn more in [Checkpoints](/code-studio/features/checkpoints).
 
 -  **Inline Edit**: Apply AI‑powered fixes, optimizations, and docs right from the editor’s context menu.  
-See [Inline Edit](/code-studio/features/inline).
+See [Inline Edit](/code-studio/features/inlinechat).
 
 -  **Telemetry**: Anonymous usage analytics to improve product quality; can be disabled anytime.  
 See [Telemetry](/code-studio/features/telemetry).
@@ -72,3 +75,9 @@ Learn more on the [Quick Fix](/code-studio/how-to-guides/quick-fix-error) page.
 -  **Custom Instructions**: Custom instructions define reusable guidelines that shape how AI generates code and performs development tasks, eliminating the need to repeat context in every prompt. They can be applied automatically to all chats, targeted to specific files, or manually attached to individual prompts. Learn more on the [Custom Instructions](/code-studio/reference/configure-properties/custom-instructions) page.
 
 -  **Custom Prompts**: Prompt files are on‑demand, reusable Markdown prompts that standardize specific development tasks like code generation and reviews. Learn more on the [Custom Prompt](/code-studio/reference/configure-properties/custom-prompt) page.
+
+## Get started
+
+Ready to try Code Studio?
+
+- Go to the [Quick Start](/code-studio/getting-started/quick-start) page to set up Code Studio and create your first code snippet with AI assistance.

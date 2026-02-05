@@ -10,7 +10,7 @@ platform: syncfusion-code-studio
 
 Administrators can set up alerts for a team or a specific user to get notified when budget usage exceeds a defined threshold. Team alerts are emailed to the recipient you choose; individual user alerts are emailed to that user’s email address.
 
-## When to use?
+## When to use
 
 Use budget alerts when you want an email notification as soon as spending crosses a defined threshold.
 
@@ -22,7 +22,7 @@ Use budget alerts when you want an email notification as soon as spending crosse
 - **Code Studio account:** You must have a Code Studio account. If you don’t have one, sign up using the [Getting Started](/code-studio/getting-started/install-and-configuration) guide.
 - **Admin access:** Only administrators can create, edit, and assign budgets.
 - **Team/user available:** Ensure the team or individual user is part of the organization, so you can assign the budget and set the alert.
-- **Budget configured:** Refer to this [link](/code-studio/enterprise-server/createbudget) to, Create and assign a budget for the team or the individual user before setting an alert.
+- **Budget configured:** Refer to the [Create Budget](/code-studio/enterprise-server/createbudget) guide to create and assign a budget for the team or the individual user before setting an alert.
 
 ## Steps to Configure Budget Alerts for Teams and Individual Users
 
@@ -40,7 +40,7 @@ Step 3: Click **Set Alert**.
 
 <img src="./howtoguide-images/set-alert-option.png" alt="budget-alert"  />
 
-Step-4:
+Step 4:
 The **Set Alert** dialog box opens. You can configure alerts to be triggered when budget usage reaches **25%, 50%, 75%,** or **100%** of the budget limit you created.
 
 Now, let’s create a budget alert for the **Frontend team** that triggers when **50%** of the team’s budget limit is reached. Follow the steps below.
@@ -52,7 +52,7 @@ Now, let’s create a budget alert for the **Frontend team** that triggers when 
    - **Email subject:** Enter the email subject line that will appear in the alert email.
    - **Send alerts to:** Select the users in the team who should receive the alert email.
 
-<img src="./howtoguide-images/set-alert-teams.png" alt="budget-alert"  />
+<img src="./howtoguide-images/set-alert-teams.png" alt="budget-alert"  /> 
 
 2. Click **Set**.
 
@@ -74,15 +74,15 @@ To verify that a budget alert is created and to modify an existing alert, follow
 
 ### Steps to Configure Budget Alert for Individual Users in a team:
 
-Step-1: In the **Budget** tab, hover over the team name. A **navigate** icon appears—click it to open the team’s **Budget** details window.
+Step 1: In the **Budget** tab, hover over the team name. A **navigate** icon appears—click it to open the team’s **Budget** details window.
 
 <img src="./howtoguide-images/budget-tab-individual.png" alt="budget-alert"  />
 
-Step-2: The **Team Member Budgets** section lists the team members and the budgets assigned to each member.
+Step 2: The **Team Member Budgets** section lists the team members and the budgets assigned to each member.
 
 <img src="./howtoguide-images/team-members-budget-section.png" alt="budget-alert"  />
 
-Step-3: Follow the same steps as setting a team budget alert (Steps 1–2). Enter the **Email subject**; the **Send alerts to** field is automatically prefilled with the individual user’s email.
+Step 3: Follow the same steps as setting a team budget alert (Steps 1–2). Enter the **Email subject**; the **Send alerts to** field is automatically prefilled with the individual user’s email.
 
 <img src="./howtoguide-images/set-alert-individual.png" alt="budget-alert"  />
 
@@ -102,7 +102,7 @@ Step 4: After you click **Set**, the budget alert is created.
 
 3.	Click **Manage Alert**. Update the alert settings (for example, turn **50% Off** and turn **75% On**), enter the required values in the input fields, and then click **Update** to save the changes.
 
-<img src="./howtoguide-images/manage-alert-individual-user.png" alt="budget-alert"  />
+<img src="./howtoguide-images/update-alert-individual.png" alt="budget-alert"  />
 
 ### Finally, you will receive the alert email as shown in the images below,
 
