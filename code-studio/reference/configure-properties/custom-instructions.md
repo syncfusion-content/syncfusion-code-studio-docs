@@ -10,7 +10,7 @@ keywords: code, IDE, installation, windows, setup, getting-started
 # Custom Instruction in Code Studio
  
 ## Overview
-**Custom Instruction** in Code Studio allow you to provide specific instructions that guide how the AI assistant behaves when working with your code. Instead of the AI making assumptions about your coding standards, architecture patterns, or project-specific requirements, you can explicitly define guidelines that ensure consistent, contextually appropriate responses.
+**Custom Instructions** in Code Studio allow you to provide specific instructions that guide how the AI assistant behaves when working with your code. Instead of the AI making assumptions about your coding standards, architecture patterns, or project-specific requirements, you can explicitly define guidelines that ensure consistent, contextually appropriate responses.
  
 ## Purpose
 
@@ -18,7 +18,7 @@ Custom Instructions allow you to define guidelines and rules that automatically 
 
 They serve the following key purposes:
 
-- Provide durable, repository-specific guidance that the assistant follows automatically in every relevant interaction.
+- Provide durable, project-specific guidance that the assistant follows automatically in every relevant interaction.
 - Reduce repeated context and instructions by specifying them once in a Markdown file instead of including them in every chat prompt.
 - Cut down on repetitive chat instructions by setting default behavior, coding style, preferred tools, naming conventions, project context, architecture rules, and more.
 - Give you the flexibility to manually attach instructions to a specific chat prompt when needed, while still benefiting from persistent repo-level defaults.
@@ -27,12 +27,12 @@ They serve the following key purposes:
 
 There are two types of instruction files:
 
-### 1. Repository-wise Instructions
-- Apply rules to the entire repository.  
+### 1. Project-wise Instructions
+- Apply rules to the entire project.  
 - Once configured, the AI assistant automatically follows these guidelines for **all chats** and **code contexts** in the repo.
 - use this when you want one consistent set of standards across the whole project.  
 - **File Type:** `codestudio-instructions.md`  
-- **Location:** `.codestudio/codestudio-instructions.md` (at the repository root)
+- **Location:** `.codestudio/codestudio-instructions.md` (at the project root)
 
 ### 2. Path-specific Instructions
 - Apply rules only when certain files or folders are in context.  
@@ -55,8 +55,8 @@ Use Custom Instructions when you want to:
 
 ## Prerequisites
 
-- You must have a repository actively opened in Code Studio.
-- You need write access to the repository
+- You must have a project actively opened in Code Studio.
+- You need write access to the project
 
 
 ## Enabling Custom Instruction Files
@@ -74,8 +74,8 @@ Use Custom Instructions when you want to:
 <img src="../reference-images/instruction_repo.png" alt="instruction_repo" >
 
 You will see three options:  
-- **Option 1: Repository-wise instructions** 
-    - Use this option when you want **one set of rules** for the entire repository.
+- **Option 1: Project-wise instructions** 
+    - Use this option when you want **one set of rules** for the entire project.
     - Switch **ON** the repo path to enable the file.
 
     <img src="../reference-images/instruction_repo_path.png" alt="instruction_path" >
@@ -99,7 +99,7 @@ You will see three options:
 
     - Use this option when you want to create a **new instruction** file for a **custom path.**
 
-## How to Configure Repository-wise Instruction File
+## How to Configure Project-wise Instruction File
 
 **Step 1:** Open the `codestudio-instructions.md` file.
 - There are **two** options to open the codestudio-instructions.md file. You can choose any one of them based on your preference.
@@ -108,7 +108,7 @@ You will see three options:
 
         <img src="../reference-images/instruction_chat.png" alt="instruction_chat">
 
-        -  Clcik the **Generate agent instructions** to open the file.
+        -  Click the **Generate agent instructions** to open the file.
     - **Option 2:**
         - Open the chat view. Click the settings option at the top.
 
@@ -168,7 +168,7 @@ You will see three options:
 
 ### Option 1: Global Path Targeting
 - **Definition:** `applyTo: '**'`  
-- Applies rules **globally** to all files in the repository.  
+- Applies rules **globally** to all files in the project.  
 - Best when you want rules to apply across every file types `(e.g.,.ts, .scss, .js, .html).`
 
 - Steps to target the global path:
@@ -186,7 +186,7 @@ You will see three options:
 
 ### Option 2: Pattern-specific Targeting
 - **Definition:** `applyTo: **/*.scss` or other patterns. for example `(**/*.ts, **/*.css)` 
-- Applies rules only to files matching the **given pattern.**  
+- Applies rules only to files matching the **given pattern**  (e.g., "Use **/*.scss if you only want rules applied to SCSS files").
 - Best for adding rules to certain file types or directories.
 
 - Steps to target the pattern specific path
@@ -198,7 +198,7 @@ You will see three options:
 
     <img src="../reference-images/instruction_path_rules.png" alt="instruction_path_rules" >
 
-    - Step 3: Give the file in the **chat context** which you want to edit.
+    - Step 3: Include the file in the **chat context** which you want to edit.
 
     <img src="../reference-images/instruction_path_context.png" alt="instruction_path_context" >
 

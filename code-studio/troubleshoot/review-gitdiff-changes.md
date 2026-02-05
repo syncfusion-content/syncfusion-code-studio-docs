@@ -9,14 +9,14 @@ keywords: git diff, review changes, code studio, version control, ai assistance,
 
 ## Problem Summary
 
-Previously, users could view git diff / uncommitted changes in Code Studio by typing **@** in the chat box or by using the **"Add context"** button and selecting the git diff option. In the current version, this functionality has been moved and is now accessed by typing **#** in the chat input box and selecting **#changes** from the dropdown menu.
+Previously, users could view git diff / uncommitted changes in Code Studio by typing **@Git Diff** in the chat box or by using the **"Add context"** button and selecting the git diff option. In the current version, this functionality has been moved and is now accessed by typing **#** in the chat input box and selecting **#changes** from the dropdown menu.
 
 
 ## Resolution Steps
 
 ### Steps to Use #changes
 
-1. Make sure your desired workspace or repository is loaded and active in Code Studio. The #changes tool only reflect modifications in the currently opened project.
+1. Make sure the desired project/workspace is open and active in Code Studio — preferably one that is connected to a GitHub repository. The **#changes** tool only shows modifications from the currently opened project.
 
 2. Go to the chat panel in Code Studio where you interact with the AI assistant.
 
@@ -24,7 +24,7 @@ Previously, users could view git diff / uncommitted changes in Code Studio by ty
 
 <img src="./troubleshoot-images/changes_tool_drop_down.png" alt="trouble shoot"  />
 
-4. After selecting #changes, write your specific question or request about the current changes.
+4. After selecting #changes, type your specific question or request regarding the current changes.
 
 5. Send the prompt and the response will include the current git diff information, typically shown file-by-file with added/removed lines highlighted.
 
@@ -34,5 +34,5 @@ Previously, users could view git diff / uncommitted changes in Code Studio by ty
 
 - Write clear and specific questions so the #changes tool can focus on exactly what you want to see.
 - Keep your question focused and ask about one area, file, or type of change at a time.
-- Review the diff carefully before applying, committing, or sharing changes, especially when many files are modified.
-- Refine your question or ask follow-up if you need a shorter summary, more explanation, or only certain types of changes.
+- Review the diff carefully before staging, committing, or merging changes, especially when many files are modified.
+- Refine your question or ask a follow-up if you need a shorter summary, more explanation, or only certain types of changes.

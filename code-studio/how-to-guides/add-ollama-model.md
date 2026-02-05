@@ -19,30 +19,34 @@ This guide provides step-by-step instructions to configure and use **Ollama** mo
 ## When to Use
 - When you want free, unlimited usage with no API costs or rate limits – perfect for long coding sessions or agent workflows.
 
-- When you need full privacy – your code or data must never leave your computer (sensitive projects, company policy, or offline work).
+- When you prefer to work completely offline – your code or data must never leave your computer (sensitive projects, company policy, or offline work).
+
+**Note:**
+The Ollama models are connected directly from Ollama (outside of Syncfusion). Model usage, behavior, performance, license terms, and any restrictions are the sole responsibility of the user. It is strongly recommended to review the corresponding model's official usage policy, license, and intended use cases before configuring and using it in your projects.
  
 ## Prerequisites
-Before starting, ensure you have system requirement to install open-source models.
+Before starting, ensure you have system requirements to install open-source models.
 
-- Refer this documentation for system requirement to install Ollama
-  - MacOS - [MacOS](https://docs.ollama.com/macos)
-  - Windows - [Windows](https://docs.ollama.com/windows)
+- Refer to this documentation for system requirements to install Ollama
+  - [macOS](https://docs.ollama.com/macos)
+  - [Windows](https://docs.ollama.com/windows)
 
 - Minimum hardware guidance (approximate):
   - 8–16 GB RAM for small models; 32+ GB recommended for large models.
   - GPU recommended for best performance on large models (check provider docs for GPU requirements).
+
+**Note:** Ollama local models are optimized for macOS, where they perform well. They may work on high-configuration Windows machines, but their performance cannot be guaranteed. 
  
 ## Download and Install steps
-Refer the documentation below to download and install Ollama in your machine.
+Refer the ollama's official documentation below to download and install Ollama on your machine.
  
 - [Ollama](https://docs.ollama.com/quickstart)
  
 ## Quick checklist before configuring
-- Provider runtime installed (Ollama).
 
 - At least one model downloaded/installed locally.
 
-- Recommended models – deepseek-r1, qwen 2.5
+- Recommended models – [deepseek-r1](https://ollama.com/library/deepseek-r1), [qwen 2.5](https://ollama.com/library/qwen2.5)
 
 - Code Studio up-to-date (latest stable release recommended).
  
@@ -55,10 +59,10 @@ Refer the documentation below to download and install Ollama in your machine.
 
  <img src="./howtoguide-images/Provider_list.png" alt="configure open source models">
 
-- The available locally installed models will appear in the dialogue. You can select the installed ollama model in a model list, then click ok to close the dialogue. 
+- The available locally installed models will appear in the dialog. You can select the installed ollama model in a model list, then click ok to confirm and close the dialog. 
 
 <img src="./howtoguide-images/installed_model_list.png" alt="configure open source models">
 
-- The selected Ollama model will now automatically appear in the main **model dropdown** under the **Other MOdels** section and you can start using it right away.
+- The selected Ollama model will now automatically appear in the main **model dropdown** under the **Other Models** section and you can start using it right away.
 
 <img src="./howtoguide-images/model_in_drop_down.png" alt="configure open source models">
