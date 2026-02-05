@@ -19,10 +19,6 @@ Rename your file from `agent.md` to `agents.md` (plural) in your project root di
 
 ### Step 2: Update Settings Configuration
 
-**Prior Version Settings (v1.x.x):**
-
-- Go to **Settings** → **Chat** and toggle **Enable/Disable Agent Rules**.
-
 **Settings in v2.0.0 and later versions:**
 1. Click the Settings icon.
 
