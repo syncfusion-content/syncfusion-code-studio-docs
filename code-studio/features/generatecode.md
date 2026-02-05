@@ -100,3 +100,7 @@ When you choose **Generate Code → Generate Tests**, the AI:
 This saves time and helps ensure your application behaves as expected.
 
 <img src="./feature-images/generatecode-test.jpg" alt="test" />
+
+## Releted Features
+ - [Inline Chat](/code-studio/features/inlinechat) Inline Chat in Syncfusion Code Studio lets you talk to AI directly inside your code or terminal without switching screens.
+ - [Autocomplete](/code-studio/features/autocomplete) Syncfusion Code Studio’s AI Autocomplete speeds up development by giving smart inline suggestions, completing code from context, generating code from comments, and offering style‑aware alternatives for faster, cleaner coding.

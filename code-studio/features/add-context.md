@@ -180,3 +180,8 @@ To use a chat participant, simply type **@** in the chat input box. Code Studio 
 Selecting one routes your request to that domain expert.
 
 <img src="./feature-images/@-context.png" alt="@-context"  />
+
+
+## Releted Features
+ - [Inline Chat](/code-studio/features/inlinechat) Inline Chat in Syncfusion Code Studio lets you talk to AI directly inside your code or terminal without switching screens.
+ - [Generate Code](/code-studio/features/generatecode) The Generate Code feature speeds up development by automatically handling repetitive tasks and giving instant AI-powered help right inside your editor.
