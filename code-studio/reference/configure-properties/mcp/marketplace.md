@@ -7,12 +7,23 @@ platform: syncfusion-code-studio
 keywords: mcp-marketplace, mcp-server, installation, server-management, code-studio
 ---
 
-# MCP Marketplace Documentation
+# MCP Marketplace
 
-## Overview
+## Purpose
 The **MCP Marketplace** is a centralized platform for server management, helping users discover, install, and connect the right servers for their needs through an easy-to-use interface. It showcases a variety of available MCP servers. Users can explore server options and configure them for use by simply clicking the **Install** button, which initiates an automated setup process to integrate the server with the Code Studio extension.
 
+## When to Use
+MCP servers are essential in the following scenarios:
+- **Dynamic Backend Integration**: When your IDE requires secure connections to external services without hardcoded configurations, enabling flexible and scalable integrations.
+- **Enhanced AI Capabilities**: When you need to extend the AI assistant's functionality with additional tools, resources, or real-time metadata access for improved context awareness and response quality.
+- **Service Orchestration**: When managing multiple external services that require coordinated access through a unified interface.
 
+## Prerequisites 
+Before installing MCP servers from the marketplace, ensure that:
+- You are using the latest version of Syncfusion Code Studio
+- You have any required authentication credentials ready (Personal Access Tokens, API keys, or other tokens as needed by specific servers)
+- Node.js and npm are installed on your system, as certain MCP servers depend on npm packages for functionality
+- Help Link for installing Node.js and npm : [Install Node.js](https://nodejs.org/en/download)
 
 ## Steps to Install an MCP Server from Marketplace
 - Click the **Syncfusion Code Studio** icon on the top right side  to open the Syncfusion Code Studio chat window.
@@ -100,6 +111,9 @@ The **MCP Marketplace** is a centralized platform for server management, helping
 - Enter a valid access token generated from your GitHub account.
 - After entering the access token, click Continue to complete the installation successfully
 - Help Link for creating a access token : [Personal Access Tokens](https://github.com/settings/tokens).
+
+> **Note:** Authentication requirements vary across different MCP servers. While some servers require Personal Access Tokens (like GitHub), others may need API keys or specific credentials. Certain servers offer automatic installation without requiring any authentication. The installation process will prompt you for the appropriate credentials based on the selected server's requirements.
+
 
   <img src="../../reference-images/github2.png" alt="marketplace" >
 
