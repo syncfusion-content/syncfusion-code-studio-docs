@@ -22,7 +22,7 @@ This procedure helps you reset Syncfusion Code Studio to its default state by cl
 - **System configuration updates**: Recent changes to your operating system settings may require a cache refresh to ensure compatibility.
 - **Performance optimization**: Regularly clearing the cache helps maintain smooth and optimal application performance over time.
 
-## Resolution Steps: Steps to Delete the Cache Folders
+## Resolution Steps
 
 ### Step 1: Delete the Syncfusion Code Studio Folders
 
@@ -60,9 +60,9 @@ Delete the Syncfusion Code Studio folders at these locations:
 ```
 <img src="./troubleshoot-images/cache-image-macapplication.png" alt="cache">
 
-## After Deleting Cache Folders
+### Step 2: After Deleting Cache Folders
 
-Once you've completed both steps:
+Once you've completed above step:
 
 1. Restart your computer to ensure all files are properly released
 2. Reinstall Syncfusion Code Studio, refer to the [Syncfusion Code Studio Install and Configure](https://help.syncfusion.com/code-studio/getting-started/install-and-configuration) 
