@@ -2,8 +2,7 @@
 title: Build UI using Syncfusion UI Builder
 description: Step-by-step tutorial to build a customer dashboard in React using Syncfusion UI Builder in Code Studio. Includes data grid, charts, and export features.
 platform: syncfusion-code-studio
-category: tutorial
-keywords: [tutorial, ui-builder, syncfusion-components, dashboard, data-grid, charts]
+keywords: tutorial, ui-builder, syncfusion-components, dashboard, data-grid, charts
 ---
 
 # Build UI using Syncfusion UI Builder

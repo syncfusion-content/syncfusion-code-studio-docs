@@ -2,14 +2,14 @@
 title: How to Add Personal Models
 description: Learn how to add and manage your own AI models in Code Studio using API keys from providers like OpenAI and Anthropic.
 platform: syncfusion-code-studio
-keywords: [how-to, BYOK, personal models, API keys]
+keywords: how-to, BYOK, personal models, API keys
 ---
 
-# How to Add Personal Models
+# Add Models for Personal Use
 
 ## Overview
 
-Add personal AI models to Code Studio using your own API keys. This lets you access models not available in your organization and tailor the environment to your needs.
+Personal models in Code Studio allow you to integrate AI models from various providers using your own API keys. This feature gives you access to specific models that may not be available in your organization's configuration. You can add, manage, and use these models alongside your organization's models for enhanced flexibility and experimentation.
 
 ## When to Use
 
@@ -25,9 +25,8 @@ Use personal models when you need to:
 - Valid API keys from your chosen provider (e.g., OpenAI, Anthropic)
 - Active provider account with sufficient credits or quota
 
-## Steps
 
-### Add a Personal Model
+## How To Add a Personal Model?
 
 1. Click the model’s section dropdown and select Manage Models.
 
@@ -55,7 +54,7 @@ Use personal models when you need to:
 
    <img src="how-to-guides-images/otherModels.png" alt="Other Model">
 
-### Remove a Personal Model
+## How To Remove a Personal Model?
 
 1. Open Manage Models from the model’s dropdown section.
 
@@ -69,7 +68,7 @@ Use personal models when you need to:
 
    <img src="how-to-guides-images/modelList.png" alt="Remove Model">
 
-### Tips
+## Tips
 
 - Use separate API keys for personal and organizational work
 - Prefer lightweight models for small tasks to manage costs
