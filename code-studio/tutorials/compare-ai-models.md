@@ -142,7 +142,7 @@ Use Claude Haiku 4.5 when your task follows established patterns and does not re
 
 Claude Sonnet 4.5 balances speed with thoughtful analysis. It understands intent, anticipates edge cases, and produces code that is both correct and maintainable. When a task requires more than pattern matching—such as debugging a tricky issue or refactoring legacy code—this model explains its reasoning, making it easier to learn and apply the solution.
 
-**Example Task - Deep Reasoning (Step-by-Step Mode)**
+**Example Task**
 
 ```
 Why is my React component re-rendering unnecessarily?
@@ -691,7 +691,7 @@ Now that you understand how different AI models behave and when to use them:
 
 1. **Experiment with Model Switching**: Start a coding task with a fast model like Gemini 2.5 Flash. If the output is insufficient, escalate to Claude Sonnet 4.5 or Gemini 2.5 Pro for deeper analysis.
 
-2. **Refine Your Prompts**: Learn how to write better prompts by reviewing the [Prompt Engineering Guide](/code-studio/how-to-guides/prompt-engineering) to get more accurate and helpful results from any model.
+2. **Refine Your Prompts**: Practice writing clear, specific prompts with context and examples. The more details you provide about your requirements and constraints, the better results you'll get from any model.
 
 3. **Explore Advanced Features**: Try using the [Agent](/code-studio/features/agent) feature with reasoning-focused models like GPT-5 or GPT-5.2 for autonomous multi-step workflows.
 
