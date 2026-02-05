@@ -4,7 +4,7 @@ description: Custom Agent Mode in Syncfusion Code Studio is an autonomous AI ass
 platform: syncfusion-code-studio
 keywords: "code, IDE, AI, developer-tools, syncfusion, code-assistance, productivity, UI-generation, bug-fixing, documentation"
 ---
-# Custom Agent
+# Custom Agents
 
 Custom Agents are specialized versions of Syncfusion Code Studio that deliver consistent expertise across end-to-end workflows. They are assigned to specific tasks and retain their configuration throughout the process. This reduces setup time, enforces team standards, and makes outcomes repeatable.
 
@@ -29,23 +29,6 @@ By switching to the right agent (e.g., Planner, Security Reviewer, Architect), y
 - Examples:
   - Planning agent → collects context → generates detailed implementation plan
   - Code Review agent → focuses on security vulnerabilities, quality, and improvements
-
-## Predefined Agents
-
-To help you get started, we provide a public repository for predefined agents you can use as templates. The catalog is evolving; check the repository for the latest agents.
-
-### Available Predefined Agents
-
-Predefined agents are available in our GitHub repository:
-
-**🔗 [Browse Predefined Agents](https://github.com/syncfusion/code-studio-agent-library)**
-
-### How to Use Predefined Agents
-
-1. **Browse the Repository**: Visit the [agents repository](https://github.com/syncfusion/code-studio-agent-library) to explore available agents
-2. **Download Agent Files**: Copy the `.agent.md` files you want to use
-3. **Add to Your Project**: Place files in `YOUR-PROJECT/.codestudio/agents/` folder
-4. **Activate**: The agents will automatically appear in your agent dropdown once saved
 
 ## How to Create Your First Custom Agent
 
@@ -160,7 +143,22 @@ Select your preferred location → click **Continue**.
 - Choose **CodeReview** from the list of agents.
 - Make your changes and save.
 
----
+## Predefined Agents
+
+For a quick start, explore our public repository of predefined agent templates. The catalog is updated regularly—check the repo for the latest additions.
+
+### Available Predefined Agents
+
+Predefined agents are available in our GitHub repository:
+
+**🔗 [Browse Predefined Agents](https://github.com/syncfusion/code-studio-agent-library)**
+
+### How to Use Predefined Agents
+
+1. **Browse the Repository**: Visit the [agents repository](https://github.com/syncfusion/code-studio-agent-library) to explore available agents
+2. **Download Agent Files**: Copy the `.agent.md` files you want to use
+3. **Add to Your Project**: Place files in `YOUR-PROJECT/.codestudio/agents/` folder
+4. **Activate**: The agents will automatically appear in your agent dropdown once saved
 
 ## Best Practices for Agent Configuration
 
