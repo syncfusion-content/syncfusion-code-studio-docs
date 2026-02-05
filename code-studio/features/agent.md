@@ -98,10 +98,8 @@ Consider creating the ToDo application,
 
 - Run your application in terminal; now you have a working ToDo app. By using an agent, you can interactively generate and refine your code in real-time.
 
-**Note**: Any project developed using Code Studio is fully compatible with other IDEs, allowing developers to open and work on the same project across different environments without issues. For example, these projects can be used seamlessly in tools like Visual Studio and VS Code.
+**Note** : Any project developed using Code Studio is fully compatible with other IDEs, allowing developers to open and work on the same project across different environments without issues. For example, these projects can be used seamlessly in tools like Visual Studio and VS Code.
 
-### Related Features
-
-- Agent: Built-in, general-purpose; explores the project, plans, and applies changes automatically.
-- Custom Agent: User-defined rules/instructions; consistent, constrained behavior tailored to your workflow.
-- Learn more: [Custom Agents](/code-studio/reference/configure-properties/custom-agents)
+## Related Features
+- Agent (this feature): Explore, plan, and apply changes automatically.
+- Custom Agent: Define rules/instructions for consistent, constrained behavior. See: [Custome Agent](/code-studio/reference/configure-properties/custom-agents)
