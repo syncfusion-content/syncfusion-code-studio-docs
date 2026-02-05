@@ -5,7 +5,7 @@ platform: syncfusion-code-studio
 keywords: default model, model selection, configuration
 ---
 
-# HOW TO CONFIGURE DEFAULT MODELS
+# Configuring Default Models
 
 ## Overview
 
