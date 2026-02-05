@@ -4,6 +4,7 @@ description: Ask Mode in Code Studio provides AI-powered explanations, code exam
 platform: syncfusion-code-studio
 keywords: code, IDE, AI, developer-tools, syncfusion, code-assistance, productivity, UI-generation, bug-fixing, documentation
 ---
+
 # Ask
 
 ## Feature Overview
@@ -21,8 +22,7 @@ Ask Mode is a conversational interface within Code Studio that provides immediat
 
 ## Prerequisites
 
-1. **Syncfusion Code Studio Account** - Create and sign in at [Syncfusion Code Studio](https://app.sfcodestudio.com)
-2. **Code Studio Installation** - Download and configure the IDE: [Install and Configuration](/code-studio/getting-started/install-and-configuration)
+**Code Studio Installation** - Download and configure the IDE: [Install and Configuration](/code-studio/getting-started/install-and-configuration)
 
 ## How to Use Ask Mode in Code Studio
 
@@ -36,10 +36,10 @@ Ask Mode is a conversational interface within Code Studio that provides immediat
 
 ### Step 2: Submit Your Query
 
-Type your question using natural language. For optimal results:
+Type your query using natural language. For optimal results:
 - State the programming language or framework explicitly
 - Include relevant error messages or stack traces when troubleshooting
-- Specify the desired output format (e.g., "provide a TypeScript example")
+- Specify the desired output format
 
 **Example Query:**
 

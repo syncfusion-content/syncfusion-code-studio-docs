@@ -2,7 +2,7 @@
 title: Compare AI models for different tasks
 description: Compare AI models in Syncfusion Code Studio and learn when to use Claude, Gemini, and GPT families for coding, debugging, refactoring, and fast iterations with examples.
 platform: syncfusion-code-studio
-keywords: "compare ai models, choose model, syncfusion code studio, claude haiku 4.5, claude sonnet 4.5, gemini 2.5 flash, gemini 2.5 pro, gemini 3 flash, gpt-4.1, gpt-5, gpt-5 mini, gpt-5.1 codex, gpt-5.2, code generation, debugging, refactoring, reasoning, low latency"
+keywords: "compare-ai-models, choose-model, claude-haiku-4.5, claude-sonnet-4.5, gemini-2.5-flash, gemini-2.5-pro, gemini-3-flash, gpt-4.1, gpt-5, gpt-5-mini, gpt-5.1-codex, gpt-5.2, code-generation, debugging, refactoring, reasoning, low-latency"
 ---
 
 # Compare AI models for different tasks
@@ -15,8 +15,7 @@ This tutorial helps you understand which AI model to use for which type of task,
 
 ## Prerequisites
 
-**Syncfusion Code Studio installed and configured**  
-   If not yet installed, follow the [installation guide](/code-studio/getting-started/install-and-configuration).
+**Code Studio Installation** - Download and configure the IDE: [Install and Configuration](/code-studio/getting-started/install-and-configuration)
 
 ## What You'll Learn
 
@@ -417,7 +416,7 @@ GPT-5 understands full system context and can reason across files, components, a
 **Example Task**
 
 ```
-Migrate a Node.js/TypeScript API from Express to Fastify, add runtime validation and tracing, update all route usages, generate load tests, and produce a rollback plan.
+Migrate a Node.js API from Express to Fastify, add runtime validation and tracing, update all route usages, generate load tests, and produce a rollback plan.
 ```
 
 **Existing Code:**
@@ -689,14 +688,8 @@ You have successfully completed this tutorial when you can:
 
 Now that you understand how different AI models behave and when to use them:
 
-1. **Experiment with Model Switching**: Start a coding task with a fast model like Gemini 2.5 Flash. If the output is insufficient, escalate to Claude Sonnet 4.5 or Gemini 2.5 Pro for deeper analysis.
+1. **Explore Advanced Features**: Try using the [Agent](/code-studio/features/agent) feature with reasoning-focused models like GPT-5 or GPT-5.2 for autonomous multi-step workflows.
 
-2. **Refine Your Prompts**: Practice writing clear, specific prompts with context and examples. The more details you provide about your requirements and constraints, the better results you'll get from any model.
-
-3. **Explore Advanced Features**: Try using the [Agent](/code-studio/features/agent) feature with reasoning-focused models like GPT-5 or GPT-5.2 for autonomous multi-step workflows.
-
-4. **Optimize Your Workflow**: Use faster models for repetitive tasks and reserve deeper models for complex or high-risk changes. This balance improves both productivity and code quality.
-
-5. **Configure Custom Models**: If your organization has specific model preferences, learn how to [configure custom models](/code-studio/reference/configure-properties/configure-opensource-model) to align with your team's needs.
+2. **Configure Custom Models**: If your organization has specific model preferences, learn how to [configure custom models](/code-studio/reference/configure-properties/configure-opensource-model) to align with your team's needs.
 
 As task complexity increases, adjusting your model choice can significantly improve both productivity and code quality.
