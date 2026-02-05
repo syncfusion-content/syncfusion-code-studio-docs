@@ -15,19 +15,8 @@ This tutorial helps you understand which AI model to use for which type of task,
 
 ## Prerequisites
 
-Before comparing AI models, ensure you have:
-
-1. **Syncfusion Code Studio installed and configured**  
+**Syncfusion Code Studio installed and configured**  
    If not yet installed, follow the [installation guide](/code-studio/getting-started/install-and-configuration).
-
-2. **Access to AI models**  
-   You should have either default models enabled or [custom models configured](/code-studio/reference/configure-properties/configure-opensource-model) through your organization's settings.
-
-3. **An active project or coding task**  
-   Having real code to work with helps you evaluate model performance effectively.
-
-4. **Basic familiarity with Code Studio's chat interface**  
-   You should know how to use the [Ask](/code-studio/features/ask), [Edit](/code-studio/features/edit), or [Agent](/code-studio/features/agent) features to send prompts to AI models.
 
 ## What You'll Learn
 
