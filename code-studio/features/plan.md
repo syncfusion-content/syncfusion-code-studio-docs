@@ -5,7 +5,7 @@ platform: syncfusion-code-studio
 keywords: code, IDE, AI, developer-tools, syncfusion, code-assistance, productivity, UI-generation, bug-fixing, documentation
 ---
 
-# Plan Mode in Syncfusion Code Studio
+# Plan Mode
 
 ## Feature Overview
 
@@ -23,8 +23,7 @@ Use the Plan Agent when you need to:
 ## Prerequisites
 
 Before you start, make sure you have:
-* Syncfusion Code Studio installed and configured on your system
-* If you have not yet downloaded Code Studio, refer to the [installation guide](https://help.syncfusion.com/code-studio/getting-started/install-and-configuration)
+* Syncfusion Code Studio is installed and configured on your system. If you have not yet downloaded Code Studio, refer to the [Syncfusion Code Studio Install and Configure](https://help.syncfusion.com/code-studio/getting-started/install-and-configuration)
 
 ## Getting Started with the Plan Feature
 
@@ -41,7 +40,7 @@ Before you start, make sure you have:
 
     **Example:**
     ```
-    Implement a user authentication system with OAuth2 and JWT
+    Create a dashboard project for stack analysis using python
     ```
     <img src="./feature-images/prompt-plan.png" alt="Describe Task">
 
