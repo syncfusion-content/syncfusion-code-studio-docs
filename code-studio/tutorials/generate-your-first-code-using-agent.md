@@ -91,7 +91,6 @@ To confirm everything worked as expected:
 - **Checkpoints:** Locate the available checkpoints (usually visible at the bottom of each chat request) and attempt to restore one to confirm the feature works correctly.
 - **Permissions:** If tool calls are not executing, verify that you have granted permission for tool access in the settings.
 
-For more details about checkpoints, see [Checkpoints](/code-studio/features/checkpoints).
 
 ## Next Steps
 
