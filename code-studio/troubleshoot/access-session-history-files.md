@@ -12,7 +12,7 @@ This guide explains how to view session history after upgrading to CodeStudio v2
 ## Problem Summary
 After upgrading to CodeStudio v2.0.0+, chat sessions from earlier versions (before v2.0.0) may not appear in the session history.
 
-> **Note:** Session history created prior to v2.0.0 cannot be migrated to the CodeStudio v2.0.0+ session history. For more details, see the [v2.0.0 release notes](/code-studio/release-notes/v2.0.0) under **Breaking Changes** → **Migration Update** (Conversation History).
+> **Note:** Session history created prior to v2.0.0 cannot be migrated to the CodeStudio v2.0.0+ session history. Refer to the [v2.0.0 release notes](/code-studio/release-notes/v2.0.0) for migration details.
 
 ## Resolution Steps
 
