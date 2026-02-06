@@ -22,31 +22,9 @@ This procedure helps you reset Syncfusion Code Studio to its default state by cl
 - **System configuration updates**: Recent changes to your operating system settings may require a cache refresh to ensure compatibility.
 - **Performance optimization**: Regularly clearing the cache helps maintain smooth and optimal application performance over time.
 
-## Resolution Steps: Steps to Delete the Cache Folders
+## Resolution Steps
 
-### Step 1: Delete the config.yaml File
-
-The `config.yaml` file stores application configuration settings. Deleting this file will reset the configuration to defaults.
-
-#### Windows
-
-Delete the `config.yaml` file located at:
-
-```
-C:\Users\YourName\.sfcodestudio\.codestudio\config.yaml
-```
-<img src="./troubleshoot-images/cache-image.png" alt="cache">
-
-#### macOS
-
-Delete the `config.yaml` file located at:
-
-```
-/Users/YourName/.sfcodestudio/.codestudio/config.yaml
-```
-<img src="./troubleshoot-images/cache-image-mac.png" alt="cache">
-
-### Step 2: Delete the Syncfusion Code Studio Folders
+### Step 1: Delete the Syncfusion Code Studio Folders
 
 After removing the configuration file, you need to delete the main application folders to completely clear the cache.
 
@@ -82,9 +60,9 @@ Delete the Syncfusion Code Studio folders at these locations:
 ```
 <img src="./troubleshoot-images/cache-image-macapplication.png" alt="cache">
 
-## After Deleting Cache Folders
+### Step 2: After Deleting Cache Folders
 
-Once you've completed both steps:
+Once you've completed above step:
 
 1. Restart your computer to ensure all files are properly released
 2. Reinstall Syncfusion Code Studio, refer to the [Syncfusion Code Studio Install and Configure](https://help.syncfusion.com/code-studio/getting-started/install-and-configuration) 
