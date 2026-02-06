@@ -104,4 +104,4 @@ If something fails:
 
 ## Next Steps
 
- - [Configure the default model](/code-studio/how-to-guides/Configure-default-model) to use the UI Builder tool effectively.
+ - Visit [UI Builder](/code-studio/ui-builder) to learn how to use the UI Builder tool effectively and explore the supported platforms.

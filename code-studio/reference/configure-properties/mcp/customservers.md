@@ -1,5 +1,5 @@
 ---
-title: "Custom MCP Servers"
+title: Custom MCP Servers
 description: "Instructions for connecting remote, NPM, and local MCP servers to Syncfusion Code Studio for enhanced accessibility and control."
 control: IDE
 documentation: Getting Started
@@ -9,7 +9,7 @@ keywords: custom-mcp-server, remote-server, npm-server, local-server, code-studi
 
 # Custom MCP Server
 
-## Overview
+## Purpose
 
 Model Context Protocol (MCP) is an open standard that enables AI models to interact with external tools and services through a unified interface. In Code Studio, MCP servers extend your workspace by integrating with external APIs.
 
@@ -29,7 +29,7 @@ Use a Custom MCP Server to integrate external tools or services into Code Studio
 
 ## Prerequisites
 
-## Supported MCP Server Types and Their Prerequisites
+### Supported MCP Server Types and Their Prerequisites:
 
 ### **1. Command (stdio)**
 Runs a local executable script that communicates over stdio.
@@ -118,7 +118,7 @@ Runs an MCP server via .NET packages.
 **Installation Steps:**  
 - Download .NET SDK 10+ from Microsoft’s [official site](https://dotnet.microsoft.com/en-us/download/dotnet/10.0). 
 
-Note: Custom servers installed via **npm**, **pip**, or **Docker** rely on AI model–assisted execution. If your [Premium model usage budget](/code-studio/how-to-guides/buy-more-credits) is exhausted, these configurations can’t be completed until additional budget is available.
+> **Note:** Custom servers installed via **npm**, **pip**, or **Docker** rely on AI model–assisted execution. If your [Premium model usage budget](/code-studio/how-to-guides/buy-more-credits) is exhausted, these configurations can’t be completed until additional budget is available.
 
 ## Step-by-Step Guide: Postman MCP Server with CodeStudio
 
@@ -126,15 +126,15 @@ This example shows how to configure the Postman MCP Server (via an npm package) 
 
 Follow the steps below to configure the Postman MCP Server in CodeStudio,
 
-Step 1: In Code Studio Extension, click the Settings icon and select MCP Servers 
+**Step 1:** In Code Studio Extension, click the Settings icon and select MCP Servers 
 
 <img src="../../reference-images/mcp-server-option-from-settings.png" alt="custom server" />
 
-Step 2: In the MCP Servers page, open the Custom Server tab.
+**Step 2:** In the MCP Servers page, open the Custom Server tab.
 
 <img src="../../reference-images/mcp-server-webview.png" alt="custom server" />
 
-Step 3: Click Add MCP Server. 
+**Step 3:** Click Add MCP Server. 
 
 <img src="../../reference-images/add-mcp-server.png" alt="custom server" />
 
@@ -142,15 +142,15 @@ Step 4: Review the Terms and Conditions, then click Accept and proceed.
 
 <img src="../../reference-images/terms-and-conditions.png" alt="custom server" />
 
-Step 5: Select the connection type that matches your setup. For this demonstration, choosing NPM package to install the Postman MCP Server. 
+**Step 5:** Select the connection type that matches your setup. For this demonstration, choosing NPM package to install the Postman MCP Server. 
 
 <img src="../../reference-images/mcp-server-connection-types.png" alt="custom server" />
 
-Step 6: The npm package name field will appear. Enter the required package name. For this demonstration, entering the Postman MCP Server package name ([@postman/postman-mcp-server](https://www.npmjs.com/package/@postman/postman-mcp-server?activeTab=readme)) and press Enter. 
+**Step 6:** The npm package name field will appear. Enter the required package name. For this demonstration, entering the Postman MCP Server package name ([@postman/postman-mcp-server](https://www.npmjs.com/package/@postman/postman-mcp-server?activeTab=readme)) and press Enter. 
 
 <img src="../../reference-images/mcp-package-name.png" alt="custom server" />
 
-Step 7: The Postman API key field will appear. Paste the Postman API key you generated and press Enter. 
+**Step 7:** The Postman API key field will appear. Paste the Postman API key you generated and press Enter. 
 
 <img src="../../reference-images/mcp-package-api-key.png" alt="custom server" />
 
@@ -158,23 +158,23 @@ Step 7: The Postman API key field will appear. Paste the Postman API key you gen
 - If you don’t already have a Postman account, use Postman’s documentation guide to sign up: [Sign up for Postman](https://learning.postman.com/docs/getting-started/first-steps/sign-up-for-postman/)
 - To generate a Postman API key, follow Postman’s official documentation: [Postman API Key Generation](https://learning.postman.com/docs/developer/postman-api/authentication)
 
-Step 8: Select the tool configuration that fits your needs. For this demonstration, choosing the Minimal option. 
+**Step 8:** Select the tool configuration that fits your needs. For this demonstration, choosing the Minimal option. 
 
 <img src="../../reference-images/mcp-postman-tool-configuration.png" alt="custom server" />
 
-Step 9: Select the region. Keep the default selection (US). 
+**Step 9:** Select the region. Keep the default selection (US). 
 
 <img src="../../reference-images/mcp-postman-region-choosing.png" alt="custom server" />
 
-Step 10: Enter a Server ID. This is a label you choose in Code Studio to identify the custom server (not a Postman ID). 
+**Step 10:** Enter a Server ID. This is a label you choose in Code Studio to identify the custom server (not a Postman ID). 
 
 <img src="../../reference-images/mcp-server-id.png" alt="custom server" />
 
-Step 11: Select the configuration target based on your needs. For this demonstration, choose Global to make the server available across all workspaces. 
+**Step 11:** Select the configuration target based on your needs. For this demonstration, choose Global to make the server available across all workspaces. 
 
 <img src="../../reference-images/mcp-workspace-option-choosing.png" alt="custom server" />
 
-Step 12: The Postman MCP Server is now configured and ready to use. 
+**Step 12:** The Postman MCP Server is now configured and ready to use. 
 
 <img src="../../reference-images/mcp-postman-installed.png" alt="custom server" />
 

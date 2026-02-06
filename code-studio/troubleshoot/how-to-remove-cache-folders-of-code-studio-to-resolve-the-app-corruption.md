@@ -65,7 +65,7 @@ Delete the Syncfusion Code Studio folders at these locations:
 Once you've completed above step:
 
 1. Restart your computer to ensure all files are properly released
-2. Reinstall Syncfusion Code Studio, refer to the [Syncfusion Code Studio Install and Configure](https://help.syncfusion.com/code-studio/getting-started/install-and-configuration) 
+2. Reinstall Syncfusion Code Studio, refer to the [Syncfusion Code Studio Install and Configure](/code-studio/getting-started/install-and-configuration) 
 3. Launch the application - it will create fresh configuration files and cache
 
 **Note:** Backup Recommendation - If you have custom configurations or settings you want to preserve, back up the relevant folders before deleting or clearing them.

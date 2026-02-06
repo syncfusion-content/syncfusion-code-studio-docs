@@ -95,4 +95,4 @@ Consider creating the ToDo application,
 
 ## Related Features
 - Agent (this feature): Explore, plan, and apply changes automatically.
-- Custom Agent: Define rules/instructions for consistent, constrained behavior. See: [Custome Agent](/code-studio/reference/configure-properties/custom-agents)
+- Custom Agent: Define rules/instructions for consistent, constrained behavior. See: [Custom Agent](/code-studio/reference/configure-properties/custom-agents)

@@ -5,18 +5,18 @@ platform: syncfusion-code-studio
 keywords: code, IDE, AI, developer-tools, syncfusion, code-assistance, productivity, UI-generation, bug-fixing, documentation
 ---
 
-# Autocomplete in Code Studio
+# Autocomplete
 
 ## Overview
 Syncfusion Code Studio provides an AI‑powered Autocomplete system designed to accelerate coding by offering intelligent inline suggestions and completing code based on context. The feature supports multiple programming languages and frameworks, helping developers write faster, cleaner, and more consistent code.
 Key capabilities include:
 
-Inline code suggestions (ghost text)
-Automatic code completion for functions, loops, and patterns
-Code generation from comments
-Style‑aware suggestions that match your existing coding patterns
-Multi‑suggestion alternatives
-Next Edit Suggestions for guided sequential editing and refactoring
+- Inline code suggestions (ghost text)
+- Automatic code completion for functions, loops, and patterns
+- Code generation from comments
+- Style‑aware suggestions that match your existing coding patterns
+- Multi‑suggestion alternatives
+- Next Edit Suggestions for guided sequential editing and refactoring
 
 ## Use Cases
 1. Faster Code Writing

@@ -5,6 +5,8 @@ platform: syncfusion-code-studio
 keywords: "syncfusion code studio features, ai powered ide, code generation, ai agents, quick fix, autocomplete, plan mode"
 ---
 
+# Welcome to Syncfusion Code Studio
+
 ## Overview
 
 - Syncfusion Code Studio is an AI-powered integrated development environment (IDE) with built-in assistance to support modern software development workflows. It understands your codebase and provides context-aware suggestions to help you design, implement, and refine features—while keeping developers in control.
@@ -56,8 +58,8 @@ See [Tools](/code-studio/reference/configure-properties/toolssupport).
 -  **Checkpoints**: Automatically capture, compare, and restore your workspace state to track changes and recover easily.  
 Learn more in [Checkpoints](/code-studio/features/checkpoints).
 
--  **Inline Edit**: Apply AI‑powered fixes, optimizations, and docs right from the editor’s context menu.  
-See [Inline Edit](/code-studio/features/inlinechat).
+-  **Inline Chat**: Apply AI‑powered fixes, optimizations, and docs right from the editor’s context menu.  
+See [Inline Chat](/code-studio/features/inlinechat).
 
 -  **Telemetry**: Anonymous usage analytics to improve product quality; can be disabled anytime.  
 See [Telemetry](/code-studio/features/telemetry).
@@ -68,7 +70,7 @@ Learn more on the [Generate Code](/code-studio/features/generatecode) Generate C
 -  **Quick Fix**: Instantly detect and resolve errors with context‑aware AI suggestions, inline previews, and explanations—so you can fix issues without leaving your editor.  
 Learn more on the [Quick Fix](/code-studio/how-to-guides/quick-fix-error) page.
 
--  **MCP Integration**: Discover and manage servers via the [MCP Marketplace](/code-studio/reference/configure-properties/mcp/marketplace) or connect [Custom Servers](/code-studio/reference/configure-properties/mcp/customservers) including Remote, NPM, and Local.
+-  **MCP Integration**: Discover and manage servers via the [MCP Marketplace](/code-studio/reference/configure-properties/mcp/marketplace) or connect [Custom Servers](/code-studio/reference/configure-properties/mcp/customservers) including NPM package,pip package, docker image, HTTP, command.
 
 -   **Custom Agent**: Pre‑configured AI agents for specific tasks that follow fixed rules, tools, and behaviors—ensuring consistent, repeatable workflows across teams. Learn more on the [Custom Agent](/code-studio/reference/configure-properties/custom-agents) page.
 

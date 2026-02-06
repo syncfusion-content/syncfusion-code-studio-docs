@@ -7,6 +7,8 @@ keywords: code, IDE, AI, developer-tools, syncfusion, code-assistance, productiv
 
 # Generate Code
 
+## Overview 
+
 The **Generate Code** feature helps developers work faster by automating common coding tasks.
 It reduces repetitive work, improves code quality, and provides instant AI assistance directly inside your editor.
 

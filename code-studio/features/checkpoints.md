@@ -6,7 +6,7 @@ keywords: code, IDE, AI, developer-tools, syncfusion, code-assistance, productiv
 ---
 
 
-# Checkpoints and Editing requests in Code Studio
+# Checkpoints and Editing requests 
 
 ## Overview 
 

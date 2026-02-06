@@ -18,7 +18,7 @@ In versions prior to 2.0.0, Code Studio stored rule configurations in two legacy
 ### Step 1: Create a New Instruction File
 ---
 - Open Code Studio.
-- Create a new instruction file following the [Custom Instructions](../reference/configure-properties/custom-instructions.md)
+- Create a new instruction file following the [Custom Instructions](/code-studio/reference/configure-properties/custom-instructions)
 
 > Note: Custom Instructions are supported only in version 2.0.0 or later.  If you are using an older version, please update to the latest version of Code Studio.
 

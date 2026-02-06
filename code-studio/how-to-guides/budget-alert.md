@@ -28,19 +28,19 @@ Use budget alerts when you want an email notification as soon as spending crosse
 
 ### Steps to Configure Budget Alerts for Teams:
 
-Step 1: Go to the **Budget tab** in CodeStudio dashboard. Team budgets are displayed on a table, with a **three-dot (More options)** menu on the right side of each row.
+**Step 1:** Go to the **Budget tab** in CodeStudio dashboard. Team budgets are displayed on a table, with a **three-dot (More options)** menu on the right side of each row.
 
 <img src="./howtoguide-images/three-dots-icon-teams.png" alt="budget-alert"  />
 
-Step 2: Click the **three-dot (More options)** icon. The following options are displayed: **Edit Budget, Set Alert, and Delete**.
+**Step 2:** Click the **three-dot (More options)** icon. The following options are displayed: **Edit Budget, Set Alert, and Delete**.
 
 <img src="./howtoguide-images/three-dots-option-teams.png" alt="budget-alert"  />
 
-Step 3: Click **Set Alert**.
+**Step 3:** Click **Set Alert**.
 
 <img src="./howtoguide-images/set-alert-option.png" alt="budget-alert"  />
 
-Step 4:
+**Step 4:**
 The **Set Alert** dialog box opens. You can configure alerts to be triggered when budget usage reaches **25%, 50%, 75%,** or **100%** of the budget limit you created.
 
 Now, let’s create a budget alert for the **Frontend team** that triggers when **50%** of the team’s budget limit is reached. Follow the steps below.
@@ -74,19 +74,19 @@ To verify that a budget alert is created and to modify an existing alert, follow
 
 ### Steps to Configure Budget Alert for Individual Users in a team:
 
-Step 1: In the **Budget** tab, hover over the team name. A **navigate** icon appears—click it to open the team’s **Budget** details window.
+**Step 1:** In the **Budget** tab, hover over the team name. A **navigate** icon appears—click it to open the team’s **Budget** details window.
 
 <img src="./howtoguide-images/budget-tab-individual.png" alt="budget-alert"  />
 
-Step 2: The **Team Member Budgets** section lists the team members and the budgets assigned to each member.
+**Step 2:** The **Team Member Budgets** section lists the team members and the budgets assigned to each member.
 
 <img src="./howtoguide-images/team-members-budget-section.png" alt="budget-alert"  />
 
-Step 3: Follow the same steps as setting a team budget alert (Steps 1–2). Enter the **Email subject**; the **Send alerts to** field is automatically prefilled with the individual user’s email.
+**Step 3:** Follow the same steps as setting a team budget alert (Steps 1–2). Enter the **Email subject**; the **Send alerts to** field is automatically prefilled with the individual user’s email.
 
 <img src="./howtoguide-images/set-alert-individual.png" alt="budget-alert"  />
 
-Step 4: After you click **Set**, the budget alert is created.
+**Step 4:** After you click **Set**, the budget alert is created.
 
 <img src="./howtoguide-images/budget-alert-created-individual.png" alt="budget-alert"  />
 

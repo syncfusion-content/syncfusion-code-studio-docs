@@ -7,7 +7,7 @@ keywords: inline-edit, right-click-actions, ai-assistance, contextual-editing, c
 ---
 
 
-# Inline Chat in Syncfusion Code Studio
+# Inline Chat 
 
 ## Overview
 Inline Chat in Syncfusion Code Studio is designed to bring AI assistance directly into your workflow. Instead of switching panels or navigating away from your code, you can interact with AI right inside the editor or terminal. This seamless integration helps you stay focused, get context-aware suggestions, and streamline both coding and command-line tasks.
