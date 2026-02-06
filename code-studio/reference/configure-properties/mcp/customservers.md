@@ -11,7 +11,7 @@ keywords: custom-mcp-server, remote-server, npm-server, local-server, code-studi
 
 ## Purpose
 
-Model Context Protocol (MCP) is an open standard that enables AI models to interact with external tools and services through a unified interface. In Code Studio, MCP servers extend your workspace by integrating with external APIs.
+[Model Context Protocol (MCP)](https://modelcontextprotocol.io/docs/getting-started/intro) is an open standard that enables AI models to interact with external tools and services through a unified interface. In Code Studio, MCP servers extend your workspace by integrating with external APIs.
 
 **Custom MCP Servers** let you add and manage MCP servers in Code Studio.
 

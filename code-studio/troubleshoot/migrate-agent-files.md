@@ -36,6 +36,6 @@ Rename your file from `agent.md` to `agents.md` (plural) in your project root di
 
 4. Ensure **Agent Enabled** and **Use Agents Md file** are enabled.
 
-**Tip:** Keep your agent instructions under 500 lines to avoid context length issues.
+**Note:** Keep your agent instructions under 500 lines to avoid context length issues.
 
 
