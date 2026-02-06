@@ -49,11 +49,11 @@ Users may encounter an `Uncaught Exception` error when Code Studio is launching 
 
 #### Step 2: Remove Code Studio Cache Files
 
-Delete cache and configuration folders to ensure a clean reinstallation. See [How to remove cache folders of Code Studio](/code-studio/troubleshoot/how-to-remove-cache-folders-of-code-studio-to-resolve-the-app-corruption.md) for detailed steps.
+Delete cache and configuration folders to ensure a clean reinstallation. See [How to remove cache folders of Code Studio](/code-studio/troubleshoot/how-to-remove-cache-folders-of-code-studio-to-resolve-the-app-corruption) for detailed steps.
 
 #### Step 3: Reinstall Code Studio
 
-1. Reinstall Syncfusion Code Studio, refer to the [Syncfusion Code Studio Install and Configure](/code-studio/getting-started/install-and-configuration.md).
+1. Reinstall Syncfusion Code Studio, refer to the [Syncfusion Code Studio Install and Configure](/code-studio/getting-started/install-and-configuration).
 2. Launch the application and verify it starts without errors.
 
 ## Verification
