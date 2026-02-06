@@ -11,7 +11,7 @@ keywords: custom-mcp-server, remote-server, npm-server, local-server, code-studi
 
 ## Purpose
 
-Model Context Protocol (MCP) is an open standard that enables AI models to interact with external tools and services through a unified interface. In Code Studio, MCP servers extend your workspace by integrating with external APIs.
+[Model Context Protocol (MCP)](https://modelcontextprotocol.io/docs/getting-started/intro) is an open standard that enables AI models to interact with external tools and services through a unified interface. In Code Studio, MCP servers extend your workspace by integrating with external APIs.
 
 **Custom MCP Servers** let you add and manage MCP servers in Code Studio.
 
@@ -178,7 +178,10 @@ Step 4: Review the Terms and Conditions, then click Accept and proceed.
 
 <img src="../../reference-images/mcp-postman-installed.png" alt="custom server" />
 
-For this demonstration, a **User Management API** collection has been created in Postman, and 5 requests have been added under it.
+For demonstration purposes, we created a **User Management API** collection in Postman with sample data and added five sample API requests to the collection.
+
+You can create your own collection and add API requests by following Postman’s [documentation](https://learning.postman.com/docs/collections/use-collections/use-collections-overview).
+
 
 <img src="../../reference-images/postman-dashboard.png" alt="custom server" />
 
@@ -186,7 +189,9 @@ For this demonstration, a **User Management API** collection has been created in
 
 - In this section, you will use Code Studio and the Postman MCP Server to generate standardized test scripts for the **User Management API** collection.
 
-- When you give the prompt, Code Studio generates the test scripts and updates them directly in Postman for each request.
+- When you give the prompt, Code Studio generates test scripts for all API requests in the collection.
+
+- Code Studio then applies the generated scripts in Postman under each API request’s **Test Scripts** tab.
 
 **Sample prompt**
 
@@ -228,7 +233,7 @@ Run the Postman Monitor with ID - <Monitor-Id> and generate a deployment readine
 <img src="../../reference-images/deployment-readiness-report.gif" alt="custom server" />
 
 
-Postman provides many tools for collections, environments, monitors, and more.
+Postman provides many tools for creating and managing collections, environments, monitors, and more.
 You can explore and use these tools in your workflow.
 
 ## MCP Settings and Management
