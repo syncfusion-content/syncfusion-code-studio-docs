@@ -212,7 +212,9 @@ Use consistent, readable test names and keep scripts minimal and maintainable. K
 
 **Sample prompts**
 
-> List my Postman Monitors and their IDs.
+```text
+List my Postman Monitors and their IDs.
+```
 
 ```text
 Run the Postman Monitor with ID - <Monitor-Id> and generate a deployment readiness report from the latest run results. Include:
