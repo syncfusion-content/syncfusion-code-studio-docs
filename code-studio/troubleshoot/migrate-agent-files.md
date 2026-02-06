@@ -22,15 +22,15 @@ Rename your file from `agent.md` to `agents.md` (plural) in your project root di
 **Settings in v2.0.0 and later versions:**
 1. Click the Settings icon.
 
-<img src="./troubleshoot-images/settings-icon.png" alt="settings icon">
+    <img src="./troubleshoot-images/settings-icon.png" alt="settings icon">
 
 2. Open Settings
 
-<img src="./troubleshoot-images/open-settings.png" alt="open settings">
+    <img src="./troubleshoot-images/open-settings.png" alt="open settings">
 
 3. In the settings window, select **Agents** in the sidebar.
 
-<img src="./troubleshoot-images/agent-tab-settings.png" alt="agent tab settings">
+    <img src="./troubleshoot-images/agent-tab-settings.png" alt="agent tab settings">
 
 4. Ensure **Agent Enabled** and **Use Agents Md file** are enabled.
 

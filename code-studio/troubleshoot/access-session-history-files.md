@@ -24,12 +24,12 @@ To view your session history, follow these steps:
 
 1. Click the **three dots icon** (⋯) labeled "View and More Actions".
 
-<img src="./troubleshoot-images/session-three-dots.png" alt="three dots icon">
+    <img src="./troubleshoot-images/session-three-dots.png" alt="three dots icon">
 
 2. Select **Show Chats** from the menu.
 
-<img src="./troubleshoot-images/showchats.png" alt="show chats">
+    <img src="./troubleshoot-images/showchats.png" alt="show chats">
 
 3. Your **Sessions History** will be displayed, showing all conversations made in that particular workspace.
 
-<img src="./troubleshoot-images/session-history.png" alt="session history">
+    <img src="./troubleshoot-images/session-history.png" alt="session history">

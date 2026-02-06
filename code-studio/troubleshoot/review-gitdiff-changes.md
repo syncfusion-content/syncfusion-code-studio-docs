@@ -22,13 +22,13 @@ Previously, users could view git diff / uncommitted changes in Code Studio by ty
 
 3. In the chat input box type #, a dropdown menu will appear showing available options. From this dropdown, select #changes.
 
-<img src="./troubleshoot-images/changes_tool_drop_down.png" alt="trouble shoot"  />
+    <img src="./troubleshoot-images/changes_tool_drop_down.png" alt="trouble shoot"  />
 
 4. After selecting #changes, type your specific question or request regarding the current changes.
 
 5. Send the prompt and the response will include the current git diff information, typically shown file-by-file with added/removed lines highlighted.
 
-<img src="./troubleshoot-images/git_diff_response.png" alt="trouble shoot"  />
+    <img src="./troubleshoot-images/git_diff_response.png" alt="trouble shoot"  />
 
 ## Best Practices
 

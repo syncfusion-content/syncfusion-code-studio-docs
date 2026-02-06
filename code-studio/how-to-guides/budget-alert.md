@@ -47,12 +47,12 @@ Now, let’s create a budget alert for the **Frontend team** that triggers when 
 
 1. Turn the toggle **On**. Two input fields are displayed; enter the required values in both fields.
 
-<img src="./howtoguide-images/set-alert-ui-teams.png" alt="budget-alert"  />
+   <img src="./howtoguide-images/set-alert-ui-teams.png" alt="budget-alert"  />
 
    - **Email subject:** Enter the email subject line that will appear in the alert email.
    - **Send alerts to:** Select the users in the team who should receive the alert email.
 
-<img src="./howtoguide-images/set-alert-teams.png" alt="budget-alert"  /> 
+   <img src="./howtoguide-images/set-alert-teams.png" alt="budget-alert"  /> 
 
 2. Click **Set**.
 
@@ -94,15 +94,15 @@ Step 4: After you click **Set**, the budget alert is created.
 
 1.	Click the three-dot (More options) menu on the right side of the user’s row in **Team Member Budgets** section.
 
-<img src="./howtoguide-images/manage-alert-three-dots-individual.png" alt="budget-alert"  />
+   <img src="./howtoguide-images/manage-alert-three-dots-individual.png" alt="budget-alert"  />
 
 2.	Click the three-dot (More options) icon. The following options are displayed: **Edit Budget** and **Manage Alert**.
 
-<img src="./howtoguide-images/manage-alert-option.png" alt="budget-alert"  />
+   <img src="./howtoguide-images/manage-alert-option.png" alt="budget-alert"  />
 
 3.	Click **Manage Alert**. Update the alert settings (for example, turn **50% Off** and turn **75% On**), enter the required values in the input fields, and then click **Update** to save the changes.
 
-<img src="./howtoguide-images/update-alert-individual.png" alt="budget-alert"  />
+   <img src="./howtoguide-images/update-alert-individual.png" alt="budget-alert"  />
 
 ### Finally, you will receive the alert email as shown in the images below,
 
