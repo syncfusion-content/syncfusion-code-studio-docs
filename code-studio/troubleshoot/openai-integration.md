@@ -11,7 +11,7 @@ keywords: O3, OpenRouter, OpenAI, 403 error, API key, BYOK, troubleshoot
 
 When using the OpenAI O3 model through OpenRouter, requests can fail with HTTP 403 (Forbidden). This typically occurs because O3 requires a valid Tier 3 (or higher) OpenAI API key configured under a Bring Your Own Key (BYOK) setup in OpenRouter. If the key is missing, insufficient-tier, or misconfigured, OpenRouter denies the request.
 
->**Note:** "Tier 3" refers to OpenAI's usage tiers that control rate and spend limits. As of OpenAI's documentation, Tier 3 generally requires $100+ paid and 7+ days since the first successful payment. See [OpenAI Rate limits – Usage tiers](https://platform.openai.com/docs/guides/rate-limits/usage-tiers) for more details.
+>**Note:** "Tier 3" refers to OpenAI's usage tiers that control rate and spend limits. As of OpenAI's documentation, Tier 3 generally requires $100+ paid and 7+ days since the first successful payment. See [OpenAI Rate limits](https://platform.openai.com/docs/guides/rate-limits) for more details.
 
 ## Possible Causes
 

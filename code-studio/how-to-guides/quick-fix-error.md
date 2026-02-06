@@ -24,7 +24,7 @@ Use the Quick Fix feature when:
 
 Before using Quick Fix, ensure:
 
-- Syncfusion Code Studio is installed and configured. See [Install and Configure](/code-studio/getting-started/install-and-configuration.md) for setup instructions.
+- Syncfusion Code Studio is installed and configured. See [Install and Configure](/code-studio/getting-started/install-and-configuration) for setup instructions.
 - A code file with errors is open in the Code Studio editor.
 - The editor has identified and highlighted at least one error in your code.
 
