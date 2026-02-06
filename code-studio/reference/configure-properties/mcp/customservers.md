@@ -189,9 +189,9 @@ You can create your own collection and add API requests by following Postman’s
 
 - In this section, you will use Code Studio and the Postman MCP Server to generate standardized test scripts for the **User Management API** collection.
 
-- When you give the prompt, Code Studio generates the test scripts and updates them directly in Postman for each request.
+- When you give the prompt, Code Studio generates test scripts for all requests in the collection.
 
-- Code Studio generates the test scripts and automatically updates it in Postman by applying them under each request’s **Test Scripts** tab.
+- Code Studio then applies the generated scripts in Postman under each request’s **Test Scripts** tab.
 
 **Sample prompt**
 
