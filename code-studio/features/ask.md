@@ -7,7 +7,7 @@ keywords: code, IDE, AI, developer-tools, syncfusion, code-assistance, productiv
 
 # Ask
 
-## Feature Overview
+## Overview
 
 Ask Mode is a conversational interface within Code Studio that provides immediate technical guidance without modifying your workspace. It delivers explanations, code examples, and best practice recommendations based on your queries, operating independently of your project files. This mode is designed for knowledge acquisition and exploration rather than direct code manipulation.
 

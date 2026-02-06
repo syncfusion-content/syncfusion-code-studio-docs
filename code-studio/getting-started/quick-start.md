@@ -165,7 +165,7 @@ You’ll see improved code inline with **Accept** and **Dismiss** options.
 
 ## Next Steps
 
-- Now that you've explored the basics:
+Now that you've explored the basics:
 
 - Learn how to create your first automated change with [Agent](/code-studio/features/agent).  
 

@@ -56,6 +56,6 @@ Using Global Agent in Code Studio is straightforward:
 
 ## Related Features
 
-- [Custom Agent](/code-studio/features/agent) - Pre‑configured AI agents for specific tasks that follow fixed rules, tools, and behaviors—ensuring consistent, repeatable workflows across teams.
+- [Custom Agent](/code-studio/reference/configure-properties/custom-agents) - Pre‑configured AI agents for specific tasks that follow fixed rules, tools, and behaviors—ensuring consistent, repeatable workflows across teams.
 
 - [Custom Prompt](/code-studio/reference/configure-properties/custom-prompt) - Prompt files are on‑demand, reusable Markdown prompts that standardize specific development tasks like code generation and reviews.
