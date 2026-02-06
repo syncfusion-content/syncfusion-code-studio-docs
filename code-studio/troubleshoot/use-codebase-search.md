@@ -21,13 +21,13 @@ Previously, users could query or get context about their codebase in Code Studio
 
 3. In the chat input box type #, a dropdown menu will appear with available options. From this dropdown, select #codebase
 
-<img src="./troubleshoot-images/codebase_tool_drop_down.png" alt="trouble shoot"  />
+    <img src="./troubleshoot-images/codebase_tool_drop_down.png" alt="trouble shoot"  />
 
 4. After the keyword, add specific questions or requests about the codebase, such as explaining the codebase, searching for functions, variables, or files.
 
 5. Send the prompt and review the response, which will include relevant details from the codebase. If needed, refine your query for more precise results.
 
-<img src="./troubleshoot-images/codebase_tool_response.png" alt="trouble shoot"  />
+    <img src="./troubleshoot-images/codebase_tool_response.png" alt="trouble shoot"  />
 
 ## Best Practices
 

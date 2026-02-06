@@ -29,20 +29,20 @@ Purchase additional credits when:
 
 1. **Navigate to the Credits Tab:** From the Code Studio dashboard, click on "Settings" in the left sidebar, then select the "Credits" tab.
 
-<img src="./howtoguide-images/credits_tab.png" alt="settings"  />
+    <img src="./howtoguide-images/credits_tab.png" alt="settings"  />
 
 2. **Choose Purchase Amount:** Select a preset amount ($50, $100, or $500) or enter a custom dollar value in the provided field.
 
-<img src="./howtoguide-images/custom_amount.png" alt="settings"  />
+    <img src="./howtoguide-images/custom_amount.png" alt="settings"  />
 
 3. **Initiate Purchase:** Click the "Buy credits" button to be redirected to the secure payment page.
 
-<img src="./howtoguide-images/buy_credits_button.png" alt="settings"  />
+    <img src="./howtoguide-images/buy_credits_button.png" alt="settings"  />
 
 4. **Complete Checkout:** Enter or confirm your payment details and finalize the transaction.
 
-<img src="./howtoguide-images/checkout_page.png" alt="settings"  />
+    <img src="./howtoguide-images/checkout_page.png" alt="settings"  />
 
 5. **Verify Application:** After successful payment, the new credits will be automatically added to your organization's balance. Refresh the page if needed to see the updated total.
 
-<img src="./howtoguide-images/added_credits.png" alt="settings"  />
+    <img src="./howtoguide-images/added_credits.png" alt="settings"  />
