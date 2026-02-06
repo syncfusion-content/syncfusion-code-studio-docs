@@ -268,7 +268,7 @@ async function placeOrder(itemId) {
 
 **Identified Root Cause:**
 
-"The core issue is a non-atomic read-modify-write operation. The `getStockCount` and `updateStockCount` functions are executed as separate, non-isolated steps. The time gap between reading the stock and writing the new value allows other concurrent requests to read the same stale data, leading to a race condition where multiple orders can decrement from the same starting value."
+The core issue is a non-atomic read-modify-write operation. The `getStockCount` and `updateStockCount` functions are executed as separate, non-isolated steps. The time gap between reading the stock and writing the new value allows other concurrent requests to read the same stale data, leading to a race condition where multiple orders can decrement from the same starting value.
 
 **Proposed Refactored Code (Using a Mutex Lock):**
 
@@ -393,7 +393,7 @@ public class EmailService : IEmailService {
 
 **Explanation:**
 
-"The refactoring introduces constructor-based dependency injection by accepting `ISmtpClient` as a parameter. This decouples `EmailService` from concrete SMTP implementations, making the class testable and allowing runtime configuration. All instantiations across the codebase have been updated to pass the dependency through the constructor."
+The refactoring introduces constructor-based dependency injection by accepting `ISmtpClient` as a parameter. This decouples `EmailService` from concrete SMTP implementations, making the class testable and allowing runtime configuration. All instantiations across the codebase have been updated to pass the dependency through the constructor.
 
 **When to choose this model**
 

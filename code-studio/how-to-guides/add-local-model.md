@@ -39,7 +39,7 @@ Use personal models when you need to:
 
    <img src="how-to-guides-images/apiKey.png" alt="API Key">
 
-   > Note: Ensure the API key is valid and correct.
+   > **Note:** Ensure the API key is valid and correct.
 
 4. After adding the key, available models will be listed. Choose the models you want from the list.
 

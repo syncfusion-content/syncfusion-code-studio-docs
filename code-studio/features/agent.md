@@ -7,7 +7,7 @@ keywords: "code, IDE, AI, developer-tools, syncfusion, code-assistance, producti
 
 # Agent
 
-# Overview 
+## Overview 
 
 Agent Mode is an autonomous AI that plans and executes multi-step coding tasks across your project. It explores your codebase, makes changes with workspace tools, and adapts to errors—while you review and approve each step. Enable it in Settings > Agents, switch to Agent mode in chat, then describe your goal.
 
@@ -94,5 +94,5 @@ Consider creating the ToDo application,
 > **Note:** Projects created in Code Studio are compatible with other IDEs (for example, Visual Studio and VS Code), allowing you to open and work on the same project across different development environments.
 
 ## Related Features
-- Agent (this feature): Explore, plan, and apply changes automatically.
-- Custom Agent: Define rules/instructions for consistent, constrained behavior. See: [Custom Agent](/code-studio/reference/configure-properties/custom-agents)
+
+- [Custom Agent](/code-studio/reference/configure-properties/custom-agents): Define rules/instructions for consistent, constrained behavior.

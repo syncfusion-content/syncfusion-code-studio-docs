@@ -27,7 +27,7 @@ Settings allow users to tailor the development environment to their individual p
 
 ## Prerequisites
 
-- Syncfusion Code Studio installed and a project folder opened with write access. If you have not yet downloaded Code Studio, see the [installation guide](/code-studio/getting-started/install-and-configuration).
+**Code Studio Installation** - Download and configure the IDE: [Install and Configuration](/code-studio/getting-started/install-and-configuration).
 
 ## How to Access User Settings
 
@@ -102,15 +102,15 @@ The following settings are available on the User Settings page.
 
 #### Agent Enabled 
 - Enables agent mode, which can be activated via the dropdown in the chat box. 
-- Default: Enabled 
+- Default: `Enabled` 
 
 #### Agent Max Requests 
 - Sets the maximum number of requests per turn when using an agent. If the limit is reached, you’ll be asked to confirm to continue. 
-- Default: 25 
+- Default: `25`
 
 #### Use AGENTS.md File 
 - Decide whether the instructions from the AGENTS.md file in your workspace are added to every chat request.
-- Default: Enabled.
+- Default: `Enabled`
 
 <img src="../reference-images/settings-agents.png" alt="UserSettings" >
 
@@ -118,17 +118,20 @@ The following settings are available on the User Settings page.
 
 #### Use codestudio-instructions.md File 
 - Controls whether instructions from `.codestudio/codestudio-instructions.md` are added to Code Studio requests. 
+- Default: `Disabled`
 
 > **Note:** Keep your instructions short and precise. Poor instructions can degrade Code Studio quality and performance. 
 
 #### Instruction File Locations 
 - Specify locations of instruction files (`*.instructions.md`) that can be attached in chat sessions.
+- Default: `Disabled`
 
 <img src="../reference-images/settings-instruction.png" alt="UserSettings" >
 
 ### Autocomplete
 
 - When enabled, Code Studio provides inline code suggestions across all supported languages.
+- Default: `Enabled`
 
 <img src="../reference-images/settings-autocomplete.png" alt="UserSettings" >
 
@@ -140,7 +143,8 @@ The following settings are available on the User Settings page.
 
 ### Telemetry
 
-- When enabled, Code Studio collects anonymous telemetry data to improve the product. 
+- When enabled, Code Studio collects anonymous telemetry data to improve the product.
+- Default: `Enabled`
 
 <img src="../reference-images/settings-telemetry.png" alt="UserSettings" >
 
@@ -150,7 +154,7 @@ The following settings are available on the User Settings page.
   Access the official Syncfusion Code Studio documentation for configuration guidance and usage instructions.
 
 - **Have an Issue?**  
-  If you encounter any problems, you can easily reach out to our support team at [support@syncfusion.com](https://support.syncfusion.com).
+  If you encounter any problems, you can easily reach out to our support team at [support.syncfusion.com](https://support.syncfusion.com).
 
 - **Legal Center**  
   Review our transparent legal policies and agreements in the Legal Center. This ensures you fully understand and comply with Syncfusion’s terms and conditions. 

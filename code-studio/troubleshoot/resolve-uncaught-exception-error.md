@@ -70,4 +70,4 @@ To confirm the issue is resolved:
 - **Allow Full Completion**: Let the update complete fully. The application typically relaunches automatically.
 - **Maintain System Resources**: Ensure sufficient disk space and memory during update operations.
 
-**Note:** Backup Recommendation - If you have custom configurations or settings you want to preserve, back up the relevant folders before deleting or clearing them.
+> **Note:** Backup Recommendation - If you have custom configurations or settings you want to preserve, back up the relevant folders before deleting or clearing them.
