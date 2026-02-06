@@ -178,7 +178,7 @@ Step 4: Review the Terms and Conditions, then click Accept and proceed.
 
 <img src="../../reference-images/mcp-postman-installed.png" alt="custom server" />
 
-For demonstration purposes, we created a **User Management API** collection in Postman with sample data and added five sample requests to the collection.
+For demonstration purposes, we created a **User Management API** collection in Postman with sample data and added five sample API requests to the collection.
 
 You can create your own collection and add API requests by following Postman’s [documentation](https://learning.postman.com/docs/collections/use-collections/use-collections-overview).
 
@@ -189,9 +189,9 @@ You can create your own collection and add API requests by following Postman’s
 
 - In this section, you will use Code Studio and the Postman MCP Server to generate standardized test scripts for the **User Management API** collection.
 
-- When you give the prompt, Code Studio generates test scripts for all requests in the collection.
+- When you give the prompt, Code Studio generates test scripts for all API requests in the collection.
 
-- Code Studio then applies the generated scripts in Postman under each request’s **Test Scripts** tab.
+- Code Studio then applies the generated scripts in Postman under each API request’s **Test Scripts** tab.
 
 **Sample prompt**
 
