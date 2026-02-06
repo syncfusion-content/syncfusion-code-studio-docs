@@ -21,7 +21,7 @@ This guide provides step-by-step instructions to configure and use **Ollama** mo
 
 - When you prefer to work completely offline – your code or data must never leave your computer (sensitive projects, company policy, or offline work).
 
-**Note:**
+> **Note:**
 The Ollama models are connected directly from Ollama (outside of Syncfusion). Model usage, behavior, performance, license terms, and any restrictions are the sole responsibility of the user. It is strongly recommended to review the corresponding model's official usage policy, license, and intended use cases before configuring and using it in your projects.
  
 ## Prerequisites
@@ -35,7 +35,7 @@ Before starting, ensure you have system requirements to install open-source mode
   - 8–16 GB RAM for small models; 32+ GB recommended for large models.
   - GPU recommended for best performance on large models (check provider docs for GPU requirements).
 
-**Note:** Ollama local models are optimized for macOS, where they perform well. They may work on high-configuration Windows machines, but their performance cannot be guaranteed. 
+> **Note:** Ollama local models are optimized for macOS, where they perform well. They may work on high-configuration Windows machines, but their performance cannot be guaranteed. 
  
 ## Download and Install steps
 Refer the ollama's official documentation below to download and install Ollama on your machine.

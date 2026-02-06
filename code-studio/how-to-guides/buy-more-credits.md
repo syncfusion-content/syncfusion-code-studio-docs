@@ -22,7 +22,7 @@ Purchase additional credits when:
 
 ## Prerequisites
 
-- You must have administrative access to the Settings area in Code Studio Enterprise, this access typically available to organization admins.
+- You must have administrative access to the Settings area in Code Studio Enterprise, this access typically available to organization [admins](https://help.syncfusion.com/code-studio/how-to-guides/invite-new-user#step-5--select-role).
 - Ensure you have a valid payment method.
 
 ## Steps to Buy Credits

@@ -26,11 +26,11 @@ Before getting started, make sure that:
 ## What You’ll Learn
 By the end of this quick start guide, you’ll learn how to:
 
-- Open an existing project folder in the IDE, then navigate and edit files using the Explorer sidebar and built-in editor
+- Load a workspace into your development environment to access its files and resources
 - Access and use the core AI-powered coding features: Autocomplete, Ask, Edit, Agent, and Plan
 - Generate, explain, refactor, and fix code using natural language instructions
 - Perform targeted code improvements with Inline Chat directly in the editor
-- Add extra files or folders from your workspace as context to make AI suggestions more accurate and project-aware
+- Add necessary files or folders from your workspace as context to make AI suggestions more accurate and project-aware
 
 ## Step 1: Open a Project in Code Studio
 
@@ -49,13 +49,11 @@ Follow the steps below to open your project and start working inside the Code St
 5. **Or you can directly open your project folder using 'Open Folder' button under the Code Studio logo**
 
 
-**Note: Open folder directly from File Explorer / Finder using terminal**
-- **Windows**  
-  In File Explorer → type `cmd` in the address bar → Enter → then run:  
-  `sfcode .`
-- **macOS**  
-  Right-click inside folder → Services → New Terminal at Folder → then run:  
-  `sfcode .`
+> **Note: Open folder directly from File Explorer / Finder using terminal**
+> - **Windows**  
+>  In File Explorer → type `cmd` in the address bar → Enter → then run: `sfcode .`
+>- **macOS**  
+>  Right-click inside folder → Services → New Terminal at Folder → then run: `sfcode .`
 
 ### Result:
 Your selected project will open in the editor where you can:
