@@ -43,6 +43,7 @@ There are two types of instruction files:
 - Cut repeated **chat instructions** by setting defaults for behavior, style, tools, and project context.  
 - Support **path-specific** rules so guidance matches the code you’re working on.
 
+
 ## Enabling Custom Instruction Files
 
 **Step 1:** Open **settings** at the bottom left in Code Studio.  
@@ -189,4 +190,42 @@ You will see three options:
     - Step 4: Open chat and send message your instruction file will come in the **used reference.**
 
     <img src="../reference-images/instruction_path_result.png" alt="instruction_path_result" >
-    
+
+ ## Custom Instructions Example
+The following examples show how custom instructions can be used.
+
+```
+---
+applyTo: "docs/**/*.md"
+---
+# Technical Documentation Style Guide
+
+## Writing Principles
+- Communicate concepts with clarity and precision.
+- Prioritize simplicity over complexity whenever possible.
+- Maintain uniform structure across all documentation pages.
+- Provide practical examples to reinforce understanding.
+
+## Tone & Style
+* Use a professional and friendly tone.
+* Prefer short, direct sentences.
+* Avoid filler words and unnecessary explanations.
+* Focus on actionable information that helps readers immediately.
+
+## Formatting Standards
+- Use descriptive headings to break content into logical sections.
+- Use numbered lists for step‑by‑step instructions.
+- Highlight important terms with **bold** formatting.
+- Use inline code formatting (`example`) for commands, arguments, and filenames.
+
+## Code & Examples
+- Include language‑specific code fences for syntax highlighting.
+- Add comments in examples to clarify purpose.
+- Provide both input and expected output wherever relevant.
+- Keep code examples minimal, runnable, and directly associated with the topic.
+
+## Links & References
+- Link to related guides, API references, and external standards.
+- Use descriptive link text instead of generic labels like “here”.
+- Ensure all referenced content is up‑to‑date.
+```   
