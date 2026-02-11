@@ -47,10 +47,10 @@ Before starting, ensure:
 * Choose a default model for each mode:
   * Chat Mode
 
-    <img src="./howtoguide-images/dashboard-manage-chat.png" alt="cache">
+    
 
   * Autocomplete Mode
-    <img src="./howtoguide-images/dashboard-manage-autocomplete.png" alt="cache">
+   
 
 * Click Update to save your default model preferences.
 

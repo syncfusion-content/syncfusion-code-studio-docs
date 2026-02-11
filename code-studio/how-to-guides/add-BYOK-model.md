@@ -43,7 +43,7 @@ Before you begin, ensure you have the following:
 
    <img src="./howtoguide-images/open-dashboard.png" alt="Open Dashboard" />
 
----
+
 
 ### Step 2: Add an LLM Provider
 
@@ -70,7 +70,6 @@ Follow these steps to add a new LLM provider to Code Studio:
 
 5. Once added successfully, the provider becomes available for model selection.
 
----
 
 ### Step 3: Add a Model
 
@@ -96,7 +95,7 @@ After configuring your LLM provider, follow these steps to add a model:
 
 5. Click **Add** to include the model in your BYOK model list.
 
----
+
 
 ### Step 4: Verify the Model in Code Studio IDE
 
@@ -114,7 +113,7 @@ After adding the model, verify that it appears in the Code Studio IDE:
 
 > **Tip:** After refreshing, your BYOK model should appear and be ready for use in Chat based on your configuration.
 
----
+
 
 ## Related links
 
