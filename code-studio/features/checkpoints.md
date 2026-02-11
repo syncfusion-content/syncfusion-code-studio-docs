@@ -6,7 +6,7 @@ keywords: code, IDE, AI, developer-tools, syncfusion, code-assistance, productiv
 ---
 
 
-# Checkpoints and Editing requests in Code Studio
+# Checkpoints and Editing requests 
 
 ## Overview 
 
@@ -62,6 +62,11 @@ After restoring the previous checkpoint, Code Studio allows you to redo the chan
 1. To redo these changes, simply select Redo from the Chat view after the checkpoint has been restored.
 
    <img src="./feature-images/checkpoint3.png" alt="checkpoint"  />
+
+## How to Undo and Redo the Last Request
+Code Studio lets you quickly reverse or reapply your most recent action. Use Undo Last Request to roll back the workspace to the state before the change was applied. If you change your mind, select Redo Last Request to bring the workspace back to the state with those changes. This helps you stay flexible and in control while experimenting with edits.
+
+<img src="./feature-images/checkpoint4.png" alt="checkpoint"  />
 
 ## Best Practices
 
