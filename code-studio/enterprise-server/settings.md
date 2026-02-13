@@ -17,13 +17,13 @@ The Settings area centralizes account and organization configuration for Code St
 ## 1. Profile
 
 - View user name, email address, and account type
-<img src="./enterprise-images/settingsprofile.png" alt="settings"  />
+<img src="./enterprise-images/profile.png" alt="settings"  />
 
 ## 2. Organization
 
 - View organization name and organization ID
 - Share the organization ID with your admins when requesting access or support
-<img src="./enterprise-images/settingsorg.png" alt="settings"  />
+<img src="./enterprise-images/organization.png" alt="settings"  />
 
 ## 3. Credits
 

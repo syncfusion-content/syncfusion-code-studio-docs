@@ -84,7 +84,7 @@ To verify that a budget alert is created and to modify an existing alert, follow
 
 **Step 3:** Follow the same steps as setting a team budget alert (Steps 1–2). Enter the **Email subject**; the **Send alerts to** field is automatically prefilled with the individual user’s email.
 
-<img src="./howtoguide-images/set-alert-individual.png" alt="budget-alert"  />
+<img src="./howtoguide-images/set-alert-teams.png" alt="budget-alert"  />
 
 **Step 4:** After you click **Set**, the budget alert is created.
 
@@ -102,7 +102,7 @@ To verify that a budget alert is created and to modify an existing alert, follow
 
 3.	Click **Manage Alert**. Update the alert settings (for example, turn **50% Off** and turn **75% On**), enter the required values in the input fields, and then click **Update** to save the changes.
 
-   <img src="./howtoguide-images/update-alert-individual.png" alt="budget-alert"  />
+   <img src="./howtoguide-images/manage-alert-update-teams.png" alt="budget-alert"  />
 
 ### Finally, you will receive the alert email as shown in the images below,
 
