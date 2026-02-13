@@ -1,24 +1,23 @@
 ---
-title: How to remove cache folders of Code Studio to resolve app corruption
-Description: Guide to delete Code Studio cache folders and config.yaml to fix application corruption on Windows and macOS.
+title: How to resolve Code Studio app corruption
+Description: Guide to fix application corruption on Windows and macOS.
 platform: syncfusion-code-studio
 keywords: cache, corruption, troubleshoot
 ---
 
 
 
-# How to remove cache folders of Code Studio to resolve the app corruption.
+# How to resolve Code Studio app corruption.
 
-This guide explains how to delete the Code Studio cache folders when you encounter application corruption issues.
+When Syncfusion Code Studio becomes corrupted or stops functioning correctly, a full reset of the application may be required. This guide provides detailed steps to completely remove Code Studio’s program files, configuration data, and related directories on both Windows and macOS. Performing this reset ensures that all corrupted components are cleared so you can reinstall and restore the application to a clean, stable state.
 
 ## Problem Summary
 
-This procedure helps you reset Syncfusion Code Studio to its default state by clearing cache files and configuration data. This process helps restore the application to its default state.
+Application corruption can occur when essential Code Studio files—such as installation components, configuration data, or cache folders—become damaged or inconsistent. These issues may prevent the IDE from launching, updating, or functioning normally. This guide explains how to fully remove all relevant directories so that a clean reinstallation can rebuild fresh, working files and resolve corruption‑related problems.
 
 ## Possible Causes
 
 - **Auto update issues**: Incomplete or interrupted automatic updates can sometimes affect application stability clearing the cache helps refresh the IDE and resolve update-related behavior.
-- **Configuration reset needed**: The `config.yaml` file may need to be restored to its default settings for the IDE to function correctly.
 - **System configuration updates**: Recent changes to your operating system settings may require a cache refresh to ensure compatibility.
 - **Performance optimization**: Regularly clearing the cache helps maintain smooth and optimal application performance over time.
 
@@ -26,7 +25,7 @@ This procedure helps you reset Syncfusion Code Studio to its default state by cl
 
 ### Step 1: Delete the Syncfusion Code Studio Folders
 
-After removing the configuration file, you need to delete the main application folders to completely clear the cache.
+You need to delete the main application folders to completely resolve the issue.
 
 #### Windows
 
@@ -48,17 +47,19 @@ C:\Users\YourName\AppData\Roaming\Syncfusion Code Studio
 
 Delete the Syncfusion Code Studio folders at these locations:
 
+**Applications:**
+```
+/Applications/Syncfusion Code Studio
+```
+<img src="./troubleshoot-images/cache-image-macapplication.png" alt="cache">
+
 **Application Support:**
 ```
 /Users/YourName/Library/Application Support/Syncfusion Code Studio
 ```
 <img src="./troubleshoot-images/cache-image-macroaming.png" alt="cache">
 
-**Applications:**
-```
-/Applications/Syncfusion Code Studio
-```
-<img src="./troubleshoot-images/cache-image-macapplication.png" alt="cache">
+
 
 ### Step 2: After Deleting Cache Folders
 

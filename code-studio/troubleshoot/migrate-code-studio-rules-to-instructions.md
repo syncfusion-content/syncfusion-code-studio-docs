@@ -16,7 +16,7 @@ In versions prior to 2.0.0, Code Studio stored rule configurations in two legacy
 ## Resolution Steps
 
 ### Step 1: Create a New Instruction File
----
+
 - Open Code Studio.
 - Create a new instruction file following the [Custom Instructions](/code-studio/reference/configure-properties/custom-instructions)
 
@@ -24,7 +24,6 @@ In versions prior to 2.0.0, Code Studio stored rule configurations in two legacy
 
 
 ### Step 2: Migrate Existing Rules
----
 
 ### If Your Rules Were in `config.yaml`
 
