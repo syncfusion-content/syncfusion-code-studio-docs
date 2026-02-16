@@ -5,22 +5,37 @@ platform: syncfusion-code-studio
 keywords: code, IDE, AI, developer-tools, syncfusion, code-assistance, productivity, UI-generation, bug-fixing, documentation
 ---
 
-# Autocomplete in Code Studio
+# Autocomplete
 
-## Description
-Syncfusion Code Studio includes an AI-powered autocomplete system that assists you while writing code. As you type, it suggests relevant code completions, comments, and patterns directly inside the editor based on the context of your current file, and it supports a wide range of programming languages and frameworks.
+## Overview
+Syncfusion Code Studio provides an AI‑powered Autocomplete system designed to accelerate coding by offering intelligent inline suggestions and completing code based on context. The feature supports multiple programming languages and frameworks, helping developers write faster, cleaner, and more consistent code.
+Key capabilities include:
 
-## Purpose
-The purpose of Autocomplete is to make coding faster, more accurate, and easier by:
-- Reducing repetitive typing
-- Completing functions, loops, and patterns automatically
-- Maintaining coding style consistency
-- Generating code from comments
-- Saves time when applying similar changes across multiple areas
+- Inline code suggestions (ghost text)
+- Automatic code completion for functions, loops, and patterns
+- Code generation from comments
+- Style‑aware suggestions that match your existing coding patterns
+- Multi‑suggestion alternatives
+- Next Edit Suggestions for guided sequential editing and refactoring
 
-## Prerequisites
-1. **Create and sign in** to your Syncfusion Code Studio account, visit: [Syncfusion Code Studio](https://app.sfcodestudio.com)
-2. **Download and open Syncfusion Code Studio**, visit: [Install and Configuration](/code-studio/getting-started/install-and-configuration)
+## Use Cases
+1. Faster Code Writing
+Autocomplete reduces repetitive typing and automatically completes structures like loops, functions, and common patterns.
+2. Maintaining Coding Style Consistency
+Code Studio analyzes your codebase and aligns suggestions with your naming conventions, patterns, and structure.
+
+3. Code Generation from Comments
+By writing descriptive comments, Code Studio can generate classes, fields, and method logic automatically.
+
+4. Error Correction and Refactoring
+Next Edit Suggestions help predict and guide your next change.
+
+5. Sequential Edits Across Code
+When performing multi‑step updates—like renaming, refactoring, or modifying patterns—Code Studio highlights and suggests the next best edit to maintain flow.
+
+## Prerequisites 
+
+- Syncfusion Code Studio installed and configured on your system. If you have not yet downloaded Code Studio, please refer to this link [Install and Configure](/code-studio/getting-started/install-and-configuration) for step-by-step instructions on downloading and configuring Code Studio.
 
 ## How Autocomplete Works
 ## Inline Suggestion
@@ -144,5 +159,8 @@ Code Studio identifies when a variable has been renamed and suggests updating al
 - **Make intentional edits:** When you rename, reorganize, or modify code with a clear purpose, Code Studio can more accurately infer your intent and provide aligned follow up suggestions.
 - **Validate propagated changes:** Next Edit Suggestions may update related code across the file or project. Review these changes to ensure they match your design intent.
 
+## Releted Features
+ - [Inline Chat](/code-studio/features/inlinechat) Inline Chat in Syncfusion Code Studio lets you talk to AI directly inside your code or terminal without switching screens.
+ - [Generate Code](/code-studio/features/generatecode) The Generate Code feature speeds up development by automatically handling repetitive tasks and giving instant AI-powered help right inside your editor.
 
 
