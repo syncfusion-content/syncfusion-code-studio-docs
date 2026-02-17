@@ -90,11 +90,11 @@ Use the context menu to:
 Accessible via the context menu (three-dot icon):
 - **Rename Team** – Update the team name.
 
-   <img src="./enterprise-images/renameTeam.png" alt="Rename Team" />
+   
 
 - **Set Team Owner** – Assign ownership.
 
-   <img src="./enterprise-images/setTeamOwner.png" alt="Set Team Owner" />
+   
 
 - **Delete Team** – Remove the team.
 
@@ -102,7 +102,7 @@ Accessible via the context menu (three-dot icon):
 
 - **Change Team** – Move a user from one team to another.
 
-   <img src="./enterprise-images/changeTeam.png" alt="Change Team" />
+   
 
 - **Remove Memeber** – Remove user from selected Team.
 
@@ -119,7 +119,7 @@ Accessible via the context menu (three-dot icon):
 
 - **Invite New Users:** Send an invite link through email to new users.
 
-   <img src="./enterprise-images/inviteNewUser.png" alt="Invite new User" />
+   <img src="./enterprise-images/inviteUserDialog.png" alt="Invite new User" />
 
 ## 4. Best Practices
 - **Maintain Clear Roles:** Assign roles based on responsibilities.

@@ -6,13 +6,24 @@ keywords: code, IDE, AI, developer-tools, syncfusion, code-assistance, productiv
 ---
 
 
-# Checkpoints and Editing requests in Code Studio
+# Checkpoints and Editing requests 
 
-## Description
+## Overview 
+
 The Checkpoints and Editing Requests features in Syncfusion Code Studio provide powerful tools for managing your development workflow. Checkpoints automatically record the state of your workspace at important moments, while Editing Requests allows you to revise previous chat instructions and revert the workspace to the state before those instructions were applied. Together, these features create a safe, traceable, and flexible environment that supports iterative development and experimentation. 
 
-## Purpose
-The purpose of these features is to help developers maintain control over their workspace as they interact with AI-driven coding assistance. This Checkpoints and Editing Requests provides reliable history tracking, predictable behavior, and safer AI-assisted updates. 
+ 
+## Use Cases 
+
+- Save the current state so you can safely experiment with new features or code updates. 
+
+- Roll back to a known state when trying different approaches without worrying about breaking the workspace. 
+
+- Quickly restore to a safe state if AI-generated edits or manual changes don’t work as expected 
+
+## Prerequisites 
+
+- Syncfusion Code Studio installed and configured on your system. If you have not yet downloaded Code Studio, please refer to this link [Install and Configure](/code-studio/getting-started/install-and-configuration) for step-by-step instructions on downloading and configuring Code Studio.
 
 ## Editing a Previous Chat Request
 Code Studio allows you to edit any previous chat request in your conversation history. When you modify an earlier request, Code Studio treats it as a new instruction and sends it again to the AI model. The workspace is then reverted to the state it was in before the original request—undoing any file changes made by that request and the requests that came after it.
@@ -52,6 +63,11 @@ After restoring the previous checkpoint, Code Studio allows you to redo the chan
 
    <img src="./feature-images/checkpoint3.png" alt="checkpoint"  />
 
+## How to Undo and Redo the Last Request
+Code Studio lets you quickly reverse or reapply your most recent action. Use Undo Last Request to roll back the workspace to the state before the change was applied. If you change your mind, select Redo Last Request to bring the workspace back to the state with those changes. This helps you stay flexible and in control while experimenting with edits.
+
+<img src="./feature-images/checkpoint4.png" alt="checkpoint"  />
+
 ## Best Practices
 
 ### 1. Review checkpoints before restoring
@@ -62,3 +78,6 @@ If an AI-generated update wasn't what you expected, modify the earlier request i
 
 ### 3. Restore and redo changes carefully
 When restoring a checkpoint, verify the impact on recently edited files. If needed, use the **Redo** option to reapply reverted changes safely.
+
+## Releted Features
+- [Agent Mode](/code-studio/features/agent) - File changes can occur as the AI assists with coding tasks in agent mode. Checkpoints become especially useful here because they let you restore the workspace to a safe state if needed, or redo changes that were rolled back. This ensures you stay in control even when the agent is making edits.

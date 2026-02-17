@@ -1,61 +1,66 @@
 ---
 title: Introduction to Tools in Syncfusion Code Studio
-description: Learn how to use the built-in tools in Syncfusion Code Studio to streamline your development workflow and automate tasks efficiently.
+description: Learn how to use the built-in and MCP tools in Syncfusion Code Studio to streamline your development workflow and automate tasks efficiently.
 platform: syncfusion-code-studio
-keywords: tools, syncfusion, code-studio, development, automation, workflow, built-in-tools
+keywords: tools, syncfusion, code-studio, development, automation, workflow, built-in-tools, MCP
 ---
 
 # Tools Support
 
-## Overview
-
-The Tools Support feature in Syncfusion Code Studio empowers developers to perform specific actions within the development environment, such as creating folders, reading files, searching within files, and interacting with browsers. This guide provides a step-by-step approach to use the built-in tools, enabling you to streamline your development workflow and automate tasks efficiently with simple prompts.
-
 ## Purpose
+
+The Tools Support feature in Syncfusion Code Studio empowers developers to perform specific actions within the development environment, such as creating folders, reading files, searching within files, and interacting with browsers. This guide provides a step-by-step approach to use the built-in and MCP tools, enabling you to streamline your development workflow and automate tasks efficiently with simple prompts.
+
+## When to use
 
 The tools are designed to automate and simplify common development tasks, allowing you to focus on writing code. Key purposes include:
 
 ### 1. File Management
-- Create new files or edit existing ones.
-- Perform bulk search-and-replace operations.
-- Organize project structures efficiently.
+- Create new files or edit existing ones
+- Perform bulk search-and-replace operations
+- Organize project structures efficiently
 
 ### 2. Terminal Integration
-- Run CLI commands like npm install or yarn start.
-- Install dependencies or launch development servers.
-- Automate build and deployment processes.
+- Run CLI commands like `npm install` or `yarn start`
+- Install dependencies or launch development servers
+- Automate build and deployment processes
 
 ### 3. Code Insights
-- Identify and fix bugs with AI-driven suggestions.
-- Refactor code for better performance or readability.
-- Generate inline documentation automatically.
+- Identify and fix bugs with AI-driven suggestions
+- Refactor code for better performance or readability
+- Generate inline documentation automatically
 
 ### 4. Web and Browser Tools
-- Perform web searches to fetch relevant resources.
-- Automate browser tasks like testing or scraping.
+- Perform web searches to fetch relevant resources
+- Automate browser tasks like testing or scraping
+
+## Prerequisites
+
+1. **Code Studio Installation** - Download and configure the IDE: [Install and Configuration](/code-studio/getting-started/install-and-configuration)
+2. **For MCP Tools** - MCP servers must be installed and configured before they can be used. See [MCP Marketplace](/code-studio/reference/configure-properties/mcp/marketplace) for installation instructions.
 
 ## Types of Tools
 
-Syncfusion Code Studio provides a suite of tools to streamline your workflow.You can use two types of tools in chat
+Syncfusion Code Studio provides a suite of tools to streamline your workflow. You can use two types of tools in chat:
  
 ### 1. Built-In Tools
 
--	Built-in tools are automatically available in chat.
--	They cover common development tasks and are optimized for working within your workspace.
--	No installation or configuration is required — they are ready to use as soon as you start.
+- Built-in tools are automatically available in chat.
+- They cover common development tasks and are optimized for working within your workspace.
+- No installation or configuration is required — they are ready to use as soon as you start.
 
 ### 2. MCP Tools
 
--	Model Context Protocol (MCP) is an open standard that enables AI models to use external tools and services through a unified interface.
--	MCP servers provide tools that you can add to Syncfusion Code Studio to extend chat with additional capabilities.
--	To use MCP tools, you must install and configure MCP servers first.
--	MCP servers can run locally on your machine or be hosted remotely.
+- Model Context Protocol (MCP) is an open standard that enables AI models to use external tools and services through a unified interface.
+- MCP servers provide tools that you can add to Syncfusion Code Studio to extend chat with additional capabilities.
+- To use MCP tools, you must install and configure MCP servers first.
+- MCP servers can run locally on your machine or be hosted remotely.
 
 <img src="../reference-images/tools1.png" alt="Tools" >
 
 ### Toolset Overview
 
-Below is a list of some tools and their descriptions for reference
+Below is a list of available tools and their descriptions for reference:
 
 <table border="1" cellpadding="8" cellspacing="0">
   <thead>
@@ -100,13 +105,15 @@ Below is a list of some tools and their descriptions for reference
   </tbody>
 </table>
 
-## How to Enable Tools for Chat
+## Steps
 
-Before you can use tools in chat, you need to enable them in the **Chat view**. Tools can be enabled or disabled on a per-request basis using the **tools picker**. 
+### How to Enable Tools for Chat
 
-> **Note:** Select the agent after that tool picker is visible in the chat. Select only the tools that are relevant to your prompt to improve results.
+Before you can use tools in chat, you need to enable them in the **Chat view**. Tools can be enabled or disabled on a per-request basis using the **tools picker**.
 
-### How to access the tools picker
+> **Note:** Select the agent after the tools picker is visible in the chat. Select only the tools that are relevant to your prompt to improve results.
+
+#### How to access the tools picker
 
 **Step 1** : Click the Syncfusion Code Studio icon. The chat window is displayed.
 
@@ -126,7 +133,7 @@ Before you can use tools in chat, you need to enable them in the **Chat view**. 
 
 **💡Tip** : Use the search box to quickly filter the list of tools.
 
-## How to use tools in your prompts
+### How to Use Tools in Your Prompt 
 
 You can explicitly reference tools in your prompts by typing **#** followed by the **tool name**. This is useful when you want to ensure that a specific tool is used. Type **#** in the chat input field to see a list of available tools.
 
@@ -136,7 +143,7 @@ You can explicitly reference tools in your prompts by typing **#** followed by t
 
 <img src="../reference-images/tools6.png" alt="Tools" >
 
-## Tools Approval
+### Tools Approval
 
 When using agents, the agent automatically determines which tools to use from the enabled set based on your prompt and the context of your request. The agent autonomously selects and invokes the relevant tools needed to accomplish the task.
 
