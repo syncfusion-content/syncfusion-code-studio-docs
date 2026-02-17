@@ -150,7 +150,12 @@ Code Studio identifies when a variable has been renamed and suggests updating al
 
    <img src="./feature-images/auto-configure5.png" alt="Autocomplete"  />
 
-> **Note:** By default, only the premium autocomplete model is available. If you want to use other models for autocomplete, you must add them through BYOK (Bring Your Own Key). When configuring BYOK, ensure that the model is added with the Autocomplete model option enabled on the server. You can follow the instructions provided in the [BYOK help link](/code-studio/enterprise-server/providersandmodels) to complete this setup. Once a model is added via BYOK with autocomplete enabled, it will automatically appear in the Autocomplete model dropdown, allowing you to switch from the default premium model to another supported model.
+> **Note:** By default, only GPT-4.1 nano is available for autocomplete. If you want to use other models for autocomplete, you must add them through BYOK (Bring Your Own Key). When configuring BYOK, ensure that the model is added with the Autocomplete model option enabled on the server. You can follow the instructions provided in the [BYOK help link](/code-studio/enterprise-server/providersandmodels) to complete this setup. Once a model is added via BYOK with autocomplete enabled, it will automatically appear in the Autocomplete model dropdown, allowing you to switch from the default premium model to another supported model.
+
+> **Note**: Only the following models support autocomplete:
+> 
+> 1. **OpenAI:** GPT-4.1 nano, GPT-5-nano 
+> 2. **Open Router:** gemini-2.0-flash, x-ai/grok-4-fast, x-ai/grok-4.1-fast, GPT-4.1 nano, GPT-5-nano
 
 ## Best Practices
 - **Write meaningful comments:** Better clarity leads to more accurate code generation.

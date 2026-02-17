@@ -112,7 +112,7 @@ To verify that a budget alert is created and to modify an existing alert, follow
 
 **Individual User Budget Alert Email:**
 
-<img src="./howtoguide-images/individual-user-email.png" alt="budget-alert"  />
+<img src="./howtoguide-images/individual-user-email.jpg" alt="budget-alert"  />
 
 
 
