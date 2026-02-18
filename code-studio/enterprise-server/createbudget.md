@@ -71,7 +71,7 @@ The Budget feature in Code Studio enables administrators to allocate and monitor
   - Choose the **Budget Period**.
 - Click the **“Add”** button to assign the budget to the team member.
 
-   <img src="./enterprise-images/detailsBudget.png" alt="team User budget"  />
+   <img src="./enterprise-images/addUserBudget.png" alt="team User budget"  />
 
 ## 4. Bulk Budget Setup for Users
 
