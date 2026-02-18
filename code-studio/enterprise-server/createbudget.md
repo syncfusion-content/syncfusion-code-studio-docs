@@ -66,7 +66,7 @@ The Budget feature in Code Studio enables administrators to allocate and monitor
 
 - The selected team members are listed in the grid.
 - Open the **Context Menu** and click **“Add Budget”**.
-- Now the **Budget Dialog Box** will be opens:
+- Now the **Budget Dialog Box** will be open:
   - Set the **Maximum Budget**.
   - Choose the **Budget Period**.
 - Click the **“Add”** button to assign the budget to the team member.
@@ -134,7 +134,7 @@ Administrators can set up alerts for a team or a specific user to notify us when
    <img src="./enterprise-images/setAlert.png" alt="set alert"  />
 
 - Set the **Usage Threshold** (e.g., 50%).
-- Enter the **Email Subject Prefix** (required).
+- Enter the **Email Subject** (required).
 - Specify the **Recipients** for the alert (e.g., team lead or manager). An alert email will be sent to these recipients.
 - Click **Set** to activate the alert.
 
