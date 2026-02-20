@@ -6,7 +6,7 @@ platform: syncfusion-code-studio
 keywords: ask-code-studio, error-resolution, ai-debugging, code-quality, developer-productivity, real-time-assistance
 ---
 
-# Quick Start Guide about Syncfusion Code Studio
+# Quick Start 
 
 **Syncfusion Code Studio** is an intelligent, AI‑powered coding companion designed to make your development process faster and easier. Instead of writing every line manually or searching for solutions, Code Studio works alongside you—understanding your intent, offering meaningful suggestions, and helping you learn as you build.
 
@@ -106,7 +106,7 @@ This reduces typing effort and ensures consistency.
 - You can update logic, restructure components, clean up syntax, or improve performance without editing manually.  
 Code Studio shows suggested changes clearly, letting you apply or undo them step by step.
 
-**For Example:**  Give, *“Simplify this function using early returns”* as prompt, Edit Mode rewrites it neatly while preserving behavior.
+**For Example:**  Give, *“Improve the performance of this”* as prompt, Edit Mode rewrites it neatly while preserving behavior.
 
 <img src="gettingstarted-images/edit.png" alt="Edit" />
 
@@ -119,7 +119,7 @@ Code Studio shows suggested changes clearly, letting you apply or undo them step
 - It can plan, update, and refine complex project structures while giving you full control over the process.  
 Ideal for scaffolding features, refactoring modules, or managing structured workflows.
 
-**For Example:**  *“Set up user authentication.”*  The Agent will outline steps, update backend routes, create frontend components, and explain changes.
+**For Example:**  *“Refactor the getConfig function to be more maintainable and add proper TypeScript types for all parameters.”*  The Agent will outline steps, update backend routes, create frontend components, and explain changes.
 
 <img src="gettingstarted-images/agent.png" alt="Agent" />
 

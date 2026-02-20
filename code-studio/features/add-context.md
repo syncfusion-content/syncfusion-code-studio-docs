@@ -67,7 +67,7 @@ You can select **any** of these based on what you want to share with the chat.
 
 ### 1. Automatic Context
 
-Implicit context is the context that Code Studio adds automatically. When you have a file open in the editor, Code Studio will suggest that **active file** at the bottom of the chat. You can simply click it to include the file as context without doing anything extra. This makes it easy for the chat to understand which file you’re working on and give better answers.
+Implicit context is the context that Code Studio adds automatically. When you have a file open in the editor, Code Studio will suggest that **active file** at the bottom of the chat. You can simply click the plus button in it to include the file as context without doing anything extra. This makes it easy for the chat to understand which file you’re working on and give better answers.
 
 <img src="./feature-images/auto-context.png" alt="check1"  />
 
@@ -153,7 +153,7 @@ Tools Context lets you add information from different tools inside Code Studio�
 
 ## #‑mentions in chat
 
-**#** is the **context variable** trigger.# is the context variable trigger. Type # in the chat box to **insert files, folders, symbols, tools, terminal output, source control changes,** and more—without leaving the keyboard. You can also drag and drop files/folders into Chat. 
+**#** is the **context items** trigger. Type # in the chat box to **insert files, folders, symbols, tools, terminal output, source control changes,** and more—without leaving the keyboard. You can also drag and drop files/folders into Chat. 
 
 ### Quick patterns
 - `#file:<name>` – attach a specific file  
@@ -175,7 +175,7 @@ Chat participants are **not the same as tools**. Tools are triggered automatical
 To use a chat participant, simply type **@** in the chat input box. Code Studio will show a list of available participants such as:
 - **@terminal** – for shell/CLI questions  
 - **@workspace** – for project files, structure, dependencies  
-- **@vscode** – for editor settings & features  
+- **@codestudio** – for editor settings & features  
 
 Selecting one routes your request to that domain expert.
 

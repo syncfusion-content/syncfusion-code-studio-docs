@@ -79,4 +79,4 @@ Once your instructions file is saved, Code Studio will:
 - Automatically reference your new instructions
 - Apply them to all future requests
 
-<img src="./troubleshoot-images/rules7.gif" alt="docsindexing"/><br/>
+<img src="./troubleshoot-images/rule.png" alt="docsindexing"/><br/>

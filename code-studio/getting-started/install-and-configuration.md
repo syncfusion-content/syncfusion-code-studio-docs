@@ -70,7 +70,7 @@ By the end of this tutorial, you’ll learn how to:
 
 ### Step 4: Start Using Code Studio
 After installing Code Studio, you can start using it immediately.
-- Open the Code Studio IDE and access the Code Studio chat box, which acts as your built-in assistant for coding tasks.
+- Open the Code Studio IDE and access the Code Studio chat box, which acts as your built-in AI assistant for coding tasks.
 - Type your first query in the chat panel.
 <img src="gettingstarted-images/firstchat.png" alt="install" />
 - If Code Studio responds, your subscription is active.

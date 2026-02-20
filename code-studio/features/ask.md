@@ -5,7 +5,7 @@ platform: syncfusion-code-studio
 keywords: code, IDE, AI, developer-tools, syncfusion, code-assistance, productivity, UI-generation, bug-fixing, documentation
 ---
 
-# Ask
+# Ask Mode
 
 ## Overview
 
@@ -24,13 +24,12 @@ Ask Mode is a conversational interface within Code Studio that provides immediat
 
 **Code Studio Installation** - Download and configure the IDE: [Install and Configuration](/code-studio/getting-started/install-and-configuration)
 
-## How to Use Ask Mode in Code Studio
+## How to Use Ask Mode 
 
 ### Step 1: Activate Ask Mode
 
 - Launch Code Studio IDE
-- Open the Code Studio chat panel
-- Select **Ask** from the agent dropdown menu
+- Select **Ask** from the agent dropdown menu in the chat panel
 
     <img src="./feature-images/ask1.png" alt="Ask Mode Selection" />
 
