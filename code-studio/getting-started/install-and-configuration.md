@@ -63,6 +63,7 @@ By the end of this tutorial, you’ll learn how to:
 - After installing Syncfusion Code Studio IDE, the **Welcome Page** will appear.
 <img src="gettingstarted-images/welcomepage.png" alt="install" />
 - To activate your account and enable all features, you’ll need to sign in inside the IDE. Choose one of these sign-in options:
+
   - **Microsoft Account:** Use your personal, work, or school Microsoft credentials.
   - **GitHub Account:** Sign in with your GitHub credentials.
   - **Syncfusion Account:** Create a new account using your email and password.
@@ -75,10 +76,12 @@ After installing Code Studio, you can start using it immediately.
 <img src="gettingstarted-images/firstchat.png" alt="install" />
 - If Code Studio responds, your subscription is active.
 - If the Code Studio IDE chat box does not respond, you will see a message prompting you to subscribe to a plan for full access to features.
+
 - Select **Upgrade**.
 <img src="gettingstarted-images/upgrade.png" alt="install" />
 - Choose the subscription plan you prefer.
 <img src="gettingstarted-images/subs.png" alt="install" />
+
 To know more about the Code Studio Subscription plans, click on **View Subscription Options**.
 
 ## Next Steps

@@ -48,7 +48,7 @@ First things first—let's create a fresh React project that we'll transform int
    cd customer-dashboard
    ```
 
-   > **What's happening here?** We're creating a React project with Vite. Think of it as the starting foundation for your dashboard.
+   **What's happening here?** We're creating a React project with Vite. Think of it as the starting foundation for your dashboard.
 
 2. **Open the project folder** in Syncfusion Code Studio. You should see your project structure on the left side.
 
@@ -59,7 +59,7 @@ First things first—let's create a fresh React project that we'll transform int
    <img src="tutorials-images/tool.png" alt="UI Builder Tool" />
    <img src="tutorials-images/toolenable.png" alt="UI Builder Tool Enable" />
 
-   > **Why do we need UI Builder enabled?** This tool unlocks the ability for Code Studio to generate professional dashboard code for us. Without it, we'd be writing lots of boilerplate by hand!
+   **Why do we need UI Builder enabled?** This tool unlocks the ability for Code Studio to generate professional dashboard code for us. Without it, we'd be writing lots of boilerplate by hand!
 
 **Your foundation is ready!** You now have a blank React project and UI Builder standing by. Let's move to the fun part—generating your dashboard.
 
@@ -75,7 +75,7 @@ This is where the magic happens. We'll describe what we want, and UI Builder wil
 
    ```
 
-   > **Pro Tip:** Being specific helps! Instead of just "create a dashboard," we told UI Builder exactly what components we need: data grid, specific charts, and export features. The more detail, the better the result.
+   > **Note:** Being specific helps! Instead of just "create a dashboard," we told UI Builder exactly what components we need: data grid, specific charts, and export features. The more detail, the better the result.
 
 2. **Press Enter and watch the magic** happen! Code Studio will:
    - Analyze your request
@@ -125,7 +125,7 @@ It's time to see your dashboard come to life!
    - Charts showing sales trends and customer growth
    - Export buttons ready to convert your data to PDF or Excel
 
-   > **Your dashboard is live!** This is a fully functional React app with real Syncfusion components. Pretty cool, right?
+ **Your dashboard is live!** This is a fully functional React app with real Syncfusion components. Pretty cool, right?
 
 
 
