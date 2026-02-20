@@ -55,7 +55,7 @@ Let's turn on Agent mode! This is the gateway to AI-powered coding.
 
 1. In the chat input field, enter your coding request or task description.
 
-   >**Tip:** Be as specific as possible with your instructions to achieve better results.
+   >**Tip:** Be as specific as possible with your prompt to achieve better results.
 
 2. Press **Enter** to submit your request.
 3. **Watch the Agent work its magic!** You'll see it:
