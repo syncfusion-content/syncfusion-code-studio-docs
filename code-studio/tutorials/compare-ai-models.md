@@ -9,9 +9,9 @@ keywords: "compare-ai-models, choose-model, claude-haiku-4.5, claude-sonnet-4.5,
 
 ## Overview
 
-Code Studio provides access to multiple AI models, each optimized for different kinds of tasks. Some models respond quickly with concise results, while others focus on deeper reasoning, larger context, or code-heavy workflows.
+Ever wondered which AI model to pick for your coding task? You're not alone! Code Studio gives you access to multiple AI models, each with different strengths. Some are lightning-fast for quick tasks, while others excel at deep reasoning and complex problems.
 
-This tutorial helps you understand which AI model to use for which type of task, using practical examples and expected outcomes. You will learn to match tasks to models based on complexity, latency requirements, and reasoning depth, enabling you to work more efficiently and produce better code.
+In this tutorial, we'll walk you through each model and show you—with real examples—when to use which one. By the end, you'll know exactly which model to reach for, whether you're writing a quick validation function or tackling a tricky refactoring challenge.
 
 ## Prerequisites
 
