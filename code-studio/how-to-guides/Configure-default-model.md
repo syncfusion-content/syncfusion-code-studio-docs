@@ -26,7 +26,7 @@ Before starting, ensure:
 
 ### Step 1: Open Code Studio Enterprise Server dashboard
 
-* Launch [Code Studio Enterprise Server](https://app.sfcodestudio.com/dashboard)
+* Open [Code Studio Enterprise Server](https://app.sfcodestudio.com/dashboard)
 <img src="./howtoguide-images/dashboard.png" alt="cache">
 
 
@@ -34,7 +34,7 @@ Before starting, ensure:
 
 * Go to the [Models](https://app.sfcodestudio.com/models) section and click Manage Default Settings.
 
-    **Note**: If you have not configured your model, please refer to [Configure LLM Providers and Models in Syncfusion Code Studio]( https://help.syncfusion.com/code-studio/enterprise-server/providersandmodels ) for guidance on adding models.
+ >**Note**: If you have not configured your model, please refer to [Configure LLM Providers and Models in Syncfusion Code Studio]( https://help.syncfusion.com/code-studio/enterprise-server/providersandmodels ) for guidance on adding models.
     
     <img src="./howtoguide-images/dashboard-models.png" alt="models-section">
 

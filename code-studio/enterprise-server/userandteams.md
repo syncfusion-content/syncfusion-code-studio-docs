@@ -80,36 +80,31 @@ Use the context menu to:
 
 ### Selecting a Team
 - Select teams in the sidebar list to view members.
-
-   <img src="./enterprise-images/selectTeam.png" alt="Select Team" />
-
 - Use the search bar to filter teams.
-- The selected team (e.g., **BoldBI-AI-CodeStudio**) displays its members in the grid.
+- The selected team (e.g., **development-team**) displays its members in the grid.
+
+ <img src="./enterprise-images/selectTeam.png" alt="Select Team" />
 
 ### Team Actions
 Accessible via the context menu (three-dot icon):
 - **Rename Team** – Update the team name.
 
-   
-
 - **Set Team Owner** – Assign ownership.
-
-   
 
 - **Delete Team** – Remove the team.
 
    <img src="./enterprise-images/deleteTeam.png" alt="Delete Team" />
 
-- **Change Team** – Move a user from one team to another.
+To manage a team member, click the three‑dot menu next to their name. From this menu, you can choose actions such as changing the user’s team or removing the member from the current team.
 
-   
+- **Change Team** – Move a user from one team to another.
 
 - **Remove Memeber** – Remove user from selected Team.
 
    <img src="./enterprise-images/removeMember.png" alt="Remove Member" />
 
 ### Add Team Members
-- Click **Add Users** dropdown button to add users for selected team
+- Click **Add Users** dropdown button to add users for selected team.
 
    <img src="./enterprise-images/addTeamMembers.png" alt="Add Team Member" />
 

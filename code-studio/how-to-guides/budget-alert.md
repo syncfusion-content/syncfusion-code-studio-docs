@@ -28,7 +28,7 @@ Use budget alerts when you want an email notification as soon as spending crosse
 
 ### Steps to Configure Budget Alerts for Teams:
 
-**Step 1:** Go to the **Budget tab** in CodeStudio dashboard. Team budgets are displayed on a table, with a **three-dot (More options)** menu on the right side of each row.
+**Step 1:** Go to the [Budget tab](https://app.sfcodestudio.com/budget) in CodeStudio dashboard. Team budgets are displayed on a table, with a **three-dot (More options)** menu on the right side of each row.
 
 <img src="./howtoguide-images/three-dots-icon-teams.png" alt="budget-alert"  />
 
@@ -43,7 +43,7 @@ Use budget alerts when you want an email notification as soon as spending crosse
 **Step 4:**
 The **Set Alert** dialog box opens. You can configure alerts to be triggered when budget usage reaches **25%, 50%, 75%,** or **100%** of the budget limit you created.
 
-Now, let’s create a budget alert for the **Frontend team** that triggers when **50%** of the team’s budget limit is reached. Follow the steps below.
+ Follow the steps below to create the budget alert.
 
 1. Turn the toggle **On**. Two input fields are displayed; enter the required values in both fields.
 
@@ -102,7 +102,7 @@ To verify that a budget alert is created and to modify an existing alert, follow
 
 3.	Click **Manage Alert**. Update the alert settings (for example, turn **50% Off** and turn **75% On**), enter the required values in the input fields, and then click **Update** to save the changes.
 
-   <img src="./howtoguide-images/manage-alert-update-teams.png" alt="budget-alert"  />
+   <img src="./howtoguide-images/manage-alert-individual-user.png" alt="budget-alert"  />
 
 ### Finally, you will receive the alert email as shown in the images below,
 
@@ -112,7 +112,7 @@ To verify that a budget alert is created and to modify an existing alert, follow
 
 **Individual User Budget Alert Email:**
 
-<img src="./howtoguide-images/individual-user-email.png" alt="budget-alert"  />
+<img src="./howtoguide-images/individual-email-alert.jpg" alt="budget-alert"  />
 
 
 
