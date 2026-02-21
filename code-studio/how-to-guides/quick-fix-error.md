@@ -50,7 +50,7 @@ Locate the error you wish to fix in your code file.
 
 1. Review the suggested fix displayed in the Quick Fix panel.
 2. The suggestion shows the proposed correction and a brief explanation.
-3. Click the fix to apply it. The AI analyzes the error context and applies the correction.
+3. Click keep to apply it. The AI analyzes the error context and applies the correction.
 
 ### Step 4: Apply the Fix
 

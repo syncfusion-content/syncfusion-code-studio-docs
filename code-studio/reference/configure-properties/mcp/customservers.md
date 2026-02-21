@@ -178,12 +178,27 @@ Step 4: Review the Terms and Conditions, then click Accept and proceed.
 
 <img src="../../reference-images/mcp-postman-installed.png" alt="custom server" />
 
+### How to access the MCP tools 
+
+**Step 1** : Click the Syncfusion Code Studio icon. The chat window is displayed.
+
+<img src="../../reference-images/tools2.png" alt="Tools" >
+
+**Step 2**: Select the Agent in the chat window.
+
+**Step 3** : Click the Configure Tools button in the chat input field. The tools are displayed.
+<img src="../../reference-images/agent_tool.png" alt="Tools" >
+
+> **Note:** Must select the Agent to access the configuration tools.
+
+**Step 4** : Select or deselect tools to control which ones are available for the current request.
+
+<img src="../../reference-images/mcp-tools.png" alt="Tools" >
+
 For demonstration purposes, we created a **User Management API** collection in Postman with sample data and added five sample API requests to the collection.
 
 You can create your own collection and add API requests by following Postman’s [documentation](https://learning.postman.com/docs/collections/use-collections/use-collections-overview).
 
-
-<img src="../../reference-images/postman-dashboard.png" alt="custom server" />
 
 ### Generate test scripts
 
@@ -207,34 +222,8 @@ For each request, include tests that validate:
 
 Use consistent, readable test names and keep scripts minimal and maintainable. Keep assertions non-brittle (no fixed record counts or hardcoded values). If the API does not persist changes, validate response structure and echoed fields instead of permanent updates.
 ```
-<img src="../../reference-images/generate-test-scripts.gif" alt="custom server" />
+<img src="../../reference-images/generate-test.png" alt="custom server" />
 
-### Run the monitor and create a deployment readiness report
-
-- In this section, you will run a Postman Monitor from Code Studio as a pre-deployment validation check. In production workflows, this confirms that critical endpoints respond correctly and that basic performance expectations are met.
-
-- After the monitor run completes, Code Studio can summarize the results into a **deployment readiness report**.
-
-**Sample prompts**
-
-```text
-List my Postman Monitors and their IDs.
-```
-
-```text
-Run the Postman Monitor with ID - <Monitor-Id> and generate a deployment readiness report from the latest run results. Include:
-
-1. Overall status (pass/fail) and total tests passed/failed
-2. Failed requests (request name/endpoint) with the failing assertions and error messages
-3. Response-time summary (slowest request, average/peak time if available) and whether performance is acceptable
-4. Key risks and recommended actions (what to fix or re-run)
-5. Final recommendation: Go / No-Go for deployment, with a one-line justification
-```
-<img src="../../reference-images/deployment-readiness-report.gif" alt="custom server" />
-
-
-Postman provides many tools for creating and managing collections, environments, monitors, and more.
-You can explore and use these tools in your workflow.
 
 ## MCP Settings and Management
 You can manage your installed MCP servers through the Manage Settings option.

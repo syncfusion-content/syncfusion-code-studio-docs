@@ -116,11 +116,11 @@ Requirements for the form:
 ### 6. Run the Migrated Prompts 
 To confirm your migrated prompts are working:
 1. Open the new `.prompt.md` file in Code Studio.
-2. Check the YAML frontmatter for syntax errors.
- <img src="./troubleshoot-images/migrated-prompt.png" alt="Migrated prompt file opened" />
+2. Check the YAML frontmatter for syntax errors. 
 3. In Chat, type `/` and see if the prompt appears in the list (look for the prompt name and model used).
-  <img src="./troubleshoot-images/models.png" alt="Prompt listed with model used" />
+   <img src="./troubleshoot-images/migrated-prompt.png" alt="Migrated prompt file opened" />
 4. Run the prompt and make sure it produces the expected results.
+    <img src="./troubleshoot-images/models.png" alt="Prompt listed with model used" />
 
 > **Note:** If there are errors in the YAML frontmatter, the prompt's assigned `model` may not be used and a default model could be selected instead. Fix frontmatter errors to ensure the specified model is applied.
 

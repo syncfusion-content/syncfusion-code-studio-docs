@@ -180,7 +180,7 @@ You will see three options:
 
     - Step 3: Open chat and send message your instruction will come in the **used reference.**
 
-    <img src="../reference-images/instruction_global_result.png" alt="instruction_global_result" >
+    <img src="../reference-images/instruction_path_result.png" alt="instruction_global_result" >
 
 ### Option 2: Pattern-specific Targeting
 - **Definition:** `applyTo: **/*.scss` or other patterns. for example `(**/*.ts, **/*.css)` 

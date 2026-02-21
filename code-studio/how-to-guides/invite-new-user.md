@@ -21,7 +21,17 @@ This guide explains how administrators and team leads can invite new users to th
 ## Steps to Invite a New User
 Follow these steps to invite a new user to your organization.
 
-### Step 1 : Open [Code Studio Dashboard](https://app.sfcodestudio.com/dashboard)
+### Step 1 : Open Code Studio Dashboard
+- Open Code Studio Application.
+- Ensure you are logged in with the correct user credentials.
+- In the top-right corner of Code Studio, click your **avatar**.
+    
+<img src="../how-to-guides/howtoguide-images/Avator-icon1.png">
+
+- This opens the Account tab within the Settings page. 
+- In the Account section, click **Open Dashboard**.
+<img src="../how-to-guides/howtoguide-images/Dashboard-navigate1.png">
+- You are redirected to the web dashboard where credits and usage information is displayed.
 
 ### Step 2 : Open the Users Panel
 - Navigate to the **Users** section in your organization’s dashboard.

@@ -43,7 +43,7 @@ Inline suggestions appear as light, faded (ghost) text directly at the cursor wh
 
 ### How to get your first inline suggestion in Code Studio
 **Steps:**
-1. Start typing normally inside the Code Studio editor.
+1. Start typing normally in the file which is inside the Code Studio editor.
 2. A faded (ghost) suggestion will appear based on your context.
 3. **Accept full suggestion:** Press `Tab`
 4. **Dismiss suggestion:** Press `Esc`
@@ -60,12 +60,12 @@ If your method `calculateTotal` uses parameters like **price** and **quantity**,
 <img src="./feature-images/autocomplete2.png" alt="Autocomplete"  />
 
 ### Alternative Suggestions
-Code Studio may provide multiple inline suggestions. Hover over a suggestion to view alternatives and choose the one that best fits your code.
+Code Studio may provide multiple alternative suggestions. Hover over a suggestion to view alternatives and choose the one that best fits your code.
 
 <img src="./feature-images/autocomplete3.png" alt="Autocomplete"  />
 
 ### Code Generation from Comments
-You can instruct Code Studio to generate code by simply writing a comment that describes what you want.
+You can provide hints to Code Studio to generate code by simply writing a comment that describes what you want.
 
 **Example:**
 If you write comment like,
@@ -93,7 +93,7 @@ For example, if you rename a variable in one place, Code Studio suggests updatin
 **2.	Navigating to the Suggested Edit**
    - A small arrow icon appears in the gutter to indicate an upcoming edit suggestion.  
    - Press `Tab` to accept the suggestion. 
-   - Press `Esc` to reject the suggestion.ng
+   - Press `Esc` to reject the suggestion.
 
    <img src="./feature-images/autocomplete5.png" alt="Autocomplete"  />
 

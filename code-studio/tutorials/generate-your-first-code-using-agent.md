@@ -7,7 +7,13 @@ keywords: agent-mode, ai-coding, code-generation, code-review, checkpoints
 
 # Generate Your First Code Change Using Agent
 
-This tutorial guides you through using Agent mode in Syncfusion Code Studio. Agent mode enables autonomous AI-powered coding capabilities, allowing you to generate, review, and manage code changes with AI assistance. You will learn how to enable Agent mode, instruct the AI with prompts, review proposed changes, and utilize checkpoints to manage code iterations. For more information about Agent mode, see [Agent](/code-studio/features/agent).
+## Overview 
+
+Ready to supercharge your coding? In this tutorial, we'll walk you through one of the most exciting features of Syncfusion Code Studio: **Agent mode**. Imagine having an AI teammate that can understand what you want to build, write the code for you, and even show you exactly what changed before applying those changes. That's what Agent mode does!
+
+By the end of this tutorial, you'll be comfortable using Agent mode to make your first AI-powered code changes. Let's get started!
+
+For deeper understanding of Agent mode capabilities, check out [Agent](/code-studio/features/agent).
 
 ## Prerequisites
 
@@ -18,83 +24,131 @@ Before beginning, ensure:
 
 ## What You Will Learn
 
-By the end of this tutorial, you will be able to:
+By the end of this tutorial, you'll be able to:
 
-- Enable Agent mode within Code Studio.
-- Use prompts to initiate AI-assisted code changes.
-- Review and evaluate suggested code modifications using side-by-side comparison.
-- Accept or reject proposed changes using Keep or Undo options.
-- Understand detailed summaries of all changes made.
-- Manage project states and restore previous versions using checkpoints.
+- Switch on Agent mode in Code Studio (it's just one click!)
+- Write clear instructions for the AI to understand what you want
+- See exactly what changes the Agent wants to make in a side-by-side view
+- Approve changes you like with Keep, or reject ones you don't with Undo
+- Understand a summary showing everything that changed
+- Use checkpoints to safely restore earlier versions of your code if you change your mind
 
 ## Steps to Generate Code
 
 ### Step 1: Enable Agent Mode
 
-1. Open Syncfusion Code Studio with your target project or a new folder.
+Let's turn on Agent mode! This is the gateway to AI-powered coding.
+
+1. **Open Syncfusion Code Studio** with your project or any folder you'd like to experiment with.
 2. Click the mode selector in the interface.
 3. Select **Agent Mode** from the dropdown menu. Agent Mode enables autonomous coding capabilities, allowing the AI to analyze, edit, and manage your codebase.
-4. Confirm that Agent Mode is active by checking for the tick mark status indicator in the interface.
+
+4. **Verify it's active** by looking for a checkmark or indicator next to Agent Mode in the interface. You'll know it's working when the mode selector shows "Agent Mode" is active.
 
    <img src="./tutorials-images/firstagentchange1.png" alt="Enable Agent Mode" />
+
+**You've just taken your first step!** Agent mode is now active and ready to work with you.
+
+
 
 ### Step 2: Describe Your Task
 
 1. In the chat input field, enter your coding request or task description.
 
-   >**Tip:** Be as specific as possible with your instructions to achieve better results.
+   >**Tip:** Be as specific as possible with your prompt to achieve better results.
 
 2. Press **Enter** to submit your request.
-3. The Agent will:
-   - Analyze and understand your request.
-   - Explore the relevant codebase sections.
-   - Use appropriate tools to make changes.
-   - Suggest necessary code modifications.
+3. **Watch the Agent work its magic!** You'll see it:
+   - Think about your request and understand what you're asking for
+   - Look through your code to find the right places to make changes
+   - Use its tools to write and modify code
+   - Prepare suggestions for you to review
 
    <img src="./tutorials-images/firstagentchange2.png" alt="Agent processing request" />
 
+**This is where the AI earns its name!** The Agent is actively exploring and planning changes—just like a developer reviewing your code before making updates.
+
+
+
 ### Step 3: Review the Proposed Changes
 
-1. The Agent displays a side-by-side comparison of all proposed modifications.
-2. Examine each change carefully to ensure it aligns with your intent.
-3. For each change, use the options provided in the chat:
-   - Click **Keep** to approve and apply the change.
-   - Click **Undo** to reject and discard the change.
+Here's where *you* stay in control. The Agent shows you everything it wants to change before applying any of it.
+
+1. **Look at the side-by-side comparison** that appears. 
+2. **Read through each change carefully.** Take your time! This is your chance to make sure the changes match what you wanted.
+3. **For each change, you have two options:**
+   - Click **Keep** if you like the change and want to apply it
+   - Click **Undo** if you want to reject it and keep the original code
+
+
 
    <img src="./tutorials-images/firstagentchange3.png" alt="Review changes" />
 
+**You have full control here!** Think of yourself as a code reviewer—you're making sure the AI's work meets your standards before it's applied.
+
+
+
 ### Step 4: Review the Code Change Summary
 
-1. Once all changes are complete, the Agent provides a detailed summary.
-2. The summary lists:
-   - All files modified.
-   - New files created.
-   - Tools used during the process.
-3. Review this summary carefully to confirm all changes match your requirements.
+Once you've approved all the changes you want, the Agent put together a helpful summary for you.
+
+1. **Review the summary** that appears after all changes are processed. It shows:
+   - **Files modified:** Which files the Agent changed
+   - **New files created:** Any brand-new files the Agent created for you
+   - **Tools used:** A record of exactly what the AI did to make the changes
+
+2. **Take a moment to verify** that everything matches your expectations. Did it create the file you wanted? Did it modify the right function?
+
+   > **What if something's wrong?** Don't panic! This is why we have checkpoints (coming up next). You can easily restore to a previous state if needed.
+
+**Great work!** You've successfully guided the AI through its first task and validated the results. This is how professional developers work—with careful review and verification.
+
+
 
 ### Step 5: Manage Using Checkpoints
 
-1. The Agent automatically creates checkpoints between chat requests.
-2. Checkpoints provide a safety net by allowing you to:
-   - Review changes at different stages.
-   - Restore your code to any previous checkpoint if needed.
+- Think of checkpoints like save points in a video game. The Agent automatically creates them, and you can jump back anytime.
+- These are snapshots of your code at different points in time
+- You can restore any checkpoint if you want to "undo" several changes at once
+
+
 
    <img src="./tutorials-images/firstagentchange4.png" alt="Checkpoints" />
 
+   > **Checkpoints are your safety net!** This is why you can be brave and experiment with Agent mode. There's always a way back.
+
+
+
+
+
 ## Verification
 
-To confirm everything worked as expected:
+Let's make sure everything went smoothly! Here's your verification checklist:
 
-- **Agent Mode:** Verify that Agent Mode is active and you have granted all necessary tool permissions.
-- **Changes Applied:** Review your codebase and confirm that all accepted changes have taken effect.
-- **Summary Accuracy:** Check the final summary to ensure all intended files were modified or created as described.
-- **Checkpoints:** Locate the available checkpoints (usually visible at the bottom of each chat request) and attempt to restore one to confirm the feature works correctly.
-- **Permissions:** If tool calls are not executing, verify that you have granted permission for tool access in the settings.
+**Agent Mode is On?**
+  - Look at the mode selector—does it show "Agent Mode" is active?
+
+**Changes Look Good?**
+  - Open your project files and review the changes you approved. Do they match what you asked for?
+
+**Summary Makes Sense?**
+  - Check the summary one more time. Did it list all the files you expected to see modified or created?
+
+**Checkpoints Are There?**
+  - Look for the checkpoint list (usually at the bottom of your chat area). Try clicking on one to restore and see that your code reverts. Then restore back to the latest—this confirms checkpoints are working!
+
+**Congratulations!** You've just completed your first AI-powered code change. Take a moment to appreciate what you've done—you've gone from idea to implemented code with AI assistance!
 
 
-## Next Steps
+## What's Next? Continue Your Learning Journey
 
-Now that you have successfully generated your first code change using Agent mode:
+You've mastered the basics, but there's so much more to explore:
 
-- Learn about **checkpoint** to efficiently manage your project versions. See [Checkpoints](/code-studio/features/checkpoints) for details.
-- Review the **Agent mode features** guide for additional capabilities. See [Agent](/code-studio/features/agent) for details.
+**Want to dive deeper into checkpoints?**
+  → Head to [Checkpoints](/code-studio/features/checkpoints) to learn how to manage multiple versions of your code like a pro.
+
+**Curious about what else Agent mode can do?**
+  → Check out the [Agent](/code-studio/features/agent) feature guide for advanced tips and tricks.
+
+
+

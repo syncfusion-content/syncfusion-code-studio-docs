@@ -23,7 +23,7 @@ Global Agent refers to agents.md, an open-source, standardized file format desig
 
 - Syncfusion Code Studio installed and configured on your system. If you have not yet downloaded Code Studio, please refer to this link [Install and Configure](/code-studio/getting-started/install-and-configuration) for step-by-step instructions on downloading and configuring Code Studio.
 
-## How to Configure
+## How to Configure Global Agents
 Using Global Agent in Code Studio is straightforward:
 
 1. Click Create File
@@ -42,8 +42,7 @@ Using Global Agent in Code Studio is straightforward:
 
     <img src="./feature-images/globalagent-settingspath.png" alt="settingpath" >
 
-5. Enable the **Agent Enabled** and **Use Agent MD File** option under Agents in the settings
-
+5. Enable the **Agent Enabled** and **Use Agent MD File** option in the agents section.
     <img src="./feature-images/globalagent-enable.png" alt="agentenable" >
 
 6. Open a chat and send message.

@@ -34,11 +34,8 @@ AI model costs can add up quickly during development. This guide shows you how t
  
 ## OpenRouter Free Tier Models
  
-OpenRouter's free tier unlocks powerful, hosted models that are free (with fair usage limits to keep things sustainable). It's perfect for testing and prototyping without cost. You can easily connect the below recommended free models to Code Studio by following this [Configuration steps](/code-studio/enterprise-server/providersandmodels).
+OpenRouter's free tier unlocks powerful, hosted models that are free (with fair usage limits to keep things sustainable). It's perfect for testing and prototyping without cost. You can easily connect the free models to Code Studio by following this [Configuration steps](/code-studio/enterprise-server/providersandmodels).
  
-1. **Zhipu GLM-4.5 Air** - Lightweight, Fast, Native tool calling and Agentic reasoning.
-2. **DeepSeek R1 (0528 build)** - Open-source model that thinks step-by-step like O1 and shows all reasoning.
-3. **Moonshot Kimi K2** - High performance model optimized for Deep reasoning, Math calculations and complex coding tasks.
  
 **Note:** These free models generally deliver about 60% proper results, so use them for prototyping and non-sensitive tasks rather than production.
  
@@ -48,12 +45,12 @@ Some OpenRouter free endpoints require enabling a privacy setting that allows tr
  
 In your OpenRouter account,
 1. Open the settings.
-2. Click → Training, Logging, & Privacy.
+2. Click → Privacy & Guardrails.
 3. Toggle → "Enable free endpoints that may train on inputs".
 
 <img src="./enterprise-images/freemodel3.png" alt="freemodel"  />
  
-**Implications:**
+**Guidelines for Safe Usage**
 - Enabling this may allow OpenRouter or the model provider to train your prompts/outputs.
 - Do not submit sensitive or proprietary data when using these endpoints.
 - If you cannot enable this setting for compliance reasons, choose a model that does not require it or use a paid/private endpoint.

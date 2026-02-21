@@ -29,7 +29,7 @@ Before you start, make sure you have:
 
 ### Step 1: Open Chat
 
-* Open the Chat view by pressing **Ctrl+Alt+I** and select **Plan** from the agent's dropdown.
+* Open Syncfusion Code Studio and select plan mode in the mode dropdown in the chat panel.
 
     <img src="./feature-images/planmode.png" alt="Open Chat View">
 
@@ -42,7 +42,7 @@ Before you start, make sure you have:
     ```
     Create a dashboard project for stack analysis using python
     ```
-    <img src="./feature-images/prompt-plan.png" alt="Describe Task">
+    
 
 ### Step 3: Review the Plan
 
@@ -67,8 +67,7 @@ The Plan Agent will show you:
 #### Option A: Start Implementation
 
 * Select **Start Implementation** button
-* The command will appear in the chat box and execute automatically
-* The mode will automatically switch to **Agent Mode** for execute your plan.
+* The command will appear in the chat box and the mode will automatically switch to **Agent Mode** . Click Enter for execute your plan.
 
     **Note:** For more information, refer to the [Syncfusion Code Studio Agent Mode](/code-studio/features/agent)
 
@@ -77,7 +76,7 @@ The Plan Agent will show you:
 #### Option B: Open in Editor
 
 * Select the Open in Editor button.
-* The plan details will open in a new editor window.
+* The plan will be created and opened in the editor.
 
 * Review the plan, clarify details, and make iterations as needed.
 

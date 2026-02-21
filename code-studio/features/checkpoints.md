@@ -52,7 +52,7 @@ When you restore a checkpoint, Code Studio returns your workspace to the exact s
    <img src="./feature-images/checkpoint2.png" alt="checkpoint"  />
 
 
-3. Confirm the action to restore the workspace and undo changes made after that point.
+3. Confirm that you want to restore the checkpoint and undo any file changes made after that point. Notice that the chat request is removed from the conversation history, and the workspace files are restored to their state at the time of the checkpoint
 
 ## Redo Changes After Restoring a Checkpoint
 After restoring the previous checkpoint, Code Studio allows you to redo the changes that were undone. This is helpful if you restored the checkpoint by mistake or want to reapply the edits you rolled back.

@@ -22,13 +22,11 @@ After upgrading to Code Studio v2.0.0+, the method to review git diff changes ha
 
 3. In the chat input box type #, a dropdown menu will appear showing available options. From this dropdown, select `#changes`.
 
-    <img src="./troubleshoot-images/changes_tool_drop_down.png" alt="trouble shoot"  />
-
 4. After selecting `#changes`, type your specific question or request regarding the current changes.
 
 5. Submit the prompt. The agent collects the current Git changes from your workspace and generates a response that references those changes to fulfill your request.
 
-    <img src="./troubleshoot-images/git_diff_response.png" alt="trouble shoot"  />
+    <img src="./troubleshoot-images/changes.gif" alt="trouble shoot"  />
 
 ## Best Practices
 

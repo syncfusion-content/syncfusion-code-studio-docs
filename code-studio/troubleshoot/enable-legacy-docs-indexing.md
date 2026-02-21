@@ -36,4 +36,4 @@ After adding the URL, type your actual query referencing the fetched documentati
 
 ### Step 4 : Let the Tool Retrieve Content
 The Fetch Tool retrieves webpage content instantly and uses it as reference material for your query.  
-<img src="./troubleshoot-images/docsindexing3.gif" alt="docsindexing" style="display:block; margin: 12px auto;" />
+<img src="./troubleshoot-images/docsindexing3.png" alt="docsindexing" style="display:block; margin: 12px auto;" />

@@ -5,7 +5,7 @@ platform: syncfusion-code-studio
 keywords: "code, IDE, AI, developer-tools, syncfusion, code-assistance, productivity, UI-generation, bug-fixing, documentation"
 ---
 
-# Agent
+# Agent Mode
 
 ## Overview 
 

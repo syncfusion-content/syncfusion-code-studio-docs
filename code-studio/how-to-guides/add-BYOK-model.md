@@ -27,21 +27,21 @@ Before you begin, ensure you have the following:
 
 - An active administrator account on Code Studio.
 - A valid API key from your LLM provider (e.g., OpenAI, Anthropic).
-- *(Optional)* An OpenRouter API key for accessing multiple models through a single integration. Follow the detailed instructions [here](/code-studio/enterprise-server/freemodel) to obtain an OpenRouter API key and view the list of recommended free models.
+- *(Optional)* An OpenRouter API key for accessing multiple models through a single integration. Follow the detailed instructions [here](/code-studio/enterprise-server/freemodel) to obtain an OpenRouter API key.
 
-## How to Add Byok Models
+## How to Add BYOK Models
 
 ### Step 1: Open the Dashboard
 
 1. Open **Code Studio** in your machine.
 
-2. Click the **Account** tab in the left top of application.
-   <img src="./howtoguide-images/account-button.png" alt="Open Dashboard" />
+2. Click the **Account** tab in the top right of the application.
+   <img src="./howtoguide-images/Avator-icon1.png" alt="Open Dashboard" />
 
 
 3. Click **Open Dashboard** to access the  dashboard.
 
-   <img src="./howtoguide-images/open-dashboard.png" alt="Open Dashboard" />
+   <img src="./howtoguide-images/Dashboard-navigate1.png" alt="Open Dashboard" />
 
 
 
@@ -90,7 +90,7 @@ After configuring your LLM provider, follow these steps to add a model:
    | Field | Description |
    |-------|-------------|
    | **Provider** | Select from the list of configured LLM providers. |
-   | **Model** | Choose a model from the dropdown list. Each model displays its input and output token costs. |
+   | **Model** | Choose a model from the dropdown list. Each model displays its input and output token cost. |
    | **Modes** | Select the usage modes: **Chat**, **Autocomplete**, or both. This is a multi-select field. |
 
 5. Click **Add** to include the model in your BYOK model list.
