@@ -53,7 +53,7 @@ In this step, you will create the configuration file that turns a generic model 
 3. **Download or copy the agent template:**
    - Get the `Codebase Documenter` agent template from your team’s repository or from your shared templates location.  
    - The file should be named something like: `Codebase-Documenter.agent.md`.
-   - If you maintain a GitHub template, link it clearly here, for example: [Download Codebase Documenter agent template](https://your-link-here).
+   - If you maintain a GitHub template, link it clearly here, for example: [Download Codebase Documenter agent template](https://github.com/syncfusion/code-studio-agent-library.git).
   - For this tutorial, we used the example project [ej2-showcase-react-loan-calculator](https://github.com/syncfusion/ej2-showcase-react-loan-calculator.git).
 4. **Place the template in your project:**
    - Copy `Codebase-Documenter.agent.md` into the `.codestudio/agents/` folder.
@@ -271,10 +271,5 @@ Here are some ideas for your next steps:
 - **Explore related guides and references**
   - Custom Agents reference: [Custom Agents](/code-studio/reference/configure-properties/custom-agents)
   - General agent behavior and options: [Agent](/code-studio/features/agent)
-  - Checkpoint-based workflows: [Checkpoints](/code-studio/features/checkpoints)
-  - Other tutorials to deepen your Code Studio skills:
-    - [Generate Your First Code Using Agent](/code-studio/tutorials/generate-your-first-code-using-agent)
-    - [Enhance Security with Hooks](/code-studio/tutorials/enhance-security-with-hooks)
-    - [Compare AI Models](/code-studio/tutorials/compare-ai-models)
 
 With the right custom agent in place, your codebase stops being a mystery and becomes a **living, teachable system**—for you, your teammates, and every new developer who joins later.
