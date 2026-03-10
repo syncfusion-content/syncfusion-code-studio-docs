@@ -23,7 +23,7 @@ AI agents in Syncfusion Code Studio can read files, run tools, and generate code
 
 In this tutorial, you’ll configure a **PreToolUse** hook that blocks any tool call that tries to access `.env`-style files. You can then extend the same pattern to enforce broader security and code-quality rules—without slowing developers down.
 
-> **Note:** For full hooks configuration details, see [Hooks](/code-studio/reference/configure-properties/hooks).
+
 
 ### Key Concepts
 
