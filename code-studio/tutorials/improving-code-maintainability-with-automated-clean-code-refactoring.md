@@ -289,11 +289,8 @@ After applying any refactoring, work through this checklist to confirm everythin
 
 **Congratulations!** You've applied professional-grade clean code refactoring techniques using Code Studio's AI-features. Your codebase is now more readable, more maintainable, and better prepared for new features.
 
-## What's Next?
+## What's Next
 
-You've mastered the key refactoring techniques — here's where to go next:
-
-- **Generate new features with AI:** [Generate Your First Code Change Using Agent](/code-studio/tutorials/generate-your-first-code-using-agent)
-- **Catch and fix bugs early:** [Quick Fix Error Guide](/code-studio/how-to-guides/quick-fix-error)
-- **Explore advanced Agent workflows:** [Agent Feature Guide](/code-studio/features/agent)
-- **Master all Inline Chat commands:** [Inline Chat Feature Guide](/code-studio/features/inlinechat)
+- [Generate Your First Code Change Using Agent](/code-studio/tutorials/generate-your-first-code-using-agent) — Let AI write new code for you.
+- [Quick Fix Error Guide](/code-studio/how-to-guides/quick-fix-error) — Catch and fix bugs early with AI assistance.
+- [Agent Mode](/code-studio/features/agent) — Explore advanced Agent workflows and capabilities.

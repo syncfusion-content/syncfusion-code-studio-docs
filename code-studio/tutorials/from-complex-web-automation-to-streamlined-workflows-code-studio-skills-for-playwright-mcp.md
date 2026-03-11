@@ -242,11 +242,8 @@ After completing the tutorial, work through this checklist to confirm everything
 **Congratulations!** You've successfully completed your first AI-generated web automation test using Playwright MCP and Agent mode. You've transitioned from manual test writing to AI-powered test generation.
 
 
-## What's Next?
+## What's Next
 
-You've mastered the basics of AI-powered test generation — here's where to go next:
-
-- **Learn about checkpoints for version control:** [Checkpoints](/code-studio/features/checkpoints)
-- **Explore advanced Agent mode capabilities:** [Agent Feature Guide](/code-studio/features/agent)
-- **Generate code using Agent mode:** [Generate Your First Code Change Using Agent](/code-studio/tutorials/generate-your-first-code-using-agent)
-- **Improve code quality with automated refactoring:** [Improving Code Maintainability with Automated Clean Code Refactoring](/code-studio/tutorials/improving-code-maintainability-with-automated-clean-code-refactoring)
+- [Generate Your First Code Change Using Agent](/code-studio/tutorials/generate-your-first-code-using-agent) — Let AI write new code for you.
+- [Agent Mode](/code-studio/features/agent) — Explore advanced Agent mode capabilities and workflows.
+- [Improving Code Maintainability with Automated Clean Code Refactoring](/code-studio/tutorials/improving-code-maintainability-with-automated-clean-code-refactoring) — Use AI to improve code quality automatically.
