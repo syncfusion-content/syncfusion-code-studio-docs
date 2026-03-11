@@ -74,6 +74,8 @@ Create a React app and Generate a single React component named "ExpenseTrackerDa
 
 **Step 4:** Register Your Syncfusion License Key (To remove the license Validation message)
 
+<img src="./tutorials-images/LicenseValidationMessage.png" alt="License validation message" />
+
 Syncfusion components (charts, tables, forms, etc. in your generated code) are licensed product. 
 
 Follow these steps to generate and register your Syncfusion License Key,
