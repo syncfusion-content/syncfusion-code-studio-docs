@@ -15,8 +15,6 @@ Context-aware prompting means giving the AI clear instructions about what the co
 
 In this tutorial, you will see how vague prompts cause problems and how adding context makes the AI give you reliable answers. You will fix a real JavaScript bug using a structured, context-aware prompt and verify that the result is consistent across multiple runs.
 
-For a deeper understanding of the features used in this tutorial, see [Agent](/code-studio/features/agent) and [Inline Chat](/code-studio/features/inlinechat).
-
 > **Note:** This tutorial uses JavaScript, but the context-aware prompting techniques apply equally to TypeScript, Python, and other languages.
 
 ## Prerequisites

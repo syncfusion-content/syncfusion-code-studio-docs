@@ -52,7 +52,7 @@ Before beginning, ensure you have the following:
 
 - **Syncfusion Code Studio** installed and properly configured on your system. If you haven't downloaded Code Studio yet, refer to [Install and Configure](../getting-started/install-and-configuration) for step-by-step instructions.
 - **A project or folder** opened in Code Studio (you can create an empty test folder if needed).
-- **Node.js 20 or higher** installed on your system. OpenSpec runs on top of Node.js, so this is required.
+- **[Node.js  20](https://nodejs.org/) or higher** installed on your system. OpenSpec runs on top of Node.js, so this is required .
 
 **Tip:** To check your Node.js version, open a terminal and run:
 > ```bash
@@ -95,8 +95,6 @@ openspec init
 
 <img src="./tutorials-images/Extension-Option.png" alt="Select GitHub Copilot as your AI extension during OpenSpec initialization" />
 
-> **Note:** If you don't see GitHub Copilot as an option, make sure you have the GitHub Copilot extension enabled in Code Studio.
-
 This creates the following directory structure in your project:
 
 **`openspec/` folder:**
@@ -119,6 +117,8 @@ Use `/opsx:explore` to brainstorm and discuss ideas with the AI before making an
 
 Open the Code Studio chat window by pressing `Ctrl+Alt+B` (Windows/Linux) or `Cmd+Alt+B` (Mac), or click the Code Studio icon to the left of the centered search box. Then type `/opsx:explore` in the chat window followed by your question. For example:
 
+<img src="./tutorials-images/sf-icon.png" alt="Chat window Icon" />
+
 ```
 /opsx:explore Sales Dashboard using React
 ```
@@ -133,7 +133,7 @@ The AI will provide suggestions and explanations in the chat. No files will be c
 
 Use `/opsx:propose` to create a detailed plan for your feature. This command generates a complete change folder with markdown files including proposal, design, tasks, and specifications for each file that will be created or modified.
 
-Open the Code Studio chat window by pressing `Ctrl+Alt+B` (Windows/Linux) or `Cmd+Alt+B` (Mac), or click the Code Studio icon to the left of the centered search box. Then type `/opsx:propose` followed by a clear description of what you want to build. For example:
+ Type `/opsx:propose` followed by a clear description of what you want to build in the Chat. For example:
 
 ```
 /opsx:propose Sales Dashboard using React
@@ -163,7 +163,7 @@ Review these files carefully before proceeding to the next step. You can modify 
 
 Use `/opsx:apply` to implement the plan you created in Step 3. This command tells the AI to execute the tasks defined in your `tasks.md` file, following the specifications exactly.
 
-Open the Code Studio chat window by pressing `Ctrl+Alt+B` (Windows/Linux) or `Cmd+Alt+B` (Mac), or click the Code Studio icon to the left of the centered search box. Then type `/opsx:apply` in the chat window:
+Type `/opsx:apply` followed by a clear description of what you want to build in the Chat. For example:
 
 ```
 /opsx:apply
@@ -179,7 +179,7 @@ The AI will begin executing tasks one by one. You'll see progress updates in the
 
 Use `/opsx:archive` to finalize your work after verifying that everything functions correctly. This command moves spec files to the main `openspec/specs/` folder and archives the change folder to `openspec/changes/archive/`, keeping your project organized.
 
-Open the Code Studio chat window by pressing `Ctrl+Alt+B` (Windows/Linux) or `Cmd+Alt+B` (Mac), or click the Code Studio icon to the left of the centered search box. Then type `/opsx:archive` in the chat window:
+Type `/opsx:archive`  followed by a clear description of what you want to build in the Chat. For example:
 
 ```
 /opsx:archive
@@ -187,11 +187,23 @@ Open the Code Studio chat window by pressing `Ctrl+Alt+B` (Windows/Linux) or `Cm
 
 <img src="./tutorials-images/Archieve-command.png" alt="Running the archive command to finalize and organize completed work" />
 
-Check your `openspec/` folder to verify the organization:
+Check your project structure to verify the archiving worked correctly:
 
 <img src="./tutorials-images/main-spec.png" alt="The main spec folder showing finalized specifications after archiving" />
 
-Your project is now cleanly organized with specs in the Project's main spec folder(openspec\specs) .
+**What you should see:**
+- Spec files moved to `openspec/specs/` (main specs folder)
+- Change folder archived to `openspec/changes/archive/`
+- Your project is now cleanly organized and ready for the next feature!
+
+### ✅ Verification
+
+You should see:
+- The `openspec/specs/` folder contains your finalized specification files
+- The `openspec/changes/archive/` folder contains the completed change folder
+- Your working directory is clean with no active change folders
+
+**Success!** Your project is now properly organized with all completed work archived.
 
 ---
 
