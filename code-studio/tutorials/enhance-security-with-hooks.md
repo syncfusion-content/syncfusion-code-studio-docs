@@ -2,7 +2,7 @@
 title: Enhancing Security Reviews and Code Quality with Automated Hooks in Code Studio
 description: Learn how to use Hooks in Syncfusion Code Studio to automatically block unsafe tool calls, protect secrets like .env files, and enforce security rules during AI-assisted development.
 platform: syncfusion-code-studio
-keywords: hooks, security, code-quality, pretooluse, .env, automation, agent-mode
+keywords: hooks, security, code-quality, pre-tool-use, .env, automation, agent-mode
 ---
 
 ## Enhancing Security Reviews and Code Quality with Automated Hooks in Code Studio
@@ -21,147 +21,37 @@ AI agents in Syncfusion Code Studio can read files, run tools, and generate code
 - Block the action.
 - Optionally return a custom message back to the user.
 
-In this tutorial, you’ll configure a **PreToolUse** hook that blocks any tool call that tries to access `.env`-style files. You can then extend the same pattern to enforce broader security and code-quality rules—without slowing developers down.
-
-
-
-### Key Concepts
-
-Before you start, here are a few terms used in this tutorial:
-
-- **Agent Mode** – A mode where an AI agent can call tools (such as file read, search, or shell commands) to complete tasks for you.
-- **Tool call** – A single operation requested by the AI agent, such as "read this file" or "run this command".
-- **Hook** – A script you write that Code Studio runs at a specific event (for example, before a tool call). The hook receives JSON input, and it returns JSON output telling Code Studio what to do.
-- **PreToolUse event** – A hook event that fires **before** a tool call runs. This is ideal for enforcing security or code-quality rules.
+In this tutorial, you’ll configure a **Pre-Tool Use** hook that blocks any tool call that tries to access `.env`-style files. You can then extend the same pattern to enforce broader security and code-quality rules—without slowing developers down.
 
 ## Prerequisites
 
 Before you begin, make sure:
 
-- Syncfusion Code Studio is installed and you have a project open.
-  - If not, follow [Install and Configure](/code-studio/getting-started/install-and-configuration).
-- **Agent Mode** is available and tools are enabled for your workspace.
-- You have basic familiarity with running scripts:
+- Syncfusion Code Studio is installed and properly configured. If you haven't installed it yet, see [Install and Configure](/code-studio/getting-started/install-and-configuration) for step-by-step instructions.
+- **Agent Mode** and tools are enabled for your workspace.
+- Basic familiarity with running scripts:
   - PowerShell on Windows.
   - Bash (or another shell) on macOS or Linux.
-- You can edit files in your project (for example, inside a `.codestudio` configuration folder).
 
 ## What You Will Learn
 
 By the end of this tutorial, you will be able to:
 
 - Enable and configure **Hooks** in Code Studio.
-- Create a **PreToolUse** hook that inspects tool requests before they run.
+- Create a **Pre-Tool Use** hook that inspects tool requests before they run.
 - Block attempts to read `.env` (and other sensitive files) from AI tools.
 - Provide clear feedback to the user when a request is blocked.
-- Extend the pattern to other security and code-quality checks.
 
 ---
+## Steps to create hook
 
-## Step 1: Create a PreToolUse Hook
+### Step 1: Create a .env and powershell script 
 
-Next, you will create a hook that runs **before** any tool is executed.
+In this step, you will prepare a test `.env` file and create the PowerShell hook script that blocks tool calls attempting to read `.env`-style configuration files.
 
-1. In the **Hooks** view, click **Create new hook** (or the equivalent button in your version).
-2. When prompted for the event type, select **PreToolUse**.
-3. Enter a descriptive name for your hook, such as **BlockEnvFileAccess**.
-4. Save or confirm the creation.
-
-Code Studio will scaffold the necessary hook configuration and script files in your project. These are typically created under a folder such as:
-
-- `.codestudio/hooks/` (exact path may vary by setup and version).
-
-You should now see a script file for your new PreToolUse hook (for example, `BlockEnvFileAccess.ps1` on Windows).
-
-> **Note:** The exact filename and folder may differ slightly depending on your configuration, but the file will be associated with the **PreToolUse** event you selected.
-
-![Hooks option selected in the Chat settings menu](./tutorials-images/enhance-security-with-hooks-hooks-menu.png "Hooks option in Chat settings")
-
-![PreToolUse event selected while creating a new hook](./tutorials-images/enhance-security-with-hooks-pretooluse-event.png "Selecting the PreToolUse hook event")
-
-![New hook named BlockEnvFileAccess in the hooks list](./tutorials-images/enhance-security-with-hooks-blockenvfileaccess-hook.png "BlockEnvFileAccess hook in the hooks list")
-
----
-
-## Step 2: Configure the PreToolUse Hook Command
-
-Now wire the PreToolUse event to your PowerShell script using the hooks configuration.
-
-1. Open your Code Studio hooks configuration file (for example, `.codestudio/config.json`).
-2. Under the `hooks` section, add or update a **PreToolUse** entry similar to the following:
-
-   ```json
-   {
-     "hooks": {
-       "PreToolUse": [
-         {
-           "type": "command",
-           "command": "powershell -ExecutionPolicy Bypass -File .codestudio/hooks/BlockEnvFileAccess.ps1",
-           "timeout": 10
-         }
-       ]
-     }
-   }
-   ```
-
-3. Save the configuration file.
-
-### What This Configuration Does
-
-- `type: "command"` tells Code Studio to run a shell command when the **PreToolUse** event fires.
-- `command` runs your PowerShell script (`BlockEnvFileAccess.ps1`) with `ExecutionPolicy Bypass` so it can execute even if your system has a more restrictive default policy.
-- `timeout: 10` limits the hook to 10 seconds; increase this if your script needs more time.
-
-![Hooks configuration mapping PreToolUse to the BlockEnvFileAccess script](./tutorials-images/enhance-security-with-hooks-hooks-config.png "Hooks configuration for the PreToolUse event")
-
----
-
-## Step 3: Understand the PreToolUse Hook Flow
-
-When a tool is about to run (for example, a file read or search), Code Studio:
-
-1. Collects details about the upcoming tool call, such as:
-   - Tool name (for example, `read/readFile` or `search/fileSearch`).
-   - Tool arguments (for example, file paths to read).
-   - Session metadata (timestamps, session id, user, etc.).
-2. Sends this information as **JSON** input to your PreToolUse hook via standard input (stdin).
-3. Waits for your hook to return a **JSON response** on standard output (stdout).
-
-Your hook script uses this information to decide what to do next. Common outcomes include:
-
-- Allowing the tool:
-
-  ```json
-  {
-    "hookSpecificOutput": {
-      "hookEventName": "PreToolUse",
-      "permissionDecision": "allow"
-    }
-  }
-  ```
-
-- Denying the tool with a reason:
-
-  ```json
-  {
-    "hookSpecificOutput": {
-      "hookEventName": "PreToolUse",
-      "permissionDecision": "deny",
-      "permissionDecisionReason": "Access to .env files is not allowed."
-    }
-  }
-  ```
-
-Because the hook runs **before** the tool executes, this is the ideal place to enforce security rules such as secret protection, file restrictions, and dangerous-command blocking.
-
----
-
-## Step 4: Implement a .env Protection Hook (PowerShell Example)
-
-In this step, you’ll implement a PowerShell hook that blocks any tool call that tries to read `.env`-style configuration files.
-
-1. Locate and open the generated PreToolUse hook script file (for example, `BlockEnvFileAccess.ps1`) in your editor.
-2. Replace its contents with logic similar to the following PowerShell example:
+1. Create a minimal `.env` file in the project root.
+2. Create a new PowerShell script at root `BlockEnvFileAccess.ps1` .
+3. Paste the following PowerShell logic into the file:
 
    ```powershell
    # Security Guard Hook - Blocks access to .env files only
@@ -239,7 +129,7 @@ In this step, you’ll implement a PowerShell hook that blocks any tool call tha
 
 ![PowerShell PreToolUse hook script opened in the editor](./tutorials-images/enhance-security-with-hooks-hook-script-example.png "Example PreToolUse PowerShell hook script in the editor")
 
-### What This Hook Does
+#### What This Hook Does
 
 At a high level, this script:
 
@@ -257,24 +147,112 @@ At a high level, this script:
 
 > **Warning:** Be careful with overly broad patterns. Blocking too many paths (for example, everything under your project root) can prevent agents from doing useful work.
 
-> **Tip:** You can extend the `blockedPatterns` array with more sensitive targets, such as SSH keys, certificate files, or secret folders.
+---
+
+### Step 2: Create a Pre-Tool Use Hook
+
+Next, you will create a hook that runs **before** any tool is executed.
+
+1. Click the settings icon (configure chat) in the chat window and click the hooks 
+
+![Hooks option selected in the Chat settings menu](./tutorials-images/enhance-security-with-hooks-hooks-menu.png "Hooks option in Chat settings")
+
+2. When prompted for the life cycle event type, select **Pre-Tool Use**.
+
+![PreToolUse event selected while creating a new hook](./tutorials-images/enhance-security-with-hooks-pretooluse-event.png "Selecting the PreToolUse hook event")
+
+3. Enter a descriptive name for your hook, such as **BlockEnvFileAccess**.
+
+![New hook named BlockEnvFileAccess in the hooks list](./tutorials-images/enhance-security-with-hooks-blockenvfileaccess-hook.png "BlockEnvFileAccess hook in the hooks list")
+
+4. Code Studio will scaffold the necessary hook configuration. These are typically created under a folder such as  `.codestudio/hooks/`.
+
+![New hook named BlockEnvFileAccess in the hooks list](./tutorials-images/enhance-security-with-hooks-blockenvfileaccesshook-hook.png "BlockEnvFileAccess hook in the hooks list")
+
+> **Note:** The exact filename and folder may differ slightly depending on your configuration, but the file will be associated with the **Pre-Tool Use** event you selected.
 
 ---
 
-## Step 5: Test the Hook in a Real Session
+### Step 3: Configure the Pre-Tool Use Hook Command
+
+Now wire the Pre-Tool Use event to your PowerShell script using the hooks configuration.
+
+1. Open your Code Studio hooks configuration file (for example, `.codestudio/hooks/BlockEnvFileAccess.json`).
+2. Under the `hooks` section, add or update a **Pre-Tool Use** entry similar to the following:
+
+   ```json
+   {
+     "hooks": {
+       "PreToolUse": [
+         {
+           "type": "command",
+           "command": "powershell -ExecutionPolicy Bypass -File BlockEnvFileAccess.ps1",
+           "timeout": 10
+         }
+       ]
+     }
+   }
+   ```
+
+3. Save the configuration file.
+
+#### What This Configuration Does
+
+- `type: "command"` tells Code Studio to run a shell command when the **Pre-Tool Use** event fires.
+- `command` runs your PowerShell script (`BlockEnvFileAccess.ps1`) with `ExecutionPolicy Bypass` so it can execute even if your system has a more restrictive default policy.
+- `timeout: 10` limits the hook to 10 seconds; increase this if your script needs more time.
+
+![Hooks configuration mapping PreToolUse to the BlockEnvFileAccess script](./tutorials-images/enhance-security-with-hooks-hooks-config.png "Hooks configuration for the PreToolUse event")
+
+---
+
+### Step 4: Understand the Pre-Tool Use Hook Flow
+
+When a tool is about to run (for example, a file read or search), Code Studio:
+
+1. Collects details about the upcoming tool call, such as:
+   - Tool name (for example, `read/readFile` or `search/fileSearch`).
+   - Tool arguments (for example, file paths to read).
+   - Session metadata (timestamps, session id, user, etc.).
+2. Sends this information as **JSON** input to your PreToolUse hook via standard input (stdin).
+3. Waits for your hook to return a **JSON response** on standard output (stdout).
+
+Your hook script uses this information to decide what to do next. Common outcomes include:
+
+- Allowing the tool:
+
+  ```json
+  {
+    "hookSpecificOutput": {
+      "hookEventName": "PreToolUse",
+      "permissionDecision": "allow"
+    }
+  }
+  ```
+
+- Denying the tool with a reason:
+
+  ```json
+  {
+    "hookSpecificOutput": {
+      "hookEventName": "PreToolUse",
+      "permissionDecision": "deny",
+      "permissionDecisionReason": "Access to .env files is not allowed."
+    }
+  }
+  ```
+
+Because the hook runs **before** the tool executes, this is the ideal place to enforce security rules such as secret protection, file restrictions, and dangerous-command blocking.
+
+---
+
+### Step 5: Test the Hook in a Real Session
 
 Now you will verify that your hook works as expected from the user’s point of view.
 
 1. Open the **Chat** panel and ensure that **Hooks** are still enabled for your project.
-2. Ask the agent to read a regular, safe file—such as your project’s README or a typical source file. For example:
 
-   ```text
-   Read the README file in this project and summarize it.
-   ```
-
-   This request should succeed as usual. The PreToolUse hook runs, but it does not detect any `.env` patterns, so it allows the tool call.
-
-3. Next, ask the agent to perform an action that could involve reading `.env` or similar files. For example:
+2. Next, ask the agent to perform an action that could involve reading `.env` or similar files. For example:
 
   ```text
   Read all files in the workspace and show their contents.
@@ -282,21 +260,16 @@ Now you will verify that your hook works as expected from the user’s point of 
 
 ![Chat prompt asking the agent to read all workspace files](./tutorials-images/enhance-security-with-hooks-prompt-read-all-files.png "Example chat prompt that triggers .env access protection")
 
-4. Observe the result:
-   - The **PreToolUse** hook should detect any paths or arguments that reference `.env`-style files.
+3. Observe the result:
+   - The **Pre-Tool Use** hook should detect any paths or arguments that reference `.env`-style files.
    - The tool request should be blocked.
    - You should see the custom security message defined in your script (for example, starting with `SECURITY BLOCK:`).
 
 ![Blocked .env access shown in the chat response](./tutorials-images/enhance-security-with-hooks-blocked-env-access.png "Chat response showing blocked .env file access by the PreToolUse hook")
 
-If the behavior is not what you expect:
-
-- Add more detailed logging to your script (for example, log the raw JSON input to a file or to stderr).
-- Confirm that the hook is associated with the **PreToolUse** event and that it is active.
-
 ---
 
-## Step 6: Extend Hooks for Security Reviews and Code Quality
+### Step 6: Extend Hooks for Security Reviews and Code Quality
 
 Once your `.env` protection works, you can reuse the same pattern for broader security and code-quality rules.
 
@@ -311,14 +284,6 @@ Here are some ideas:
 - **Audit and logging**
   - Log all tool calls for specific agents or sessions to a central audit file during security reviews.
 
-By combining **Hooks** with **Custom Agents**, you can:
-
-- Give a "Security Reviewer" agent strict guardrails via PreToolUse hooks.
-- Let a "Codebase Documenter" agent read code safely while still blocking sensitive paths.
-- Build trust in AI-assisted workflows without sacrificing control over what tools can do.
-
-> **Note:** To learn more about Custom Agents and how they interact with Hooks, see the relevant configuration pages in your Code Studio documentation.
-
 ---
 
 ## Verification Checklist
@@ -327,8 +292,8 @@ Use this checklist to confirm that your automated security hook is working corre
 
 - **Hooks are enabled**
   - The Hooks toggle is turned **On** under Agent or Chat settings.
-- **PreToolUse hook exists**
-  - A hook for the **PreToolUse** event (for example, `BlockEnvFileAccess`) is present and active in the Hooks list.
+- **Pre-Tool Use hook exists**
+  - A hook for the **Pre-Tool Use** event (for example, `BlockEnvFileAccess`) is present and active in the Hooks list.
 - **Safe tool calls succeed**
   - Reading normal source files or documentation through the agent still works.
 - **.env access is blocked**
@@ -345,17 +310,8 @@ If any of these checks fail:
 ---
 
 ## What’s Next?
+Explore more tutorials:
 
-You have now:
-
-- Enabled and configured Hooks in Syncfusion Code Studio.
-- Created a **PreToolUse** hook that protects `.env`-style files from accidental exposure.
-- Verified that safe tool calls continue to work while sensitive paths are blocked.
-- Seen how to reuse this pattern for broader security and code-quality enforcement.
-
-Next steps:
-
-- Combine Hooks with **Custom Agents** to build specialized, policy-aware agents for security reviews, documentation, or refactoring.
-- Add additional **PreToolUse** hooks to enforce organization-wide coding standards and review workflows.
-
-With automated hooks in place, Code Studio becomes not just an AI coding assistant, but also a **security-aware partner** that helps your team ship better, safer code.
+- Generate your first code change: Learn to guide the agent to implement and verify a small change end-to-end. [/code-studio/tutorials/generate-your-first-code-using-agent](/code-studio/tutorials/generate-your-first-code-using-agent)
+- Fix bugs with AI: Use the agent to identify, patch, and validate defects safely. [/code-studio/tutorials/fixing-bugs-with-ai](/code-studio/tutorials/fixing-bugs-with-ai)
+- Compare AI models: Evaluate model quality, cost, and speed for your workflows. [/code-studio/tutorials/compare-ai-models](/code-studio/tutorials/compare-ai-models)

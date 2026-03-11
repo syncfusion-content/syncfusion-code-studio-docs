@@ -1,11 +1,11 @@
 ---
-title: Fixing Documentation Gaps – Generate Accurate Developer Docs with AI
+title: Fixing Documentation Gaps: How AI Generates Accurate Developer Documentation Instantly
 description: Learn how to use a custom Codebase Documenter agent in Syncfusion Code Studio to generate clear, beginner-friendly documentation for any codebase.
 platform: syncfusion-code-studio
 keywords: documentation, custom-agent, codebase-docs, ai-documentation, code-studio, knowledge-sharing
 ---
 
-# Fixing Documentation Gaps: Generate Accurate Developer Docs with a Custom Agent
+# Fixing Documentation Gaps: How AI Generates Accurate Developer Documentation Instantly
 
 ## Overview
 
@@ -23,11 +23,9 @@ By the end, you will have a **repeatable workflow** to keep your documentation f
 
 Before you start, make sure:
 
-- **Syncfusion Code Studio is installed and configured.**  
-  If not, follow Install and Configure: [Install and Configuration](/code-studio/getting-started/install-and-configuration)
-- **You have a project folder opened in Code Studio** that you want to document.
-- **You are familiar with Custom Agents in Code Studio.**  
-  A *Custom Agent* is an AI assistant whose behavior you define using an `.agent.md` file inside your project’s `.codestudio/agents` folder. For details, see [Custom Agents](/code-studio/reference/configure-properties/custom-agents).
+- Syncfusion Code Studio is installed and properly configured. If you haven't installed it yet, see [Install and Configure](/code-studio/getting-started/install-and-configuration) for step-by-step instructions.
+
+- Open your project folder in Code Studio (Windows: `Ctrl+K Ctrl+O`; macOS: `Cmd+K Cmd+O`), or clone the repository and open the folder in Code Studio. For this tutorial, we use the example project [ej2-showcase-react-loan-calculator](https://github.com/syncfusion/ej2-showcase-react-loan-calculator.git).
 
 > Tip: For your first run, choose a project that is representative but not the largest monolith in your organization. This keeps the first documentation run fast and easy to review.
 
@@ -38,23 +36,24 @@ By the end of this tutorial, you will be able to:
 - Create or reuse a **Codebase Documenter** custom agent based on a `.agent.md` template.
 - Point the agent at a local project and let it analyze your codebase.
 - Generate beginner-friendly documentation including high-level overviews, architecture descriptions, and step-by-step tutorial “chapters”.
-- Iterate safely using **Agent mode** and **checkpoints** so you can review and refine the output.
 - Establish a **repeatable workflow** to keep your documentation in sync with code changes over time.
 
-## Step 1: Create the Codebase Documenter Agent File
+## Steps to create developer documents
+
+### Step 1: Create the Codebase Documenter Agent File 
 
 In this step, you will create the configuration file that turns a generic model into a documentation-focused **Codebase Documenter** agent.
 
-1. **Open your project in Code Studio.**
+1. **Open your project folder in Code Studio** (Windows: `Ctrl+K Ctrl+O`; macOS: `Cmd+K Cmd+O`), or clone the repository and open the folder in Code Studio. For this tutorial, we use the example project [ej2-showcase-react-loan-calculator](https://github.com/syncfusion/ej2-showcase-react-loan-calculator.git).
+
 2. **Create the agent configuration folder (if it does not exist):**
-   - In the Explorer, create a folder named `.codestudio` at the root of your project.
+   - In the Explorer (Windows: `Ctrl+Shift+E`; Mac: `Cmd+Shift+E`), create a folder named `.codestudio` at the root of your project.
    - Inside it, create a subfolder named `agents`.
    - Final path: `.codestudio/agents/`.
-3. **Download or copy the agent template:**
-   - Get the `Codebase Documenter` agent template from your team’s repository or from your shared templates location.  
-   - The file should be named something like: `Codebase-Documenter.agent.md`.
-   - If you maintain a GitHub template, link it clearly here, for example: [Download Codebase Documenter agent template](https://github.com/syncfusion/code-studio-agent-library.git).
-  - For this tutorial, we used the example project [ej2-showcase-react-loan-calculator](https://github.com/syncfusion/ej2-showcase-react-loan-calculator.git).
+3. **Create or download the agent template:**
+   - Create a custom agent for documentation, or obtain the `Codebase Documenter` agent template from the agent library.
+   - Name the file `Codebase-Documenter.agent.md`.
+   - Download the custom agent from the [Codebase Documenter agent template repository](https://github.com/syncfusion/code-studio-agent-library.git).
 4. **Place the template in your project:**
    - Copy `Codebase-Documenter.agent.md` into the `.codestudio/agents/` folder.
 5. **Open the agent file in the editor:**
@@ -67,7 +66,7 @@ You now have a documentation-focused agent configuration file attached to your p
 
 > Note: A `.agent.md` file describes how the agent should behave—its name, description, tools, and detailed workflow. The example you provided (with stages for analyzing the repo and writing chapters) is a good starting point for this file.
 
-## Step 2: Customize the Codebase Documenter Agent (Optional but Recommended)
+### Step 2: Customize the Codebase Documenter Agent (Optional but Recommended)
 
 Next, you can tune the agent so it matches your project and documentation style.
 
@@ -92,28 +91,29 @@ Next, you can tune the agent so it matches your project and documentation style.
 
 > Tip: Think of this file as the “job description” for your documentation agent. The clearer it is, the better your generated docs will be.
 
-## Step 3: Activate the Codebase Documenter Agent in Chat
+### Step 3: Activate the Codebase Documenter Agent in Chat
 
 Now that the agent is defined in your project, you can start using it from the Chat panel.
 
-1. **Open the Chat view in Code Studio.**
-2. **Select the Codebase Documenter agent:**
-   - Click the **agent dropdown** at the top of the chat panel.
+1. **Open the Chat view in Code Studio. (Windows:Ctrl+Alt+I)**
+
+2. **Select the Codebase Documenter agent: (see the attached screenshot)**
+   - Click the **agent dropdown** at the bottom of the chat panel.
    - Choose **Codebase Documenter** from the list.
+
 3. **Confirm the agent is active:**
    - The agent’s description should appear as a hint or subtitle in the chat input area.
    - You should see that you are now chatting with **Codebase Documenter**, not the default agent.
+
+![Chat view showing Codebase Documenter selected in the agent dropdown](./tutorials-images/fix-docs-agent-select.png "Select the Codebase Documenter agent in Chat")
 
 > Note: If you do not see the agent in the dropdown, double-check that:
 > - The `.agent.md` file is inside `.codestudio/agents/`.
 > - The file name ends with `.agent.md`.
 > - There are no syntax errors in the metadata block at the top.
+> - For a deeper understanding of Agent behavior, see [Agent](/code-studio/features/agent).
 
-> For a deeper understanding of Agent behavior, see [Agent](/code-studio/features/agent).
-
-![Chat view showing Codebase Documenter selected in the agent dropdown](./tutorials-images/fix-docs-agent-select.png "Select the Codebase Documenter agent in Chat")
-
-## Step 4: Ask the Agent to Document Your Codebase
+### Step 4: Ask the Agent to Document Your Codebase
 
 With the agent selected, you can now ask it to analyze your project and generate documentation.
 
@@ -140,9 +140,7 @@ With the agent selected, you can now ask it to analyze your project and generate
 
 ![Chat session showing the Codebase Documenter agent scanning files and creating documentation](./tutorials-images/fix-docs-agent-run.png "Codebase Documenter generating documentation")
 
-At this point, you have offloaded the hardest part of documentation: **understanding and organizing the code**.
-
-## Step 5: Review and Refine the Generated Documentation
+### Step 5: Review and Refine the Generated Documentation
 
 AI-generated documentation is a draft. You stay in control of quality and correctness.
 
@@ -175,44 +173,39 @@ AI-generated documentation is a draft. You stay in control of quality and correc
 
 ![Explorer showing generated index.md and chapter files inside an output folder](./tutorials-images/fix-docs-output-folder.png "Generated documentation files from the Codebase Documenter")
 
-## Step 6: Keep Documentation in Sync with Code Changes
+### Step 6: Keep Documentation in Sync with Code Changes
 
 Documentation is only useful if it stays up to date. With a dedicated documentation agent, keeping docs current becomes a quick habit instead of a big project.
 
 Here is a simple workflow you can adopt:
 
-- **After each major feature or refactor:**
-  - In Chat, ask the agent:
+1. **After each major feature or refactor:**
+   - In Chat, ask the agent:
     ```
     Compare the current workspace with the last documented version and update any sections that are now outdated.
     ```
-  - The agent can:
-    - Re-scan key modules.
-    - Update specific chapters.
-    - Flag places where behavior seems to have changed.
+   - The agent can:
+     - Re-scan key modules.
+     - Update specific chapters.
+     - Flag places where behavior seems to have changed.
 
-- **When onboarding a new area of the codebase:**
-  - Ask for a **focused tutorial** on that area, for example:
+2. **When onboarding a new area of the codebase:**
+   - Ask for a **focused tutorial** on that area, for example:
     ```
     Create a beginner-friendly tutorial for the billing module under src/billing.
     ```
 
-- **During or after code review:**
-  - If a change is unclear, ask the agent to:
+3. **During or after code review:**
+   - If a change is unclear, ask the agent to:
     ```
     Explain how the new checkout flow works based on the code in src/checkout. Summarize the main steps and data flow.
     ```
-  - Paste the explanation into your documentation (or have the agent write directly into a chapter file).
+   - Paste the explanation into your documentation (or have the agent write directly into a chapter file).
 
 To keep your workspace safe while the agent reads and writes documentation files, you can combine this workflow with **Agent mode** and **checkpoints**:
 
-- **Agent mode** gives the agent controlled access to your workspace.
-- **Checkpoints** capture snapshots of your workspace so you can revert if needed.
-
-Learn more:
-
-- [Agent](/code-studio/features/agent)
-- [Checkpoints](/code-studio/features/checkpoints)
+- **[Agent](/code-studio/features/agent)** gives the agent controlled access to your workspace.
+- **[Checkpoints](/code-studio/features/checkpoints)** capture snapshots of your workspace so you can revert if needed.
 
 ## Verification
 
@@ -233,8 +226,8 @@ Use this checklist to verify that your AI-generated documentation is useful and 
   - Major architectural decisions are accurately reflected.
   - Code examples compile (or are easy to adjust so they do).
 
-- **New developers can follow it**
-  - Ask a teammate (or a junior developer) to:
+- **Check junior developer can understand it**
+  - Ask a junior developer to:
     - Read `index.md` and one or two key chapters.
     - Answer questions like “Where is the authentication logic implemented?” or “Where do we send email notifications?”.
   - If they can find the answers quickly, your docs are doing their job.
@@ -247,29 +240,9 @@ If any of these checks fail:
 
 ## What’s Next?
 
-You now have a **repeatable way to close documentation gaps** using AI, without turning engineers into full-time writers.
+Keep momentum by trying one of these next steps:
 
-Here are some ideas for your next steps:
+- Generate your first code change: Walk through creating and applying a safe code diff with the agent. See [Generate Your First Code Using Agent](/code-studio/tutorials/generate-your-first-code-using-agent).
+- Fix bugs with AI: Locate, explain, and patch defects end-to-end. See [Fixing Bugs with AI](/code-studio/tutorials/fixing-bugs-with-ai).
+- Accelerate code reviews: Summarize diffs, surface risks, and propose improvements. See [Accelerate Code Reviews](/code-studio/tutorials/accelerate-code-reviews).
 
-- **Build a review pipeline**
-  - Add a handoff from your `Codebase Documenter` agent to a dedicated **Review** agent that checks documentation for accuracy and tone and flags sections that may be out of sync with the latest code.
-
-- **Create project-specific variants**
-  - For example:
-    - `Mobile App Documenter` for mobile repositories.
-    - `Backend API Documenter` for service-oriented backends.
-  - Each variant can:
-    - Focus on different folders.
-    - Use different examples and diagrams.
-
-- **Integrate with your existing Custom Agents**
-  - Combine the Codebase Documenter with:
-    - Custom QA agents for validation.
-    - Architecture advisors.
-    - Onboarding agents that answer “How does X work?” questions for new hires.
-
-- **Explore related guides and references**
-  - Custom Agents reference: [Custom Agents](/code-studio/reference/configure-properties/custom-agents)
-  - General agent behavior and options: [Agent](/code-studio/features/agent)
-
-With the right custom agent in place, your codebase stops being a mystery and becomes a **living, teachable system**—for you, your teammates, and every new developer who joins later.
