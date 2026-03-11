@@ -1,5 +1,5 @@
 ---
-title: Fixing Bugs in Seconds - Smart Error Resolution with Syncfusion Code Studio AI
+title: Fixing Bugs in Seconds Smart Error Resolution with Syncfusion Code Studio AI
 description: Learn how Syncfusion Code Studio AI instantly identifies and resolves errors, helping developers fix bugs in seconds with AI-powered quick fixes and smart debugging.
 platform: syncfusion-code-studio
 keywords: bug-fixing, error-resolution, quick-fix, problems-panel, context, agent-mode, attachment
@@ -7,19 +7,19 @@ keywords: bug-fixing, error-resolution, quick-fix, problems-panel, context, agen
 
 # Fixing Bugs in Seconds: Smart Error Resolution with Syncfusion Code Studio AI
 
-## Overview 
+## Overview
 
-Have you ever spent hours hunting down a bug, only to find it was a simple typo or missing import? Those days are over! In this tutorial, we'll show you how Code Studio AI can instantly identify and resolve errors, helping you fix bugs in seconds instead of hours.
+Tracking down a bug can take significant time, especially when the root cause is a simple typo, a missing import, or a type mismatch buried across multiple files. Code Studio AI helps you identify and resolve these errors quickly by surfacing AI-powered fixes directly in your editor.
 
-By the end of this tutorial, you'll know how to leverage AI-powered quick fixes, use the Problems panel effectively, and add project context to get even more accurate debugging suggestions. Let's turn those frustrating red squiggles into green checkmarks!
+This tutorial walks you through three approaches to fixing bugs with Code Studio AI: using hover quick fixes for single errors, sending problems from the **Problems panel** as context to the AI agent, and attaching files so the AI understands your broader codebase before suggesting a fix.
 
 ## Prerequisites
 
 Before beginning, ensure:
 
-- Syncfusion Code Studio is installed and properly configured on your system. If you have not yet downloaded Code Studio, refer to [Install and Configure](../getting-started/install-and-configuration) for step-by-step instructions.
+- Syncfusion Code Studio is installed and properly configured on your system. If you have not yet downloaded Code Studio, refer to [Install and Configure](/code-studio/getting-started/install-and-configuration) for step-by-step instructions.
 - Your project is opened in Code Studio with at least one file containing errors or warnings.
-- Agent mode is enabled in the chat window. Learn more about [Agent mode](../features/agent.md).
+- Agent mode is enabled in the chat window. Learn more about [Agent mode](/code-studio/features/agent).
 
 ## What You Will Learn
 
@@ -33,44 +33,40 @@ By the end of this tutorial, you'll be able to:
 
 ## Steps to Fix Bugs with AI
 
-### Step 1: Open Your Project with Errors
+### Step 1: Apply a Quick Fix by Hovering
 
-Syncfusion Code Studio AI offers three powerful ways to fix bugs. Choose the method that best fits your situation:
+Use this approach when you have a single, isolated error to resolve.
 
-#### Option 1: Quick Fix by Hovering (Best for Single Errors)
+1. Move your mouse cursor over any red underlined error in your code. Code Studio AI displays the following options:
+   - **Quick Fix** — Apply an immediate fix for the specific error.
+   - **Fix** — Get a detailed AI-generated solution.
+   - **View Problem** — See the error details in the **Problems panel**.
 
-Use this when you have a single error to fix quickly.
+2. Click **Quick Fix** to apply the fix instantly.
 
-1. **Move your mouse cursor over any red underlined error in your code** - Code Studio AI will show you:
-   - **Quick Fix** - Apply an immediate fix for the specific error
-   - **Fix** - Get a detailed AI-generated solution
-   - **View Problem** - See the error details in the Problems panel
+   <img src="./tutorials-images/Error-options.png" alt="Quick Fix options displayed on hover over a red underlined error in the editor" />
 
-2. **Select the Quick Fix** and click on it to apply instantly.
+The AI analyzes your code, understands the context, and applies the fix.
 
-   <img src="./tutorials-images/Error-options.png" alt="Quick Fix on Hover" />
+### Step 2: Send Problems as Context Using the Problems Panel
 
-**You just fixed a error in seconds!** The AI analyzed your code, understood the context, and provided an accurate solution.
+Use this approach when you have multiple errors and want to send specific problems to the AI as context.
 
-#### Option 2: Use the Problems Panel (Provide Problems as Context)
+1. Open the **Chat Panel** by pressing `Ctrl+Alt+B` (Windows/Linux) or `Cmd+Alt+B` (Mac), or click the Code Studio icon to the left of the centered search box. Then click **Add context** (the paperclip icon) at the bottom of the chat window:
 
-Use this when you have several errors to fix or want to send specific problems to the AI as context.
+   <img src="./tutorials-images/Attachment-icon.png" alt="Add context paperclip icon at the bottom of the Chat Panel" />
 
-1. **Open the chat window** by pressing `Ctrl+Alt+B` (Windows/Linux) or `Cmd+Alt+B` (Mac), or click the Code Studio icon to the left of the centered search box. Then **click the Add context** (paperclip symbol) at the bottom of the chat window:
+2. Choose the **Problems** option from the attachment menu:
 
-   <img src="./tutorials-images/Attachment-icon.png" alt="Attachment Icon" />
+   <img src="./tutorials-images/Problem-option.png" alt="Problems option selected in the Add context attachment menu" />
 
-2. **Choose the Problems option** from the attachment menu:
+3. Select the problems to fix. You have two options:
+   - Click **All Problems** to send all problems as context.
+   - Click individual problems to select specific ones.
 
-   <img src="./tutorials-images/Problem-option.png" alt="Problem Option" />
+   <img src="./tutorials-images/Problem-List.png" alt="List of problems available for selection in the Add context menu" />
 
-3. **Select the problems to fix**. You have two options:
-   - **Click the "All Problems" option** to send all problems as context
-   - **Click on individual problems** to select specific ones
-
-   <img src="./tutorials-images/Problem-List.png" alt="Problem List" />
-
-4. **Type a prompt in the chat to ask the Agent to fix the selected problems**. Use a detailed prompt like this:
+4. Type a prompt in the chat to ask the agent to fix the selected problems. For example:
 
    ```
    Please analyze and fix the selected problems. For each issue, explain what's wrong and provide the corrected code. Make sure the fixes follow best practices and don't break existing functionality.
@@ -78,83 +74,64 @@ Use this when you have several errors to fix or want to send specific problems t
 
    Review the suggested fixes before applying them:
 
-   <img src="./tutorials-images/Problem-context.png" alt="Problems Panel Context Menu" />
+   <img src="./tutorials-images/Problem-context.png" alt="Chat Panel showing problems added as context with a prompt to fix them" />
 
-**Tip:** Use this workflow when you want the AI to focus on specific issues across your project without adding whole files as context.
+> **Tip:** Use this workflow when you want the AI to focus on specific issues across your project without adding whole files as context.
 
-#### Option 3: Add Files as Context to AI (Best for Complex Issues)
+### Step 3: Add Files as Context for Complex Issues
 
-Use this when errors require understanding of multiple files or your project's architecture.
-
-There are different options to add files as context:
+Use this approach when errors require understanding of multiple files or your project's architecture. There are four ways to add a file as context:
 
 **Method 1: Right-click in Explorer**
 
-Right-click the file in the Explorer and select **Add file to chat**:
+Right-click the file in the **Explorer** and select **Add file to chat**:
 
-   <img src="./tutorials-images/Context-option.png" alt="Add File to Chat" />
+   <img src="./tutorials-images/Context-option.png" alt="Add file to chat option in the Explorer right-click context menu" />
 
 **Method 2: Use Suggested Context**
 
-Open the file with errors. The chat window will suggest the file as context—simply click the file name in chat to add it:
+Open the file with errors. The **Chat Panel** will suggest the file as context — click the file name in the chat to add it:
 
-   <img src="./tutorials-images/suggestion-context.png" alt="Suggested Context" />
+   <img src="./tutorials-images/suggestion-context.png" alt="File suggestion appearing in the Chat Panel for adding as context" />
 
-**Method 3: Use the Add context Menu**
+**Method 3: Use the Add Context Menu**
 
-1. **Open the chat window** by pressing `Ctrl+Alt+B` (Windows/Linux) or `Cmd+Alt+B` (Mac), or click the Code Studio icon to the left of the centered search box. Then **click the Add context** option at the bottom of the chat window:
+1. Open the **Chat Panel** (see Step 2, action 1 for how to open it and access **Add context**).
 
-   <img src="./tutorials-images/Attachment-icon.png" alt="Attachment Icon" />
+2. Select the file with errors from the list. It will be sent as context:
 
-2. **Select the file** with errors from the list. It will be sent as context:
-
-   <img src="./tutorials-images/file-context.png" alt="File Context" />
+   <img src="./tutorials-images/file-context.png" alt="File selected from the Add context menu to send as context to the AI" />
 
 **Method 4: Use the # Symbol in Chat**
 
-1. **Open the chat window** by pressing `Ctrl+Alt+B` (Windows/Linux) or `Cmd+Alt+B` (Mac), or click the Code Studio icon to the left of the centered search box.
+1. Open the **Chat Panel** by pressing `Ctrl+Alt+B` (Windows/Linux) or `Cmd+Alt+B` (Mac).
 
-2. **Type #** in the chat input box - a list of files will appear.
+2. Type `#` in the chat input box. A list of files will appear.
 
-3. **Select your file** from the list to send it as context:
+3. Select your file from the list to send it as context:
 
-   <img src="./tutorials-images/hash.png" alt="Hash Symbol File Selection" />
+   <img src="./tutorials-images/hash.png" alt="File list appearing after typing # in the Chat Panel input box" />
 
-**Type a prompt in the chat window to ask the Agent to fix the issues**. Use a detailed prompt like this:
+After adding the file as context, type a prompt asking the agent to fix the issues. For example:
 
    ```
    Please review the attached file and fix all errors. Explain what's causing each error and provide the corrected code. Ensure the fixes maintain code quality and don't introduce new bugs.
    ```
 
-   <img src="./tutorials-images/Problem-context.png" alt="Problems Panel Context Menu" />
+   <img src="./tutorials-images/Problem-context.png" alt="Chat Panel showing an attached file as context with a prompt to fix errors" />
 
-**Context is king!** The more relevant information AI has, the better its suggestions will be.
+The more relevant context the AI has, the more accurate its suggestions will be.
 
 
-## Verification
+## Verify Your Results
 
-Let's make sure your bugs are fixed! Follow these simple checks:
+- Open the **Problems panel** using `Ctrl+Shift+M` (Windows/Linux) or `Cmd+Shift+M` (Mac) and confirm the error count has decreased or shows zero.
+- Check that red squiggly underlines are no longer visible in the editor for the lines you fixed.
+- Run your application and confirm the affected features work correctly without new errors in the console or UI.
+- Review the AI-applied code changes to ensure each fix aligns with your project's coding standards and does not introduce new issues.
 
-- **Check the Problems Panel** - Open the Problems panel (`Ctrl + Shift + M` or `Cmd + Shift + M`) and verify the error count has decreased or shows zero, and red squiggly underlines are gone from your code editor.
+## What's Next
 
-- **Test Your Application** - Run your application, navigate to the features affected by the bug fix, and confirm everything works as expected without new errors appearing in the console or UI.
-
-- **Review the Changes** - Look at the code changes the AI made, ensure the fix makes sense for your project, and verify it aligns with your coding standards and project architecture.
-
-**Congratulations!** You've just mastered AI-powered bug fixing in Syncfusion Code Studio. You can now resolve errors in seconds instead of hours, making your development workflow dramatically faster!
-
-## What's Next? Continue Your Learning Journey
-
-You've learned how to fix bugs quickly with AI, but there's so much more to explore:
-
-**Want to prevent bugs before they happen?**
-  → Learn about [Autocomplete](../features/autocomplete) to write error-free code faster.
-
-**Curious about more advanced AI features?**
-  → Check out [Agent Mode](./generate-your-first-code-using-agent) for autonomous code generation and bug fixing.
-
-**Need to understand complex errors better?**
-  → Try the [Ask Feature](../features/ask) to have AI explain error messages and suggest solutions.
-
-**Ready to build complete projects?**
-  → Explore [Building Projects with OpenSpec](./using-openspec-inside-syncfusion-code) for structured, AI-assisted development.
+- Use [Autocomplete](/code-studio/features/autocomplete) to catch errors as you type and reduce bugs before they occur.
+- Explore [Agent mode](/code-studio/tutorials/generate-your-first-code-using-agent) for generating and fixing code autonomously across your project.
+- Use the [Ask feature](/code-studio/features/ask) to have the AI explain error messages and suggest solutions in detail.

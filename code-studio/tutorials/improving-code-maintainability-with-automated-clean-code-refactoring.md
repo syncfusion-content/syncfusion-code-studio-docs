@@ -15,8 +15,6 @@ Code Studio makes this process faster and more consistent through its built-in A
 
 By the end of this tutorial, you'll have a concrete set of refactoring techniques you can apply immediately to your own projects.
 
-For a deeper understanding of the AI features used in this tutorial, see [Inline Chat](/code-studio/features/inlinechat) and [Agent](/code-studio/features/agent).
-
 > **Note:** Refactoring changes the structure of your code, not its behavior. If your project has tests, run them before and after refactoring to confirm nothing has broken.
 
 ## Prerequisites
