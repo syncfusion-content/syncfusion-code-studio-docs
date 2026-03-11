@@ -1,5 +1,5 @@
 ---
-title: Fixing Documentation Gaps: How AI Generates Accurate Developer Documentation Instantly
+title: Fixing Documentation Gaps How AI Generates Accurate Developer Documentation Instantly
 description: Learn how to use a custom Codebase Documenter agent in Syncfusion Code Studio to generate clear, beginner-friendly documentation for any codebase.
 platform: syncfusion-code-studio
 keywords: documentation, custom-agent, codebase-docs, ai-documentation, code-studio, knowledge-sharing
@@ -27,9 +27,7 @@ Before you start, make sure:
 
 - Syncfusion Code Studio is installed and properly configured. If you haven't installed it yet, see [Install and Configure](/code-studio/getting-started/install-and-configuration) for step-by-step instructions.
 
-- Open your project folder in Code Studio (`Ctrl+K Ctrl+O` (Windows/Linux) or `Cmd+K Cmd+O` (Mac)), or clone the repository and open the folder in Code Studio. For this tutorial, we use the example project [ej2-showcase-react-loan-calculator](https://github.com/syncfusion/ej2-showcase-react-loan-calculator.git).
-
-> **Tip:** For your first run, choose a project that is representative but not the largest monolith in your organization. This keeps the first documentation run fast and easy to review.
+- Have a project ready to document. For this tutorial, we use the example project [ej2-showcase-react-loan-calculator](https://github.com/syncfusion/ej2-showcase-react-loan-calculator.git).
 
 ## What You Will Learn
 
@@ -38,7 +36,15 @@ By the end of this tutorial, you will be able to:
 - Create or reuse a **Codebase Documenter** custom agent based on a `.agent.md` template.
 - Point the agent at a local project and let it analyze your codebase.
 - Generate beginner-friendly documentation including high-level overviews, architecture descriptions, and step-by-step tutorial “chapters”.
-- Establish a **repeatable workflow** to keep your documentation in sync with code changes over time.
+- Run targeted follow-up prompts to update specific documentation chapters after a code change, keeping your docs in sync with the codebase over time.
+
+## Key Concepts
+
+**.agent.md file**
+A Markdown-based configuration file that defines a custom agent's identity, behavior, tools, and workflow instructions. Code Studio reads these files from the `.codestudio/agents/` folder and makes the agents they describe available in the Chat Panel.
+
+**Codebase Documenter**
+A named custom agent pre-configured to analyze a codebase and produce beginner-friendly documentation. Its behavior is defined in `Codebase-Documenter.agent.md` and can be customized for any project structure or documentation style.
 
 ## Steps to Generate Developer Documentation
 
@@ -65,9 +71,9 @@ You now have a documentation-focused agent configuration file attached to your p
 
 <img src="./tutorials-images/fix-docs-agent-setup.png" alt="Explorer showing the .codestudio/agents folder with the Codebase-Documenter.agent.md file" />
 
-### Step 2: Customize the Codebase Documenter Agent (Optional but Recommended)
+### Step 2: Customize the Codebase Documenter Agent
 
-Next, you can tune the agent so it matches your project and documentation style.
+This step is optional but recommended — tune the agent so it matches your project and documentation style.
 
 1. **Review the top metadata block** in `Codebase-Documenter.agent.md`:
    - Confirm or update:
@@ -116,7 +122,7 @@ With the agent selected, you can now ask it to analyze your project and generate
    - If your project is already open in Code Studio and you want docs for everything, you can target the **current workspace**.
    - If you want to focus on a subfolder (for example, `src/`), mention that explicitly in your request.
 2. **Send a focused initial request in Chat, for example:**
-   ```
+   ```text
    Document the current workspace. Identify core components, explain how they work together, and generate beginner-friendly tutorials.
    ```
 3. **Let the agent run:**
@@ -155,11 +161,11 @@ AI-generated documentation is a draft. You stay in control of quality and correc
    - Are code examples short enough to read quickly and correct in terms of APIs and behavior?
 4. **Give targeted feedback through follow-up prompts:**
    - If something is unclear or wrong, go back to Chat and say, for example:
-     ```
+     ```text
      The data flow section is confusing. Please rewrite Chapter 3 with a clearer sequence diagram and shorter explanations.
      ```
    - Or:
-     ```
+     ```text
      Chapter 2 over-explains basic React concepts. Focus more on how our custom hooks work and less on React fundamentals.
      ```
 5. **Let the agent regenerate or refine specific chapters** instead of rewriting everything by hand.
@@ -170,25 +176,22 @@ AI-generated documentation is a draft. You stay in control of quality and correc
 
 ### Step 6: Keep Documentation in Sync with Code Changes
 
-Documentation is only useful if it stays up to date. With a dedicated documentation agent, keeping docs current becomes a quick habit instead of a big project.
+Documentation is only useful if it stays up to date. This step shows you how to use the agent to update docs incrementally so that keeping them current becomes a quick habit instead of a big project.
 
-Here is a simple workflow you can adopt:
+1. **Update docs after a major feature or refactor:**
+   - Open the **Chat Panel** and make sure **Codebase Documenter** is still selected.
+   - Send the following prompt:
+     ```text
+     Compare the current workspace with the last documented version and update any sections that are now outdated.
+     ```
+   - The agent re-scans key modules, updates specific chapters, and flags places where behavior appears to have changed.
 
-1. **After each major feature or refactor:**
-   - In Chat, ask the agent:
-    ```
-    Compare the current workspace with the last documented version and update any sections that are now outdated.
-    ```
-   - The agent can:
-     - Re-scan key modules.
-     - Update specific chapters.
-     - Flag places where behavior seems to have changed.
-
-2. **When onboarding a new area of the codebase:**
-   - Ask for a **focused tutorial** on that area, for example:
-    ```
-    Create a beginner-friendly tutorial for the billing module under src/billing.
-    ```
+2. **Generate focused tutorials for new areas of the codebase:**
+   - When a new module is added or a teammate needs to onboard to a specific area, ask for a targeted tutorial:
+     ```text
+     Create a beginner-friendly tutorial for the billing module under src/billing.
+     ```
+   - The agent produces a new chapter file you can review and merge into the existing docs structure.
 
 ## Verify Your Results
 

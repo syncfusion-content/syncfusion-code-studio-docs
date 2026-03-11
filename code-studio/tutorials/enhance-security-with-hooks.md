@@ -9,19 +9,21 @@ keywords: hooks, security, code-quality, pre-tool-use, env-files, automation, ag
 
 ## Overview
 
-AI agents in Syncfusion Code Studio can read files, run tools, and generate code on your behalf. This is powerful—but without guardrails, an agent might accidentally:
+AI agents in Syncfusion Code Studio can read files, run tools, and generate code on your behalf. Without guardrails, an agent might accidentally:
 
 - Read sensitive files such as `.env` or credential files.
 - Run risky shell commands.
 - Modify files you consider off-limits.
 
-**Hooks** let you insert your own logic into these workflows. A hook is a small script that runs at specific events (for example, before a tool runs) and decides whether to:
+**Hooks** let you insert your own logic into these workflows. A hook is a small script that runs at specific lifecycle events (for example, before a tool runs) and decides whether to:
 
 - Allow the action.
 - Block the action.
 - Optionally return a custom message back to the user.
 
-In this tutorial, you’ll configure a **Pre-Tool Use** hook that blocks any tool call that tries to access `.env`-style files. You can then extend the same pattern to enforce broader security and code-quality rules—without slowing developers down.
+In this tutorial, you'll configure a **Pre-Tool Use** hook that blocks any tool call that tries to access `.env`-style files. You can then extend the same pattern to enforce broader security and code-quality rules.
+
+> **Note:** The hook script in this tutorial is written in PowerShell for Windows. If you are on macOS or Linux, you will need to adapt the script to Bash or another shell available on your system.
 
 ## Prerequisites
 
@@ -41,8 +43,23 @@ By the end of this tutorial, you will be able to:
 - Create a **Pre-Tool Use** hook that inspects tool requests before they run.
 - Block attempts to read `.env` (and other sensitive files) from AI tools.
 - Provide clear feedback to the user when a request is blocked.
+- Extend hook patterns to cover broader security and code-quality rules.
+- Test hook behavior from the **Chat Panel**.
 
----
+## Key Concepts
+
+**Hook**
+A small script that Code Studio calls at specific points in the agent workflow. Hooks let you intercept, inspect, and optionally block agent actions before they execute.
+
+**Pre-Tool Use event**
+A hook lifecycle event that fires *before* any tool call runs. Your script receives details about the upcoming call and returns a decision (allow or deny) before Code Studio proceeds.
+
+**permissionDecision**
+The field in your hook's JSON (JavaScript Object Notation) output that tells Code Studio whether to allow or deny a tool call. Supported values are `"allow"` and `"deny"`.
+
+**stdin / stdout**
+Standard input and standard output streams. Code Studio passes tool-call details to your hook script via stdin and reads your hook's decision from stdout.
+
 ## Steps to Enhance Security with Hooks
 
 ### Step 1: Create a .env and PowerShell script 
@@ -127,7 +144,7 @@ In this step, you will prepare a test `.env` file and create the PowerShell hook
 
 4. Save the file.
 
-![PowerShell PreToolUse hook script opened in the editor](./tutorials-images/enhance-security-with-hooks-hook-script-example.png "Example PreToolUse PowerShell hook script in the editor")
+<img src="./tutorials-images/enhance-security-with-hooks-hook-script-example.png" alt="PowerShell PreToolUse hook script opened in the editor" />
 
 #### What This Hook Does
 
@@ -147,13 +164,11 @@ At a high level, this script:
 
 > **Important:** Be careful with overly broad patterns. Blocking too many paths (for example, everything under your project root) can prevent agents from doing useful work.
 
----
-
 ### Step 2: Create a Pre-Tool Use Hook
 
 Next, you will create a hook that runs **before** any tool is executed.
 
-1. Click the settings icon (configure chat) in the chat window and click the hooks 
+1. Click the settings icon (**Configure Chat**) in the **Chat Panel**, then select **Hooks** from the menu.
 
 <img src="./tutorials-images/enhance-security-with-hooks-hooks-menu.png" alt="Hooks option selected from the Chat Panel settings menu" />
 
@@ -170,8 +185,6 @@ Next, you will create a hook that runs **before** any tool is executed.
 <img src="./tutorials-images/enhance-security-with-hooks-blockenvfileaccesshook-hook.png" alt="BlockEnvFileAccess hook entry created in the .codestudio hooks folder" />
 
 > **Note:** The exact filename and folder may differ slightly depending on your configuration, but the file will be associated with the **Pre-Tool Use** event you selected.
-
----
 
 ### Step 3: Configure the Pre-Tool Use Hook Command
 
@@ -204,9 +217,9 @@ Now wire the Pre-Tool Use event to your PowerShell script using the hooks config
 
 <img src="./tutorials-images/enhance-security-with-hooks-hooks-config.png" alt="Hooks configuration mapping Pre-Tool Use to the BlockEnvFileAccess script" />
 
----
+### Step 4: Review the Hook Input and Output Format
 
-### Step 4: Understand the Pre-Tool Use Hook Flow
+Review the JSON structures that Code Studio sends to and expects from your hook script before running a live test.
 
 When a tool is about to run (for example, a file read or search), Code Studio:
 
@@ -219,7 +232,7 @@ When a tool is about to run (for example, a file read or search), Code Studio:
 
 Your hook script uses this information to decide what to do next. Common outcomes include:
 
-- Allowing the tool:
+- **Allow** the tool call:
 
   ```json
   {
@@ -230,7 +243,7 @@ Your hook script uses this information to decide what to do next. Common outcome
   }
   ```
 
-- Denying the tool with a reason:
+- **Deny** the tool call with a reason:
 
   ```json
   {
@@ -243,8 +256,6 @@ Your hook script uses this information to decide what to do next. Common outcome
   ```
 
 Because the hook runs **before** the tool executes, this is the ideal place to enforce security rules such as secret protection, file restrictions, and dangerous-command blocking.
-
----
 
 ### Step 5: Test the Hook in a Real Session
 
@@ -267,8 +278,6 @@ Now you will verify that your hook works as expected from the user’s point of 
 
 <img src="./tutorials-images/enhance-security-with-hooks-blocked-env-access.png" alt="Blocked .env access message shown in the Chat Panel response" />
 
----
-
 ### Step 6: Extend Hooks for Security Reviews and Code Quality
 
 Once your `.env` protection works, you can reuse the same pattern for broader security and code-quality rules.
@@ -283,8 +292,6 @@ Here are some ideas:
   - Require that certain tool uses (such as large refactors) only run when a specific environment flag is set (for example, `ALLOW_MASS_REFACTOR=true`).
 - **Audit and logging**
   - Log all tool calls for specific agents or sessions to a central audit file during security reviews.
-
----
 
 ## Verify Your Results
 
@@ -307,11 +314,8 @@ If any of these checks fail:
 - Add additional logging around JSON parsing and pattern matching.
 - Re-run your tests in a clean chat session.
 
----
+## What's Next
 
-## What’s Next?
-Explore more tutorials:
-
-- Generate your first code change: Learn to guide the agent to implement and verify a small change end-to-end. [/code-studio/tutorials/generate-your-first-code-using-agent](/code-studio/tutorials/generate-your-first-code-using-agent)
-- Fix bugs with AI: Use the agent to identify, patch, and validate defects safely. [/code-studio/tutorials/fixing-bugs-with-ai](/code-studio/tutorials/fixing-bugs-with-ai)
-- Compare AI models: Evaluate model quality, cost, and speed for your workflows. [/code-studio/tutorials/compare-ai-models](/code-studio/tutorials/compare-ai-models)
+- [Generate Your First Code Change Using Agent](code-studio/tutorials/generate-your-first-code-using-agent) — Guide the agent to implement and verify a small change end-to-end.
+- [Fixing Bugs with AI](code-studio/tutorials/fixing-bugs-with-ai) — Use the agent to identify, patch, and validate defects safely.
+- [Compare AI Models for Different Tasks](code-studio/tutorials/compare-ai-models) — Evaluate model quality, cost, and speed for your workflows.
