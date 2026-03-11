@@ -13,8 +13,6 @@ Ready to transform your web testing workflow? In this tutorial, you'll learn how
 
 > **Key concept — Playwright MCP Server:** A specific MCP implementation that brings Playwright's browser automation capabilities to AI agents. It acts as a translator between natural language commands and browser actions. When you tell the AI to "verify the login button exists," the Playwright MCP Server converts this into executable Playwright code that navigates pages, clicks elements, fills forms, and captures results.
 
-For a deeper understanding of the features used in this tutorial, see [Agent](/code-studio/features/agent) and [Skills](/code-studio/features/skills).
-
 ## Prerequisites
 
 Before beginning this tutorial, ensure the following:
@@ -211,10 +209,10 @@ Once the agent finishes its work, you'll have a complete, executable Playwright 
 3. To run the test, use the following command in the terminal:
 
    ```bash
-   npx playwright test appointment-planner-verification.spec.ts
+   npx playwright test appointment-planner-verifications-spec.ts
    ```
 
-   > **Note:** Replace `appointment-planner-verification.spec.ts` with your actual test filename if different.
+   > **Note:** Replace `appointment-planner-verifications-spec.ts` with your actual test filename if different.
 
 4. View the HTML report by running the following command in the terminal:
 
