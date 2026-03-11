@@ -100,19 +100,12 @@ You will see three options:
 ## How to Configure Project-wise Instruction File
 
 **Step 1:** Open the `codestudio-instructions.md` file.
-- There are **two** options to open the codestudio-instructions.md file. You can choose any one of them based on your preference.
-    - **Option 1:**
-        - Open the chat view.
 
-        <img src="../reference-images/instruction_chat.png" alt="instruction_chat">
+- Open the chat view. Click the settings option at the top.
 
-        -  Click the **Generate agent instructions** to open the file.
-    - **Option 2:**
-        - Open the chat view. Click the settings option at the top.
+    <img src="../reference-images/instruction_chat_option.png" alt="instruction_chat_option" >
 
-        <img src="../reference-images/instruction_chat_option.png" alt="instruction_chat_option" >
-
-        - Select the “Generate agent instructions” in the pop up.
+- Select the “Generate agent instructions” in the pop up.
 
 **Step 2:** Now Code Studio will automatically create and open `codestudio-instructions.md`.  
 
