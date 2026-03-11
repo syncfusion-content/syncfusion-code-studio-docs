@@ -1,11 +1,11 @@
 ---
-title: From Complex Web Automation to Streamlined Workflows: Code Studio Skills for Playwright MCP
+title: From Complex Web Automation to Streamlined Workflows Code Studio Skills for Playwright MCP
 description: Learn how to use Playwright MCP with Agent mode in Syncfusion Code Studio to generate, execute, and manage web automation tests with AI assistance.
 platform: syncfusion-code-studio
 keywords: playwright-mcp, agent-mode, web-automation, ai-testing, mcp-server
 ---
 
-# From Complex Web Automation to Streamlined Workflows: Code Studio Skills for Playwright MCP
+# From Complex Web Automation to Streamlined Workflows Code Studio Skills for Playwright MCP
 
 ## Overview 
 
@@ -35,7 +35,9 @@ By the end of this tutorial, you'll be able to:
 
 ### Step 1: Install Playwright packages and Playwright MCP Server
 
-The first step is to install Playwright packages and configure the Playwright MCP server integration in Code Studio.
+**Playwright** is an open-source browser automation framework that lets you write tests for web applications across multiple browsers. The **Playwright MCP Server** acts as a bridge between Code Studio's AI and Playwright's automation capabilities — translating natural language test instructions into executable browser commands.
+
+Before the AI can generate tests, you need to install both Playwright and the MCP server integration.
 
 **Steps:**
 
@@ -52,78 +54,81 @@ The first step is to install Playwright packages and configure the Playwright MC
    - Select **TypeScript** as the language (default) and press **Enter**
 
    <img src="./tutorials-images/typescript-selection.png" alt="Playwright setup prompt showing TypeScript language selection" />
-   
+
    - Accept the default `tests` folder for end-to-end tests by pressing **Enter**
-   
+
    <img src="./tutorials-images/test-folder-configuration.png" alt="Playwright setup showing default tests folder configuration" />
-   <br><br>
+   <br>
    <img src="./tutorials-images/test-folder-confirmation.png" alt="Terminal output confirming tests folder location" />
-   
-   - Press **Enter** to continue with the setup
+
+   - When prompted **"Add a GitHub Actions workflow?"**, type `n` and press **Enter** to skip it. This workflow would automatically run your tests on GitHub when you push code, but for this tutorial, you'll focus on local development.
+
    - Confirm installation of Playwright browsers by pressing **Enter**
 
    <img src="./tutorials-images/browser-installation.png" alt="Playwright downloading browser binaries (Chromium, Firefox, WebKit)" />
 
-   The installation will download browser binaries. Once complete, you'll see the Playwright folder structure in your project explorer.
+   The installation will download browser binaries. Once complete, you'll see the Playwright folder structure in your project.
 
-   <img src="./tutorials-images/project-structure.png" alt="VS Code explorer showing installed Playwright project structure with tests folder" />
+   <img src="./tutorials-images/project-structure.png" alt="Installed Playwright project structure with tests folder" />
 
    > **Note:** The browser binaries download is approximately 500MB. The installation may take a few minutes depending on your internet connection speed.
 
 5. Install the Playwright MCP Server:
    
-   - Click the **MCP** icon in the Code Studio sidebar
+   - Open the Chat Panel. If it's not already visible, press `Ctrl+Shift+P` (Windows/Linux) or `Cmd+Shift+P` (Mac) to open the **Command Palette** — a search box that appears at the top of the editor — then type "Chat: Focus on Chat View" and press **Enter**.
 
-   <img src="./tutorials-images/mcp-icon.png" alt="Code Studio sidebar showing the MCP icon button" />
-   
+   - Once the Chat Panel is open, locate and click the **Configure Chat** icon (typically displayed as a settings or gear icon in the Chat Panel toolbar).
+
+   - From the configuration menu that appears, select the **MCP Server** option. This will open the MCP marketplace view where you can browse and install available MCP servers.
+
+   <img src="./tutorials-images/mcp-icon.png" alt="MCP panel in Code Studio" />
+
    - In the MCP marketplace panel, select the Playwright MCP tools
 
    <img src="./tutorials-images/mcp-marketplace.png" alt="MCP marketplace showing available Playwright MCP server for installation" />
-   
+
    - Click the **Install** button and choose your installation option (global or local)
 
    <img src="./tutorials-images/installation-scope.png" alt="Installation scope selection dialog showing global and local installation options" />
-   
+
    - Select your preferred option to add the Playwright MCP server to the installed list
 
 6. Verify the MCP installation:
    - After installation completes, the Playwright MCP server connection status will show as active
 
    <img src="./tutorials-images/mcp-connection-active.png" alt="MCP panel showing Playwright MCP server connection status as active" />
-   
-   - Right-click the Playwright MCP entry and select **Edit Configuration (JSON)** from the context menu
 
-   <img src="./tutorials-images/edit-configuration-menu.png" alt="Context menu showing Edit Configuration JSON option for Playwright MCP" />
-   
-   - The MCP server will be running by default after installation. An MCP entry is automatically added to the configuration. To stop it at any time, click the **Stop** button.
+   - To verify the Playwright MCP server installation, click the **Select Tools** icon in Chat. You should see "MCP server: playwright" listed with available Playwright commands.
 
-   <img src="./tutorials-images/mcp-server-running.png" alt="Configuration JSON showing Playwright MCP server running status" />
-
-   - To verify the Playwright MCP server installation, click the **Select Tools** icon in the Code Studio chat panel. You should see "MCP server: playwright" listed with available Playwright commands.
-
-   <img src="./tutorials-images/available-tools.png" alt="Chat panel tools dropdown showing available Playwright MCP commands" />
+   <img src="./tutorials-images/available-tools.png" alt="Chat tools showing available Playwright MCP commands" />
 
 ### Step 2: Create the Required Skills
 
-Skills guide the AI agent to perform specific tasks with focused instructions. In this step, you'll create a skill for Playwright test generation and website exploration.
+**Skills** are specialized instruction sets that direct the AI agent to perform specific tasks autonomously. Think of them as focused "playbooks" that define exactly how the agent should approach a particular type of work. In this case, you'll create a skill that instructs the agent to explore a website using Playwright MCP, identify key user flows, and automatically generate test cases based on what it discovers.
 
 **Steps:**
 
-1. Open the Code Studio menu and click **Skills**, or press `Ctrl+Shift+P` (Windows/Linux) or `Cmd+Shift+P` (Mac) to open the **Command Palette** and type "Skills".
+1. Open the Chat Panel. If it's not already visible, press `Ctrl+Shift+P` (Windows/Linux) or `Cmd+Shift+P` (Mac) to open the **Command Palette** — a search box that appears at the top of the editor — then type "Chat: Focus on Chat View" and press **Enter**.
 
-   <img src="./tutorials-images/skills-menu.png" alt="Code Studio menu showing the Skills option" />
+   - Once the Chat Panel is open, locate and click the **Configure Chat** icon (typically displayed as a settings or gear icon in the Chat Panel toolbar).
 
-2. Create a new skill by clicking **+ New skill...** from the skills panel.
-   
+   - From the configuration menu that appears, select the **skill** option.
+
+   <img src="./tutorials-images/skills-menu.png" alt="Skills view in Code Studio" />
+
+2. In the Skills panel, locate and click the **+ New skill...** button to create a new skill definition.
+
    <img src="./tutorials-images/create-new-skill.png" alt="Skills panel showing the + New skill button" />
 
 3. Name your skill:
-   - Enter `playwright-explore-website` as the skill name (use lowercase letters, numbers, and hyphens only)
-   - Press **Enter** to confirm
-   
+   - A dialog will appear prompting you to enter a skill name. Type `playwright-explore-website` as the skill name. Skill names must use lowercase letters, numbers, and hyphens only — no spaces or special characters are allowed.
+   - Press **Enter** to confirm and create the skill.
+
    <img src="./tutorials-images/skill-name-input.png" alt="Skill name input field showing playwright-explore-website" />
 
-4. Define the skill instructions in the `SKILL.md` file that opens:
+4. Define the skill instructions:
+   - Code Studio will automatically open a new `SKILL.md` file where you can define the instructions that guide the AI agent's behavior.
+   - Replace the default content with the following skill definition:
 
    ```markdown
    ---
@@ -149,18 +154,17 @@ Skills guide the AI agent to perform specific tasks with focused instructions. I
 
 ### Step 3: Enter Your Test Scenario and Run the Agent
 
-With the skill configured, you can now use Agent mode to generate Playwright tests from natural language test scenarios.
+Now that the skill is configured, you can describe your test scenario in plain English and let the AI agent do the rest. The agent will autonomously explore the website, identify the elements you described, and generate executable test code — no manual scripting required.
 
 **Steps:**
 
 1. Enable Agent Mode:
-   - Open the Chat Panel by pressing `Ctrl+Shift+C` (Windows/Linux) or `Cmd+Shift+C` (Mac), or by clicking the Chat icon in the sidebar
-   - Click the mode selector dropdown at the top of the Chat Panel (it displays "Chat" by default)
+   - Open Chat (if it's not already visible, press `Ctrl+Shift+P` to open the **Command Palette** — a search box that appears at the top of the editor — then type "Chat: Focus on Chat View" and press Enter)
    - Select **Agent** from the dropdown menu
 
 2. Select your skill:
-   - In the chat input box, type `/` to display the list of available skills
-   - Select `playwright-explore-website` from the dropdown
+   - In the chat input box at the bottom of the Chat Panel, type a forward slash `/` to open the skills menu. This displays the list of all available skills in your workspace.
+   - From the skills menu, select `playwright-explore-website`. This tells the agent to use the specific instructions you defined earlier for website exploration and test generation.
 
 3. Enter your test scenario in natural language:
 
@@ -188,7 +192,7 @@ With the skill configured, you can now use Agent mode to generate Playwright tes
 
 ### Step 4: Review the Generated Test
 
-After the Agent completes execution, you can review the generated test file and execution results.
+Once the agent finishes its work, you'll have a complete, executable Playwright test. In this step, you'll examine the generated code, verify it matches your requirements, and review the test execution results to confirm everything works as expected.
 
 **Steps:**
 
@@ -198,13 +202,21 @@ After the Agent completes execution, you can review the generated test file and 
 
 2. Check the terminal output for test execution results.
 
-   The integrated terminal displays execution details. By default, Playwright runs tests headless across 3 workers (Chromium, Firefox, and WebKit).
+   The terminal shows live execution details as Playwright runs your test. By default, Playwright runs tests headless (without opening visible browser windows) and executes them in parallel across 3 workers (Chromium, Firefox, and WebKit).
 
    <img src="./tutorials-images/test-execution-terminal.png" alt="Terminal output showing Playwright test execution across multiple browsers" />
-   <br><br>
+    <br><br>
    <img src="./tutorials-images/test-results-summary.png" alt="Terminal output showing test results summary with passed/failed counts" />
 
-3. View the HTML report by running the following command in the terminal:
+3. To run the test, use the following command in the terminal:
+
+   ```bash
+   npx playwright test appointment-planner-verification.spec.ts
+   ```
+
+   > **Note:** Replace `appointment-planner-verification.spec.ts` with your actual test filename if different.
+
+4. View the HTML report by running the following command in the terminal:
 
    ```bash
    npx playwright show-report
@@ -219,11 +231,11 @@ After the Agent completes execution, you can review the generated test file and 
 
 After completing the tutorial, work through this checklist to confirm everything is set up correctly:
 
-- **Agent mode is enabled** — Check the mode selector dropdown at the top of the Chat Panel. It should display "Agent" when active.
+- **Agent mode is enabled** — Check the mode selector at the top of Chat. It should display "Agent" when active.
 
-- **Playwright and MCP are installed** — Verify that `playwright.config.ts` exists in your project root directory. Confirm the Playwright MCP server shows as "Connected" in the MCP panel.
+- **Playwright and MCP are installed** — Verify that `playwright.config.ts` exists in your project root directory. Confirm the Playwright MCP server shows as "Connected" in MCP.
 
-- **Test was generated successfully** — Open the `tests/` folder in the file explorer and confirm your test file exists (e.g., `appointment-planner-verification.spec.ts`). Review the terminal output to confirm test execution completed with passing results.
+- **Test was generated successfully** — Open the `tests/` folder and confirm your test file exists (e.g., `appointment-planner-verification.spec.ts`). Review the terminal output to confirm test execution completed with passing results.
 
 - **HTML report is accessible** — Run `npx playwright show-report` in the terminal and verify the HTML report opens in your browser with detailed test results.
 
