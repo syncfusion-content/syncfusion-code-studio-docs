@@ -1,7 +1,6 @@
 ---
-title: Fixing Collaboration Gaps: Managing Users and Teams in your organization using Code Studio's Enterprise Server
-
-description: Learn how to create teams, invite users, and monitor usage in Syncfusion Code Studio Enterprise Server.
+title: "Fixing Collaboration Gaps: Managing Users and Teams in your organization using Code Studio's Enterprise Server"
+description: "Learn how to create teams, invite users, and monitor usage in Syncfusion Code Studio Enterprise Server."
 platform: syncfusion-code-studio
 keywords: teams, users, collaboration, enterprise, dashboard, token usage, team management, invitations, admin, team lead
 ---
