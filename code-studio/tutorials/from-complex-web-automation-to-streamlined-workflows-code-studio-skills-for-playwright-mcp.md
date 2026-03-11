@@ -9,11 +9,11 @@ keywords: playwright-mcp, agent-mode, web-automation, ai-testing, mcp-server
 
 ## Overview 
 
-Ready to transform your web testing workflow? In this tutorial, you'll learn how to use Playwright MCP with Code Studio's [Agent mode](/code-studio/features/agent) to generate, execute, and manage web automation tests with AI assistance. Playwright MCP acts as a bridge that enables Code Studio's AI to perform real-world browser automation tasks based on your natural language instructions.
+Ready to transform your web testing workflow? In this tutorial, you'll learn how to use Playwright Model Context Protocol (MCP) with Code Studio's [Agent mode](/code-studio/features/agent) to generate, execute, and manage web automation tests with AI assistance. Playwright MCP acts as a bridge that enables Code Studio's AI to perform real-world browser automation tasks based on your natural language instructions.
 
 > **Key concept — Playwright MCP Server:** A specific MCP implementation that brings Playwright's browser automation capabilities to AI agents. It acts as a translator between natural language commands and browser actions. When you tell the AI to "verify the login button exists," the Playwright MCP Server converts this into executable Playwright code that navigates pages, clicks elements, fills forms, and captures results.
 
-By the end of this tutorial, you'll be comfortable using Playwright MCP with Agent mode to create end-to-end tests without manually writing code.
+For a deeper understanding of the features used in this tutorial, see [Agent](/code-studio/features/agent) and [Skills](/code-studio/features/skills).
 
 ## Prerequisites
 
@@ -75,7 +75,7 @@ Before the AI can generate tests, you need to install both Playwright and the MC
 
 5. Install the Playwright MCP Server:
    
-   - Open the Chat Panel. If it's not already visible, press `Ctrl+Shift+P` (Windows/Linux) or `Cmd+Shift+P` (Mac) to open the **Command Palette** — a search box that appears at the top of the editor — then type "Chat: Focus on Chat View" and press **Enter**.
+   - Open the Chat Panel. If it's not already visible, press `Ctrl+Shift+P` (Windows/Linux) or `Cmd+Shift+P` (Mac) to open the **Command Palette**, then type "Chat: Focus on Chat View" and press **Enter**.
 
    - Once the Chat Panel is open, locate and click the **Configure Chat** icon (typically displayed as a settings or gear icon in the Chat Panel toolbar).
 
@@ -108,7 +108,7 @@ Before the AI can generate tests, you need to install both Playwright and the MC
 
 **Steps:**
 
-1. Open the Chat Panel. If it's not already visible, press `Ctrl+Shift+P` (Windows/Linux) or `Cmd+Shift+P` (Mac) to open the **Command Palette** — a search box that appears at the top of the editor — then type "Chat: Focus on Chat View" and press **Enter**.
+1. Open the Chat Panel. If it's not already visible, press `Ctrl+Shift+P` (Windows/Linux) or `Cmd+Shift+P` (Mac) to open the **Command Palette**, then type "Chat: Focus on Chat View" and press **Enter**.
 
    - Once the Chat Panel is open, locate and click the **Configure Chat** icon (typically displayed as a settings or gear icon in the Chat Panel toolbar).
 
@@ -159,7 +159,7 @@ Now that the skill is configured, you can describe your test scenario in plain E
 **Steps:**
 
 1. Enable Agent Mode:
-   - Open Chat (if it's not already visible, press `Ctrl+Shift+P` to open the **Command Palette** — a search box that appears at the top of the editor — then type "Chat: Focus on Chat View" and press Enter)
+   - Open Chat (if it's not already visible, press `Ctrl+Shift+P` (Windows/Linux) or `Cmd+Shift+P` (Mac) to open the **Command Palette**, then type "Chat: Focus on Chat View" and press **Enter**)
    - Select **Agent** from the dropdown menu
 
 2. Select your skill:
@@ -198,7 +198,7 @@ Once the agent finishes its work, you'll have a complete, executable Playwright 
 
 1. Open the generated test file in the `tests/` folder (e.g., `appointment-planner-verification.spec.ts`) to review the generated test code:
 
-   <img src="./tutorials-images/generated-test-file.png" alt="VS Code editor showing the generated Playwright test file with test assertions" />
+   <img src="./tutorials-images/generated-test-file.png" alt="Code Studio editor showing the generated Playwright test file with test assertions" />
 
 2. Check the terminal output for test execution results.
 
@@ -242,11 +242,8 @@ After completing the tutorial, work through this checklist to confirm everything
 **Congratulations!** You've successfully completed your first AI-generated web automation test using Playwright MCP and Agent mode. You've transitioned from manual test writing to AI-powered test generation.
 
 
-## What's Next?
+## What's Next
 
-You've mastered the basics of AI-powered test generation — here's where to go next:
-
-- **Learn about checkpoints for version control:** [Checkpoints](/code-studio/features/checkpoints)
-- **Explore advanced Agent mode capabilities:** [Agent Feature Guide](/code-studio/features/agent)
-- **Generate code using Agent mode:** [Generate Your First Code Change Using Agent](/code-studio/tutorials/generate-your-first-code-using-agent)
-- **Improve code quality with automated refactoring:** [Improving Code Maintainability with Automated Clean Code Refactoring](/code-studio/tutorials/improving-code-maintainability-with-automated-clean-code-refactoring)
+- [Generate Your First Code Change Using Agent](/code-studio/tutorials/generate-your-first-code-using-agent) — Let AI write new code for you.
+- [Agent Mode](/code-studio/features/agent) — Explore advanced Agent mode capabilities and workflows.
+- [Improving Code Maintainability with Automated Clean Code Refactoring](/code-studio/tutorials/improving-code-maintainability-with-automated-clean-code-refactoring) — Use AI to improve code quality automatically.
