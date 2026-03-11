@@ -1,11 +1,11 @@
 ---
-title: Improving AI Accuracy with Context-Aware Prompt Optimization in Code Studio
+title: Ensuring Consistent AI Responses with Context‑Aware Prompt Optimization in Code Studio
 description: Learn how to write context-aware prompts that produce consistent, reliable AI responses in Syncfusion Code Studio. Master prompt engineering techniques for bug fixing and code generation.
 platform: syncfusion-code-studio
-keywords: context-aware-prompting, prompt-engineering, ai-prompts, consistent-results, bug-fixing, prompt-optimization, ai-assistant, code-studio-prompts
+keywords: context-aware-prompting, bug-fixing, prompt-optimization,code-studio-prompts
 ---
 
-# Achieving Reliable Bug Fixes with Context-Aware Prompt Optimization in Code Studio
+# Ensuring Consistent AI Responses with Context‑Aware Prompt Optimization in Code Studio
 
 ## Overview
 
@@ -35,7 +35,7 @@ Before beginning, ensure:
 
 - Syncfusion Code Studio is installed and properly configured on your system. If you have not yet downloaded Code Studio, refer to [Install and Configure](../getting-started/install-and-configuration) for step-by-step instructions.
 - You have a workspace or project folder opened in Code Studio where you can create files.
-- Agent mode in enabled in chat window.
+- Agent mode is enabled in chat window. Learn more about [Agent mode](../features/agent.md).
 
 ## What You Will Learn
 
@@ -50,6 +50,8 @@ By the end of this tutorial, you'll be able to:
 ## The Bug: A Price Calculation Function
 
 Consider this common scenario in e-commerce applications. You have a function that calculates the final price after applying a discount:
+
+**JavaScript Code:**
 
 ```javascript
 function calculateFinalPrice(price, discount) {
@@ -77,17 +79,53 @@ Imagine these bugs in a real online store:
 
 **These are the kind of bugs you'll learn to fix with AI assistance.**
 
+### Why Vague Prompts Don't Work (An Example)
+
+Before we dive into the solution, let's see why simply asking "fix this function" leads to inconsistent results.
+
+**Example of a Vague Prompt:**
+```
+Fix this function
+```
+
+<img src="./tutorials-images/Drag-Function.png" alt="Drag-Function" />
+
+**What Happens - Attempt 1:**
+<img src="./tutorials-images/Attempt1.png" alt="Attempt-1" />
+
+**What Happens - Attempt 2 (Same prompt!):**
+<img src="./tutorials-images/Attempt2.png" alt="Attempt-2" />
+
+**The Problem:**  
+The AI gave two different answers! Why? Because it didn't know:
+- **What** you mean by "fix" (fix what exactly?)
+- **Which** bugs to focus on
+- **How much** to change (small fix or complete rewrite?)
+- **What** to keep the same
+
+This is why **vague prompts = inconsistent results!**
+
+Now let's learn the right way to get consistent, reliable fixes.
+
 ## Steps
 
 ### Step 1 — Create the Buggy Code
 
 Let's start by creating the broken function so you can see the problem yourself.
 
-1. **Create a new file** in Code Studio:
-   - Click `File` → `New File`
-   - Save it as `priceCalculator.js`
+1. **Create a new file in Code Studio:**
+   - **Option 1 - Using Menu:** Click `File` in the top menu bar, then select `New File` from the dropdown menu
+   - **Option 2 - Using Keyboard Shortcut:** Press `Ctrl+Alt+Windows+N` (Windows/Linux) or `Cmd+N` (Mac) to instantly create a new file
+   - After the new file opens, press `Ctrl+S` (Windows/Linux) or `Cmd+S` (Mac) to save it
+   - In the save dialog, name the file `priceCalculator.js` and choose your desired location in your workspace
+   - Click `Save` to confirm
 
-2. **Copy and paste this buggy code:**
+2. **Copy and paste this Below buggy code:**
+   - Select all the code below by clicking at the start and dragging to the end
+   - Copy it using `Ctrl+C` (Windows/Linux) or `Cmd+C` (Mac)
+   - Click inside your `priceCalculator.js` file in the editor
+   - Paste the code using `Ctrl+V` (Windows/Linux) or `Cmd+V` (Mac)
+   - Save the file using `Ctrl+S` (Windows/Linux) or `Cmd+S` (Mac)
 
 ```javascript
 function calculateFinalPrice(price, discount) {
@@ -102,56 +140,29 @@ console.log(calculateFinalPrice(-50, 10));        // Bug: Negative price
 ```
 
 3. **Run the code:**
-   - open terminal and use this command "node priceCalculator.js"
-   
+   - **Option 1 - Using Keyboard Shortcut:** Press `Ctrl+` ` (Ctrl + backtick) on Windows/Linux or `Cmd+` ` on Mac to open the integrated terminal
+   - **Option 2 - Using Menu:** Go to `Terminal` → `New Terminal` in the top menu
+   - Once the terminal opens at the bottom of Code Studio, ensure you're in the correct directory where you saved `priceCalculator.js`
+   - Type the following command and press `Enter` to execute the script in the terminal:
+
+```bash
+node priceCalculator.js
+```
+
+   - **Note:** Ensure that Node.js is installed on your system. If you encounter a "command not found" error, please install Node.js from [nodejs.org](https://nodejs.org/) to run the script successfully.
 
 **What You'll See:**  
 The output will show wrong numbers or `NaN` (Not a Number). This proves the function is broken!
 
-### Step 2 — Try the WRONG Way First (Learn What NOT to Do)
+### Step 2 — Use Context-Aware Prompting to Fix the Bugs
 
-Let's intentionally use a bad prompt to see why it doesn't work.
+Now let's use a properly structured, context-aware prompt to get consistent, reliable results.
 
-1. **Open the Code Studio Chat:**
-   - Press `Ctrl+Alt+B` (Windows) or `Cmd+Alt+B` (Mac)
+1. Open the Code Studio chat window by pressing `Ctrl+Alt+B` (Windows) or `Cmd+Alt+B` (Mac), or click the Code Studio icon to the left of the centered search box.
 
-2. **Select the function into chat:**
-   - Select the entire `calculateFinalPrice` function
+2. **Highlight the buggy function** - Select the entire `calculateFinalPrice` function in your `priceCalculator.js` file
 
-3. **Type this vague prompt:**
-   ```
-   Fix this function
-   ```
-
-     <img src="./tutorials-images/Drag-Function.png" alt="Drag-Function" />
-
-**What Happens - Attempt 1:**
-  <img src="./tutorials-images/Attempt1.png" alt="Attempt-1" />
-
-Notice what the AI did. Now let's try the EXACT SAME prompt again!
-
-4. **Ask again: "Fix this function"**
-
-**What Happens - Attempt 2:**
-  <img src="./tutorials-images/Attempt2.png" alt="Attempt-2" />   
-
-**See the Problem?**  
-The AI gave you two different answers! Why?
-
-Because the AI didn't know:
-- **What** you mean by "fix" (fix what exactly?)
-- **Which** bugs to focus on
-- **How much** to change (small fix or complete rewrite?)
-- **What** to keep the same
-
-This is why vague prompts = inconsistent results!
-
-### Step 3 — Now Try the RIGHT Way (With Context)
-
-Time to see the magic of context-aware prompting! Let's give the AI clear instructions.
-
-1. **Open the chat again** (Ctrl+Alt+B)
-2. **Copy this DETAILED prompt:**
+3. **Use the context-aware prompt below** - Copy this entire prompt and paste it into the chat window:
 
 ```
 Fix the calculateFinalPrice function with these requirements:
@@ -180,23 +191,16 @@ EXPECTED BEHAVIOR:
 - calculateFinalPrice(-50, 10) → 0 (no negative prices)
 ```
 
-3. **Paste and send the prompt**
+4. **Send the prompt in the chat Window like below Image by Select the entire `calculateFinalPrice` function in your `priceCalculator.js` file**
 
   <img src="./tutorials-images/context-Aware.png" alt="Context-Aware" /> 
 
-**See the Difference**  
+**The Result:**  
 <img src="./tutorials-images/Output-context.png" alt="Output" /> 
-The AI now gives you a focused fix that addresses ALL the bugs without changing things unnecessarily!
 
-4. **Test Consistency: Try the same prompt again!**
-   - Copy the same detailed prompt
-   - Send it again
-   - Compare the two responses
+The AI provides a focused fix that addresses ALL the bugs without unnecessary changes. Unlike vague prompts, this detailed context ensures you get consistent, reliable results every time.
 
-**Result:** The AI should give you nearly identical answers both times. That's the power of context!
-
-
-### Step 5 — Test the Fix (Make Sure It Works!)
+### Step 3 — Apply and Test the Fix
 
 Now let's verify the fixed function actually solves all our problems.
 
@@ -227,17 +231,13 @@ After applying the AI's suggestions, verify the results to understand the effect
 
 ### Test 1: Run the Code
 
-Execute your updated `priceCalculator.js` file:
-```
+Open the integrated terminal by pressing `Ctrl+` ` (Ctrl + backtick) on Windows/Linux or `Cmd+` ` on Mac, or go to `Terminal` → `New Terminal` in the top menu. Then run the updated file to see if all bugs are fixed:
+
+```bash
 node priceCalculator.js
 ```
 
-**Observe the output and check:**
-- Are the expected values displayed?
-- Are there any `NaN` values?
-- Do any error messages appear?
-
-**Document your findings:** Note any differences between expected and actual results.
+**Check the output:** You should see correct Output with no `NaN` errors. If you see any `NaN` or error messages, something went wrong—go back and check your code.
 
 ### Test 2: Try Additional Test Cases
 
@@ -259,12 +259,8 @@ Run the same prompt from Step 3 again and compare:
 - Do both fix the same bugs?
 - Is the code approach consistent?
 
+## What's Next?
 
-## Recommended Tutorials:
-
-Learn more about working with AI in Code Studio:
-
-- **[Fixing Bugs with AI](./fixing-bugs-with-ai.md)** - More bug-fixing techniques
 - **[Generate Your First Code Using Agent](./generate-your-first-code-using-agent.md)** - Let AI write new code for you
 - **[Compare AI Models](./compare-ai-models.md)** - Choose the best AI for your task
 - **[Using OpenSpec Inside Syncfusion Code](./using-openspec-inside-syncfusion-code.md)** - Work with API specifications

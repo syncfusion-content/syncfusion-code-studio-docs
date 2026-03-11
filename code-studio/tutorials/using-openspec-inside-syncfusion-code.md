@@ -1,17 +1,19 @@
 ---
-title: Build a Project with OpenSpec in Syncfusion Code Studio
+title: 
+Using OpenSpec Inside Syncfusion Code Studio: A Complete Guide
+
 description: Learn how to use OpenSpec inside Syncfusion Code Studio to propose, plan, build, and archive AI-powered code changes safely and predictably.
 platform: syncfusion-code-studio
-keywords: open-spec, opsx, ai-workflow, code-generation, change-management, apply-archive, propose-flow
+keywords: openspec, slash-commands,propose, apply, archive, explore
 ---
 
-# Build a Project with OpenSpec in Syncfusion Code Studio
+# Using OpenSpec Inside Syncfusion Code Studio: A Complete Guide
 
 ## Overview 
 
-This tutorial will guide you through using OpenSpec inside Syncfusion Code Studio to create, plan, and execute AI-assisted changes in a safe, structured, and predictable way. 
+This tutorial will guide you through using **OpenSpec** inside **Syncfusion Code Studio** to create, plan, and execute AI-assisted changes in a safe, structured, and predictable way. 
 
-OpenSpec helps you avoid common AI coding problems like hallucinations, lost context, and unstructured changes. Instead of letting AI make random edits, you'll learn a workflow that plans everything first, implements changes step-by-step, and organizes all work in markdown files you can review and track.
+OpenSpec helps you avoid common AI coding problems like **hallucinations, lost context, and unstructured changes**. Instead of letting AI make random edits, you'll learn a workflow that plans everything first, implements changes step-by-step, and organizes all work in markdown files you can review and track.
 
 By the end, you'll understand how to build your first project using OpenSpec commands, review AI-generated plans before they run, and manage code changes like a pro. Let's get started!
 
@@ -19,7 +21,7 @@ By the end, you'll understand how to build your first project using OpenSpec com
 
 ## What is OpenSpec?
 
-**OpenSpec** is a structured workflow tool that helps you work with AI to build software more predictably. Think of it as a project manager for AI coding.
+[**OpenSpec**](https://github.com/Fission-AI/OpenSpec?tab=readme-ov-file) is a structured workflow tool that helps you work with AI to build software more predictably. Think of it as a project manager for AI coding.
 
 ### The Problem It Solves
 
@@ -31,24 +33,16 @@ When you ask AI to "build a feature," the AI might:
 
 ### The OpenSpec Solution
 
-OpenSpec fixes this by introducing a **four-step workflow**:
+OpenSpec fixes this by introducing a **four-step workflow** using slash commands. All OpenSpec commands are typed in the **Code Studio chat window** (not the terminal):
 
-1. **Explore** (optional) - Brainstorm ideas without making changes
-2. **Propose** - Create a detailed plan in markdown files (proposal, design, tasks, specs)
-3. **Apply** - Execute the plan step-by-step, following the specs exactly
-4. **Archive** - Organize completed work into your project's documentation
+| Command | Purpose | When to Use |
+|---------|---------|-------------|
+| `/opsx:explore` | Brainstorm and discuss ideas | When you're not sure what to build yet |
+| `/opsx:propose` | Create a detailed plan | When you're ready to plan your feature |
+| `/opsx:apply` | Implement the planned changes | After reviewing and approving the proposal |
+| `/opsx:archive` | Finalize and organize work | After verifying the changes work correctly |
 
-All plans are stored as markdown files in an `openspec/` folder, so you can review, edit, and track every change before and after it happens.
-
-**Key Concepts You'll Use:**
-- **Proposal** - A summary document describing what you want to build
-- **Design** - Technical details about how it will be built
-- **Tasks** - Step-by-step checklist of work to complete
-- **Specs** - Detailed specifications for each file or component
-- **Change folder** - A temporary directory containing all files for a proposed change
-- **Spec deltas** - The differences between current specs and proposed changes
-
-> **Note:** You don't need to understand all these concepts right now. You'll see them in action as you follow the tutorial.
+> **Learn More:** For a complete reference of all OpenSpec slash commands, see the [OpenSpec Slash Commands Documentation](https://github.com/Fission-AI/OpenSpec/blob/main/docs/commands.md).
 
 ---
 
@@ -60,7 +54,11 @@ Before beginning, ensure you have the following:
 - **A project or folder** opened in Code Studio (you can create an empty test folder if needed).
 - **Node.js 20 or higher** installed on your system. OpenSpec runs on top of Node.js, so this is required.
 
-> **Tip:** To check your Node.js version, open a terminal and run `node --version`. If you see a version number like `v20.x.x` or higher, you're good to go.
+**Tip:** To check your Node.js version, open a terminal and run:
+> ```bash
+> node --version
+> ```
+If you see a version number like `v20.x.x` or higher, you're good to go.
 
 ---
 
@@ -74,178 +72,98 @@ By the end of this tutorial, you'll be able to:
 - Review AI-generated proposals and designs before any code is written
 - Implement changes safely by following a structured workflow
 - Organize completed work in your project's spec folder
-- Verify your setup is working correctly
-
 ---
 
 ## Steps to Build Your First Application Using OpenSpec
 
 ### Step 1: Install and Configure OpenSpec
 
-Let's get OpenSpec set up in your project. This is a one-time setup process.
-
-#### 1. Open Syncfusion Code Studio
-
-Launch Syncfusion Code Studio and open your project folder. If you don't have a project yet, create a new empty folder and open it in Code Studio.
-
-#### 2. Install OpenSpec Globally
-
-Open a terminal in Code Studio (View > Terminal or `` Ctrl+` ``) and run:
+1. **Open the integrated terminal** in Code Studio by going to `View` > `Terminal` in the menu, or press `` Ctrl+` `` (Windows/Linux) or `` Cmd+` `` (Mac). Once the terminal opens at the bottom of your Code Studio window, type the following command and press `Enter` to install OpenSpec globally on your system:
 
 ```bash
 npm install -g @fission-ai/openspec@latest
 ```
 
-This installs the OpenSpec command-line tool globally on your system so you can use it in any project.
+> **Tip:** The `-g` flag means "global" - this installs OpenSpec on your entire system so you can use it in any project folder.
 
-> **Tip:** The `-g` flag means "global" - this lets you run `openspec` commands from anywhere.
-
-**✅ Expected Result:** You should see npm installing packages, and the process should complete without errors.
-
-#### 3. Initialize OpenSpec in Your Project
-
-In the same terminal, run:
+2. **Initialize OpenSpec in your current project** by typing the following command in the same terminal and pressing `Enter`:
 
 ```bash
 openspec init
 ```
+3. The initialization wizard will ask you to choose an AI extension. Since Syncfusion Code Studio includes GitHub Copilot integration, select the **GitHub Copilot** option:
 
-This creates an `openspec/` directory in your project with the following structure:
+<img src="./tutorials-images/Extension-Option.png" alt="Select GitHub Copilot as your AI extension during OpenSpec initialization" />
+
+> **Note:** If you don't see GitHub Copilot as an option, make sure you have the GitHub Copilot extension enabled in Code Studio.
+
+This creates the following directory structure in your project:
+
+**`openspec/` folder:**
 - `openspec/specs/` - Where finalized specifications are stored
 - `openspec/changes/` - Where active and archived changes live
 - `openspec/config/` - Configuration files
 
-**✅ Expected Result:** You should see a new `openspec/` folder appear in your project explorer.
+**`.github/` folder:**
+- `.github/prompts/` - Contains prompt files that define how each slash command behaves
+- `.github/agent/` - Contains skill files that provide additional capabilities for slash commands
 
-#### 4. Select Your AI Extension
+> **Learn More:** For detailed information about the folder structure and configuration, see the [OpenSpec Documentation](https://github.com/Fission-AI/OpenSpec?tab=readme-ov-file).
 
-The initialization wizard will ask you to choose an AI extension. Since Syncfusion Code Studio includes GitHub Copilot integration, select the **GitHub Copilot** option.
 
-<img src="./tutorials-images/Extension-Option.png" alt="Select GitHub Copilot as your AI extension during OpenSpec initialization" />
+**✅ Expected Result:** You should see new `openspec/` and `.github/` folders in your project explorer, and the wizard should complete successfully with a confirmation message.
 
-**✅ Expected Result:** The wizard completes successfully, and you see a confirmation message.
+### Step 2: Explore Ideas (Optional)
 
-> **Note:** If you don't see GitHub Copilot as an option, make sure you have the GitHub Copilot extension enabled in Code Studio.
+Use `/opsx:explore` to brainstorm and discuss ideas with the AI before making any actual changes to your project. This command helps you explore different approaches and understand your options without creating or modifying any files.
+
+Open the Code Studio chat window by pressing `Ctrl+Alt+B` (Windows/Linux) or `Cmd+Alt+B` (Mac), or click the Code Studio icon to the left of the centered search box. Then type `/opsx:explore` in the chat window followed by your question. For example:
+
+```
+/opsx:explore Sales Dashboard using React
+```
+
+<img src="./tutorials-images/Explore-gif.gif" alt="Using the explore command to brainstorm ideas in the chat window" />
+
+The AI will provide suggestions and explanations in the chat. No files will be created or modified.
 
 ---
 
-### Step 2: Understand the OpenSpec Command Workflow
+### Step 3: Create Your Change Plan (Propose)
 
-Before we start building, let's understand the four commands you'll use. All OpenSpec commands are typed in the **Code Studio chat interface** (not the terminal).
+Use `/opsx:propose` to create a detailed plan for your feature. This command generates a complete change folder with markdown files including proposal, design, tasks, and specifications for each file that will be created or modified.
 
-Here's the workflow at a glance:
+Open the Code Studio chat window by pressing `Ctrl+Alt+B` (Windows/Linux) or `Cmd+Alt+B` (Mac), or click the Code Studio icon to the left of the centered search box. Then type `/opsx:propose` followed by a clear description of what you want to build. For example:
 
-| Command | Purpose | When to Use |
-|---------|---------|-------------|
-| `/opsx:explore` | Brainstorm and discuss ideas | When you're not sure what to build yet |
-| `/opsx:propose` | Create a detailed change plan | When you're ready to plan your feature |
-| `/opsx:apply` | Implement the planned changes | After reviewing and approving the proposal |
-| `/opsx:archive` | Finalize and organize work | After verifying the changes work correctly |
-
-Let's walk through each command step-by-step.
-
----
-
-### Step 3: Explore Ideas (Optional)
-
-This step is **optional** but helpful when you're brainstorming or exploring different approaches.
-
-#### What This Command Does
-
-`/opsx:explore` lets you have a conversation with the AI without making any file changes. Use it to:
-- Discuss different approaches to solving a problem
-- Ask questions about your codebase
-- Brainstorm features before committing to a plan
-- Understand tradeoffs between different solutions
-
-> **Note:** This command only provides suggestions in the chat window—it won't create any files or make any changes to your project.
-
-#### How to Use It
-
-1. Open the Code Studio chat interface
-2. Type `/opsx:explore` followed by your question or idea
-
-**Example Prompts:**
 ```
-/opsx:explore What's the best way to add authentication to a Node.js API?
-/opsx:explore Should I use REST or GraphQL for my project's API?
-/opsx:explore How can I structure a React app with multiple dashboards?
+/opsx:propose Sales Dashboard using React
 ```
 
-<img src="./tutorials-images/Explore-gif.gif" alt="Using the explore command to brainstorm ideas in the chat interface" />
+<img src="./tutorials-images/Proposal.png" alt="Entering a propose command with requirements in the chat window" />
 
-**✅ Expected Result:** The AI responds with suggestions, comparisons, or explanations in the chat window. No files are created or modified.
-
-> **Tip:** Use explore when you want to think through options before committing to a plan. It's like having a conversation with a technical advisor.
-
----
-
-### Step 4: Create Your Change Plan (Propose)
-
-Now let's create a structured plan for your first feature. This is where OpenSpec really shines.
-
-#### What This Command Does
-
-`/opsx:propose` generates a complete change folder with multiple markdown files:
-- **proposal.md** - High-level summary of what you want to build
-- **design.md** - Technical design decisions and architecture
-- **tasks.md** - Checklist of specific tasks to complete
-- **spec-deltas/** - Detailed specifications for each file that will be created or modified
-
-This gives you a full blueprint to review before any code is written.
-
-#### How to Use It
-
-1. Open the Code Studio chat interface
-2. Type `/opsx:propose` followed by a clear description of what you want to build
-
-**Example Prompts:**
-```
-/opsx:propose Create a REST API with user authentication using Express and JWT
-/opsx:propose Build a React dashboard with a data table and charts
-/opsx:propose Add a login page with email and password validation
-```
-
-> **Tip:** Be specific in your requirements. The more details you provide, the better the AI can plan your changes.
-
-#### Step-by-Step Process
-
-**1. Enter Your Requirements**
-
-Type your proposal command with your specific requirements as shown below:
-
-<img src="./tutorials-images/Proposal.png" alt="Entering a propose command with requirements in the chat interface" />
-
-**2. Wait for the AI to Generate Files**
-
-The AI agent will analyze your request and create several markdown files in your `openspec/changes/` directory.
-
-**3. Review the Generated Files**
-
-Open the change folder and review the files the AI created:
+The AI will generate several markdown files in your `openspec/changes/` directory. Open the change folder to review the generated files:
 
 <img src="./tutorials-images/Files-openpec.png" alt="The generated proposal, design, tasks, and spec files in the change folder" />
 
-> **Important:** Always review these files carefully! This is your chance to catch any misunderstandings before code is written. If something looks wrong, you can modify the markdown files directly or start over with a better prompt.
+**Understanding What Was Generated:**
 
-### Step 5: Implement the Plan (Apply)
+The files you see represent OpenSpec's structured approach to planning changes:
 
-Once you've reviewed and approved the proposal, it's time to implement it.
+- **Proposal** - A summary document describing what you want to build
+- **Design** - Technical details about how it will be built
+- **Tasks** - Step-by-step checklist of work to complete
+- **Specs** - Detailed specifications for each file or component
+- **Change folder** - The directory containing all these files for this specific change
 
-#### What This Command Does
+Review these files carefully before proceeding to the next step. You can modify the markdown files directly if needed.
 
-`/opsx:apply` tells the AI to execute the tasks defined in your `tasks.md` file, one by one, following the specifications in the `spec-deltas/` folder. The AI will:
-- Create new files as specified
-- Modify existing files according to the specs
-- Follow the exact plan you reviewed in the proposal
+---
 
-This keeps the implementation process predictable and safe—no surprises!
+### Step 4: Implement the Plan (Apply)
 
-#### How to Use It
+Use `/opsx:apply` to implement the plan you created in Step 3. This command tells the AI to execute the tasks defined in your `tasks.md` file, following the specifications exactly.
 
-**1. Start the Implementation**
-
-In the Code Studio chat interface, type the apply command:
+Open the Code Studio chat window by pressing `Ctrl+Alt+B` (Windows/Linux) or `Cmd+Alt+B` (Mac), or click the Code Studio icon to the left of the centered search box. Then type `/opsx:apply` in the chat window:
 
 ```
 /opsx:apply
@@ -253,25 +171,15 @@ In the Code Studio chat interface, type the apply command:
 
 <img src="./tutorials-images/Apply-command.png" alt="Running the apply command to implement the planned changes" />
 
-**✅ Expected Result:** The AI agent begins executing tasks one by one. You'll see progress updates in the chat as each task completes.
+The AI will begin executing tasks one by one. You'll see progress updates in the chat as each task completes.
 
-### Step 6: Finalize and Organize (Archive)
+---
 
-After verifying that everything works correctly, clean up your project by archiving the completed change.
+### Step 5: Finalize and Organize (Archive)
 
-#### What This Command Does
+Use `/opsx:archive` to finalize your work after verifying that everything functions correctly. This command moves spec files to the main `openspec/specs/` folder and archives the change folder to `openspec/changes/archive/`, keeping your project organized.
 
-`/opsx:archive` performs two important actions:
-1. **Moves spec files** from `openspec/changes/[change-folder]/spec-deltas/` to the main `openspec/specs/` folder
-2. **Archives the change folder** by moving it from `openspec/changes/` to `openspec/changes/archive/`
-
-This keeps your project organized and creates a permanent record of what was built.
-
-#### How to Use It
-
-**1. Run the Archive Command**
-
-In the Code Studio chat interface, type:
+Open the Code Studio chat window by pressing `Ctrl+Alt+B` (Windows/Linux) or `Cmd+Alt+B` (Mac), or click the Code Studio icon to the left of the centered search box. Then type `/opsx:archive` in the chat window:
 
 ```
 /opsx:archive
@@ -279,20 +187,11 @@ In the Code Studio chat interface, type:
 
 <img src="./tutorials-images/Archieve-command.png" alt="Running the archive command to finalize and organize completed work" />
 
-**✅ Expected Result:** The change folder moves to the archive directory, and specs merge into the main specs folder.
-
-**2. Verify the Organization**
-
-Check your `openspec/` folder structure:
+Check your `openspec/` folder to verify the organization:
 
 <img src="./tutorials-images/main-spec.png" alt="The main spec folder showing finalized specifications after archiving" />
 
-You should see:
-- **openspec/specs/** - Now contains your new specifications
-
-**✅ Expected Result:** Your project is cleanly organized, with specs in the main folder and completed change documentation in the archive.
-
-> **Note:** Archived changes serve as a permanent record of what was built and why. This is valuable for team collaboration and future reference.
+Your project is now cleanly organized with specs in the Project's main spec folder(openspec\specs) .
 
 ---
 
@@ -323,17 +222,17 @@ Let's make sure everything went smoothly! Here's your verification checklist:
 
 OpenSpec allows you to configure custom commands based on your project's specific needs. This is an **advanced feature** and is not required to use OpenSpec effectively—the default commands work well for most projects.
 
-If you want to tailor the workflow (for example, adding custom validation steps or integrating with your team's specific processes), you can create custom command configurations.
+If you want to tailor the workflow (for example, adding custom validation steps or integrating with your team's specific processes), you can create custom command configurations like the below Steps in video.
 
 <img src="./tutorials-images/Custom-command.gif" alt="Configuring custom OpenSpec commands for advanced workflows" />
 
 > **Note:** Custom commands are useful for teams with established workflows, but beginners should master the four core commands first.
 
-For more information on customizing commands, refer to the OpenSpec documentation or advanced configuration guides.
+For more information on customizing commands, refer to the [OpenSpec Commands Documentation](https://github.com/Fission-AI/OpenSpec/blob/main/docs/commands.md).
 
 ---
 
-## What's Next? Continue Your Learning Journey
+## What's Next? 
 
 You've mastered the basics of OpenSpec in Code Studio! Here are some recommended next steps to expand your skills:
 
