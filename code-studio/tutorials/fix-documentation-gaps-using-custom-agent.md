@@ -204,8 +204,8 @@ Here is a simple workflow you can adopt:
 
 To keep your workspace safe while the agent reads and writes documentation files, you can combine this workflow with **Agent mode** and **checkpoints**:
 
-- **[Agent](/code-studio/features/agent)** gives the agent controlled access to your workspace.
-- **[Checkpoints](/code-studio/features/checkpoints)** capture snapshots of your workspace so you can revert if needed.
+- [Agent](/code-studio/features/agent) gives the agent controlled access to your workspace.
+- [Checkpoints](/code-studio/features/checkpoints) capture snapshots of your workspace so you can revert if needed.
 
 ## Verification
 
