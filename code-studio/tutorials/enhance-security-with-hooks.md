@@ -312,6 +312,6 @@ If any of these checks fail:
 ## What’s Next?
 Explore more tutorials:
 
-- Generate your first code change: Learn to guide the agent to implement and verify a small change end-to-end. [/code-studio/tutorials/generate-your-first-code-using-agent](/code-studio/tutorials/generate-your-first-code-using-agent)
-- Fix bugs with AI: Use the agent to identify, patch, and validate defects safely. [/code-studio/tutorials/fixing-bugs-with-ai](/code-studio/tutorials/fixing-bugs-with-ai)
-- Compare AI models: Evaluate model quality, cost, and speed for your workflows. [/code-studio/tutorials/compare-ai-models](/code-studio/tutorials/compare-ai-models)
+- Generate your first code change: Learn to guide the agent to implement and verify a small change end-to-end. [code-studio/tutorials/generate-your-first-code-using-agent](/code-studio/tutorials/generate-your-first-code-using-agent)
+- Fix bugs with AI: Use the agent to identify, patch, and validate defects safely. [code-studio/tutorials/fixing-bugs-with-ai](/code-studio/tutorials/fixing-bugs-with-ai)
+- Compare AI models: Evaluate model quality, cost, and speed for your workflows. [code-studio/tutorials/compare-ai-models](/code-studio/tutorials/compare-ai-models)
