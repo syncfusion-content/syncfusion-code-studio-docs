@@ -120,11 +120,11 @@ AI context gets messy with unrelated information. Separate sessions keep context
 
 ## Pick the Right Interaction Mode for Each Task
 
-Code Studio offers different ways to interact—Ask, Edit, Plan, Agent, Inline Chat. Each has a different purpose. Using the wrong tool for the job wastes credits and creates frustration.
+Code Studio offers different ways to interact—Ask, Edit, Plan, Agent, Edit. Each has a different purpose. Using the wrong tool for the job wastes credits and creates frustration.
 
 **When to use each mode:**
 
-**Ask Mode**
+**[Ask Mode](/code-studio/features/ask)**
 Use this when you need to understand something, brainstorm ideas, or ask questions about your code.
 
 Examples:
@@ -134,8 +134,8 @@ Examples:
 
 Best for: Questions, understanding
 
-**Inline Chat**
-Use this when you need to edit a specific code block without switching context.
+**[Edit Mode](/code-studio/features/edit)**
+Use this when you need to edit a specific code block or a specific file.
 
 Examples:
 - Refactoring a single function
@@ -144,7 +144,7 @@ Examples:
 
 Best for: Quick, focused edits in one place
 
-**Plan Mode**
+**[Plan Mode](/code-studio/features/plan)**
 Use this when facing a complex feature that spans multiple files.
 
 Examples:
@@ -154,7 +154,7 @@ Examples:
 Best for: architectural decisions
 
 
-**Agent Mode**
+**[Agent Mode](code-studio/features/agent)**
 Use this when you need autonomous, multi-file changes with the AI making decisions.
 
 Examples:
