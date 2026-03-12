@@ -88,15 +88,13 @@ When you create a new chat session, the previous conversation history is cleared
 
 **Accessing Chat Sessions**
 
-- In the chat panel, click the three dots at the top of the chat window. 
-
-- Select `Show Chats` to view available sessions. 
+- In the chat panel,you can see and access the chat sessions by clicking them.
 
 > **Note:** You can only see chat history for the workspace you currently have open. To view another workspace’s history, open that workspace and see that workspace's chat history. There is no global chat history across workspaces.
 
 <img src="./howtoguide-images/showchat1.png" alt="session"  />
 
-<img src="./howtoguide-images/showchat2.png" alt="session"  />
+
 
 ## Save and Export Chat Sessions
 
