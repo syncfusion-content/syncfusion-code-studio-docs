@@ -178,6 +178,10 @@ Step 4: Review the Terms and Conditions, then click Accept and proceed.
 
 <img src="../../reference-images/mcp-postman-installed.png" alt="custom server" />
 
+> **Note:** If you selected the **Workspace** option in Step 11, a file icon will appear next to the server name icon, indicating that the server is installed for the current workspace only.
+
+<img src="../../reference-images/custom-local-server.png" alt="custom server" />
+
 ### How to access the MCP tools 
 
 **Step 1** : Click the Syncfusion Code Studio icon. The chat window is displayed.
@@ -231,7 +235,8 @@ Available actions include:
 
 - Start server
 - Stop server
-- Show output logs
+- Restart server
+- Show output
   - The Output option opens the Output tab in the Terminal panel, where you can view real time MCP server logs
 - Edit configuration (JSON)
   - Opens the mcp.jsonn file where you can edit the entry manually.
@@ -239,6 +244,8 @@ Available actions include:
   - Choose which LLMs can access the server
 - Browse tools
   - View all tools exposed by your MCP server
+- Browse Resource
+  - View all resources provided by your MCP server
 
 <img src="../../reference-images/startserver.png" alt="custom server" />
 
@@ -249,4 +256,4 @@ To remove a custom MCP server:
 2. Select Uninstall.
 3. The server is removed from your device and Code Studio.
 
-<img src="../../reference-images/uninstallserver.png" alt="custom server" />
+<img src="../../reference-images/uninstall-custom.png" alt="custom server" />
