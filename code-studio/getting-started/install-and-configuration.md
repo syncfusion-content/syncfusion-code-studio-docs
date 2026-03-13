@@ -89,5 +89,3 @@ To know more about the Code Studio Subscription plans, click on **View Subscript
 Once you have installed Syncfusion Code Studio, the following topics will help you explore its features and get the most out of your development workflow:
 
 [Generate you first code change using agent](/code-studio/tutorials/generate-your-first-code-using-agent)
-
-[Build your first UI using Syncfusion UI Builder](/code-studio/tutorials/build-ui-using-syncfusionui-builder)
