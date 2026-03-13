@@ -195,6 +195,5 @@ You've mastered the basics of OpenSpec in Code Studio! Here are some recommended
 
 - Learn how to combine OpenSpec with autonomous AI coding in [Generate Your First Code Using Agent](/code-studio/tutorials/generate-your-first-code-using-agent).
 - Discover advanced settings and personalization options in [Configure Code Studio](/code-studio/reference/configure-the-code-studio).
-- Try [Build UI Using Syncfusion UI Builder](/code-studio/tutorials/build-ui-using-syncfusionui-builder) for rapid interface development.
 - Check out [Manage Chat Sessions](/code-studio/how-to-guides/manage-chat-session) to organize your conversations.
 - For advanced users, learn about customizing OpenSpec commands in the [OpenSpec Commands Documentation](https://github.com/Fission-AI/OpenSpec/blob/main/docs/commands.md).
