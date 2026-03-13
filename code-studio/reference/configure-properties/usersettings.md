@@ -86,7 +86,7 @@ The following settings are available on the User Settings page.
 #### Email 
   - Sign in or sign out of your account.
 
-<img src="../reference-images/settings-page.png" alt="UserSettings" >
+<img src="../reference-images/settings-page-chat.png" alt="UserSettings" >
 
 ### Credits
 
@@ -112,19 +112,44 @@ The following settings are available on the User Settings page.
 - Decide whether the instructions from the AGENTS.md file in your workspace are added to every chat request.
 - Default: `Enabled`
 
+#### Agent File Locations
+- Specify location(s) of agent files (*.agents.md). Relative paths are resolved from the root folder of your workspace.
+- Default: `.codestudio/agents`
+
+#### Use Chat Hooks
+- Controls whether chat hooks are executed at strategic points during an agent's workflow. Hooks are loaded from the files configured in Hook File Locations.
+- Default: `Enabled`
+
 <img src="../reference-images/settings-agents.png" alt="UserSettings" >
 
-### Instructions
+### Model
+
+#### Inline Chat Default Model
+- Select the default language model to use for inline chat from the available models.
+- Default: `default model`
+
+<img src="../reference-images/model-setting.png" alt="UserSettings" >
+
+### Instructions & Skills
 
 #### Use codestudio-instructions.md File 
 - Controls whether instructions from `.codestudio/codestudio-instructions.md` are added to Code Studio requests. 
-- Default: `Disabled`
+- Default: `Enabled`
 
 > **Note:** Keep your instructions short and precise. Poor instructions can degrade Code Studio quality and performance. 
 
 #### Instruction File Locations 
 - Specify locations of instruction files (`*.instructions.md`) that can be attached in chat sessions.
-- Default: `Disabled`
+- Default: `.codestudio/instructions`
+
+#### Use Agent Skills
+- Controls whether skills are provided as specialized capabilities to the chat requests. The language model can load these skills on-demand if the `read` tool is available.
+- Default: `Enabled`
+
+#### Skill File Locations
+- Each path should contain skill subfolders with SKILL.md files (e.g., add my-skills if you have my-skills/skilla/SKILL.md). Relative paths are resolved from the root folder(s) of your workspace.
+- Default: `.codestudio/skills .agents/skills .claude/skills ~/.codestudio/skills ~/.agents/skills ~/.claude/skills ~/.copilot/skills`
+
 
 <img src="../reference-images/settings-instruction.png" alt="UserSettings" >
 
@@ -140,6 +165,15 @@ The following settings are available on the User Settings page.
 - When enabled, Code Studio will start an indexing process to scan and embed workspace files for accurate search results. 
 
 <img src="../reference-images/settings-indexing.png" alt="UserSettings" >
+
+### Mcp
+
+#### MCP Access
+
+- Controls access to installed Model Context Protocol servers.
+- Default: `all`
+
+<img src="../reference-images/mcp-setting.png" alt="UserSettings" >
 
 ### Telemetry
 
