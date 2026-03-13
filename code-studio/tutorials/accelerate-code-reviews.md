@@ -23,7 +23,7 @@ In a few minutes, you'll learn three powerful ways to review your code instantly
 Before You Start, Let's make sure you're all set:
 
 - Syncfusion Code Studio is installed and properly configured on your system. If you have not yet downloaded Code Studio, refer to [Install and Configure](/code-studio/getting-started/install-and-configuration) for step-by-step instructions.
-- A project with Git initialized. If your project doesn't have Git yet, we'll show you how to set it up in Step 1.
+- A project with [Git](https://git-scm.com/install/?utm_source=copilot.com) initialized. If your project doesn't have Git yet, we'll show you how to set it up in Step 1.
 
 ## What You'll Learn
 
@@ -31,7 +31,6 @@ By the end of this tutorial, you'll be able to:
 
 - ✓ Review uncommitted changes instantly using the #changes tool
 - ✓ Catch bugs, security issues, and quality problems before they reach a PR
-- ✓ Get inline suggestions for specific code blocks in your editor
 - ✓ Set up automated reviews that work the same way every time
 
 ## Key Concepts
@@ -40,7 +39,6 @@ By the end of this tutorial, you'll be able to:
 
 **Custom Review Agent** — A reusable, named reviewer you configure once to apply your team's security, performance, testing, and documentation rules consistently.
 
-**Inline Suggestions** — Contextual recommendations shown next to your code in a diff view, with one-click Apply or Discard for each suggestion.
 
 ## Let's Get Started with Code Reviews
 
