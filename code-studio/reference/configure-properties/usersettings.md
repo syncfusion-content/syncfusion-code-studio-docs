@@ -128,6 +128,8 @@ The following settings are available on the User Settings page.
 - Select the default language model to use for inline chat from the available models.
 - Default: `default model`
 
+<img src="../reference-images/model-setting.png" alt="UserSettings" >
+
 ### Instructions & Skills
 
 #### Use codestudio-instructions.md File 
@@ -170,6 +172,8 @@ The following settings are available on the User Settings page.
 
 - Controls access to installed Model Context Protocol servers.
 - Default: `all`
+
+<img src="../reference-images/mcp-setting.png" alt="UserSettings" >
 
 ### Telemetry
 
