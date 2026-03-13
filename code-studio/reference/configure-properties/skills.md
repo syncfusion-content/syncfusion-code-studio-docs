@@ -46,21 +46,21 @@ When the user asks the Code Studio to perform a task:
 
 ### Step 1: Open the Skills Menu
 Open the chat box and type `/skills` in the chat input.
-<img src="./feature-images/skills1.png" alt="Open Chat View">
+    <img src="../reference-images/skills1.png" alt="Open Chat View">
 
 ### Step 2: Create a New Skill
 Click "+ New Skill" from the command palette.
-<img src="./feature-images/skills2.png" alt="Open Chat View">
+    <img src="../reference-images/skills2.png" alt="Open Chat View">
 
 ### Step 3: Choose the Save Location
 You can store your skill in:
 - **Project Skills** → saved in the repository
 - **Personal Skills** → saved in your personal profile
-<img src="./feature-images/skills3.png" alt="Open Chat View">
+    <img src="../reference-images/skills3.png" alt="Open Chat View">
 
 ### Step 4: Create the SKILL.md File
 Enter a name for your folder. This creates a `SKILL.md` file within the same folder name.
-<img src="./feature-images/skills5.png" alt="Open Chat View">
+    <img src="../reference-images/skills5.png" alt="Open Chat View">
 
 ### Step 5: Add Optional Resources
 You can include any files the AI should use, such as:
@@ -69,8 +69,8 @@ You can include any files the AI should use, such as:
 - Examples
 - Notes
 
-<img src="./feature-images/skills6.png" alt="Open Chat View">
+    <img src="../reference-images/skills6.png" alt="Open Chat View">
 
 ### Step 6: Use the Skills
 Skills are available as slash commands in chat. Type `/` in the chat input field to see a list of available skills. Additionally, Skills can be invoked automatically—if your prompt clearly matches what a Skill is designed to handle, Code Studio detects the relevance and loads that Skill without needing a manual command.
-<img src="./feature-images/skills7.png" alt="Open Chat View">
+    <img src="../reference-images/skills7.png" alt="Open Chat View">

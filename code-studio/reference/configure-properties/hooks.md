@@ -34,7 +34,7 @@ Before you configure hooks, make sure that:
 1. You have Syncfusion Code Studio installed and a workspace is open.
 2. You have write access to the workspace.
 3. Agent mode and tool usage are available in your environment.
-5. familiar with the shell used on your operating system:
+4. Familiar with the shell used on your operating system:
 	 - Windows: PowerShell (`.ps1`)
 	 - macOS/Linux: Bash or another POSIX-compatible shell (`.sh`)
 
@@ -49,7 +49,7 @@ At runtime, Code Studio:
 5. Reads optional JSON output from standard output (`stdout`).
 6. Continues, blocks, or modifies behavior based on the hook response.
 
-## Hook LifeCycle Events
+## Hook Lifecycle Events
 
 Code Studio supports the following hook lifecycle events. Event names are case-sensitive and must use the exact PascalCase values shown below.
 
@@ -174,24 +174,24 @@ Code Studio supports the following hook lifecycle events. Event names are case-s
 
 1. **Click** the Settings icon in the Chat window and **Select** **Hooks**.
 
-<img src="../reference-images/hookstart.png" alt="Chat settings menu in Code Studio with the Settings icon highlighted" >
+	<img src="../reference-images/hookstart.png" alt="Chat settings menu in Code Studio with the Settings icon highlighted" >
 
-3. **Choose** the hook lifecycle event you want to configure for example we using SessionStart.
+2. **Choose** the hook lifecycle event you want to configure for example we using SessionStart.
 
-<img src="../reference-images/hookselect.png" alt="Hook creation dialog showing hook event selection" >
+	<img src="../reference-images/hookselect.png" alt="Hook creation dialog showing hook event selection" >
 
-4. **Enter** a descriptive hook name and press Enter.
+3. **Enter** a descriptive hook name and press Enter.
 
-<img src="../reference-images/hookname.png" alt="Hook naming input field in Code Studio" >
+	<img src="../reference-images/hookname.png" alt="Hook naming input field in Code Studio" >
 
-<img src="../reference-images/hookconfig.png" alt="Generated hook files created after naming a new hook" >
+	<img src="../reference-images/hookconfig.png" alt="Generated hook files created after naming a new hook" >
 
-5. **Edit** the generated configuration.
+4. **Edit** the generated configuration.
 
-<img src="../reference-images/hookedit.png" alt="Generated hook configuration open for editing in the editor" >
+	<img src="../reference-images/hookedit.png" alt="Generated hook configuration open for editing in the editor" >
 
-6. **Run** a test prompt to verify the hook is active.
-<img src="../reference-images/hookusing.gif" alt="Animated demonstration of creating and configuring a hook in Code Studio" >
+5. **Run** a test prompt to verify the hook is active.
+	<img src="../reference-images/hookusing.gif" alt="Animated demonstration of creating and configuring a hook in Code Studio" >
 
 
 ## Verification
