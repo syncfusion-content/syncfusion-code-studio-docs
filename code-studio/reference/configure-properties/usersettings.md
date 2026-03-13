@@ -120,14 +120,6 @@ The following settings are available on the User Settings page.
 - Controls whether chat hooks are executed at strategic points during an agent's workflow. Hooks are loaded from the files configured in Hook File Locations.
 - Default: `Enabled`
 
-#### Use Agent Skills
-- Controls whether skills are provided as specialized capabilities to the chat requests. The language model can load these skills on-demand if the `read` tool is available.
-- Default: `Enabled`
-
-#### Use Chat Hooks
-- Controls whether chat hooks are executed at strategic points during an agent's workflow. Hooks are loaded from the files configured in Hook File Locations.
-- Default: `Enabled`
-
 <img src="../reference-images/settings-agents.png" alt="UserSettings" >
 
 ### Model
