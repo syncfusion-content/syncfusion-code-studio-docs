@@ -1,11 +1,11 @@
 ---
-title: Ensuring Consistent AI Responses with Context‑Aware Prompt Optimization in Code Studio
+title: Ensuring Consistent AI Responses with Context Aware Prompt Optimization in Code Studio
 description: Learn to write context-aware prompts that produce consistent, reliable AI responses using Syncfusion Code Studio.
 platform: syncfusion-code-studio
 keywords: context-aware-prompting, bug-fixing, prompt-optimization, code-studio-prompts, prompt-engineering, code-generation
 ---
 
-# Ensuring Consistent AI Responses with Context‑Aware Prompt Optimization in Code Studio
+# Ensuring Consistent AI Responses with Context Aware Prompt Optimization in Code Studio
 
 ## Overview
 
