@@ -22,7 +22,6 @@ By the end of this tutorial, you'll have a concrete set of refactoring technique
 Before beginning this tutorial, ensure the following:
 
 - Code Studio is installed on your system. If you haven't set it up yet, follow the [Install and Configure](/code-studio/getting-started/install-and-configuration) guide.
-- A project is open in Code Studio, or you have at least one source file open in the editor.
 - Basic familiarity with the programming language used in the examples (TypeScript is used throughout, but the techniques apply to JavaScript, Python, and Java as well).
 
 
@@ -113,6 +112,7 @@ console.log(monthlyPayment2);
 
 2. Open Inline Chat with `Ctrl+I` (Windows/Linux) or `Cmd+I` (Mac). The input box will appear over your editor.
 3. Type the following prompt and press Enter:
+
    ```
    move repeated calculations into reusable functions
    ```
@@ -251,6 +251,7 @@ Suppose your codebase has inconsistent error handling — some functions use `tr
 **Steps:**
 
 1. Clone the sample repository and open it in Code Studio:
+
    ```bash
    git clone https://github.com/syncfusion/ej2-showcase-react-loan-calculator
    cd ej2-showcase-react-loan-calculator
