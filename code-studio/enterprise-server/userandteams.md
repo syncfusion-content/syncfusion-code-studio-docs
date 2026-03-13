@@ -14,7 +14,7 @@ Code Studio empowers administrators and team leads to manage organization member
 - **Usage Visibility:** Monitor usage and spending at both team and individual levels.
 - **Streamlined Control:** Centralized management for onboarding, governance, and collaboration.
 
-> **Note:** Only Admins can make changes in team or user settings. Regular users and Team Leads can view but not edit.
+> **Note:** Only Admins can make changes user settings. Admin and Team Owner can make changes in teams settings. Users and Team Leads only view user and team settings.
 
 ## 2. User Management
 
@@ -115,7 +115,7 @@ The **Manage Team Owners** feature allows administrators to assign selected team
 - **Control:** They can edit and manage across those teams and ensure teams are properly structured.
 - **Accountability:** They act as the authority responsible for team-level decisions
 
-> **Note:** Team Owners are not limited to a single team. They can be assigned to multiple teams, except their own. They have Admin-level access only within the teams they manage.
+> **Note:** Team Owners are not limited to a single team. They can be assigned to multiple teams, except their own. They have Admin-level access only within the teams they manage. A Team Owner can add budgets and set alerts for their users, but not for the entire team.
 
 #### How to Assign Team Owners
 
