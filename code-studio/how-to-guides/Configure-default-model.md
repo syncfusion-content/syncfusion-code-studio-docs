@@ -9,7 +9,7 @@ keywords: default model, model selection, configuration
 
 ## Overview
 
-This guide explains how to configure default models using API keys from your chosen provider into Code Studio Enterprise. You'll learn how to set default models for different modes to streamline your workflow.
+This guide explains how to configure default models using API keys (BYOK – Bring Your Own Key) from your chosen provider into Code Studio Enterprise. You'll learn how to set default models for different modes to streamline your workflow.
 
 ## When to Use Default Models
 
