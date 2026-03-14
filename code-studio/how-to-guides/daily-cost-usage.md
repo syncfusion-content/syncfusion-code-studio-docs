@@ -50,26 +50,25 @@ Follow these steps to view your credits and token usage in Code Studio:
 <img src="../how-to-guides/howtoguide-images/Dashboard-navigate1.png">
 - You are redirected to the web dashboard where credits and usage information is displayed.
 
-### Step 4: Select a Dashboard View
-- In the dashboard, choose either the `Premium Model` or `Bring Your Own Key` tab.
-
-    <img src="../how-to-guides/howtoguide-images/Dashboard-View.png">
-
-### Step 5: Select Today’s Date
+### Step 4: Select Today’s Date
 - In the dashboard, locate the date filter at the top of the page.
 - Click the date field and select **Today**.
 <img src="../how-to-guides/howtoguide-images/Date-filter1.png">
 
-### Step 6: Select your name in the User field.
+### Step 5: Select your name in the User field from the Filter.
 <img src="../how-to-guides/howtoguide-images/user-profile.png">
 - The dashboard refreshes to show today’s credit usage.
 
-### Step 7: View Daily Credit Usage
+### Step 6: Select the chat session from the Filter.
+<img src="../how-to-guides/howtoguide-images/chat-session.png">
+- The dashboard refreshes to show today’s credit usage for the chat session.
+
+### Step 6: View Daily Credit Usage
 - After setting the date to **Today**, you see the total credit incurred today.
 - This section represents your daily credit usage.
 <img src="../how-to-guides/howtoguide-images/cost-usage.png">
 
-### Step 8: Scroll down to view Token Usage
+### Step 7: Scroll down to view Token Usage
 - Scroll down the dashboard page.
 - Below the credits summary, you will find the Token Usage section.
 <img src="../how-to-guides/howtoguide-images/Token-consumed.png">
@@ -78,5 +77,3 @@ Here is what you can track:
     - Input vs. output token breakdown.
     - Total tokens consumed.
     - Model-specific token consumption trends.
-
-> **Note:** To Check **BYOK** models credits and token usage, select the BYOK option at the top of the dashboard and repeat steps 5–8.
