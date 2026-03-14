@@ -53,7 +53,7 @@ Before: The file opens with default/sample instructions provided by CodeStudio.
 
 <img src="tutorials-images/SampleCustomAgentFile.png" alt="Sample custom agent file" />
 
-After: Replace the [custom agent file](https://github.com/syncfusion/code-studio-agent-library/tree/master/testing/test-generator.agent.md)  completely with your actual custom agent instructions and We have used CodeStudio AI to generate these instructions.
+After: Replace the [custom agent file](https://github.com/syncfusion/code-studio-agent-library/blob/master/testing/react/test-generator.agent.md)  completely with your actual custom agent instructions and We have used CodeStudio AI to generate these instructions.
 
 <img src="tutorials-images/After-Giving-Instruction.gif" alt="After giving instructions" />
 
