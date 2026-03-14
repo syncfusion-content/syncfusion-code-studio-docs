@@ -1,6 +1,6 @@
 ---
 title: Set Budget Alerts
-Description: Set Budget Alerts lets administrators notify teams or individual users by email when budget usage reaches a configured threshold.
+Description: Set Budget Alerts lets administrators and team owner notify teams or individual users by email when budget usage reaches a configured threshold.
 platform: syncfusion-code-studio
 ---
 
@@ -8,7 +8,7 @@ platform: syncfusion-code-studio
 
 ## Overview
 
-Administrators can set up alerts for a team or a specific user to get notified when budget usage exceeds a defined threshold. Team alerts are emailed to the recipient you choose; individual user alerts are emailed to that user’s email address.
+Administrators can set up alerts for a team or a specific user to get notified when budget usage exceeds a defined threshold.Team Owners can configure alerts specifically for their team members. Team Owner can set up alert for their team users.Team alerts are emailed to the recipient you choose; individual user alerts are emailed to that user’s email address.
 
 ## When to use
 
@@ -20,8 +20,8 @@ Use budget alerts when you want an email notification as soon as spending crosse
 ## Prerequisites
 
 - **Code Studio account:** You must have a Code Studio account. If you don’t have one, sign up using the [Getting Started](/code-studio/getting-started/install-and-configuration) guide.
-- **Admin access:** Only administrators can create, edit, and assign budgets.
-- **Team/user available:** Ensure the team or individual user is part of the organization, so you can assign the budget and set the alert.
+- **Access:** Only administrators can create, edit, and assign budgets and Team Owners can configure alerts and then create, edit and assign budget specifically for their team members.
+- **Team/user available:** Ensure the team or individual user is part of the organization, so you cannot assign the budget and set the alert.
 - **Budget configured:** Refer to the [Create Budget](/code-studio/enterprise-server/createbudget) guide to create and assign a budget for the team or the individual user before setting an alert.
 
 ## Steps to Configure Budget Alerts for Teams and Individual Users
