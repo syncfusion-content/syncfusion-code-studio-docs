@@ -126,5 +126,4 @@ You've mastered the basics, but there's so much more to explore:
 
 **Curious about what else Agent mode can do?**
   → Check out the [Agent](/code-studio/features/agent) feature guide for advanced tips and tricks.
-  
 
