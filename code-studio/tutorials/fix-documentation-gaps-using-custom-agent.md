@@ -193,37 +193,6 @@ Documentation is only useful if it stays up to date. This step shows you how to 
      ```
    - The agent produces a new chapter file you can review and merge into the existing docs structure.
 
-## Verify Your Results
-
-Use this checklist to verify that your AI-generated documentation is useful and working as intended:
-
-- **Agent is available**
-  - The `Codebase Documenter` agent appears in the Chat agent dropdown.
-  - Its description matches the purpose of creating beginner-friendly documentation.
-
-- **Docs were generated**
-  - An output folder exists in your workspace (for example, `output/my-project/`).
-  - The folder contains:
-    - `index.md` – main overview.
-    - One or more chapter files (for example, `01_overview.md`, `02_authentication.md`, and so on).
-
-- **Content matches reality**
-  - Core components, data flows, and responsibilities are described correctly.
-  - Major architectural decisions are accurately reflected.
-  - Code examples compile (or are easy to adjust so they do).
-
-- **Check junior developer can understand it**
-  - Ask a junior developer to:
-    - Read `index.md` and one or two key chapters.
-    - Answer questions like “Where is the authentication logic implemented?” or “Where do we send email notifications?”.
-  - If they can find the answers quickly, your docs are doing their job.
-
-If any of these checks fail:
-
-- Refine the agent instructions in `Codebase-Documenter.agent.md`.
-- Use more specific prompts in Chat.
-- Regenerate only the sections that need improvement instead of starting from scratch.
-
 ## What's Next
 
 Keep momentum by trying one of these next steps:

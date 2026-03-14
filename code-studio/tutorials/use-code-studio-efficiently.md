@@ -207,27 +207,3 @@ Use this when:
 
 For detailed models performance comparisons, refer to this [LiveBench model](https://livebench.ai/#/?highunseenbias=true) benchmarks.
 
-## How to Verify You're Using Credits Efficiently
-
-After implementing these practices, track your improvement:
-
-**Efficient Prompts:**
-✓ Are you getting good answers in 1-2 messages instead of 5-6?
-✓ Do your prompts include language, framework, and constraints?
-✓ Are follow-up refinements rare?
-
-**Phase Breaks:**
-✓ Are you using multiple sessions for different features?
-✓ Does each session have fewer than 10 messages?
-✓ Do responses feel focused and on-target?
-
-**Right Interaction Mode:**
-✓ Are you planning before implementing complex features?
-✓ Are you avoiding Agent mode for simple tasks?
-
-**Model Selection:**
-✓ Are you using fast models for simple questions?
-✓ Are you reserving powerful models for high-risk decisions?
-✓ Are architectural decisions getting reasoning-optimized models?
-
-

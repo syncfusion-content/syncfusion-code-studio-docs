@@ -117,29 +117,6 @@ Once you've approved all the changes you want, the Agent put together a helpful 
 
    > **Checkpoints are your safety net!** This is why you can be brave and experiment with Agent mode. There's always a way back.
 
-
-
-
-
-## Verification
-
-Let's make sure everything went smoothly! Here's your verification checklist:
-
-**Agent Mode is On?**
-  - Look at the mode selector—does it show "Agent Mode" is active?
-
-**Changes Look Good?**
-  - Open your project files and review the changes you approved. Do they match what you asked for?
-
-**Summary Makes Sense?**
-  - Check the summary one more time. Did it list all the files you expected to see modified or created?
-
-**Checkpoints Are There?**
-  - Look for the checkpoint list (usually at the bottom of your chat area). Try clicking on one to restore and see that your code reverts. Then restore back to the latest—this confirms checkpoints are working!
-
-**Congratulations!** You've just completed your first AI-powered code change. Take a moment to appreciate what you've done—you've gone from idea to implemented code with AI assistance!
-
-
 ## What's Next? Continue Your Learning Journey
 
 You've mastered the basics, but there's so much more to explore:
@@ -149,6 +126,5 @@ You've mastered the basics, but there's so much more to explore:
 
 **Curious about what else Agent mode can do?**
   → Check out the [Agent](/code-studio/features/agent) feature guide for advanced tips and tricks.
-
-
+  
 
