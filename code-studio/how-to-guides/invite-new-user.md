@@ -1,18 +1,18 @@
 ---
 title: "Invite New User to Your Organization"
-description: "Guide for administrators and team leads to invite new users, configure role, and streamline team member onboarding within an organization"
+description: "Guide for administrators,team leads and team owner to invite new users, configure role, and streamline team member onboarding within an organization"
 platform: syncfusion-code-studio
 keywords: invite-users, code-studio, organization, syncfusion
 ---
 # Invite New User to Your Organization
 ## Overview  
-This guide explains how administrators and team leads can invite new users to their organization. Invited users to gain access to the platform, allowing them to collaborate, join teams, and perform actions based on their assigned roles.
+This guide explains how administrators,team leads and team owner can invite new users to their organization. Invited users to gain access to the platform, allowing them to collaborate, join teams, and perform actions based on their assigned roles.
 
 ## When to Use
 - Onboard new team members into your organization.
 
 ## Prerequisites 
-- You are an Admin or Team Lead. 
+- You are an Admin / Team Lead / Team Owner. 
 - You have the email address of the person you want to invite
 - Your Code Studio organization is active. 
 - A modern web browser with internet access. 
