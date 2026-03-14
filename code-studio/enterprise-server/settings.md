@@ -50,8 +50,8 @@ Add-on credits fund model usage across your organization.
   <thead>
     <tr>
       <th>Plan</th>
-      <th>Seat and Costs [monthly]</th>
-      <th>Seat and Costs [20% yearly]</th>
+      <th>Seats and Costs [monthly]</th>
+      <th>Seats and Costs [20% yearly]</th>
       <th>Key Features</th>
     </tr>
   </thead>
@@ -67,7 +67,6 @@ Add-on credits fund model usage across your organization.
           <li>Image input support</li>
           <li>MCP server integration</li>
           <li>Multiple AI provider connections</li>
-          <li>UI builder</li>
           <li>Quick actions & codebase search</li>
           <li>Custom credit recharge</li>
         </ul>

@@ -45,7 +45,7 @@ Code Studio empowers administrators and team leads to manage organization member
 
    <img src="./enterprise-images/inviteUserDialog.png" alt="Invite Users" />
 
-> **Note:** Only Admins and Team Leads can invite users.
+> **Note:** Admins, Team Leads and Team Owners can only invite users.
 
 ### Editing or Removing Members
 Use the context menu to:
