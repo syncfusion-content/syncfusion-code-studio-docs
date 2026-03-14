@@ -170,40 +170,6 @@ console.log(calculateFinalPrice(-50, 10));        // Expected: 0 (no negative pr
 
 All four test cases now pass. The function no longer produces `NaN` or negative values.
 
-## Verify Your Results
-
-After applying the AI's fix, confirm the function behaves correctly for all expected inputs.
-
-### Test 1: Run the Code
-
-Open the integrated terminal as described in Step 1, then run the updated file:
-
-```bash
-node priceCalculator.js
-```
-
-You should see four numeric outputs with no `NaN` errors. If you see `NaN` or an error, go back and check that the fixed function was saved correctly.
-
-### Test 2: Try Additional Test Cases
-
-Add more test cases to evaluate edge cases:
-
-```javascript
-// Additional test cases
-console.log(calculateFinalPrice(50, 10));     // Expected: 45
-console.log(calculateFinalPrice("75", "25")); // Expected: 56.25
-console.log(calculateFinalPrice(1000));       // Expected: 1000 (no discount)
-```
-
-**Compare results:** Check if the function handles these cases as expected.
-
-### Test 3: Check Prompt Consistency
-
-Run the same context-aware prompt from Step 2 again and compare the two responses:
-- Are the solutions similar?
-- Do both fix the same bugs?
-- Is the code approach consistent?
-
 ## What's Next?
 
 - [Generate Your First Code Change Using Agent](/code-studio/tutorials/generate-your-first-code-using-agent) — Let AI write new code for you.

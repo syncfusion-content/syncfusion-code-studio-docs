@@ -176,21 +176,3 @@ When you switch to this agent:
 
 Your team now has an automated reviewer that never sleeps!
 
-
-
-## Verification: Did Your Reviews Work?
-
-Let's verify everything is set up and working:
-
-**✓ Can you use #changes?**
-
-- Type `#` in chat and see `#changes` in the dropdown
-- Select it and ask a question about your code
-- Does the AI understand what you changed?
-
-**✓ Is your custom agent working?**
-
-- Toggle to your custom agent in the mode selector
-- Does it appear alongside Ask, Edit, Plan?
-- Use it on your changes—does it apply your review rules?
-

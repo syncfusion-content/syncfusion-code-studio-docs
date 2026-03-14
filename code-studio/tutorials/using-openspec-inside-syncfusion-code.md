@@ -168,27 +168,6 @@ Check your project structure to verify the archiving worked correctly:
 - Change folder archived to `openspec/changes/archive/`
 - Your project is now cleanly organized and ready for the next feature!
 
-## Verify Your Results
-
-Let's make sure everything went smoothly! Here's your verification checklist:
-
-**OpenSpec is Set Up:**
-- Look for the `openspec/` folder in your project. It should have `specs/`, `changes/`, and `config/` folders inside it.
-
-**Commands Are Working:**
-- Try typing `/opsx:explore` in the **Chat Panel**. Does it respond without errors? This means OpenSpec is working!
-
-**Files Were Created:**
-- If you ran a proposal, check the `openspec/changes/` folder. Do you see your change folder with proposal, design, and task files?
-
-**Changes Were Applied:**
-- Open your project files. Do you see the new code that was created? Does your application run without errors?
-
-**Archive is Organized:**
-- After archiving, check `openspec/changes/archive/` and `openspec/specs/`. Your completed work should be there!
-
-**Congratulations!** You've just completed your first project with OpenSpec. Take a moment to appreciate what you've done — you've learned a structured way to work with AI safely and predictably!
-
 ## What's Next
 
 You've mastered the basics of OpenSpec in Code Studio! Here are some recommended next steps to expand your skills:
