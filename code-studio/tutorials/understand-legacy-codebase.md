@@ -138,24 +138,3 @@ Please analyze the code and provide:
 **What It Does:**
 
 It analyzes the current architecture, identifies outdated patterns, researches modern alternatives, and creates a phased plan with identified risks and backward compatibility strategy.
-
-## Verification: How to Verify Code Studio's Analysis
-
-After Code Studio analyzes your module, verify the results are accurate:
-
-### Understanding a Module:
-
-- ✓ Does the analysis match what you already know about the module?
-- ✓ Are the key functions actually the most important ones?
-- ✓ Can you find the dependencies Code Studio listed in your actual code?
-
-### Finding Issues:
-
-- ✓ Do the identified problems actually exist in your codebase?
-- ✓ Are the file locations correct?
-- ✓ Would fixing these issues actually improve performance/security?
-
-### Planning Modernization:
-
-- ✓ Are the identified patterns actually outdated or problematic?
-- ✓ Do the phase breakdowns make sense for your codebase?

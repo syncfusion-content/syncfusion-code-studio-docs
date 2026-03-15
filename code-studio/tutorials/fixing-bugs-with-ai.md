@@ -122,14 +122,6 @@ After adding the file as context, type a prompt asking the agent to fix the issu
 
 The more relevant context the AI has, the more accurate its suggestions will be.
 
-
-## Verify Your Results
-
-- Open the **Problems panel** using `Ctrl+Shift+M` (Windows/Linux) or `Cmd+Shift+M` (Mac) and confirm the error count has decreased or shows zero.
-- Check that red squiggly underlines are no longer visible in the editor for the lines you fixed.
-- Run your application and confirm the affected features work correctly without new errors in the console or UI.
-- Review the AI-applied code changes to ensure each fix aligns with your project's coding standards and does not introduce new issues.
-
 ## What's Next
 
 - Use [Autocomplete](/code-studio/features/autocomplete) to catch errors as you type and reduce bugs before they occur.

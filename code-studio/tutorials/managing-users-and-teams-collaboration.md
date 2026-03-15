@@ -192,21 +192,3 @@ The Dashboard supports these key operations:
 ### How to Manage Members
 
 **To perform member management tasks with detailed workflows and screenshots,** see [User & Teams Documentation](/code-studio/enterprise-server/userandteams)
-
-
-## Verify Your Results
-
-Let's make sure your team setup is complete! Follow these simple checks:
-
-- **Check Your Teams** - Open the Dashboard  and verify you can see your created teams in the Users and Teams → Teams section with the correct members assigned.
-
-- **Test User Access** - If you invited new users, confirm they received invitation emails and can log in. If you added existing users, verify they can see their new team in Code Studio.
-
-- **Review Usage Metrics** - Navigate to the Dashboard and use the filter to view your team's token usage. Confirm the metrics are displaying correctly and you can drill down into individual user sessions.
-
-- **Verify Permissions** - Check that team members have the correct roles (Admin, Team Lead, or User) by viewing the Users list in the Dashboard. Test that permissions work as expected.
-
-**Congratulations!** 🎉 You've successfully set up team collaboration in Code Studio Enterprise Server. Your team can now work together with shared AI resources, clear role definitions, and centralized monitoring.
-
-
-

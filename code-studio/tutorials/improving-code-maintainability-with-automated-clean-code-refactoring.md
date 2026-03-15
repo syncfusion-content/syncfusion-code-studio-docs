@@ -22,7 +22,6 @@ By the end of this tutorial, you'll have a concrete set of refactoring technique
 Before beginning this tutorial, ensure the following:
 
 - Code Studio is installed on your system. If you haven't set it up yet, follow the [Install and Configure](/code-studio/getting-started/install-and-configuration) guide.
-- A project is open in Code Studio, or you have at least one source file open in the editor.
 - Basic familiarity with the programming language used in the examples (TypeScript is used throughout, but the techniques apply to JavaScript, Python, and Java as well).
 
 
@@ -113,6 +112,7 @@ console.log(monthlyPayment2);
 
 2. Open Inline Chat with `Ctrl+I` (Windows/Linux) or `Cmd+I` (Mac). The input box will appear over your editor.
 3. Type the following prompt and press Enter:
+
    ```
    move repeated calculations into reusable functions
    ```
@@ -251,6 +251,7 @@ Suppose your codebase has inconsistent error handling — some functions use `tr
 **Steps:**
 
 1. Clone the sample repository and open it in Code Studio:
+
    ```bash
    git clone https://github.com/syncfusion/ej2-showcase-react-loan-calculator
    cd ej2-showcase-react-loan-calculator
@@ -275,17 +276,6 @@ Suppose your codebase has inconsistent error handling — some functions use `tr
 7. Review each proposed change in the side-by-side diff view — click Keep to accept or Undo to reject individual file changes.
 
    <img src="./tutorials-images/agent-mode-error-handling.png" alt="Agent mode diff view showing standardized try-catch error handling applied across multiple service files" />
-
-## Verification
-
-After applying any refactoring, work through this checklist to confirm everything is correct:
-
-- **Code behavior is unchanged** — If your project has automated tests, run your full test suite. All tests that passed before refactoring should still pass after. If you don't have tests, manually test the affected features in your application to confirm they still work as expected.
-- **Code is cleaner** — Open each refactored file and confirm it is easier to read and understand than before.
-- **No broken references** — Open the Problems panel (`Ctrl+Shift+M` (Windows/Linux) or `Cmd+Shift+M` (Mac)) and confirm there are no new errors or unresolved references from renamed symbols, extracted functions, or moved imports.
-- **Style is consistent** — Review the changed files to confirm the reformatted code matches your team's style guide or linting rules.
-
-**Congratulations!** You've applied professional-grade clean code refactoring techniques using Code Studio's AI-features. Your codebase is now more readable, more maintainable, and better prepared for new features.
 
 ## What's Next
 

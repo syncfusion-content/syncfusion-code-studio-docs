@@ -1,6 +1,6 @@
 ---
 title: Code Studio Overview
-description: Learn about all key features of Syncfusion Code Studio including Autocomplete, Ask, Edit, Agent, Plan, Generate Code, Quick Fix, UI Builder, and Custom Agents.
+description: Learn about all key features of Syncfusion Code Studio including Autocomplete, Ask, Edit, Agent, Plan, Generate Code, Quick Fix, and Custom Agents.
 platform: syncfusion-code-studio
 keywords: "syncfusion code studio features, ai powered ide, code generation, ai agents, quick fix, autocomplete, plan mode"
 ---
@@ -45,9 +45,6 @@ Learn more on the [Plan](/code-studio/features/plan) page.
 
 -  **Provide Context to Chat**: Attach files, folders, code symbols, errors, screenshots, or tool outputs so the AI understands what you’re working on and gives accurate, relevant guidance.  
 Learn more on the [Context](/code-studio/features/add-context) page.
-
--  **UI Builder**: An AI‑powered tool that analyzes your development needs and automatically delivers targeted UI guidance with code examples, component documentation, and layouts specifically for Syncfusion components. By understanding your project context, it provides precise, platform‑specific assistance instead of generic advice.  
-Learn more on the [UI Builder](/code-studio/ui-builder) page.
 
 -  **Enterprise Server**: Centralized administration for organizations, including users and teams, providers and models, budgets, alerts, and dashboards.  
 Learn more on the [Enterprise Server](/code-studio/enterprise-server/getting-started) page.

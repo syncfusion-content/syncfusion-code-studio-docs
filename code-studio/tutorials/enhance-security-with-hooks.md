@@ -293,29 +293,8 @@ Here are some ideas:
 - **Audit and logging**
   - Log all tool calls for specific agents or sessions to a central audit file during security reviews.
 
-## Verify Your Results
-
-Use this checklist to confirm that your automated security hook is working correctly:
-
-- **Hooks are enabled**
-  - The Hooks toggle is turned **On** under Agent or Chat settings.
-- **Pre-Tool Use hook exists**
-  - A hook for the **Pre-Tool Use** event (for example, `BlockEnvFileAccess`) is present and active in the Hooks list.
-- **Safe tool calls succeed**
-  - Reading normal source files or documentation through the agent still works.
-- **.env access is blocked**
-  - Any attempt by the agent to read `.env` or related files is denied, and the user sees your custom security message.
-- **Errors are handled**
-  - If the hook script encounters an error, it logs a clear message, and Code Studio does not fail silently.
-
-If any of these checks fail:
-
-- Reopen your hook script and confirm that it parses the JSON input correctly.
-- Add additional logging around JSON parsing and pattern matching.
-- Re-run your tests in a clean chat session.
-
 ## What's Next
 
-- [Generate Your First Code Change Using Agent](code-studio/tutorials/generate-your-first-code-using-agent) — Guide the agent to implement and verify a small change end-to-end.
-- [Fixing Bugs with AI](code-studio/tutorials/fixing-bugs-with-ai) — Use the agent to identify, patch, and validate defects safely.
-- [Compare AI Models for Different Tasks](code-studio/tutorials/compare-ai-models) — Evaluate model quality, cost, and speed for your workflows.
+- [Generate Your First Code Change Using Agent](/code-studio/tutorials/generate-your-first-code-using-agent) — Guide the agent to implement and verify a small change end-to-end.
+- [Fixing Bugs with AI](/code-studio/tutorials/fixing-bugs-with-ai) — Use the agent to identify, patch, and validate defects safely.
+- [Compare AI Models for Different Tasks](/code-studio/tutorials/compare-ai-models) — Evaluate model quality, cost, and speed for your workflows.

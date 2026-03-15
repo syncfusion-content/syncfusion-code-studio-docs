@@ -2,7 +2,7 @@
 title: Code Studio Enterprise Settings
 description: Manage profile, organization, credits, billing, and subscriptions in Syncfusion Code Studio Enterprise.
 platform: syncfusion-code-studio
-keywords: settings, profile, organization, credits, billing, subscription, plans, BYOK, payments, enterprise, syncfusion, code-studio
+keywords: settings, profile, organization, credits, billing, subscription, plans,payments, enterprise, syncfusion, code-studio
 ---
 
 # Settings
@@ -37,20 +37,21 @@ Add-on credits fund model usage across your organization.
 
 ## 4. Billing & Subscription
 
-- Available plans: Free, Basic, Pro, Enterprise,BYOK-unlimited.
-- BYOK plan: $15 per month subscription
+-	Billing Cycle: Yearly and Monthly.
+-	Available 20% offer for yearly.
+-	Available plans: Individual, Small Team, Medium Team and Large Business.
 - After subscription the current subscription details and billing cycle will be displayed.
 - Manage your subscription plan, billing cycle, and invoices.
 - The credit balance will be displayed on the top of the page.
 
 <img src="./enterprise-images/settingsbilling.png" alt="settings"  />
 
-
 <table border="1" cellpadding="8" cellspacing="0">
   <thead>
     <tr>
       <th>Plan</th>
-      <th>Cost per User</th>
+      <th>Seats and Costs [monthly]</th>
+      <th>Seats and Costs [20% yearly]</th>
       <th>Key Features</th>
     </tr>
   </thead>
@@ -58,27 +59,94 @@ Add-on credits fund model usage across your organization.
     <tr>
       <td>Free</td>
       <td>$0</td>
-      <td>IDE access, Enterprise server for 1 user, 4 AI models, UI builder, MCP server integration, Quick actions and codebase search, and image input support.</td>
+      <td>$0</td>
+      <td>
+        <ul>
+          <li>Full access to Code Studio IDE & Enterprise Server</li>
+          <li>Five AI modes: Chat, Edit, Agent, Plan, Autocomplete</li>
+          <li>Image input support</li>
+          <li>MCP server integration</li>
+          <li>Multiple AI provider connections</li>
+          <li>Quick actions & codebase search</li>
+          <li>Custom credit recharge</li>
+        </ul>
+      </td>
     </tr>
     <tr>
-      <td>Basic</td>
-      <td>$20/month</td>
-      <td>Premium & BYOK models, team dashboards, fallback policies, Team-wide credit pooling, Custom credit recharge, 2000 credits per user</td>
+      <td>Small Team</td>
+      <td>
+        5 users - $49/month<br/>
+        25 users - $149/month<br/>
+        50 users - $299/month
+      </td>
+      <td>
+        5 users - $39/month<br/>
+        25 users - $119/month<br/>
+        50 users - $239/month
+      </td>
+      <td>
+        <ul>
+          <li>All Individual features</li>
+          <li>2,000 starter credits (first month, paid buckets only)</li>
+          <li>Premium models</li>
+          <li>User & team budget controls</li>
+          <li>Full usage dashboards & analytics</li>
+          <li>Fallback policies & reliability</li>
+          <li>Centralized user management</li>
+          <li>SSO</li>
+          <li>Team-wide credit pooling</li>
+          <li>Custom credit recharge</li>
+        </ul>
+      </td>
     </tr>
     <tr>
-      <td>Pro</td>
-      <td>$30/month</td>
-      <td>Everything in Basic + 10% bonus in credit, 3300 credits per user.</td>
+      <td>Medium Team</td>
+      <td>
+        100 users - $599/month<br/>
+        200 users - $799/month<br/>
+        300 users - $999/month<br/>
+        400 users - $1199/month<br/>
+        500 users - $1399/month
+      </td>
+      <td>
+        100 users - $479/month<br/>
+        200 users - $639/month<br/>
+        300 users - $799/month<br/>
+        400 users - $959/month<br/>
+        500 users - $1119/month
+      </td>
+      <td>
+        <ul>
+          <li>All Small Team features</li>
+          <li>10,000 starter credits (first month, team-level)</li>
+          <li>Advanced admin controls</li>
+          <li>Priority email & chat support</li>
+        </ul>
+      </td>
     </tr>
     <tr>
-      <td>Enterprise</td>
-      <td>$40/month</td>
-      <td>Everything in Pro + 20% bonus in credit, 4800 credits per user.</td>
-    </tr>
-    <tr>
-      <td>BYOK Unlimited</td>
-      <td>$15/month</td>
-      <td>BYOK models only, budget controls, dashboards, SSO, centralized management</td>
+      <td>Large Business</td>
+      <td>
+        600 users - $1599/month<br/>
+        700 users - $1749/month<br/>
+        800 users - $1899/month<br/>
+        900 users - $2049/month<br/>
+        1000 users - $2399/month
+      </td>
+      <td>
+        600 users - $1279/month<br/>
+        700 users - $1399/month<br/>
+        800 users - $1519/month<br/>
+        900 users - $1639/month<br/>
+        1000 users - $1919/month
+      </td>
+      <td>
+        <ul>
+          <li>All Medium Team features</li>
+          <li>5,000 starter credits (first month, team-level)</li>
+          <li>24/5 priority support</li>
+        </ul>
+      </td>
     </tr>
   </tbody>
 </table>

@@ -56,10 +56,10 @@ Before the AI can generate tests, you need to install both Playwright and the MC
    - Accept the default `tests` folder for end-to-end tests by pressing **Enter**
 
    <img src="./tutorials-images/test-folder-configuration.png" alt="Playwright setup showing default tests folder configuration" />
-   <br>
-   <img src="./tutorials-images/test-folder-confirmation.png" alt="Terminal output confirming tests folder location" />
 
    - When prompted **"Add a GitHub Actions workflow?"**, type `n` and press **Enter** to skip it. This workflow would automatically run your tests on GitHub when you push code, but for this tutorial, you'll focus on local development.
+
+   <img src="./tutorials-images/test-folder-confirmation.png" alt="Terminal output confirming tests folder location" />
 
    - Confirm installation of Playwright browsers by pressing **Enter**
 
@@ -128,10 +128,10 @@ Before the AI can generate tests, you need to install both Playwright and the MC
    - Code Studio will automatically open a new `SKILL.md` file where you can define the instructions that guide the AI agent's behavior.
    - Replace the default content with the following skill definition:
 
-   ```markdown
+   ```
    ---
    name: playwright-explore-website
-   description: 'Website exploration for testing using Playwright MCP'
+   description: Website exploration for testing using Playwright MCP
    ---
 
    # Website Exploration for Testing
@@ -198,21 +198,20 @@ Once the agent finishes its work, you'll have a complete, executable Playwright 
 
    <img src="./tutorials-images/generated-test-file.png" alt="Code Studio editor showing the generated Playwright test file with test assertions" />
 
-2. Check the terminal output for test execution results.
-
-   The terminal shows live execution details as Playwright runs your test. By default, Playwright runs tests headless (without opening visible browser windows) and executes them in parallel across 3 workers (Chromium, Firefox, and WebKit).
-
-   <img src="./tutorials-images/test-execution-terminal.png" alt="Terminal output showing Playwright test execution across multiple browsers" />
-    <br><br>
-   <img src="./tutorials-images/test-results-summary.png" alt="Terminal output showing test results summary with passed/failed counts" />
-
-3. To run the test, use the following command in the terminal:
+2. To run the test, use the following command in the terminal:
 
    ```bash
    npx playwright test appointment-planner-verifications.spec.ts
    ```
+   <img src="./tutorials-images/test-execution-terminal.png" alt="Terminal output showing Playwright test execution across multiple browsers" />
 
    > **Note:** Replace `appointment-planner-verifications.spec.ts` with your actual test filename if different.
+
+3. Check the terminal output for test execution results.
+
+   The terminal shows live execution details as Playwright runs your test. By default, Playwright runs tests headless (without opening visible browser windows) and executes them in parallel across 3 workers (Chromium, Firefox, and WebKit).
+
+   <img src="./tutorials-images/test-results-summary.png" alt="Terminal output showing test results summary with passed/failed counts" />
 
 4. View the HTML report by running the following command in the terminal:
 
@@ -221,27 +220,12 @@ Once the agent finishes its work, you'll have a complete, executable Playwright 
    ```
 
    <img src="./tutorials-images/html-report-command.png" alt="Terminal showing the playwright show-report command being executed" />
-   <br><br>
+
    <img src="./tutorials-images/html-report-view.png" alt="Browser showing Playwright HTML report with detailed test results and screenshots" />
-
-
-## Verification
-
-After completing the tutorial, work through this checklist to confirm everything is set up correctly:
-
-- **Agent mode is enabled** — Check the mode selector at the top of Chat. It should display "Agent" when active.
-
-- **Playwright and MCP are installed** — Verify that `playwright.config.ts` exists in your project root directory. Confirm the Playwright MCP server shows as "Connected" in MCP.
-
-- **Test was generated successfully** — Open the `tests/` folder and confirm your test file exists (e.g., `appointment-planner-verification.spec.ts`). Review the terminal output to confirm test execution completed with passing results.
-
-- **HTML report is accessible** — Run `npx playwright show-report` in the terminal and verify the HTML report opens in your browser with detailed test results.
-
-**Congratulations!** You've successfully completed your first AI-generated web automation test using Playwright MCP and Agent mode. You've transitioned from manual test writing to AI-powered test generation.
-
 
 ## What's Next
 
 - [Generate Your First Code Change Using Agent](/code-studio/tutorials/generate-your-first-code-using-agent) — Let AI write new code for you.
 - [Agent Mode](/code-studio/features/agent) — Explore advanced Agent mode capabilities and workflows.
 - [Improving Code Maintainability with Automated Clean Code Refactoring](/code-studio/tutorials/improving-code-maintainability-with-automated-clean-code-refactoring) — Use AI to improve code quality automatically.
+
