@@ -52,7 +52,7 @@ Follow these steps to view your credits and token usage in Code Studio:
 
 ### Step 4: Select Today’s Date
 - In the dashboard, locate the date filter at the top of the page.
-- Click the date field and select **Today**.
+- Click the date field and select **This week**.
 <img src="../how-to-guides/howtoguide-images/Date-filter1.png">
 
 ### Step 5: Select your name in the User field from the Filter.

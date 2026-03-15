@@ -71,7 +71,7 @@ You can monitor:
 - Observe the graphical widgets displaying cost, tokens, requests, and latency.
 - Hover over charts for detailed tooltips and breakdowns.
 
-<img src="./enterprise-images/dashboardBYOK.png" alt="dashboard"  />
+<img src="./enterprise-images/dashboard3.png" alt="dashboard"  />
 
 ### Step 3: Apply Filters
 

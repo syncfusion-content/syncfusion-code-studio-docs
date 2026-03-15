@@ -20,7 +20,7 @@ Fallback Policies in Code Studio ensure uninterrupted AI workflows by automatica
 2. If the request fails (due to timeout, error, etc.), the system automatically retries using the next model in the fallback list.  
 3. This process continues until a model successfully returns a result or the retry limit is reached.
 
-✅ **Benefits**:
+**Benefits**:
 - Prevents stalled workflows  
 - Increases success rates  
 - Reduces costs by only paying for successful responses  
