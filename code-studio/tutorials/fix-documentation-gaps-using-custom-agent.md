@@ -1,4 +1,4 @@
----
+﻿---
 title: Fixing Documentation Gaps How AI Generates Accurate Developer Documentation Instantly
 description: Learn how to use a custom Codebase Documenter agent in Syncfusion Code Studio to generate clear, beginner-friendly documentation for any codebase.
 platform: syncfusion-code-studio
@@ -60,7 +60,7 @@ In this step, you will create the configuration file that turns a generic model 
    - Final path: `.codestudio/agents/`.
 3. **Create or download the agent template:**
    - Create a custom agent for documentation, or obtain the `Codebase Documenter` agent from the agent library.
-   - Download the custom  Codebase Documenter agent from the [Codebase Documenter agent template repository](https://github.com/syncfusion/code-studio-agent-library.git).
+   - Download the custom Codebase Documenter agent from the [Codebase Documenter agent template](https://github.com/syncfusion/code-studio-agent-library/blob/master/documentation/codebase-documenter.agent.md).
 4. **Place the template in your project:**
    - Copy `Codebase-Documenter.agent.md` into the `.codestudio/agents` folder.
 5. **Open the agent file in the editor:**

@@ -9,9 +9,11 @@ keywords: "compare-ai-models, choose-model, claude-haiku-4.5, claude-sonnet-4.5,
 
 ## Overview
 
-Ever wondered which AI model to pick for your coding task? You're not alone! Code Studio gives you access to multiple AI models, each with different strengths. Some are lightning-fast for quick tasks, while others excel at deep reasoning and complex problems.
+Each AI model available in Code Studio has distinct strengths. To help you decide which model to use, this tutorial provides real-world examples of common developer tasks along with sample prompts, expected responses, and guidance on why a particular model is a good fit.
 
-In this tutorial, we'll walk you through each model and show you—with real examples—when to use which one. By the end, you'll know exactly which model to reach for, whether you're writing a quick validation function or tackling a tricky refactoring challenge.
+These examples illustrate how models differ in their reasoning style, response depth, and ability to handle various input types. Use them to compare output quality and choose the right model for your specific workflow.
+
+For a full list of supported models and side-by-side feature comparisons, see the [Model Comparison](/code-studio/reference/configure-properties/model-comparison.md) page in the reference section.
 
 ## Prerequisites
 
@@ -689,7 +691,5 @@ You have successfully completed this tutorial when you can:
 Now that you understand how different AI models behave and when to use them:
 
 1. **Explore Advanced Features**: Try using the [Agent](/code-studio/features/agent) feature with reasoning-focused models like GPT-5 or GPT-5.2 for autonomous multi-step workflows.
-
-2. **Configure Custom Models**: If your organization has specific model preferences, learn how to [configure custom models](/code-studio/reference/configure-properties/configure-opensource-model) to align with your team's needs.
 
 As task complexity increases, adjusting your model choice can significantly improve both productivity and code quality.

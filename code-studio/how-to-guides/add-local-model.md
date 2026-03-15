@@ -1,15 +1,17 @@
 ---
-title: How to Add BYOK Models using your own API Key
-description: Learn how to add and manage your own AI models in Code Studio using API keys from providers like OpenAI and Anthropic.
+title: How to Add Personal API Key Models in the IDE
+description: Learn how to add and manage your own AI models directly in the Code Studio IDE chat view using personal API keys from providers like OpenAI and Anthropic.
 platform: syncfusion-code-studio
-keywords: how-to, BYOK, personal-models, API-keys
+keywords: how-to, personal-models, API-keys, IDE, chat-view, OpenAI, Anthropic
 ---
 
-# How to add BYOK Models using your own API Key
+# How to Add Personal API Key Models in the IDE
 
 ## Overview
 
-Bring Your Own Key(BYOK) models in Code Studio allow you to integrate AI models from various providers using your own API keys. This feature gives you access to specific models that may not be available in your organization's configuration. You can add, manage, and use these models alongside your organization's models for enhanced flexibility and experimentation.
+Code Studio allows you to integrate AI models from various providers directly in the IDE chat view using your own personal API keys. This feature gives you access to specific models that may not be available in your organization's configuration. You can add, manage, and use these models alongside your organization's models for enhanced flexibility and experimentation.
+
+> **Note:** This feature is available in the IDE chat view only. It is not available in the Code Studio Enterprise Server dashboard.
 
 ## When to Use
 
@@ -49,11 +51,11 @@ Use BYOK models when you need to:
 
    > **Note:** Ensure the API key is valid and correct.
 
-4. After adding the API key, the available models will be listed. 
+6. After adding the API key, the available models will be listed. 
 
    <img src="howtoguide-images/ModelsList.png" alt="Models">
 
-5. To add models to the Chat Model Picker:
+7. To add models to the Chat Model Picker:
 
    1. Hover over the model name on the left side.
    2. An eye icon will appear.
@@ -61,7 +63,7 @@ Use BYOK models when you need to:
 
       <img src="howtoguide-images/AddOrRemoveModels.gif" alt="Choose Model">
 
-6. The added models will appear under `Other Models`. You can use them in the same way as any built-in or organization-configured model.
+8. The added models will appear under `Other Models`. You can use them in the same way as any built-in or organization-configured model.
 
    <img src="howtoguide-images/BYOKModelsinPicker.png" alt="Other Model">
 

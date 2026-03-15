@@ -15,12 +15,12 @@ This tutorial will guide you through using **OpenSpec** inside **Syncfusion Code
 
 OpenSpec introduces a **four-step workflow** using slash commands. All OpenSpec commands are typed in the **Chat Panel** (not the terminal):
 
-| Command | Purpose | When to Use |
-|---------|---------|-------------|
-| `/opsx:explore` | Brainstorm and discuss ideas | When you're not sure what to build yet |
-| `/opsx:propose` | Create a detailed plan | When you're ready to plan your feature |
-| `/opsx:apply` | Implement the planned changes | After reviewing and approving the proposal |
-| `/opsx:archive` | Finalize and organize work | After verifying the changes work correctly |
+| Command         | Purpose                       | When to Use                                |
+| --------------- | ----------------------------- | ------------------------------------------ |
+| `/opsx:explore` | Brainstorm and discuss ideas  | When you're not sure what to build yet     |
+| `/opsx:propose` | Create a detailed plan        | When you're ready to plan your feature     |
+| `/opsx:apply`   | Implement the planned changes | After reviewing and approving the proposal |
+| `/opsx:archive` | Finalize and organize work    | After verifying the changes work correctly |
 
 By the end, you'll understand how to build your first project using OpenSpec commands, review AI-generated plans before they run, and manage code changes like a pro.
 
@@ -173,6 +173,5 @@ Check your project structure to verify the archiving worked correctly:
 You've mastered the basics of OpenSpec in Code Studio! Here are some recommended next steps to expand your skills:
 
 - Learn how to combine OpenSpec with autonomous AI coding in [Generate Your First Code Using Agent](/code-studio/tutorials/generate-your-first-code-using-agent).
-- Discover advanced settings and personalization options in [Configure Code Studio](/code-studio/reference/configure-the-code-studio).
 - Check out [Manage Chat Sessions](/code-studio/how-to-guides/manage-chat-session) to organize your conversations.
 - For advanced users, learn about customizing OpenSpec commands in the [OpenSpec Commands Documentation](https://github.com/Fission-AI/OpenSpec/blob/main/docs/commands.md).
