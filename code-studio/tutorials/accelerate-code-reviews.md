@@ -20,7 +20,7 @@ In a few minutes, you'll learn three powerful ways to review your code instantly
 
 ## Prerequisites
 
-Before You Start, Let's make sure you're all set:
+Before you start, let's make sure you're all set:
 
 - Syncfusion Code Studio is installed and properly configured on your system. If you have not yet downloaded Code Studio, refer to [Install and Configure](/code-studio/getting-started/install-and-configuration) for step-by-step instructions.
 - A project with [Git](https://git-scm.com/install/?utm_source=copilot.com) initialized. If your project doesn't have Git yet, we'll show you how to set it up in Step 1.
@@ -29,9 +29,9 @@ Before You Start, Let's make sure you're all set:
 
 By the end of this tutorial, you'll be able to:
 
-- ✓ Review uncommitted changes instantly using the #changes tool
-- ✓ Catch bugs, security issues, and quality problems before they reach a PR
-- ✓ Set up automated reviews that work the same way every time
+- Review uncommitted changes instantly using the #changes tool
+- Catch bugs, security issues, and quality problems before they reach a PR
+- Set up automated reviews that work the same way every time
 
 ## Key Concepts
 
@@ -61,9 +61,9 @@ Before we can review changes, we need to make sure Git is tracking your code.
 
 Your project is now Git-ready! Time to review your first changes.
 
-## Step 2: Getting Code Reviews
+### Step 2: Getting Code Reviews
 
-### Method 1: Do Your First Instant Code Review with #changes
+#### Method 1: Do Your First Instant Code Review with #changes
 
 The `#changes` tool is like having a code reviewer look at your Git diff instantly. No waiting, no pull requests—just immediate feedback.
 
@@ -75,10 +75,9 @@ The `#changes` tool is like having a code reviewer look at your Git diff instant
 
 4. Select `#changes` from the dropdown.
 
-**What's #changes doing?** It's giving the AI all the code you modified but haven't committed yet. The AI can analyze everything you changed in one go!
+   **What's #changes doing?** It's giving the AI all the code you modified but haven't committed yet. The AI can analyze everything you changed in one go!
 
 5. Ask a specific question about your changes. For example:
-
    - "What did I change and why might it break existing functionality?"
    - "Are there any security issues or edge cases I missed?"
    - "Review these changes for performance problems"
@@ -91,15 +90,15 @@ The `#changes` tool is like having a code reviewer look at your Git diff instant
 
 **You just did an instant code review!** But what if you want to enforce consistent standards every time?
 
- <img src="./tutorials-images/codereview-ashtric.gif" alt="code review" />
+<img src="./tutorials-images/codereview-ashtric.gif" alt="code review" />
 
-### Method 2: Use a Custom Review Agent
+#### Method 2: Use a Custom Review Agent
 
 The `#changes` method is quick and easy, but typing the same review instructions every time gets repetitive. If your team wants consistent reviews that follow the same standards every time, you can use a custom agent.
 
 A custom agent is like a specialized reviewer you configure once, then use forever. It remembers your team's rules and applies them automatically.
 
-#### What's the Difference?
+##### What's the Difference?
 
 **#changes (Method 1):**
 
@@ -117,7 +116,7 @@ For detailed steps on creating custom agents, see [Custom Agents](/code-studio/r
 
 Now we can see how a custom agent reviews your code. Below is a complete code review agent you can copy and use. It checks for security, performance, quality, tests, and documentation every time.
 
-#### Example Code Review Agent
+##### Example Code Review Agent
 
 Copy this content and paste it into your custom agent file:
 
@@ -163,7 +162,8 @@ You are a helpful code reviewer. Review code changes using simple language. Focu
 
 Use simple, encouraging language. Explain why each issue matters.
 ```
- <img src="./tutorials-images/codereview-tutorial.gif" alt="code review" />
+
+<img src="./tutorials-images/codereview-tutorial.gif" alt="code review" />
 
 **What It Does:**
 

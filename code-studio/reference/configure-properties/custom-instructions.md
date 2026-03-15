@@ -67,7 +67,7 @@ Use Custom Instructions when you want to:
 
 <img src="../reference-images/instruction_code_settings.png" alt="instruction_code_settings" >
 
-**Step 3:** Click **Instruction** in the settings options.
+**Step 3:** Click **Instructions & Skills** in the settings options.
 
 <img src="../reference-images/instruction_repo.png" alt="instruction_repo" >
 

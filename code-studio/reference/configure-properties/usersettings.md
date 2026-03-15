@@ -41,7 +41,7 @@ The User Settings page can be accessed in three ways:
 
 - The Settings page will open.
 
-<img src="../reference-images/settings-page-chat.png" alt="UserSettings" >
+<img src="../reference-images/settings-account1.png" alt="UserSettings" >
 
 ### 2. From the Toggle Sidebar
 
@@ -52,7 +52,7 @@ The User Settings page can be accessed in three ways:
 
 - The Settings page will open.
 
-<img src="../reference-images/settings-page-chat.png" alt="UserSettings" >
+<img src="../reference-images/settings-account1.png" alt="UserSettings" >
 
 ### 3. From the Chat Window
 
@@ -64,7 +64,7 @@ The User Settings page can be accessed in three ways:
 
 - The settings page will open.
 
-<img src="../reference-images/settings-page-chat.png" alt="UserSettings" >
+<img src="../reference-images/settings-account1.png" alt="UserSettings" >
 
 ## Settings Categories
 
@@ -86,7 +86,7 @@ The following settings are available on the User Settings page.
 #### Email 
   - Sign in or sign out of your account.
 
-<img src="../reference-images/settings-page-chat.png" alt="UserSettings" >
+<img src="../reference-images/settings-account1.png" alt="UserSettings" >
 
 ### Credits
 
@@ -96,7 +96,7 @@ The following settings are available on the User Settings page.
 
 > **Note:** The Credits section is accessible only to admins. 
 
-<img src="../reference-images/settings-credits.png" alt="UserSettings" >
+<img src="../reference-images/settings-credits1.png" alt="UserSettings" >
 
 ### Agents
 
@@ -113,22 +113,24 @@ The following settings are available on the User Settings page.
 - Default: `Enabled`
 
 #### Agent File Locations
-- Specify location(s) of agent files (*.agents.md). Relative paths are resolved from the root folder of your workspace.
-- Default: `.codestudio/agents`
+- Specify locations of agent files (*.agents.md). Relative paths are resolved from the root folder of your workspace.
+- Default: `.codestudio/agents .github/agents .claude/agents ~/.claude/agents ~/.copilot/agents ~/.codestudio/agents`
 
 #### Use Chat Hooks
 - Controls whether chat hooks are executed at strategic points during an agent's workflow. Hooks are loaded from the files configured in Hook File Locations.
 - Default: `Enabled`
 
-<img src="../reference-images/settings-agents.png" alt="UserSettings" >
+<img src="../reference-images/settings-agents1.png" alt="UserSettings" >
+
+<img src="../reference-images/settings-agents2.png" alt="UserSettings" >
 
 ### Model
 
 #### Inline Chat Default Model
 - Select the default language model to use for inline chat from the available models.
-- Default: `default model`
+- Default: `GPT-5 mini`
 
-<img src="../reference-images/model-setting.png" alt="UserSettings" >
+<img src="../reference-images/settings-model1.png" alt="UserSettings" >
 
 ### Instructions & Skills
 
@@ -140,7 +142,7 @@ The following settings are available on the User Settings page.
 
 #### Instruction File Locations 
 - Specify locations of instruction files (`*.instructions.md`) that can be attached in chat sessions.
-- Default: `.codestudio/instructions`
+- Default: `.codestudio/instructions .github/instructions .claude/rules ~/.claude/rules ~/.copilot/instructions ~/.codestudio/instructions`
 
 #### Use Agent Skills
 - Controls whether skills are provided as specialized capabilities to the chat requests. The language model can load these skills on-demand if the `read` tool is available.
@@ -151,20 +153,22 @@ The following settings are available on the User Settings page.
 - Default: `.codestudio/skills .agents/skills .claude/skills ~/.codestudio/skills ~/.agents/skills ~/.claude/skills ~/.copilot/skills`
 
 
-<img src="../reference-images/settings-instruction.png" alt="UserSettings" >
+<img src="../reference-images/settings-skills1.png" alt="UserSettings" >
+
+<img src="../reference-images/settings-skills2.png" alt="UserSettings" >
 
 ### Autocomplete
 
 - When enabled, Code Studio provides inline code suggestions across all supported languages.
 - Default: `Enabled`
 
-<img src="../reference-images/settings-autocomplete.png" alt="UserSettings" >
+<img src="../reference-images/settings-autocomplete1.png" alt="UserSettings" >
 
 ### Indexing
 
 - When enabled, Code Studio will start an indexing process to scan and embed workspace files for accurate search results. 
 
-<img src="../reference-images/settings-indexing.png" alt="UserSettings" >
+<img src="../reference-images/settings-indexing1.png" alt="UserSettings" >
 
 ### Mcp
 
@@ -173,14 +177,14 @@ The following settings are available on the User Settings page.
 - Controls access to installed Model Context Protocol servers.
 - Default: `all`
 
-<img src="../reference-images/mcp-setting.png" alt="UserSettings" >
+<img src="../reference-images/settings-mcp1.png" alt="UserSettings" >
 
 ### Telemetry
 
 - When enabled, Code Studio collects anonymous telemetry data to improve the product.
 - Default: `Enabled`
 
-<img src="../reference-images/settings-telemetry.png" alt="UserSettings" >
+<img src="../reference-images/settings-telemetry1.png" alt="UserSettings" >
 
 ### Help & Support
 

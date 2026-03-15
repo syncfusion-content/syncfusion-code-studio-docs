@@ -36,10 +36,10 @@ Before You Start, Let's make sure you're all set:
 
 By the end of this tutorial, you'll be able to:
 
-- ✓ Understand four ways to reuse your instructions in Code Studio
-- ✓ Know which template type solves your specific problem
-- ✓ Save hours per week by eliminating repetitive typing
-- ✓ Standardize your team's practices and workflows
+- Understand four ways to reuse your instructions in Code Studio
+- Know which template type solves your specific problem
+- Save hours per week by eliminating repetitive typing
+- Standardize your team's practices and workflows
 
 
 ## Ways to Reuse Your Templates
@@ -99,7 +99,7 @@ function saveFile(filename) {
 IMPORTANT: Return the FULL CODE with comments added inside it. Don't create a new file - edit the code that was shared with you.
 ```
 
- <img src="./tutorials-images/prompt-template-1.gif" alt="prompt templates" />
+![prompt templates](./tutorials-images/prompt-template-1.gif)
 
 **What It Does:**
 
@@ -167,7 +167,7 @@ When writing code:
 
 Provide code in proper language blocks with filename and context.
 ```
- <img src="./tutorials-images/prompt-template-2.gif" alt="prompt templates" />
+![prompt templates](./tutorials-images/prompt-template-2.gif)
 
 **What It Does:**
 
@@ -244,7 +244,7 @@ Every function must have a docstring explaining:
 - Use absolute imports, not relative imports
 ```
 
- <img src="./tutorials-images/prompt-template-3.gif" alt="prompt templates" />
+![prompt templates](./tutorials-images/prompt-template-3.gif)
 
 **What It Does:**
 
@@ -273,7 +273,7 @@ When you add this instruction file:
 
 **Best for:** Specialized tasks that activate contextually, occasional workflows.
 
-To create and setup the skills, see [skills](/code-studio/features/skills) for detailed steps.
+To create and setup the skills, see [Skills](/code-studio/reference/configure-properties/skills) for detailed steps.
 
 Now we can see how a skill generates test cases for you. Below is a complete test case generator template you can copy and use to write comprehensive tests automatically.
 
@@ -317,7 +317,7 @@ Tests follow this simple format:
 - **Expected:** what should happen
 ```
 
- <img src="./tutorials-images/prompt-template-4.gif" alt="prompt templates" />
+![prompt templates](./tutorials-images/prompt-template-4.gif)
 
 **What It Does:**
 

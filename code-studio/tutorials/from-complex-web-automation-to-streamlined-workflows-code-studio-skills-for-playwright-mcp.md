@@ -40,7 +40,7 @@ Before the AI can generate tests, you need to install both Playwright and the MC
 **Steps:**
 
 1. Create a new project folder and open it in Code Studio.
-2. Open the integrated terminal by clicking **Terminal** → **New Terminal** from the menu bar, or press `Ctrl+`` (Windows/Linux) or `Cmd+`` (Mac).
+2. Open the integrated terminal by clicking **Terminal** → **New Terminal** from the menu bar, or press `` Ctrl+` `` (Windows/Linux) or `` Cmd+` `` (Mac).
 3. Install Playwright by running the following command:
 
    ```bash
@@ -128,7 +128,7 @@ Before the AI can generate tests, you need to install both Playwright and the MC
    - Code Studio will automatically open a new `SKILL.md` file where you can define the instructions that guide the AI agent's behavior.
    - Replace the default content with the following skill definition:
 
-   ```
+   ```markdown
    ---
    name: playwright-explore-website
    description: Website exploration for testing using Playwright MCP
