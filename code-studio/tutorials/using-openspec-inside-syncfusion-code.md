@@ -50,6 +50,7 @@ By the end of this tutorial, you'll be able to:
 - Review AI-generated proposals and designs before any code is written
 - Implement changes safely by following a structured workflow
 - Organize completed work in your project's spec folder
+
 ---
 
 ## Steps to Build Your First Application Using OpenSpec
