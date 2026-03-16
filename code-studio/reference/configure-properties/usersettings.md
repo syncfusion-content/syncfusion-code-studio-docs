@@ -157,6 +157,8 @@ The following settings are available on the User Settings page.
 
 <img src="../reference-images/settings-skills2.png" alt="UserSettings" >
 
+<img src="../reference-images/settings-skills3.png" alt="UserSettings" >
+
 ### Autocomplete
 
 - When enabled, Code Studio provides inline code suggestions across all supported languages.
