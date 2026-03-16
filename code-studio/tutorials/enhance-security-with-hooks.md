@@ -170,19 +170,19 @@ Next, you will create a hook that runs **before** any tool is executed.
 
 1. Click the settings icon (**Configure Chat**) in the **Chat Panel**, then select **Hooks** from the menu.
 
-<img src="./tutorials-images/enhance-security-with-hooks-hooks-menu.png" alt="Hooks option selected from the Chat Panel settings menu" />
+  <img src="./tutorials-images/enhance-security-with-hooks-hooks-menu.png" alt="Hooks option selected from the Chat Panel settings menu" />
 
 2. When prompted for the life cycle event type, select **Pre-Tool Use**.
 
-<img src="./tutorials-images/enhance-security-with-hooks-pretooluse-event.png" alt="Pre-Tool Use event selected while creating a new hook" />
+  <img src="./tutorials-images/enhance-security-with-hooks-pretooluse-event.png" alt="Pre-Tool Use event selected while creating a new hook" />
 
 3. Enter a descriptive name for your hook, such as **BlockEnvFileAccess**.
 
-<img src="./tutorials-images/enhance-security-with-hooks-blockenvfileaccess-hook.png" alt="New hook named BlockEnvFileAccess shown in the Hooks list" />
+  <img src="./tutorials-images/enhance-security-with-hooks-blockenvfileaccess-hook.png" alt="New hook named BlockEnvFileAccess shown in the Hooks list" />
 
 4. Code Studio scaffolds the necessary hook configuration, typically under a folder such as `.codestudio/hooks/`.
 
-<img src="./tutorials-images/enhance-security-with-hooks-blockenvfileaccesshook-hook.png" alt="BlockEnvFileAccess hook entry created in the .codestudio hooks folder" />
+  <img src="./tutorials-images/enhance-security-with-hooks-blockenvfileaccesshook-hook.png" alt="BlockEnvFileAccess hook entry created in the .codestudio hooks folder" />
 
 > **Note:** The exact filename and folder may differ slightly depending on your configuration, but the file will be associated with the **Pre-Tool Use** event you selected.
 
@@ -269,7 +269,7 @@ Now you will verify that your hook works as expected from the user’s point of 
    Read all files in the workspace and show their contents.
    ```
 
-<img src="./tutorials-images/enhance-security-with-hooks-prompt-read-all-files.png" alt="Chat prompt asking the agent to read all workspace files" />
+  <img src="./tutorials-images/enhance-security-with-hooks-prompt-read-all-files.png" alt="Chat prompt asking the agent to read all workspace files" />
 
 3. Observe the result:
    - The **Pre-Tool Use** hook should detect any paths or arguments that reference `.env`-style files.
