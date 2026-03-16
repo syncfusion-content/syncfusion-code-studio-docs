@@ -74,14 +74,14 @@ The following settings are available on the User Settings page.
 ### Account
 
 #### Manage Account
-  - Monitor your LLM usage and manage billing and subscriptions.
+  - Monitor your LLM usage and manage your account.
 
 > **Note:** You can track daily costs and token usage by applying filters in your Dashboard. This helps you stay on budget and manage usage effectively.
 
-#### Upgrade to Pro Plan
-  - Upgrade to the Pro plan for additional features.
+#### Billing & Subscriptions
+  - Manage billing and view pricing details.
 
-> **Note:** Only admins can upgrade.
+> **Note:** Billing & Subscriptions only visible for admins.
 
 #### Email 
   - Sign in or sign out of your account.
