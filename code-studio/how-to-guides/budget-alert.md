@@ -62,7 +62,7 @@ The **Set Alert** dialog box opens. You can configure alerts to be triggered whe
 
 To verify that a budget alert is created and to modify an existing alert, follow these steps,
 
-- In the **Budget** tab, hover over the team name. A **navigate** icon appears—click it to open the team’s **Budget** details window.
+- In the **Budget** tab, click the team name or hover over the team name. A **navigate** icon appears—click it to open the team’s **Budget** details window.
 
 <img src="./howtoguide-images/budget-tab-individual.png" alt="budget-alert"  />
 
@@ -76,7 +76,7 @@ To verify that a budget alert is created and to modify an existing alert, follow
 
 ### Steps to Configure Budget Alert for Individual Users in a team:
 
-**Step 1:** In the **Budget** tab, hover over the team name. A **navigate** icon appears—click it to open the team’s **Budget** details window.
+**Step 1:** In the **Budget** tab, click the team name or hover over the team name. A **navigate** icon appears—click it to open the team’s **Budget** details window.
 
 <img src="./howtoguide-images/budget-tab-individual.png" alt="budget-alert"  />
 

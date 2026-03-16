@@ -63,12 +63,12 @@ Follow these steps to view your credits and token usage in Code Studio:
 <img src="../how-to-guides/howtoguide-images/chat-session.png">
 - The dashboard refreshes to show today’s credit usage for the chat session.
 
-### Step 6: View Daily Credit Usage
+### Step 7: View Daily Credit Usage
 - After setting the date to **Today**, you see the total credit incurred today.
 - This section represents your daily credit usage.
 <img src="../how-to-guides/howtoguide-images/cost-usage.png">
 
-### Step 7: Scroll down to view Token Usage
+### Step 8: Scroll down to view Token Usage
 - Scroll down the dashboard page.
 - Below the credits summary, you will find the Token Usage section.
 <img src="../how-to-guides/howtoguide-images/Token-consumed.png">
