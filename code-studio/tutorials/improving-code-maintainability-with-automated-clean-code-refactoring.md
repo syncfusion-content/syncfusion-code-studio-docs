@@ -277,17 +277,6 @@ Suppose your codebase has inconsistent error handling — some functions use `tr
 
    <img src="./tutorials-images/agent-mode-error-handling.png" alt="Agent mode diff view showing standardized try-catch error handling applied across multiple service files" />
 
-## Verification
-
-After applying any refactoring, work through this checklist to confirm everything is correct:
-
-- **Code behavior is unchanged** — If your project has automated tests, run your full test suite. All tests that passed before refactoring should still pass after. If you don't have tests, manually test the affected features in your application to confirm they still work as expected.
-- **Code is cleaner** — Open each refactored file and confirm it is easier to read and understand than before.
-- **No broken references** — Open the Problems panel (`Ctrl+Shift+M` (Windows/Linux) or `Cmd+Shift+M` (Mac)) and confirm there are no new errors or unresolved references from renamed symbols, extracted functions, or moved imports.
-- **Style is consistent** — Review the changed files to confirm the reformatted code matches your team's style guide or linting rules.
-
-**Congratulations!** You've applied professional-grade clean code refactoring techniques using Code Studio's AI-features. Your codebase is now more readable, more maintainable, and better prepared for new features.
-
 ## What's Next
 
 - [Generate Your First Code Change Using Agent](/code-studio/tutorials/generate-your-first-code-using-agent) — Let AI write new code for you.

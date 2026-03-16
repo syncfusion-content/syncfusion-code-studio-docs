@@ -34,9 +34,9 @@ Before You Start, Let's make sure you're all set:
 
 By the end of this tutorial, you'll be able to:
 
-- ✓ Quickly understand unfamiliar modules without reading all the code
-- ✓ Find performance and quality issues hidden in your codebase
-- ✓ Plan safe refactoring with confidence
+- Quickly understand unfamiliar modules without reading all the code
+- Find performance and quality issues hidden in your codebase
+- Plan safe refactoring with confidence
 
 
 ## Understand an Unfamiliar Module
@@ -65,7 +65,8 @@ Below is a complete analysis prompt you can copy and use to understand any modul
 5. Any important patterns, security considerations, or edge cases I should know about?
    (Highlight things that could break if changed)
 ```
- <img src="./tutorials-images/codebase-tutorial-1.gif" alt="codebase" />
+
+![codebase](./tutorials-images/codebase-tutorial-1.gif)
 
 **What It Does:**
 
@@ -99,7 +100,8 @@ Please analyze [Folderpath] and tell me:
 5. Specific recommendations to fix the worst problems
    (Prioritize by impact and effort)
 ```
- <img src="./tutorials-images/codebase-tutorial-2.gif" alt="codebase" />
+
+![codebase](./tutorials-images/codebase-tutorial-2.gif)
 
 **What It Does:**
 
@@ -133,29 +135,9 @@ Please analyze the code and provide:
 5. How would I maintain backward compatibility during the migration?
    (How can old code keep working while we transition?)
 ```
- <img src="./tutorials-images/codebase-tutorial-3.gif" alt="codebase" />
+
+![codebase](./tutorials-images/codebase-tutorial-3.gif)
 
 **What It Does:**
 
 It analyzes the current architecture, identifies outdated patterns, researches modern alternatives, and creates a phased plan with identified risks and backward compatibility strategy.
-
-## Verification: How to Verify Code Studio's Analysis
-
-After Code Studio analyzes your module, verify the results are accurate:
-
-### Understanding a Module:
-
-- ✓ Does the analysis match what you already know about the module?
-- ✓ Are the key functions actually the most important ones?
-- ✓ Can you find the dependencies Code Studio listed in your actual code?
-
-### Finding Issues:
-
-- ✓ Do the identified problems actually exist in your codebase?
-- ✓ Are the file locations correct?
-- ✓ Would fixing these issues actually improve performance/security?
-
-### Planning Modernization:
-
-- ✓ Are the identified patterns actually outdated or problematic?
-- ✓ Do the phase breakdowns make sense for your codebase?

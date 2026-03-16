@@ -44,12 +44,12 @@ Users may encounter an `Uncaught Exception` error when Code Studio is launching 
    - Open **Finder** → **Applications**.
    - Locate **Syncfusion Code Studio**.
    - Open context menu and click **Move to Trash** or **Move to Bin** to remove the application.
-   
-   <img src="./troubleshoot-images/cache-image-macapplication.png" alt="cache">
+
+      <img src="./troubleshoot-images/cache-image-macapplication.png" alt="Uninstall Code Studio from macOS Applications" />
 
 #### Step 2: Remove Code Studio Cache Files
 
-Delete cache and configuration folders to ensure a clean reinstallation. See [How to remove cache folders of Code Studio](/code-studio/troubleshoot/how-to-remove-cache-folders-of-code-studio-to-resolve-the-app-corruption) for detailed steps.
+Delete cache and configuration folders to ensure a clean reinstallation. See [How to Resolve the App Corruption](/code-studio/troubleshoot/how-to-resolve-the-app-corruption) for detailed steps.
 
 #### Step 3: Reinstall Code Studio
 
@@ -70,4 +70,4 @@ To confirm the issue is resolved:
 - **Allow Full Completion**: Let the update complete fully. The application typically relaunches automatically.
 - **Maintain System Resources**: Ensure sufficient disk space and memory during update operations.
 
-> **Note:** Backup Recommendation - If you have custom configurations or settings you want to preserve, back up the relevant folders before deleting or clearing them.
+> **Note:** If you have custom configurations or settings you want to preserve, back up the relevant folders before deleting or clearing them.

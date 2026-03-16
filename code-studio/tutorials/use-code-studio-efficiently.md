@@ -17,7 +17,6 @@ In this tutorial, you'll discover five powerful ways to work more efficiently wi
 - **Write Prompts That Save Credits** — Get better answers in one message instead of five
 - **Break Work Into Phases** — Keep focus sharp and responses accurate
 - **Pick the Right Interaction Mode** — Use the best tool for each specific task
-- **Manage Sessions Strategically** — Keep context clean and responses fast
 - **Choose the Right Model** — Match AI capabilities to actual task complexity
 
 Each approach includes practical examples and real credit-saving techniques. Apply any one of these today and you'll immediately feel the difference.
@@ -34,12 +33,11 @@ Each approach includes practical examples and real credit-saving techniques. App
 
 By the end of this tutorial, you'll be able to:
 
-✓ Write prompts that get right answers in fewer messages
-✓ Break complex work into phases that maximize accuracy
-✓ Choose the right interaction mode for every type of task
-✓ Manage sessions to keep responses fast and accurate
-✓ Match models to tasks instead of always using the most powerful one
-✓ Cut your credit usage significantly while improving code quality
+- Write prompts that get right answers in fewer messages
+- Break complex work into phases that maximize accuracy
+- Choose the right interaction mode for every type of task
+- Match models to tasks instead of always using the most powerful one
+- Cut your credit usage significantly while improving code quality
 
 
 ## Write Prompts That Save Credits
@@ -50,7 +48,7 @@ The difference between a credit-wasting prompt and an efficient prompt is specif
 
 **What's the difference?**
 
-❌ **Vague prompt** (wastes credits):
+**Vague prompt** (wastes credits):
 ```
 Write a login function.
 ```
@@ -60,7 +58,7 @@ This leads to:
 - Follow-up: "What about token handling?"
 - Total: 4 messages, way too many credits
 
-✅ **Specific prompt** (saves credits):
+**Specific prompt** (saves credits):
 ```
 Write a Python FastAPI login handler that:
 - Validates credentials against PostgreSQL users table
@@ -92,9 +90,9 @@ This gets it right the first try. One message, no follow-ups.
 
 **Quick example:**
 
-❌ Asking "Build an email system" leads to follow-ups: "What framework?" → "Add retry logic" → "Make it TypeScript" = 4 messages
+**Without upfront context:** Asking "Build an email system" leads to follow-ups: "What framework?" → "Add retry logic" → "Make it TypeScript" = 4 messages
 
-✅ Asking upfront: "Build a Node.js + TypeScript email system with background job processing, 3 retry attempts, and error handling" = 1 message, done
+**With upfront context:** Asking "Build a Node.js + TypeScript email system with background job processing, 3 retry attempts, and error handling" = 1 message, done
 
 ## Break Work Into Phases with Fresh Sessions
 
@@ -102,9 +100,9 @@ AI context gets messy with unrelated information. Separate sessions keep context
 
 **Quick example:**
 
-❌ One session: Design schema → Write API → Add validation → Write tests → Fix schema bug → Back to tests = AI context cluttered, contradictions
+**Single session:** Design schema → Write API → Add validation → Write tests → Fix schema bug → Back to tests = AI context cluttered, contradictions
 
-✅ Separate sessions: Session 1 (design) → Session 2 (code) → Session 3 (tests) = clean focus, fewer refinements
+**Separate sessions:** Session 1 (design) → Session 2 (code) → Session 3 (tests) = clean focus, fewer refinements
 
 **When to start fresh:**
 - Finished a logical phase (design → code → tests)
@@ -120,7 +118,7 @@ AI context gets messy with unrelated information. Separate sessions keep context
 
 ## Pick the Right Interaction Mode for Each Task
 
-Code Studio offers different ways to interact—Ask, Edit, Plan, Agent, Edit. Each has a different purpose. Using the wrong tool for the job wastes credits and creates frustration.
+Code Studio offers different ways to interact—Ask, Edit, Plan, and Agent. Each has a different purpose. Using the wrong tool for the job wastes credits and creates frustration.
 
 **When to use each mode:**
 
@@ -154,7 +152,7 @@ Examples:
 Best for: architectural decisions
 
 
-**[Agent Mode](code-studio/features/agent)**
+**[Agent Mode](/code-studio/features/agent)**
 Use this when you need autonomous, multi-file changes with the AI making decisions.
 
 Examples:
@@ -181,7 +179,7 @@ When to use:
 - "Add a missing import"
 - "What does this function do?"
 
-❌ Don't use for: Complex reasoning, architectural decisions, security analysis
+**Avoid for:** Complex reasoning, architectural decisions, security analysis
 
 **Standard Models (Use for Most Work)**
 
@@ -193,7 +191,7 @@ When to use:
 - "Refactor this code"
 - "Write a function that..."
 
-✓ This is your default choice for most tasks
+This is your default choice for most tasks.
 
 **Reasoning-Optimized Models (Use for Complex Work)**
 
@@ -206,28 +204,4 @@ Use this when:
 - You're solving an unusual or complex problem
 
 For detailed models performance comparisons, refer to this [LiveBench model](https://livebench.ai/#/?highunseenbias=true) benchmarks.
-
-## How to Verify You're Using Credits Efficiently
-
-After implementing these practices, track your improvement:
-
-**Efficient Prompts:**
-✓ Are you getting good answers in 1-2 messages instead of 5-6?
-✓ Do your prompts include language, framework, and constraints?
-✓ Are follow-up refinements rare?
-
-**Phase Breaks:**
-✓ Are you using multiple sessions for different features?
-✓ Does each session have fewer than 10 messages?
-✓ Do responses feel focused and on-target?
-
-**Right Interaction Mode:**
-✓ Are you planning before implementing complex features?
-✓ Are you avoiding Agent mode for simple tasks?
-
-**Model Selection:**
-✓ Are you using fast models for simple questions?
-✓ Are you reserving powerful models for high-risk decisions?
-✓ Are architectural decisions getting reasoning-optimized models?
-
 

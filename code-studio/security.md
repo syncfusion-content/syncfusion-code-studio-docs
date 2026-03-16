@@ -113,24 +113,24 @@ Malicious instructions hidden inside comments, files, or tool outputs can trick 
 - Sensitive values are stored securely.
 - OAuth-based authentication protects MCP connections.
 
->**Note:** Click [here](https://www.syncfusion.com/code-studio/legal/) to read our transparent legal policies and agreements in our Legal Center to ensure full compliance with and understanding of Syncfusion's terms and conditions.
+> **Note:** Read our transparent legal policies and agreements in the [Syncfusion Legal Center](https://www.syncfusion.com/code-studio/legal/) to ensure full compliance with and understanding of Syncfusion's terms and conditions.
 
 ## Developer Responsibilities
 Even with strong protections, you play a key role in staying secure.
 
-### ✔ Review all edits
+### Review all edits
 - Always check changes to config files, scripts, build tools, and security‑related files.
 - Rely on source control to track and revert changes.
 
-### ✔ Review approvals
+### Review approvals
 - Don’t approve commands or operations you don’t understand.
 - Regularly review your auto‑approval settings.
 
-### ✔ Verify MCP servers
+### Verify MCP servers
 - Install MCP servers only from trusted sources.
 - Enable them only when needed.
 
-### ✔ Be careful with untrusted codebases
+### Be careful with untrusted codebases
 - Open unknown projects in restricted mode.
 - This disables agents and prevents prompt injection attacks.
 

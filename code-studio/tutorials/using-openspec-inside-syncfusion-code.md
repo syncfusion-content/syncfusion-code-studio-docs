@@ -15,12 +15,12 @@ This tutorial will guide you through using **OpenSpec** inside **Syncfusion Code
 
 OpenSpec introduces a **four-step workflow** using slash commands. All OpenSpec commands are typed in the **Chat Panel** (not the terminal):
 
-| Command | Purpose | When to Use |
-|---------|---------|-------------|
-| `/opsx:explore` | Brainstorm and discuss ideas | When you're not sure what to build yet |
-| `/opsx:propose` | Create a detailed plan | When you're ready to plan your feature |
-| `/opsx:apply` | Implement the planned changes | After reviewing and approving the proposal |
-| `/opsx:archive` | Finalize and organize work | After verifying the changes work correctly |
+| Command         | Purpose                       | When to Use                                |
+| --------------- | ----------------------------- | ------------------------------------------ |
+| `/opsx:explore` | Brainstorm and discuss ideas  | When you're not sure what to build yet     |
+| `/opsx:propose` | Create a detailed plan        | When you're ready to plan your feature     |
+| `/opsx:apply`   | Implement the planned changes | After reviewing and approving the proposal |
+| `/opsx:archive` | Finalize and organize work    | After verifying the changes work correctly |
 
 By the end, you'll understand how to build your first project using OpenSpec commands, review AI-generated plans before they run, and manage code changes like a pro.
 
@@ -50,6 +50,7 @@ By the end of this tutorial, you'll be able to:
 - Review AI-generated proposals and designs before any code is written
 - Implement changes safely by following a structured workflow
 - Organize completed work in your project's spec folder
+
 ---
 
 ## Steps to Build Your First Application Using OpenSpec
@@ -168,32 +169,10 @@ Check your project structure to verify the archiving worked correctly:
 - Change folder archived to `openspec/changes/archive/`
 - Your project is now cleanly organized and ready for the next feature!
 
-## Verify Your Results
-
-Let's make sure everything went smoothly! Here's your verification checklist:
-
-**OpenSpec is Set Up:**
-- Look for the `openspec/` folder in your project. It should have `specs/`, `changes/`, and `config/` folders inside it.
-
-**Commands Are Working:**
-- Try typing `/opsx:explore` in the **Chat Panel**. Does it respond without errors? This means OpenSpec is working!
-
-**Files Were Created:**
-- If you ran a proposal, check the `openspec/changes/` folder. Do you see your change folder with proposal, design, and task files?
-
-**Changes Were Applied:**
-- Open your project files. Do you see the new code that was created? Does your application run without errors?
-
-**Archive is Organized:**
-- After archiving, check `openspec/changes/archive/` and `openspec/specs/`. Your completed work should be there!
-
-**Congratulations!** You've just completed your first project with OpenSpec. Take a moment to appreciate what you've done — you've learned a structured way to work with AI safely and predictably!
-
 ## What's Next
 
 You've mastered the basics of OpenSpec in Code Studio! Here are some recommended next steps to expand your skills:
 
 - Learn how to combine OpenSpec with autonomous AI coding in [Generate Your First Code Using Agent](/code-studio/tutorials/generate-your-first-code-using-agent).
-- Discover advanced settings and personalization options in [Configure Code Studio](/code-studio/reference/configure-the-code-studio).
 - Check out [Manage Chat Sessions](/code-studio/how-to-guides/manage-chat-session) to organize your conversations.
 - For advanced users, learn about customizing OpenSpec commands in the [OpenSpec Commands Documentation](https://github.com/Fission-AI/OpenSpec/blob/main/docs/commands.md).

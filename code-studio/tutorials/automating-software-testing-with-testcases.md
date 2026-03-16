@@ -38,32 +38,34 @@ Create a Custom Agent named Software Testing Agent in CodeStudio to automate tes
 
 <img src="tutorials-images/customAgentLocationChoosing.png" alt="Choose agent location" />
 
-**Info**
-> Selecting the User Data option will create the Custom Agent, and the agent file will be saved inside this location and made available as a custom agent in the Modes dropdown.
-C:\Users\Your_UserName\AppData\Roaming\Syncfusion Code Studio\User\prompts
+> **Note**: Selecting the User Data option will create the Custom Agent, and the agent file will be saved inside this location and made available as a custom agent in the Modes dropdown.
+>
+> `C:\Users\Your_UserName\AppData\Roaming\Syncfusion Code Studio\User\prompts`
 
-**Step 4:** Give the name for your Custom Agent. We are naming the custom agent as **SoftwareTesting** and click Enter.
+**Step 4:** Give the name for your Custom Agent. We are naming the custom agent as **test-generator** and click Enter.
 
 <img src="tutorials-images/CustomAgentNaming.png" alt="Name the custom agent" />
 
-**Step 5:**  A SoftwareTesting Custom Agent md file will be created with sample instructions.
+**Step 5:**  A test-generator Custom Agent md file will be created with sample instructions.
 Now replace the sample content with the actual instructions for what your Custom Agent should do.
 
 Before: The file opens with default/sample instructions provided by CodeStudio.
 
 <img src="tutorials-images/SampleCustomAgentFile.png" alt="Sample custom agent file" />
 
-After: Replace the [custom agent file](https://github.com/syncfusion/code-studio-agent-library/tree/master/testing/SoftwareTesting.agent.md)  completely with your actual custom agent instructions and We have used CodeStudio AI to generate these instructions.
+After: Replace the [custom agent file](https://github.com/syncfusion/code-studio-agent-library/blob/master/testing/react/test-generator.agent.md) completely with your actual custom agent instructions. We have used CodeStudio AI to generate these instructions.
 
 <img src="tutorials-images/After-Giving-Instruction.gif" alt="After giving instructions" />
 
 **Step 6:** You can confirm Custom Agent is created by following two pointers, such as
 
-1.	Your Custom Agent’s agent file will be created inside your Project Location.
-    <img src="tutorials-images/customAgentSavedLocation.png" alt="Custom agent saved location" />
+1. Your Custom Agent's agent file will be created inside your Project Location.
 
-2.	Your custom agent will be displayed in the Modes dropdown, as shown in the image below.
-    <img src="tutorials-images/customAgentInDropdown.png" alt="Custom agent in modes dropdown" />
+<img src="tutorials-images/customAgentSavedLocation.png" alt="Custom agent saved location" />
+
+2. Your custom agent will be displayed in the Modes dropdown, as shown in the image below.
+
+<img src="tutorials-images/customAgentInDropdown.png" alt="Custom agent in modes dropdown" />
 
 For demonstration purposes, we are using a small, easy-to-understand React + TypeScript application built with Vite and you can use your own project — the one for which you want to generate the test cases.
 
@@ -73,9 +75,9 @@ The project has three main processes:
 - Forgot Password — enter email to request a reset link (mock only)
 - Reset Password — set a new password using a token from the URL (mock only)
 
-All backend calls use a simple mock of API (src/utils/api.ts) with artificial delays and hardcoded rules — no real server or email system is involved. This makes it perfect for learning how CodeStudio creates tests for forms, validation, success, and error cases.
+All backend calls use a simple mock of API (`src/utils/api.ts`) with artificial delays and hardcoded rules — no real server or email system is involved. This makes it perfect for learning how CodeStudio creates tests for forms, validation, success, and error cases.
 
-**Step 7:** Select the SoftwareTesting Custom Agent and give the below prompt in the chat input box. Now, CodeStudio will **generate test cases** for Reset Password, Forgot Password, and Login and **run those generated tests.**
+**Step 7:** Select the test-generator Custom Agent and give the below prompt in the chat input box. Now, CodeStudio will **generate test cases** for Reset Password, Forgot Password, and Login and **run those generated tests.**
 
 **Prompt Used:**
 

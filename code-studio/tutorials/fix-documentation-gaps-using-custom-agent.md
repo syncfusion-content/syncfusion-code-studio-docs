@@ -1,4 +1,4 @@
----
+﻿---
 title: Fixing Documentation Gaps How AI Generates Accurate Developer Documentation Instantly
 description: Learn how to use a custom Codebase Documenter agent in Syncfusion Code Studio to generate clear, beginner-friendly documentation for any codebase.
 platform: syncfusion-code-studio
@@ -60,7 +60,7 @@ In this step, you will create the configuration file that turns a generic model 
    - Final path: `.codestudio/agents/`.
 3. **Create or download the agent template:**
    - Create a custom agent for documentation, or obtain the `Codebase Documenter` agent from the agent library.
-   - Download the custom  Codebase Documenter agent from the [Codebase Documenter agent template repository](https://github.com/syncfusion/code-studio-agent-library.git).
+   - Download the custom Codebase Documenter agent from the [Codebase Documenter agent template](https://github.com/syncfusion/code-studio-agent-library/blob/master/documentation/codebase-documenter.agent.md).
 4. **Place the template in your project:**
    - Copy `Codebase-Documenter.agent.md` into the `.codestudio/agents` folder.
 5. **Open the agent file in the editor:**
@@ -192,37 +192,6 @@ Documentation is only useful if it stays up to date. This step shows you how to 
      Create a beginner-friendly tutorial for the billing module under src/billing.
      ```
    - The agent produces a new chapter file you can review and merge into the existing docs structure.
-
-## Verify Your Results
-
-Use this checklist to verify that your AI-generated documentation is useful and working as intended:
-
-- **Agent is available**
-  - The `Codebase Documenter` agent appears in the Chat agent dropdown.
-  - Its description matches the purpose of creating beginner-friendly documentation.
-
-- **Docs were generated**
-  - An output folder exists in your workspace (for example, `output/my-project/`).
-  - The folder contains:
-    - `index.md` – main overview.
-    - One or more chapter files (for example, `01_overview.md`, `02_authentication.md`, and so on).
-
-- **Content matches reality**
-  - Core components, data flows, and responsibilities are described correctly.
-  - Major architectural decisions are accurately reflected.
-  - Code examples compile (or are easy to adjust so they do).
-
-- **Check junior developer can understand it**
-  - Ask a junior developer to:
-    - Read `index.md` and one or two key chapters.
-    - Answer questions like “Where is the authentication logic implemented?” or “Where do we send email notifications?”.
-  - If they can find the answers quickly, your docs are doing their job.
-
-If any of these checks fail:
-
-- Refine the agent instructions in `Codebase-Documenter.agent.md`.
-- Use more specific prompts in Chat.
-- Regenerate only the sections that need improvement instead of starting from scratch.
 
 ## What's Next
 

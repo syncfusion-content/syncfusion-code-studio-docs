@@ -71,6 +71,12 @@ Learn more on the [Quick Fix](/code-studio/how-to-guides/quick-fix-error) page.
 
 -   **Custom Agent**: Pre‑configured AI agents for specific tasks that follow fixed rules, tools, and behaviors—ensuring consistent, repeatable workflows across teams. Learn more on the [Custom Agent](/code-studio/reference/configure-properties/custom-agents) page.
 
+- **Agent Skills**: Reusable, task-specific instruction sets that extend the agent's capabilities—such as running tests, generating docs, or enforcing code standards—without modifying the core agent configuration.  
+  Learn more on the [Agent Skills](/code-studio/reference/configure-properties/skills) page.
+
+- **Hooks**: Automated scripts triggered at defined points in the agent workflow (before or after a tool call) to enforce policies, validate outputs, or run custom logic—keeping AI actions consistent and auditable.  
+  Learn more on the [Hooks](/code-studio/reference/configure-properties/hooks) page.
+
 -  **Custom Instructions**: Custom instructions define reusable guidelines that shape how AI generates code and performs development tasks, eliminating the need to repeat context in every prompt. They can be applied automatically to all chats, targeted to specific files, or manually attached to individual prompts. Learn more on the [Custom Instructions](/code-studio/reference/configure-properties/custom-instructions) page.
 
 -  **Custom Prompts**: Prompt files are on‑demand, reusable Markdown prompts that standardize specific development tasks like code generation and reviews. Learn more on the [Custom Prompt](/code-studio/reference/configure-properties/custom-prompt) page.

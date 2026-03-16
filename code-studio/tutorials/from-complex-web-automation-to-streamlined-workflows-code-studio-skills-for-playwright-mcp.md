@@ -40,7 +40,7 @@ Before the AI can generate tests, you need to install both Playwright and the MC
 **Steps:**
 
 1. Create a new project folder and open it in Code Studio.
-2. Open the integrated terminal by clicking **Terminal** → **New Terminal** from the menu bar, or press `Ctrl+`` (Windows/Linux) or `Cmd+`` (Mac).
+2. Open the integrated terminal by clicking **Terminal** → **New Terminal** from the menu bar, or press `` Ctrl+` `` (Windows/Linux) or `` Cmd+` `` (Mac).
 3. Install Playwright by running the following command:
 
    ```bash
@@ -128,7 +128,7 @@ Before the AI can generate tests, you need to install both Playwright and the MC
    - Code Studio will automatically open a new `SKILL.md` file where you can define the instructions that guide the AI agent's behavior.
    - Replace the default content with the following skill definition:
 
-   ```
+   ```markdown
    ---
    name: playwright-explore-website
    description: Website exploration for testing using Playwright MCP
@@ -223,24 +223,9 @@ Once the agent finishes its work, you'll have a complete, executable Playwright 
 
    <img src="./tutorials-images/html-report-view.png" alt="Browser showing Playwright HTML report with detailed test results and screenshots" />
 
-
-## Verification
-
-After completing the tutorial, work through this checklist to confirm everything is set up correctly:
-
-- **Agent mode is enabled** — Check the mode selector at the top of Chat. It should display "Agent" when active.
-
-- **Playwright and MCP are installed** — Verify that `playwright.config.ts` exists in your project root directory. Confirm the Playwright MCP server shows as "Connected" in MCP.
-
-- **Test was generated successfully** — Open the `tests/` folder and confirm your test file exists (e.g., `appointment-planner-verification.spec.ts`). Review the terminal output to confirm test execution completed with passing results.
-
-- **HTML report is accessible** — Run `npx playwright show-report` in the terminal and verify the HTML report opens in your browser with detailed test results.
-
-**Congratulations!** You've successfully completed your first AI-generated web automation test using Playwright MCP and Agent mode. You've transitioned from manual test writing to AI-powered test generation.
-
-
 ## What's Next
 
 - [Generate Your First Code Change Using Agent](/code-studio/tutorials/generate-your-first-code-using-agent) — Let AI write new code for you.
 - [Agent Mode](/code-studio/features/agent) — Explore advanced Agent mode capabilities and workflows.
 - [Improving Code Maintainability with Automated Clean Code Refactoring](/code-studio/tutorials/improving-code-maintainability-with-automated-clean-code-refactoring) — Use AI to improve code quality automatically.
+
