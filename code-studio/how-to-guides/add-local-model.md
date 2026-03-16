@@ -15,7 +15,7 @@ Code Studio allows you to integrate AI models from various providers directly in
 
 ## When to Use
 
-Use BYOK models when you need to:
+Use Personal API Key Models models when you need to:
 
 - Experiment with specific models for personal projects
 - Access models when they are not available in your organization’s configuration
@@ -27,7 +27,7 @@ Use BYOK models when you need to:
 - Valid API keys from your chosen provider (e.g., OpenAI, Anthropic)
 - Active provider account with sufficient credits or quota
 
-## How To Add a BYOK Model?
+## How To Add a Personal API Key Models Model?
 
 1. Click the model’s section dropdown and select `Manage Models`.
 
