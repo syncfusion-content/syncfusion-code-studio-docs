@@ -81,7 +81,7 @@ The following settings are available on the User Settings page.
 #### Billing & Subscriptions
   - Manage billing and view pricing details.
 
-> **Note:** Billing & Subscriptions only visible for admins.
+> **Note:**  Billing & Subscriptions is only accessible to admins.
 
 #### Email 
   - Sign in or sign out of your account.
