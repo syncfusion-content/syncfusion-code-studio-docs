@@ -184,13 +184,14 @@ Code Studio supports the following hook lifecycle events. Event names are case-s
 
 	<img src="../reference-images/hookname.png" alt="Hook naming input field in Code Studio" >
 
+4. It will create a **Default Configuration** like below Image
 	<img src="../reference-images/hookconfig.png" alt="Generated hook files created after naming a new hook" >
 
-4. **Edit** the generated configuration.
+5. **Edit** the generated configuration.
 
 	<img src="../reference-images/hookedit.png" alt="Generated hook configuration open for editing in the editor" >
 
-5. **Run** a test prompt to verify the hook is active.
+6. **Run** a test prompt to verify the hook is active.
 	<img src="../reference-images/hookusing.gif" alt="Animated demonstration of creating and configuring a hook in Code Studio" >
 
 
