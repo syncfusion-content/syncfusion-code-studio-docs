@@ -21,8 +21,9 @@ Purchase additional credits when:
 
 ## Prerequisites
 
-- You must have administrative access to the Settings area in Code Studio Enterprise; this access is typically available to organization [admins](/code-studio/how-to-guides/invite-new-user#step-5--select-role).
-- Ensure you have a valid payment method.
+- **Code Studio account:** You must have a Code Studio account. If you don’t have one, sign up using the [Getting Started](/code-studio/getting-started/install-and-configuration) guide.
+- **Admin access:** Only administrators are authorized to buy credits.
+- **Valid payment method:** Ensure a valid payment method is available in your account.
 
 ## Steps to Buy Credits
 

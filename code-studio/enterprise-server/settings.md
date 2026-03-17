@@ -17,13 +17,14 @@ The Settings area centralizes account and organization configuration for Code St
 ## 1. Profile
 
 - View user name, email address, and account type
-<img src="./enterprise-images/profile.png" alt="settings"  />
+
+  <img src="./enterprise-images/profile.png" alt="settings"  />
 
 ## 2. Organization
 
 - View organization name and organization ID
 - Share the organization ID with your admins when requesting access or support
-<img src="./enterprise-images/organization.png" alt="settings"  />
+  <img src="./enterprise-images/organization.png" alt="settings"  />
 
 ## 3. Credits
 
@@ -33,14 +34,59 @@ Add-on credits fund model usage across your organization.
 - Preset amounts: $50, $100, $500
 - Custom amount: Enter a custom value as needed
 - Purchase flow: Click Buy credits to proceed to the payment page and complete checkout. Credits are applied after successful payment.
-<img src="./enterprise-images/settingscredits.png" alt="settings"  />
+  <img src="./enterprise-images/settingscredits.png" alt="settings"  />
 
 ## 4. Billing & Subscription
 
--	Billing Cycle: Yearly and Monthly.
--	Available 20% offer for yearly.
--	Available plans: Individual, Small Team, Medium Team and Large Business.
-- After subscription the current subscription details and billing cycle will be displayed.
+- When a user has an **active subscription plan**, the Billing & Subscription page displays clear details about their current plan, billing cycle, and past invoices.
+
+  <img src="./enterprise-images/billing-subscription.png" alt="settings"  />
+
+### Upgrade Subscription:
+- When a customer upgrades their plan in the **middle of a billing cycle**, the system calculates the charges fairly based on the time remaining. This means:
+  <img src="./enterprise-images/billing-upgrade.png" alt="settings"  />
+- The customer is **not charged the full price** of the upgraded plan immediately.
+- They only pay the **additional amount** needed for the upgraded plan **for the remaining days** in the current billing cycle.
+- From the next billing cycle onward, the customer is charged the **full price** of the upgraded plan.
+
+  <img src="./enterprise-images/upgrade.png" alt="settings"  />
+
+### Downgrade – End of Billing Cycle
+
+- When a customer downgrades their plan, the change **does not take effect immediately**.
+-	The downgrade is scheduled.
+-	The new (lower) plan starts only at the **end of the current billing cycle**.
+-	Refund is not applicable.
+
+  <img src="./enterprise-images/downgrade.png" alt="settings"  />
+
+### Manage Billing Details:
+
+  <img src="./enterprise-images/manage-billing.png" alt="settings"  />
+
+- When users click **Manage Billing Details** on the Billing & Subscription page, they are redirected to the **Stripe Billing Portal**. This page contains below mentioned sections to help users manage their payment and subscription settings:
+
+    - #### Current Subscription:
+      - View plan, pricing, next billing date, and payment method. 
+
+    - #### Billing & Shipping Information:
+      - Allows users to **update the details** and ensures that billing-related records remain accurate
+
+    - #### Cancel Subscription:
+      - When you purchase a subscription, it is set to **renew automatically** every billing cycle.
+      - If you choose to **cancel your subscription**, it will remain active until the **end of the current billing period**.
+      - After that, it will **not renew**, and no further charges will be applied.
+      - You will continue to have access to all features until the current billing cycle ends.
+
+    - #### Do Not Cancel Subscription:
+      - If you want to **continue using your subscription**, simply **do not cancel it**.
+      - Your subscription will stay active and will **renew automatically** at the end of each billing cycle.
+      - No additional action is needed unless you decide to stop renewal in the future.
+
+### Plan Overview
+-	**Billing Cycle:** Yearly and Monthly.
+-	Available **20% offer for yearly**.
+-	**Available plans:** Individual, Small Team, Medium Team and Large Business.
 - Manage your subscription plan, billing cycle, and invoices.
 - The credit balance will be displayed on the top of the page.
 
