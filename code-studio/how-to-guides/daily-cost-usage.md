@@ -1,15 +1,15 @@
 ---
-title: "Track Daily Cost and Token Usage"
+title: "Track Cost and Token Usage"
 description: "How to view and filter daily costs and token usage in Syncfusion Code Studio"
 classification: "User Guide - How To Documentation"
 platform: syncfusion-code-studio
 keywords: cost-usage, daily-cost, token-usage, budget, dashboard, analytics
 ---
 
-# Track Daily Credits and Token Usage
+# Track Credits and Token Usage
 
 ## Overview
-Daily credit and token tracking help you understand how much AI usage you are consuming.
+Credit and token tracking help you understand how much AI usage you are consuming.
 It shows you:
 - Total tokens used today
 - Credits spent for today’s usage
@@ -29,9 +29,23 @@ Ensure the following prerequisites are met before tracking credits and token usa
 - Syncfusion Code Studio is installed (see the [installation guide](/code-studio/getting-started/install-and-configuration)).
 - You are signed in to Code Studio.
 - You can access the Dashboard from within Code Studio Settings Account tab.
-- The Usage Credits, and Tokens sections are visible on the dashboard.
+- The **Usage Credits** and **Tokens** sections are visible on both the dashboard and inside Code Studio Usage UI.
 
-## Steps to Check Daily Credits and Token Usage
+## Steps to Check Your Credit Balance and Session Credits Usage using Code Studio Usage UI
+
+**Step 1:** Open Code Studio
+- Open Code Studio Application.
+- Ensure you are logged in with the correct user credentials.
+
+**Step 2:** Click the Code Studio icon at the bottom to open the Code Studio Usage UI, which displays your Current Session Credits and Remaining Credit Balance.
+
+- **Credits Used in This Session** displays how many credits were spent in the session you are currently working in.
+- **Remaining Credit Balance** displays how many credits are left for you to use.
+- **Tokens Used in This Session** displays the Input, Output, and Cached Tokens consumed in the session you are currently working in.
+
+<img src="../how-to-guides/howtoguide-images/CodeStudioUsageIcon.png">
+
+## Steps to Check Daily Credits and Token Usage using Dashboard
 Follow these steps to view your credits and token usage in Code Studio:
 
 ### Step 1: Open Code Studio
