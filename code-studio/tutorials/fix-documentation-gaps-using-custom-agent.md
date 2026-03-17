@@ -1,4 +1,4 @@
-﻿---
+---
 title: Fixing Documentation Gaps How AI Generates Accurate Developer Documentation Instantly
 description: Learn how to use a custom Codebase Documenter agent in Syncfusion Code Studio to generate clear, beginner-friendly documentation for any codebase.
 platform: syncfusion-code-studio
