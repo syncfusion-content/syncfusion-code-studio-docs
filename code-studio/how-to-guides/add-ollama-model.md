@@ -50,19 +50,36 @@ Refer the ollama's official documentation below to download and install Ollama o
 
 - Code Studio up-to-date (latest stable release recommended).
  
+> **Note:** Ollama models currently work in Ask and Edit mode only in Code Studio.
+ 
 ## Configure Ollama Model in Code studio
 - Click the model dropdown in chat box and click 'Manage Models' option.
 
-<img src="./howtoguide-images/model_drop_down.png" alt="configure open source models">
+  <img src="howtoguide-images/manageModels.png" alt="Manage Models">
  
-- In the **Manage Language Models** dialog that appears at the top, Choose **Ollama** from the provider list
+- A Language Models page will open. This page provides information about the configured Providers and their models in CodeStudio.
 
- <img src="./howtoguide-images/Provider_list.png" alt="configure open source models">
+   <img src="howtoguide-images/LanguageModels.png" alt="LanguageModels">
 
-- The available locally installed models will appear in the dialog. You can select the installed ollama model in a model list, then click ok to confirm and close the dialog. 
+- Click the **Add Models** button. Choose Ollama from the list .
 
-<img src="./howtoguide-images/installed_model_list.png" alt="configure open source models">
+   <img src="howtoguide-images/LanguageProviders.png" alt="LanguageProviders">
+   
+- Enter the Group Name. The group name is used to organize and display a set of models under a specific provider, based on the associated API key.
+
+   <img src="howtoguide-images/ollama.png" alt="GroupName">
+
+- Enter your **localhost URL** to configure the model.
+  <img src="howtoguide-images/URl-Ollama.png" alt="GroupName">
+
+- The available locally **installed models** will appear below the group name. 
+
+  <img src="./howtoguide-images/OllamaModels.png" alt="configure open source models">
+
+- Make sure you enable the `Show in the chat model picker` icon in front of the model name to make it appear in the model dropdown.
+
+  <img src="./howtoguide-images/OllamaToggle.gif" alt="configure open source models">
 
 - The selected Ollama model will now automatically appear in the main **model dropdown** under the **Other Models** section and you can start using it right away.
 
-<img src="./howtoguide-images/model_in_drop_down.png" alt="configure open source models">
+  <img src="./howtoguide-images/OllamaModelInChat.png" alt="configure open source models">
