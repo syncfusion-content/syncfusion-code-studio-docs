@@ -50,7 +50,7 @@ Refer the ollama's official documentation below to download and install Ollama o
 
 - Code Studio up-to-date (latest stable release recommended).
  
-> **Note:** Ollama models currently work in Ask mode only in Code Studio.
+> **Note:** Ollama models currently work in Ask and Edit mode only in Code Studio.
  
 ## Configure Ollama Model in Code studio
 - Click the model dropdown in chat box and click 'Manage Models' option.
@@ -76,7 +76,7 @@ Refer the ollama's official documentation below to download and install Ollama o
 
   <img src="./howtoguide-images/OllamaModels.png" alt="configure open source models">
 
-- Make sure you enable the eye icon in front of the model name to make it appear in the model dropdown.
+- Make sure you enable the `Show in the chat model picker` icon in front of the model name to make it appear in the model dropdown.
 
   <img src="./howtoguide-images/OllamaToggle.gif" alt="configure open source models">
 
