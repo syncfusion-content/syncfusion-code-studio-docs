@@ -75,7 +75,7 @@ prompt:
 ```
 
 **New Format (2.0.0 and later) - `GenerateReactForm.prompt.md`:**
-```markdown
+```text
 ---
 agent: 'agent'
 model: GPT-4o
