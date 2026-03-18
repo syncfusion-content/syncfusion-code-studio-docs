@@ -68,21 +68,23 @@ You can monitor:
 
 ### Step 2: Review Summary Metrics
 
-- Separate graphical widgets for premium model and BYOK model.
 - Observe the graphical widgets displaying cost, tokens, requests, and latency.
 - Hover over charts for detailed tooltips and breakdowns.
 
-<img src="./enterprise-images/dashboardBYOK.png" alt="dashboard"  />
+<img src="./enterprise-images/dashboard3.png" alt="dashboard"  />
 
-### Step 3: Filter by Team or User
+### Step 3: Apply Filters
 
-- Use the filter options to select:
-  - All Teams
-  - Specific Team
-  - Individual User
-  -	Multiple Users
--	The dashboard will refresh to show metrics for the selected filter.
+The Dashboard Filter feature allows users to refine and analyze dashboard metrics with precision. It provides three levels of filtering to help you drill down into data based on teams, users and chat session to analyze session-level usage.
 
+-  Use the filter options to refine dashboard data:
+   - **Team** - Select one or more teams to view their aggregated metrics.
+   - **User** - Select a specific user or multiple users within the selected team to see detailed usage statistics.
+   - **Chat Session** – Once a user or team is selected, you can filter further by chat sessions to analyze session-level usage.
+
+   <img src="./enterprise-images/dashboardfilter.png" alt="dashboard"  />
+   
+-	The dashboard will refresh automatically to show metrics for the selected filter
 
 ### Step 4: Set Date Range
 

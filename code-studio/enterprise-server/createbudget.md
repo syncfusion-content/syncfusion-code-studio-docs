@@ -9,8 +9,7 @@ keywords: budget, usage, billing, alerts, teams, users, admin, syncfusion, code-
 
 The Budget feature in Code Studio enables administrators to allocate and monitor AI usage budgets for teams and individual users. This helps organizations manage costs effectively and optimize AI resource utilization.
 
-> **Note**: Only admins can edit and assign budget for all.
-
+> **Note**: Admins can edit and assign budget for all. A Team Owner can add budgets and set alerts for their users, but not for the entire team. Team Lead and User can view their team and user budget.
 
 
 ## 1. Team Budget Setup
@@ -120,7 +119,7 @@ The Budget feature in Code Studio enables administrators to allocate and monitor
 - In the **Edit Budget** dialog, click **“Delete”**.
 - In the **Delete Dialog Box**, click **“Delete”** to confirm.
 
-   <img src="./enterprise-images/userBudgetDelete.png" alt="delete User budget"  />
+   <img src="./enterprise-images/userdeletebudget.png" alt="delete User budget"  />
 
 ## 7. Usage Alerts
 
@@ -140,6 +139,6 @@ Administrators can set up alerts for a team or a specific user to notify us when
 
    <img src="./enterprise-images/setAlertDialog.png" alt="set alert dialog"  />
 
-   🔔 Alerts help proactively manage budget overruns and ensure timely action.
+> **Note:** Alerts help proactively manage budget overruns and ensure timely action.
 
 
