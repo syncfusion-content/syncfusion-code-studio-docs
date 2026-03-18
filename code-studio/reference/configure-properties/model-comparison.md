@@ -2,7 +2,7 @@
 title: Model Comparison
 description: Compare AI models in Syncfusion Code Studio and choose the right model for coding, debugging, refactoring, and agentic tasks.
 platform: syncfusion-code-studio
-keywords: "model-comparison, compare-ai-models, choose-model, claude-haiku-4.5, claude-opus-4.1, claude-opus-4.5, claude-sonnet-4.5, claude-sonnet-4.6, gemini-3-flash, gemini-3.1-flash-lite, gemini-3.1-pro, gpt-4.1, gpt-5, gpt-5-mini, gpt-5.1-codex, gpt-5.2, gpt-5.2-codex, gpt-5.3-codex, gpt-5.4, code-generation, debugging, refactoring, reasoning, low-latency"
+keywords: "model-comparison, compare-ai-models, choose-model, claude-haiku-4.5, claude-opus-4.1, claude-opus-4.5, claude-sonnet-4.5, claude-sonnet-4.6, gemini-3-flash, gemini-3.1-flash-lite, gemini-3.1-pro, gpt-4.1, gpt-5, gpt-5-mini, gpt-5.1-codex, gpt-5.2, gpt-5.2-codex, gpt-5.3-codex, gpt-5.4, gpt-5.4-mini, gpt-5.4-nano, code-generation, debugging, refactoring, reasoning, low-latency"
 ---
 
 # Model Comparison
@@ -34,6 +34,8 @@ Use the table below to quickly find the right model for your task.
 | GPT-4.1 | General-purpose coding and writing | Consistent, accurate code completions and explanations |
 | GPT-5 | Deep reasoning and debugging | Multi-step problem solving, architecture-level analysis |
 | GPT-5 mini | General-purpose coding and writing | Fast, accurate completions across languages and frameworks |
+| GPT-5.4 Mini | Agentic software development | Fast and efficient for coding and multi-step tasks |
+| GPT-5.4 Nano | Fast help with simple or repetitive tasks | Low-cost model for simple, high-volume tasks |
 | GPT-5.1 Codex | Agentic software development | Code-focused agentic tasks and complex refactoring |
 | GPT-5.2 | Deep reasoning and debugging | Multi-step reasoning and code analysis |
 | GPT-5.2 Codex | Agentic software development | Agentic coding tasks with high precision |
@@ -51,6 +53,7 @@ These models are optimized for speed. Use them for quick edits, small utility fu
 | Claude Haiku 4.5 | Balances fast responses with quality output. Ideal for small tasks and lightweight code explanations. |
 | Gemini 3 Flash (Preview) | Fast answers for straightforward coding tasks with minimal overhead. |
 | Gemini 3.1 Flash-Lite (Preview) | Low-latency responses designed for quick edits and rapid iteration. |
+| GPT-5.4 Nano | Cost-efficient option for simple, high-volume tasks and quick helper tasks. |
 
 **When to use these models**
 
@@ -122,6 +125,7 @@ These models are designed for agent-driven workflows where the model takes a seq
 
 | Model | Description |
 |---|---|
+| GPT-5.4 Mini | Fast and efficient for coding and multi-step tasks. |
 | GPT-5.1 Codex | Purpose-built for software engineering workflows. Strong at refactoring, code maintenance, and adherence to coding standards. |
 | GPT-5.2 Codex | High-precision agentic coding tasks with reliable multi-step execution. |
 | GPT-5.3 Codex | Delivers higher-quality code on complex engineering tasks like features, tests, debugging, refactoring, and reviews. |
