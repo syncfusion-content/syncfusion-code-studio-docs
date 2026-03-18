@@ -14,7 +14,7 @@ Code Studio empowers administrators and team leads to manage organization member
 - **Usage Visibility:** Monitor usage and spending at both team and individual levels.
 - **Streamlined Control:** Centralized management for onboarding, governance, and collaboration.
 
-> **Note:** Only Admins can make changes in team or user settings. Regular users and Team Leads can view but not edit.
+> **Note:** Only Admins can make changes user settings. Admin and Team Owner can make changes in teams settings. Users and Team Leads only view user and team settings.
 
 ## 2. User Management
 
@@ -45,22 +45,22 @@ Code Studio empowers administrators and team leads to manage organization member
 
    <img src="./enterprise-images/inviteUserDialog.png" alt="Invite Users" />
 
-> **Note:** Only Admins and Team Leads can invite users.
+> **Note:** Admins, Team Leads and Team Owners can only invite users.
 
 ### Editing or Removing Members
 Use the context menu to:
 
- <img src="./enterprise-images/editUser.png" alt="Edit and Remove User" />
-
 - **Edit:** Update a user's name or role.
+
 - **Delete:** Remove a user from the organization.
-
- <img src="./enterprise-images/resendInvitation.png" alt="Resend Invitation" />
-
    
-- **Resend Invitation:** We can Resend Invitation for users who have not yet accepted their initial invitation. This is helpful when the original email was lost or has expired.
+   <img src="./enterprise-images/editUser.png" alt="Edit and Remove User" />
+  
+-  **Resend Invitation:** We can Resend Invitation for users who have not yet accepted their initial invitation. This is helpful when the original email was lost or has expired.
 
-- **Cancel Invitation:** Cancel Invitation for users who are still in the “Invitation Sent” state and have not yet joined the organization. Use this option when you no longer want the invited user to join the organization. Once the invitation is canceled, the user will be removed from the invited users list.
+-  **Cancel Invitation:** Cancel Invitation for users who are still in the “Invitation Sent” state and have not yet joined the organization. Use this option when you no longer want the invited user to join the organization. Once the invitation is canceled, the user will be removed from the invited users list.
+
+   <img src="./enterprise-images/resendInvitation.png" alt="Resend Invitation" />
 
    
 ## 3. Teams Management
@@ -83,13 +83,11 @@ Use the context menu to:
 - Use the search bar to filter teams.
 - The selected team (e.g., **development-team**) displays its members in the grid.
 
- <img src="./enterprise-images/selectTeam.png" alt="Select Team" />
+   <img src="./enterprise-images/selectTeam.png" alt="Select Team" />
 
 ### Team Actions
 Accessible via the context menu (three-dot icon):
 - **Rename Team** – Update the team name.
-
-- **Set Team Owner** – Assign ownership.
 
 - **Delete Team** – Remove the team.
 
@@ -103,18 +101,52 @@ To manage a team member, click the three‑dot menu next to their name. From thi
 
    <img src="./enterprise-images/removeMember.png" alt="Remove Member" />
 
-### Add Team Members
-- Click **Add Users** dropdown button to add users for selected team.
+### Invite New Users
+- Send an invite link through email to new users.
 
-   <img src="./enterprise-images/addTeamMembers.png" alt="Add Team Member" />
+   <img src="./enterprise-images/inviteNewUser.png" alt="Invite new User" />
 
-- **Add Existing Users:** Add existing organization users to the selected team.
+### Manage Team Owners
 
-   <img src="./enterprise-images/addExistingUsers.png" alt="Add Existing User" />
+The **Manage Team Owners** feature allows administrators to assign selected team leaders as Team Owners so they can monitor work, manage editable access, maintain team structure, and support operations more effectively. 
 
-- **Invite New Users:** Send an invite link through email to new users.
+#### Purpose of Team Owners
+- **Visibility:** They can see and track activity in their teams.
+- **Control:** They can edit and manage across those teams and ensure teams are properly structured.
+- **Accountability:** They act as the authority responsible for team-level decisions
 
-   <img src="./enterprise-images/inviteUserDialog.png" alt="Invite new User" />
+> **Note:** Team Owners are not limited to a single team. They can be assigned to multiple teams, except their own. They have Admin-level access only within the teams they manage. A Team Owner can add budgets and set alerts for their users, but not for the entire team.
+
+#### How to Assign Team Owners
+
+1. Navigate to the **Teams page** and select a team.
+
+2. Click the **Manage Team Owners** dialog.
+
+   <img src="./enterprise-images/teamowner1.png" alt="Invite Users" />
+
+3. Open **Manage Team Owners Dialog**.
+
+   <img src="./enterprise-images/teamowner2.png" alt="Add Team" />
+
+4. Use the dropdown to select one or more leads.
+
+   <img src="./enterprise-images/teamowner3.png" alt="Add Team" />
+
+> **Note:** Only existing Team Leads are available for selection.
+
+5. Click **Add** to assign them as owners.
+
+   <img src="./enterprise-images/teamowner4.png" alt="Invite Users" />
+
+6. Review the list of added owners.
+      - Additional owners can be removed if needed.
+
+   <img src="./enterprise-images/teamowner5.png" alt="Invite Users" />
+
+7. Click **Save** to confirm changes.
+
+   <img src="./enterprise-images/teamowner6.png" alt="Invite Users" />
 
 ## 4. Best Practices
 - **Maintain Clear Roles:** Assign roles based on responsibilities.

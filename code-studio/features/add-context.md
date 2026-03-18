@@ -13,12 +13,27 @@ Code Studio includes an AI powered chat that can help you understand your projec
 
 This document explains:
 
+- Use cases
 - What “Context” means  
 - Different types of contexts (files, folders, screenshots, problems, symbols, tools)  
 - How to add context to the chat  
 - How to use `@` and `#` to attach context  
 
-## What “Context” Means (and Why It Matters)
+## Use cases
+
+1. Attaching Exact Code for a Specific Question
+2. Understanding Project Structure or Dependencies
+3. Debugging Terminal or CLI Issues
+4. Asking About Editor Settings or VS Code Features
+5. Full Project Wide Questions
+6. Fixing UI or Styling Issues
+7. Solving Errors from the Problems Panel
+
+## Prerequisites 
+
+- Syncfusion Code Studio installed and configured on your system. If you have not yet downloaded Code Studio, please refer to this link [Install and Configure](/code-studio/getting-started/install-and-configuration) for step-by-step instructions on downloading and configuring Code Studio.
+
+## What “Context” Means
 
 **Context** is the extra information you attach to your chat message—such as a file, an error, a screenshot, or a terminal log—so the AI analyzes the **right** thing and responds precisely. You’ll get **better answers** when Chat can look at **the specific code**, **the exact error,** or **the UI you’re seeing**
 Examples
@@ -31,9 +46,6 @@ Examples
 - Seeing a build error? → Attach **the Problems item** or **terminal output**  
 - Confused by the UI? → Attach **a screenshot**
 
-> **Note — Privacy & scope**  
-> Chat only sees what you explicitly include (plus what’s implicitly added from your active editor).  
-> If a file is **not** attached or implicitly included, Chat won’t analyze it.
 
 ## Types of Context in Code Studio
 
@@ -55,7 +67,7 @@ You can select **any** of these based on what you want to share with the chat.
 
 ### 1. Automatic Context
 
-Implicit context is the context that Code Studio adds automatically. When you have a file open in the editor, Code Studio will suggest that **active file** at the bottom of the chat. You can simply click it to include the file as context without doing anything extra. This makes it easy for the chat to understand which file you’re working on and give better answers.
+Implicit context is the context that Code Studio adds automatically. When you have a file open in the editor, Code Studio will suggest that **active file** at the bottom of the chat. You can simply click the plus button in it to include the file as context without doing anything extra. This makes it easy for the chat to understand which file you’re working on and give better answers.
 
 <img src="./feature-images/auto-context.png" alt="check1"  />
 
@@ -102,7 +114,7 @@ The selected screenshot/image will be added as context.
 
 <img src="./feature-images/screenshot.png" alt="screenshot"  />
 
----
+
 
 ### 4. Problems Context
 
@@ -141,7 +153,7 @@ Tools Context lets you add information from different tools inside Code Studio�
 
 ## #‑mentions in chat
 
-**#** is the **context variable** trigger.# is the context variable trigger. Type # in the chat box to **insert files, folders, symbols, tools, terminal output, source control changes,** and more—without leaving the keyboard. You can also drag and drop files/folders into Chat. 
+**#** is the **context items** trigger. Type # in the chat box to **insert files, folders, symbols, tools, terminal output, source control changes,** and more—without leaving the keyboard. You can also drag and drop files/folders into Chat. 
 
 ### Quick patterns
 - `#file:<name>` – attach a specific file  
@@ -163,8 +175,13 @@ Chat participants are **not the same as tools**. Tools are triggered automatical
 To use a chat participant, simply type **@** in the chat input box. Code Studio will show a list of available participants such as:
 - **@terminal** – for shell/CLI questions  
 - **@workspace** – for project files, structure, dependencies  
-- **@vscode** – for editor settings & features  
+- **@codestudio** – for editor settings & features  
 
 Selecting one routes your request to that domain expert.
 
 <img src="./feature-images/@-context.png" alt="@-context"  />
+
+
+## Releted Features
+ - [Inline Chat](/code-studio/features/inlinechat) Inline Chat in Syncfusion Code Studio lets you talk to AI directly inside your code or terminal without switching screens.
+ - [Generate Code](/code-studio/features/generatecode) The Generate Code feature speeds up development by automatically handling repetitive tasks and giving instant AI-powered help right inside your editor.

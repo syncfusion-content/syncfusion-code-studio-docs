@@ -2,7 +2,7 @@
 title: Code Studio Enterprise Settings
 description: Manage profile, organization, credits, billing, and subscriptions in Syncfusion Code Studio Enterprise.
 platform: syncfusion-code-studio
-keywords: settings, profile, organization, credits, billing, subscription, plans, BYOK, payments, enterprise, syncfusion, code-studio
+keywords: settings, profile, organization, credits, billing, subscription, plans,payments, enterprise, syncfusion, code-studio
 ---
 
 # Settings
@@ -17,13 +17,14 @@ The Settings area centralizes account and organization configuration for Code St
 ## 1. Profile
 
 - View user name, email address, and account type
-<img src="./enterprise-images/profile.png" alt="settings"  />
+
+  <img src="./enterprise-images/profile.png" alt="settings"  />
 
 ## 2. Organization
 
 - View organization name and organization ID
 - Share the organization ID with your admins when requesting access or support
-<img src="./enterprise-images/organization.png" alt="settings"  />
+  <img src="./enterprise-images/organization.png" alt="settings"  />
 
 ## 3. Credits
 
@@ -33,24 +34,70 @@ Add-on credits fund model usage across your organization.
 - Preset amounts: $50, $100, $500
 - Custom amount: Enter a custom value as needed
 - Purchase flow: Click Buy credits to proceed to the payment page and complete checkout. Credits are applied after successful payment.
-<img src="./enterprise-images/settingscredits.png" alt="settings"  />
+  <img src="./enterprise-images/settingscredits.png" alt="settings"  />
 
 ## 4. Billing & Subscription
 
-- Available plans: Free, Basic, Pro, Enterprise,BYOK-unlimited.
-- BYOK plan: $15 per month subscription
-- After subscription the current subscription details and billing cycle will be displayed.
+- When a user has an **active subscription plan**, the Billing & Subscription page displays clear details about their current plan, billing cycle, and past invoices.
+
+  <img src="./enterprise-images/billing-subscription.png" alt="settings"  />
+
+### Upgrade Subscription:
+- When a customer upgrades their plan in the **middle of a billing cycle**, the system calculates the charges fairly based on the time remaining. This means:
+  <img src="./enterprise-images/billing-upgrade.png" alt="settings"  />
+- The customer is **not charged the full price** of the upgraded plan immediately.
+- They only pay the **additional amount** needed for the upgraded plan **for the remaining days** in the current billing cycle.
+- From the next billing cycle onward, the customer is charged the **full price** of the upgraded plan.
+
+  <img src="./enterprise-images/upgrade.png" alt="settings"  />
+
+### Downgrade – End of Billing Cycle
+
+- When a customer downgrades their plan, the change **does not take effect immediately**.
+-	The downgrade is scheduled.
+-	The new (lower) plan starts only at the **end of the current billing cycle**.
+-	Refund is not applicable.
+
+  <img src="./enterprise-images/downgrade.png" alt="settings"  />
+
+### Manage Billing Details:
+
+  <img src="./enterprise-images/manage-billing.png" alt="settings"  />
+
+- When users click **Manage Billing Details** on the Billing & Subscription page, they are redirected to the **Stripe Billing Portal**. This page contains below mentioned sections to help users manage their payment and subscription settings:
+
+    - #### Current Subscription:
+      - View plan, pricing, next billing date, and payment method. 
+
+    - #### Billing & Shipping Information:
+      - Allows users to **update the details** and ensures that billing-related records remain accurate
+
+    - #### Cancel Subscription:
+      - When you purchase a subscription, it is set to **renew automatically** every billing cycle.
+      - If you choose to **cancel your subscription**, it will remain active until the **end of the current billing period**.
+      - After that, it will **not renew**, and no further charges will be applied.
+      - You will continue to have access to all features until the current billing cycle ends.
+
+    - #### Do Not Cancel Subscription:
+      - If you want to **continue using your subscription**, simply **do not cancel it**.
+      - Your subscription will stay active and will **renew automatically** at the end of each billing cycle.
+      - No additional action is needed unless you decide to stop renewal in the future.
+
+### Plan Overview
+-	**Billing Cycle:** Yearly and Monthly.
+-	Available **20% offer for yearly**.
+-	**Available plans:** Individual, Small Team, Medium Team and Large Business.
 - Manage your subscription plan, billing cycle, and invoices.
 - The credit balance will be displayed on the top of the page.
 
 <img src="./enterprise-images/settingsbilling.png" alt="settings"  />
 
-
 <table border="1" cellpadding="8" cellspacing="0">
   <thead>
     <tr>
       <th>Plan</th>
-      <th>Cost per User</th>
+      <th>Seats and Costs [monthly]</th>
+      <th>Seats and Costs [20% yearly]</th>
       <th>Key Features</th>
     </tr>
   </thead>
@@ -58,27 +105,94 @@ Add-on credits fund model usage across your organization.
     <tr>
       <td>Free</td>
       <td>$0</td>
-      <td>IDE access, Enterprise server for 1 user, 4 AI models, UI builder, MCP server integration, Quick actions and codebase search, and image input support.</td>
+      <td>$0</td>
+      <td>
+        <ul>
+          <li>Full access to Code Studio IDE & Enterprise Server</li>
+          <li>Five AI modes: Chat, Edit, Agent, Plan, Autocomplete</li>
+          <li>Image input support</li>
+          <li>MCP server integration</li>
+          <li>Multiple AI provider connections</li>
+          <li>Quick actions & codebase search</li>
+          <li>Custom credit recharge</li>
+        </ul>
+      </td>
     </tr>
     <tr>
-      <td>Basic</td>
-      <td>$20/month</td>
-      <td>Premium & BYOK models, team dashboards, fallback policies, Team-wide credit pooling, Custom credit recharge, 2000 credits per user</td>
+      <td>Small Team</td>
+      <td>
+        5 users - $49/month<br/>
+        25 users - $149/month<br/>
+        50 users - $299/month
+      </td>
+      <td>
+        5 users - $39/month<br/>
+        25 users - $119/month<br/>
+        50 users - $239/month
+      </td>
+      <td>
+        <ul>
+          <li>All Individual features</li>
+          <li>2,000 starter credits (first month, paid buckets only)</li>
+          <li>Premium models</li>
+          <li>User & team budget controls</li>
+          <li>Full usage dashboards & analytics</li>
+          <li>Fallback policies & reliability</li>
+          <li>Centralized user management</li>
+          <li>SSO</li>
+          <li>Team-wide credit pooling</li>
+          <li>Custom credit recharge</li>
+        </ul>
+      </td>
     </tr>
     <tr>
-      <td>Pro</td>
-      <td>$30/month</td>
-      <td>Everything in Basic + 10% bonus in credit, 3300 credits per user.</td>
+      <td>Medium Team</td>
+      <td>
+        100 users - $599/month<br/>
+        200 users - $799/month<br/>
+        300 users - $999/month<br/>
+        400 users - $1199/month<br/>
+        500 users - $1399/month
+      </td>
+      <td>
+        100 users - $479/month<br/>
+        200 users - $639/month<br/>
+        300 users - $799/month<br/>
+        400 users - $959/month<br/>
+        500 users - $1119/month
+      </td>
+      <td>
+        <ul>
+          <li>All Small Team features</li>
+          <li>10,000 starter credits (first month, team-level)</li>
+          <li>Advanced admin controls</li>
+          <li>Priority email & chat support</li>
+        </ul>
+      </td>
     </tr>
     <tr>
-      <td>Enterprise</td>
-      <td>$40/month</td>
-      <td>Everything in Pro + 20% bonus in credit, 4800 credits per user.</td>
-    </tr>
-    <tr>
-      <td>BYOK Unlimited</td>
-      <td>$15/month</td>
-      <td>BYOK models only, budget controls, dashboards, SSO, centralized management</td>
+      <td>Large Business</td>
+      <td>
+        600 users - $1599/month<br/>
+        700 users - $1749/month<br/>
+        800 users - $1899/month<br/>
+        900 users - $2049/month<br/>
+        1000 users - $2399/month
+      </td>
+      <td>
+        600 users - $1279/month<br/>
+        700 users - $1399/month<br/>
+        800 users - $1519/month<br/>
+        900 users - $1639/month<br/>
+        1000 users - $1919/month
+      </td>
+      <td>
+        <ul>
+          <li>All Medium Team features</li>
+          <li>5,000 starter credits (first month, team-level)</li>
+          <li>24/5 priority support</li>
+        </ul>
+      </td>
     </tr>
   </tbody>
 </table>

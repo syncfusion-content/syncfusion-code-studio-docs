@@ -7,6 +7,7 @@ keywords: code, IDE, AI, developer-tools, syncfusion, code-assistance, productiv
 
 # Telemetry
 
+## Overview
 Syncfusion Code Studio collects anonymous usage data to improve product quality and user experience. This data helps the development team understand feature usage, identify performance issues, and prioritize enhancements.
 
 Telemetry collection is optional and can be disabled at any time by the user.
@@ -43,7 +44,7 @@ Telemetry can be disabled through the application settings at any time.
 
    <img src="./feature-images/telemetry-setting.png" alt="telemetry"  />
 
-2. Navigate to the User Settings page.
+2. Navigate to the telemetry section.
 3. Locate the option **”Enable Anonymous Telemetry”** and toggle it **off**.
 Changes take effect immediately and can be reversed at any time.
 

@@ -5,19 +5,31 @@ platform: syncfusion-code-studio
 keywords: code, IDE, AI, developer-tools, syncfusion, code-assistance, productivity, UI-generation, bug-fixing, documentation
 ---
 
-# Edit
+# Edit Mode
 
-Edit is an AI-powered feature, to help developers modify source code using prompts. It provides a consistent workflow where users can preview, keep, or undo each suggested change. This ensures high accuracy and full control over your codebase.
+## Overview
 
-## Key Benefits
+Edit Mode is an AI-powered feature in Syncfusion Code Studio that helps developers modify source code using natural language prompts. It enables targeted, bulk, or repetitive changes with a consistent workflow, allowing users to preview, keep, or undo each suggested change for maximum control and accuracy.
 
-• Faster edits, apply bulk or repetitive changes in seconds.
+## Use Cases
 
-• Precise control over changes we can Keep or Undo each modifications.
+- Refactoring code or optimizing logic across files
+- Applying repetitive changes (e.g., renaming variables, updating patterns)
+- Fixing bugs or updating documentation
+- Modifying shared components or helper functions
+- Bulk editing UI or business logic
 
-## How to use Edit mode?
+## Prerequisites
+- Syncfusion Code Studio installed and configured on your system. If you have not yet downloaded Code Studio, please refer to this link [Install and Configure](/code-studio/getting-started/install-and-configuration) for step-by-step instructions on downloading and configuring Code Studio.
+- Access to Syncfusion Code Studio with Edit Mode enabled
+- Appropriate permissions to modify files in the workspace
+- Recommended: Familiarity with the codebase for best results
 
-**Step 1** : Switch to Edit mode in chat panel.
+## How to Use the Edit mode
+
+**Step 1:** Open Syncfusion Code Studio in your machine.
+
+**Step 2:** Switch to **Edit** mode in the chat panel.
 
 <img src="./feature-images/editMode.png" alt="Edit Mode" />
 
@@ -25,18 +37,18 @@ Edit is an AI-powered feature, to help developers modify source code using promp
 
 <img src="./feature-images/chatInput.png" alt="Chat Input" />
 
-**Step 3** : Once you send the prompt, the AI interprets the instruction and applies the necessary changes to the currently active file in your editor.
+**Step 4** : Once you send the prompt, the AI interprets the instruction and applies the necessary changes to the currently active file in your editor.
 > **Note:** Before entering a prompt in Edit Mode, make sure the correct file is selected and active in the editor.
 
-**Step 4** : If your instruction involves additional files – for example, editing helper functions, updating shared components, or modifying logic across modules—you can include those files by clicking “Add Context”. This option allows you to provide more context so the AI understands how different files relate to your request.
+**Step 5** : If your instruction involves additional files – for example, editing helper functions, updating shared components, or modifying logic across modules—you can include those files by clicking “Add Context”. This option allows you to provide more context so the AI understands how different files relate to your request.
 
 <img src="./feature-images/addContext.png" alt="Chat Input" />
 
-**Step 5** : After clicking “Add Context”, choose the files you want the AI to refer to or modify.
+**Step 6** : After clicking “Add Context”, choose the files you want the AI to refer to or modify.
 
 <img src="./feature-images/addFile.png" alt="Chat Input" />
 
-**Step 6** : Once the files are added, take a moment to confirm that the correct files appear in the chat panel.
+**Step 7** : Once the files are added, take a moment to confirm that the correct files appear in the chat panel.
 
 <img src="./feature-images/addedFiles.png" alt="Chat Input" />
 
@@ -50,6 +62,11 @@ Edit is an AI-powered feature, to help developers modify source code using promp
 • Each file includes navigation arrows that allow you to jump directly between edited lines. Instead of scrolling, you can use the Up and Down arrows to navigate between changes within the file.
 
 <img src="./feature-images/keepUndo.png" alt="Chat Input" />
+
+## Related Features
+- [Add Context](/code-studio/features/add-context): Provide additional files for more accurate edits
+- [Quick Fix](/code-studio/how-to-guides/quick-fix-error): Instantly resolve detected issues
+- [Inline Chat](/code-studio/features/inlinechat): Get in-line code suggestions
 
 ## Best Practices
 
