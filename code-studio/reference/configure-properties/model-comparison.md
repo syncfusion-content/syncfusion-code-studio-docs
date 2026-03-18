@@ -53,7 +53,7 @@ These models are optimized for speed. Use them for quick edits, small utility fu
 | Claude Haiku 4.5 | Balances fast responses with quality output. Ideal for small tasks and lightweight code explanations. |
 | Gemini 3 Flash (Preview) | Fast answers for straightforward coding tasks with minimal overhead. |
 | Gemini 3.1 Flash-Lite (Preview) | Low-latency responses designed for quick edits and rapid iteration. |
-| GPT-5.4 Nano | Cost-efficient GPT-5.4-class model for simple, high-volume tasks and quick helper tasks. |
+| GPT-5.4 Nano | Cost-efficient option for simple, high-volume tasks and quick helper tasks. |
 
 **When to use these models**
 
@@ -125,7 +125,7 @@ These models are designed for agent-driven workflows where the model takes a seq
 
 | Model | Description |
 |---|---|
-| GPT-5.4 Mini | Brings GPT-5.4 strengths to a faster, more efficient model for coding and multi-step tasks. |
+| GPT-5.4 Mini | Fast and efficient for coding and multi-step tasks. |
 | GPT-5.1 Codex | Purpose-built for software engineering workflows. Strong at refactoring, code maintenance, and adherence to coding standards. |
 | GPT-5.2 Codex | High-precision agentic coding tasks with reliable multi-step execution. |
 | GPT-5.3 Codex | Delivers higher-quality code on complex engineering tasks like features, tests, debugging, refactoring, and reviews. |
