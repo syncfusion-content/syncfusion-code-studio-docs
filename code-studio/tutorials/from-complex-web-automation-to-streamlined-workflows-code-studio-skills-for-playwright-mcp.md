@@ -128,7 +128,7 @@ Before the AI can generate tests, you need to install both Playwright and the MC
    - Code Studio will automatically open a new `SKILL.md` file where you can define the instructions that guide the AI agent's behavior.
    - Replace the default content with the following skill definition:
 
-   ```markdown
+   ```text
    ---
    name: playwright-explore-website
    description: Website exploration for testing using Playwright MCP
