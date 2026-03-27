@@ -189,7 +189,7 @@ Add-on credits fund model usage across your organization.
       <td>
         <ul>
           <li>All Medium Team features</li>
-          <li>5,000 starter credits (first month, team-level)</li>
+          <li>15,000 starter credits (first month, team-level)</li>
           <li>24/5 priority support</li>
         </ul>
       </td>
