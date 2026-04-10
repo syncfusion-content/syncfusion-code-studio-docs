@@ -13,7 +13,7 @@ Each AI model available in Code Studio has distinct strengths. To help you decid
 
 These examples illustrate how models differ in their reasoning style, response depth, and ability to handle various input types. Use them to compare output quality and choose the right model for your specific workflow.
 
-For a full list of supported models and side-by-side feature comparisons, see the [Model Comparison](/code-studio/reference/configure-properties/model-comparison.md) page in the reference section.
+For a full list of supported models and side-by-side feature comparisons, see the [Model Comparison](/code-studio/reference/configure-properties/model-comparison) page in the reference section.
 
 ## Prerequisites
 
