@@ -9,7 +9,7 @@ keywords: git diff, review changes, code studio, version control, ai assistance,
 
 ## Problem Summary
 
-After upgrading to Code Studio v2.0.0+, the method to review git diff changes has been updated. Previously(before v2.0.0), users could view uncommitted changes by typing **@Git Diff** in the chat box or using the **"Add context"** button. In v2.0.0+, this functionality is now accessed by typing **#** in the chat input box and selecting `#changes` from the dropdown menu.
+After upgrading to Code Studio v2.0.0+, the method to review git diff changes has been updated. Previously(before v2.0.0), users could view uncommitted changes by typing **@Git Diff** in the chat box or using the **"Add context(+)"** button. In v2.0.0+, this functionality is now accessed by typing **#** in the chat input box and selecting `#changes` from the dropdown menu.
 
 
 ## Resolution Steps

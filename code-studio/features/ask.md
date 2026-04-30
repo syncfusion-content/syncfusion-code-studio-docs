@@ -54,7 +54,7 @@ Code Studio processes your query and returns:
 
 **Example Response:**
 
-<img src="./feature-images/ask3.png" alt="Ask Mode Response Example" />
+<img src="./feature-images/ask.png" alt="Ask Mode Response Example" />
 
 ### Step 4: Apply or Iterate
 

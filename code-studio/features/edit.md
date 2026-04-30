@@ -33,18 +33,18 @@ Edit Mode is an AI-powered feature in Syncfusion Code Studio that helps develope
 
 <img src="./feature-images/editMode.png" alt="Edit Mode" />
 
-**Step 2** : In the chat input box, type the instruction you want the AI to perform. For example, “Optimize this loop for better performance.” After typing your prompt, click the “Send” button. The agent will treat this instruction as an edit request and start editing.
+**Step 2** : In the chat input box, type the instruction you want the AI to perform. For example, “Optimize this for better performance.” After typing your prompt, click the “Send” button. The agent will treat this instruction as an edit request and start editing.
 
 <img src="./feature-images/chatInput.png" alt="Chat Input" />
 
 **Step 4** : Once you send the prompt, the AI interprets the instruction and applies the necessary changes to the currently active file in your editor.
 > **Note:** Before entering a prompt in Edit Mode, make sure the correct file is selected and active in the editor.
 
-**Step 5** : If your instruction involves additional files – for example, editing helper functions, updating shared components, or modifying logic across modules—you can include those files by clicking “Add Context”. This option allows you to provide more context so the AI understands how different files relate to your request.
+**Step 5** : If your instruction involves additional files – for example, editing helper functions, updating shared components, or modifying logic across modules—you can include those files by clicking “+”. This option allows you to provide more context so the AI understands how different files relate to your request.
 
 <img src="./feature-images/addContext.png" alt="Chat Input" />
 
-**Step 6** : After clicking “Add Context”, choose the files you want the AI to refer to or modify.
+**Step 6** : After clicking “+”, choose the files you want the AI to refer to or modify.
 
 <img src="./feature-images/addFile.png" alt="Chat Input" />
 

@@ -60,7 +60,7 @@ In this step, you will create the configuration file that turns a generic model 
    - Final path: `.codestudio/agents/`.
 3. **Create or download the agent template:**
    - Create a custom agent for documentation, or obtain the `Codebase Documenter` agent from the agent library.
-   - Download the custom Codebase Documenter agent from the [Codebase Documenter agent template](https://github.com/syncfusion/code-studio-agent-library/blob/master/documentation/codebase-documenter.agent.md).
+   - Download the custom Codebase Documenter agent from the [Codebase Documenter agent template](https://github.com/syncfusion/code-studio-library/blob/master/agents/documentation/codebase-documenter.agent.md).
 4. **Place the template in your project:**
    - Copy `Codebase-Documenter.agent.md` into the `.codestudio/agents` folder.
 5. **Open the agent file in the editor:**
