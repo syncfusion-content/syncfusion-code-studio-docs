@@ -57,22 +57,6 @@ The **Chat Panel** is a separate sidebar panel in Code Studio where you can have
 
 Before changing any code, you must understand what it does. Code Studio's [Inline Chat](/code-studio/features/inlinechat) gives you an instant, plain-English explanation of any selected block of code — removing the guesswork before you begin.
 
-1. Open a file in your editor that contains code you'd like to refactor.
-2. Select the code block you want to understand — this can be a function, a class, or any section of logic.
-3. Open the Chat Panel (if it's not already visible, press `Ctrl+Shift+P` (Windows/Linux) or `Cmd+Shift+P` (Mac) to open the **Command Palette** — a search box that appears at the top of the editor — then type "Chat: Focus on Chat View" and press Enter).
-4. Type a forward slash `/` in the input box to reveal a dropdown menu of available commands.
-5. Select `/explain` from the dropdown (or simply type `/explain`) and press Enter.
-6. Choose your context: You'll see a dropdown with two options:
-   - **@workspace** - Choose this when explaining code, files, or project-related content (recommended for code refactoring)
-   - **@terminal** - Choose this when explaining terminal commands, shell scripts, or command-line operations
-   
-   For this tutorial, select **@workspace** since we're analyzing code in our project files.
-
-   <img src="./tutorials-images/inline-chat-explain-interface.png" alt="Inline Chat /explain command interface with @workspace context selector visible" />
-
-7. Code Studio returns a clear, step-by-step explanation of what the selected code does in the Chat Panel.
-
-   <img src="./tutorials-images/inline-chat-explain-result.png" alt="Inline Chat showing the /explain command being used on a selected code block" />
 
 ### Step 2: Eliminate Repeated Code with Extracted Functions
 

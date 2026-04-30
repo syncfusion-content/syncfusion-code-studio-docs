@@ -51,7 +51,7 @@ C:\Users\<YourName>\.sfcodestudio\.codestudio\config.yaml
 
 - Paste them into the new instruction file below the `applyTo` section. 
 
-<img src="./troubleshoot-images/rules4.gif" alt="docsindexing" style="display:block; margin: 12px auto;" /><br/>
+<img src="./troubleshoot-images/rules4.png" alt="docsindexing" style="display:block; margin: 12px auto;" /><br/>
 
 - Save the file.
 
@@ -67,7 +67,7 @@ C:\Users\<YourName>\.sfcodestudio\.codestudio\config.yaml
 
 - Paste them into your new instruction file below the `applyTo` section.  
 
-<img src="./troubleshoot-images/rules6.gif" alt="docsindexing" style="display:block; margin: 12px auto;"/><br/>
+<img src="./troubleshoot-images/rules6.png" alt="docsindexing" style="display:block; margin: 12px auto;"/><br/>
 
 - Save the file.
 

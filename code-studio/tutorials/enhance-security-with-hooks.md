@@ -144,7 +144,7 @@ In this step, you will prepare a test `.env` file and create the PowerShell hook
 
 4. Save the file.
 
-<img src="./tutorials-images/enhance-security-with-hooks-hook-script-example.png" alt="PowerShell PreToolUse hook script opened in the editor" />
+
 
 #### What This Hook Does
 

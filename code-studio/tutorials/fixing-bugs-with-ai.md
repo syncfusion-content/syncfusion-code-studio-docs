@@ -52,7 +52,7 @@ The AI analyzes your code, understands the context, and applies the fix.
 
 Use this approach when you have multiple errors and want to send specific problems to the AI as context.
 
-1. Open the **Chat Panel** by pressing `Ctrl+Alt+B` (Windows/Linux) or `Cmd+Alt+B` (Mac), or click the Code Studio icon to the left of the centered search box. Then click **Add context** (the paperclip icon) at the bottom of the chat window:
+1. Open the **Chat Panel** by pressing `Ctrl+Alt+B` (Windows/Linux) or `Cmd+Alt+B` (Mac), or click the Code Studio icon to the left of the centered search box. Then click **+** at the bottom of the chat window:
 
    <img src="./tutorials-images/Attachment-icon.png" alt="Add context paperclip icon at the bottom of the Chat Panel" />
 

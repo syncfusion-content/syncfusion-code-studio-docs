@@ -119,7 +119,7 @@ Code Studio shows suggested changes clearly, letting you apply or undo them step
 - It can plan, update, and refine complex project structures while giving you full control over the process.  
 Ideal for scaffolding features, refactoring modules, or managing structured workflows.
 
-**For Example:**  *“Refactor the getConfig function to be more maintainable and add proper TypeScript types for all parameters.”*  The Agent will outline steps, update backend routes, create frontend components, and explain changes.
+**For Example:**  *“Refactor the [function name] function to be more maintainable and add proper TypeScript types for all parameters.”*  The Agent will outline steps, update backend routes, create frontend components, and explain changes.
 
 <img src="gettingstarted-images/agent.png" alt="Agent" />
 

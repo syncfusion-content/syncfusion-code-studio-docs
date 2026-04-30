@@ -49,7 +49,7 @@ Examples
 
 ## Types of Context in Code Studio
 
-You can use the **Add Context** button to include extra information that helps the chat understand your request better. When you click this button, you will see options like:
+You can use the **Add Context(+)** button to include extra information that helps the chat understand your request better. When you click this button, you will see options like:
 
 - **Files** – select individual code files  
 - **Folders** – select your entire project folder or a specific folder  
@@ -89,8 +89,8 @@ Implicit context is the context that Code Studio adds automatically. When you ha
 <img src="./feature-images/add-file.png" alt="addfile"  />
 <img src="./feature-images/add-folder.png" alt="addfolder"  />
 
-#### **3. Use the “Add context” button**
-- Click **Add context** in the chat  
+#### **3. Use the “Add context(+)” button**
+- Click **Add context*(+)* button in the chat  
 - Choose **Files & Folders**  
 - A list of available items appears  
 - Select the file or folder you want  
@@ -105,7 +105,7 @@ Screenshot Context allows you to capture your screen or use an image from your c
 
 1. Capture a screenshot or copy an image to your clipboard  
 2. Open the chat panel in Code Studio  
-3. Click **Add Context**  
+3. Click **Add Context(+)** button  
 4. Select:
    - **Screenshot Window** (to capture a new screenshot)
    - **Image from Clipboard** (to use a copied image)
@@ -121,7 +121,7 @@ The selected screenshot/image will be added as context.
 Problems Context lets you add errors or warnings from your project to the chat. This helps the AI understand what issue you are facing.
 
 #### Steps to Add Problems Context
-1. Click the **Add Context** button  
+1. Click the **Add Context(+)** button  
 2. Select **Problems**  
 3. Choose the error or warning you want to attach  
 
@@ -134,7 +134,7 @@ This includes TypeScript errors, build errors, ESLint issues, and more.
 Symbols Context lets you add specific parts of your code—like functions, variables, or components—to the chat. This helps the AI understand exactly which code piece you are asking about.
 
 #### Steps to Add Symbols Context
-1. Click **Add Context**  
+1. Click **Add Context(+)** button
 2. Select **Symbols**  
 3. Choose the function, component, or variable you want to attach  
 
@@ -145,7 +145,7 @@ Symbols Context lets you add specific parts of your code—like functions, varia
 Tools Context lets you add information from different tools inside Code Studio—such as the terminal, debugger, or build tools. This helps the AI understand issues that are related to your development tools instead of your code.
 
 #### Steps to Add Tools Context
-1. Click the **Add Context** button  
+1. Click the **Add Context(+)** button  
 2. Select **Tools**  
 3. Choose the tool output you want to attach  
 
@@ -160,9 +160,7 @@ Tools Context lets you add information from different tools inside Code Studio�
 - `#folder:<name>` – attach a folder  
 - `#symbol:<name>` – attach a symbol (open its file first for best results)  
 
-> **Tip — Whole‑project questions**  
-> Prefer **@workspace** or **#codebase** when the question truly needs the **entire** project context.  
-> Otherwise, keep context **focused** to improve answer quality.
+
 
 <img src="./feature-images/var-context.png" alt="#-conetxt"  />
 
@@ -174,7 +172,6 @@ Chat participants are **not the same as tools**. Tools are triggered automatical
 ### How @mentions work
 To use a chat participant, simply type **@** in the chat input box. Code Studio will show a list of available participants such as:
 - **@terminal** – for shell/CLI questions  
-- **@workspace** – for project files, structure, dependencies  
 - **@codestudio** – for editor settings & features  
 
 Selecting one routes your request to that domain expert.
