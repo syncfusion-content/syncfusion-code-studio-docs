@@ -224,9 +224,9 @@ After installation, you will notice the new plugin capabilities in the following
 
 For more information on features that work with agent plugins, refer to the following: 
 
-- **[Agent Skills](https://help.syncfusion.com/code-studio/features/agentskills)**: Learn how to create reusable, specialized tasks for agents. 
+- **[Agent Skills](https://help.syncfusion.com/code-studio/reference/configure-properties/skills)**: Learn how to create reusable, specialized tasks for agents. 
 
-- **[Custom Agents](https://help.syncfusion.com/code-studio/features/customagents)**: Understand how to build domain-specific AI personas. 
+- **[Custom Agents](https://help.syncfusion.com/code-studio/reference/configure-properties/custom-agents)**: Understand how to build domain-specific AI personas. 
 
-- **[MCP Servers](https://help.syncfusion.com/code-studio/features/mcpservers)**: Discover how to integrate mcp tools and data sources. 
+- **[MCP Servers](https://help.syncfusion.com/code-studio/reference/configure-properties/mcp/marketplace)**: Discover how to integrate mcp tools and data sources. 
  
