@@ -11,40 +11,49 @@ keywords: agent-plugins, customization, slash-commands, skills, custom-agents, h
 # Agent Plugins
 
 ## Purpose 
+Agent plugins are bundles of customizations you can install from plugin marketplaces. They extend Code Studio with combinations of slash commands, skills, agents, hooks, and MCP servers, while working alongside your existing customizations.
 
-Agent plugins are prepackaged bundles of agent customizations that you can discover and install from plugin marketplaces in Code Studio. A single plugin can provide any combination of slash commands, agent skills, custom agents, hooks, and MCP servers. Plugins work alongside your locally defined customizations. When you install a plugin, its commands, skills, agents, hooks, and MCP servers appear in chat and configuration menus. 
-
-- Provide new slash commands, skills, agents, hooks, and MCP servers that appear alongside your local customizations. 
-
-- Reduce configuration overhead: Bundle multiple customization types (agents, skills, hooks, MCP servers) that work together 
-
-- Enable organization-wide standards: Enforce consistent coding practices, naming conventions, and workflows through shared plugins. 
+**Key Benefits:**
+- **Simplify Configuration** — Install complete workflows in one action
+- **Standardize Practices** — Enforce consistent coding standards across your team
+- **Share Knowledge** — Distribute expertise and best practices organization-wide
 
 ## What Plugins Provide 
 
-Agent plugins bundle one or more of the following customization components to extend Code Studio's functionality: 
+Agent plugins can include the following components:
 
-- **Slash Commands**: Additional chat commands (prefixed with `/`) that you can invoke to perform specific tasks. 
+**Slash Commands**
+Chat commands prefixed with `/` for specific tasks (like `/test-report` or `/deploy`)
 
-- **Skills**: Reusable agent skills that include instructions, scripts, and resources that load on-demand when needed. 
+**Skills**
+Instructions, scripts, and resources that load on-demand for specific tasks
 
-- **Agents**: Custom AI agents with specialized personas and preconfigured tool access for domain-specific tasks. 
+**Custom Agents**
+Specialized AI personas with preconfigured tools for domain-specific tasks
 
-- **Hooks**: Lifecycle automation scripts that execute shell commands at specific agent lifecycle points. 
+**Hooks**
+Automation scripts that execute at specific lifecycle points like `SessionStart` or `PostToolUse`
+
+**MCP Servers**
+External tool integrations providing additional capabilities to your agents
 
  
 
 ## When to Use Agent Plugins 
 
-Use agent plugins in the following scenarios: 
 
-- Standardize team workflows: Enable consistent agents, commands, and automation rules across all projects and team members. 
+- **Team Standardization** — Ensure consistent tooling across projects.
+  Uses workspace settings to recommend the same plugins for all team members.
 
-- Automate code quality enforcement: Use hooks to run validation, formatting, and linting at critical development moments. 
+- **Quality Enforcement** — Automate validation, formatting, and testing.
+  Hooks can run these checks at key points in your workflow to maintain standards.
 
-- Share organizational knowledge: Distribute domain expertise and best practices across teams and projects via internal plugin marketplaces. 
+- **Knowledge Sharing** — Make domain expertise available to everyone.
+  Packaged skills and agents democratize specialized knowledge across teams.
 
-- Enable or disable plugins globally or per workspace as needed. Manage plugins from the Extensions view or Agent Customizations editor. 
+- **Onboarding** — Give new team members immediate access to required tools.
+  New hires can install recommended plugins and be productive from day one.
+
 
 ## Prerequisites 
 
@@ -194,31 +203,22 @@ After installation, you will notice the new plugin capabilities in the following
 
 ### Essential Best Practices 
 
- 
+### 1. Review Before Installing
+- Check publisher reputation and credentials
+- Read documentation to understand capabilities and required access
+- Test in a separate workspace before using in production
+- Ask: What will it do? What access does it need? Is the source trusted?
 
-#### 1. Review & Test Before Using 
+### 2. Stay Updated
+- Enable `extensions.autoUpdate` for automatic security patches
+- Or manually check for updates via the Command Palette
+- Test plugins briefly after updates to ensure compatibility
 
-- Check the plugin publisher reputation and review if you using third-party plugins from public repositories. Read the plugin description and documentation carefully. 
-
-- Test in a separate test workspace for 1-2 days before using in your main project. Check Code Studio output terminal for errors or performance issues. 
-
- 
-
-#### 2. Keep Plugins Updated 
-
-- Enable automatic updates in Code Studio settings for regular security patches. If auto-updates are disabled, check manually every 2 weeks: `Ctrl+Shift+P` > **Extensions: Check for Extension Updates**. Test the plugin briefly after updating to ensure it still works. 
-
- 
-
-#### 3. Monitor Security & Hooks 
-
-- Understand what each hook does before installing: "What will this automation do?" and "When will it run?" Review hook documentation to confirm behavior matches what is claimed. 
-
- 
-
-#### 4. Document & Share With Your Team 
-
-- Create a `PLUGINS.md` file in your project repository listing all recommended plugins. Share this file with all team members so everyone uses the same tools consistently. 
+### 3. Monitor Security
+- Understand what each hook does and when it runs
+- Review scripts to verify they match documented behavior
+- Disable unnecessary hooks to minimize security exposure
+- Use permission levels appropriately (allow/ask/deny)
 
 ## Related Features 
 
