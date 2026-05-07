@@ -6,13 +6,13 @@ platform: syncfusion-code-studio
 keywords: spec-driven-development, ai-development, voice-notes-app, openspec, code-generation, agent-mode
 ---
 
-# Build Your First App Using Spec-Driven Development
+# Build Your First App in Code Studio
 
 ## Overview
 
-Building applications with AI can be unpredictable when instructions are unclear. **Spec-Driven Development (SDD)** solves this by defining exactly what you want to build before you start coding. This approach reduces guesswork and ensures your AI agent generates code that matches your vision.
+Ready to build your first app? In this guide, you'll create a **Voice Notes web app** directly in **Syncfusion Code Studio** using a simple, step-by-step approach. Code Studio guides you through planning, building, and organizing your project using clear commands that make the whole process stress-free.
 
-In this beginner-friendly guide, you'll learn how to build a **Voice Notes web app** from scratch using the SDD approach in Code Studio. You'll go from idea to a working application by following a structured methodology that combines clear specifications, detailed planning, and AI-assisted code generation.
+You'll move from idea to working application by following **Spec-Driven Development (SDD)** — a beginner-friendly approach where you describe what you want to build, and Code Studio generates the code for you. No complex setup. No guesswork. Just clear instructions and working code.
 
 ## Prerequisites
 
@@ -29,11 +29,11 @@ By the end of this tutorial, you'll know how to:
 - Understand what Spec-Driven Development (SDD) is and why it matters for AI-powered development
 - Understand what OpenSpec is and how it helps you build software predictably
 - Set up your development environment and install OpenSpec
-- Create a detailed project plan using the `/opsx:propose` command
+- Create a detailed project plan using the `/opsx-propose` command
 - Review the generated proposal, design, specifications, and tasks
-- Implement your plan using the `/opsx:apply` command to generate code
+- Implement your plan using the `/opsx-apply` command to generate code
 - Test and run your completed Voice Notes web application
-- Finalize and organize your project using the `/opsx:archive` command
+- Finalize and organize your project using the `/opsx-archive` command
 
 ## Understanding SDD and OpenSpec
 
@@ -42,18 +42,23 @@ By the end of this tutorial, you'll know how to:
 Spec-Driven Development (SDD) is a methodology that emphasizes creating clear, structured specifications before writing any code. Instead of jumping straight into coding and hoping everything works out, you first write down exactly what you want to build, how it should behave, and what it should do.
 
 **Why it matters:**
-- **Reduces confusion** — Everyone (including AI) knows exactly what to build
-- **Improves collaboration** — Your specifications become the shared source of truth
+- **Reduces confusion** — Code Studio knows exactly what to build
 - **Better quality** — Clear requirements lead to fewer mistakes and less rework
 
-Unlike traditional approaches where code often becomes the de-facto specification, SDD treats specifications as living documents. You write your requirements in plain English (using Markdown files), and then AI agents generate the implementation based on those specifications.
+Here's the key idea: instead of writing code and hoping it does what you want, you write down what you want first. 
 
 ### What is OpenSpec?
 
-OpenSpec is a structured workflow tool that helps you organize AI-powered development in a predictable way. Think of it as a project manager for working with AI to build software. Instead of letting AI make random changes, OpenSpec keeps everything organized and transparent.
+OpenSpec is a tool built for Spec-Driven Development. It helps you organize your specifications, proposals, designs, and tasks all in one place within your project folder. When you use OpenSpec with Code Studio:
 
+1. **You describe what to build** — Write your app requirements in plain English
+2. **OpenSpec organizes it** — Creates a structured plan (proposal, design, specs, tasks)
+3. **Code Studio builds it** — The AI reads your organized specs and generates the code
 
-For more information about open spec, visit our [Using OpenSpec in Code Studio](/code-studio/tutorials/using-openspec-inside-syncfusion-code) guide.
+Think of OpenSpec as the planning and organization system that makes SDD work smoothly. It keeps everything clear and prevents miscommunication between you and the AI.
+
+For more information about OpenSpec, visit our [Using OpenSpec in Code Studio](/code-studio/tutorials/using-openspec-inside-syncfusion-code) guide.
+
 
 ## Build Your First App in Code Studio
 
@@ -65,7 +70,9 @@ Before building your Voice Notes app, ensure your Code Studio environment is rea
 1. **Create a new workspace**:
    - Create a new folder named `voice-notes-app` on your machine
    - Open Code Studio on your machine
-   - Select the new folder as your workspace in code studio by clicking **File** -> **Open Folder**
+   - Open that 'voice-notes-app'  as your workspace in code studio by clicking **File** -> **Open Folder**
+
+   <img src="../gettingstarted-images/voiceapp-openfolder.png" alt="voice app" />
 
 ### Step 2: Install OpenSpec
 
@@ -79,25 +86,38 @@ Before building your Voice Notes app, ensure your Code Studio environment is rea
    ```
    openspec init
    ```
-   This creates a folder structure to organize your proposal, specification, and design documents.
+   A prompt will appear asking you to select an AI tool. Choose **GitHub Copilot** from the options to connect OpenSpec with Code Studio.
+   
+     <img src="../gettingstarted-images/Extension-Option.png" alt="voice app" />
+
+   This creates an `openspec/` folder in your project. This folder will store all your planning documents — proposals, designs, specifications, and task lists. Think of it as your project's planning hub where everything for SDD stays organized in one place.
 
    <img src="../gettingstarted-images/voiceapp1.png" alt="voice app" />
 
-> **Tip**: If you have UI designs or wireframes for your Voice Notes app, add them to your project folder now. You can reference them later when defining specifications.
+**What folders just got created:**
 
-### Step 3: Create Your Change Plan (Propose)
+When you run `openspec init`, OpenSpec creates these folders in your project:
 
-**What happens in this step:**
-You tell Code Studio's AI what you want to build by describing your Voice Notes app in detail. The AI reads your description and creates a complete project plan for you. This plan includes:
+- **`openspec/specs/`** — Stores your finalized specifications 
+- **`openspec/changes/`** — Stores your **Proposal**, **Design**, and **Tasks** files 
+- **`openspec/config.yaml`** — Settings and configuration file for OpenSpec
+- **`.github/`** — Contains all the skills and prompts that OpenSpec uses to communicate with Code Studio and generate your plans and implement it.
+
+
+   
+
+### Step 3: Create the Project Plan
+
+Now that your environment is set up, you'll create a detailed project plan. This plan helps Code Studio understand exactly what you want to build before writing any code. You describe your app in simple language, and Code Studio generates a structured plan that includes the proposal, design, specifications, and tasks.
+
+To create your project plan, use the `/opsx-propose` command in the Code Studio Chat Panel. Follow the command with a detailed description of what you want to build. Code Studio will read your description and generate:
+
 - A **proposal** explaining what you're building and why
 - A **design** describing how it will work
 - **Specifications** for each part of the app
 - **Tasks** — a checklist of all the work needed
 
-All of these are saved as markdown files you can read and edit.
-
-**How to do it:**
-Type the `/opsx:propose` command in the Code Studio Chat Panel. This command tells Code Studio to start the planning process. Follow it with a detailed description of what you want to build.
+All of these are saved as markdown files in your `openspec/changes/` directory that you can read and edit.
 
 Example prompt:
 
@@ -132,11 +152,7 @@ Out of Scope v1:
 - Export/import, sharing, advanced AI features
 ```
 
-The AI will generate several markdown files in your `openspec/changes/` directory. Open the change folder to review the generated files:
-
-**Understanding What Was Generated:**
-
-The files you see represent OpenSpec's structured approach to planning changes:
+Review the generated files in your `openspec/changes/` directory carefully before proceeding to the next step. You can modify the markdown files directly if needed. These files follow OpenSpec's structured approach:
 
 - **Proposal** — A summary document describing what you want to build
 - **Design** — Technical details about how it will be built
@@ -144,27 +160,19 @@ The files you see represent OpenSpec's structured approach to planning changes:
 - **Specs** — Detailed specifications for each file or component
 - **Change folder** — The directory containing all these files for this specific change
 
-Review these files carefully before proceeding to the next step. You can modify the markdown files directly if needed.
-
    <img src="../gettingstarted-images/voiceapp.gif" alt="voice app" />
 
 ### Step 4: Implement the Plan (Apply)
 
-**What happens in this step:**
-Now that your plan is ready, you tell the AI to start building. The AI reads all the specifications and tasks you approved in Step 3, then writes the actual code for your Voice Notes app. It works through the tasks one by one, creating files and writing code that matches your specifications exactly.
+After you've reviewed and approved your project plan from Step 3, it's time to build the actual application. In this step, Code Studio reads all your specifications and tasks, then automatically writes the code for your Voice Notes app. The AI works through each task one by one, creating files and writing code that matches your plan exactly.
 
-This is where your detailed plan from Step 3 becomes actual working code.
-
-**How to do it:**
-Type the `/opsx:apply` command in the Code Studio Chat Panel. This command tells the AI: "Start building based on my plan." The AI will then begin creating your application.
-
-For example:
+To start the implementation, run the `/opsx-apply` command in the Code Studio Chat Panel:
 
 ```
 /opsx-apply
 ```
 
-The AI will begin executing tasks one by one. You'll see progress updates in the chat as each task completes.
+The AI will begin executing tasks one by one. You'll see progress updates in the chat as each task completes, and files will be generated in your project folder. Your detailed plan from Step 3 is now becoming actual working code.
 
    <img src="../gettingstarted-images/voiceapp-apply.gif" alt="voice app" />
 
@@ -190,27 +198,19 @@ Launching your completed app and verify it works end-to-end:
 
 ### Step 6: Finalize and Organize (Archive)
 
-**What happens in this step:**
-After building and testing your Voice Notes app, it's time to clean up and organize your project. The `/opsx:archive` command moves all your specifications to a main specs folder and archives your working files, keeping everything neat and organized. This is like filing away completed project documents so they don't clutter your workspace.
+Now that your Voice Notes app is built and tested, it's time to organize your project. The archiving step moves your finalized specifications to a permanent location and stores your working files in an archive folder. This keeps your project clean and makes it easy to find your specifications if you want to make changes or build new features later.
 
-Archiving makes it easy to find your specifications later and prepares your project folder for the next feature you want to build.
-
-**How to do it:**
-Type the `/opsx-archive` command in the Code Studio Chat Panel. This command tells Code Studio: "Organize and finalize my work."
-
-For example:
+To finalize and organize your project, run the `/opsx-archive` command in the Code Studio Chat Panel:
 
 ```
-/opsx:archive
+/opsx-archive
 ```
 
-Check your project structure to verify the archiving worked correctly:
+The command updates your project structure as follows:
 
-What you should see:
-
-- Spec files moved to `openspec/specs/` (main specs folder)
-- Change folder archived to `openspec/changes/archive/`
-- Your project is now cleanly organized and ready for the next feature!
+- Spec files moved to `openspec/specs/` (where all finalized specifications are stored)
+- Change folder archived to `openspec/changes/archive/` (keeping your completed work organized)
+- Your project is now clean and ready for the next feature
 
    <img src="../gettingstarted-images/voiceapp-archive.gif" alt="voice app" />
 
