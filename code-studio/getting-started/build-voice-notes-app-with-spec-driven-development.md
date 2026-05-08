@@ -72,7 +72,7 @@ Before building your Voice Notes app, ensure your Code Studio environment is rea
    - Open Code Studio on your machine
    - Open that 'voice-notes-app'  as your workspace in code studio by clicking **File** -> **Open Folder**
 
-   <img src="../gettingstarted-images/voiceapp-openfolder.png" alt="voice app" />
+   <img src="gettingstarted-images/voiceapp-openfolder.png" alt="voice app" />
 
 ### Step 2: Install OpenSpec
 
@@ -88,11 +88,11 @@ Before building your Voice Notes app, ensure your Code Studio environment is rea
    ```
    A prompt will appear asking you to select an AI tool. Choose **GitHub Copilot** from the options to connect OpenSpec with Code Studio.
    
-     <img src="../gettingstarted-images/Extension-Option.png" alt="voice app" />
+     <img src="gettingstarted-images/Extension-Option.png" alt="voice app" />
 
    This creates an `openspec/` folder in your project. This folder will store all your planning documents — proposals, designs, specifications, and task lists. Think of it as your project's planning hub where everything for SDD stays organized in one place.
 
-   <img src="../gettingstarted-images/voiceapp1.png" alt="voice app" />
+   <img src="gettingstarted-images/voiceapp1.png" alt="voice app" />
 
 **What folders just got created:**
 
@@ -160,7 +160,7 @@ Review the generated files in your `openspec/changes/` directory carefully befor
 - **Specs** — Detailed specifications for each file or component
 - **Change folder** — The directory containing all these files for this specific change
 
-   <img src="../gettingstarted-images/voiceapp.gif" alt="voice app" />
+   <img src="gettingstarted-images/voiceapp.gif" alt="voice app" />
 
 ### Step 4: Implement the Plan (Apply)
 
@@ -174,7 +174,7 @@ To start the implementation, run the `/opsx-apply` command in the Code Studio Ch
 
 The AI will begin executing tasks one by one. You'll see progress updates in the chat as each task completes, and files will be generated in your project folder. Your detailed plan from Step 3 is now becoming actual working code.
 
-   <img src="../gettingstarted-images/voiceapp-apply.gif" alt="voice app" />
+   <img src="gettingstarted-images/voiceapp-apply.gif" alt="voice app" />
 
 ### Step 5: Run Your Application
 
@@ -194,7 +194,7 @@ Launching your completed app and verify it works end-to-end:
 
 4. **Celebrate!** You've successfully built an app using Spec-Driven Development.
 
-   <img src="../gettingstarted-images/voiceapp-final.png" alt="voice app" />
+   <img src="gettingstarted-images/voiceapp-final.png" alt="voice app" />
 
 ### Step 6: Finalize and Organize (Archive)
 
@@ -212,7 +212,7 @@ The command updates your project structure as follows:
 - Change folder archived to `openspec/changes/archive/` (keeping your completed work organized)
 - Your project is now clean and ready for the next feature
 
-   <img src="../gettingstarted-images/voiceapp-archive.gif" alt="voice app" />
+   <img src="gettingstarted-images/voiceapp-archive.gif" alt="voice app" />
 
 
 Congratulations! You've successfully built a Voice Notes web app using Spec-Driven Development approach. By following this workflow — planning with detailed specifications, implementing with AI assistance, and organizing your work — you've experienced how SDD makes AI-powered development predictable and maintainable. You can now use this same methodology to build other applications with confidence, knowing that clear specifications lead to better code and fewer surprises.
