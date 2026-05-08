@@ -36,10 +36,10 @@ By the end of this tutorial, you’ll learn how to:
    - **GitHub Account:** Sign in with your GitHub credentials.
    - **Syncfusion Account:** Create a new account using your email and password.
    <img src="gettingstarted-images/loginform.png" alt="install" />
-- Click **Code Studio IDE**.
+- Click **Download Code Studio**.
 <img src="gettingstarted-images/download ide.png" alt="install" />
 
-- Choose your preferred operating system, and then select **Download Code Editor**.
+- Download your preferred operating system.
 <img src="gettingstarted-images/dwnld options.png" alt="install" />
 - The setup file will be downloaded to your local system.
 
