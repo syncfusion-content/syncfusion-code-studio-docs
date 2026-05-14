@@ -50,10 +50,6 @@ Use Custom Instructions when you want to:
     - Performance best practices (avoid nested loops in hot paths, prefer memoization…)
     - Accessibility guidelines (always add alt text, use semantic HTML…)
 
-## Prerequisites
-
-- You must have a project actively opened in Code Studio.
-- You need write access to the project
 
 
 
@@ -101,7 +97,7 @@ You will see three options:
 
 **Step 1:** Open the `codestudio-instructions.md` file.
 
-- Open the chat view. Click the settings option at the top.
+- Open your project in Code studio. Click the settings option at the top in the chat.
 
     <img src="../reference-images/instruction_chat_option.png" alt="instruction_chat_option" >
 

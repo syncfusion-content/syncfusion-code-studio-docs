@@ -19,9 +19,7 @@ Inline Chat in Syncfusion Code Studio is designed to bring AI assistance directl
 
 - Refactoring Existing Code – Select a block of code and request improvements, optimizations. 
 
-## Prerequisites 
 
-- Syncfusion Code Studio installed and configured on your system. If you have not yet downloaded Code Studio, please refer to this link [Install and Configure](/code-studio/getting-started/install-and-configuration) for step-by-step instructions on downloading and configuring Code Studio.
 
 ## Using Inline Chat in the Editor
 When you use Inline Chat inside the editor, Code Studio scopes your request to the content in the active file. It may also use related files in your workspace to provide more accurate suggestions.

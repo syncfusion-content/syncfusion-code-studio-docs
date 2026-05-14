@@ -19,9 +19,7 @@ Global Agent refers to agents.md, an open-source, standardized file format desig
 - Cross-Project Reuse: Allows teams to reuse agents.md  across different projects, speeding up knowledge transfer and reducing duplication.
 
 
-## Prerequisites 
 
-- Syncfusion Code Studio installed and configured on your system. If you have not yet downloaded Code Studio, please refer to this link [Install and Configure](/code-studio/getting-started/install-and-configuration) for step-by-step instructions on downloading and configuring Code Studio.
 
 ## How to Configure Global Agents
 Using Global Agent in Code Studio is straightforward:

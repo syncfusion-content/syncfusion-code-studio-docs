@@ -15,9 +15,7 @@ These examples illustrate how models differ in their reasoning style, response d
 
 For a full list of supported models and side-by-side feature comparisons, see the [Model Comparison](/code-studio/reference/configure-properties/model-comparison) page in the reference section.
 
-## Prerequisites
 
-**Code Studio Installation** - Download and configure the IDE: [Install and Configuration](/code-studio/getting-started/install-and-configuration)
 
 ## What You'll Learn
 

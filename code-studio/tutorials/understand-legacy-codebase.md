@@ -27,7 +27,6 @@ Each approach includes a copy-paste-ready prompt and real examples showing what 
 
 Before You Start, Let's make sure you're all set:
 
-- Syncfusion Code Studio is installed and properly configured on your system. If you have not yet downloaded Code Studio, refer to [Install and Configure](/code-studio/getting-started/install-and-configuration) for step-by-step instructions.
 - A project or folder open in Code Studio to analyze the codebase of that project.
 
 ## What You'll Learn

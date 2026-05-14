@@ -24,12 +24,7 @@ Use this tracking process when:
 - You're deploying LLM-based applications that may generate unpredictable or dynamic usage.
 - You want to optimize prompt efficiency or identify expensive operations.
 
-## Prerequisites
-Ensure the following prerequisites are met before tracking credits and token usage in Code Studio:
-- Syncfusion Code Studio is installed (see the [installation guide](/code-studio/getting-started/install-and-configuration)).
-- You are signed in to Code Studio.
-- You can access the Dashboard from within Code Studio Settings Account tab.
-- The Usage Credits, and Tokens sections are visible on the dashboard.
+
 
 ## Steps to Check Daily Credits and Token Usage
 Follow these steps to view your credits and token usage in Code Studio:

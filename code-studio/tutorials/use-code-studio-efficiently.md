@@ -22,10 +22,6 @@ In this tutorial, you'll discover five powerful ways to work more efficiently wi
 Each approach includes practical examples and real credit-saving techniques. Apply any one of these today and you'll immediately feel the difference.
 
 
-## Before You Start
-
-- **Syncfusion Code Studio installed** and configured. (Need setup help? Visit [Install and Configure](/code-studio/getting-started/install-and-configuration))
-- **Active projects** you're working on (or willing to try these practices on new tasks)
 
 
 

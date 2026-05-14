@@ -20,11 +20,7 @@ Agent Mode is an autonomous AI that plans and executes multi-step coding tasks a
 - Configure scripts, tasks, and settings
 - Prototype simple UIs and pages
 
-## Prerequisites
 
-- Syncfusion Code Studio is installed (see the [installation guide](/code-studio/getting-started/install-and-configuration)).
-- Open a project folder with write access.
-- At least one AI model configured ( BYOK, or local).
 
 ## Agent Capabilities
 

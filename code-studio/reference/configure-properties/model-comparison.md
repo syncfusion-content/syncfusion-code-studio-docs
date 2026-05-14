@@ -13,9 +13,7 @@ Code Studio supports multiple premium AI models, each suited to different kinds 
 
 > **Note:** The models listed in this guide are premium models available in Code Studio. Different models consume different amounts of your usage allowance.
 
-## Prerequisites
 
-**Code Studio Installation** — Download and configure the IDE: [Install and Configuration](/code-studio/getting-started/install-and-configuration)
 
 ## Models by task
 

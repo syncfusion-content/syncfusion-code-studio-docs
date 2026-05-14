@@ -22,7 +22,6 @@ In a few minutes, you'll learn three powerful ways to review your code instantly
 
 Before you start, let's make sure you're all set:
 
-- Syncfusion Code Studio is installed and properly configured on your system. If you have not yet downloaded Code Studio, refer to [Install and Configure](/code-studio/getting-started/install-and-configuration) for step-by-step instructions.
 - A project with [Git](https://git-scm.com/install/?utm_source=copilot.com) initialized. If your project doesn't have Git yet, we'll show you how to set it up in Step 1.
 
 ## What You'll Learn

@@ -19,7 +19,6 @@ Use budget alerts when you want an email notification as soon as spending crosse
 
 ## Prerequisites
 
-- **Code Studio account:** You must have a Code Studio account. If you don’t have one, sign up using the [Getting Started](/code-studio/getting-started/install-and-configuration) guide.
 - **Admin Access:** Can configure alerts and create, edit, and assign budgets.
 - **Team Owners Access:** Can configure alerts, and create, edit, and assign budgets specifically for their team members.
 - **Team Leads and Users Access:** Can only view budgets.

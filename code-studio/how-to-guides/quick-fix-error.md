@@ -20,17 +20,13 @@ Use the Quick Fix feature when:
 - You want AI-powered suggestions to understand and fix code problems.
 - You are working with unfamiliar syntax or language features.
 
-## Prerequisites
 
-Before using Quick Fix, ensure:
-
-- Syncfusion Code Studio is installed and configured. See [Install and Configure](/code-studio/getting-started/install-and-configuration) for setup instructions.
-- A code file with errors is open in the Code Studio editor.
-- The editor has identified and highlighted at least one error in your code.
 
 ## Steps to Fix Error
 
 ### Step 1: Identify the Error
+
+Open your project in Code Studio.
 
 Code Studio automatically highlights errors with:
 

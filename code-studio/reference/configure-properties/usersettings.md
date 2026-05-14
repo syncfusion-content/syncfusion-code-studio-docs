@@ -25,9 +25,7 @@ Settings allow users to tailor the development environment to their individual p
 - You monitor usage/costs or manage credits and subscriptions.
 - You prefer to adjust autocomplete, indexing, or telemetry policies.
 
-## Prerequisites
 
-**Code Studio Installation** - Download and configure the IDE: [Install and Configuration](/code-studio/getting-started/install-and-configuration).
 
 ## How to Access User Settings
 
