@@ -21,10 +21,9 @@ In this tutorial, you will see how vague prompts cause problems and how adding c
 
 Before beginning, ensure:
 
-- Syncfusion Code Studio is installed and properly configured on your system. If you have not yet installed it, see [Install and Configure](/code-studio/getting-started/install-and-configuration).
 - You have a workspace or project folder opened in Code Studio where you can create files.
 - Node.js is installed on your system. You can download it from [nodejs.org](https://nodejs.org/).
-- **Agent** mode is enabled in the chat window. Learn more about [Agent mode](/code-studio/features/agent).
+
 
 ## What You Will Learn
 

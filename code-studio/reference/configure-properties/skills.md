@@ -25,11 +25,7 @@ Use Skills when you need to:
 - Override or supplement default AI behavior for a specific class of tasks.
 - Create portable capabilities that work across different AI tools, not just Code Studio.
 
-## Prerequisites
 
-- Syncfusion Code Studio is installed and running.
-- You have an active chat session open in Code Studio.
-- You have write access to either your personal profile folder or the project repository, depending on where you want to store the Skill.
 
 ## Steps to Create a Skill
 
@@ -44,7 +40,7 @@ Skills are stored in directories with a `SKILL.md` file. Code Studio supports tw
 
 ### Step 1: Open the Skills Menu
 
-Open the chat box and type `/skills` in the chat input.
+Open your project in Code Studio. Open the chat box and type `/skills` in the chat input.
 
 <img src="../reference-images/skills1.png" alt="Open Skills Menu">
 

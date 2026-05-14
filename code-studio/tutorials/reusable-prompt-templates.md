@@ -25,12 +25,7 @@ In this tutorial, you'll learn four different ways to reuse templates in Code St
 
 We will see how to pick the right template type for your problem, and you'll save time.
 
-## Prerequisites
 
-Before You Start, Let's make sure you're all set:
-
-- Syncfusion Code Studio is installed and properly configured on your system. If you have not yet downloaded Code Studio, refer to [Install and Configure](/code-studio/getting-started/install-and-configuration) for step-by-step instructions.
-- A project or folder open in Code Studio. Any project works—we'll be creating prompts regardless of what you're working on.
 
 ## What You'll Learn
 
@@ -50,6 +45,7 @@ By the end of this tutorial, you'll be able to:
 
 **How it works:**
 
+- Open your project in code stuio
 - Save an instruction or query as a Custom Prompt
 - Select your prompt in the chat
 - AI uses that prompt template for your current task

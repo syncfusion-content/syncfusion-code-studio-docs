@@ -13,13 +13,7 @@ Tracking down a bug can take significant time, especially when the root cause is
 
 This tutorial walks you through three approaches to fixing bugs with Code Studio AI: using hover quick fixes for single errors, sending problems from the **Problems panel** as context to the AI agent, and attaching files so the AI understands your broader codebase before suggesting a fix.
 
-## Prerequisites
 
-Before beginning, ensure:
-
-- Syncfusion Code Studio is installed and properly configured on your system. If you have not yet downloaded Code Studio, refer to [Install and Configure](/code-studio/getting-started/install-and-configuration) for step-by-step instructions.
-- Your project is opened in Code Studio with at least one file containing errors or warnings.
-- Agent mode is enabled in the chat window. Learn more about [Agent mode](/code-studio/features/agent).
 
 ## What You Will Learn
 
@@ -37,12 +31,14 @@ By the end of this tutorial, you'll be able to:
 
 Use this approach when you have a single, isolated error to resolve.
 
-1. Move your mouse cursor over any red underlined error in your code. Code Studio AI displays the following options:
+1. Open your project which has errors in Code Studio.
+
+2. Move your mouse cursor over any red underlined error in your code. Code Studio AI displays the following options:
    - **Quick Fix** — Apply an immediate fix for the specific error.
    - **Fix** — Get a detailed AI-generated solution.
    - **View Problem** — See the error details in the **Problems panel**.
 
-2. Click **Quick Fix** to apply the fix instantly.
+3. Click **Quick Fix** to apply the fix instantly.
 
    <img src="./tutorials-images/Error-options.png" alt="Quick Fix options displayed on hover over a red underlined error in the editor" />
 

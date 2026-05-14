@@ -32,7 +32,6 @@ By the end, you'll understand how to build your first project using OpenSpec com
 
 Before beginning, ensure you have the following:
 
-- **Syncfusion Code Studio** installed and properly configured on your system. If you haven't downloaded Code Studio yet, refer to [Install and Configure](/code-studio/getting-started/install-and-configuration) for step-by-step instructions.
 - **A project or folder** opened in Code Studio (you can create an empty test folder if needed).
 - **[Node.js 20](https://nodejs.org/) or higher** installed on your system. OpenSpec runs on top of Node.js, so this is required.
 

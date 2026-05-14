@@ -21,7 +21,6 @@ By the end of this tutorial, you'll have a concrete set of refactoring technique
 
 Before beginning this tutorial, ensure the following:
 
-- Code Studio is installed on your system. If you haven't set it up yet, follow the [Install and Configure](/code-studio/getting-started/install-and-configuration) guide.
 - Basic familiarity with the programming language used in the examples (TypeScript is used throughout, but the techniques apply to JavaScript, Python, and Java as well).
 
 

@@ -21,9 +21,7 @@ The Checkpoints and Editing Requests features in Syncfusion Code Studio provide 
 
 - Quickly restore to a safe state if AI-generated edits or manual changes don’t work as expected 
 
-## Prerequisites 
 
-- Syncfusion Code Studio installed and configured on your system. If you have not yet downloaded Code Studio, please refer to this link [Install and Configure](/code-studio/getting-started/install-and-configuration) for step-by-step instructions on downloading and configuring Code Studio.
 
 ## Editing a Previous Chat Request
 Code Studio allows you to edit any previous chat request in your conversation history. When you modify an earlier request, Code Studio treats it as a new instruction and sends it again to the AI model. The workspace is then reverted to the state it was in before the original request—undoing any file changes made by that request and the requests that came after it.

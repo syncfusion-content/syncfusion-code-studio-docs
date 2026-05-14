@@ -22,9 +22,7 @@ It reduces repetitive work, improves code quality, and provides instant AI assis
 
 It’s like having a **junior developer**, a **senior reviewer**, a **documentation writer**, and a **test engineer — all in one**.
 
-## Prerequisites 
 
-- Syncfusion Code Studio installed and configured on your system. If you have not yet downloaded Code Studio, please refer to this link [Install and Configure](/code-studio/getting-started/install-and-configuration) for step-by-step instructions on downloading and configuring Code Studio.
 
 ## How to Use Generate Code
 
