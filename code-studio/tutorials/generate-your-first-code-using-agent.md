@@ -15,12 +15,6 @@ By the end of this tutorial, you'll be comfortable using Agent mode to make your
 
 For deeper understanding of Agent mode capabilities, check out [Agent](/code-studio/features/agent).
 
-## Prerequisites
-
-Before beginning, ensure:
-
-- Syncfusion Code Studio is installed and properly configured on your system. If you have not yet downloaded Code Studio, refer to [Install and Configure](/code-studio/getting-started/install-and-configuration) for step-by-step instructions.
-- Your project is opened in Code Studio, or you have at least one folder open.
 
 ## What You Will Learn
 

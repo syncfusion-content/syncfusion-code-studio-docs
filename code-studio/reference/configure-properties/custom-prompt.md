@@ -22,18 +22,14 @@ Prompt Files are helpful when you want to:
 - Standardize prompts for your team (e.g., code reviews, documentation)
 - Build a library of reusable workflows
 
-## Prerequisites
-Before creating Prompt Files, make sure you have:
 
-- Syncfusion Code Studio installed and configured (Follow the [Install and Configure](/code-studio/getting-started/install-and-configuration) guide if not yet installed)
-- A project or folder opened in your workspace
 
 
 
 ## Steps to Create and Use Prompt Files
 
 ### Step 1: Open Chat Window
-Open the Code Studio Chat window.
+Open your project in Code Studio. Open the Code Studio Chat window.
 <img src="../reference-images/customprompt1.png" alt="Custom Prompt" />
 
 ### Step 2: Select Prompt Files

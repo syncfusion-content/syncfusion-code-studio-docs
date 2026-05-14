@@ -12,7 +12,7 @@ CodeStudio simplifies software testing by automatically generating test cases fo
 
 ## Prerequisites
 Let's make sure you have everything you need:
-- Syncfusion Code Studio installed and ready to use (If not installed yet, visit the [Install and Configure](/code-studio/getting-started/install-and-configuration) page to download CodeStudio and complete the setup)
+
 - [Node.js](https://nodejs.org/en/download) and npm installed. After installation, open a terminal/command prompt and type **node -v** — if you see a version number, you're set.
 
 ## What You'll Learn

@@ -20,10 +20,7 @@ Use the Plan Agent when you need to:
 * Design architecture for new features or components
 * Validate requirements and identify potential issues early
 
-## Prerequisites
 
-Before you start, make sure you have:
-* Syncfusion Code Studio is installed and configured on your system. If you have not yet downloaded Code Studio, refer to the [Syncfusion Code Studio Install and Configure](/code-studio/getting-started/install-and-configuration).
 
 ## Getting Started with the Plan Feature
 

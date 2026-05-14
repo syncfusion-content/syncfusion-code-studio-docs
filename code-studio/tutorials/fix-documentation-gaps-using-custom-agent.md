@@ -25,7 +25,6 @@ For a deeper understanding of the features used in this tutorial, see [Custom Ag
 
 Before you start, make sure:
 
-- Syncfusion Code Studio is installed and properly configured. If you haven't installed it yet, see [Install and Configure](/code-studio/getting-started/install-and-configuration) for step-by-step instructions.
 
 - Have a project ready to document. For this tutorial, we use the example project [ej2-showcase-react-loan-calculator](https://github.com/syncfusion/ej2-showcase-react-loan-calculator.git).
 

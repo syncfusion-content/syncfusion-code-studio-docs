@@ -29,9 +29,7 @@ This document explains:
 6. Fixing UI or Styling Issues
 7. Solving Errors from the Problems Panel
 
-## Prerequisites 
 
-- Syncfusion Code Studio installed and configured on your system. If you have not yet downloaded Code Studio, please refer to this link [Install and Configure](/code-studio/getting-started/install-and-configuration) for step-by-step instructions on downloading and configuring Code Studio.
 
 ## What “Context” Means
 
