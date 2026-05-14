@@ -31,10 +31,9 @@ Hooks are useful when you need to:
 
 Before you configure hooks, make sure that:
 
-1. You have Syncfusion Code Studio installed and a workspace is open.
-2. You have write access to the workspace.
-3. Agent mode and tool usage are available in your environment.
-4. Familiar with the shell used on your operating system:
+1. Syncfusion Code Studio with a workspace is open and you have write access to the workspace.
+2. Agent mode and tool usage are available in your environment.
+3. Familiar with the shell used on your operating system:
 	 - Windows: PowerShell (`.ps1`)
 	 - macOS/Linux: Bash or another POSIX-compatible shell (`.sh`)
 

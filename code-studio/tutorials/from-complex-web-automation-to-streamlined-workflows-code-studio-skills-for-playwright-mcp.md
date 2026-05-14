@@ -17,7 +17,7 @@ Ready to transform your web testing workflow? In this tutorial, you'll learn how
 
 Before beginning this tutorial, ensure the following:
 
-- Code Studio is installed on your system. If you haven't set it up yet, follow the [Install and Configure](/code-studio/getting-started/install-and-configuration) guide.
+
 - Node.js (v18 or higher) is installed on your system. Playwright requires Node.js to run automation tests. Download from [nodejs.org](https://nodejs.org/) and verify installation with `node --version`.
 
 ## What You Will Learn

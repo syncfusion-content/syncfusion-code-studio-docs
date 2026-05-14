@@ -20,7 +20,6 @@ For more details on the features covered in this tutorial, see [User & Teams Man
 
 Before starting, ensure you have:
 
-- Syncfusion Code Studio is installed and properly configured on your system. If you have not yet downloaded Code Studio, refer to [Install and Configure](/code-studio/getting-started/install-and-configuration) for step-by-step instructions.
 - **Code Studio Enterprise account** — If not set up, see [Enterprise Server Getting Started Guide](/code-studio/enterprise-server/getting-started)
 - **Admin or Team Lead role** — You'll need one of these roles to create teams and invite users
 

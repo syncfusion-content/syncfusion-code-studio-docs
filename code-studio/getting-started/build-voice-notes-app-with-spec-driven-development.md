@@ -122,35 +122,10 @@ All of these are saved as markdown files in your `openspec/changes/` directory t
 Example prompt:
 
 ```
-/opsx-propose
-
-Build a Voice Notes Web App with:
-
-Features:
-- Record voice → auto-transcribe to text (Web Speech API)
-- Search notes by keywords, pin/edit/delete notes
-- Optional AI enhancement (GPT-4.1 via OpenRouter)
-- Settings: theme (Light/Dark/System), font size
-
-Pages: Auth (signup/signin), Onboarding (4-slide carousel), Dashboard (search + note grid), Voice Recorder, Note Editor, Settings
-
-Tech Stack:
-- React 18 + TypeScript, Vite
-- Syncfusion React Components
-- SQLite (sql.js) + IndexedDB persistence
-- Web Speech API (Chrome/Edge preferred)
-
-Key Requirements:
-- Client-side only, no backend/server
-- Local-first storage in browser
-- Auto-save after 2s inactivity
-- Responsive: mobile-first (768px tablet, 1024px desktop)
-- CRITICAL: Voice audio NOT stored, only transcribed text
-
-Out of Scope v1:
-- Cloud sync/backup, audio editing, multiple languages
-- Export/import, sharing, advanced AI features
+/opsx-propose Create a proposal for a Voice Notes Web App.
 ```
+
+> **Note:** In your proposal, you can include features, tech stack, design requirements, and constraints. . You can refer the complete requirement we defined for voice notes app [here](https://github.com/syncfusion/ai-spec-driven-dev-guide/blob/master/REQUIREMENTS.md).
 
 Review the generated files in your `openspec/changes/` directory carefully before proceeding to the next step. You can modify the markdown files directly if needed. These files follow OpenSpec's structured approach:
 
@@ -216,3 +191,5 @@ The command updates your project structure as follows:
 
 
 Congratulations! You've successfully built a Voice Notes web app using Spec-Driven Development approach. By following this workflow — planning with detailed specifications, implementing with AI assistance, and organizing your work — you've experienced how SDD makes AI-powered development predictable and maintainable. You can now use this same methodology to build other applications with confidence, knowing that clear specifications lead to better code and fewer surprises.
+
+You can get the entire app reference with openspec archives from the [location](https://github.com/syncfusion/ai-spec-driven-dev-guide/tree/master/openspec/specs).

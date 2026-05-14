@@ -33,9 +33,7 @@ Next Edit Suggestions help predict and guide your next change.
 5. Sequential Edits Across Code
 When performing multi‑step updates—like renaming, refactoring, or modifying patterns—Code Studio highlights and suggests the next best edit to maintain flow.
 
-## Prerequisites 
 
-- Syncfusion Code Studio installed and configured on your system. If you have not yet downloaded Code Studio, please refer to this link [Install and Configure](/code-studio/getting-started/install-and-configuration) for step-by-step instructions on downloading and configuring Code Studio.
 
 ## How Autocomplete Works
 ## Inline Suggestion

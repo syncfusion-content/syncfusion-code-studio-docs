@@ -25,15 +25,7 @@ In this tutorial, you'll configure a **Pre-Tool Use** hook that blocks any tool 
 
 > **Note:** The hook script in this tutorial is written in PowerShell for Windows. If you are on macOS or Linux, you will need to adapt the script to Bash or another shell available on your system.
 
-## Prerequisites
 
-Before you begin, make sure:
-
-- Syncfusion Code Studio is installed and properly configured. If you haven't installed it yet, see [Install and Configure](/code-studio/getting-started/install-and-configuration) for step-by-step instructions.
-- **Agent Mode** and tools are enabled for your workspace.
-- Basic familiarity with running scripts:
-  - PowerShell on Windows.
-  - Bash (or another shell) on macOS or Linux.
 
 ## What You Will Learn
 

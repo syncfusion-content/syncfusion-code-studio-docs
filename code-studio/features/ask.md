@@ -20,9 +20,7 @@ Ask Mode is a conversational interface within Code Studio that provides immediat
 - **Concept Explanations** - Understand design patterns, framework architectures, or language features through concise technical summaries
 - **Non-Invasive Exploration** - Test ideas and validate logic without workspace file modifications or context dependencies
 
-## Prerequisites
 
-**Code Studio Installation** - Download and configure the IDE: [Install and Configuration](/code-studio/getting-started/install-and-configuration)
 
 ## How to Use Ask Mode 
 

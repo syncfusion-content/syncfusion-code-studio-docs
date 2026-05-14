@@ -36,8 +36,7 @@ The tools are designed to automate and simplify common development tasks, allowi
 
 ## Prerequisites
 
-1. **Code Studio Installation** - Download and configure the IDE: [Install and Configuration](/code-studio/getting-started/install-and-configuration)
-2. **For MCP Tools** - MCP servers must be installed and configured before they can be used. See [MCP Marketplace](/code-studio/reference/configure-properties/mcp/marketplace) for installation instructions.
+1. **For MCP Tools** - MCP servers must be installed and configured before they can be used. See [MCP Marketplace](/code-studio/reference/configure-properties/mcp/marketplace) for installation instructions.
 
 ## Types of Tools
 
