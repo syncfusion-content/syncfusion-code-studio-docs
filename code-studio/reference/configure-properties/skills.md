@@ -107,23 +107,6 @@ Each Skill is defined by a `SKILL.md` file consisting of a YAML frontmatter head
 | `name`        | Yes      | Unique identifier for the Skill, used in slash commands. Must be lowercase with hyphens (for example, `documentation`). **Must match the parent directory name.** Maximum 64 characters.          |
 | `description` | Yes      | Description of what the Skill does and when to use it. Be specific about both capabilities and use cases so Code Studio can decide when to load the Skill automatically. Maximum 1024 characters. |
 
-### Header (Optional)
-
-| Field                      | Description                                                                                                                                                                                             |
-| -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `argument-hint`            | Hint text shown in the chat input field when the Skill is invoked as a slash command. Helps users understand what additional information to provide (for example, `[doc file] [section]`).              |
-| `user-invocable`           | Controls whether the Skill appears as a slash command in the chat menu. Defaults to `true`. Set to `false` to hide the Skill from the `/` menu while still allowing the agent to load it automatically. |
-| `disable-model-invocation` | Controls whether the agent can automatically load the Skill based on relevance. Defaults to `false`. Set to `true` to require manual invocation through the `/` slash command only.                     |
-
-Use these properties together to control Skill access:
-
-| Configuration                    | Appears in `/` menu | Auto-loaded by agent | Best for                                                  |
-| -------------------------------- | ------------------- | -------------------- | --------------------------------------------------------- |
-| Both omitted (default)           | Yes                 | Yes                  | General-purpose Skills                                    |
-| `user-invocable: false`          | No                  | Yes                  | Background knowledge Skills the model loads when relevant |
-| `disable-model-invocation: true` | Yes                 | No                   | Skills you only want to run on demand                     |
-| Both set                         | No                  | No                   | Disabled Skills                                           |
-
 ### Body
 
 The body contains free-form Markdown with the instructions, guidelines, and examples Code Studio follows when using the Skill. Include:
