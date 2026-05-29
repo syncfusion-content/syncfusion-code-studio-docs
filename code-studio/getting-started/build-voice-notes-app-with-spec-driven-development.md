@@ -14,6 +14,8 @@ Ready to build your first app? In this guide, you'll create a **Voice Notes web 
 
 You'll move from idea to working application by following **Spec-Driven Development (SDD)** — a beginner-friendly approach where you describe what you want to build, and Code Studio generates the code for you. No complex setup. No guesswork. Just clear instructions and working code.
 
+<img src="gettingstarted-images/gif-firstapp.gif" alt="voice app" />
+
 ## Prerequisites
 
 Before getting started, make sure that:
@@ -106,6 +108,8 @@ When you run `openspec init`, OpenSpec creates these folders in your project:
 
    
 
+> **Note:** Beyond this tutorial's main workflow, OpenSpec offers many other commands for advanced use cases such as verification, creating new change folders, and more. For a complete list of available commands and their usage, refer to the [OpenSpec official documentation](https://github.com/Fission-AI/OpenSpec/blob/main/docs/commands.md).
+
 ### Step 3: Create the Project Plan
 
 Now that your environment is set up, you'll create a detailed project plan. This plan helps Code Studio understand exactly what you want to build before writing any code. You describe your app in simple language, and Code Studio generates a structured plan that includes the proposal, design, specifications, and tasks.
@@ -192,4 +196,4 @@ The command updates your project structure as follows:
 
 Congratulations! You've successfully built a Voice Notes web app using Spec-Driven Development approach. By following this workflow — planning with detailed specifications, implementing with AI assistance, and organizing your work — you've experienced how SDD makes AI-powered development predictable and maintainable. You can now use this same methodology to build other applications with confidence, knowing that clear specifications lead to better code and fewer surprises.
 
-You can get the entire app reference with openspec archives from the [location](https://github.com/syncfusion/ai-spec-driven-dev-guide/tree/master/openspec/specs).
+You can get the entire app reference with openspec archives from the [location](https://github.com/syncfusion/ai-spec-driven-dev-guide/tree/master).
