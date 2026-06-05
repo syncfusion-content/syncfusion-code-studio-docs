@@ -142,7 +142,7 @@ Ideal for scaffolding features, refactoring modules, or managing structured work
 -  Inline Chat allows localized edits directly next to your code.  
 - Highlight text and ask for improvements, optimizations, or rewrites without switching views.
 
-**For Example:**   Select a loop and ask, *“Optimize this for better performance.”*  
+**For Example:**   Select the code and ask, *“Optimize this for better performance.”*  
 You’ll see improved code inline with **Accept** and **Dismiss** options.
 
 <img src="gettingstarted-images/inlineChat.png" alt="InlineChat" />
