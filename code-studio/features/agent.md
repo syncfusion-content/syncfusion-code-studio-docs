@@ -52,7 +52,7 @@ Agent Mode is an autonomous AI that plans and executes multi-step coding tasks a
 
 **Step 1** : Open settings and select Code Studio settings.
 
-<img src="./feature-images/codeStudioSettings.png" alt="Code Studio Settings" />
+<img src="./feature-images/auto-configure1.png" alt="Code Studio Settings" />
 
 
 **Step 2** : Select Agents in sidebar list items and Enable agent mode.
