@@ -164,7 +164,7 @@ Next, you will create a hook that runs **before** any tool is executed.
 
   <img src="./tutorials-images/enhance-security-with-hooks-hooks-menu.png" alt="Agent Customizations option selected from the Chat Panel settings menu" />
 
-2. click the **Hook** in the **agent customizations** ,then click the the generate hooks drop down then click the **configure hooks**
+2. Click the **Hook** in the **agent customizations** ,then click the the generate hooks drop down then click the **configure hooks**
 
   <img src="./tutorials-images/enhance-security-with-hooks-configuration.png" alt="Hook configuration selected from the agent customization" />
 
