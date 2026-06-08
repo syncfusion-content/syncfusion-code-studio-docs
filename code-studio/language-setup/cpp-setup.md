@@ -113,7 +113,7 @@ With the compiler installed, the next step is to set up Code Studio to work seam
 
 > **Why Not Use Microsoft's C/C++ Extension?**
 >
-> Syncfusion Code Studio is a fork of Visual Studio Code with enhanced AI capabilities. Like other VS Code forks (such as Cursor), Code Studio cannot use certain Microsoft proprietary extensions due to licensing restrictions. 
+> Syncfusion Code Studio is a fork of Visual Studio Code with enhanced AI capabilities. Code Studio cannot use certain Microsoft proprietary extensions due to licensing restrictions. 
 >
 > Microsoft's C/C++ extension (`ms-vscode.cpptools`) is only licensed for use in official VS Code builds. Attempting to install it in Code Studio will result in errors or the extension simply won't function.
 >
