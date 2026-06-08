@@ -143,6 +143,26 @@ Select your preferred location → click **Continue**.
 - Choose **CodeReview** from the list of agents.
 - Make your changes and save.
 
+## Agent Scoped Hooks
+
+Agent-scoped hooks let you attach automated lifecycle commands directly to a custom agent. Unlike workspace-level hooks that run for all agents, agent-scoped hooks run only when that specific agent is active — either selected manually or invoked as a subagent. This keeps your automation isolated and precisely targeted to the agent's purpose.
+
+### Common Use Cases
+- Auto-format code after every file edit the agent makes
+- Block unsafe tool calls specific to this agent's task scope
+- Inject project context when the agent session starts
+- Run tests automatically after code changes
+
+### How to Add Agent-Scoped Hooks
+- Add a **hooks** field to the YAML frontmatter of your `.agent.md` file, using the same event names and command structure as workspace-level hooks.
+ 
+  <img src="../reference-images/agent-scoped-hooks.png" alt="agent_configure_chat" />
+
+- Agent-scoped hooks run **in addition to** any workspace or user-level hooks configured for the same event — they do not replace them.
+
+> **Note:**  
+> For full details on lifecycle events, command properties, input/output format, and troubleshooting, see the **Hooks documentation**.
+
 ## Predefined Agents
 
 For a quick start, explore our public repository of predefined agent templates. The catalog is updated regularly—check the repo for the latest additions.

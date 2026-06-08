@@ -38,7 +38,7 @@ Edit Mode is an AI-powered feature in Syncfusion Code Studio that helps develope
 
 **Step 5** : If your instruction involves additional files – for example, editing helper functions, updating shared components, or modifying logic across modules—you can include those files by clicking “+”. This option allows you to provide more context so the AI understands how different files relate to your request.
 
-<img src="./feature-images/addContext.png" alt="Chat Input" />
+
 
 **Step 6** : After clicking “+”, choose the files you want the AI to refer to or modify.
 
