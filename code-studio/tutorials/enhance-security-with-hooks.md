@@ -160,21 +160,25 @@ At a high level, this script:
 
 Next, you will create a hook that runs **before** any tool is executed.
 
-1. Click the settings icon (**Configure Chat**) in the **Chat Panel**, then select **Hooks** from the menu.
+1. Click the settings icon (**Configure Chat**) in the **Chat Panel**, then select **agent customizations** from the menu.
 
-  <img src="./tutorials-images/enhance-security-with-hooks-hooks-menu.png" alt="Hooks option selected from the Chat Panel settings menu" />
+  <img src="./tutorials-images/enhance-security-with-hooks-hooks-menu.png" alt="Agent Customizations option selected from the Chat Panel settings menu" />
 
-2. When prompted for the life cycle event type, select **Pre-Tool Use**.
+2. Click the **Hook** in the **agent customizations** ,then click the the generate hooks drop down then click the **configure hooks**
+
+  <img src="./tutorials-images/enhance-security-with-hooks-configuration.png" alt="Hook configuration selected from the agent customization" />
+
+3. When prompted for the life cycle event type, select **Pre-Tool Use**.
 
   <img src="./tutorials-images/enhance-security-with-hooks-pretooluse-event.png" alt="Pre-Tool Use event selected while creating a new hook" />
 
-3. Enter a descriptive name for your hook, such as **BlockEnvFileAccess**.
+4. Enter a descriptive name for your hook, such as **BlockEnvFileAccess**.
 
   <img src="./tutorials-images/enhance-security-with-hooks-blockenvfileaccess-hook.png" alt="New hook named BlockEnvFileAccess shown in the Hooks list" />
 
-4. Code Studio scaffolds the necessary hook configuration, typically under a folder such as `.codestudio/hooks/`.
+5. Code Studio scaffolds the necessary hook configuration, typically under a folder such as `.codestudio/hooks/`.
 
-  <img src="./tutorials-images/enhance-security-with-hooks-blockenvfileaccesshook-hook.png" alt="BlockEnvFileAccess hook entry created in the .codestudio hooks folder" />
+  <img src="./tutorials-images/.png" alt="BlockEnvFileAccess hook entry created in the .codestudio hoenhance-security-with-hooks-blockenvfileaccesshook-hookoks folder" />
 
 > **Note:** The exact filename and folder may differ slightly depending on your configuration, but the file will be associated with the **Pre-Tool Use** event you selected.
 
