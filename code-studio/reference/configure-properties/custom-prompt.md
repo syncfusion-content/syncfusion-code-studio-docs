@@ -33,11 +33,12 @@ Open your project in Code Studio. Open the Code Studio Chat window.
 <img src="../reference-images/customprompt1.png" alt="Custom Prompt" />
 
 ### Step 2: Select Prompt Files
-Click the Settings button at the top. In the menu, choose **Prompt Files**.
+Click the Settings button at the top. In the menu, choose **Agent Customizations**.
+
 <img src="../reference-images/customprompt2.png" alt="Custom Prompt" />
 
 ### Step 3: Create a New Prompt File
-Click **New Prompt File**. You’ll see two storage options:
+Click **Generate Prompt**. You’ll see two storage options:
 
 - **ProjectSpecific (.codestudio/prompts)** → stored in the current project folder, usable only in that project
 - **Global (User Data)** → stored globally, usable across any project
@@ -47,7 +48,8 @@ Creation steps (same for both):
 - Enter a name for your prompt file and click Enter.
 - Then in the created prompt file, choose the mode (you can choose which mode to use; default is agent, but you can switch to ask, edit, plan)
 - Add guidelines or instructions that AI should follow.
-<img src="../reference-images/prompt3.gif" alt="Custom Prompt" />
+
+<img src="../reference-images/prompts3.gif" alt="Custom Prompt" />
 
 ### Step 4: Use Your Prompt File
 - Open the Chat window

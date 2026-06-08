@@ -186,7 +186,7 @@ Step 4: Review the Terms and Conditions, then click Accept and proceed.
 
 **Step 1** : Click the Syncfusion Code Studio icon. The chat window is displayed.
 
-<img src="../../reference-images/tools2.png" alt="Tools" >
+<img src="../../reference-images/codestudioIcon.png" alt="Tools" >
 
 **Step 2**: Select the Agent in the chat window.
 

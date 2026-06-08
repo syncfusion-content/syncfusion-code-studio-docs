@@ -75,7 +75,7 @@ Before installing MCP servers from the marketplace, ensure that:
 - If you have a globally installed server and want to download the same server for the current workspace, click the manage icon next to the global server in the **Installed** tab and select **Download for Workspace**.
 - After installing the workspace server from the installed global server, the global server will automatically disconnect.
 
-   <img src="../../reference-images/global-workspace-gif.gif" alt="marketplace" >
+   <img src="../../reference-images/global-workspace.gif" alt="marketplace" >
 
   > **Note:** You can verify that a server is installed for the workspace by checking for the file icon displayed next to the server name icon.
 
