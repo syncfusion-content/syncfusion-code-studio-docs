@@ -1,3 +1,13 @@
+---
+title: Chronicle - Effortless Coding History and Productivity Insights in Code Studio
+description: Discover how Chronicle in Syncfusion Code Studio tracks your coding history, provides standup summaries, and delivers personalized productivity tips to enhance your workflow.
+platform: syncfusion-code-studio
+keywords: chronicle, coding-history, productivity-tips, standup-report, workflow-analysis, code-studio
+---
+
+
+
+
 # Chronicle
 
 ## Overview
@@ -54,3 +64,4 @@ By the end of this tutorial, you’ll be able to:
 - Use **Autocomplete** to catch errors as you type and reduce bugs before they occur.
 - Explore **Agent mode** for generating and fixing code autonomously across your project.
 - Use the **Ask feature** to have the AI explain error messages and suggest solutions in detail.
+ 
