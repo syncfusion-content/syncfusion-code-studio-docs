@@ -78,7 +78,7 @@ Refer the ollama's official documentation below to download and install Ollama o
 
 - Make sure you enable the `Show in the chat model picker` icon in front of the model name to make it appear in the model dropdown.
 
-  <img src="./howtoguide-images/OllamaToggle.png" alt="configure open source models">
+  <img src="./howtoguide-images/OllamaToggle.gif" alt="configure open source models">
 
 - The selected Ollama model will now automatically appear in the main **model dropdown** under the **Other Models** section and you can start using it right away.
 
