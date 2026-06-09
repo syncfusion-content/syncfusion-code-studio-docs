@@ -172,13 +172,14 @@ Next, you will create a hook that runs **before** any tool is executed.
 
   <img src="./tutorials-images/enhance-security-with-hooks-pretooluse-event.png" alt="Pre-Tool Use event selected while creating a new hook" />
 
-4. Enter a descriptive name for your hook, such as **BlockEnvFileAccess**.
+4. Choose where to store the hook files. Select or enter the folder path `./.codestudio/hooks/` so Code Studio places hook scripts and configuration in the project-scoped hooks directory.
+
+5. Enter a descriptive name for your hook, such as **BlockEnvFileAccess**.
 
   <img src="./tutorials-images/enhance-security-with-hooks-blockenvfileaccess-hook.png" alt="New hook named BlockEnvFileAccess shown in the Hooks list" />
 
-5. Code Studio scaffolds the necessary hook configuration, typically under a folder such as `.codestudio/hooks/`.
+6. Code Studio scaffolds the necessary hook configuration, typically under a folder such as `.codestudio/hooks/`.
 
-  <img src="./tutorials-images/.png" alt="BlockEnvFileAccess hook entry created in the .codestudio hoenhance-security-with-hooks-blockenvfileaccesshook-hookoks folder" />
 
 > **Note:** The exact filename and folder may differ slightly depending on your configuration, but the file will be associated with the **Pre-Tool Use** event you selected.
 
