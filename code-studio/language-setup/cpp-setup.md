@@ -315,12 +315,12 @@ Debugging is where Code Studio truly shines. Let's walk through setting breakpoi
 
 ## Next Steps
 
-Congratulations! 🎉 Your C++ development environment is now fully configured in Syncfusion Code Studio. Here's what you can explore next:
+Congratulations! Your C++ development environment is now fully configured in Syncfusion Code Studio. Here's what you can explore next:
 
-- **Build Real Projects:** Start developing C++ applications with full debugging support
-- **Leverage AI Features:** Use Code Studio's autocomplete, code explanation, and refactoring capabilities to speed up development
-- **Explore Agent Mode:** For complex multi-file projects, try Agent mode for advanced refactoring and architectural improvements
-- **Learn More:** Check out the [Code Studio documentation](/code-studio/getting-started/overview) for additional features and tips
+- **Build Real Projects:** Start developing C++ applications with full debugging support - see [tutorials](/code-studio/tutorials/generate-your-first-code-using-agent) to get started
+- **Leverage AI Features:** Use Code Studio's [autocomplete](/code-studio/features/autocomplete), [code explanation](/code-studio/features/ask), and refactoring capabilities to speed up development
+- **Explore Agent Mode:** For complex multi-file projects, try [Agent mode](/code-studio/features/agent) for advanced refactoring and architectural improvements
+- **Learn More:** Check out the [Quick Start Guide](/code-studio/getting-started/quick-start) and [features overview](/code-studio/features/generatecode) for additional capabilities
 
 ## Troubleshooting
 
