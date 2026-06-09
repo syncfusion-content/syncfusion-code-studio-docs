@@ -60,14 +60,14 @@ When to use these modes:
 
 - Open the Chat view in Code Studio and find the permissions dropdown at the Chat below, you will see the current permission level displayed.
 
-    <img src="tutorials-images/chat.png" alt="Code generation demo" />
+    <img src="./tutorials-images/chat.png" alt="Code generation demo" />
 
 - Click the permissions picker to reveal all three available options. Each option displays:
 
-    <img src="tutorials-images/chat-list.png" alt="Code generation demo" />
+    <img src="./tutorials-images/chat-list.png" alt="Code generation demo" />
 
 - Click the permission level you want to use. A confirmation dialog appears the first time you select Bypass Approvals or Autopilot. Review the warning dialog, this confirms you understand the security implications of your choice. 
-    <img src="tutorials-images/bypass-warning.png" alt="Code generation demo"/>
+    <img src="./tutorials-images/bypass-warning.png" alt="Code generation demo"/>
 
 - Click "Enable” to proceed. The Chat view updates to show your new permission level.
 
@@ -83,7 +83,7 @@ When to use these modes:
 - The agent signals completion by calling the `task_complete` tool, which ends the autonomous iteration and returns control to you.
 - Review the work, Files created or modified, terminal output and logs shown in the Chat view, Whether the results match your original request.
 
-<img src="tutorials-images/bypass-approval.gif" alt="Code generation demo" />
+<img src="./tutorials-images/bypass-approval.gif" alt="Code generation demo" />
 
 ## What's Next
 - Agent Debug Log — provides detailed visibility into Autopilot’s tool calls and prompts.
