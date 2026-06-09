@@ -234,7 +234,7 @@ Debugging is where Code Studio truly shines. Let's walk through setting up debug
 
 ## Next Steps
 
-Congratulations! Your Go development environment is now fully configured in Syncfusion Code Studio. Here's what you can explore next:
+Now that Your Go development environment is now fully configured in Syncfusion Code Studio. Here's what you can explore next:
 
 - **Build Real Projects:** Start developing Go applications with full debugging support - see [tutorials](/code-studio/tutorials/generate-your-first-code-using-agent) to get started
 - **Leverage AI Features:** Use Code Studio's [autocomplete](/code-studio/features/autocomplete), [code explanation](/code-studio/features/ask), and refactoring capabilities to speed up development
