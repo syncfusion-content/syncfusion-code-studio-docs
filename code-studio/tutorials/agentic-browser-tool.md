@@ -1,3 +1,10 @@
+---
+title: Agentic Browser Tool
+description: Learn about how Agentic Browser Tool used in code studio
+platform: syncfusion-code-studio
+keywords: AI agent, code studio, testing, ui-intergation, Bug detection
+---
+
 # Agentic Browser Tool Overview
 
 In this tutorial, you’ll learn how to use Agentic Browser Tools to build and test web applications with AI assistance. These tools allow the agent to interact directly with a built-in browser, enabling real-time testing and validation.
@@ -70,5 +77,5 @@ If any issues are detected, the agent can:
 
 ## What’s Next
 
-- https://help.syncfusion.com/code-studio/features/agent – Discover advanced workflows and capabilities of the agent  
-- https://help.syncfusion.com/code-studio/reference/configure-properties/custom-agents – Establish clear rules and instructions for consistent and constrained behavior  
+- [Agent](https://help.syncfusion.com/code-studio/features/agent) – Discover advanced workflows and capabilities of the agent  
+- [Custom Agent](https://help.syncfusion.com/code-studio/reference/configure-properties/custom-agents) – Establish clear rules and instructions for consistent and constrained behavior  
