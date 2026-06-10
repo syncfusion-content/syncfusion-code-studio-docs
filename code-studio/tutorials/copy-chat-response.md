@@ -1,3 +1,10 @@
+---
+title: Copy Final Response in Chat
+description: Learn about how to copy final response in chat used in code studio
+platform: syncfusion-code-studio
+keywords: chat view, agent output, full conversation, final response
+---
+
 # Copy Final Response in Chat
 
 ## Overview
@@ -46,3 +53,6 @@ Navigate to the Chat view in your editor where the agent responses are displayed
 - This will copy only the final formatted output  
 <img src="../tutorials/tutorials-images/copy_final_response.png">
 ---
+
+### What's Next
+- https://help.syncfusion.com/code-studio/features/agent – Explore advanced workflows and capabilities of the agent  
