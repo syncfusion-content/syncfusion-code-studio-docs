@@ -23,14 +23,10 @@ By completing this tutorial, you will be able to:
 - Access and reference previous chat sessions using the `/troubleshoot` command 
 - Analyze agent debug logs to identify issues with: 
 
-- Custom instructions, agent skills, prompts, and hooks are ignored or not applied
-
-- Slow response times and performance  
-
-- Tools not being invoked as expected  and interpret debug log information to diagnose common chat issues 
-
-- Attach sessions as context using the Add Context menu 
-
+    - Custom instructions, agent skills, prompts, and hooks are ignored or not applied
+    - Slow response times and performance  
+    - Tools not being invoked as expected  and interpret debug log information to diagnose common chat issues
+    - Attach sessions as context using the Add Context menu 
 
 ## Steps to Troubleshoot Previous Sessions 
 
@@ -84,8 +80,7 @@ Once you submit your troubleshooting query, Code Studio will analyze the debug l
 
 The troubleshoot skill will parse agent debug logs and return insights which tool calls ran, where custom instructions were ignored, or latency sources. Use these insights to adjust settings or reproduce the issue if needed. 
 
-<img src="./tutorials-images/troubleshoot-previous-session.gif" alt="Troubleshoot Previous session with Agent Debug log" />
-
+<img src="./tutorials-images/troubleshoot.gif" alt="Troubleshoot Previous session with Agent Debug log" />
 
 ## What's Next 
 
