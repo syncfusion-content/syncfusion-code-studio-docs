@@ -11,7 +11,7 @@ keywords: terminal-tools, background-terminal, notifications, automation, agent,
 # Terminal Tools Improvements for Background Sessions
 
 ## Overview
-When the Code Studio agent runs terminal commands, those commands sometimes move to the background, either because they are long-running tasks or because a foreground terminal timed out. Previously, the agent could only read the output of those background terminals but could not interact with them. This meant that if a background terminal was waiting for a password, a confirmation, or any other input, the agent was stuck.
+When the Code Studio agent runs terminal commands, those commands sometimes move to the background, either because they are long-running tasks or because a foreground terminal timed out. In versions prior to 2.0.4, the agent could only read the output of those background terminals but could not interact with them. This meant that if a background terminal was waiting for a password, a confirmation, or any other input, the agent was stuck. Starting from version 2.0.4, this limitation has been resolved.
 
 This solves that problem with two key improvements:
 1. **Send input to background terminals**: The agent can now send input directly to a background terminal, not just read from it.

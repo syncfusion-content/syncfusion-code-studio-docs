@@ -43,15 +43,15 @@ Follow these steps to find available agent plugins:
 
 - Select the **settings** icon in the Extensions sidebar and choose **Agent Customizations**. 
 
-    <img src="./feature-images/settings-page.png" alt="Setting Page"  />
+    <img src="../reference-images/settings-page-plugin.png" alt="new_Custom_Agent" />
 
 - Select Plugins from the left menu, then click Browse Marketplace to view the list of agent plugins available
 
-    <img src="./feature-images/agent-plugin.png" alt="Agent Plugin"  />
+    <img src="../reference-images/agent-plugin.png" alt="new_Custom_Agent" />
 
 - Browse the available plugins from your configured marketplaces. 
-    
-    <img src="./feature-images/plugins-list.png" alt="Agent Plugin"  />
+
+    <img src="../reference-images/plugins-list.png" alt="Plugin List" />
 
 - Review each plugin's description, author information, and version number before installation. 
 
@@ -65,7 +65,7 @@ To install a plugin from a marketplace:
 
 - Code Studio automatically downloads and registers the plugin. 
 
-<img src="./feature-images/Gif/agent-plugin.gif" alt="Agent Plugin"  />
+<img src="../reference-images/agent-plugin.gif" alt="Plugin List" />
 
 #### Option 2: Install from a Git Repository 
 
@@ -75,11 +75,11 @@ To install a plugin that is not available in a marketplace:
 
 - Run the command **Chat: Install Plugin From Source**. 
 
-- <img src="./feature-images/git-plugin.png" alt="Agent Plugin"  />
+    <img src="../reference-images/git-plugin.png" alt="Plugin List" />
 
 - Enter the Git repository UL (for example, `https://github.com/yourorg/custom-plugin`). 
 
-    <img src="./feature-images/git-plugin-custom.png" alt="Agent Plugin"  />
+    <img src="../reference-images/git-plugin-custom.png" alt="Plugin List" />
 
 - Code Studio automatically clones the repository and installs the plugin. 
 
@@ -91,15 +91,11 @@ To manage your installed plugins:
 
 2. From this view, you can perform the following actions: 
 
-   - View all installed plugins and their metadata. 
+    - View all installed plugins and their metadata. 
+    - Enable or disable plugins globally or per-workspace. 
+    - Uninstall plugins that you no longer need. Check for available updates. 
 
-   - Enable or disable plugins globally or per-workspace. 
-
-   - Uninstall plugins that you no longer need. 
-
-   - Check for available updates. 
-
-<img src="./feature-images/agent-plugin-extension.png" alt="Agent Plugin"  />
+    <img src="../reference-images/agent-plugin-extension.png" alt="Plugin List" />
 
 ### Step 4: Update Plugins 
 
@@ -108,8 +104,6 @@ Code Studio provides two methods to check for plugin updates:
 - **Automatic Updates**: Code Studio checks for updates automatically every 24 hours if the `extensions.autoUpdate` setting is enabled. 
 
 - **On-Demand Updates**: Press `Ctrl+Shift+P` (or `Cmd+Shift+P` on macOS) and run **Extensions: Check for Extension Updates**. 
-
- 
 
 ### Managing Plugin State 
 
@@ -120,7 +114,8 @@ To enable or disable a plugin:
 - Navigate to **Agent Plugins - Installed**. 
 
 - Right-click the plugin you want to manage and select **Enable** or **Disable**. 
-<img src="./feature-images/agent-plugin-extension-disable.png" alt="Agent Plugin"  /> 
+
+    <img src="../reference-images/agent-plugin-extension-disable.png" alt="Plugin List" />
 
 **Effects of Disabling a Plugin** 
 
@@ -161,7 +156,7 @@ After installation, you will notice the new plugin capabilities in the following
 
 - **Slash Commands**: New slash commands (for example, `/analyze` or `/format`) work immediately when you type them in chat. 
 
-<img src="./feature-images/Gif/agent-plugin-gif.gif" alt="Agent Plugin"  />
+    <img src="../reference-images/agent-plugin-gif.gif" alt="Plugin List" />
 
 ### Essential Best Practices 
 
