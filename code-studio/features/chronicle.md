@@ -1,67 +1,69 @@
----
-title: Chronicle - Effortless Coding History and Productivity Insights in Code Studio
+﻿---
+title: Chronicle - Coding History and Productivity Insights in Code Studio
 description: Discover how Chronicle in Syncfusion Code Studio tracks your coding history, provides standup summaries, and delivers personalized productivity tips to enhance your workflow.
 platform: syncfusion-code-studio
 keywords: chronicle, coding-history, productivity-tips, standup-report, workflow-analysis, code-studio
 ---
 
 
-
-
-# Chronicle Coding History and Productivity Insights in Code Studio
+# Chronicle
 
 ## Overview
-Chronicle is a handy feature in Syncfusion Code Studio that keeps a detailed history of everything you do in your workspace. It records your changes, actions, and even the context around them for your coding, so you can review, retrace steps, or share exactly what happened.
 
-## Why Use Chronicle?
-- Quickly see your recent coding history.
-- Get tips on how to improve your coding and workflow.
-- Easily review or share what you did and learn from your own patterns.
+Chronicle is a feature in Syncfusion Code Studio that keeps a detailed history of everything you do in your workspace. It records your changes, actions, and the context around your coding so you can review, retrace steps, or share exactly what happened. Chronicle makes your coding journey visible and easy to review, helping you learn, debug, and collaborate better.
 
-Chronicle makes your coding journey visible and easy to review, helping you learn, debug, and collaborate better.
+## Use Cases
 
-## What You Will Learn
-By the end of this tutorial, you’ll be able to:
-- Understand what Chronicle does and how it benefits you.
-- Start using Chronicle to view your coding history.
-- Learn basic concepts like timelines, events, and context.
-- Review and use your work history with easy steps.
+- Quickly see your recent coding history without digging through logs or version control.
+- Generate a standup summary of your last 24 hours of coding activity to share with your team.
+- Get personalized tips to improve your prompting, tool usage, and overall workflow.
+- Ask natural-language questions about your recent coding sessions.
 
-## Key Concepts
-- **Session History**: Chronicle records your chat and coding activities, including files you touched, commands you ran, and references to PRs, commits, or issues.
-- **Standup Report**: Chronicle summarizes your last 24 hours of coding activity, grouped by feature, branch, or file.
-- **Personalized Tips**: It can analyze your workflow to give you smart suggestions for even better productivity.
+## Chronicle Commands
 
-## Steps to Use Chronicle
+Chronicle is accessed through slash commands in the chat panel. Each command targets a specific type of insight from your session history.
 
-### Step 1: Use Chronicle Commands
-- **For a Standup Summary**: Type `/chronicle:standup` in the chat.  
-  This will give you a summary of your coding sessions from the last 24 hours. The summary is organized by feature or branch and includes file lists and PR links.
+### Standup Summary
 
-  <img src="./feature-images/chronicle-standup.png" alt="Context command" />
+Type `/chronicle:standup` in the chat to get a summary of your coding sessions from the last 24 hours. The summary is organized by feature or branch and includes file lists and PR links.
 
-- **For Productivity Tips**: Type `/chronicle:tips` in the chat.  
-  Chronicle will review your last 7 days of work and share helpful tips to improve your prompting, tool usage, and workflow.
+<img src="./feature-images/chronicle-standup.png" alt="Chronicle Standup Summary" />
 
-  <img src="./feature-images/chronicle-tips.png" alt="Context command" />
+### Productivity Tips
 
-- **To Ask a Custom Question**: Type `/chronicle` followed by your question.  
-  For example:  
-  /chronicle what files did I edit yesterday?
+Type `/chronicle:tips` in the chat to get personalized suggestions based on your last 7 days of work. Chronicle analyzes your workflow and shares tips to improve your prompting, tool usage, and habits.
 
-  Chronicle will answer in plain language based on your coding sessions.
+<img src="./feature-images/chronicle-tips.png" alt="Chronicle Productivity Tips" />
 
-  <img src="./feature-images/chronicle.png" alt="Context command" />
+### Custom Questions
 
-### Step 2: Read Your Results
-- After you send a command, Chronicle will quickly reply in the chat with an easy-to-read summary, a helpful list, or an answer based on your recent work.
+Type `/chronicle` followed by any natural-language question to query your session history directly.
 
-> **Tip:** For custom questions, just type them after `/chronicle`!  
-  Example:  
-  /chronicle what PRs did I work on this week?
+**Example:**
 
-## What’s Next?
-- Use **Autocomplete** to catch errors as you type and reduce bugs before they occur.
-- Explore **Agent mode** for generating and fixing code autonomously across your project.
-- Use the **Ask feature** to have the AI explain error messages and suggest solutions in detail.
+```
+/chronicle what files did I edit yesterday?
+```
+
+Chronicle will answer in plain language based on your coding sessions.
+
+<img src="./feature-images/chronicle.png" alt="Chronicle Custom Question" />
+
+> **Tip:** You can ask anything about your recent work — for example, `/chronicle what PRs did I work on this week?`
+
+## Best Practices
+
+### 1. Use standup summaries before team meetings
+Run `/chronicle:standup` before your daily standup to get a ready-to-share summary of what you worked on, organized by branch or feature.
+
+### 2. Review tips regularly to build better habits
+Run `/chronicle:tips` weekly to get actionable feedback on your workflow patterns and refine how you use Code Studio`s AI tools.
+
+### 3. Use custom questions to trace decisions
+If you are not sure when or why a change was made, ask Chronicle directly — for example, `/chronicle when did I last edit the auth module?`
+
+## Related Features
+- [Agent Mode](/code-studio/features/agent) - Chronicle helps you trace what the agent did across sessions. Use it to review agent-driven changes or reconstruct the sequence of edits made during an autonomous task.
+- [Checkpoints](/code-studio/features/checkpoints) - Use Checkpoints alongside Chronicle to both restore workspace states and understand what changed between sessions.
+ the AI explain error messages and suggest solutions in detail.
  
