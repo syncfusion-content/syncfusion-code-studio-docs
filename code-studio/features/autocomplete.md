@@ -135,14 +135,12 @@ Code Studio identifies when a variable has been renamed and suggests updating al
 
 ### Select a Completion Model
 **Steps:**
-1. Click the dropdown next to the Code Studio icon.
-2. Select **Configure Inline Suggestions**.
+1. Open command palette by pressing `Ctrl/Cmd + Shift + P`.
+2. Type **Change completions model**.
 
-   <img src="./feature-images/auto-configure3.png" alt="Autocomplete"  />
+3. Choose **Code Studio: Change Completions Model**.
 
-3. Click **Change Completion Model**.
-
-   <img src="./feature-images/auto-configure4.png" alt="Autocomplete"  />
+   <img src="./feature-images/auto-configaure4.png" alt="Autocomplete"  />
 
 4. Choose the model you prefer from the dropdown list.
 

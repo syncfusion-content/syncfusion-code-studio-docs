@@ -57,8 +57,8 @@ Choose **one** of these methods:
 
 <img src="../reference-images/agent_option.png" alt="agent_option" />
 
-- Choose **Custom Agents** from the menu
-- Click “+ Create new Custom agent”
+- Choose **Agent Customizations** from the menu
+- Click “Generate Agent”
 
 <img src="../reference-images/custom_agent.png" alt="Custom_Agent" />
 
@@ -138,7 +138,7 @@ Select your preferred location → click **Continue**.
 - Click agent dropdown.
 - Select **Configure Custom Agents**.
 
-<img src="../reference-images/agent_configure_chat.png" alt="agent_configure_chat" />
+<img src="../reference-images/agent_configurechat.png" alt="agent_configure_chat" />
 
 - Choose **CodeReview** from the list of agents.
 - Make your changes and save.
