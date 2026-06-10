@@ -77,5 +77,5 @@ If any issues are detected, the agent can:
 
 ## What’s Next
 
-- https://help.syncfusion.com/code-studio/features/agent – Discover advanced workflows and capabilities of the agent  
-- https://help.syncfusion.com/code-studio/reference/configure-properties/custom-agents – Establish clear rules and instructions for consistent and constrained behavior  
+- [Agent](https://help.syncfusion.com/code-studio/features/agent) – Discover advanced workflows and capabilities of the agent  
+- [Custom Agent](https://help.syncfusion.com/code-studio/reference/configure-properties/custom-agents) – Establish clear rules and instructions for consistent and constrained behavior  

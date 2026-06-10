@@ -55,6 +55,6 @@ Navigate to the Chat view in your editor where the agent responses are displayed
 ---
 
 ### What's Next
-- https://help.syncfusion.com/code-studio/features/checkpoints - Easily restore your workspace to an earlier state within a single session.
-- https://help.syncfusion.com/code-studio/features/agent - Use forked sessions together with agent mode to enable autonomous experimentation with various strategies.
-- https://help.syncfusion.com/code-studio/how-to-guides/manage-chat-session - Streamline the organization, renaming, and management of multiple chat sessions.
+- [Agent](https://help.syncfusion.com/code-studio/features/agent) – Explore advanced workflows and capabilities of the agent  
+- [Manage Chat Session](https://help.syncfusion.com/code-studio/how-to-guides/manage-chat-session) - Organize, rename, and manage multiple chat sessions effectively
+modify with this to new content
