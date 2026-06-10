@@ -13,10 +13,6 @@ The Troubleshoot Previous Chat Sessions, shows you how to analyze and resolve is
 
 This tutorial will guide you through the process of opening past sessions, diagnosing problems, and applying fixes so you can improve the reliability and performance of future chat interactions.
 
-## Prerequisites 
-- Enable debug logging — set ` syncfusion.codestudio.chat.agentDebugLog.fileLogging.enabled ` to `true` so detailed chat activity is recorded for troubleshooting.
-- Have at least one previous chat session available to reference.
-
 ## What You Will Learn 
 
 By completing this tutorial, you will be able to: 
@@ -76,11 +72,16 @@ Once you submit your troubleshooting query, Code Studio will analyze the debug l
 
 - Error Logs: Any errors or warnings encountered during execution 
 
+    <img src="./tutorials-images/agent-log.png" alt="Troubleshoot Previous session with Agent Debug log" />
+
+These insights are generated from debug logs—detailed JSONL records stored in your system that capture every event during your chat session.
+<img src="./tutorials-images/jsonl-file.png" alt="Troubleshoot Previous session with Agent Debug log" />
+
+
 ### Step 5: Review the analysis 
 
-The troubleshoot skill will parse agent debug logs and return insights which tool calls ran, where custom instructions were ignored, or latency sources. Use these insights to adjust settings or reproduce the issue if needed. 
-
-<img src="./tutorials-images/troubleshoot.gif" alt="Troubleshoot Previous session with Agent Debug log" />
+The troubleshoot skill will parse agent debug logs and return insights which tool calls ran, where custom instructions were ignored, or latency sources. Use these insights to adjust settings or reproduce the issue if needed.
+    <img src="./tutorials-images/troubleshoot-gif.gif" alt="Troubleshoot Previous session with Agent Debug log" />
 
 ## What's Next 
 
