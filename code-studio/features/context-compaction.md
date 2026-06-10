@@ -13,15 +13,10 @@ keywords: context-compaction, chat-history, ai-context, compact-command, product
 ## Overview
 As your chat sessions in Code Studio grow, the conversation history can become lengthy, making it harder for the AI to focus on the most relevant information. The `/compact` command helps you streamline your chat context by summarizing or removing less important messages, ensuring that the AI remains efficient and accurate.
 
-## Prerequisites
-- Code Studio installed and running.
-- An active chat session with a substantial conversation history.
-
 ## What You Will Learn
 By the end of this tutorial, you’ll be able to:
 - Understand the purpose and benefits of the `/compact` command.
 - Use `/compact` to optimize your chat context.
-- Apply best practices for maintaining relevant context in long sessions.
 
 You’ll gain confidence in managing chat context and ensuring the AI remains sharp and productive.
 
@@ -39,14 +34,14 @@ If your chat session becomes long, or if you notice the AI is losing track of re
 
 > **Note:** Optionally, you can add specific instructions after the command to customize the compaction process.
 
-   <img src="./tutorials-images/context-command.png" alt="Context command" />
+   <img src="./feature-images/context-command.png" alt="Context command" />
 
 - The agent will analyze the conversation and automatically compact the context by summarizing or removing older messages.
 
- <img src="./tutorials-images/context-compaction.png" alt="Context compaction" />
+ <img src="./feature-images/context-compaction.png" alt="Context compaction" />
 
 - After compaction, your chat will retain the most important and recent information. Continue your development tasks with improved AI focus and performance.
- <img src="./tutorials-images/context-result.png" alt="Context result" />
+ <img src="./feature-images/context-result.png" alt="Context result" />
 
 You’re well on your way to making the most of smart context management in Code Studio.
 
