@@ -1,4 +1,4 @@
-﻿---
+---
 title: Chronicle - Coding History and Productivity Insights in Code Studio
 description: Discover how Chronicle in Syncfusion Code Studio tracks your coding history, provides standup summaries, and delivers personalized productivity tips to enhance your workflow.
 platform: syncfusion-code-studio
