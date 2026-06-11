@@ -5,86 +5,121 @@ platform: syncfusion-code-studio
 keywords: Autopilot; agent permissions; Default Approvals; Bypass Approvals; Autopilot Preview.
 ---
 # Autopilot and Agent Permissions
-## Overview
-Code Studio’s Autopilot and Agent Permissions let you control how independently an AI agent operates during a session. This tutorial shows where to find the permissions picker in the Chat view, how to choose between Default Approvals, Bypass Approvals, and Autopilot (Preview), and when to switch levels so automation matches the task and your risk tolerance.
 
-This flexibility ensures you can tailor agent behavior to suit routine tasks, complex projects, or anything in between.
+## Overview
+
+Code Studio's Autopilot and Agent Permissions feature gives you precise control over how independently an AI agent operates within a chat session. Instead of manually approving every action, you can choose a permission level that matches your task complexity and comfort level—whether you need step-by-step oversight, faster execution without interruption, or fully autonomous operation.
+
+**Key Benefit:** Use Autopilot for complex, time-consuming tasks while maintaining full transparency and the ability to interrupt at any moment.
+
+This tutorial walks you through the three permission levels, how to enable them, how to monitor agent progress, and when to use each mode for your specific needs.
 
 ## What You Will Learn
-By following this tutorial, you will be able to:
 
-- Understand the three permission levels and when to use each one.
-- Confidently use Autopilot for longer tasks while understanding the security implications.
-- Monitor agent progress and interrupt execution when needed.
-- Manage common scenarios like agent auto retries and error recovery.
+By the end of this tutorial, you will be able to:
 
-## Steps to Get Started
+- **Understand** the three permission levels and the differences between them
+- **Choose** the right permission level for your task based on complexity and risk tolerance
+- **Enable and disable** permission levels within a chat session
+- **Monitor** agent progress in real time, including error recovery and retry attempts
+- **Interrupt** agent execution when needed without losing session context
+- **Recognize** security implications of higher autonomy modes
+- **Troubleshoot** common scenarios like agent loops and permission changes
+
+
+## Steps to Use Permission Levels
+
 ### Step 1: Understand the Three Permission Levels
 
-Code Studio provides three permission levels. Each one offers a different balance of automation and control:
+Code Studio provides three permission levels, each balancing automation with control. Choose based on your task type and risk tolerance.
 
-1. Default Approvals
-    
-    - Shows a confirmation dialog before the agent runs any significant action. You manually approve each step.
-    - When to use:
-        - Complex tasks where you need full visibility.   
-        - When working with unfamiliar code or systems
-        - First time working on a critical project and best for learning and exploration.
+#### 1. Default Approvals (Safest - Recommended for New Users)
 
-2. Bypass Approvals
-    - Auto approve all tool calls without showing confirmation dialogs. The agent executes actions immediately, but you stay in the session and can interrupt at any time.
-    - When to use:
-        - Routine, repetitive tasks you trust the agent to manage.
-        - Tasks where you have verified the agent's approach. Short, well-scoped work
-        - When you want faster execution but do not need full automation
+**How it works:** Before the agent performs any significant action  a confirmation dialog appears. You manually review and approve each step - security level highest.
 
-3. Autopilot (Preview)
-    - Full autonomous operation. The agent auto approves all actions, automatically manages errors, and continues working until the task is complete. You stay informed with status updates but do not need to approve each step.
+**Best for:**
+- Learning how agents work and exploring unfamiliar code
+- Complex, mission-critical tasks where full visibility is essential
+- First time working on a new project or codebase
+- Tasks where you need to validate the agent's approach at each step
 
-    - When to use:
-        - Extended, complex projects where you want hands-off operation.
-        - Well-scoped tasks on trusted, version-controlled projects
-        - Work where you have already verified the approach.
-        - Auto approves all tool calls, automatically retrieving failed operations. 
-        - Continue iterating until the agent determines the task is complete.
-        - You can still interrupt at any time by stopping the chat.
 
-> **Note**: Bypass Approvals and Autopilot bypass manual approval prompts and ignore your configured approval settings, including potentially destructive actions like file edits, terminal commands, and external tool calls. The first time you enable either level, a warning dialog asks you to confirm. Only use these levels if you understand the security implications.
+**Example:** Add a pre-commit script in this file to ensure test cases are executed and pass before allowing a commit.
 
-When to use these modes:
-- Only on trusted projects where you understand the code. Only for short, well-scoped tasks 
-- Only on local/development machines, not production systems
-- When you have version control so you can revert changes
+<img src="./tutorials-images/approval-ui.png" alt="Chat view with permission level indicator showing Default Approvals with padlock icon" />
+
+#### 2. Bypass Approvals 
+
+**How it works:** The agent auto-approves all tool calls without showing confirmation dialogs. Security level - Moderate, Actions execute immediately you remain in the session and can stop the agent at any time by clicking the **Stop** button.
+
+**Best for:**
+- Routine, repetitive tasks you've already verified
+- Tasks where you understand the agent's approach and trust it
+- Short, well-scoped work that doesn't require constant validation
+- Faster execution when speed is important
+
+**Example:** Analysis the dashboard and create a export option for Analystics data in excel format.Run Test the dashboard project after adding new feature.
+
+<img src="./tutorials-images/bypass-approval.gif" alt="Agent execution and monitoring flow in Autopilot mode" />
+
+#### 3. Autopilot 
+
+**How it works:** The agent operates fully autonomously. It auto-approves all tool calls, automatically handles errors with retries, and continues working until the task is complete. You stay informed with status updates but don't need to approve each step. You can interrupt anytime.
+
+**Best for:**
+- Extended, complex projects where hands-off operation is valuable
+- Well-scoped tasks on trusted, version-controlled projects
+- Tasks where you've already verified the agent's approach
+- Overnight or background tasks where constant monitoring isn't practical
+
+**Real Example:** Create a Python dashboard for stack analysis with test cases, and after completing project development, run and report the test results
+
+<img src="./tutorials-images/autopilot.gif" alt="Agent execution and monitoring flow in Autopilot mode" />
+
+
+> Note: Bypass Approvals and Autopilot bypass manual approval prompts and ignore your configured approval settings, including potentially destructive actions like file edits, terminal commands, and external tool calls. The first time you enable either level, a warning dialog asks you to confirm. Only use these levels if you understand the security implications.
 
 ### Step 2: Access and Change Permission Levels
 
 - Open the Chat view in Code Studio and find the permissions dropdown at the Chat below, you will see the current permission level displayed.
-
-    <img src="./tutorials-images/chat.png" alt="Code generation demo" />
+  
+<img src="./tutorials-images/chat.png" alt="Chat view with permission level indicator showing Default Approvals with padlock icon" />
 
 - Click the permissions picker to reveal all three available options. Each option displays:
+  
+<img src="./tutorials-images/chat-list.png" alt="Permissions dropdown showing three options: Default Approvals (checked), Bypass Approvals, and Autopilot (Preview)" />
 
-    <img src="./tutorials-images/chat-list.png" alt="Code generation demo" />
+- Click the permission level you want to use. A confirmation dialog appears the first time you select Bypass Approvals or Autopilot. Review the warning dialog, this confirms you understand the security implications of your choice.
 
-- Click the permission level you want to use. A confirmation dialog appears the first time you select Bypass Approvals or Autopilot. Review the warning dialog, this confirms you understand the security implications of your choice. 
-    <img src="./tutorials-images/bypass-warning.png" alt="Code generation demo"/>
+    <img src="./tutorials-images/bypass-warning.png" alt="Warning dialog with Enable button confirming permission level change" />
 
-- Click "Enable” to proceed. The Chat view updates to show your new permission level.
+- Click "Enable" to confirm. This confirms you understand the security implications, Permission level changes immediately
 
-- The agent will operate under this permission level for the remainder of your current chat session. You can change it at any time.
+**To Disable a Permission Level** - Open the permissions picker and select Default Approvals to return to the safest mode or close the chat session and start a new one
 
-- **To Disable a Permission Level** - Open the permissions picker and select Default Approvals to return to the safest mode or close the chat session and start a new one
+> **Note:** New chat sessions always start with Default Approvals by default.
+
 
 ### Step 3: Monitor Agent Progress
+
 - The agent provides status updates as it works, showing what steps, it is taking and what it has completed.
 - You can see which tools the agent is using and the output it receives.
+
+<img src="./tutorials-images/debug-log.png" alt="Agent execution and monitoring flow in Autopilot mode" />
+
+
 - If the agent encounters an error, Autopilot automatically retrieves. You will see retry attempts in the Chat view.
 - Interrupt Autopilot at Any Time, Click the Stop button in the Chat view or switch to a different permission level.
-- The agent signals completion by calling the `task_complete` tool, which ends the autonomous iteration and returns control to you.
+- The agent signals completion by calling the task_complete tool, which ends the autonomous iteration and returns control to you.
+
+<img src="./tutorials-images/task_completed.png" alt="Agent execution and monitoring flow in Autopilot mode" />
+
 - Review the work, Files created or modified, terminal output and logs shown in the Chat view, Whether the results match your original request.
 
-<img src="./tutorials-images/bypass-approval.gif" alt="Code generation demo" />
+
 
 ## What's Next
-- Agent Debug Log — provides detailed visibility into Autopilot’s tool calls and prompts.
-- [Hooks](/code-studio/reference/configure-properties/hooks)  also integrate with the Agent Debug Panel, giving visibility into what Autopilot did and why.
+
+- Agent Debug Log — Shows detailed logs of what Autopilot was thinking and why it made decisions.
+
+- **[Hooks](/code-studio/reference/configure-properties/hooks)** — Lets you create custom approval rules (advanced feature). Example: "Always require approval before editing production files, but auto-approve test files."
