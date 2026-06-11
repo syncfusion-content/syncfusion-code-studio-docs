@@ -42,7 +42,7 @@ This guide uses MinGW-w64, which provides the GCC compiler for Windows. It's lig
 2. Run the installer and follow the installation wizard
 3. Install to the default location: `C:\msys64`
 
-<img src="language-images/msys-installer.png" alt="MinGW-w64 installer" />
+    <img src="language-images/msys-installer.png" alt="MinGW-w64 installer" />
 
 #### Step 2: Install GCC Compiler via MSYS2
 
@@ -55,7 +55,7 @@ This guide uses MinGW-w64, which provides the GCC compiler for Windows. It's lig
 
    > **Note:** When prompted with `:: Proceed with installation? [Y/n]`, press **Y** and then **Enter** to continue.
 
-   <img src="language-images/cpp-msys2-install.png" alt="MSYS2 terminal showing GCC installation command and progress" /> 
+    <img src="language-images/cpp-msys2-install.png" alt="MSYS2 terminal showing GCC installation command and progress" /> 
 
 
 #### Step 3: Add MinGW to System PATH
@@ -66,7 +66,7 @@ This guide uses MinGW-w64, which provides the GCC compiler for Windows. It's lig
 4. Click **New** and add: `C:\msys64\ucrt64\bin`
 5. Click **OK** on all windows to save
 
-<img src="language-images/env-path.png" alt="Windows Environment Variables dialog showing PATH configuration with MinGW directory" />
+    <img src="language-images/env-path.png" alt="Windows Environment Variables dialog showing PATH configuration with MinGW directory" />
 
 
 #### Step 4: Verify Installation
@@ -78,7 +78,7 @@ This guide uses MinGW-w64, which provides the GCC compiler for Windows. It's lig
    ```
 3. You should see the GCC compiler version information
 
-<img src="language-images/cpp-windows-verify.png" alt="Command Prompt showing successful g++ version output" />
+    <img src="language-images/cpp-windows-verify.png" alt="Command Prompt showing successful g++ version output" />
 
 ---
 
@@ -103,7 +103,7 @@ If you're on macOS, the setup is even simpler. macOS uses Clang (part of LLVM) a
    ```
 2. You should see the Clang compiler version information
 
-<img src="language-images/cpp-mac-verify.png" alt="Terminal showing successful clang version output with Apple clang details" />
+    <img src="language-images/cpp-mac-verify.png" alt="Terminal showing successful clang version output with Apple clang details" />
 
 ---
 
@@ -126,7 +126,7 @@ With the compiler installed, the next step is to set up Code Studio to work seam
 2. Click the **Extensions** icon in the sidebar (or press `Ctrl+Shift+X` / `Cmd+Shift+X`)
 3. Search for **"CodeLLDB"** (by vadimcn)
 
-<img src="language-images/cpp-extension-install.png" alt="Code Studio Extensions view showing CodeLLDB extension with Install button" />
+    <img src="language-images/cpp-extension-install.png" alt="Code Studio Extensions view showing CodeLLDB extension with Install button" />
 
 4. Click **Install** on the extension
 
@@ -279,7 +279,7 @@ Now that everything is configured, let's put your setup to the test by creating 
    ```
 3. Code Studio will generate a basic C++ code.
 
-<img src="language-images/cpp-ai-generate.gif" alt="Code Studio chat showing AI generating a C++ hello world program" />
+    <img src="language-images/cpp-ai-generate.gif" alt="Code Studio chat showing AI generating a C++ hello world program" />
 
 ---
 
@@ -292,7 +292,7 @@ Debugging is where Code Studio truly shines. Let's walk through setting breakpoi
 1. Click in the left margin (line number area) to set a breakpoint
 2. A red dot will appear
 
-<img src="language-images/cpp-breakpoint.png" alt="Code Studio editor showing a red breakpoint dot next to line numbers in C++ code" />
+    <img src="language-images/cpp-breakpoint.png" alt="Code Studio editor showing a red breakpoint dot next to line numbers in C++ code" />
 
 ### Step 2: Start Debugging
 
@@ -309,7 +309,7 @@ Debugging is where Code Studio truly shines. Let's walk through setting breakpoi
    - Add watch expressions in the **Watch** panel  
    - Examine the call stack in the **Call Stack** panel
 
-<img src="language-images/cpp-debug-variables.png" alt="Code Studio debug view showing Variables, Watch, and Call Stack panels" />
+    <img src="language-images/cpp-debugging-breakpoint.gif" alt="Code Studio debug view showing Variables, Watch, and Call Stack panels" />
 
 ---
 
