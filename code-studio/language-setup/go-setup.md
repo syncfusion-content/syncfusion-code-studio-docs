@@ -49,7 +49,7 @@ By the end of this tutorial, you'll learn how to:
    - Click **Install**
 3. Wait for installation to complete and click **Finish**.
 
-<img src="language-images/go-windows-installer.png" alt="Go installation wizard showing installation progress on Windows" />
+   <img src="language-images/go-windows-installer.png" alt="Go installation wizard showing installation progress on Windows" />
 
 > **Note:** The installer automatically adds Go to your system PATH.
 
@@ -62,7 +62,7 @@ By the end of this tutorial, you'll learn how to:
    ```
 3. You should see the installed Go version
 
-<img src="language-images/go-windows-verify.png" alt="Command Prompt showing successful 'go version' output" />
+   <img src="language-images/go-windows-verify.png" alt="Command Prompt showing successful 'go version' output" />
 
 
 ---
@@ -91,7 +91,7 @@ If you're on macOS, you have two options for installing Go: the official install
 3. Wait for installation to complete
 4. Click **Close**
 
-<img src="language-images/go-installer-mac.png" alt="macOS installation wizard showing Go installation progress" />
+   <img src="language-images/go-installer-mac.png" alt="macOS installation wizard showing Go installation progress" />
 
 
 #### Method 2: Install via Homebrew
@@ -113,7 +113,7 @@ If you have [Homebrew](https://brew.sh/) installed:
    go version
    ```
 
-<img src="language-images/go-mac-verify.png" alt="Terminal showing successful 'go version' output on macOS" />
+   <img src="language-images/go-mac-verify.png" alt="Terminal showing successful 'go version' output on macOS" />
 
 ---
 
@@ -128,7 +128,7 @@ With Go installed, the next step is to set up Code Studio to work seamlessly wit
 3. Search for **"Go"** (by the Go Team at Google)
 4. Click **Install**
 
-<img src="language-images/go-extension-install.png" alt="Code Studio Extensions view showing Go extension by Go Team at Google with Install button" />
+   <img src="language-images/go-extension-install.png" alt="Code Studio Extensions view showing Go extension by Go Team at Google with Install button" />
 
 
 
@@ -141,7 +141,7 @@ The Go extension requires several tools for full functionality. Code Studio will
 3. Select **all tools** from the list (or check all)
 4. Click **OK**
 
-<img src="language-images/go-install-tools.png" alt="Code Studio dialog showing list of Go tools to install including gopls, dlv, staticcheck" />
+   <img src="language-images/go-install-tools.png" alt="Code Studio dialog showing list of Go tools to install including gopls, dlv, staticcheck" />
 
 ---
 
@@ -159,7 +159,7 @@ Now that everything is configured, let's create a simple Go program to verify yo
    go mod init example/hello
    ```
 
-<img src="language-images/go-mod-init.png" alt="Terminal showing 'go mod init' command creating go.mod file" />
+   <img src="language-images/go-mod-init.png" alt="Terminal showing 'go mod init' command creating go.mod file" />
 
 This creates a `go.mod` file that tracks dependencies.
 
@@ -173,7 +173,7 @@ This creates a `go.mod` file that tracks dependencies.
    Create a simple Go hello world program with basic input/output
    ```
 
-<img src="language-images/go-ai-generate.gif" alt="Code Studio chat showing AI generating a Go program" />
+   <img src="language-images/go-ai-generate.gif" alt="Code Studio chat showing AI generating a Go program" />
 
 3. Code Studio will generate a basic Go program.
 
@@ -226,7 +226,7 @@ Debugging is where Code Studio truly shines. Let's walk through setting up debug
    - Add **Watch** expressions
    - Inspect the **Call Stack** 
 
-<img src="language-images/go-debug-session.png" alt="Code Studio debug view showing paused execution with variables, call stack, and debug toolbar" />
+   <img src="language-images/go-debugging-breakpoint.gif" alt="Code Studio debug view showing paused execution with variables, call stack, and debug toolbar" />
 
 ---
 
