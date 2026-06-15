@@ -116,8 +116,8 @@ You will see three options:
 
 ## How to Configure Path-specific Instruction File
 
-**Step 1:** Click *Settings* from the top right and click **Open settings**
-<img src="../reference-images/instruction_path_settings.png" alt="instruction_path_chat">
+**Step 1:** Click the Code Studio Account icon
+<img src="../reference-images/settings-account.png" alt="instruction_path_chat">
 
 **Step 2:** Click **Instruction & SKills** and select **Add Location**
 <img src="../reference-images/instruction_path_chat.png" alt="instruction_path_chat">
