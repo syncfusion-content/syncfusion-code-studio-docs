@@ -24,8 +24,6 @@ Rename your file from `agent.md` to `agents.md` (plural) in your project root di
 **Settings in v2.0.0 and later versions:**
 1. Click the Settings icon.
 
-    <img src="./troubleshoot-images/settings-icon.png" alt="settings icon">
-
 2. Open Settings
 
     <img src="./troubleshoot-images/open-settings.png" alt="open settings">

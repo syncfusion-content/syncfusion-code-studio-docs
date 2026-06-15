@@ -119,7 +119,7 @@ Code Studio shows suggested changes clearly, letting you apply or undo them step
 - It can plan, update, and refine complex project structures while giving you full control over the process.  
 Ideal for scaffolding features, refactoring modules, or managing structured workflows.
 
-**For Example:**  *“Refactor the getConfig function to be more maintainable and add proper TypeScript types for all parameters.”*  The Agent will outline steps, update backend routes, create frontend components, and explain changes.
+**For Example:**  *“Refactor the [function name] function to be more maintainable and add proper TypeScript types for all parameters.”*  The Agent will outline steps, update backend routes, create frontend components, and explain changes.
 
 <img src="gettingstarted-images/agent.png" alt="Agent" />
 
@@ -142,7 +142,7 @@ Ideal for scaffolding features, refactoring modules, or managing structured work
 -  Inline Chat allows localized edits directly next to your code.  
 - Highlight text and ask for improvements, optimizations, or rewrites without switching views.
 
-**For Example:**   Select a loop and ask, *“Optimize this for better performance.”*  
+**For Example:**   Select the code and ask, *“Optimize this for better performance.”*  
 You’ll see improved code inline with **Accept** and **Dismiss** options.
 
 <img src="gettingstarted-images/inlineChat.png" alt="InlineChat" />

@@ -53,6 +53,7 @@ Use Custom Instructions when you want to:
 
 
 
+
 ## Enabling Custom Instruction Files
 
 **Step 1:** Open **settings** at the bottom left in Code Studio.  
@@ -97,11 +98,11 @@ You will see three options:
 
 **Step 1:** Open the `codestudio-instructions.md` file.
 
-- Open your project in Code studio. Click the settings option at the top in the chat.
+- Open your project in Code studio. Click the settings option at the top in the chat and select **agent customizations**.
 
     <img src="../reference-images/instruction_chat_option.png" alt="instruction_chat_option" >
 
-- Select the “Generate agent instructions” in the pop up.
+- Click the “Generate instructions” and select New instruction(workspace) in the pop up.
 
 **Step 2:** Now Code Studio will automatically create and open `codestudio-instructions.md`.  
 
@@ -115,11 +116,13 @@ You will see three options:
 
 ## How to Configure Path-specific Instruction File
 
-**Step 1:** Click *Settings* from the top right and clcik **chat instructions**
+**Step 1:** Click *Settings* from the top right and click **Open settings**
+<img src="../reference-images/instruction_path_settings.png" alt="instruction_path_chat">
 
+**Step 2:** Click **Instruction & SKills** and select **Add Location**
 <img src="../reference-images/instruction_path_chat.png" alt="instruction_path_chat">
 
-**Step 2:** Click **New Instruction File**.
+**Step 2:** Enter **Name for Instruction File**.
 
 <img src="../reference-images/instruction_path_new_chat.png" alt="instruction_path_new_chat">
 

@@ -105,10 +105,8 @@ When you run `openspec init`, OpenSpec creates these folders in your project:
 - **`openspec/config.yaml`** — Settings and configuration file for OpenSpec
 - **`.github/`** — Contains all the skills and prompts that OpenSpec uses to communicate with Code Studio and generate your plans and implement it.
 
-
-   
-
 > **Note:** Beyond this tutorial's main workflow, OpenSpec offers many other commands for advanced use cases such as verification, creating new change folders, and more. For a complete list of available commands and their usage, refer to the [OpenSpec official documentation](https://github.com/Fission-AI/OpenSpec/blob/main/docs/commands.md).
+   
 
 ### Step 3: Create the Project Plan
 

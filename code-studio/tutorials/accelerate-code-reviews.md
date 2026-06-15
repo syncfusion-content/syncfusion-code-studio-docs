@@ -22,6 +22,7 @@ In a few minutes, you'll learn three powerful ways to review your code instantly
 
 Before you start, let's make sure you're all set:
 
+
 - A project with [Git](https://git-scm.com/install/?utm_source=copilot.com) initialized. If your project doesn't have Git yet, we'll show you how to set it up in Step 1.
 
 ## What You'll Learn
