@@ -33,6 +33,8 @@ In this guide, you’ll learn how to:
 
 
 
+
+
 ## How to Start a New Chat Session
 
 You can create a fresh conversation in the new chat session in the view that fits you. Choose based on how much space you need; how visible you want the chat to be.

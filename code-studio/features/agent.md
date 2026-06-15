@@ -21,7 +21,6 @@ Agent Mode is an autonomous AI that plans and executes multi-step coding tasks a
 - Prototype simple UIs and pages
 
 
-
 ## Agent Capabilities
 
 **Autonomous Operation** - Agents can independently explore your codebase, identify the files related to your request, and determine what needs to be changed. Instead of requiring detailed, step-by-step instructions, they plan the workflow automatically and execute tasks in a structured sequence. This allows them to handle complex operations with minimal user input.
@@ -53,7 +52,7 @@ Agent Mode is an autonomous AI that plans and executes multi-step coding tasks a
 
 **Step 1** : Open settings and select Code Studio settings.
 
-<img src="./feature-images/codeStudioSettings.png" alt="Code Studio Settings" />
+<img src="./feature-images/auto-configure1.png" alt="Code Studio Settings" />
 
 
 **Step 2** : Select Agents in sidebar list items and Enable agent mode.

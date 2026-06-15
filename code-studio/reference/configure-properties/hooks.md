@@ -171,26 +171,29 @@ Code Studio supports the following hook lifecycle events. Event names are case-s
 
 ## Configure Hooks
 
-1. **Click** the Settings icon in the Chat window and **Select** **Hooks**.
+1. **Click** the Settings icon in the Chat window and **Select** **Agent Customizations**.
 
 	<img src="../reference-images/hookstart.png" alt="Chat settings menu in Code Studio with the Settings icon highlighted" >
+2. **Select** hooks and **click** **Generate Hooks**.
 
-2. **Choose** the hook lifecycle event you want to configure for example we using SessionStart.
+	<img src="../reference-images/hookgenerate.png" alt="Selecting hooks to generate hooks file" >
+
+3. **Choose** the hook lifecycle event you want to configure for example we using SessionStart.
 
 	<img src="../reference-images/hookselect.png" alt="Hook creation dialog showing hook event selection" >
 
-3. **Enter** a descriptive hook name and press Enter.
+4. **Enter** a descriptive hook name and press Enter.
 
 	<img src="../reference-images/hookname.png" alt="Hook naming input field in Code Studio" >
 
-4. It will create a **Default Configuration** like below Image
+5. It will create a **Default Configuration** like below Image
 	<img src="../reference-images/hookconfig.png" alt="Generated hook files created after naming a new hook" >
 
-5. **Edit** the generated configuration.
+6. **Edit** the generated configuration.
 
 	<img src="../reference-images/hookedit.png" alt="Generated hook configuration open for editing in the editor" >
 
-6. **Run** a test prompt to verify the hook is active.
+7. **Run** a test prompt to verify the hook is active.
 	<img src="../reference-images/hookusing.gif" alt="Animated demonstration of creating and configuring a hook in Code Studio" >
 
 

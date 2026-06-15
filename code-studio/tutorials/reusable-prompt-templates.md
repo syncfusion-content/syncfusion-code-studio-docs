@@ -44,7 +44,6 @@ By the end of this tutorial, you'll be able to:
 **Use when:** You need quick, on-demand templates that you manually invoke.
 
 **How it works:**
-
 - Open your project in code stuio
 - Save an instruction or query as a Custom Prompt
 - Select your prompt in the chat

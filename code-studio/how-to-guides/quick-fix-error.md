@@ -20,8 +20,6 @@ Use the Quick Fix feature when:
 - You want AI-powered suggestions to understand and fix code problems.
 - You are working with unfamiliar syntax or language features.
 
-
-
 ## Steps to Fix Error
 
 ### Step 1: Identify the Error

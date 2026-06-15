@@ -16,7 +16,6 @@ By the end of this tutorial, you'll be comfortable using Agent mode to make your
 For deeper understanding of Agent mode capabilities, check out [Agent](/code-studio/features/agent).
 
 
-
 ## What You Will Learn
 
 By the end of this tutorial, you'll be able to:

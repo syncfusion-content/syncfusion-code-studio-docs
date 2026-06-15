@@ -17,6 +17,7 @@ Ready to transform your web testing workflow? In this tutorial, you'll learn how
 
 Before beginning this tutorial, ensure the following:
 
+
 - Node.js (v18 or higher) is installed on your system. Playwright requires Node.js to run automation tests. Download from [nodejs.org](https://nodejs.org/) and verify installation with `node --version`.
 
 ## What You Will Learn
@@ -109,7 +110,11 @@ Before the AI can generate tests, you need to install both Playwright and the MC
 
    - Once the Chat Panel is open, locate and click the **Configure Chat** icon (typically displayed as a settings or gear icon in the Chat Panel toolbar).
 
-   - From the configuration menu that appears, select the **skill** option.
+   - From the configuration menu that appears, select the **Agent Customizations** option.
+
+   <img src="./tutorials-images/Agent-Customization.png" alt="Agent Customization in Code Studio" />
+
+   - From the Agent Customization menu that appears, select the **Skills** option.
 
    <img src="./tutorials-images/skills-menu.png" alt="Skills view in Code Studio" />
 
@@ -117,13 +122,18 @@ Before the AI can generate tests, you need to install both Playwright and the MC
 
    <img src="./tutorials-images/create-new-skill.png" alt="Skills panel showing the + New skill button" />
 
-3. Name your skill:
+3. Select path:
+   - A dialog will appear prompting you to select the path for your workspace. Select the path.
+
+   <img src="./tutorials-images/skill-path-input.png" alt="Skill path selection field showing path for the skill" />
+
+4. Name your skill:
    - A dialog will appear prompting you to enter a skill name. Type `playwright-explore-website` as the skill name. Skill names must use lowercase letters, numbers, and hyphens only — no spaces or special characters are allowed.
    - Press **Enter** to confirm and create the skill.
 
    <img src="./tutorials-images/skill-name-input.png" alt="Skill name input field showing playwright-explore-website" />
 
-4. Define the skill instructions:
+5. Define the skill instructions:
    - Code Studio will automatically open a new `SKILL.md` file where you can define the instructions that guide the AI agent's behavior.
    - Replace the default content with the following skill definition:
 

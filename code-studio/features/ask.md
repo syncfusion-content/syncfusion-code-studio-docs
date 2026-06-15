@@ -21,6 +21,7 @@ Ask Mode is a conversational interface within Code Studio that provides immediat
 - **Non-Invasive Exploration** - Test ideas and validate logic without workspace file modifications or context dependencies
 
 
+
 ## How to Use Ask Mode 
 
 ### Step 1: Activate Ask Mode
@@ -51,7 +52,7 @@ Code Studio processes your query and returns:
 
 **Example Response:**
 
-<img src="./feature-images/ask3.png" alt="Ask Mode Response Example" />
+<img src="./feature-images/ask.png" alt="Ask Mode Response Example" />
 
 ### Step 4: Apply or Iterate
 
