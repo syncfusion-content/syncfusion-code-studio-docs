@@ -49,7 +49,7 @@ Creation steps (same for both):
 - Then in the created prompt file, choose the mode (you can choose which mode to use; default is agent, but you can switch to ask, edit, plan)
 - Add guidelines or instructions that AI should follow.
 
-<img src="../reference-images/prompts3.gif" alt="Custom Prompt" />
+<img src="../reference-images/prompt3.gif" alt="Custom Prompts" />
 
 ### Step 4: Use Your Prompt File
 - Open the Chat window
