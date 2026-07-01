@@ -42,13 +42,13 @@ Skills are stored in directories with a `SKILL.md` file. Code Studio supports tw
 
 Open your project in Code Studio. Open the chat box and type `/skills` in the chat input.
 
-<img src="../reference-images/skills1.png" alt="Open Skills Menu">
+<img src="./reference-images/skills1.png" alt="Open Skills Menu">
 
 ### Step 2: Create a New Skill
 
 Click **+ New Skill** from the command palette.
 
-<img src="../reference-images/skills2.png" alt="Create New Skill">
+<img src="./reference-images/skills2.png" alt="Create New Skill">
 
 ### Step 3: Choose the Save Location
 
@@ -59,7 +59,7 @@ Select where to store your Skill:
 | **Project Skills**  | Inside the repository | Anyone with repository access |
 | **Personal Skills** | Your personal profile | Only you, across all projects |
 
-<img src="../reference-images/skills3.png" alt="Choose Save Location">
+<img src="./reference-images/skills3.png" alt="Choose Save Location">
 
 ### Step 4: Name the Skill Folder
 
@@ -69,7 +69,7 @@ Enter a name for your Skill folder. The directory name must match the `name` fie
 
 Code Studio creates a `SKILL.md` file inside the Skill folder. Edit it with the following structure:
 
-<img src="../reference-images/skills5.png" alt="Create the SKILL.md File">
+<img src="./reference-images/skills5.png" alt="Create the SKILL.md File">
 
 ### Step 6: Add Optional Resources
 
@@ -84,7 +84,7 @@ For example, a Skill for fixing documentation gaps might include:
 
 - `SKILL.md` — Instructions for reviewing and improving documentation
 
-<img src="../reference-images/skills6.png" alt="Add Optional Resources">
+<img src="./reference-images/skills6.png" alt="Add Optional Resources">
 
 ### Step 7: Use the Skill
 
@@ -92,7 +92,7 @@ Type `/` in the chat input to see all available Skills as slash commands. Select
 
 Skills also load automatically when your prompt clearly matches what a Skill is designed to handle—no manual command required.
 
-<img src="../reference-images/skills7.png" alt="Use the Skill">
+<img src="./reference-images/skills7.png" alt="Use the Skill">
 
 > **Tip:** You can also generate a Skill with AI. Type `/create-skill` in chat and describe the capability you want. The agent asks clarifying questions and generates a `SKILL.md` file with the directory structure, instructions, and frontmatter.
 

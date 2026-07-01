@@ -28,33 +28,33 @@ Before installing MCP servers from the marketplace, ensure that:
 ## Steps to Install an MCP Server from Marketplace
 - Click the **Syncfusion Code Studio** icon on the top right side  to open the Syncfusion Code Studio chat window.
 
-  <img src="../../reference-images/marketplace1.png" alt="marketplace" >
+  <img src="../reference-images/marketplace1.png" alt="marketplace" >
 
 - Navigate to **Configure Chat** by clicking the manage icon.
 
-  <img src="../../reference-images/marketplace2.png" alt="marketplace" >
+  <img src="../reference-images/marketplace2.png" alt="marketplace" >
 
 - Select **MCP Servers** from the drop-down menu.
 
-  <img src="../../reference-images/marketplace3.png" alt="marketplace" >
+  <img src="../reference-images/marketplace3.png" alt="marketplace" >
 
 - After selecting MCP Servers, it navigates to the Marketplace tab:
 
    - You can find predefined MCP servers such as **Azure DevOps, Figma, MongoDB, Playwright, Postgres,etc**.
    - Choose and install any of them.
    
-   <img src="../../reference-images/marketplace4.png" alt="marketplace" >
+   <img src="../reference-images/marketplace4.png" alt="marketplace" >
 
 - Click the **Install** button to install the MCP server.
 
-   <img src="../../reference-images/marketplace5.png" alt="marketplace" >
+   <img src="../reference-images/marketplace5.png" alt="marketplace" >
 
 - It will show two options 
 
     - **Workspace** - Install the MCP server for the current project only. The server will be available exclusively within this workspace.
     - **Global** - Install the MCP server globally across all projects. The server will be accessible in all your workspaces.
     
-    <img src="../../reference-images/install-option.png" alt="marketplace" >
+    <img src="../reference-images/install-option.png" alt="marketplace" >
 
     > **Note:** You must have a folder or workspace open to see the workspace installation option. If no folder is open, the MCP server will automatically install globally without displaying the installation option dialog.
 
@@ -62,26 +62,26 @@ Before installing MCP servers from the marketplace, ensure that:
 
   - Select **Configure Tools**.
 
-   <img src="../../reference-images/marketplace6.png" alt="marketplace" >
+   <img src="../reference-images/marketplace6.png" alt="marketplace" >
 
   - Verify the tools added in the dropdown list.
 
-   <img src="../../reference-images/marketplace7.png" alt="marketplace" >
+   <img src="../reference-images/marketplace7.png" alt="marketplace" >
 
 - Open the Marketplace and select **Installed** to check the servers you’ve added.
 
-   <img src="../../reference-images/mcpfilter2.png" alt="marketplace" >
+   <img src="../reference-images/mcpfilter2.png" alt="marketplace" >
 
 - If you have a globally installed server and want to download the same server for the current workspace, click the manage icon next to the global server in the **Installed** tab and select **Download for Workspace**.
 - After installing the workspace server from the installed global server, the global server will automatically disconnect.
 
-   <img src="../../reference-images/global-workspace.gif" alt="marketplace" >
+   <img src="../reference-images/global-workspace.gif" alt="marketplace" >
 
   > **Note:** You can verify that a server is installed for the workspace by checking for the file icon displayed next to the server name icon.
 
 - Once you uninstall the workspace server, the same global server will automatically reconnect.
 
-  <img src="../../reference-images/workspace-uninstall-gif.gif" alt="marketplace" >
+  <img src="../reference-images/workspace-uninstall-gif.gif" alt="marketplace" >
 
 ## Filter Support in Marketplace
 - The Marketplace allows you to apply filters to quickly narrow down and find the servers you need:
@@ -89,11 +89,11 @@ Before installing MCP servers from the marketplace, ensure that:
    
    - By selecting **Available**, it will show the MCP servers currently available.
 
-    <img src="../../reference-images/mcpfilter3.png" alt="marketplace" >
+    <img src="../reference-images/mcpfilter3.png" alt="marketplace" >
 
    - By selecting **Installed**, it will narrow down to show only the installed servers.
 
-    <img src="../../reference-images/mcpfilter2.png" alt="marketplace" >
+    <img src="../reference-images/mcpfilter2.png" alt="marketplace" >
 
    
 
@@ -103,15 +103,15 @@ Before installing MCP servers from the marketplace, ensure that:
 
    - By sorting by **Newest**, it will show the most recently added MCP servers.
 
-    <img src="../../reference-images/mcpfilter6.png" alt="marketplace" >
+    <img src="../reference-images/mcpfilter6.png" alt="marketplace" >
 
    - By filtering **Categories**, you can easily narrow down to specific categories (e.g., Database, Cloud Platform), and it will display all available servers in those categories.
 
-    <img src="../../reference-images/mcpfilter7.png" alt="marketplace" >
+    <img src="../reference-images/mcpfilter7.png" alt="marketplace" >
 
    - Using the **Search** option, you can quickly find the desired MCP server.
 
-    <img src="../../reference-images/mcpfilter4.png" alt="marketplace" >
+    <img src="../reference-images/mcpfilter4.png" alt="marketplace" >
 
 
 

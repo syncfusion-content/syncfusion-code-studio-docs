@@ -40,27 +40,27 @@ Choose **one** of these methods:
 - Click the agent dropdown in the Chat view
 - Select “Configure Custom Agents”
 
-<img src="../reference-images/new_custom_agent.png" alt="new_Custom_Agent" />
+<img src="./reference-images/new_custom_agent.png" alt="new_Custom_Agent" />
 
 - Click “+ Create new Custom agent”
 
-<img src="../reference-images/custom_agent.png" alt="Custom_Agent" />
+<img src="./reference-images/custom_agent.png" alt="Custom_Agent" />
 
 **Method 2 – Through Command Palette**
 - Press `Ctrl+Shift+P` (Windows/Linux) or `⌘⇧P` (Mac)
 - Type **"Chat: New Custom Agent"** → press Enter
 
-<img src="../reference-images/agent_palette.png" alt="agent_palette" />
+<img src="./reference-images/agent_palette.png" alt="agent_palette" />
 
 **Method 3 – Through Settings**
 - Open Settings (top-right in chat view)
 
-<img src="../reference-images/agent_option.png" alt="agent_option" />
+<img src="./reference-images/agent_option.png" alt="agent_option" />
 
 - Choose **Agent Customizations** from the menu
 - Click “Generate Agent”
 
-<img src="../reference-images/custom_agent.png" alt="Custom_Agent" />
+<img src="./reference-images/custom_agent.png" alt="Custom_Agent" />
 
 ### Step 2: Choose Where to Save Your Agent
 
@@ -74,7 +74,7 @@ Choose **one** of these methods:
 - Use when: Using across multiple projects.
 - Available in **all** workspaces
 
-<img src="../reference-images/agent_save.png" alt="agent_save" />
+<img src="./reference-images/agent_save.png" alt="agent_save" />
 
 Select your preferred location → click **Continue**.
 
@@ -83,11 +83,11 @@ Select your preferred location → click **Continue**.
 - Enter a **Name** for your agent and click **Create**
   (e.g. here the custom agent name entered is `CodeReview`)
 
-<img src="../reference-images/agent_review.png" alt="agent_review" />
+<img src="./reference-images/agent_review.png" alt="agent_review" />
 
 - Once Created, a new file named **CodeReview.agent.md** will automatically open in the editor. This file represents your newly created Custom agent.
 
-<img src="../reference-images/agent_code_review.png" alt="agent_code_review" />
+<img src="./reference-images/agent_code_review.png" alt="agent_code_review" />
 
 ### Step 4: Configure the Agent Header and Instructions in CodeReview.agent.md
 
@@ -95,7 +95,7 @@ Select your preferred location → click **Continue**.
 - Also add **Handoffs** for users to move to the next agent with one click. Add them in the header.
 - Below the header, write instructions for the agent in **plain Markdown.**
 
-<img src="../reference-images/agent_code_header.png" alt="agent_code_header" />
+<img src="./reference-images/agent_code_header.png" alt="agent_code_header" />
 
 **Key Fields Explained:**
 - **Name** – The display name of your custom agent. (Example: CodeReview).
@@ -116,7 +116,7 @@ Select your preferred location → click **Continue**.
 - Open Chat view and click the agent dropdown.
 - Your new agent appears in the list.
 
-<img src="../reference-images/agent_activate.png" alt="agent_activate" />
+<img src="./reference-images/agent_activate.png" alt="agent_activate" />
 
 ## Using Your Custom Agents
 
@@ -124,21 +124,21 @@ Select your preferred location → click **Continue**.
 - Open Chat view in Code Studio.
 - Click the agent dropdown.
 
-<img src="../reference-images/agent_dropdown_option.png" alt="agent_dropdown_option" />
+<img src="./reference-images/agent_dropdown_option.png" alt="agent_dropdown_option" />
 
 - Select **CodeReview** from the dropdown menu.
 
-<img src="../reference-images/agent_activate.png" alt="agent_activate" />
+<img src="./reference-images/agent_activate.png" alt="agent_activate" />
 
 - Start chatting — the agent follows its instructions.
 
-<img src="../reference-images/agent_chatting.png" alt="agent_chatting" />
+<img src="./reference-images/agent_chatting.png" alt="agent_chatting" />
 
 **To Edit the CodeReview Agent:**
 - Click agent dropdown.
 - Select **Configure Custom Agents**.
 
-<img src="../reference-images/agent_configurechat.png" alt="agent_configure_chat" />
+<img src="./reference-images/agent_configure_chat.png" alt="agent_configure_chat" />
 
 - Choose **CodeReview** from the list of agents.
 - Make your changes and save.
@@ -156,7 +156,7 @@ Agent-scoped hooks let you attach automated lifecycle commands directly to a cus
 ### How to Add Agent-Scoped Hooks
 - Add a **hooks** field to the YAML frontmatter of your `.agent.md` file, using the same event names and command structure as workspace-level hooks.
  
-  <img src="../reference-images/agent-scoped-hooks.png" alt="agent_configure_chat" />
+  <img src="./reference-images/agent-scoped-hooks.png" alt="agent_configure_chat" />
 
 - Agent-scoped hooks run **in addition to** any workspace or user-level hooks configured for the same event — they do not replace them.
 

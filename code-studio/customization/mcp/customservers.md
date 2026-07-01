@@ -128,31 +128,31 @@ Follow the steps below to configure the Postman MCP Server in CodeStudio,
 
 **Step 1:** In Code Studio Extension, click the Settings icon and select MCP Servers 
 
-<img src="../../reference-images/mcp-server-option-from-settings.png" alt="custom server" />
+<img src="../reference-images/mcp-server-option-from-settings.png" alt="custom server" />
 
 **Step 2:** In the MCP Servers page, open the Custom Server tab.
 
-<img src="../../reference-images/mcp-server-webview.png" alt="custom server" />
+<img src="../reference-images/mcp-server-webview.png" alt="custom server" />
 
 **Step 3:** Click Add MCP Server. 
 
-<img src="../../reference-images/add-mcp-server.png" alt="custom server" />
+<img src="../reference-images/add-mcp-server.png" alt="custom server" />
 
 Step 4: Review the Terms and Conditions, then click Accept and proceed. 
 
-<img src="../../reference-images/terms-and-conditions.png" alt="custom server" />
+<img src="../reference-images/terms-and-conditions.png" alt="custom server" />
 
 **Step 5:** Select the connection type that matches your setup. For this demonstration, choosing NPM package to install the Postman MCP Server. 
 
-<img src="../../reference-images/mcp-server-connection-types.png" alt="custom server" />
+<img src="../reference-images/mcp-server-connection-types.png" alt="custom server" />
 
 **Step 6:** The npm package name field will appear. Enter the required package name. For this demonstration, entering the Postman MCP Server package name ([@postman/postman-mcp-server](https://www.npmjs.com/package/@postman/postman-mcp-server?activeTab=readme)) and press Enter. 
 
-<img src="../../reference-images/mcp-package-name.png" alt="custom server" />
+<img src="../reference-images/mcp-package-name.png" alt="custom server" />
 
 **Step 7:** The Postman API key field will appear. Paste the Postman API key you generated and press Enter. 
 
-<img src="../../reference-images/mcp-package-api-key.png" alt="custom server" />
+<img src="../reference-images/mcp-package-api-key.png" alt="custom server" />
 
 **Note:**
 - If you don’t already have a Postman account, use Postman’s documentation guide to sign up: [Sign up for Postman](https://learning.postman.com/docs/getting-started/first-steps/sign-up-for-postman/)
@@ -160,44 +160,44 @@ Step 4: Review the Terms and Conditions, then click Accept and proceed.
 
 **Step 8:** Select the tool configuration that fits your needs. For this demonstration, choosing the Minimal option. 
 
-<img src="../../reference-images/mcp-postman-tool-configuration.png" alt="custom server" />
+<img src="../reference-images/mcp-postman-tool-configuration.png" alt="custom server" />
 
 **Step 9:** Select the region. Keep the default selection (US). 
 
-<img src="../../reference-images/mcp-postman-region-choosing.png" alt="custom server" />
+<img src="../reference-images/mcp-postman-region-choosing.png" alt="custom server" />
 
 **Step 10:** Enter a Server ID. This is a label you choose in Code Studio to identify the custom server (not a Postman ID). 
 
-<img src="../../reference-images/mcp-server-id.png" alt="custom server" />
+<img src="../reference-images/mcp-server-id.png" alt="custom server" />
 
 **Step 11:** Select the configuration target based on your needs. For this demonstration, choose Global to make the server available across all workspaces. 
 
-<img src="../../reference-images/mcp-workspace-option-choosing.png" alt="custom server" />
+<img src="../reference-images/mcp-workspace-option-choosing.png" alt="custom server" />
 
 **Step 12:** The Postman MCP Server is now configured and ready to use. 
 
-<img src="../../reference-images/mcp-postman-installed.png" alt="custom server" />
+<img src="../reference-images/mcp-postman-installed.png" alt="custom server" />
 
 > **Note:** If you selected the **Workspace** option in Step 11, a file icon will appear next to the server name icon, indicating that the server is installed for the current workspace only.
 
-<img src="../../reference-images/custom-local-server.png" alt="custom server" />
+<img src="../reference-images/custom-local-server.png" alt="custom server" />
 
 ### How to access the MCP tools 
 
 **Step 1** : Click the Syncfusion Code Studio icon. The chat window is displayed.
 
-<img src="../../reference-images/codestudioIcon.png" alt="Tools" >
+<img src="../reference-images/marketplace1.png" alt="Tools" >
 
 **Step 2**: Select the Agent in the chat window.
 
 **Step 3** : Click the Configure Tools button in the chat input field. The tools are displayed.
-<img src="../../reference-images/agent_tool.png" alt="Tools" >
+<img src="../reference-images/agent_tool.png" alt="Tools" >
 
 > **Note:** Must select the Agent to access the configuration tools.
 
 **Step 4** : Select or deselect tools to control which ones are available for the current request.
 
-<img src="../../reference-images/mcp-tools.png" alt="Tools" >
+<img src="../reference-images/mcp-tools.png" alt="Tools" >
 
 For demonstration purposes, we created a **User Management API** collection in Postman with sample data and added five sample API requests to the collection.
 
@@ -226,7 +226,7 @@ For each request, include tests that validate:
 
 Use consistent, readable test names and keep scripts minimal and maintainable. Keep assertions non-brittle (no fixed record counts or hardcoded values). If the API does not persist changes, validate response structure and echoed fields instead of permanent updates.
 ```
-<img src="../../reference-images/generate-test.png" alt="custom server" />
+<img src="../reference-images/generate-test.png" alt="custom server" />
 
 
 ## MCP Settings and Management
@@ -247,7 +247,7 @@ Available actions include:
 - Browse Resource
   - View all resources provided by your MCP server
 
-<img src="../../reference-images/startserver.png" alt="custom server" />
+<img src="../reference-images/startserver.png" alt="custom server" />
 
 ## Uninstalling an MCP Server
 To remove a custom MCP server:
@@ -256,4 +256,4 @@ To remove a custom MCP server:
 2. Select Uninstall.
 3. The server is removed from your device and Code Studio.
 
-<img src="../../reference-images/uninstall-custom.png" alt="custom server" />
+<img src="../reference-images/uninstall-custom.png" alt="custom server" />
