@@ -122,14 +122,14 @@ Before installing MCP servers from the marketplace, ensure that:
 - Open the Marketplace tab.
 - There you can find GitHub and click install 
 
-  <img src="../../reference-images/github1.png" alt="marketplace" >
+  <img src="../reference-images/github1.png" alt="marketplace" >
 
 ### Step 2: Select Installation Option
 - Choose between **Workspace** or **Global** installation based on your needs.
 - Select **Workspace** to install the server for the current project only.
 - Select **Global** to install the server across all your projects.
 
-  <img src="../../reference-images/github-install.png" alt="marketplace" >
+  <img src="../reference-images/github-install.png" alt="marketplace" >
 
 ### Step 3: Provide Access Token
 - After clicking Install, you will be prompted to enter a **GitHub Personal Access Token**.
@@ -140,20 +140,20 @@ Before installing MCP servers from the marketplace, ensure that:
 > **Note:** Authentication requirements vary across different MCP servers. While some servers require Personal Access Tokens (like GitHub), others may need API keys or specific credentials. Certain servers offer automatic installation without requiring any authentication. The installation process will prompt you for the appropriate credentials based on the selected server's requirements.
 
 
-  <img src="../../reference-images/github2.png" alt="marketplace" >
+  <img src="../reference-images/github2.png" alt="marketplace" >
 
 ### Step 4: Select the Installed Tool
 - Identify the GitHub MCP server from **Configure Tool**.
 - Select the tools you need from the GitHub MCP server and add them.
 
-  <img src="../../reference-images/github3.png" alt="marketplace" >
+  <img src="../reference-images/github3.png" alt="marketplace" >
 
 ### Step 5: Formulate Your Prompt
 - Decide what action you want the tool to perform.
 - Write the prompt in the chat panel.
   Example : 
 
-  <img src="../../reference-images/github4.png" alt="marketplace" >
+  <img src="../reference-images/github4.png" alt="marketplace" >
 
 ### Step 6: Execute the Command
 - Hit **Enter** to run the command.
@@ -162,7 +162,7 @@ Before installing MCP servers from the marketplace, ensure that:
 ### Step 7: Allow or Skip Permissions
 - The system may ask you to allow or skip execution (for security reasons).
 
-    <img src="../../reference-images/github5.png" alt="marketplace" >
+    <img src="../reference-images/github5.png" alt="marketplace" >
 
 - If you choose **Allow**, the tool proceeds.
 - If you choose **Skip**, the action is canceled.
@@ -181,7 +181,7 @@ Before installing MCP servers from the marketplace, ensure that:
 - Choose the MCP server you want to uninstall.
 - Click **Uninstall** to remove the selected server.
 
-  <img src="../../reference-images/uninstallmcp.png" alt="marketplace" >
+  <img src="../reference-images/uninstallmcp.png" alt="marketplace" >
 
 
 ## Best Practices
