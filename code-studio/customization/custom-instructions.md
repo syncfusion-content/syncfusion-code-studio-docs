@@ -58,22 +58,22 @@ Use Custom Instructions when you want to:
 
 **Step 1:** Open **settings** at the bottom left in Code Studio.  
 
-<img src="../reference-images/instruction_option.png" alt="instruction_option" >
+<img src="./reference-images/instruction_option.png" alt="instruction_option" >
 
 **Step 2:** Select **Code Studio Settings** in the pop-up options.
 
-<img src="../reference-images/instruction_code_settings.png" alt="instruction_code_settings" >
+<img src="./reference-images/instruction_code_settings.png" alt="instruction_code_settings" >
 
 **Step 3:** Click **Instructions & Skills** in the settings options.
 
-<img src="../reference-images/instruction_repo.png" alt="instruction_repo" >
+<img src="./reference-images/instruction_repo.png" alt="instruction_repo" >
 
 You will see three options:  
 - **Option 1: Project-wise instructions** 
     - Use this option when you want **one set of rules** for the entire project.
     - Switch **ON** the repo path to enable the file.
 
-    <img src="../reference-images/instruction_repo_path.png" alt="instruction_path" >
+    <img src="./reference-images/instruction_repo_path.png" alt="instruction_path" >
 
     - Once enabled, the AI assistant will automatically apply these instructions to **all chats and code contexts** in your project.
 
@@ -81,16 +81,16 @@ You will see three options:
     - Use this option when you want **different rules** for different file types or folders.
     - Switch **ON** the repo path to enable the file.
 
-    <img src="../reference-images/instruction_specific_path.png" alt="instruction_specific_path" >
+    <img src="./reference-images/instruction_specific_path.png" alt="instruction_specific_path" >
 
 - **Option 3: Add New Path-specific Location**
     - Click the **Add New Location** in the instruction settings page.
     
-    <img src="../reference-images/instruction_new_location.png" alt="instruction_new_location" >
+    <img src="./reference-images/instruction_new_location.png" alt="instruction_new_location" >
 
     - You can add a new custom file path and switch **ON** the path specific settings.
 
-    <img src="../reference-images/instruction_path_add.png" alt="instruction_path_add" >
+    <img src="./reference-images/instruction_path_add.png" alt="instruction_path_add" >
 
     - Use this option when you want to create a **new instruction** file for a **custom path.**
 
@@ -100,31 +100,31 @@ You will see three options:
 
 - Open your project in Code studio. Click the settings option at the top in the chat and select **agent customizations**.
 
-    <img src="../reference-images/instruction_chat_option.png" alt="instruction_chat_option" >
+    <img src="./reference-images/instruction_chat_option.png" alt="instruction_chat_option" >
 
 - Click the “Generate instructions” and select New instruction(workspace) in the pop up.
 
 **Step 2:** Now Code Studio will automatically create and open `codestudio-instructions.md`.  
 
-<img src="../reference-images/instruction_repo_file.png" alt="instruction_repo_file">
+<img src="./reference-images/instruction_repo_file.png" alt="instruction_repo_file">
 
 **Step 3:** Customize the file to fit your project needs.  
 **Step 4:** Open chat view and send a message. Now the instruction file will be **referenced** automatically.
 
-<img src="../reference-images/instruction_repo_refer.png" alt="instruction_repo_refer">
+<img src="./reference-images/instruction_repo_refer.png" alt="instruction_repo_refer">
 
 
 ## How to Configure Path-specific Instruction File
 
-**Step 1:** Click the Code Studio Account icon
-<img src="../reference-images/settings-account.png" alt="instruction_path_chat">
+**Step 1:** Click *Settings* from the top right and click **Open settings**
+<img src="./reference-images/settings-account.png" alt="instruction_path_chat">
 
 **Step 2:** Click **Instruction & SKills** and select **Add Location**
-<img src="../reference-images/instruction_path_chat.png" alt="instruction_path_chat">
+<img src="./reference-images/instruction_path_chat.png" alt="instruction_path_chat">
 
 **Step 2:** Enter **Name for Instruction File**.
 
-<img src="../reference-images/instruction_path_new_chat.png" alt="instruction_path_new_chat">
+<img src="./reference-images/instruction_path_new_chat.png" alt="instruction_path_new_chat">
 
 **Step 3:** Choose where to save your file
 - There are two options to save your instruction. You can choose any one of them based on your preference.
@@ -138,18 +138,18 @@ You will see three options:
         - Use when: Using across multiple projects.
         - Benefit: Available in all workspaces.
 
-        <img src="../reference-images/instruction_path_workspace.png" alt="instruction_path_workspace">
+        <img src="./reference-images/instruction_path_workspace.png" alt="instruction_path_workspace">
 
     - Select your **preferred location** and click to Continue.               
 
 **Step 4:** Name your instruction file
 - For example, here the instruction file name entered is `test.instructions.md`.  
 
-<img src="../reference-images/instruction_path_name.png" alt="instruction_path_name">
+<img src="./reference-images/instruction_path_name.png" alt="instruction_path_name">
 
 **Step 5:** The new file will be open automatically for editing.
 
-<img src="../reference-images/instruction_path_test.png" alt="instruction_path_test">
+<img src="./reference-images/instruction_path_test.png" alt="instruction_path_test">
 
 **Step 6:** Target the path-specific instructions file
 - For example, here target the `test.instructions.md` file.
@@ -164,15 +164,15 @@ You will see three options:
 - Steps to target the global path:
     - Step 1: Use path Like `'**'`
 
-    <img src="../reference-images/instruction_global.png" alt="instruction_global" >
+    <img src="./reference-images/instruction_global.png" alt="instruction_global" >
 
     - Step 2: Add instructions in the test-instructions.md.
 
-    <img src="../reference-images/instruction_global_test.png" alt="instruction_global_test" >
+    <img src="./reference-images/instruction_global_test.png" alt="instruction_global_test" >
 
     - Step 3: Open chat and send message your instruction will come in the **used reference.**
 
-    <img src="../reference-images/instruction_path_result.png" alt="instruction_global_result" >
+    <img src="./reference-images/instruction_path_result.png" alt="instruction_global_result" >
 
 ### Option 2: Pattern-specific Targeting
 - **Definition:** `applyTo: **/*.scss` or other patterns. for example `(**/*.ts, **/*.css)` 
@@ -182,19 +182,19 @@ You will see three options:
 - Steps to target the pattern specific path
     - Step 1: Use any specific path like `‘**/*.scss’.`
 
-    <img src="../reference-images/instruction_path_apply.png" alt="instruction_path_apply" >
+    <img src="./reference-images/instruction_path_apply.png" alt="instruction_path_apply" >
 
     - Step 2: Add instructions in the test-instructions.md.
 
-    <img src="../reference-images/instruction_path_rules.png" alt="instruction_path_rules" >
+    <img src="./reference-images/instruction_path_rules.png" alt="instruction_path_rules" >
 
     - Step 3: Include the file in the **chat context** which you want to edit.
 
-    <img src="../reference-images/instruction_path_context.png" alt="instruction_path_context" >
+    <img src="./reference-images/instruction_path_context.png" alt="instruction_path_context" >
 
     - Step 4: Open chat and send message your instruction file will come in the **used reference.**
 
-    <img src="../reference-images/instruction_path_result.png" alt="instruction_path_result" >
+    <img src="./reference-images/instruction_path_result.png" alt="instruction_path_result" >
 
  ## Custom Instructions Example
 The following examples show how custom instructions can be used.

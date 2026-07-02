@@ -55,7 +55,7 @@ Syncfusion Code Studio provides a suite of tools to streamline your workflow. Yo
 - To use MCP tools, you must install and configure MCP servers first.
 - MCP servers can run locally on your machine or be hosted remotely.
 
-<img src="../reference-images/tools1.png" alt="Tools" >
+<img src="./reference-images/tools1.png" alt="Tools" >
 
 ### Toolset Overview
 
@@ -116,19 +116,19 @@ Before you can use tools in chat, you need to enable them in the **Chat view**. 
 
 **Step 1** : Click the Syncfusion Code Studio icon. The chat window is displayed.
 
-<img src="../reference-images/tools2.png" alt="Tools" >
+<img src="./reference-images/tools2.png" alt="Tools" >
 
 **Step 2**: Select the Agent in the chat window.
 
 **Step 3** : Click the Configure Tools button in the chat input field. The tools are displayed.
 
-<img src="../reference-images/tools3.png" alt="Tools" >
+<img src="./reference-images/tools3.png" alt="Tools" >
 
 > **Note:** Must select the Agent to access the configuration tools.
 
 **Step 4** : Select or deselect tools to control which ones are available for the current request.
 
-<img src="../reference-images/tools4.png" alt="Tools" >
+<img src="./reference-images/tools4.png" alt="Tools" >
 
 **💡Tip** : Use the search box to quickly filter the list of tools.
 
@@ -136,11 +136,11 @@ Before you can use tools in chat, you need to enable them in the **Chat view**. 
 
 You can explicitly reference tools in your prompts by typing **#** followed by the **tool name**. This is useful when you want to ensure that a specific tool is used. Type **#** in the chat input field to see a list of available tools.
 
-<img src="../reference-images/tools5.png" alt="Tools" >
+<img src="./reference-images/tools5.png" alt="Tools" >
 
 **Example of a tool reference:**
 
-<img src="../reference-images/tools6.png" alt="Tools" >
+<img src="./reference-images/tools6.png" alt="Tools" >
 
 ### Tools Approval
 
@@ -148,7 +148,7 @@ When using agents, the agent automatically determines which tools to use from th
 
 Some tools require your approval before they can run. This is a security measure because tools may perform actions that modify files, change your environment, or attempt prompt injection attacks through malicious output.
 
-<img src="../reference-images/tools7.png" alt="Tools" >
+<img src="./reference-images/tools7.png" alt="Tools" >
 
 > **Note:** Always review tool parameters carefully before approving, especially for tools that modify files, run commands, or access external services.
 
