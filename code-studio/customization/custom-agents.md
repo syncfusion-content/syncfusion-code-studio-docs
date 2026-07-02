@@ -44,7 +44,7 @@ Choose **one** of these methods:
 
 - Click “+ Create new Custom agent”
 
-<img src="./reference-images/custom_agent.png" alt="Custom_Agent" />
+<img src="./reference-images/agen-create.png" alt="Custom_Agent" />
 
 **Method 2 – Through Command Palette**
 - Press `Ctrl+Shift+P` (Windows/Linux) or `⌘⇧P` (Mac)
