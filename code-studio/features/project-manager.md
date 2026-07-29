@@ -52,6 +52,10 @@ Once a folder is open, Project Manager shows the **Welcome** screen if your proj
 
  <img src="./feature-images/pm-onboarding.png" alt="Welcome to Project Manager" />
 
+When you select **Start New Project**, a form appears with two fields: a required **Project Name** field and an optional **What are you building?** field where you can describe your app. The more detail you provide, the fewer questions the agent will need to ask. Click **Create Project** to let the agent scaffold the structure and generate the knowledge files.
+
+ <img src="./feature-images/pm-start-new-project.png" alt="Start New Project form" />
+
 ### Step 4: Start a Task
 
 After setup, go to the **New Task** tab and describe your objective in the text area. If you used **Start New Project** in the previous step, the agent provides a ready-to-use objective at the end of setup — paste it into the text box to continue. Then click **Start Task**. The agent looks at your request and decides how many steps are needed based on how complex or risky the task is, then works through each stage on its own.
@@ -61,7 +65,7 @@ After setup, go to the **New Task** tab and describe your objective in the text 
 - Mention relevant APIs, libraries, or constraints
 - Include acceptance criteria when possible
 
-*Example AI provided prompt:* `The Expense Tracker app is designed to help users manage and visualize their daily expenses with ease. Featuring an intuitive user interface, this application allows users to categorize and analyze their expenditure patterns effectively. It includes user authentication for security, ensuring data is accessible only by its owner. Equip users with advanced data visualization tools, offering comprehensive insight into their spending habits. Multiple-device compatibility ensures users can track their expenses anytime, anywhere. Additionally, members can export their data into various file formats for accounting and budgeting purposes.`
+*Example AI provided prompt:* `Scaffold the Vite + React project with Syncfusion, set up routing, localStorage utility, and build the Dashboard page with a category pie chart and monthly bar chart using mock data.`
 
 When your objective is long enough, a **Plugin Selector** appears so you can add plugins before the agent starts. To add a plugin before using it in a task, see [Using Plugins in a Task](#using-plugins-in-a-task).
 
@@ -69,7 +73,7 @@ When your objective is long enough, a **Plugin Selector** appears so you can add
 
  <img src="./feature-images/pm-new-task.png" alt="New Task: Start a workflow" />
 
-Once the task starts, the agent moves through a series of stages automatically. Each stage has a clear purpose, and the agent saves a document at the end of each one so you can see exactly what was decided or done. The most common workflow runs through five stages: **Define → Plan → Build → Verify → Review**.
+Once the task starts, the agent moves through a series of stages automatically. Each stage has a clear purpose, and the agent saves a document at the end of each one so you can see exactly what was decided or done. The most common workflow runs through five stages: **Define → Plan → Build → Verify → Review**. For Thorough and Maximum process levels, a sixth **Ship** stage is added after Review to run a pre-launch checklist before the task is marked done.
 
 At the start of each stage, a **Send to Agent** button appears. Clicking it triggers the agent to begin its work for that stage.
 
@@ -139,7 +143,18 @@ In this stage, the agent reads through all the code it wrote and checks the qual
 
  <img src="./feature-images/pm-stage-review.png" alt="Review Stage" />
 
+#### Ship
+
+In this stage, the agent runs through a pre-launch checklist to make sure the change is ready to go out.
+
+- The agent checks that all must-fix issues from the Review stage have been resolved.
+- It verifies that documentation, release notes, and any deployment steps are in order.
+- A **ship checklist report** is saved summarizing the readiness status.
+- Once the checklist is complete, click **Approve & Continue** to finish the task.
+
 Once all stages are complete, the task is marked as done. You can view it along with all the artifacts produced during the workflow in the [History](#history) tab.
+
+ <img src="./feature-images/pm-stage-completion.png" alt="Ship Stage" />
 
 ---
 
@@ -165,7 +180,7 @@ The **Plugins** tab is the Project Manager plugin marketplace. A plugin can bund
 
 **Step 3:** The plugin downloads and becomes available immediately for use in new tasks.
 
- <img src="./feature-images/pm-plugins.png" alt="Installed Plugins" />
+ <img src="./feature-images/pm-install-plugins.png" alt="Installed Plugins" />
 
 ### Using Plugins in a Task
 
@@ -178,7 +193,7 @@ When starting a new task in the **New Task** tab, a **Plugins** selector appears
 
 > **Note:** Click the **Refresh** button (top-right of the Plugins tab) to reload the plugin registry and check for updates.
 
- <img src="./feature-images/pm-plugins.png" alt="Installed Plugins" />
+ <img src="./feature-images/pm-plugins-task.png" alt="Installed Plugins" />
 
 ---
 
@@ -206,7 +221,7 @@ If no knowledge files exist yet, click **Generate Knowledge**. The agent scans y
 
 If knowledge files already exist, a **Refresh** button lets you regenerate them. Use this after significant changes to the project, for example, after adding a new framework, restructuring folders, or updating major dependencies.
 
- <img src="./feature-images/pm-knowledge-empty.png" alt="Knowledge: No Knowledge Yet" />
+ <img src="./feature-images/pm-knowledge-refresh.png" alt="Knowledge: No Knowledge Yet" />
 ---
 
 ## History
@@ -237,7 +252,7 @@ Click any row to open the **Task Detail View**, which shows:
 
 Use the **Back** button to return to the history list.
 
- <img src="./feature-images/pm-history.png" alt="Task Detail View" />
+ <img src="./feature-images/pm-history-detail.png" alt="Task Detail View" />
 
 ---
 
@@ -259,8 +274,6 @@ Controls the default process level applied to new tasks.
 | **Thorough** | Always use Thorough: all stages including the Ship checklist (6 stages). |
 | **Maximum** | Always use Maximum: all stages with extra safety gates. |
 
- <img src="./feature-images/pm-settings.png" alt="Project Manager Settings" />
-
 ### Who Moves the Task to the Next Step?
 
 Controls whether you review each stage or let the agent advance automatically.
@@ -269,8 +282,6 @@ Controls whether you review each stage or let the agent advance automatically.
 | --- | --- |
 | **I review each step before moving on** | Project Manager pauses at every stage boundary and waits for your approval |
 | **Agent runs automatically** | The agent advances through stages on its own; you review only at the end |
-
- <img src="./feature-images/pm-settings.png" alt="Project Manager Settings" />
 
 ### Save Cancelled Tasks to History
 
