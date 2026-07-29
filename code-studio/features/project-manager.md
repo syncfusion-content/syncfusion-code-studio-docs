@@ -19,7 +19,7 @@ Use Project Manager when you need to:
 
 - Set up a new or existing project so the agent understands your codebase
 - Start a guided workflow for a feature, bug fix, refactor, or security change
-- Install skill packs to give the agent expertise in specific frameworks or libraries
+- Install plugins to give the agent expertise in specific frameworks or libraries
 - Refresh project knowledge after making significant changes to your codebase
 - Look back at completed or cancelled tasks and the artifacts they produced
 - Control how thorough the workflow should be and who approves each step
@@ -39,29 +39,31 @@ Project Manager needs a workspace folder to store your workflow state and projec
 - Click **Open Folder** to browse for a project folder on your machine.
 - Click **Open Recent** to quickly reopen a folder or workspace you used before.
 
+> **Note:** If you already have a folder open in your workspace, this screen will not appear. Project Manager will skip directly to the Set Up Your Project screen.
+
  <img src="./feature-images/pm-no-workspace.png" alt="Open a Folder to Get Started" />
 
 ### Step 3: Set Up Your Project
 
 Once a folder is open, Project Manager shows the **Welcome** screen if your project has not been configured yet. Choose how to set it up:
 
-- **Set Up Existing Project:** The agent scans your codebase and automatically detects your tech stack, coding conventions, architecture, and boundaries. Use this when you already have code in the folder.
-- **Start New Project:** Describe what you want to build and the agent scaffolds the project structure and generates knowledge files for you. Use this when the folder is empty.
+- **Start New Project:** Use this when the folder is empty and you want to build something from scratch. Describe what you want to build and the agent scaffolds the project structure and generates knowledge files for you. Once the setup is complete, the agent provides a suggested objective that you can paste directly into the **New Task** text box to get started.
+- **Set Up Existing Project:** Use this when you already have code in the folder. The agent scans your codebase and automatically detects your tech stack, coding conventions, architecture, and boundaries.
 
  <img src="./feature-images/pm-onboarding.png" alt="Welcome to Project Manager" />
 
 ### Step 4: Start a Task
 
-After setup, go to the **New Task** tab, describe your objective in the text area, and click **Start Task**. The agent looks at your request and decides how many steps are needed based on how complex or risky the task is, then works through each stage on its own.
+After setup, go to the **New Task** tab and describe your objective in the text area. If you used **Start New Project** in the previous step, the agent provides a ready-to-use objective at the end of setup — paste it into the text box to continue. Then click **Start Task**. The agent looks at your request and decides how many steps are needed based on how complex or risky the task is, then works through each stage on its own.
 
 **Tips for writing a good objective:**
 - Be specific about the feature, bug, or change
 - Mention relevant APIs, libraries, or constraints
 - Include acceptance criteria when possible
 
-*Example:* `Add a date-range dropdown to the header, defaulting to 30 days. When changed, all widgets, KPI cards, charts, and orders table. This should reflect only that window using filtered data passed down as props from top-level useState`
+*Example AI provided prompt:* `The Expense Tracker app is designed to help users manage and visualize their daily expenses with ease. Featuring an intuitive user interface, this application allows users to categorize and analyze their expenditure patterns effectively. It includes user authentication for security, ensuring data is accessible only by its owner. Equip users with advanced data visualization tools, offering comprehensive insight into their spending habits. Multiple-device compatibility ensures users can track their expenses anytime, anywhere. Additionally, members can export their data into various file formats for accounting and budgeting purposes.`
 
-When your objective is long enough, a **Plugin Selector** appears so you can add plugins before the agent starts. To add a plugin before using it in a task, see [Using Plugins in a Task](#Using-Plugins-in-a-Task).
+When your objective is long enough, a **Plugin Selector** appears so you can add plugins before the agent starts. To add a plugin before using it in a task, see [Using Plugins in a Task](#using-plugins-in-a-task).
 
 > **Note:** For more information on plugins and how to install them, refer to the [Plugins](#plugins) section.
 
@@ -69,7 +71,9 @@ When your objective is long enough, a **Plugin Selector** appears so you can add
 
 Once the task starts, the agent moves through a series of stages automatically. Each stage has a clear purpose, and the agent saves a document at the end of each one so you can see exactly what was decided or done. The most common workflow runs through five stages: **Define → Plan → Build → Verify → Review**.
 
-At the bottom of each active stage, you will see the below action buttons:
+At the start of each stage, a **Send to Agent** button appears. Clicking it triggers the agent to begin its work for that stage.
+
+Once the agent finishes, you will see the following action buttons at the bottom of the stage:
 
 - **Approve & Continue** — confirms the stage is done and moves the workflow to the next stage. This button is available on every stage once the agent has finished its work.
 - **Regenerate** — asks the agent to redo the current stage. A text box appears so you can describe what to change before the agent tries again.
