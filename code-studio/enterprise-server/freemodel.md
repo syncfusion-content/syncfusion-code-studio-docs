@@ -5,6 +5,7 @@ platform: syncfusion-code-studio
 control: IDE
 documentation: Getting Started
 keywords: code, IDE, freemodel, openrouter
+tocname: code-studio-enterprise-server-toc
 ---
 
 # Use OpenRouter Free Models in Syncfusion Code Studio

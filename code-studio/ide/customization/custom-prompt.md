@@ -1,0 +1,95 @@
+---
+title: Syncfusion Code Studio Custom Prompts
+description: "Guide for creating and using AI-driven prompt templates to standardize development workflows"
+platform: syncfusion-code-studio
+keywords: custom-prompts, ai-assistance, templates, workflows, best-practices
+tocname: code-studio-ide-toc
+---
+
+
+# Custom Prompt Files
+
+## Purpose
+Prompt Files in Syncfusion Code Studio are reusable AI instructions you can save and run anytime. They act like templates for common tasks such as generating code, reviewing code, or documentation.
+
+Why they matter: Instead of typing the same request again and again, you save it once as a Prompt File.
+
+This makes your workflow faster and ensures consistency.
+
+## When to Use 
+Prompt Files are helpful when you want to:
+
+- Save time by avoiding repetitive typing
+- Standardize prompts for your team (e.g., code reviews, documentation)
+- Build a library of reusable workflows
+
+
+
+
+
+## Steps to Create and Use Prompt Files
+
+### Step 1: Open Chat Window
+Open your project in Code Studio. Open the Code Studio Chat window.
+<img src="./reference-images/customprompt1.png" alt="Custom Prompt" />
+
+### Step 2: Select Prompt Files
+Click the Settings button at the top. In the menu, choose **Agent Customizations**.
+
+<img src="./reference-images/customprompt2.png" alt="Custom Prompt" />
+
+### Step 3: Create a New Prompt File
+Click **Generate Prompt**. You’ll see two storage options:
+
+- **ProjectSpecific (.codestudio/prompts)** → stored in the current project folder, usable only in that project
+- **Global (User Data)** → stored globally, usable across any project
+
+Creation steps (same for both):
+- Choose your storage option.
+- Enter a name for your prompt file and click Enter.
+- Then in the created prompt file, choose the mode (you can choose which mode to use; default is agent, but you can switch to ask, edit, plan)
+- Add guidelines or instructions that AI should follow.
+
+<img src="./reference-images/prompt-3.gif" alt="Custom Prompt" />
+
+### Step 4: Use Your Prompt File
+- Open the Chat window
+- Type `/` (slash) in the chat box
+- Select the desired prompt file from the list
+- Press Enter to run it
+<img src="./reference-images/prompt4.gif" alt="Custom Prompt" />
+
+## Prompt File Structure
+A prompt file has two main parts: **Header (YAML frontmatter)** and **Body (prompt text)**.
+
+### Header (optional)
+- **description** — A short description of the prompt.
+- **name** — The prompt name shown after typing `/` in chat; if omitted, the file name is used.
+- **argument-hint** — Optional hint shown in the chat input to guide users.
+- **agent** — Which agent(mode) runs the prompt: ask, edit, plan, agent.
+- **model** — The language model to use; if omitted, the currently selected model is used.
+- **tools** — A list of tool or tool set names available to the prompt; missing tools are ignored when running.
+
+### Body
+The prompt file body contains the prompt text that is sent to the LLM when running the prompt in chat. Provide specific instructions, guidelines, or any other relevant information that you want the AI to follow.
+
+## Prompt File Example
+```
+---
+agent: 'agent'
+model: GPT-4o
+tools: ['read','edit','web','search/codebase']
+description: 'Generate a new React form component'
+---
+Goal: Make a simple contact form component.
+
+Requirements:
+- Fields: Name, Email, Message.
+- Show labels, placeholders, and inline errors.
+- All fields are required; Email must contain "@".
+- Submit button and Reset button.
+- On submit, call onSubmit(data) and then clear the form.
+- Export the component and its TypeScript types.
+- Keep the code short and easy to read. No extra libraries.
+```
+
