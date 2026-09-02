@@ -3,6 +3,7 @@ title: Configure LLM Providers and Models in Syncfusion Code Studio
 description: Admin guide to connect LLM providers, manage API keys, and add models to your enterprise catalog in Code Studio.
 platform: syncfusion-code-studio
 keywords: llm, providers, models, configuration, admin, enterprise, syncfusion, code-studio, api keys, model catalog, openai, anthropic, azure openai, gemini
+tocname: code-studio-enterprise-server-toc
 ---
 
 # Configure LLM Providers and Models

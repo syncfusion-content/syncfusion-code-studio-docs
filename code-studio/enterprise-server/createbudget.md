@@ -3,6 +3,7 @@ title: Create Budget in Syncfusion Code Studio
 description: Learn how to configure team and individual user budgets, set budget periods with auto-renewal, and set up usage alerts in Syncfusion Code Studio Enterprise Server.
 platform: syncfusion-code-studio
 keywords: budget, usage, billing, alerts, teams, users, admin, syncfusion, code-studio, enterprise server, getting started
+tocname: code-studio-enterprise-server-toc
 ---
 
 # Create Budget
