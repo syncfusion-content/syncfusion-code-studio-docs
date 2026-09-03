@@ -1,6 +1,6 @@
 ---
 title: Troubleshooting Previous Chat Sessions
-description: Learn how to identify, review, and resolve issues that occurred in earlier chat sessions within Syncfusion Code Studio. This tutorial guides you through accessing past conversations, diagnosing common problems, and applying corrective steps to ensure smooth continuity in your development workflow.
+description: Learn how to identify, review, and resolve issues that occurred in earlier chat sessions within Syncfusion Code. This tutorial guides you through accessing past conversations, diagnosing common problems, and applying corrective steps to ensure smooth continuity in your development workflow.
 platform: syncfusion-code-studio
 keywords:  chat sessions, troubleshooting, developer workflow, session management, AI assistance
 tocname: code-studio-ide-toc
@@ -40,7 +40,7 @@ By completing this tutorial, you will be able to:
 This ensures that detailed debug information is captured for future troubleshooting sessions. 
 
 ### Step 2: Use the /troubleshoot Command 
-- Open the Chat view in Code Studio. This will be your current troubleshooting session where you'll diagnose past issues 
+- Open the Chat view in Syncfusion Code. This will be your current troubleshooting session where you'll diagnose past issues 
 
 - In the chat input field, type: `/troubleshoot` command is recognized 
     <img src="./tutorials-images/chat-troubleshoot.png" alt="Troubleshoot Previous session with Agent Debug log" />
@@ -61,7 +61,7 @@ Browse through the list of sessions and select the one you want to investigate
 
 ### Step 4: Analyze the Troubleshooting Results 
 
-Once you submit your troubleshooting query, Code Studio will analyze the debug logs from the selected session and provide insights such as: 
+Once you submit your troubleshooting query, Syncfusion Code will analyze the debug logs from the selected session and provide insights such as: 
 
 - Custom Instructions: Whether they were loaded and applied correctly 
 

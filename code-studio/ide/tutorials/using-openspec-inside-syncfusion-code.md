@@ -1,16 +1,16 @@
 ---
-title: Using OpenSpec Inside Syncfusion Code Studio Complete Guide
-description: Learn how to use OpenSpec inside Syncfusion Code Studio to propose, plan, build, and archive AI-powered code changes safely and predictably.
+title: Using OpenSpec Inside Syncfusion Code Complete Guide
+description: Learn how to use OpenSpec inside Syncfusion Code to propose, plan, build, and archive AI-powered code changes safely and predictably.
 platform: syncfusion-code-studio
 keywords: openspec, slash-commands, propose, apply, archive, explore
 tocname: code-studio-ide-toc
 ---
 
-# Using OpenSpec Inside Syncfusion Code Studio: A Complete Guide
+# Using OpenSpec Inside Syncfusion Code: A Complete Guide
 
 ## Overview 
 
-This tutorial will guide you through using **OpenSpec** inside **Syncfusion Code Studio** to create, plan, and execute AI (Artificial Intelligence)-assisted changes in a safe, structured, and predictable way. 
+This tutorial will guide you through using **OpenSpec** inside **Syncfusion Code** to create, plan, and execute AI (Artificial Intelligence)-assisted changes in a safe, structured, and predictable way. 
 
 [**OpenSpec**](https://github.com/Fission-AI/OpenSpec?tab=readme-ov-file) is a structured workflow tool that helps you work with AI to build software more predictably. Think of it as a project manager for AI coding. It helps you avoid common AI coding problems like **hallucinations, lost context, and unstructured changes**. Instead of letting AI make random edits, you'll learn a workflow that plans everything first, implements changes step-by-step, and organizes all work in markdown files you can review and track.
 
@@ -33,7 +33,7 @@ By the end, you'll understand how to build your first project using OpenSpec com
 
 Before beginning, ensure you have the following:
 
-- **A project or folder** opened in Code Studio (you can create an empty test folder if needed).
+- **A project or folder** opened in Syncfusion Code (you can create an empty test folder if needed).
 - **[Node.js 20](https://nodejs.org/) or higher** installed on your system. OpenSpec runs on top of Node.js, so this is required.
 
 > **Tip:** To check your Node.js version, open a terminal and run `node --version`. If you see a version number like `v20.x.x` or higher, you're good to go.
@@ -57,7 +57,7 @@ By the end of this tutorial, you'll be able to:
 
 ### Step 1: Install and Configure OpenSpec
 
-1. Open the integrated **Terminal** in Code Studio by going to `View` > `Terminal` in the menu, or press `` Ctrl+` `` (Windows/Linux) or `` Cmd+` `` (Mac). Once the **Terminal** opens at the bottom of your Code Studio window, type the following command and press `Enter` to install OpenSpec globally on your system:
+1. Open the integrated **Terminal** in Syncfusion Code by going to `View` > `Terminal` in the menu, or press `` Ctrl+` `` (Windows/Linux) or `` Cmd+` `` (Mac). Once the **Terminal** opens at the bottom of your Syncfusion Code window, type the following command and press `Enter` to install OpenSpec globally on your system:
 
 ```bash
 npm install -g @fission-ai/openspec@latest
@@ -70,7 +70,7 @@ npm install -g @fission-ai/openspec@latest
 ```bash
 openspec init
 ```
-3. The initialization wizard will ask you to choose an AI extension. Since Syncfusion Code Studio includes GitHub Copilot integration, select the **GitHub Copilot** option:
+3. The initialization wizard will ask you to choose an AI extension. Since Syncfusion Code includes GitHub Copilot integration, select the **GitHub Copilot** option:
 
 <img src="./tutorials-images/Extension-Option.png" alt="Select GitHub Copilot as your AI extension during OpenSpec initialization" />
 
@@ -94,9 +94,9 @@ You should see new `openspec/` and `.github/` folders in your project explorer, 
 
 Use `/opsx:explore` to brainstorm and discuss ideas with the AI before making any actual changes to your project. This command helps you explore different approaches and understand your options without creating or modifying any files.
 
-Open the **Chat Panel** by pressing `Ctrl+Alt+B` (Windows/Linux) or `Cmd+Alt+B` (Mac), or click the Code Studio icon in the toolbar. Then type `/opsx:explore` in the **Chat Panel** followed by your question. For example:
+Open the **Chat Panel** by pressing `Ctrl+Alt+B` (Windows/Linux) or `Cmd+Alt+B` (Mac), or click the Syncfusion Code icon in the toolbar. Then type `/opsx:explore` in the **Chat Panel** followed by your question. For example:
 
-<img src="./tutorials-images/sf-icon.png" alt="Code Studio chat icon in the toolbar" />
+<img src="./tutorials-images/sf-icon.png" alt="Syncfusion Code chat icon in the toolbar" />
 
 ```
 /opsx:explore Sales Dashboard using React
@@ -171,7 +171,7 @@ Check your project structure to verify the archiving worked correctly:
 
 ## What's Next
 
-You've mastered the basics of OpenSpec in Code Studio! Here are some recommended next steps to expand your skills:
+You've mastered the basics of OpenSpec in Syncfusion Code! Here are some recommended next steps to expand your skills:
 
 - Learn how to combine OpenSpec with autonomous AI coding in [Generate Your First Code Using Agent](/code-studio/tutorials/generate-your-first-code-using-agent).
 - Check out [Manage Chat Sessions](/code-studio/how-to-guides/manage-chat-session) to organize your conversations.

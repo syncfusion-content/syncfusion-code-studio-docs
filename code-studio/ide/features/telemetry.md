@@ -1,6 +1,6 @@
 ---
-title: Syncfusion Code Studio Telemetry
-description: Syncfusion Code Studio collects anonymous usage data to improve the product experience.
+title: Syncfusion Code Telemetry
+description: Syncfusion Code collects anonymous usage data to improve the product experience.
 platform: syncfusion-code-studio
 keywords: code, IDE, AI, developer-tools, syncfusion, code-assistance, productivity, UI-generation, bug-fixing, documentation, telemetry
 tocname: code-studio-ide-toc
@@ -9,7 +9,7 @@ tocname: code-studio-ide-toc
 # Telemetry
 
 ## Overview
-Syncfusion Code Studio collects anonymous usage data to improve product quality and user experience. This data helps the development team understand feature usage, identify performance issues, and prioritize enhancements.
+Syncfusion Code collects anonymous usage data to improve product quality and user experience. This data helps the development team understand feature usage, identify performance issues, and prioritize enhancements.
 
 Telemetry collection is optional and can be disabled at any time by the user.
 
@@ -19,7 +19,7 @@ Telemetry data is collected and stored using [PostHog](https://posthog.com/), an
 
 ## Data Collection Policy
 
-Syncfusion Code Studio collects a limited set of **anonymous usage metrics** to help improve product performance and user experience. We ensure that **no personal data or user-generated content** (such as code, prompts, or files) is ever collected or stored.
+Syncfusion Code collects a limited set of **anonymous usage metrics** to help improve product performance and user experience. We ensure that **no personal data or user-generated content** (such as code, prompts, or files) is ever collected or stored.
 
 
 ## Collected Data Types
@@ -41,7 +41,7 @@ Telemetry can be disabled through the application settings at any time.
 
 ### Steps to Disable Telemetry:
 
-1. Open **Settings** in Syncfusion Code Studio.  
+1. Open **Settings** in Syncfusion Code.  
 
    <img src="./feature-images/telemetry-setting.png" alt="telemetry"  />
 

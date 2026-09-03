@@ -1,13 +1,13 @@
 ---
-title: Managing Users and Teams in Syncfusion Code Studio
-description: Learn how to manage users, roles, and teams in Syncfusion Code Studio Enterprise Server for secure collaboration, governance, and usage visibility.
+title: Managing Users and Teams in Syncfusion Code
+description: Learn how to manage users, roles, and teams in Syncfusion Code Enterprise Server for secure collaboration, governance, and usage visibility.
 platform: syncfusion-code-studio
 keywords: users, teams, roles, admin, team lead, invitations, access control, governance, syncfusion, code-studio, enterprise
 tocname: code-studio-enterprise-server-toc
 ---
 # User & Teams
 
-Code Studio empowers administrators and team leads to manage organization members, assign roles, and organize users into teams for seamless collaboration and governance.
+Syncfusion Code empowers administrators and team leads to manage organization members, assign roles, and organize users into teams for seamless collaboration and governance.
 
 ## 1. Key Benefits
 - **Role Assignment:** Assign roles such as Admin, Team Lead, or User to match your organizational hierarchy.

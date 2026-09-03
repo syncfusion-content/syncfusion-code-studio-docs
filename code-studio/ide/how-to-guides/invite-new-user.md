@@ -15,17 +15,17 @@ This guide explains how administrators,team leads and team owner can invite new 
 ## Prerequisites 
 - You are an Admin / Team Lead / Team Owner. 
 - You have the email address of the person you want to invite
-- Your Code Studio organization is active. 
+- Your Syncfusion Code organization is active. 
 - A modern web browser with internet access. 
 
 
 ## Steps to Invite a New User
 Follow these steps to invite a new user to your organization.
 
-### Step 1 : Open Code Studio Dashboard
-- Open Code Studio Application.
+### Step 1 : Open Syncfusion Code Dashboard
+- Open Syncfusion Code Application.
 - Ensure you are logged in with the correct user credentials.
-- In the top-right corner of Code Studio, click your **avatar**.
+- In the top-right corner of Syncfusion Code, click your **avatar**.
     
 <img src="../how-to-guides/howtoguide-images/Avator-icon1.png">
 

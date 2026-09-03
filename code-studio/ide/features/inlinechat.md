@@ -1,5 +1,5 @@
 ---
-title: Syncfusion Code Studio Inline Chat
+title: Syncfusion Code Inline Chat
 description: "Professional guide for AI-powered inline code editing and contextual modifications"
 classification: "User Guide - Feature Documentation"
 platform: syncfusion-code-studio
@@ -11,7 +11,7 @@ tocname: code-studio-ide-toc
 # Inline Chat 
 
 ## Overview
-Inline Chat in Syncfusion Code Studio is designed to bring AI assistance directly into your workflow. Instead of switching panels or navigating away from your code, you can interact with AI right inside the editor or terminal. This seamless integration helps you stay focused, get context-aware suggestions, and streamline both coding and command-line tasks.
+Inline Chat in Syncfusion Code is designed to bring AI assistance directly into your workflow. Instead of switching panels or navigating away from your code, you can interact with AI right inside the editor or terminal. This seamless integration helps you stay focused, get context-aware suggestions, and streamline both coding and command-line tasks.
 
 ## Use Cases
 - Debugging Code Quickly – Use Inline Chat to identify errors and generate fixes directly in the editor without switching panels. 
@@ -23,11 +23,11 @@ Inline Chat in Syncfusion Code Studio is designed to bring AI assistance directl
 
 
 ## Using Inline Chat in the Editor
-When you use Inline Chat inside the editor, Code Studio scopes your request to the content in the active file. It may also use related files in your workspace to provide more accurate suggestions.
+When you use Inline Chat inside the editor, Syncfusion Code scopes your request to the content in the active file. It may also use related files in your workspace to provide more accurate suggestions.
 
 ### How to Use Editor Inline Chat
 **Steps:**
-1. **Open a file** in the Code Studio editor.
+1. **Open a file** in the Syncfusion Code editor.
 2. Open Inline Chat by doing one of the following:
    - Press `Ctrl + I`
    - Or **Right-click** inside the editor → **Open Inline Chat**
@@ -42,7 +42,7 @@ When you use Inline Chat inside the editor, Code Studio scopes your request to t
 > **Tip:** Select a block of code before opening Inline Chat if you want AI to focus on that part.
 
 ### Reviewing Suggestions
-After processing your request, Code Studio shows an inline diff view. You can:
+After processing your request, Syncfusion Code shows an inline diff view. You can:
 - **Keep** the changes
 - **Undo** the changes
 
@@ -50,7 +50,7 @@ After processing your request, Code Studio shows an inline diff view. You can:
 
 
 ## Using Inline Chat in the Terminal
-Terminal Inline Chat helps you work with shell commands, scripts, and terminal workflows directly inside Code Studio’s integrated terminal.
+Terminal Inline Chat helps you work with shell commands, scripts, and terminal workflows directly inside Syncfusion Code’s integrated terminal.
 
 ### How to Use Terminal Inline Chat
 **Steps:**
@@ -61,14 +61,14 @@ Terminal Inline Chat helps you work with shell commands, scripts, and terminal w
    <img src="./feature-images/Gif/inlinechat4.gif" alt="inlinechat"  />
 
 ### Running or Inserting Commands
-After Code Studio generates a shell command:
+After Syncfusion Code generates a shell command:
 - Select **Run (Ctrl + Enter)** to execute immediately
 - Select **Insert (Alt + Enter)** to add it into the terminal for editing
 
    <img src="./feature-images/inlinechat5.png" alt="inlinechat"  />
 
 ## Releted Features
-- [Add context to your chat prompt](/code-studio/features/add-context) - Enhance your prompt by providing extra details. This helps Code Studio generate more accurate results and keeps your workspace aligned with your goals.
+- [Add context to your chat prompt](/code-studio/features/add-context) - Enhance your prompt by providing extra details. This helps Syncfusion Code generate more accurate results and keeps your workspace aligned with your goals.
 
 
 

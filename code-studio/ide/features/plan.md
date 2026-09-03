@@ -1,6 +1,6 @@
 ---
-title: Syncfusion Code Studio Plan Mode
-description: Plan Mode in Syncfusion Code Studio helps you design, review, and refine your steps before moving into execution.
+title: Syncfusion Code Plan Mode
+description: Plan Mode in Syncfusion Code helps you design, review, and refine your steps before moving into execution.
 platform: syncfusion-code-studio
 keywords: code, IDE, AI, developer-tools, syncfusion, code-assistance, productivity, UI-generation, bug-fixing, documentation
 tocname: code-studio-ide-toc
@@ -10,7 +10,7 @@ tocname: code-studio-ide-toc
 
 ## Overview
 
-The Plan Agent is a powerful feature in Syncfusion Code Studio that helps you create detailed implementation plans before writing code. It analyzes your task, breaks it down into clear steps, and identifies any questions that need clarification without making code changes until you approve.
+The Plan Agent is a powerful feature in Syncfusion Code that helps you create detailed implementation plans before writing code. It analyzes your task, breaks it down into clear steps, and identifies any questions that need clarification without making code changes until you approve.
 
 ## Use Cases
 
@@ -27,7 +27,7 @@ Use the Plan Agent when you need to:
 
 ### Step 1: Open Chat
 
-* Open Syncfusion Code Studio and select plan mode in the mode dropdown in the chat panel.
+* Open Syncfusion Code and select plan mode in the mode dropdown in the chat panel.
 
     <img src="./feature-images/planmode.png" alt="Open Chat View">
 
@@ -67,7 +67,7 @@ The Plan Agent will show you:
 * Select **Start Implementation** button
 * The command will appear in the chat box and the mode will automatically switch to **Agent Mode** . Click Enter for execute your plan.
 
-    **Note:** For more information, refer to the [Syncfusion Code Studio Agent Mode](/code-studio/features/agent)
+    **Note:** For more information, refer to the [Syncfusion Code Agent Mode](/code-studio/features/agent)
 
     <img src="./feature-images/plan-implementation.png" alt="Start Implementation" />
 
@@ -91,11 +91,11 @@ The Plan Agent will show you:
 * Executes the approved plan with AI-powered code generation
 * Automatically activated after plan approval
 
-    **Note:** For more information on agent mode features, visit the [Syncfusion Code Studio Agent Mode](/code-studio/features/agent).
+    **Note:** For more information on agent mode features, visit the [Syncfusion Code Agent Mode](/code-studio/features/agent).
 
 ### Ask Mode
 
 * Ask is optimized for answering questions about your codebase, coding, and general technology concepts
 * Use Ask when you want to understand how something works, explore ideas, or get help with coding tasks
 
-    **Note:** For more information on ask mode features, visit the [Syncfusion Code Studio Ask Mode](/code-studio/features/ask).
+    **Note:** For more information on ask mode features, visit the [Syncfusion Code Ask Mode](/code-studio/features/ask).

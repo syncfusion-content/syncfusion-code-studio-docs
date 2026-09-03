@@ -1,5 +1,5 @@
 ---
-title: Syncfusion Code Studio User Settings Reference
+title: Syncfusion Code User Settings Reference
 description: "Professional guide for customizing development environment settings and optimizing workflow efficiency"
 classification: "User Guide - Configuration Documentation"
 platform: syncfusion-code-studio
@@ -34,7 +34,7 @@ The User Settings page can be accessed in three ways:
 
 ### 1. From the Account
 
-- Click the Code Studio Account icon.
+- Click the Syncfusion Code Account icon.
 
 <img src="./reference-images/settings-account.png" alt="UserSettings" >
 
@@ -44,8 +44,8 @@ The User Settings page can be accessed in three ways:
 
 ### 2. From the Toggle Sidebar
 
-- Click the **gear icon** on the left sidebar of the Code Studio window.
-- Select Code Studio Settings from the menu.
+- Click the **gear icon** on the left sidebar of the Syncfusion Code window.
+- Select Syncfusion Code Settings from the menu.
 
 <img src="./reference-images/settings-sidebar.png" alt="UserSettings" >
 
@@ -55,7 +55,7 @@ The User Settings page can be accessed in three ways:
 
 ### 3. From the Chat Window
 
-- Navigate to the **Code Studio Chat Window**.
+- Navigate to the **Syncfusion Code Chat Window**.
 - Click the **gear icon** located at the top right corner.
 - Select Open Settings. 
 
@@ -134,10 +134,10 @@ The following settings are available on the User Settings page.
 ### Instructions & Skills
 
 #### Use codestudio-instructions.md File 
-- Controls whether instructions from `.codestudio/codestudio-instructions.md` are added to Code Studio requests. 
+- Controls whether instructions from `.codestudio/codestudio-instructions.md` are added to Syncfusion Code requests. 
 - Default: `Enabled`
 
-> **Note:** Keep your instructions short and precise. Poor instructions can degrade Code Studio quality and performance. 
+> **Note:** Keep your instructions short and precise. Poor instructions can degrade Syncfusion Code quality and performance. 
 
 #### Instruction File Locations 
 - Specify locations of instruction files (`*.instructions.md`) that can be attached in chat sessions.
@@ -160,14 +160,14 @@ The following settings are available on the User Settings page.
 
 ### Autocomplete
 
-- When enabled, Code Studio provides inline code suggestions across all supported languages.
+- When enabled, Syncfusion Code provides inline code suggestions across all supported languages.
 - Default: `Enabled`
 
 <img src="./reference-images/settings-autocomplete1.png" alt="UserSettings" >
 
 ### Indexing
 
-- When enabled, Code Studio will start an indexing process to scan and embed workspace files for accurate search results. 
+- When enabled, Syncfusion Code will start an indexing process to scan and embed workspace files for accurate search results. 
 
 <img src="./reference-images/settings-indexing1.png" alt="UserSettings" >
 
@@ -182,7 +182,7 @@ The following settings are available on the User Settings page.
 
 ### Telemetry
 
-- When enabled, Code Studio collects anonymous telemetry data to improve the product.
+- When enabled, Syncfusion Code collects anonymous telemetry data to improve the product.
 - Default: `Enabled`
 
 <img src="./reference-images/settings-telemetry1.png" alt="UserSettings" >
@@ -190,7 +190,7 @@ The following settings are available on the User Settings page.
 ### Help & Support
 
 - **Documentation**  
-  Access the official Syncfusion Code Studio documentation for configuration guidance and usage instructions.
+  Access the official Syncfusion Code documentation for configuration guidance and usage instructions.
 
 - **Have an Issue?**  
   If you encounter any problems, you can easily reach out to our support team at [support.syncfusion.com](https://support.syncfusion.com).

@@ -1,5 +1,5 @@
 ---
-title: Syncfusion Code Studio Install and Configure
+title: Syncfusion Code Install and Configure
 description: "Professional developer guide for AI-driven error resolution and debugging assistance in real-time development workflows"
 classification: "User Guide - Feature Documentation"
 platform: syncfusion-code-studio
@@ -10,7 +10,7 @@ tocname: code-studio-ide-toc
 # Install and Configure
 
 ## Overview
-Getting started with Syncfusion Code Studio is quick and easy. This guide will show you, how to download, install, and set up the IDE on both Windows and macOS. Whether you’re new to Code Studio or setting it up on a fresh system, this simple walkthrough will help you get everything ready in just a few minutes—so you can start building right away!
+Getting started with Syncfusion Code is quick and easy. This guide will show you, how to download, install, and set up the IDE on both Windows and macOS. Whether you’re new to Syncfusion Code or setting it up on a fresh system, this simple walkthrough will help you get everything ready in just a few minutes—so you can start building right away!
 
 ## Prerequisites
 
@@ -18,26 +18,26 @@ Getting started with Syncfusion Code Studio is quick and easy. This guide will s
 
 ## What You’ll Learn
 By the end of this tutorial, you’ll learn how to:
-- Create your Syncfusion Code Studio account.
-- Download and install Syncfusion Code Studio IDE.
+- Create your Syncfusion Code account.
+- Download and install Syncfusion Code IDE.
 - Sign in and start using the IDE.
 
 ## Installation Steps (For both macOS & Windows)
 
 ### Step 1: Download the Installer
-- Visit the official [Syncfusion Code Studio website](https://www.syncfusion.com/code-studio/).
-- Click **“Get Started Now”** to open the Code Studio enterprise page.
+- Visit the official [Syncfusion Code website](https://www.syncfusion.com/code-studio/).
+- Click **“Get Started Now”** to open the Syncfusion Code enterprise page.
 
   <img src="gettingstarted-images/get started.png" alt="Install"/>
 
   > **Note**: The enterprise page is for organizations to monitor and manage AI usage.
 
-- If you already have Syncfusion Code Studio Account, choose one of these sign-in options to sign-in with Code Studio Enterprise server or else click **“SIGN UP”** to create one:
+- If you already have Syncfusion Code Account, choose one of these sign-in options to sign-in with Syncfusion Code Enterprise server or else click **“SIGN UP”** to create one:
    - **Microsoft Account:** Use your personal, work, or school Microsoft credentials.
    - **GitHub Account:** Sign in with your GitHub credentials.
    - **Syncfusion Account:** Create a new account using your email and password.
    <img src="gettingstarted-images/loginform.png" alt="install" />
-- Click **Download Code Studio**.
+- Click **Download Syncfusion Code**.
 <img src="gettingstarted-images/download ide.png" alt="install" />
 
 - Download your preferred operating system.
@@ -61,8 +61,8 @@ By the end of this tutorial, you’ll learn how to:
 - Click **Install** and wait for completion.
 <img src="gettingstarted-images/windows-install.gif" alt="install" />
 
-### Step 3: Sign In with Code Studio IDE
-- After installing Syncfusion Code Studio IDE, the **Welcome Page** will appear.
+### Step 3: Sign In with Syncfusion Code IDE
+- After installing Syncfusion Code IDE, the **Welcome Page** will appear.
 <img src="gettingstarted-images/welcomepage.png" alt="install" />
 - To activate your account and enable all features, you’ll need to sign in inside the IDE. Choose one of these sign-in options:
 
@@ -71,23 +71,23 @@ By the end of this tutorial, you’ll learn how to:
   - **Syncfusion Account:** Create a new account using your email and password.
 
 
-### Step 4: Start Using Code Studio
-After installing Code Studio, you can start using it immediately.
-- Open the Code Studio IDE and access the Code Studio chat box, which acts as your built-in AI assistant for coding tasks.
+### Step 4: Start Using Syncfusion Code
+After installing Syncfusion Code, you can start using it immediately.
+- Open the Syncfusion Code IDE and access the Syncfusion Code chat box, which acts as your built-in AI assistant for coding tasks.
 - Type your first query in the chat panel.
 <img src="gettingstarted-images/firstchat.png" alt="install" />
-- If Code Studio responds, your subscription is active.
-- If the Code Studio IDE chat box does not respond, you will see a message prompting you to subscribe to a plan for full access to features.
+- If Syncfusion Code responds, your subscription is active.
+- If the Syncfusion Code IDE chat box does not respond, you will see a message prompting you to subscribe to a plan for full access to features.
 
 - Select **Upgrade**.
 <img src="gettingstarted-images/upgrade.png" alt="install" />
 - Choose the subscription plan you prefer.
 <img src="gettingstarted-images/subs.png" alt="install" />
 
-To know more about the Code Studio Subscription plans, click on **View Subscription Options**.
+To know more about the Syncfusion Code Subscription plans, click on **View Subscription Options**.
 
 ## Next Steps
 
-Once you have installed Syncfusion Code Studio, the following topics will help you explore its features and get the most out of your development workflow:
+Once you have installed Syncfusion Code, the following topics will help you explore its features and get the most out of your development workflow:
 
 [Generate you first code change using agent](/code-studio/tutorials/generate-your-first-code-using-agent)

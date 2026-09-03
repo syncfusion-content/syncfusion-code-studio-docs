@@ -1,19 +1,19 @@
 ---
 title: Build Your First App Using Spec-Driven Development
-description: "Learn how to build a Voice Notes web app using Spec-Driven Development (SDD) approach with Syncfusion Code Studio"
+description: "Learn how to build a Voice Notes web app using Spec-Driven Development (SDD) approach with Syncfusion Code"
 classification: "User Guide - Tutorial"
 platform: syncfusion-code-studio
 keywords: spec-driven-development, ai-development, voice-notes-app, openspec, code-generation, agent-mode
 tocname: code-studio-ide-toc
 ---
 
-# Build Your First App in Code Studio
+# Build Your First App in Syncfusion Code
 
 ## Overview
 
-Ready to build your first app? In this guide, you'll create a **Voice Notes web app** directly in **Syncfusion Code Studio** using a simple, step-by-step approach. Code Studio guides you through planning, building, and organizing your project using clear commands that make the whole process stress-free.
+Ready to build your first app? In this guide, you'll create a **Voice Notes web app** directly in **Syncfusion Code** using a simple, step-by-step approach. Syncfusion Code guides you through planning, building, and organizing your project using clear commands that make the whole process stress-free.
 
-You'll move from idea to working application by following **Spec-Driven Development (SDD)** — a beginner-friendly approach where you describe what you want to build, and Code Studio generates the code for you. No complex setup. No guesswork. Just clear instructions and working code.
+You'll move from idea to working application by following **Spec-Driven Development (SDD)** — a beginner-friendly approach where you describe what you want to build, and Syncfusion Code generates the code for you. No complex setup. No guesswork. Just clear instructions and working code.
 
 <img src="gettingstarted-images/gif-firstapp.gif" alt="voice app" />
 
@@ -21,7 +21,7 @@ You'll move from idea to working application by following **Spec-Driven Developm
 
 Before getting started, make sure that:
 
-1. **Syncfusion Code Studio is installed**  
+1. **Syncfusion Code is installed**  
    If it’s not installed, refer to the [installation guide](/code-studio/getting-started/install-and-configuration) to set it up properly.
 
 2.	Node.js >= 20.19.0 is installed.
@@ -45,34 +45,34 @@ By the end of this tutorial, you'll know how to:
 Spec-Driven Development (SDD) is a methodology that emphasizes creating clear, structured specifications before writing any code. Instead of jumping straight into coding and hoping everything works out, you first write down exactly what you want to build, how it should behave, and what it should do.
 
 **Why it matters:**
-- **Reduces confusion** — Code Studio knows exactly what to build
+- **Reduces confusion** — Syncfusion Code knows exactly what to build
 - **Better quality** — Clear requirements lead to fewer mistakes and less rework
 
 Here's the key idea: instead of writing code and hoping it does what you want, you write down what you want first. 
 
 ### What is OpenSpec?
 
-OpenSpec is a tool built for Spec-Driven Development. It helps you organize your specifications, proposals, designs, and tasks all in one place within your project folder. When you use OpenSpec with Code Studio:
+OpenSpec is a tool built for Spec-Driven Development. It helps you organize your specifications, proposals, designs, and tasks all in one place within your project folder. When you use OpenSpec with Syncfusion Code:
 
 1. **You describe what to build** — Write your app requirements in plain English
 2. **OpenSpec organizes it** — Creates a structured plan (proposal, design, specs, tasks)
-3. **Code Studio builds it** — The AI reads your organized specs and generates the code
+3. **Syncfusion Code builds it** — The AI reads your organized specs and generates the code
 
 Think of OpenSpec as the planning and organization system that makes SDD work smoothly. It keeps everything clear and prevents miscommunication between you and the AI.
 
-For more information about OpenSpec, visit our [Using OpenSpec in Code Studio](/code-studio/tutorials/using-openspec-inside-syncfusion-code) guide.
+For more information about OpenSpec, visit our [Using OpenSpec in Syncfusion Code](/code-studio/tutorials/using-openspec-inside-syncfusion-code) guide.
 
 
-## Build Your First App in Code Studio
+## Build Your First App in Syncfusion Code
 
 ### Step 1: Set Up Your Environment
 
-Before building your Voice Notes app, ensure your Code Studio environment is ready:
+Before building your Voice Notes app, ensure your Syncfusion Code environment is ready:
 
 
 1. **Create a new workspace**:
    - Create a new folder named `voice-notes-app` on your machine
-   - Open Code Studio on your machine
+   - Open Syncfusion Code on your machine
    - Open that 'voice-notes-app'  as your workspace in code studio by clicking **File** -> **Open Folder**
 
    <img src="gettingstarted-images/voiceapp-openfolder.png" alt="voice app" />
@@ -80,7 +80,7 @@ Before building your Voice Notes app, ensure your Code Studio environment is rea
 ### Step 2: Install OpenSpec
 
 
-1. **Open the Terminal** in Code Studio (`Terminal` → `New Terminal`)
+1. **Open the Terminal** in Syncfusion Code (`Terminal` → `New Terminal`)
 2. **Install OpenSpec** by running this command:
    ```
    npm install -g @fission-ai/openspec@latest
@@ -89,7 +89,7 @@ Before building your Voice Notes app, ensure your Code Studio environment is rea
    ```
    openspec init
    ```
-   A prompt will appear asking you to select an AI tool. Choose **GitHub Copilot** from the options to connect OpenSpec with Code Studio.
+   A prompt will appear asking you to select an AI tool. Choose **GitHub Copilot** from the options to connect OpenSpec with Syncfusion Code.
    
      <img src="gettingstarted-images/Extension-Option.png" alt="voice app" />
 
@@ -104,16 +104,16 @@ When you run `openspec init`, OpenSpec creates these folders in your project:
 - **`openspec/specs/`** — Stores your finalized specifications 
 - **`openspec/changes/`** — Stores your **Proposal**, **Design**, and **Tasks** files 
 - **`openspec/config.yaml`** — Settings and configuration file for OpenSpec
-- **`.github/`** — Contains all the skills and prompts that OpenSpec uses to communicate with Code Studio and generate your plans and implement it.
+- **`.github/`** — Contains all the skills and prompts that OpenSpec uses to communicate with Syncfusion Code and generate your plans and implement it.
 
 > **Note:** Beyond this tutorial's main workflow, OpenSpec offers many other commands for advanced use cases such as verification, creating new change folders, and more. For a complete list of available commands and their usage, refer to the [OpenSpec official documentation](https://github.com/Fission-AI/OpenSpec/blob/main/docs/commands.md).
    
 
 ### Step 3: Create the Project Plan
 
-Now that your environment is set up, you'll create a detailed project plan. This plan helps Code Studio understand exactly what you want to build before writing any code. You describe your app in simple language, and Code Studio generates a structured plan that includes the proposal, design, specifications, and tasks.
+Now that your environment is set up, you'll create a detailed project plan. This plan helps Syncfusion Code understand exactly what you want to build before writing any code. You describe your app in simple language, and Syncfusion Code generates a structured plan that includes the proposal, design, specifications, and tasks.
 
-To create your project plan, use the `/opsx-propose` command in the Code Studio Chat Panel. Follow the command with a detailed description of what you want to build. Code Studio will read your description and generate:
+To create your project plan, use the `/opsx-propose` command in the Syncfusion Code Chat Panel. Follow the command with a detailed description of what you want to build. Syncfusion Code will read your description and generate:
 
 - A **proposal** explaining what you're building and why
 - A **design** describing how it will work
@@ -142,9 +142,9 @@ Review the generated files in your `openspec/changes/` directory carefully befor
 
 ### Step 4: Implement the Plan (Apply)
 
-After you've reviewed and approved your project plan from Step 3, it's time to build the actual application. In this step, Code Studio reads all your specifications and tasks, then automatically writes the code for your Voice Notes app. The AI works through each task one by one, creating files and writing code that matches your plan exactly.
+After you've reviewed and approved your project plan from Step 3, it's time to build the actual application. In this step, Syncfusion Code reads all your specifications and tasks, then automatically writes the code for your Voice Notes app. The AI works through each task one by one, creating files and writing code that matches your plan exactly.
 
-To start the implementation, run the `/opsx-apply` command in the Code Studio Chat Panel:
+To start the implementation, run the `/opsx-apply` command in the Syncfusion Code Chat Panel:
 
 ```
 /opsx-apply
@@ -178,7 +178,7 @@ Launching your completed app and verify it works end-to-end:
 
 Now that your Voice Notes app is built and tested, it's time to organize your project. The archiving step moves your finalized specifications to a permanent location and stores your working files in an archive folder. This keeps your project clean and makes it easy to find your specifications if you want to make changes or build new features later.
 
-To finalize and organize your project, run the `/opsx-archive` command in the Code Studio Chat Panel:
+To finalize and organize your project, run the `/opsx-archive` command in the Syncfusion Code Chat Panel:
 
 ```
 /opsx-archive

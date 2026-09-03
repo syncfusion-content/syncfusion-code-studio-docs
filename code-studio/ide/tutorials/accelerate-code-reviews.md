@@ -1,6 +1,6 @@
 ---
-title: Accelerating Code Reviews - Instant AI-Driven Insights with Code Studio
-description: Learn how to get instant, intelligent code reviews in Syncfusion Code Studio using Git diffs, custom review agents, and inline suggestions to catch bugs before they ship.
+title: Accelerating Code Reviews - Instant AI-Driven Insights with Syncfusion Code
+description: Learn how to get instant, intelligent code reviews in Syncfusion Code using Git diffs, custom review agents, and inline suggestions to catch bugs before they ship.
 platform: syncfusion-code-studio
 keywords: code-review, ai-review, custom-agents, git-diff, code-quality, bug-detection
 tocname: code-studio-ide-toc
@@ -9,7 +9,7 @@ tocname: code-studio-ide-toc
 
 
 
-# Accelerating Code Reviews: Instant AI-Driven Insights with Code Studio
+# Accelerating Code Reviews: Instant AI-Driven Insights with Syncfusion Code
 
 ## Overview
 
@@ -17,7 +17,7 @@ You've just finished implementing a complex feature across 15 files. The code wo
 
 What if you could get instant, intelligent feedback before you even commit? What if you had an AI reviewer that remembers and enforces your team's coding standards automatically? That's exactly what we'll show you in this tutorial.
 
-In a few minutes, you'll learn three powerful ways to review your code instantly in Code Studio—catching bugs, security issues, and quality problems before they ever reach a pull request. No more waiting. No more bottlenecks.
+In a few minutes, you'll learn three powerful ways to review your code instantly in Syncfusion Code—catching bugs, security issues, and quality problems before they ever reach a pull request. No more waiting. No more bottlenecks.
 
 ## Prerequisites
 
@@ -36,7 +36,7 @@ By the end of this tutorial, you'll be able to:
 
 ## Key Concepts
 
-**#changes** — A special tool in Code Studio that shares your uncommitted Git changes with the AI so it can review everything you modified in one go.
+**#changes** — A special tool in Syncfusion Code that shares your uncommitted Git changes with the AI so it can review everything you modified in one go.
 
 **Custom Review Agent** — A reusable, named reviewer you configure once to apply your team's security, performance, testing, and documentation rules consistently.
 
@@ -54,7 +54,7 @@ Before we can review changes, we need to make sure Git is tracking your code.
 
 #### 2. If your project doesn't have Git yet:
 
-- Open your project in Code Studio
+- Open your project in Syncfusion Code
 - Open the Terminal (Ctrl+` on Windows, Cmd+` on macOS)
 - Type `git init` and press Enter
 
@@ -70,7 +70,7 @@ The `#changes` tool is like having a code reviewer look at your Git diff instant
 
 1. Make some code changes if you haven't already. Edit a file, add a function, fix a bug—anything works for practice.
 
-2. Open the Chat panel in Code Studio (Ctrl+Shift+I on Windows, Cmd+Shift+I on macOS).
+2. Open the Chat panel in Syncfusion Code (Ctrl+Shift+I on Windows, Cmd+Shift+I on macOS).
 
 3. Type `#` in the chat input field. A dropdown menu appears with available options.
 

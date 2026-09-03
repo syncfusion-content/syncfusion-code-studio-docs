@@ -1,18 +1,18 @@
 ---
-title: Fixing Bugs in Seconds Smart Error Resolution with Syncfusion Code Studio AI
-description: Learn how Syncfusion Code Studio AI instantly identifies and resolves errors, helping developers fix bugs in seconds with AI-powered quick fixes and smart debugging.
+title: Fixing Bugs in Seconds Smart Error Resolution with Syncfusion Code AI
+description: Learn how Syncfusion Code AI instantly identifies and resolves errors, helping developers fix bugs in seconds with AI-powered quick fixes and smart debugging.
 platform: syncfusion-code-studio
 keywords: bug-fixing, error-resolution, quick-fix, problems-panel, context, agent-mode, attachment
 tocname: code-studio-ide-toc
 ---
 
-# Fixing Bugs in Seconds: Smart Error Resolution with Syncfusion Code Studio AI
+# Fixing Bugs in Seconds: Smart Error Resolution with Syncfusion Code AI
 
 ## Overview
 
-Tracking down a bug can take significant time, especially when the root cause is a simple typo, a missing import, or a type mismatch buried across multiple files. Code Studio AI helps you identify and resolve these errors quickly by surfacing AI-powered fixes directly in your editor.
+Tracking down a bug can take significant time, especially when the root cause is a simple typo, a missing import, or a type mismatch buried across multiple files. Syncfusion Code AI helps you identify and resolve these errors quickly by surfacing AI-powered fixes directly in your editor.
 
-This tutorial walks you through three approaches to fixing bugs with Code Studio AI: using hover quick fixes for single errors, sending problems from the **Problems panel** as context to the AI agent, and attaching files so the AI understands your broader codebase before suggesting a fix.
+This tutorial walks you through three approaches to fixing bugs with Syncfusion Code AI: using hover quick fixes for single errors, sending problems from the **Problems panel** as context to the AI agent, and attaching files so the AI understands your broader codebase before suggesting a fix.
 
 
 
@@ -32,9 +32,9 @@ By the end of this tutorial, you'll be able to:
 
 Use this approach when you have a single, isolated error to resolve.
 
-1. Open your project which has errors in Code Studio.
+1. Open your project which has errors in Syncfusion Code.
 
-2. Move your mouse cursor over any red underlined error in your code. Code Studio AI displays the following options:
+2. Move your mouse cursor over any red underlined error in your code. Syncfusion Code AI displays the following options:
    - **Quick Fix** — Apply an immediate fix for the specific error.
    - **Fix** — Get a detailed AI-generated solution.
    - **View Problem** — See the error details in the **Problems panel**.
@@ -49,7 +49,7 @@ The AI analyzes your code, understands the context, and applies the fix.
 
 Use this approach when you have multiple errors and want to send specific problems to the AI as context.
 
-1. Open the **Chat Panel** by pressing `Ctrl+Alt+B` (Windows/Linux) or `Cmd+Alt+B` (Mac), or click the Code Studio icon to the left of the centered search box. Then click **+** at the bottom of the chat window:
+1. Open the **Chat Panel** by pressing `Ctrl+Alt+B` (Windows/Linux) or `Cmd+Alt+B` (Mac), or click the Syncfusion Code icon to the left of the centered search box. Then click **+** at the bottom of the chat window:
 
    <img src="./tutorials-images/Attachment-icon.png" alt="Add context paperclip icon at the bottom of the Chat Panel" />
 

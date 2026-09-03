@@ -1,6 +1,6 @@
 ---
 title: Hooks
-description: Reference documentation for configuring hooks in Syncfusion Code Studio to run custom shell commands at agent lifecycle events.
+description: Reference documentation for configuring hooks in Syncfusion Code to run custom shell commands at agent lifecycle events.
 platform: syncfusion-code-studio
 control: IDE
 documentation: Getting Started
@@ -12,7 +12,7 @@ tocname: code-studio-ide-toc
 
 ## Overview
 
-Hooks let you run custom shell commands at specific lifecycle points during an agent session in Syncfusion Code Studio. Use hooks to automate repetitive tasks, enforce security policies, validate tool usage, and integrate external systems into AI-assisted workflows.
+Hooks let you run custom shell commands at specific lifecycle points during an agent session in Syncfusion Code. Use hooks to automate repetitive tasks, enforce security policies, validate tool usage, and integrate external systems into AI-assisted workflows.
 
 Unlike instructions or prompts, hooks execute deterministically. They run at defined events, receive structured JSON input, and can return JSON output that influences how the session continues.
 
@@ -24,7 +24,7 @@ Hooks are useful when you need to:
 - Inject additional context into the agent or subagent.
 - Enforce approval workflows for sensitive operations.
 
-> **Important:** Hooks run locally with the same permissions as your Code Studio session. Review every hook command and script carefully before enabling it.
+> **Important:** Hooks run locally with the same permissions as your Syncfusion Code session. Review every hook command and script carefully before enabling it.
 
 > **Note:** Hook behavior and UI can vary slightly by product version or organization policy.
 
@@ -32,7 +32,7 @@ Hooks are useful when you need to:
 
 Before you configure hooks, make sure that:
 
-1. Syncfusion Code Studio with a workspace is open and you have write access to the workspace.
+1. Syncfusion Code with a workspace is open and you have write access to the workspace.
 2. Agent mode and tool usage are available in your environment.
 3. Familiar with the shell used on your operating system:
 	 - Windows: PowerShell (`.ps1`)
@@ -40,7 +40,7 @@ Before you configure hooks, make sure that:
 
 ## How Hooks Work
 
-At runtime, Code Studio:
+At runtime, Syncfusion Code:
 
 1. Detects a lifecycle event such as `PreToolUse` or `PostToolUse`.
 2. Reads the matching hook configuration from your project configuration.
@@ -51,7 +51,7 @@ At runtime, Code Studio:
 
 ## Hook Lifecycle Events
 
-Code Studio supports the following hook lifecycle events. Event names are case-sensitive and must use the exact PascalCase values shown below.
+Syncfusion Code supports the following hook lifecycle events. Event names are case-sensitive and must use the exact PascalCase values shown below.
 
 ### SessionStart
 
@@ -174,7 +174,7 @@ Code Studio supports the following hook lifecycle events. Event names are case-s
 
 1. **Click** the Settings icon in the Chat window and **Select** **Agent Customizations**.
 
-	<img src="./reference-images/hookstart.png" alt="Chat settings menu in Code Studio with the Settings icon highlighted" >
+	<img src="./reference-images/hookstart.png" alt="Chat settings menu in Syncfusion Code with the Settings icon highlighted" >
 2. **Select** hooks and **click** **Generate Hooks**.
 
 	<img src="./reference-images/hookgenerate.png" alt="Selecting hooks to generate hooks file" >
@@ -185,7 +185,7 @@ Code Studio supports the following hook lifecycle events. Event names are case-s
 
 4. **Enter** a descriptive hook name and press Enter.
 
-	<img src="./reference-images/hookname.png" alt="Hook naming input field in Code Studio" >
+	<img src="./reference-images/hookname.png" alt="Hook naming input field in Syncfusion Code" >
 
 5. It will create a **Default Configuration** like below Image
 	<img src="./reference-images/hookconfig.png" alt="Generated hook files created after naming a new hook" >
@@ -195,7 +195,7 @@ Code Studio supports the following hook lifecycle events. Event names are case-s
 	<img src="./reference-images/hookedit.png" alt="Generated hook configuration open for editing in the editor" >
 
 7. **Run** a test prompt to verify the hook is active.
-	<img src="./reference-images/hookusing.gif" alt="Animated demonstration of creating and configuring a hook in Code Studio" >
+	<img src="./reference-images/hookusing.gif" alt="Animated demonstration of creating and configuring a hook in Syncfusion Code" >
 
 
 ## Verification
@@ -250,5 +250,5 @@ After you configure hooks, verify them with a simple test flow.
 
 - [Custom Instructions](/code-studio/reference/configure-properties/custom-instructions)
 - [Tools Support](/code-studio/reference/configure-properties/toolssupport)
-- [Enhancing Security Reviews and Code Quality with Automated Hooks in Code Studio](/code-studio/tutorials/enhance-security-with-hooks)
+- [Enhancing Security Reviews and Code Quality with Automated Hooks in Syncfusion Code](/code-studio/tutorials/enhance-security-with-hooks)
 - [Custom Agents](/code-studio/reference/configure-properties/custom-agents)

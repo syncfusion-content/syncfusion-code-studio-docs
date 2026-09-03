@@ -1,6 +1,6 @@
 ---
 title: Improving Code Maintainability with Automated Clean Code Refactoring
-description: Learn to use Code Studio's AI to automatically refactor code for better maintainability without changing behavior.
+description: Learn to use Syncfusion Code's AI to automatically refactor code for better maintainability without changing behavior.
 platform: syncfusion-code-studio
 keywords: refactoring, clean-code, code-maintainability, automated-refactoring, inline-chat, agent-mode, code-quality
 tocname: code-studio-ide-toc
@@ -12,7 +12,7 @@ tocname: code-studio-ide-toc
 
 Is your codebase getting harder to read, test, or extend? That's a sign it's time to **refactor**. **Refactoring** is the process of restructuring your existing code to improve its clarity, structure, and maintainability — without changing what it actually does.
 
-Code Studio makes this process faster and more consistent through its built-in AI-powered tools. In this tutorial, you'll walk through practical, real-world examples of how Code Studio automatically detects and fixes the most common code quality problems: repeated logic, bloated functions, and poor naming — all with just a few keystrokes.
+Syncfusion Code makes this process faster and more consistent through its built-in AI-powered tools. In this tutorial, you'll walk through practical, real-world examples of how Syncfusion Code automatically detects and fixes the most common code quality problems: repeated logic, bloated functions, and poor naming — all with just a few keystrokes.
 
 By the end of this tutorial, you'll have a concrete set of refactoring techniques you can apply immediately to your own projects.
 
@@ -29,7 +29,7 @@ Before beginning this tutorial, ensure the following:
 
 By the end of this tutorial, you'll be able to:
 
-- Use Code Studio's [Inline Chat](/code-studio/features/inlinechat) to understand unfamiliar or complex code instantly
+- Use Syncfusion Code's [Inline Chat](/code-studio/features/inlinechat) to understand unfamiliar or complex code instantly
 - Eliminate repeated logic by extracting it into reusable functions
 - Simplify verbose code to make it shorter and easier to read
 - Break large, multi-purpose functions into focused, single-responsibility units
@@ -37,7 +37,7 @@ By the end of this tutorial, you'll be able to:
 - Use [Agent mode](/code-studio/features/agent) to perform multi-file, large-scale refactoring automatically
 
 
-## Understanding Code Studio's AI-Features
+## Understanding Syncfusion Code's AI-Features
 
 Before you begin refactoring, it's important to understand the two main AI-features you'll use:
 
@@ -45,7 +45,7 @@ Before you begin refactoring, it's important to understand the two main AI-featu
 **[Inline Chat](/code-studio/features/inlinechat)** is a lightweight AI assistant that appears directly in your code editor as an input box overlay. You open it with `Ctrl+I` (Windows/Linux) or `Cmd+I` (Mac). Once open, you can type natural language instructions or use slash commands (like `/explain` or `/fix`) to modify the code you've selected. Inline Chat works on **a single file or selection** at a time and shows you a side-by-side diff preview before applying any changes.
 
 ### Chat Panel
-The **Chat Panel** is a separate sidebar panel in Code Studio where you can have ongoing conversations with the AI. You can use it to ask questions, get explanations, or give instructions. It supports two modes:
+The **Chat Panel** is a separate sidebar panel in Syncfusion Code where you can have ongoing conversations with the AI. You can use it to ask questions, get explanations, or give instructions. It supports two modes:
 - **[Ask mode](/code-studio/features/ask)**: For questions, explanations, and single-file changes
 - **[Agent mode](/code-studio/features/agent)**: For complex, multi-file refactoring that requires the AI to autonomously plan and execute changes across multiple files
 
@@ -55,14 +55,14 @@ The **Chat Panel** is a separate sidebar panel in Code Studio where you can have
 
 ### Step 1: Understand Code Before You Refactor
 
-Before changing any code, you must understand what it does. Code Studio's [Inline Chat](/code-studio/features/inlinechat) gives you an instant, plain-English explanation of any selected block of code — removing the guesswork before you begin.
+Before changing any code, you must understand what it does. Syncfusion Code's [Inline Chat](/code-studio/features/inlinechat) gives you an instant, plain-English explanation of any selected block of code — removing the guesswork before you begin.
 
 
 ### Step 2: Eliminate Repeated Code with Extracted Functions
 
 **Code duplication** — the same logic copy-pasted in multiple places — is one of the most common maintainability problems. When the same operation appears more than once, every bug fix or change must be applied in every location, which is time-consuming and error-prone.
 
-Code Studio can detect duplicated logic and extract it into a single, reusable function automatically.
+Syncfusion Code can detect duplicated logic and extract it into a single, reusable function automatically.
 
 The following example calculates EMI (Equated Monthly Installment) for two different loans with duplicated calculation logic.
 
@@ -92,7 +92,7 @@ console.log(monthlyPayment2);
 
 1. Select the entire file contents in the editor (`Ctrl+A` / `Cmd+A`).
    
-   > **Tip:** When you select the entire file, Code Studio's AI can analyze all the functions and automatically identify patterns where the same logic appears multiple times. You don't need to manually highlight each duplicate — the AI does this detection for you.
+   > **Tip:** When you select the entire file, Syncfusion Code's AI can analyze all the functions and automatically identify patterns where the same logic appears multiple times. You don't need to manually highlight each duplicate — the AI does this detection for you.
 
 2. Open Inline Chat with `Ctrl+I` (Windows/Linux) or `Cmd+I` (Mac). The input box will appear over your editor.
 3. Type the following prompt and press Enter:
@@ -100,7 +100,7 @@ console.log(monthlyPayment2);
    ```
    move repeated calculations into reusable functions
    ```
-4. Code Studio analyzes the entire file, identifies duplicate patterns, and suggests a refactored version:
+4. Syncfusion Code analyzes the entire file, identifies duplicate patterns, and suggests a refactored version:
 
    <img src="./tutorials-images/duplicate-code-after.png" alt="Inline Chat diff view showing duplicated logic extracted into a shared reusable function" />
 
@@ -110,7 +110,7 @@ console.log(monthlyPayment2);
 
 ### Step 3: Make Verbose Code More Concise
 
-Long-winded code with unnecessary variables, redundant checks, or outdated syntax is harder to scan and review. Code Studio can rewrite unnecessarily verbose code into a compact, idiomatic form — without removing any functionality.
+Long-winded code with unnecessary variables, redundant checks, or outdated syntax is harder to scan and review. Syncfusion Code can rewrite unnecessarily verbose code into a compact, idiomatic form — without removing any functionality.
 
 #### Example — Before Refactoring
 
@@ -149,7 +149,7 @@ console.log('Interest Rate: ' + formattedInterest);
    ```
    <img src="./tutorials-images/verbose-code-after-functions.png" alt="Inline Chat diff view showing verbose variable declarations replaced with concise arrow functions" />
 
-4. Code Studio suggests a cleaner version:
+4. Syncfusion Code suggests a cleaner version:
    <img src="./tutorials-images/verbose-code-after-templates.png" alt="Inline Chat diff view showing string concatenation replaced with template literals" />
 
 5. Review the suggestion and click Accept if you're satisfied.
@@ -158,7 +158,7 @@ console.log('Interest Rate: ' + formattedInterest);
 
 A function that does too many things at once is called a **god function**. It's hard to test in isolation, difficult to reuse in other contexts, and slow to debug when something goes wrong.
 
-The solution is the **Single Responsibility Principle (SRP)**: each function should do exactly one thing. Code Studio can split a god function into smaller, focused units automatically.
+The solution is the **Single Responsibility Principle (SRP)**: each function should do exactly one thing. Syncfusion Code can split a god function into smaller, focused units automatically.
 
 #### Example — Before Refactoring
 
@@ -198,7 +198,7 @@ calculateLoanDetails(300000, 5.5, 15);
    ```
    <img src="./tutorials-images/large-function-split-emi.png" alt="Inline Chat diff view showing the god function split into a dedicated calculateEMI function" />
 
-4. Code Studio suggests the refactored version with each concern separated:
+4. Syncfusion Code suggests the refactored version with each concern separated:
 
    <img src="./tutorials-images/large-function-split-complete.png" alt="Inline Chat diff view showing the remaining logic split into calculateTotals and formatCurrency functions" />
 
@@ -206,11 +206,11 @@ calculateLoanDetails(300000, 5.5, 15);
 
 ### Step 5: Rename Symbols Across the Entire Project
 
-Poor variable and function names silently reduce code quality over time. Names like `d`, `tmp`, `fn`, or `process` tell the next developer nothing about what they represent. Code Studio can suggest meaningful names and rename every reference across your entire project in a single action.
+Poor variable and function names silently reduce code quality over time. Names like `d`, `tmp`, `fn`, or `process` tell the next developer nothing about what they represent. Syncfusion Code can suggest meaningful names and rename every reference across your entire project in a single action.
 
 1. Place the cursor on the symbol you want to rename — this can be a variable, function name, class, or parameter.
 2. Press `F2` to trigger the rename action.
-3. Code Studio displays a list of AI-suggested alternative names in a dropdown.
+3. Syncfusion Code displays a list of AI-suggested alternative names in a dropdown.
 
    <img src="./tutorials-images/symbol-rename-suggestions.png" alt="F2 rename dropdown showing AI-suggested alternative names for a poorly named variable" />
 
@@ -234,14 +234,14 @@ Suppose your codebase has inconsistent error handling — some functions use `tr
 
 **Steps:**
 
-1. Clone the sample repository and open it in Code Studio:
+1. Clone the sample repository and open it in Syncfusion Code:
 
    ```bash
    git clone https://github.com/syncfusion/ej2-showcase-react-loan-calculator
    cd ej2-showcase-react-loan-calculator
    ```
 
-2. Open your project in Code Studio.
+2. Open your project in Syncfusion Code.
 3. Open the Chat Panel (if it's not already visible, press `Ctrl+Shift+P` (Windows/Linux) or `Cmd+Shift+P` (Mac) to open the **Command Palette** — a search box that appears at the top of the editor — then type "Chat: Focus on Chat View" and press Enter).
 4. Select **[Agent](/code-studio/features/agent)** from the mode selector dropdown.
 5. Type the following prompt in the chat input and press Enter:

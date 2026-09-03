@@ -1,5 +1,5 @@
 ---
-title: Syncfusion Code Studio Automate Code Fixes and Reviews
+title: Syncfusion Code Automate Code Fixes and Reviews
 description: The Automate Code Fixes and Reviews feature helps developers work faster by automating common coding tasks.
 platform: syncfusion-code-studio
 keywords: code, IDE, AI, developer-tools, syncfusion, code-assistance, productivity, UI-generation, bug-fixing, documentation, code-reviw, testing, generate-code
@@ -65,5 +65,5 @@ When you choose **Review**, the AI:
 <img src="./feature-images/generatecode-review.png" alt="review" />
 
 ## Releted Features
- - [Inline Chat](/code-studio/features/inlinechat) Inline Chat in Syncfusion Code Studio lets you talk to AI directly inside your code or terminal without switching screens.
- - [Autocomplete](/code-studio/features/autocomplete) Syncfusion Code Studio’s AI Autocomplete speeds up development by giving smart inline suggestions, completing code from context, generating code from comments, and offering style‑aware alternatives for faster, cleaner coding.
+ - [Inline Chat](/code-studio/features/inlinechat) Inline Chat in Syncfusion Code lets you talk to AI directly inside your code or terminal without switching screens.
+ - [Autocomplete](/code-studio/features/autocomplete) Syncfusion Code’s AI Autocomplete speeds up development by giving smart inline suggestions, completing code from context, generating code from comments, and offering style‑aware alternatives for faster, cleaner coding.

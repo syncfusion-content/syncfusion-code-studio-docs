@@ -1,16 +1,16 @@
 ---
 title: Buy More Credits
-description: Guide on purchasing additional credits for AI model usage in Syncfusion Code Studio Enterprise.
+description: Guide on purchasing additional credits for AI model usage in Syncfusion Code Enterprise.
 platform: syncfusion-code-studio
 keywords: buy credits, add credits, purchase credits, code studio enterprise, ai model usage, billing, subscription
 tocname: code-studio-ide-toc
 ---
 
-# Buy More Credits in Code Studio
+# Buy More Credits in Syncfusion Code
 
 ## Overview
 
-Credits in Syncfusion Code Studio Enterprise are add-on units that fund AI model usage across your organization. They provide flexibility beyond the standard [subscription plans](/code-studio/enterprise-server/settings#4-billing--subscription), allowing you to scale your AI-powered coding operations as needed. Once purchased, credits are immediately applied to your account after successful payment, and your current balance is visible at the top of the [dashboard](https://app.sfcodestudio.com/dashboard).
+Credits in Syncfusion Code Enterprise are add-on units that fund AI model usage across your organization. They provide flexibility beyond the standard [subscription plans](/code-studio/enterprise-server/settings#4-billing--subscription), allowing you to scale your AI-powered coding operations as needed. Once purchased, credits are immediately applied to your account after successful payment, and your current balance is visible at the top of the [dashboard](https://app.sfcodestudio.com/dashboard).
 
 ## When to Use
 
@@ -27,7 +27,7 @@ Purchase additional credits when:
 
 ## Steps to Buy Credits
 
-1. **Navigate to the Credits Tab:** From the Code Studio dashboard, click on "Settings" in the left sidebar, then select the "Credits" tab.
+1. **Navigate to the Credits Tab:** From the Syncfusion Code dashboard, click on "Settings" in the left sidebar, then select the "Credits" tab.
 
     <img src="./howtoguide-images/credits_tab.png" alt="settings"  />
 

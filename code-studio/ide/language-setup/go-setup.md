@@ -1,22 +1,22 @@
 ---
-title: "Go Development Setup in Syncfusion Code Studio"
-description: "Complete guide to set up Go development environment with installation, configuration, and AI-assisted coding in Syncfusion Code Studio"
+title: "Go Development Setup in Syncfusion Code"
+description: "Complete guide to set up Go development environment with installation, configuration, and AI-assisted coding in Syncfusion Code"
 classification: "User Guide - Getting Started"
 platform: syncfusion-code-studio
 keywords: go-setup, golang-development, go-installation, go-compiler, ai-debugging, go-programming, gopls
 tocname: code-studio-ide-toc
 ---
 
-# Go Development Setup in Syncfusion Code Studio
+# Go Development Setup in Syncfusion Code
 
 ## Overview
 
-Syncfusion Code Studio provides intelligent AI-powered assistance for Go development, helping you write clean, idiomatic Go code with greater speed and confidence. Whether you're building microservices, CLI tools, web applications, or cloud-native solutions, Code Studio works seamlessly with Go's toolchain to enhance your productivity.
+Syncfusion Code provides intelligent AI-powered assistance for Go development, helping you write clean, idiomatic Go code with greater speed and confidence. Whether you're building microservices, CLI tools, web applications, or cloud-native solutions, Syncfusion Code works seamlessly with Go's toolchain to enhance your productivity.
 
-This guide walks you through setting up a complete Go development environment—from installing the Go compiler to writing your first Go program. Once configured, you'll be able to leverage Code Studio's autocomplete, debugging assistance, code explanations, and smart refactoring for all your Go projects.
+This guide walks you through setting up a complete Go development environment—from installing the Go compiler to writing your first Go program. Once configured, you'll be able to leverage Syncfusion Code's autocomplete, debugging assistance, code explanations, and smart refactoring for all your Go projects.
 
 > **Prerequisites:** 
-> - Syncfusion Code Studio must be installed. If not, see the [installation guide](/code-studio/getting-started/install-and-configuration).
+> - Syncfusion Code must be installed. If not, see the [installation guide](/code-studio/getting-started/install-and-configuration).
 > - **Disk Space:** ~500 MB for Go installation
 
 ## What You'll Learn
@@ -26,7 +26,7 @@ By the end of this tutorial, you'll learn how to:
 - Install and configure the Go compiler on Windows and macOS
 - Install and configure the Go extension with essential tools
 - Set up Go modules for dependency management
-- Write and run your first Go program in Code Studio
+- Write and run your first Go program in Syncfusion Code
 - Debug Go applications with breakpoints and variable inspection
 
 ## Download and Install Go
@@ -118,31 +118,31 @@ If you have [Homebrew](https://brew.sh/) installed:
 
 ---
 
-## Configure Go in Code Studio
+## Configure Go in Syncfusion Code
 
-With Go installed, the next step is to set up Code Studio to work seamlessly with your Go environment. This involves installing the Go extension and essential development tools.
+With Go installed, the next step is to set up Syncfusion Code to work seamlessly with your Go environment. This involves installing the Go extension and essential development tools.
 
 ### Step 1: Install Go Extension
 
-1. Open **Syncfusion Code Studio**
+1. Open **Syncfusion Code**
 2. Click the **Extensions** icon in the sidebar (or press `Ctrl+Shift+X` / `Cmd+Shift+X`)
 3. Search for **"Go"** (by the Go Team at Google)
 4. Click **Install**
 
-   <img src="language-images/go-extension-install.png" alt="Code Studio Extensions view showing Go extension by Go Team at Google with Install button" />
+   <img src="language-images/go-extension-install.png" alt="Syncfusion Code Extensions view showing Go extension by Go Team at Google with Install button" />
 
 
 
 ### Step 2: Install Go Tools
 
-The Go extension requires several tools for full functionality. Code Studio will prompt you to install them automatically.
+The Go extension requires several tools for full functionality. Syncfusion Code will prompt you to install them automatically.
 
 1. Open the **Command Palette** (`Ctrl+Shift+P` / `Cmd+Shift+P`)
 2. Type: **"Go: Install/Update Tools"**
 3. Select **all tools** from the list (or check all)
 4. Click **OK**
 
-   <img src="language-images/go-install-tools.png" alt="Code Studio dialog showing list of Go tools to install including gopls, dlv, staticcheck" />
+   <img src="language-images/go-install-tools.png" alt="Syncfusion Code dialog showing list of Go tools to install including gopls, dlv, staticcheck" />
 
 ---
 
@@ -153,7 +153,7 @@ Now that everything is configured, let's create a simple Go program to verify yo
 ### Step 1: Create a Go Module
 
 1. Create a new folder for your project (e.g., `hello.go`)
-2. Open it in Code Studio: **File → Open Folder**
+2. Open it in Syncfusion Code: **File → Open Folder**
 3. Open the **Terminal** (`Ctrl+`` / ``Cmd+``)
 4. Initialize a Go module:
    ```bash
@@ -167,28 +167,28 @@ This creates a `go.mod` file that tracks dependencies.
 ### Step 2: Create Your First Go File
 
 1. Create a new file: `main.go`
-2. You can write the code yourself or ask Code Studio to help:
+2. You can write the code yourself or ask Syncfusion Code to help:
 
-   **Try this prompt in Code Studio Chat:**
+   **Try this prompt in Syncfusion Code Chat:**
    ```
    Create a simple Go hello world program with basic input/output
    ```
 
-   <img src="language-images/go-ai-generate.gif" alt="Code Studio chat showing AI generating a Go program" />
+   <img src="language-images/go-ai-generate.gif" alt="Syncfusion Code chat showing AI generating a Go program" />
 
-3. Code Studio will generate a basic Go program.
+3. Syncfusion Code will generate a basic Go program.
 
 
 ## Debug Your Go Code
 
-Debugging is where Code Studio truly shines. Let's walk through setting up debugging and inspecting your program as it runs.
+Debugging is where Syncfusion Code truly shines. Let's walk through setting up debugging and inspecting your program as it runs.
 
 ### Step 1: Configure Debug Settings
 
 1. Click the **Run and Debug** icon (or press `Ctrl+Shift+D` / `Cmd+Shift+D`)
 2. Click **"create a launch.json file"**
 3. Select **"Go"** from the environment options
-4. Code Studio creates `.vscode/launch.json`
+4. Syncfusion Code creates `.vscode/launch.json`
 
 **Example launch.json:**
 ```json
@@ -227,7 +227,7 @@ Debugging is where Code Studio truly shines. Let's walk through setting up debug
    - Add **Watch** expressions
    - Inspect the **Call Stack** 
 
-   <img src="language-images/go-debugging-breakpoint.gif" alt="Code Studio debug view showing paused execution with variables, call stack, and debug toolbar" />
+   <img src="language-images/go-debugging-breakpoint.gif" alt="Syncfusion Code debug view showing paused execution with variables, call stack, and debug toolbar" />
 
 ---
 
@@ -235,10 +235,10 @@ Debugging is where Code Studio truly shines. Let's walk through setting up debug
 
 ## Next Steps
 
-Now that Your Go development environment is now fully configured in Syncfusion Code Studio. Here's what you can explore next:
+Now that Your Go development environment is now fully configured in Syncfusion Code. Here's what you can explore next:
 
 - **Build Real Projects:** Start developing Go applications with full debugging support - see [tutorials](/code-studio/tutorials/generate-your-first-code-using-agent) to get started
-- **Leverage AI Features:** Use Code Studio's [autocomplete](/code-studio/features/autocomplete), [code explanation](/code-studio/features/ask), and refactoring capabilities to speed up development
+- **Leverage AI Features:** Use Syncfusion Code's [autocomplete](/code-studio/features/autocomplete), [code explanation](/code-studio/features/ask), and refactoring capabilities to speed up development
 - **Explore Agent Mode:** For complex multi-package projects, try [Agent mode](/code-studio/features/agent) for advanced refactoring and architectural improvements
 - **Learn More:** Check out the [Quick Start Guide](/code-studio/getting-started/quick-start) and [features overview](/code-studio/features/generatecode) for additional capabilities
 
@@ -253,7 +253,7 @@ Now that Your Go development environment is now fully configured in Syncfusion C
 **Module imports showing errors:**
 - Run `go mod tidy` in the terminal
 - Run `go mod download` to fetch dependencies
-- Reload Code Studio: Command Palette → **"Developer: Reload Window"**
+- Reload Syncfusion Code: Command Palette → **"Developer: Reload Window"**
 
 **Debugger won't start:**
 - Check that your `launch.json` configuration is correct

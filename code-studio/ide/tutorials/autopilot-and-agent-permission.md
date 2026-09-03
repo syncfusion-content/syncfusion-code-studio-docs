@@ -9,7 +9,7 @@ tocname: code-studio-ide-toc
 
 ## Overview
 
-Code Studio's Autopilot and Agent Permissions feature gives you precise control over how independently an AI agent operates within a chat session. Instead of manually approving every action, you can choose a permission level that matches your task complexity and comfort level—whether you need step-by-step oversight, faster execution without interruption, or fully autonomous operation.
+Syncfusion Code's Autopilot and Agent Permissions feature gives you precise control over how independently an AI agent operates within a chat session. Instead of manually approving every action, you can choose a permission level that matches your task complexity and comfort level—whether you need step-by-step oversight, faster execution without interruption, or fully autonomous operation.
 
 **Key Benefit:** Use Autopilot for complex, time-consuming tasks while maintaining full transparency and the ability to interrupt at any moment.
 
@@ -32,7 +32,7 @@ By the end of this tutorial, you will be able to:
 
 ### Step 1: Understand the Three Permission Levels
 
-Code Studio provides three permission levels, each balancing automation with control. Choose based on your task type and risk tolerance.
+Syncfusion Code provides three permission levels, each balancing automation with control. Choose based on your task type and risk tolerance.
 
 #### 1. Default Approvals (Safest - Recommended for New Users)
 
@@ -82,7 +82,7 @@ Code Studio provides three permission levels, each balancing automation with con
 
 ### Step 2: Access and Change Permission Levels
 
-- Open the Chat view in Code Studio and find the permissions dropdown at the Chat below, you will see the current permission level displayed.
+- Open the Chat view in Syncfusion Code and find the permissions dropdown at the Chat below, you will see the current permission level displayed.
   
 <img src="./tutorials-images/chat.png" alt="Chat view with permission level indicator showing Default Approvals with padlock icon" />
 

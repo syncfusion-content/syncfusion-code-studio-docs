@@ -1,6 +1,6 @@
 ---
-title: How to Configure Ollama Models in Code Studio
-description: Instructions to configure ollama models within Syncfusion Code Studio. Use this feature to connect your preferred ollama model.
+title: How to Configure Ollama Models in Syncfusion Code
+description: Instructions to configure ollama models within Syncfusion Code. Use this feature to connect your preferred ollama model.
 platform: syncfusion-code-studio
 control: IDE
 documentation: Getting Started
@@ -11,11 +11,11 @@ tocname: code-studio-ide-toc
 
 
 
-# How to Configure Ollama Models in Code Studio
+# How to Configure Ollama Models in Syncfusion Code
  
 ## Overview
 
-This guide provides step-by-step instructions to configure and use **Ollama** models inside **Code Studio**. By connecting Ollama, you can run powerful open-source language models locally on your machine. This enables private, offline-capable, and cost-free AI assistance without relying on external cloud providers or API keys.
+This guide provides step-by-step instructions to configure and use **Ollama** models inside **Syncfusion Code**. By connecting Ollama, you can run powerful open-source language models locally on your machine. This enables private, offline-capable, and cost-free AI assistance without relying on external cloud providers or API keys.
  
 ## When to Use
 - When you want free, unlimited usage with no API costs or rate limits – perfect for long coding sessions or agent workflows.
@@ -49,9 +49,9 @@ Refer the ollama's official documentation below to download and install Ollama o
 
 - Recommended models – [deepseek-r1](https://ollama.com/library/deepseek-r1), [qwen 2.5](https://ollama.com/library/qwen2.5)
 
-- Code Studio up-to-date (latest stable release recommended).
+- Syncfusion Code up-to-date (latest stable release recommended).
  
-> **Note:** Ollama models currently work in Ask and Edit mode only in Code Studio.
+> **Note:** Ollama models currently work in Ask and Edit mode only in Syncfusion Code.
  
 ## Configure Ollama Model in Code studio
 - Click the model dropdown in chat box and click 'Manage Models' option.

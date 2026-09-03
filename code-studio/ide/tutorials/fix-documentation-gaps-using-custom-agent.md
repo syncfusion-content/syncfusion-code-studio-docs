@@ -1,6 +1,6 @@
 ---
 title: Fixing Documentation Gaps How AI Generates Accurate Developer Documentation Instantly
-description: Learn how to use a custom Codebase Documenter agent in Syncfusion Code Studio to generate clear, beginner-friendly documentation for any codebase.
+description: Learn how to use a custom Codebase Documenter agent in Syncfusion Code to generate clear, beginner-friendly documentation for any codebase.
 platform: syncfusion-code-studio
 keywords: documentation, custom-agent, codebase-docs, ai-documentation, code-studio, knowledge-sharing
 tocname: code-studio-ide-toc
@@ -10,7 +10,7 @@ tocname: code-studio-ide-toc
 
 ## Overview
 
-Many teams have at least one project that nobody wants to touch because **the code is complex and the documentation is out of date—or missing entirely**. This tutorial shows you how to use a **Codebase Documenter** custom agent in Syncfusion Code Studio to turn that kind of codebase into clear, beginner-friendly documentation.
+Many teams have at least one project that nobody wants to touch because **the code is complex and the documentation is out of date—or missing entirely**. This tutorial shows you how to use a **Codebase Documenter** custom agent in Syncfusion Code to turn that kind of codebase into clear, beginner-friendly documentation.
 
 Instead of manually writing long README files and architecture notes, you will:
 
@@ -41,7 +41,7 @@ By the end of this tutorial, you will be able to:
 ## Key Concepts
 
 **.agent.md file**
-A Markdown-based configuration file that defines a custom agent's identity, behavior, tools, and workflow instructions. Code Studio reads these files from the `.codestudio/agents/` folder and makes the agents they describe available in the Chat Panel.
+A Markdown-based configuration file that defines a custom agent's identity, behavior, tools, and workflow instructions. Syncfusion Code reads these files from the `.codestudio/agents/` folder and makes the agents they describe available in the Chat Panel.
 
 **Codebase Documenter**
 A named custom agent pre-configured to analyze a codebase and produce beginner-friendly documentation. Its behavior is defined in `Codebase-Documenter.agent.md` and can be customized for any project structure or documentation style.
@@ -52,7 +52,7 @@ A named custom agent pre-configured to analyze a codebase and produce beginner-f
 
 In this step, you will create the configuration file that turns a generic model into a documentation-focused **Codebase Documenter** agent.
 
-1. Open your project folder in Code Studio (`Ctrl+K Ctrl+O` (Windows/Linux) or `Cmd+K Cmd+O` (Mac)), or clone the repository and open the folder in Code Studio. For this tutorial, we use the example project [ej2-showcase-react-loan-calculator](https://github.com/syncfusion/ej2-showcase-react-loan-calculator.git).
+1. Open your project folder in Syncfusion Code (`Ctrl+K Ctrl+O` (Windows/Linux) or `Cmd+K Cmd+O` (Mac)), or clone the repository and open the folder in Syncfusion Code. For this tutorial, we use the example project [ej2-showcase-react-loan-calculator](https://github.com/syncfusion/ej2-showcase-react-loan-calculator.git).
 
 2. **Create the agent configuration folder (if it does not exist):**
    - In the **Explorer** (`Ctrl+Shift+E` (Windows/Linux) or `Cmd+Shift+E` (Mac)), create a folder named `.codestudio` at the root of your project.
@@ -81,7 +81,7 @@ This step is optional but recommended — tune the agent so it matches your proj
      - `name` – for example, “Codebase Documenter”.
      - `argument-hint` – explain what inputs the agent expects (for example, “Specify a GitHub URL, local directory path, or ask to document the current workspace”).
 2. **Confirm the model and tools:**
-   - Ensure the `model` is set to your preferred model in Code Studio.
+   - Ensure the `model` is set to your preferred model in Syncfusion Code.
    - Check that the required tools for reading files, searching the codebase, and creating docs are listed (for example, `read/readFile`, `search/fileSearch`, `edit/createFile`).
 3. **Skim the workflow instructions inside the file:**
    - Make sure they:
@@ -100,7 +100,7 @@ Think of this file as the “job description” for your documentation agent. Th
 
 Now that the agent is defined in your project, you can start using it from the **Chat Panel**.
 
-1. Open the **Chat Panel** in Code Studio (`Ctrl+Alt+B` (Windows/Linux) or `Cmd+Alt+B` (Mac)).
+1. Open the **Chat Panel** in Syncfusion Code (`Ctrl+Alt+B` (Windows/Linux) or `Cmd+Alt+B` (Mac)).
 
 2. **Select the Codebase Documenter agent:**
    - Click the **Agent** dropdown at the bottom of the **Chat Panel**.
@@ -119,7 +119,7 @@ Now that the agent is defined in your project, you can start using it from the *
 With the agent selected, you can now ask it to analyze your project and generate documentation.
 
 1. **Choose your scope:**
-   - If your project is already open in Code Studio and you want docs for everything, you can target the **current workspace**.
+   - If your project is already open in Syncfusion Code and you want docs for everything, you can target the **current workspace**.
    - If you want to focus on a subfolder (for example, `src/`), mention that explicitly in your request.
 2. **Send a focused initial request in Chat, for example:**
    ```text
