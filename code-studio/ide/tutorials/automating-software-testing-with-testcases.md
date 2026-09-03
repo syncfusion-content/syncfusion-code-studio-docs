@@ -1,6 +1,6 @@
 ---
 title: Automating software testing without writing test cases manually in CodeStudio
-description: Learn how to generate unit and integration tests in Code Studio using a custom agent.
+description: Learn how to generate unit and integration tests in Syncfusion Code using a custom agent.
 platform: syncfusion-code-studio
 keywords: testing, test-generation, automation, code-studio, custom-agent, unit-tests, integration-tests, prompts
 tocname: code-studio-ide-toc

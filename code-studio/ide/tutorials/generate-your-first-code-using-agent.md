@@ -21,7 +21,7 @@ For deeper understanding of Agent mode capabilities, check out [Agent](/code-stu
 
 By the end of this tutorial, you'll be able to:
 
-- Switch on Agent mode in Code Studio (it's just one click!)
+- Switch on Agent mode in Syncfusion Code (it's just one click!)
 - Write clear instructions for the AI to understand what you want
 - See exactly what changes the Agent wants to make in a side-by-side view
 - Approve changes you like with Keep, or reject ones you don't with Undo

@@ -1,5 +1,5 @@
 ---
-title: Chronicle - Coding History and Productivity Insights in Code Studio
+title: Chronicle - Coding History and Productivity Insights in Syncfusion Code
 description: Discover how Chronicle in Syncfusion Code tracks your coding history, provides standup summaries, and delivers personalized productivity tips to enhance your workflow.
 platform: syncfusion-code-studio
 keywords: chronicle, coding-history, productivity-tips, standup-report, workflow-analysis, code-studio
@@ -58,7 +58,7 @@ Chronicle will answer in plain language based on your coding sessions.
 Run `/chronicle:standup` before your daily standup to get a ready-to-share summary of what you worked on, organized by branch or feature.
 
 ### 2. Review tips regularly to build better habits
-Run `/chronicle:tips` weekly to get actionable feedback on your workflow patterns and refine how you use Code Studio`s AI tools.
+Run `/chronicle:tips` weekly to get actionable feedback on your workflow patterns and refine how you use Syncfusion Code`s AI tools.
 
 ### 3. Use custom questions to trace decisions
 If you are not sure when or why a change was made, ask Chronicle directly — for example, `/chronicle when did I last edit the auth module?`

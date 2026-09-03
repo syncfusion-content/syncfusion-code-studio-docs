@@ -6,7 +6,7 @@ keywords: buy credits, add credits, purchase credits, code studio enterprise, ai
 tocname: code-studio-ide-toc
 ---
 
-# Buy More Credits in Code Studio
+# Buy More Credits in Syncfusion Code
 
 ## Overview
 
@@ -27,7 +27,7 @@ Purchase additional credits when:
 
 ## Steps to Buy Credits
 
-1. **Navigate to the Credits Tab:** From the Code Studio dashboard, click on "Settings" in the left sidebar, then select the "Credits" tab.
+1. **Navigate to the Credits Tab:** From the Syncfusion Code dashboard, click on "Settings" in the left sidebar, then select the "Credits" tab.
 
     <img src="./howtoguide-images/credits_tab.png" alt="settings"  />
 

@@ -10,24 +10,24 @@ tocname: code-studio-ide-toc
 
 ## Overview
 
-This guide explains how to configure default models using API keys (BYOK – Bring Your Own Key) from your chosen provider into Code Studio Enterprise. You'll learn how to set default models for different modes to streamline your workflow.
+This guide explains how to configure default models using API keys (BYOK – Bring Your Own Key) from your chosen provider into Syncfusion Code Enterprise. You'll learn how to set default models for different modes to streamline your workflow.
 
 ## When to Use Default Models
 
-Setting a default model ensures that your preferred model appears as the pre-selected option in the model dropdown whenever Code Studio IDE opens or reopens. While you can switch to another model during a session, the default model will be automatically restored the next time you start Code Studio.
+Setting a default model ensures that your preferred model appears as the pre-selected option in the model dropdown whenever Syncfusion Code IDE opens or reopens. While you can switch to another model during a session, the default model will be automatically restored the next time you start Syncfusion Code.
 
 ## Prerequisites
 
 Before starting, ensure:
 
-* Syncfusion Code is installed and configured on your system. If you have not yet downloaded Code Studio, refer to the [Syncfusion Code Install and Configure](https://help.syncfusion.com/code-studio/getting-started/install-and-configuration)
+* Syncfusion Code is installed and configured on your system. If you have not yet downloaded Syncfusion Code, refer to the [Syncfusion Code Install and Configure](https://help.syncfusion.com/code-studio/getting-started/install-and-configuration)
 * You have a valid API key from the chat model provider you want to use (e.g., [OpenAI](https://platform.openai.com/api-keys), [Anthropic](https://console.anthropic.com/dashboard), [OpenRouter](https://openrouter.ai/settings/keys)).
 
 ## Steps for Configure Default Models
 
-### Step 1: Open Code Studio Enterprise Server dashboard
+### Step 1: Open Syncfusion Code Enterprise Server dashboard
 
-* Open [Code Studio Enterprise Server](https://app.sfcodestudio.com/dashboard)
+* Open [Syncfusion Code Enterprise Server](https://app.sfcodestudio.com/dashboard)
 <img src="./howtoguide-images/dashboard.png" alt="cache">
 
 
@@ -57,7 +57,7 @@ Before starting, ensure:
 
     <img src="./howtoguide-images/dashboard-manage-update.png" alt="cache">
 
-* You have successfully configured your default models! Your selected models will now appear automatically when you launch Code Studio IDE. 
+* You have successfully configured your default models! Your selected models will now appear automatically when you launch Syncfusion Code IDE. 
     
     <img src="./howtoguide-images/codestudio-model.png" alt="cache">
 

@@ -8,7 +8,7 @@ tocname: code-studio-ide-toc
 # Global Agents
 
 ## Overview
-Global Agent refers to agents.md, an open-source, standardized file format designed to streamline collaboration between AI coding agents in **Syncfusion® Code Studio**. It serves as a centralized instruction manual, similar to a `README.md`, but specifically tailored for machine interpretation and execution. By consolidating setup instructions, testing protocols, and coding guidelines into a single file, Global Agent simplifies workflows and ensures consistency across projects.  
+Global Agent refers to agents.md, an open-source, standardized file format designed to streamline collaboration between AI coding agents in **Syncfusion® Code**. It serves as a centralized instruction manual, similar to a `README.md`, but specifically tailored for machine interpretation and execution. By consolidating setup instructions, testing protocols, and coding guidelines into a single file, Global Agent simplifies workflows and ensures consistency across projects.  
 
 ## Use Cases
 - Team Collaboration: Standardizes coding guidelines and workflows across multiple developers, ensuring AI agents interpret instructions consistently.
@@ -23,7 +23,7 @@ Global Agent refers to agents.md, an open-source, standardized file format desig
 
 
 ## How to Configure Global Agents
-Using Global Agent in Code Studio is straightforward:
+Using Global Agent in Syncfusion Code is straightforward:
 
 1. Click Create File
 
@@ -37,7 +37,7 @@ Using Global Agent in Code Studio is straightforward:
 
     <img src="./feature-images/globalagent-instruction.png" alt="instuction" >
 
-4. Go to Settings and click the Code Studio Settings option.
+4. Go to Settings and click the Syncfusion Code Settings option.
 
     <img src="./feature-images/globalagent-settingspath.png" alt="settingpath" >
 

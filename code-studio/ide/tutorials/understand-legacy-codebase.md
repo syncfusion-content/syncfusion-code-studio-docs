@@ -22,13 +22,13 @@ In this tutorial, you'll discover four powerful approaches:
 - **Find Performance and Quality Issues** — Discover hidden problems 
 - **Plan Safe Refactoring** — Create a phased modernization strategy with clear risks
 
-Each approach includes a copy-paste-ready prompt and real examples showing what Code Studio returns. Pick the one that matches your problem, and let's get started.
+Each approach includes a copy-paste-ready prompt and real examples showing what Syncfusion Code returns. Pick the one that matches your problem, and let's get started.
 
 ## Prerequisites
 
 Before You Start, Let's make sure you're all set:
 
-- A project or folder open in Code Studio to analyze the codebase of that project.
+- A project or folder open in Syncfusion Code to analyze the codebase of that project.
 
 ## What You'll Learn
 
@@ -41,7 +41,7 @@ By the end of this tutorial, you'll be able to:
 
 ## Understand an Unfamiliar Module
 
-If you need to understand what a module does, how it works, and what depends on it—without spending days reading code—ask Code Studio to analyze it. It will read the entire module and trace all connections to give you a clear summary: purpose, key functions, dependencies, and usage patterns.
+If you need to understand what a module does, how it works, and what depends on it—without spending days reading code—ask Syncfusion Code to analyze it. It will read the entire module and trace all connections to give you a clear summary: purpose, key functions, dependencies, and usage patterns.
 
 Below is a complete analysis prompt you can copy and use to understand any module in your codebase.
 
@@ -74,7 +74,7 @@ It reads the entire module and traces all connections, analyzes dependencies, id
 
 ## Find Performance and Quality Issues
 
-If you suspect something is wrong (slow, buggy) but don't know where, ask Code Studio to audit your module for problems. It will analyze the code for common issues: performance bottlenecks, security risks, duplicated logic, and more. You get a prioritized list with specific recommendations to fix the worst problems.
+If you suspect something is wrong (slow, buggy) but don't know where, ask Syncfusion Code to audit your module for problems. It will analyze the code for common issues: performance bottlenecks, security risks, duplicated logic, and more. You get a prioritized list with specific recommendations to fix the worst problems.
 
 Below is a complete audit prompt you can copy and use to identify quality and performance issues.
 
@@ -109,7 +109,7 @@ It scans the module for performance, security vulnerabilities, and optimization 
 
 ## Plan Safe Refactoring and Modernization
 
-If you want to improve code but need a safe, phased plan that won't break anything, ask Code Studio to analyze your current architecture and create a modernization strategy. It will identify outdated patterns, recommend modern approaches, break refactoring into manageable phases, and show you how to maintain compatibility during migration.
+If you want to improve code but need a safe, phased plan that won't break anything, ask Syncfusion Code to analyze your current architecture and create a modernization strategy. It will identify outdated patterns, recommend modern approaches, break refactoring into manageable phases, and show you how to maintain compatibility during migration.
 
 Below is a complete modernization prompt you can copy and use to create a phased improvement plan.
 

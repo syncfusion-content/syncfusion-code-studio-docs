@@ -1,5 +1,5 @@
 ---
-title: Code Studio Enterprise Dashboard
+title: Syncfusion Code Enterprise Dashboard
 description: Monitor and analyze organization, team, and user metrics such as cost, tokens, requests, and latency in Syncfusion Code.
 platform: syncfusion-code-studio
 keywords: dashboard, analytics, monitoring, usage, tokens, requests, latency, teams, users, cost, syncfusion, code-studio, enterprise

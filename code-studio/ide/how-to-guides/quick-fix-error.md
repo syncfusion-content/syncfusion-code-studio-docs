@@ -25,9 +25,9 @@ Use the Quick Fix feature when:
 
 ### Step 1: Identify the Error
 
-Open your project in Code Studio.
+Open your project in Syncfusion Code.
 
-Code Studio automatically highlights errors with:
+Syncfusion Code automatically highlights errors with:
 
 - Red squiggly underlines beneath problematic code.
 - Error icons in the editor gutter or problems panel.
@@ -112,7 +112,7 @@ After completing these steps:
 
 ### Quick Fix option does not appear when clicking the error
 
-**Solution:** Ensure Code Studio has fully analyzed the file. Wait a moment, then click the error again. If the issue persists, reload the file or restart Code Studio.
+**Solution:** Ensure Syncfusion Code has fully analyzed the file. Wait a moment, then click the error again. If the issue persists, reload the file or restart Syncfusion Code.
 
 ### The Explain analysis does not match the surrounding context
 

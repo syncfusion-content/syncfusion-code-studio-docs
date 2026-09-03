@@ -7,7 +7,7 @@ tocname: code-studio-enterprise-server-toc
 ---
 # User & Teams
 
-Code Studio empowers administrators and team leads to manage organization members, assign roles, and organize users into teams for seamless collaboration and governance.
+Syncfusion Code empowers administrators and team leads to manage organization members, assign roles, and organize users into teams for seamless collaboration and governance.
 
 ## 1. Key Benefits
 - **Role Assignment:** Assign roles such as Admin, Team Lead, or User to match your organizational hierarchy.

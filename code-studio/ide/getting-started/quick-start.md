@@ -9,7 +9,7 @@ tocname: code-studio-ide-toc
 
 # Quick Start 
 
-**Syncfusion Code** is an intelligent, AI‑powered coding companion designed to make your development process faster and easier. Instead of writing every line manually or searching for solutions, Code Studio works alongside you—understanding your intent, offering meaningful suggestions, and helping you learn as you build.
+**Syncfusion Code** is an intelligent, AI‑powered coding companion designed to make your development process faster and easier. Instead of writing every line manually or searching for solutions, Syncfusion Code works alongside you—understanding your intent, offering meaningful suggestions, and helping you learn as you build.
 
 ## Prerequisites
 
@@ -19,7 +19,7 @@ Before getting started, make sure that:
    If it’s not installed, refer to the [installation guide](/code-studio/getting-started/install-and-configuration) to set it up properly.
 
 2. **A local project folder is ready**  
-   Code Studio works best with an existing project or a fresh folder for coding.
+   Syncfusion Code works best with an existing project or a fresh folder for coding.
 
 3. **Basic familiarity with writing code**  
    You don’t need to be an expert—just comfortable editing files and understanding simple programming concepts.
@@ -33,9 +33,9 @@ By the end of this quick start guide, you’ll learn how to:
 - Perform targeted code improvements with Inline Chat directly in the editor
 - Add necessary files or folders from your workspace as context to make AI suggestions more accurate and project-aware
 
-## Step 1: Open a Project in Code Studio
+## Step 1: Open a Project in Syncfusion Code
 
-Follow the steps below to open your project and start working inside the Code Studio environment.
+Follow the steps below to open your project and start working inside the Syncfusion Code environment.
 
 1. **Open the application based on your OS**
    - **Windows:**  Go to the **Start Menu**, search for **Syncfusion Code**, and launch it.
@@ -47,7 +47,7 @@ Follow the steps below to open your project and start working inside the Code St
 
 4. **Choose your project folder**
 
-5. **Or you can directly open your project folder using 'Open Folder' button under the Code Studio logo**
+5. **Or you can directly open your project folder using 'Open Folder' button under the Syncfusion Code logo**
 
 
 > **Note: Open folder directly from File Explorer / Finder using terminal**
@@ -68,7 +68,7 @@ Your selected project will open in the editor where you can:
 ## Step 2: Explore Core Features
 
 ### Built-in Agent Modes
-Code Studio provides five built‑in agents   **Autocomplete**, **Ask**, **Edit**, **Agent**, **Plan** .
+Syncfusion Code provides five built‑in agents   **Autocomplete**, **Ask**, **Edit**, **Agent**, **Plan** .
 You can also create [custom agents](/code-studio/reference/configure-properties/custom-agents) for specialized workflows.
 
 <img src="gettingstarted-images/builtInAgents.png" alt="Built in Agents" />
@@ -105,7 +105,7 @@ This reduces typing effort and ensures consistency.
 - Edit Mode allows you to modify existing code simply by describing the changes.
 
 - You can update logic, restructure components, clean up syntax, or improve performance without editing manually.  
-Code Studio shows suggested changes clearly, letting you apply or undo them step by step.
+Syncfusion Code shows suggested changes clearly, letting you apply or undo them step by step.
 
 **For Example:**  Give, *“Improve the performance of this”* as prompt, Edit Mode rewrites it neatly while preserving behavior.
 
@@ -152,7 +152,7 @@ You’ll see improved code inline with **Accept** and **Dismiss** options.
 
 ## Add Context
 
-- Add Context lets Code Studio understand more of your project by including additional files or folders from your workspace in the request.
+- Add Context lets Syncfusion Code understand more of your project by including additional files or folders from your workspace in the request.
 
 - This leads to smarter, interconnected suggestions.
 

@@ -1,16 +1,16 @@
 ---
-title: From Complex Web Automation to Streamlined Workflows Code Studio Skills for Playwright MCP
+title: From Complex Web Automation to Streamlined Workflows Syncfusion Code Skills for Playwright MCP
 description: Learn how to use Playwright MCP with Agent mode in Syncfusion Code to generate, execute, and manage web automation tests with AI assistance.
 platform: syncfusion-code-studio
 keywords: playwright-mcp, agent-mode, web-automation, ai-testing, mcp-server
 tocname: code-studio-ide-toc
 ---
 
-# From Complex Web Automation to Streamlined Workflows Code Studio Skills for Playwright MCP
+# From Complex Web Automation to Streamlined Workflows Syncfusion Code Skills for Playwright MCP
 
 ## Overview 
 
-Ready to transform your web testing workflow? In this tutorial, you'll learn how to use Playwright Model Context Protocol (MCP) with Code Studio's [Agent mode](/code-studio/features/agent) to generate, execute, and manage web automation tests with AI assistance. Playwright MCP acts as a bridge that enables Code Studio's AI to perform real-world browser automation tasks based on your natural language instructions.
+Ready to transform your web testing workflow? In this tutorial, you'll learn how to use Playwright Model Context Protocol (MCP) with Syncfusion Code's [Agent mode](/code-studio/features/agent) to generate, execute, and manage web automation tests with AI assistance. Playwright MCP acts as a bridge that enables Syncfusion Code's AI to perform real-world browser automation tasks based on your natural language instructions.
 
 > **Key concept — Playwright MCP Server:** A specific MCP implementation that brings Playwright's browser automation capabilities to AI agents. It acts as a translator between natural language commands and browser actions. When you tell the AI to "verify the login button exists," the Playwright MCP Server converts this into executable Playwright code that navigates pages, clicks elements, fills forms, and captures results.
 
@@ -25,7 +25,7 @@ Before beginning this tutorial, ensure the following:
 
 By the end of this tutorial, you'll be able to:
 
-- Install and configure Playwright MCP server in Code Studio
+- Install and configure Playwright MCP server in Syncfusion Code
 - Enable Agent mode for AI-powered test generation
 - Create test scenarios in natural language and watch AI generate executable test scripts
 - Review and execute generated Playwright tests
@@ -34,13 +34,13 @@ By the end of this tutorial, you'll be able to:
 
 ### Step 1: Install Playwright packages and Playwright MCP Server
 
-**Playwright** is an open-source browser automation framework that lets you write tests for web applications across multiple browsers. The **Playwright MCP Server** acts as a bridge between Code Studio's AI and Playwright's automation capabilities — translating natural language test instructions into executable browser commands.
+**Playwright** is an open-source browser automation framework that lets you write tests for web applications across multiple browsers. The **Playwright MCP Server** acts as a bridge between Syncfusion Code's AI and Playwright's automation capabilities — translating natural language test instructions into executable browser commands.
 
 Before the AI can generate tests, you need to install both Playwright and the MCP server integration.
 
 **Steps:**
 
-1. Create a new project folder and open it in Code Studio.
+1. Create a new project folder and open it in Syncfusion Code.
 2. Open the integrated terminal by clicking **Terminal** → **New Terminal** from the menu bar, or press `` Ctrl+` `` (Windows/Linux) or `` Cmd+` `` (Mac).
 3. Install Playwright by running the following command:
 
@@ -80,7 +80,7 @@ Before the AI can generate tests, you need to install both Playwright and the MC
 
    - From the configuration menu that appears, select the **MCP Server** option. This will open the MCP marketplace view where you can browse and install available MCP servers.
 
-   <img src="./tutorials-images/mcp-icon.png" alt="MCP panel in Code Studio" />
+   <img src="./tutorials-images/mcp-icon.png" alt="MCP panel in Syncfusion Code" />
 
    - In the MCP marketplace panel, select the Playwright MCP tools
 
@@ -113,11 +113,11 @@ Before the AI can generate tests, you need to install both Playwright and the MC
 
    - From the configuration menu that appears, select the **Agent Customizations** option.
 
-   <img src="./tutorials-images/Agent-Customization.png" alt="Agent Customization in Code Studio" />
+   <img src="./tutorials-images/Agent-Customization.png" alt="Agent Customization in Syncfusion Code" />
 
    - From the Agent Customization menu that appears, select the **Skills** option.
 
-   <img src="./tutorials-images/skills-menu.png" alt="Skills view in Code Studio" />
+   <img src="./tutorials-images/skills-menu.png" alt="Skills view in Syncfusion Code" />
 
 2. In the Skills panel, locate and click the **+ New skill...** button to create a new skill definition.
 
@@ -135,7 +135,7 @@ Before the AI can generate tests, you need to install both Playwright and the MC
    <img src="./tutorials-images/skill-name-input.png" alt="Skill name input field showing playwright-explore-website" />
 
 5. Define the skill instructions:
-   - Code Studio will automatically open a new `SKILL.md` file where you can define the instructions that guide the AI agent's behavior.
+   - Syncfusion Code will automatically open a new `SKILL.md` file where you can define the instructions that guide the AI agent's behavior.
    - Replace the default content with the following skill definition:
 
    ```text
@@ -206,7 +206,7 @@ Once the agent finishes its work, you'll have a complete, executable Playwright 
 
 1. Open the generated test file in the `tests/` folder (e.g., `appointment-planner-verification.spec.ts`) to review the generated test code:
 
-   <img src="./tutorials-images/generated-test-file.png" alt="Code Studio editor showing the generated Playwright test file with test assertions" />
+   <img src="./tutorials-images/generated-test-file.png" alt="Syncfusion Code editor showing the generated Playwright test file with test assertions" />
 
 2. To run the test, use the following command in the terminal:
 

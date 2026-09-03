@@ -1,6 +1,6 @@
 ---
 title: Migrate Legacy Prompt Files to New Format
-description: Step-by-step guide to migrate Code Studio prompts from the old `.prompt` format to the new `.prompt.md` format with YAML frontmatter and Markdown support.
+description: Step-by-step guide to migrate Syncfusion Code prompts from the old `.prompt` format to the new `.prompt.md` format with YAML frontmatter and Markdown support.
 platform: syncfusion-code-studio
 keywords: code-studio, prompt-migration, markdown, yaml, developer-tools, syncfusion, documentation
 tocname: code-studio-ide-toc
@@ -10,7 +10,7 @@ tocname: code-studio-ide-toc
 # Migrate Legacy Prompt Files: Troubleshooting Guide
 
 ## Problem Summary
-Legacy Code Studio prompt files (`.prompt` in `.codestudio/prompts/`) from versions before 2.0.0 are not recognized or usable in Code Studio 2.0.0 and later, which requires the new `.prompt.md` format with YAML frontmatter and Markdown support. Users may find their old prompts missing, not appearing in chat, or not functioning as expected.
+Legacy Syncfusion Code prompt files (`.prompt` in `.codestudio/prompts/`) from versions before 2.0.0 are not recognized or usable in Syncfusion Code 2.0.0 and later, which requires the new `.prompt.md` format with YAML frontmatter and Markdown support. Users may find their old prompts missing, not appearing in chat, or not functioning as expected.
 
 ## Possible Causes
 - Prompt files are still in the legacy `.prompt` format (`.codestudio/prompts/`)
@@ -26,15 +26,15 @@ Follow these steps to migrate and restore prompt functionality:
 - **File Extension:** `.prompt`
 
 ### 2. Open and Copy Prompt Content
-1. Open a `.prompt` file in a text editor or Code Studio.
+1. Open a `.prompt` file in a text editor or Syncfusion Code.
 2. Copy the content from the `prompt:` section (the main instruction text).
 
-### 3. Create a New Prompt File in Code Studio
+### 3. Create a New Prompt File in Syncfusion Code
 You can create prompts as either **Workspace** or **User** prompts:
 - **Workspace Prompt:** `.codestudio/prompts/` 
 - **User Prompt:** User profile folder (available across all workspaces)
 
-1. Open Code Studio
+1. Open Syncfusion Code
 2. Go to the **Chat view**
 3. Click the **Configure Chat** (gear icon)
 4. Select **Prompt Files** → **New prompt file**
@@ -116,7 +116,7 @@ Requirements for the form:
 
 ### 6. Run the Migrated Prompts 
 To confirm your migrated prompts are working:
-1. Open the new `.prompt.md` file in Code Studio.
+1. Open the new `.prompt.md` file in Syncfusion Code.
 2. Check the YAML frontmatter for syntax errors. 
 3. In Chat, type `/` and see if the prompt appears in the list (look for the prompt name and model used).
    <img src="./troubleshoot-images/migrated-prompt.png" alt="Migrated prompt file opened" />

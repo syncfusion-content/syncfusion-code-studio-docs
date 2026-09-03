@@ -1,5 +1,5 @@
 ---
-title: Context Compaction - Optimize Chat Context for Sharper AI in Code Studio
+title: Context Compaction - Optimize Chat Context for Sharper AI in Syncfusion Code
 description: Master the /compact command in Syncfusion Code to streamline chat history, maintain relevant context, and boost AI performance during long coding sessions.
 platform: syncfusion-code-studio
 keywords: context-compaction, chat-history, ai-context, compact-command, productivity, code-studio
@@ -11,7 +11,7 @@ tocname: code-studio-ide-toc
 
 ## Overview
 
-As your chat sessions in Code Studio grow, the conversation history can become lengthy, making it harder for the AI to focus on the most relevant information. Context Compaction lets you streamline your chat context by summarizing or removing less important messages using the `/compact` command, ensuring the AI remains efficient and accurate throughout long sessions.
+As your chat sessions in Syncfusion Code grow, the conversation history can become lengthy, making it harder for the AI to focus on the most relevant information. Context Compaction lets you streamline your chat context by summarizing or removing less important messages using the `/compact` command, ensuring the AI remains efficient and accurate throughout long sessions.
 
 ## Use Cases
 

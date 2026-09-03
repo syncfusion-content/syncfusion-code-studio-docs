@@ -76,7 +76,7 @@ Below is a list of available tools and their descriptions for reference:
     </tr>
     <tr>
       <td>codestudio</td>
-      <td>Use Code Studio features</td>
+      <td>Use Syncfusion Code features</td>
     </tr>
     <tr>
       <td>edit</td>

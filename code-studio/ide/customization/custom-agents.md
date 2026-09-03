@@ -113,7 +113,7 @@ Select your preferred location → click **Continue**.
 ### Step 5: Save and Activate
 
 - Save the file (Ctrl+S or ⌘S).
-- Code Studio automatically detects the new agent.
+- Syncfusion Code automatically detects the new agent.
 - Open Chat view and click the agent dropdown.
 - Your new agent appears in the list.
 
@@ -122,7 +122,7 @@ Select your preferred location → click **Continue**.
 ## Using Your Custom Agents
 
 **To Use the CodeReview Agent:**
-- Open Chat view in Code Studio.
+- Open Chat view in Syncfusion Code.
 - Click the agent dropdown.
 
 <img src="./reference-images/agent_dropdown_option.png" alt="agent_dropdown_option" />

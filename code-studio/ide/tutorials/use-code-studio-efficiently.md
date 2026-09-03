@@ -1,20 +1,20 @@
 ---
-title: Using Code Studio Efficiently - Budget Management and Cost-Saving Best Practices
-description: Learn how to maximize your Code Studio credits with better prompts, smart workflows, session management, and choosing the right tools for your tasks.
+title: Using Syncfusion Code Efficiently - Budget Management and Cost-Saving Best Practices
+description: Learn how to maximize your Syncfusion Code credits with better prompts, smart workflows, session management, and choosing the right tools for your tasks.
 platform: syncfusion-code-studio
 keywords: budget-management, cost-savings, efficient-prompts, best-practices, workflow-optimization, credit-management
 tocname: code-studio-ide-toc
 ---
 
-# Using Code Studio Efficiently: Budget Management and Cost-Saving Best Practices
+# Using Syncfusion Code Efficiently: Budget Management and Cost-Saving Best Practices
 
 You've started using Syncfusion Code and love how it speeds up your work. But then you check your credit balance and realize you're burning through them faster than expected. Every vague question costs credits. Every trial-and-error conversation adds up. And you're wondering: how can I get better results while using fewer credits?
 
-**The real problem:** Most developers don't realize that HOW you ask Code Studio matters more than WHETHER you ask it. A vague prompt takes 3 back-and-forth messages and uses 3x the credits. A well-written prompt gets it right the first time. It's not about using Code Studio less—it's about using it smarter.
+**The real problem:** Most developers don't realize that HOW you ask Syncfusion Code matters more than WHETHER you ask it. A vague prompt takes 3 back-and-forth messages and uses 3x the credits. A well-written prompt gets it right the first time. It's not about using Syncfusion Code less—it's about using it smarter.
 
 **The good news:** With the right techniques, you can cut your credit usage in half while actually getting better results. Faster responses, fewer refinements, better code quality, and a budget that lasts longer.
 
-In this tutorial, you'll discover five powerful ways to work more efficiently with Code Studio:
+In this tutorial, you'll discover five powerful ways to work more efficiently with Syncfusion Code:
 - **Write Prompts That Save Credits** — Get better answers in one message instead of five
 - **Break Work Into Phases** — Keep focus sharp and responses accurate
 - **Pick the Right Interaction Mode** — Use the best tool for each specific task
@@ -79,7 +79,7 @@ This gets it right the first try. One message, no follow-ups.
    - What edge cases matter? (empty input, null values, large datasets)
 
 4. **Use structured format** (bullet points or numbered lists)
-   - Helps Code Studio parse requirements more accurately
+   - Helps Syncfusion Code parse requirements more accurately
    - Reduces ambiguity
    - Leads to focused, relevant responses
 
@@ -113,7 +113,7 @@ AI context gets messy with unrelated information. Separate sessions keep context
 
 ## Pick the Right Interaction Mode for Each Task
 
-Code Studio offers different ways to interact—Ask, Edit, Plan, and Agent. Each has a different purpose. Using the wrong tool for the job wastes credits and creates frustration.
+Syncfusion Code offers different ways to interact—Ask, Edit, Plan, and Agent. Each has a different purpose. Using the wrong tool for the job wastes credits and creates frustration.
 
 **When to use each mode:**
 

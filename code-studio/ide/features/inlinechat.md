@@ -23,11 +23,11 @@ Inline Chat in Syncfusion Code is designed to bring AI assistance directly into 
 
 
 ## Using Inline Chat in the Editor
-When you use Inline Chat inside the editor, Code Studio scopes your request to the content in the active file. It may also use related files in your workspace to provide more accurate suggestions.
+When you use Inline Chat inside the editor, Syncfusion Code scopes your request to the content in the active file. It may also use related files in your workspace to provide more accurate suggestions.
 
 ### How to Use Editor Inline Chat
 **Steps:**
-1. **Open a file** in the Code Studio editor.
+1. **Open a file** in the Syncfusion Code editor.
 2. Open Inline Chat by doing one of the following:
    - Press `Ctrl + I`
    - Or **Right-click** inside the editor → **Open Inline Chat**
@@ -42,7 +42,7 @@ When you use Inline Chat inside the editor, Code Studio scopes your request to t
 > **Tip:** Select a block of code before opening Inline Chat if you want AI to focus on that part.
 
 ### Reviewing Suggestions
-After processing your request, Code Studio shows an inline diff view. You can:
+After processing your request, Syncfusion Code shows an inline diff view. You can:
 - **Keep** the changes
 - **Undo** the changes
 
@@ -50,7 +50,7 @@ After processing your request, Code Studio shows an inline diff view. You can:
 
 
 ## Using Inline Chat in the Terminal
-Terminal Inline Chat helps you work with shell commands, scripts, and terminal workflows directly inside Code Studio’s integrated terminal.
+Terminal Inline Chat helps you work with shell commands, scripts, and terminal workflows directly inside Syncfusion Code’s integrated terminal.
 
 ### How to Use Terminal Inline Chat
 **Steps:**
@@ -61,14 +61,14 @@ Terminal Inline Chat helps you work with shell commands, scripts, and terminal w
    <img src="./feature-images/Gif/inlinechat4.gif" alt="inlinechat"  />
 
 ### Running or Inserting Commands
-After Code Studio generates a shell command:
+After Syncfusion Code generates a shell command:
 - Select **Run (Ctrl + Enter)** to execute immediately
 - Select **Insert (Alt + Enter)** to add it into the terminal for editing
 
    <img src="./feature-images/inlinechat5.png" alt="inlinechat"  />
 
 ## Releted Features
-- [Add context to your chat prompt](/code-studio/features/add-context) - Enhance your prompt by providing extra details. This helps Code Studio generate more accurate results and keeps your workspace aligned with your goals.
+- [Add context to your chat prompt](/code-studio/features/add-context) - Enhance your prompt by providing extra details. This helps Syncfusion Code generate more accurate results and keeps your workspace aligned with your goals.
 
 
 

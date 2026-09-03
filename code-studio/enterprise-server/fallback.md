@@ -8,7 +8,7 @@ tocname: code-studio-enterprise-server-toc
 
 # Fallback Policy Configuration
 
-Fallback Policies in Code Studio ensure uninterrupted AI workflows by automatically rerouting requests to alternative models when the primary model fails. This feature improves reliability, success rates, and cost efficiency.
+Fallback Policies in Syncfusion Code ensure uninterrupted AI workflows by automatically rerouting requests to alternative models when the primary model fails. This feature improves reliability, success rates, and cost efficiency.
 
 ## Prerequisites
 

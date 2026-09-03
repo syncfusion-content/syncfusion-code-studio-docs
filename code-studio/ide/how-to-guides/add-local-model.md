@@ -1,6 +1,6 @@
 ---
 title: How to Add Personal API Key Models in the IDE
-description: Learn how to add and manage your own AI models directly in the Code Studio IDE chat view using personal API keys from providers like OpenAI and Anthropic.
+description: Learn how to add and manage your own AI models directly in the Syncfusion Code IDE chat view using personal API keys from providers like OpenAI and Anthropic.
 platform: syncfusion-code-studio
 keywords: how-to, personal-models, API-keys, IDE, chat-view, OpenAI, Anthropic
 tocname: code-studio-ide-toc
@@ -10,9 +10,9 @@ tocname: code-studio-ide-toc
 
 ## Overview
 
-Code Studio allows you to integrate AI models from various providers directly in the IDE chat view using your own personal API keys. This feature gives you access to specific models that may not be available in your organization's configuration. You can add, manage, and use these models alongside your organization's models for enhanced flexibility and experimentation.
+Syncfusion Code allows you to integrate AI models from various providers directly in the IDE chat view using your own personal API keys. This feature gives you access to specific models that may not be available in your organization's configuration. You can add, manage, and use these models alongside your organization's models for enhanced flexibility and experimentation.
 
-> **Note:** This feature is available in the IDE chat view only. It is not available in the Code Studio Enterprise Server dashboard.
+> **Note:** This feature is available in the IDE chat view only. It is not available in the Syncfusion Code Enterprise Server dashboard.
 
 ## When to Use
 

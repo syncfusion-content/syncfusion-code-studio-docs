@@ -1,6 +1,6 @@
 ---
 title: How to Add Local and BYOK Models
-Description: Steps to add local chat models and BYOK (Bring Your Own Key) models in Code Studio, including adding provider API/LLM keys and registering models.
+Description: Steps to add local chat models and BYOK (Bring Your Own Key) models in Syncfusion Code, including adding provider API/LLM keys and registering models.
 platform: syncfusion-code-studio
 keywords: local, BYOK
 tocname: code-studio-ide-toc
@@ -14,7 +14,7 @@ A model is the underlying AI engine responsible for producing text, code, or exp
 
 ## Why Personal Models?
 
-The **“Add Personal Model”** feature allows you to use required AI model providers and API keys inside Code Studio instead of relying only on organization‑configured models. This gives you more flexibility and control over your AI experience.
+The **“Add Personal Model”** feature allows you to use required AI model providers and API keys inside Syncfusion Code instead of relying only on organization‑configured models. This gives you more flexibility and control over your AI experience.
 
 You can:
 

@@ -30,7 +30,7 @@ Prompt Files are helpful when you want to:
 ## Steps to Create and Use Prompt Files
 
 ### Step 1: Open Chat Window
-Open your project in Code Studio. Open the Code Studio Chat window.
+Open your project in Syncfusion Code. Open the Syncfusion Code Chat window.
 <img src="./reference-images/customprompt1.png" alt="Custom Prompt" />
 
 ### Step 2: Select Prompt Files

@@ -7,14 +7,14 @@ tocname: code-studio-ide-toc
 ---
 
 
-# Code Studio Security
-This document provides a clear overview of the key security considerations when working with AI-assisted development in Code Studio. It explains the risks, built‑in protections, and best practices you should follow to stay safe while benefiting from AI‑powered workflows.
+# Syncfusion Code Security
+This document provides a clear overview of the key security considerations when working with AI-assisted development in Syncfusion Code. It explains the risks, built‑in protections, and best practices you should follow to stay safe while benefiting from AI‑powered workflows.
 
 ## Why Security Matters
 AI agents in development tools can automate tasks, modify files, and run commands. While this greatly improves productivity, it also increases the risk of accidental or malicious actions. Understanding how these systems work—and the protections around them—helps you use them safely.
 
 ## Execution & Access Risks
-When you use AI agents in Code Studio, they can perform:
+When you use AI agents in Syncfusion Code, they can perform:
 
 ### File Operations
 - Create, edit, or delete files in your workspace.
@@ -89,8 +89,8 @@ Malicious instructions hidden inside comments, files, or tool outputs can trick 
 - External data exploitation: Using untrusted web content to alter behavior.
 
 ## Built‑In Security Protections
-- Code Studio includes multiple safety layers to reduce the risk of harmful actions.
-- Code Studio does not use your workspace data, code, or context for model training.
+- Syncfusion Code includes multiple safety layers to reduce the risk of harmful actions.
+- Syncfusion Code does not use your workspace data, code, or context for model training.
 
 ## Trust Boundaries
 - Workspace Trust: Restricts execution until you trust the folder.
@@ -136,4 +136,4 @@ Even with strong protections, you play a key role in staying secure.
 - This disables agents and prevents prompt injection attacks.
 
 ## Summary
-AI-powered development is powerful but introduces new security challenges. Code Studio helps protect you with trust boundaries, controlled scope, permissions, transparency, and secret management. As a developer, staying alert, reviewing actions, and only enabling what you trust will help you maintain a safe and productive workflow.
+AI-powered development is powerful but introduces new security challenges. Syncfusion Code helps protect you with trust boundaries, controlled scope, permissions, transparency, and secret management. As a developer, staying alert, reviewing actions, and only enabling what you trust will help you maintain a safe and productive workflow.

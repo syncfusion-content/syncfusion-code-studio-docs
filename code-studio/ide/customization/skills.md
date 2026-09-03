@@ -1,5 +1,5 @@
 ---
-title: Skills in Code Studio
+title: Skills in Syncfusion Code
 description: Skills in Syncfusion Code enhance your development experience by providing intelligent assistance and automation.
 platform: syncfusion-code-studio
 control: IDE
@@ -8,11 +8,11 @@ keywords: code, IDE, AI, skills, SKILL.md, custom workflows, automation, slash c
 tocname: code-studio-ide-toc
 ---
 
-# Skills in Code Studio
+# Skills in Syncfusion Code
 
 ## Overview
 
-Skills let you extend Code Studio with reusable, task-focused capabilities packaged as a structured folder. Each Skill bundles a `SKILL.md` file alongside any supporting assets—scripts, templates, and examples—that Code Studio loads when the Skill becomes relevant.
+Skills let you extend Syncfusion Code with reusable, task-focused capabilities packaged as a structured folder. Each Skill bundles a `SKILL.md` file alongside any supporting assets—scripts, templates, and examples—that Syncfusion Code loads when the Skill becomes relevant.
 
 Unlike one-off instructions or prompts, Skills encapsulate complete workflows: testing routines, deployment steps, debugging procedures, UI generation patterns, or domain-specific automation. Skills are portable and work across any skills-compatible agent.
 
@@ -24,7 +24,7 @@ Use Skills when you need to:
 - Share team-wide AI workflows by storing Skills in the repository under version control.
 - Automate domain-specific tasks—such as security scanning, UI generation, or documentation generation—without re-entering the same context in every chat session.
 - Override or supplement default AI behavior for a specific class of tasks.
-- Create portable capabilities that work across different AI tools, not just Code Studio.
+- Create portable capabilities that work across different AI tools, not just Syncfusion Code.
 
 
 
@@ -32,7 +32,7 @@ Use Skills when you need to:
 
 > **Tip:** Type `/skills` in the chat input to quickly open the Configure Skills menu.
 
-Skills are stored in directories with a `SKILL.md` file. Code Studio supports two storage scopes:
+Skills are stored in directories with a `SKILL.md` file. Syncfusion Code supports two storage scopes:
 
 | Scope                                             | Supported paths                                                                         |
 | ------------------------------------------------- | --------------------------------------------------------------------------------------- |
@@ -41,7 +41,7 @@ Skills are stored in directories with a `SKILL.md` file. Code Studio supports tw
 
 ### Step 1: Open the Skills Menu
 
-Open your project in Code Studio. Open the chat box and type `/skills` in the chat input.
+Open your project in Syncfusion Code. Open the chat box and type `/skills` in the chat input.
 
 <img src="./reference-images/skills1.png" alt="Open Skills Menu">
 
@@ -64,11 +64,11 @@ Select where to store your Skill:
 
 ### Step 4: Name the Skill Folder
 
-Enter a name for your Skill folder. The directory name must match the `name` field you will set in `SKILL.md`. Code Studio creates the folder structure automatically.
+Enter a name for your Skill folder. The directory name must match the `name` field you will set in `SKILL.md`. Syncfusion Code creates the folder structure automatically.
 
 ### Step 5: Create the SKILL.md File
 
-Code Studio creates a `SKILL.md` file inside the Skill folder. Edit it with the following structure:
+Syncfusion Code creates a `SKILL.md` file inside the Skill folder. Edit it with the following structure:
 
 <img src="./reference-images/skills5.png" alt="Create the SKILL.md File">
 
@@ -106,11 +106,11 @@ Each Skill is defined by a `SKILL.md` file consisting of a YAML frontmatter head
 | Field         | Required | Description                                                                                                                                                                                       |
 | ------------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `name`        | Yes      | Unique identifier for the Skill, used in slash commands. Must be lowercase with hyphens (for example, `documentation`). **Must match the parent directory name.** Maximum 64 characters.          |
-| `description` | Yes      | Description of what the Skill does and when to use it. Be specific about both capabilities and use cases so Code Studio can decide when to load the Skill automatically. Maximum 1024 characters. |
+| `description` | Yes      | Description of what the Skill does and when to use it. Be specific about both capabilities and use cases so Syncfusion Code can decide when to load the Skill automatically. Maximum 1024 characters. |
 
 ### Body
 
-The body contains free-form Markdown with the instructions, guidelines, and examples Code Studio follows when using the Skill. Include:
+The body contains free-form Markdown with the instructions, guidelines, and examples Syncfusion Code follows when using the Skill. Include:
 
 - What the Skill accomplishes.
 - When to use the Skill.
@@ -120,13 +120,13 @@ The body contains free-form Markdown with the instructions, guidelines, and exam
 
 You can reference files within the Skill directory using relative paths. For example: `[documentation template](./doc-template.md)`.
 
-## How Code Studio Uses Skills
+## How Syncfusion Code Uses Skills
 
 Skills load content progressively to keep context efficient:
 
-1. **Discovery** — Code Studio reads the Skill's `name` and `description` from the YAML frontmatter. When you send a prompt such as "review the getting-started guide for gaps", Code Studio matches it to the `documentation` Skill based on its description.
-2. **Instructions loading** — Code Studio loads the `SKILL.md` body into its context, giving it access to the detailed review procedures and guidelines. You can also trigger this step directly by typing `/documentation` in chat.
-3. **Resource access** — As Code Studio works through the instructions, it accesses additional files in the Skill directory (such as `doc-template.md` or example improvements) only when referenced.
+1. **Discovery** — Syncfusion Code reads the Skill's `name` and `description` from the YAML frontmatter. When you send a prompt such as "review the getting-started guide for gaps", Syncfusion Code matches it to the `documentation` Skill based on its description.
+2. **Instructions loading** — Syncfusion Code loads the `SKILL.md` body into its context, giving it access to the detailed review procedures and guidelines. You can also trigger this step directly by typing `/documentation` in chat.
+3. **Resource access** — As Syncfusion Code works through the instructions, it accesses additional files in the Skill directory (such as `doc-template.md` or example improvements) only when referenced.
 
 This three-level loading system means you can install many Skills without consuming unnecessary context—only what is relevant for each task is loaded.
 

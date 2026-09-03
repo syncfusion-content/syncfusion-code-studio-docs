@@ -57,11 +57,11 @@ Use Custom Instructions when you want to:
 
 ## Enabling Custom Instruction Files
 
-**Step 1:** Open **settings** at the bottom left in Code Studio.  
+**Step 1:** Open **settings** at the bottom left in Syncfusion Code.  
 
 <img src="./reference-images/instruction_option.png" alt="instruction_option" >
 
-**Step 2:** Select **Code Studio Settings** in the pop-up options.
+**Step 2:** Select **Syncfusion Code Settings** in the pop-up options.
 
 <img src="./reference-images/instruction_code_settings.png" alt="instruction_code_settings" >
 
@@ -105,7 +105,7 @@ You will see three options:
 
 - Click the “Generate instructions” and select New instruction(workspace) in the pop up.
 
-**Step 2:** Now Code Studio will automatically create and open `codestudio-instructions.md`.  
+**Step 2:** Now Syncfusion Code will automatically create and open `codestudio-instructions.md`.  
 
 <img src="./reference-images/instruction_repo_file.png" alt="instruction_repo_file">
 

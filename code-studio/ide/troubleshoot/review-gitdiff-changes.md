@@ -6,20 +6,20 @@ keywords: git diff, review changes, code studio, version control, ai assistance,
 tocname: code-studio-ide-toc
 ---
 
-# Review Git Diff Changes in Code Studio
+# Review Git Diff Changes in Syncfusion Code
 
 ## Problem Summary
 
-After upgrading to Code Studio v2.0.0+, the method to review git diff changes has been updated. Previously(before v2.0.0), users could view uncommitted changes by typing **@Git Diff** in the chat box or using the **"Add context(+)"** button. In v2.0.0+, this functionality is now accessed by typing **#** in the chat input box and selecting `#changes` from the dropdown menu.
+After upgrading to Syncfusion Code v2.0.0+, the method to review git diff changes has been updated. Previously(before v2.0.0), users could view uncommitted changes by typing **@Git Diff** in the chat box or using the **"Add context(+)"** button. In v2.0.0+, this functionality is now accessed by typing **#** in the chat input box and selecting `#changes` from the dropdown menu.
 
 
 ## Resolution Steps
 
 ### Steps to Use #changes
 
-1. Make sure the desired project/workspace is open and active in Code Studio — preferably one that is connected to a GitHub repository. The `#changes` tool only shows modifications from the currently opened project.
+1. Make sure the desired project/workspace is open and active in Syncfusion Code — preferably one that is connected to a GitHub repository. The `#changes` tool only shows modifications from the currently opened project.
 
-2. Go to the chat panel in Code Studio where you interact with the AI assistant.
+2. Go to the chat panel in Syncfusion Code where you interact with the AI assistant.
 
 3. In the chat input box type #, a dropdown menu will appear showing available options. From this dropdown, select `#changes`.
 

@@ -11,9 +11,9 @@ tocname: code-studio-ide-toc
 
 ## Overview
 
-Syncfusion Code provides intelligent AI-powered assistance for C++ development, helping you write, debug, and optimize C++ code faster. Whether you're building system applications, game engines, or performance-critical software, Code Studio's AI features work alongside your C++ compiler to enhance your productivity.
+Syncfusion Code provides intelligent AI-powered assistance for C++ development, helping you write, debug, and optimize C++ code faster. Whether you're building system applications, game engines, or performance-critical software, Syncfusion Code's AI features work alongside your C++ compiler to enhance your productivity.
 
-This guide walks you through setting up a complete C++ development environment—from installing compilers to writing your first AI-assisted C++ program. Once configured, you'll be able to leverage Code Studio's autocomplete, debugging assistance, code explanations, and smart refactoring for all your C++ projects.
+This guide walks you through setting up a complete C++ development environment—from installing compilers to writing your first AI-assisted C++ program. Once configured, you'll be able to leverage Syncfusion Code's autocomplete, debugging assistance, code explanations, and smart refactoring for all your C++ projects.
 
 > **Prerequisites:** 
 > - Syncfusion Code must be installed. If not, see the [installation guide](/code-studio/getting-started/install-and-configuration).
@@ -28,13 +28,13 @@ By the end of this tutorial, you'll learn how to:
 - Install and configure CodeLLDB extension for debugging
 - Set up build tasks for automatic compilation
 - Configure debugging with breakpoints and variable inspection
-- Write and run your first C++ program in Code Studio
+- Write and run your first C++ program in Syncfusion Code
 
 ## Download and Install C++ Compiler
 
 ### Windows
 
-This guide uses MinGW-w64, which provides the GCC compiler for Windows. It's lightweight, open-source, and works perfectly with Code Studio.
+This guide uses MinGW-w64, which provides the GCC compiler for Windows. It's lightweight, open-source, and works perfectly with Syncfusion Code.
 
 #### Step 1: Download MinGW-w64
 
@@ -108,15 +108,15 @@ If you're on macOS, the setup is even simpler. macOS uses Clang (part of LLVM) a
 
 ---
 
-## Configure C++ in Code Studio
+## Configure C++ in Syncfusion Code
 
-With the compiler installed, the next step is to set up Code Studio to work seamlessly with your C++ environment. This involves installing an extension for debugging and configuring build and debug tasks.
+With the compiler installed, the next step is to set up Syncfusion Code to work seamlessly with your C++ environment. This involves installing an extension for debugging and configuring build and debug tasks.
 
 > **Why Not Use Microsoft's C/C++ Extension?**
 >
-> Syncfusion Code is a fork of Visual Studio Code with enhanced AI capabilities. Code Studio cannot use certain Microsoft proprietary extensions due to licensing restrictions. 
+> Syncfusion Code is a fork of Visual Studio Code with enhanced AI capabilities. Syncfusion Code cannot use certain Microsoft proprietary extensions due to licensing restrictions. 
 >
-> Microsoft's C/C++ extension (`ms-vscode.cpptools`) is only licensed for use in official VS Code builds. Attempting to install it in Code Studio will result in errors or the extension simply won't function.
+> Microsoft's C/C++ extension (`ms-vscode.cpptools`) is only licensed for use in official VS Code builds. Attempting to install it in Syncfusion Code will result in errors or the extension simply won't function.
 >
 > **Solution:** We use **CodeLLDB** instead, which is:
 > - Open-source and Provides full debugging capabilities (breakpoints, variable inspection, call stacks).
@@ -127,7 +127,7 @@ With the compiler installed, the next step is to set up Code Studio to work seam
 2. Click the **Extensions** icon in the sidebar (or press `Ctrl+Shift+X` / `Cmd+Shift+X`)
 3. Search for **"CodeLLDB"** (by vadimcn)
 
-    <img src="language-images/cpp-extension-install.png" alt="Code Studio Extensions view showing CodeLLDB extension with Install button" />
+    <img src="language-images/cpp-extension-install.png" alt="Syncfusion Code Extensions view showing CodeLLDB extension with Install button" />
 
 4. Click **Install** on the extension
 
@@ -142,7 +142,7 @@ With the compiler installed, the next step is to set up Code Studio to work seam
 
 ### Step 2: Configure Build Task
 
-With CodeLLDB installed, let's set up a build task so you can compile your C++ code directly from Code Studio without switching to the command line.
+With CodeLLDB installed, let's set up a build task so you can compile your C++ code directly from Syncfusion Code without switching to the command line.
 
 1. In your project folder, create a `.vscode` folder if it doesn't exist
 2. Create a file named `tasks.json` inside `.vscode`
@@ -259,7 +259,7 @@ Set up the debugger to run and inspect your C++ programs. The debugger will auto
 > **Important:** The `preLaunchTask` name in `launch.json` must match the `label` in your `tasks.json` file. This ensures your code is compiled before debugging starts.
 
 > **Key Points:**
-> - `"type": "lldb"` tells Code Studio to use CodeLLDB for debugging
+> - `"type": "lldb"` tells Syncfusion Code to use CodeLLDB for debugging
 > - `preLaunchTask` automatically builds your code before debugging
 > - The configuration works with both debug and release builds
 
@@ -271,29 +271,29 @@ Now that everything is configured, let's put your setup to the test by creating 
 
 ### Step 1: Create a New C++ File
 
-1. In Code Studio, create a new file: `hello.cpp`
-2. You can write the code yourself or ask Code Studio to help:
+1. In Syncfusion Code, create a new file: `hello.cpp`
+2. You can write the code yourself or ask Syncfusion Code to help:
 
-   **Try this prompt in Code Studio Chat:**
+   **Try this prompt in Syncfusion Code Chat:**
    ```
    Create a simple C++ hello world program that also demonstrates basic input/output
    ```
-3. Code Studio will generate a basic C++ code.
+3. Syncfusion Code will generate a basic C++ code.
 
-    <img src="language-images/cpp-ai-generate.gif" alt="Code Studio chat showing AI generating a C++ hello world program" />
+    <img src="language-images/cpp-ai-generate.gif" alt="Syncfusion Code chat showing AI generating a C++ hello world program" />
 
 ---
 
 ## Debug Your C++ Code
 
-Debugging is where Code Studio truly shines. Let's walk through setting breakpoints and inspecting your program as it runs.
+Debugging is where Syncfusion Code truly shines. Let's walk through setting breakpoints and inspecting your program as it runs.
 
 ### Step 1: Set a Breakpoint
 
 1. Click in the left margin (line number area) to set a breakpoint
 2. A red dot will appear
 
-    <img src="language-images/cpp-breakpoint.png" alt="Code Studio editor showing a red breakpoint dot next to line numbers in C++ code" />
+    <img src="language-images/cpp-breakpoint.png" alt="Syncfusion Code editor showing a red breakpoint dot next to line numbers in C++ code" />
 
 ### Step 2: Start Debugging
 
@@ -310,7 +310,7 @@ Debugging is where Code Studio truly shines. Let's walk through setting breakpoi
    - Add watch expressions in the **Watch** panel  
    - Examine the call stack in the **Call Stack** panel
 
-    <img src="language-images/cpp-debugging-breakpoint.gif" alt="Code Studio debug view showing Variables, Watch, and Call Stack panels" />
+    <img src="language-images/cpp-debugging-breakpoint.gif" alt="Syncfusion Code debug view showing Variables, Watch, and Call Stack panels" />
 
 ---
 
@@ -319,7 +319,7 @@ Debugging is where Code Studio truly shines. Let's walk through setting breakpoi
 Now that Your C++ development environment is now fully configured in Syncfusion Code. Here's what you can explore next:
 
 - **Build Real Projects:** Start developing C++ applications with full debugging support - see [tutorials](/code-studio/tutorials/generate-your-first-code-using-agent) to get started
-- **Leverage AI Features:** Use Code Studio's [autocomplete](/code-studio/features/autocomplete), [code explanation](/code-studio/features/ask), and refactoring capabilities to speed up development
+- **Leverage AI Features:** Use Syncfusion Code's [autocomplete](/code-studio/features/autocomplete), [code explanation](/code-studio/features/ask), and refactoring capabilities to speed up development
 - **Explore Agent Mode:** For complex multi-file projects, try [Agent mode](/code-studio/features/agent) for advanced refactoring and architectural improvements
 - **Learn More:** Check out the [Quick Start Guide](/code-studio/getting-started/quick-start) and [features overview](/code-studio/features/generatecode) for additional capabilities
 
@@ -327,7 +327,7 @@ Now that Your C++ development environment is now fully configured in Syncfusion 
 
 **Compiler not found after installation:**
 - Ensure you opened a **new** terminal window after adding to PATH
-- Restart Code Studio if the terminal was already open
+- Restart Syncfusion Code if the terminal was already open
 - Verify PATH by running `echo $env:PATH` (Windows) or `echo $PATH` (macOS)
 
 **Build task fails:**

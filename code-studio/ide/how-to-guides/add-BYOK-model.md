@@ -1,6 +1,6 @@
 ---
 title: Add BYOK Model in Syncfusion Code
-description: Admin guide to add BYOK (Bring Your Own Key) models and connect providers in Code Studio.
+description: Admin guide to add BYOK (Bring Your Own Key) models and connect providers in Syncfusion Code.
 platform: syncfusion-code-studio
 keywords: byok, add model, providers, configuration, admin, enterprise, syncfusion, code-studio, api keys, openai, anthropic,openrouter
 tocname: code-studio-ide-toc
@@ -10,7 +10,7 @@ tocname: code-studio-ide-toc
 
 ## Overview
 
-This guide provides step-by-step instructions for administrators to configure Large Language Model (LLM) providers within Code Studio using the **Bring Your Own Key (BYOK)** feature.
+This guide provides step-by-step instructions for administrators to configure Large Language Model (LLM) providers within Syncfusion Code using the **Bring Your Own Key (BYOK)** feature.
 
 > **Note:** Only administrators can configure LLM providers.
 
@@ -18,7 +18,7 @@ This guide provides step-by-step instructions for administrators to configure La
 
 Use this guide when you need to:
 
-- Connect new LLM providers (e.g., OpenAI, Anthropic,Openrouter) to Code Studio.
+- Connect new LLM providers (e.g., OpenAI, Anthropic,Openrouter) to Syncfusion Code.
 - Add custom models from your preferred AI providers for your organization.
 - Manage API keys for enterprise-level AI integrations.
 
@@ -26,7 +26,7 @@ Use this guide when you need to:
 
 Before you begin, ensure you have the following:
 
-- An active administrator account on Code Studio.
+- An active administrator account on Syncfusion Code.
 - A valid API key from your LLM provider (e.g., OpenAI, Anthropic).
 - *(Optional)* An OpenRouter API key for accessing multiple models through a single integration. Follow the detailed instructions [here](/code-studio/enterprise-server/freemodel) to obtain an OpenRouter API key.
 
@@ -34,7 +34,7 @@ Before you begin, ensure you have the following:
 
 ### Step 1: Open the Dashboard
 
-1. Open **Code Studio** in your machine.
+1. Open **Syncfusion Code** in your machine.
 
 2. Click the **Account** tab in the top right of the application.
    <img src="./howtoguide-images/Avator-icon1.png" alt="Open Dashboard" />
@@ -48,7 +48,7 @@ Before you begin, ensure you have the following:
 
 ### Step 2: Add an LLM Provider
 
-Follow these steps to add a new LLM provider to Code Studio:
+Follow these steps to add a new LLM provider to Syncfusion Code:
 
 1. Navigate to the **LLM Keys** page under the **BYOK** section in the admin dashboard.
 
@@ -98,11 +98,11 @@ After configuring your LLM provider, follow these steps to add a model:
 
 
 
-### Step 4: Verify the Model in Code Studio IDE
+### Step 4: Verify the Model in Syncfusion Code IDE
 
-After adding the model, verify that it appears in the Code Studio IDE:
+After adding the model, verify that it appears in the Syncfusion Code IDE:
 
-1. Open the **Code Studio IDE**.
+1. Open the **Syncfusion Code IDE**.
 
 2. Click the **model selection dropdown** in the chat or editor panel.
 

@@ -1,12 +1,12 @@
 ---
-title: Ensuring Consistent AI Responses with Context Aware Prompt Optimization in Code Studio
+title: Ensuring Consistent AI Responses with Context Aware Prompt Optimization in Syncfusion Code
 description: Learn to write context-aware prompts that produce consistent, reliable AI responses using Syncfusion Code.
 platform: syncfusion-code-studio
 keywords: context-aware-prompting, bug-fixing, prompt-optimization, code-studio-prompts, prompt-engineering, code-generation
 tocname: code-studio-ide-toc
 ---
 
-# Ensuring Consistent AI Responses with Context Aware Prompt Optimization in Code Studio
+# Ensuring Consistent AI Responses with Context Aware Prompt Optimization in Syncfusion Code
 
 ## Overview
 
@@ -22,7 +22,7 @@ In this tutorial, you will see how vague prompts cause problems and how adding c
 
 Before beginning, ensure:
 
-- You have a workspace or project folder opened in Code Studio where you can create files.
+- You have a workspace or project folder opened in Syncfusion Code where you can create files.
 - Node.js is installed on your system. You can download it from [nodejs.org](https://nodejs.org/).
 
 
@@ -49,7 +49,7 @@ By the end of this tutorial, you'll be able to:
 
 This step creates a JavaScript file with a broken price calculation function so you can observe the bugs before applying a fix.
 
-1. **Create a new file in Code Studio:**
+1. **Create a new file in Syncfusion Code:**
    - **Option 1 - Using Menu:** Click `File` in the top menu bar, then select `New File` from the dropdown menu.
    - **Option 2 - Using Keyboard Shortcut:** Press `Ctrl+N` (Windows/Linux) or `Cmd+N` (Mac) to create a new file.
    - After the new file opens, press `Ctrl+S` (Windows/Linux) or `Cmd+S` (Mac) to save it.
@@ -92,7 +92,7 @@ This step demonstrates why vague prompts produce inconsistent results, then show
 
 **Why vague prompts fail:** Submit the prompt `Fix this function` to the chat and observe the results across two separate attempts.
 
-<img src="./tutorials-images/Drag-Function.png" alt="Buggy calculateFinalPrice function being dragged into the Code Studio chat window" />
+<img src="./tutorials-images/Drag-Function.png" alt="Buggy calculateFinalPrice function being dragged into the Syncfusion Code chat window" />
 
 **Attempt 1 result:**
 <img src="./tutorials-images/Attempt1.png" alt="First AI response to the vague prompt showing one interpretation of the fix" />
@@ -104,7 +104,7 @@ The AI produced two different answers because the prompt did not specify which b
 
 Now use a structured prompt to get a consistent result.
 
-1. Open the **Chat Panel** by pressing `Ctrl+Alt+B` (Windows/Linux) or `Cmd+Alt+B` (Mac), or click the Code Studio icon to the left of the centered search box.
+1. Open the **Chat Panel** by pressing `Ctrl+Alt+B` (Windows/Linux) or `Cmd+Alt+B` (Mac), or click the Syncfusion Code icon to the left of the centered search box.
 
 2. **Highlight the buggy function** - Select the entire `calculateFinalPrice` function in your `priceCalculator.js` file
 
@@ -139,7 +139,7 @@ EXPECTED BEHAVIOR:
 
 4. Select the entire `calculateFinalPrice` function in your `priceCalculator.js` file, then send the prompt.
 
-<img src="./tutorials-images/context-Aware.png" alt="Context-aware prompt pasted into the Code Studio Chat Panel with the calculateFinalPrice function selected in the editor" />
+<img src="./tutorials-images/context-Aware.png" alt="Context-aware prompt pasted into the Syncfusion Code Chat Panel with the calculateFinalPrice function selected in the editor" />
 
 <img src="./tutorials-images/Output-context.png" alt="AI response showing the fixed calculateFinalPrice function addressing all four bugs" />
 

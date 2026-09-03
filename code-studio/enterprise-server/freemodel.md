@@ -1,6 +1,6 @@
 ---
 title: Use OpenRouter Free Models in Syncfusion Code
-description: Instructions to use Code Studio effectively while minimizing or eliminating costs through free models.
+description: Instructions to use Syncfusion Code effectively while minimizing or eliminating costs through free models.
 platform: syncfusion-code-studio
 control: IDE
 documentation: Getting Started
@@ -11,7 +11,7 @@ tocname: code-studio-enterprise-server-toc
 # Use OpenRouter Free Models in Syncfusion Code
  
 ## Why this Matters
-AI model costs can add up quickly during development. This guide shows you how to use Code Studio effectively while minimizing or eliminating costs through free models.
+AI model costs can add up quickly during development. This guide shows you how to use Syncfusion Code effectively while minimizing or eliminating costs through free models.
  
 ## When to use
 - You need instant access for coding models with no token limits.
@@ -35,7 +35,7 @@ AI model costs can add up quickly during development. This guide shows you how t
  
 ## OpenRouter Free Tier Models
  
-OpenRouter's free tier unlocks powerful, hosted models that are free (with fair usage limits to keep things sustainable). It's perfect for testing and prototyping without cost. You can easily connect the free models to Code Studio by following this [Configuration steps](/code-studio/enterprise-server/providersandmodels).
+OpenRouter's free tier unlocks powerful, hosted models that are free (with fair usage limits to keep things sustainable). It's perfect for testing and prototyping without cost. You can easily connect the free models to Syncfusion Code by following this [Configuration steps](/code-studio/enterprise-server/providersandmodels).
  
  
 **Note:** These free models generally deliver about 60% proper results, so use them for prototyping and non-sensitive tasks rather than production.

@@ -20,7 +20,7 @@ The **Syncfusion Code** provides an efficient way to apply suggested code direct
 
 ## How to Apply Changes to the Current File
  
-### 1. Open Code Studio Extension
+### 1. Open Syncfusion Code Extension
  
 Click the **Syncfusion Code** icon on the left toolbar to open the Syncfusion Code chat window.
  <img src="./feature-images/apply1.png" alt="apply" >

@@ -11,7 +11,7 @@ tocname: code-studio-ide-toc
 # MCP Marketplace
 
 ## Purpose
-The **MCP Marketplace** is a centralized platform for server management, helping users discover, install, and connect the right servers for their needs through an easy-to-use interface. It showcases a variety of available MCP servers. Users can explore server options and configure them for use by simply clicking the **Install** button, which initiates an automated setup process to integrate the server with the Code Studio extension. Users can download servers either globally across all projects or for a specific workspace.
+The **MCP Marketplace** is a centralized platform for server management, helping users discover, install, and connect the right servers for their needs through an easy-to-use interface. It showcases a variety of available MCP servers. Users can explore server options and configure them for use by simply clicking the **Install** button, which initiates an automated setup process to integrate the server with the Syncfusion Code extension. Users can download servers either globally across all projects or for a specific workspace.
 
 ## When to Use
 MCP servers are essential in the following scenarios:

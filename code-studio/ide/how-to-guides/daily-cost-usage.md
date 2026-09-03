@@ -28,14 +28,14 @@ Use this tracking process when:
 
 
 ## Steps to Check Daily Credits and Token Usage
-Follow these steps to view your credits and token usage in Code Studio:
+Follow these steps to view your credits and token usage in Syncfusion Code:
 
-### Step 1: Open Code Studio
-- Open Code Studio Application.
+### Step 1: Open Syncfusion Code
+- Open Syncfusion Code Application.
 - Ensure you are logged in with the correct user credentials.
 
 ### Step 2: Open Account Settings
-- In the top-right corner of Code Studio, click your **avatar**.
+- In the top-right corner of Syncfusion Code, click your **avatar**.
     
 <img src="../how-to-guides/howtoguide-images/Avator-icon1.png">
 

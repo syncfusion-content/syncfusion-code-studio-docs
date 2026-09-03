@@ -1,5 +1,5 @@
 ---
-title: How to resolve Code Studio app corruption
+title: How to resolve Syncfusion Code app corruption
 Description: Guide to fix application corruption on Windows and macOS.
 platform: syncfusion-code-studio
 keywords: cache, corruption, troubleshoot
@@ -8,13 +8,13 @@ tocname: code-studio-ide-toc
 
 
 
-# How to resolve Code Studio app corruption.
+# How to resolve Syncfusion Code app corruption.
 
-When Syncfusion Code becomes corrupted or stops functioning correctly, a full reset of the application may be required. This guide explains how to completely remove Code Studio's program files and configuration data so you can reinstall with a clean state.
+When Syncfusion Code becomes corrupted or stops functioning correctly, a full reset of the application may be required. This guide explains how to completely remove Syncfusion Code's program files and configuration data so you can reinstall with a clean state.
 
 ## Problem Summary
 
-Application corruption can occur when essential Code Studio files—such as installation components, configuration data, or cache folders—become damaged or inconsistent. These issues may prevent the IDE from launching, updating, or functioning normally. This guide explains how to fully remove all relevant directories so that a clean reinstallation can rebuild fresh, working files and resolve corruption‑related problems.
+Application corruption can occur when essential Syncfusion Code files—such as installation components, configuration data, or cache folders—become damaged or inconsistent. These issues may prevent the IDE from launching, updating, or functioning normally. This guide explains how to fully remove all relevant directories so that a clean reinstallation can rebuild fresh, working files and resolve corruption‑related problems.
 
 ## Possible Causes
 

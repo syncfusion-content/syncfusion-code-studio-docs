@@ -23,7 +23,7 @@ By the end of this tutorial, you'll be able to:
 
 ## Steps to Fork a Chat Session
 
-Code Studio provides two flexible ways to fork a chat session. Use Method 1 to fork the entire conversation, or use Method 2 to branch from a specific point in your chat history.
+Syncfusion Code provides two flexible ways to fork a chat session. Use Method 1 to fork the entire conversation, or use Method 2 to branch from a specific point in your chat history.
 
 ### Method 1: Fork the Entire Session
 
@@ -33,7 +33,7 @@ Use this method when you want to explore a completely different approach while p
 
 <img src="./tutorials-images/fork-full-session.png" alt="Fork entire session using /fork command" />
 
-**Step 2**: Code Studio creates a new chat session that includes all previous messages and context from the original session.
+**Step 2**: Syncfusion Code creates a new chat session that includes all previous messages and context from the original session.
 
 <img src="./tutorials-images/fork-new-session-created.png" alt="New forked session created" />
 
@@ -51,7 +51,7 @@ Use this method when you want to branch off from an earlier decision point witho
 
 <img src="./tutorials-images/fork-from-checkpoint.png" alt="Fork conversation from a specific checkpoint" />
 
-**Step 3**: Code Studio creates a new session containing only the conversation history up to the selected checkpoint.
+**Step 3**: Syncfusion Code creates a new session containing only the conversation history up to the selected checkpoint.
 
 <img src="./tutorials-images/fork-checkpoint-session.png" alt="New session forked from checkpoint" />
 

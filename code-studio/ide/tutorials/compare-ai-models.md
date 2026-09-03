@@ -10,7 +10,7 @@ tocname: code-studio-ide-toc
 
 ## Overview
 
-Each AI model available in Code Studio has distinct strengths. To help you decide which model to use, this tutorial provides real-world examples of common developer tasks along with sample prompts, expected responses, and guidance on why a particular model is a good fit.
+Each AI model available in Syncfusion Code has distinct strengths. To help you decide which model to use, this tutorial provides real-world examples of common developer tasks along with sample prompts, expected responses, and guidance on why a particular model is a good fit.
 
 These examples illustrate how models differ in their reasoning style, response depth, and ability to handle various input types. Use them to compare output quality and choose the right model for your specific workflow.
 
@@ -22,7 +22,7 @@ For a full list of supported models and side-by-side feature comparisons, see th
 
 By the end of this tutorial, you will be able to:
 
-- Identify the strengths and optimal use cases for each AI model in Code Studio
+- Identify the strengths and optimal use cases for each AI model in Syncfusion Code
 - Choose the right model based on task complexity, latency needs, and reasoning requirements
 - Apply model selection strategies to real development scenarios
 - Recognize when to switch models mid-task for better results
@@ -32,7 +32,7 @@ No prior AI expertise is required. This tutorial focuses on practical decision-m
 
 ## Model Capabilities with Examples
 
-Below are the AI models available in Code Studio, explained through realistic tasks, example prompts, and expected results. Each section explains **why** a particular model fits a specific task type.
+Below are the AI models available in Syncfusion Code, explained through realistic tasks, example prompts, and expected results. Each section explains **why** a particular model fits a specific task type.
 
 ### Claude Haiku 4.5
 

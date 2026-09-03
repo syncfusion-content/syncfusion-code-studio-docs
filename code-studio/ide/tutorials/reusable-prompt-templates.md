@@ -17,7 +17,7 @@ What if you could save those instructions once and reuse them forever?
 
 That's what **Reusable Templates** do. They let you encode your team's best practices, standards, and workflows once — then automatically apply them across all your work. No more repetition. No more inconsistency.
 
-In this tutorial, you'll learn four different ways to reuse templates in Code Studio:
+In this tutorial, you'll learn four different ways to reuse templates in Syncfusion Code:
 
 - **Custom Prompts** — Quick templates you invoke manually
 - **Custom Agents** — Create specialized AI personalities agents (Reviewer, Planner, etc.)
@@ -32,7 +32,7 @@ We will see how to pick the right template type for your problem, and you'll sav
 
 By the end of this tutorial, you'll be able to:
 
-- Understand four ways to reuse your instructions in Code Studio
+- Understand four ways to reuse your instructions in Syncfusion Code
 - Know which template type solves your specific problem
 - Save hours per week by eliminating repetitive typing
 - Standardize your team's practices and workflows

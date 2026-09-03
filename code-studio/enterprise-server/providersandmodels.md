@@ -1,6 +1,6 @@
 ---
 title: Configure LLM Providers and Models in Syncfusion Code
-description: Admin guide to connect LLM providers, manage API keys, and add models to your enterprise catalog in Code Studio.
+description: Admin guide to connect LLM providers, manage API keys, and add models to your enterprise catalog in Syncfusion Code.
 platform: syncfusion-code-studio
 keywords: llm, providers, models, configuration, admin, enterprise, syncfusion, code-studio, api keys, model catalog, openai, anthropic, azure openai, gemini
 tocname: code-studio-enterprise-server-toc
@@ -8,17 +8,17 @@ tocname: code-studio-enterprise-server-toc
 
 # Configure LLM Providers and Models
 
-This guide provides step-by-step instructions for administrators to configure Large Language Model (LLM) providers and manage models within Code Studio.
+This guide provides step-by-step instructions for administrators to configure Large Language Model (LLM) providers and manage models within Syncfusion Code.
 
 > **Note**: Only admins can configure LLM providers and models.
 
 ## Prerequisites
-- You need an active account on Code Studio
+- You need an active account on Syncfusion Code
 - OpenRouter API Key - Follow the detailed instructions [here](/code-studio/enterprise-server/freemodel) to obtain an OpenRouter API key and the list of recommended free models for integration.
 
 
 ## 1. Adding an LLM Provider
-To integrate an LLM provider into Code Studio:
+To integrate an LLM provider into Syncfusion Code:
 
 ### Steps
 1. Navigate to the **LLM Keys** page under the **BYOK** section.

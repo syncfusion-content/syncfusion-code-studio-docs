@@ -25,7 +25,7 @@ The Checkpoints and Editing Requests features in Syncfusion Code provide powerfu
 
 
 ## Editing a Previous Chat Request
-Code Studio allows you to edit any previous chat request in your conversation history. When you modify an earlier request, Code Studio treats it as a new instruction and sends it again to the AI model. The workspace is then reverted to the state it was in before the original request—undoing any file changes made by that request and the requests that came after it.
+Syncfusion Code allows you to edit any previous chat request in your conversation history. When you modify an earlier request, Syncfusion Code treats it as a new instruction and sends it again to the AI model. The workspace is then reverted to the state it was in before the original request—undoing any file changes made by that request and the requests that came after it.
 
 ### How to Edit Previous Chat request ?
 
@@ -38,9 +38,9 @@ Code Studio allows you to edit any previous chat request in your conversation hi
    <img src="./feature-images/Gif/checkpoint1.gif" alt="checkpoint"  />
 
 ## Restoring a Checkpoint
-When you restore a checkpoint, Code Studio returns your workspace to the exact state it was in when that checkpoint was created. Any file changes made after that point are undone, allowing you to safely roll back to a known good version.
+When you restore a checkpoint, Syncfusion Code returns your workspace to the exact state it was in when that checkpoint was created. Any file changes made after that point are undone, allowing you to safely roll back to a known good version.
 
-### How to use Restore Check Point in Code Studio ?
+### How to use Restore Check Point in Syncfusion Code ?
 
 **Steps**:
 
@@ -54,7 +54,7 @@ When you restore a checkpoint, Code Studio returns your workspace to the exact s
 3. Confirm that you want to restore the checkpoint and undo any file changes made after that point. Notice that the chat request is removed from the conversation history, and the workspace files are restored to their state at the time of the checkpoint
 
 ## Redo Changes After Restoring a Checkpoint
-After restoring the previous checkpoint, Code Studio allows you to redo the changes that were undone. This is helpful if you restored the checkpoint by mistake or want to reapply the edits you rolled back.
+After restoring the previous checkpoint, Syncfusion Code allows you to redo the changes that were undone. This is helpful if you restored the checkpoint by mistake or want to reapply the edits you rolled back.
 
 ### How to redo changes After Restoring a Checkpoint ?
 
@@ -63,7 +63,7 @@ After restoring the previous checkpoint, Code Studio allows you to redo the chan
    <img src="./feature-images/checkpoint3.png" alt="checkpoint"  />
 
 ## How to Undo and Redo the Last Request
-Code Studio lets you quickly reverse or reapply your most recent action. Use Undo Last Request to roll back the workspace to the state before the change was applied. If you change your mind, select Redo Last Request to bring the workspace back to the state with those changes. This helps you stay flexible and in control while experimenting with edits.
+Syncfusion Code lets you quickly reverse or reapply your most recent action. Use Undo Last Request to roll back the workspace to the state before the change was applied. If you change your mind, select Redo Last Request to bring the workspace back to the state with those changes. This helps you stay flexible and in control while experimenting with edits.
 
 <img src="./feature-images/checkpoint4.png" alt="checkpoint"  />
 

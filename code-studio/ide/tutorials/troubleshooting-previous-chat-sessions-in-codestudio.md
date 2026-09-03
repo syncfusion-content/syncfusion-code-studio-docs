@@ -40,7 +40,7 @@ By completing this tutorial, you will be able to:
 This ensures that detailed debug information is captured for future troubleshooting sessions. 
 
 ### Step 2: Use the /troubleshoot Command 
-- Open the Chat view in Code Studio. This will be your current troubleshooting session where you'll diagnose past issues 
+- Open the Chat view in Syncfusion Code. This will be your current troubleshooting session where you'll diagnose past issues 
 
 - In the chat input field, type: `/troubleshoot` command is recognized 
     <img src="./tutorials-images/chat-troubleshoot.png" alt="Troubleshoot Previous session with Agent Debug log" />
@@ -61,7 +61,7 @@ Browse through the list of sessions and select the one you want to investigate
 
 ### Step 4: Analyze the Troubleshooting Results 
 
-Once you submit your troubleshooting query, Code Studio will analyze the debug logs from the selected session and provide insights such as: 
+Once you submit your troubleshooting query, Syncfusion Code will analyze the debug logs from the selected session and provide insights such as: 
 
 - Custom Instructions: Whether they were loaded and applied correctly 
 

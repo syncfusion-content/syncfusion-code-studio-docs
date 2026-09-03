@@ -10,7 +10,7 @@ tocname: code-studio-ide-toc
 
 ## Overview
 
-Code Studio includes an AI powered chat that can help you understand your project, write code, fix issues, and answer questions. For the chat to give the best and most accurate responses, it needs to understand what you are currently working on. This is where providing context helps. By adding the relevant files, folders, or code snippets—such as the file you’re editing or the parts of your project related to your question—you allow the chat to see the right information. The more context you provide, the better the chat can analyze your code, understand your problem, and guide you effectively.
+Syncfusion Code includes an AI powered chat that can help you understand your project, write code, fix issues, and answer questions. For the chat to give the best and most accurate responses, it needs to understand what you are currently working on. This is where providing context helps. By adding the relevant files, folders, or code snippets—such as the file you’re editing or the parts of your project related to your question—you allow the chat to see the right information. The more context you provide, the better the chat can analyze your code, understand your problem, and guide you effectively.
 
 This document explains:
 
@@ -46,7 +46,7 @@ Examples
 - Confused by the UI? → Attach **a screenshot**
 
 
-## Types of Context in Code Studio
+## Types of Context in Syncfusion Code
 
 You can use the **Add Context(+)** button to include extra information that helps the chat understand your request better. When you click this button, you will see options like:
 
@@ -66,7 +66,7 @@ You can select **any** of these based on what you want to share with the chat.
 
 ### 1. Automatic Context
 
-Implicit context is the context that Code Studio adds automatically. When you have a file open in the editor, Code Studio will suggest that **active file** at the bottom of the chat. You can simply click the plus button in it to include the file as context without doing anything extra. This makes it easy for the chat to understand which file you’re working on and give better answers.
+Implicit context is the context that Syncfusion Code adds automatically. When you have a file open in the editor, Syncfusion Code will suggest that **active file** at the bottom of the chat. You can simply click the plus button in it to include the file as context without doing anything extra. This makes it easy for the chat to understand which file you’re working on and give better answers.
 
 <img src="./feature-images/auto-context.png" alt="check1"  />
 
@@ -76,7 +76,7 @@ Implicit context is the context that Code Studio adds automatically. When you ha
 
 #### **1. Type # in the chat**
 - Type **#** in the chat input  
-- Code Studio shows a list of open files and workspace files  
+- Syncfusion Code shows a list of open files and workspace files  
 - Click the file or folder you want to add  
 
 <img src="./feature-images/var-context.png" alt="#-conetxt"  />
@@ -103,7 +103,7 @@ Screenshot Context allows you to capture your screen or use an image from your c
 #### Steps to Add Screenshot Context
 
 1. Capture a screenshot or copy an image to your clipboard  
-2. Open the chat panel in Code Studio  
+2. Open the chat panel in Syncfusion Code  
 3. Click **Add Context(+)** button  
 4. Select:
    - **Screenshot Window** (to capture a new screenshot)
@@ -141,7 +141,7 @@ Symbols Context lets you add specific parts of your code—like functions, varia
 
 ### 6. Tools Context
 
-Tools Context lets you add information from different tools inside Code Studio—such as the terminal, debugger, or build tools. This helps the AI understand issues that are related to your development tools instead of your code.
+Tools Context lets you add information from different tools inside Syncfusion Code—such as the terminal, debugger, or build tools. This helps the AI understand issues that are related to your development tools instead of your code.
 
 #### Steps to Add Tools Context
 1. Click the **Add Context(+)** button  
@@ -165,11 +165,11 @@ Tools Context lets you add information from different tools inside Code Studio�
 
 ## @‑mentions in chat
 
-**@-mentions** allow you to directly invoke specialized chat participants in Code Studio. These participants act as **domain experts** that you can route your question to. When you @ mention one of them, your message is handed off to that expert assistant, and it provides a response based on its specific area of knowledge.
+**@-mentions** allow you to directly invoke specialized chat participants in Syncfusion Code. These participants act as **domain experts** that you can route your question to. When you @ mention one of them, your message is handed off to that expert assistant, and it provides a response based on its specific area of knowledge.
 Chat participants are **not the same as tools**. Tools are triggered automatically as part of an agent flow, whereas chat participants respond only when you explicitly mention them using **@**.
 
 ### How @mentions work
-To use a chat participant, simply type **@** in the chat input box. Code Studio will show a list of available participants such as:
+To use a chat participant, simply type **@** in the chat input box. Syncfusion Code will show a list of available participants such as:
 - **@terminal** – for shell/CLI questions  
 - **@codestudio** – for editor settings & features  
 

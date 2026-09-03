@@ -29,7 +29,7 @@ Use Project Manager when you need to:
 
 ### Step 1: Open Project Manager
 
-Click the **Settings** (gear) icon at the top of the Code Studio panel and select **Project Manager** from the dropdown menu.
+Click the **Settings** (gear) icon at the top of the Syncfusion Code panel and select **Project Manager** from the dropdown menu.
 
  <img src="./feature-images/pm-open.png" alt="Opening Project Manager from the Settings dropdown" />
 

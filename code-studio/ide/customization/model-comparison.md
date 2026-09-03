@@ -10,9 +10,9 @@ tocname: code-studio-ide-toc
 
 ## Overview
 
-Code Studio supports multiple premium AI models, each suited to different kinds of development work. Some models are optimized for speed and quick tasks, while others offer deep reasoning for complex problems. This guide helps you pick the right model based on what you need to accomplish.
+Syncfusion Code supports multiple premium AI models, each suited to different kinds of development work. Some models are optimized for speed and quick tasks, while others offer deep reasoning for complex problems. This guide helps you pick the right model based on what you need to accomplish.
 
-> **Note:** The models listed in this guide are premium models available in Code Studio. Different models consume different amounts of your usage allowance.
+> **Note:** The models listed in this guide are premium models available in Syncfusion Code. Different models consume different amounts of your usage allowance.
 
 
 
@@ -144,4 +144,4 @@ For single-step reasoning or debugging, see [Deep reasoning and debugging](#task
 
 If you're not sure which model to start with, GPT-4.1 or Claude Sonnet 4.6 are good general-purpose defaults. Switch to a deeper reasoning model like GPT-5 or Claude Opus 4.5 when a task requires more thorough analysis.
 
-- To get started with Code Studio, see [Quick Start](/code-studio/getting-started/quick-start)
+- To get started with Syncfusion Code, see [Quick Start](/code-studio/getting-started/quick-start)

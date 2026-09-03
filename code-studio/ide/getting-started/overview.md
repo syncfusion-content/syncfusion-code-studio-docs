@@ -1,5 +1,5 @@
 ---
-title: Code Studio Overview
+title: Syncfusion Code Overview
 description: Learn about all key features of Syncfusion Code including Autocomplete, Ask, Edit, Agent, Plan, Generate Code, Quick Fix, and Custom Agents.
 platform: syncfusion-code-studio
 keywords: "Syncfusion Code features, ai powered ide, code generation, ai agents, quick fix, autocomplete, plan mode"
@@ -12,22 +12,22 @@ tocname: code-studio-ide-toc
 
 Syncfusion Code is an AI-powered integrated development environment (IDE) with built-in assistance to support modern software development workflows. It understands your codebase and provides context-aware suggestions to help you design, implement, and refine features—while keeping developers in control.
 
-Deeply integrated with Syncfusion’s component library, Code Studio helps teams build robust, scalable applications by automating common tasks such as UI generation, bug fixing, and documentation.
+Deeply integrated with Syncfusion’s component library, Syncfusion Code helps teams build robust, scalable applications by automating common tasks such as UI generation, bug fixing, and documentation.
 
 <img src="./gettingstarted-images/overview-gif.gif" alt="release notes" >
 
-## What can you do with Code Studio 
+## What can you do with Syncfusion Code 
 
 - **Generate code:** Drafts code snippets and scaffolding to reduce repetitive work.
 - **Implement features:** Turn ideas into complete, working solutions with AI‑assisted development. 
 - **Find and fix errors:** Detects common issues and proposes fixes to help you resolve problems quickly.
 - **Explain code:** Breaks down code line by line or function by function to improve understanding and maintainability.
 
-By combining these capabilities, Code Studio helps you write cleaner, more accurate code while staying focused and productive.
+By combining these capabilities, Syncfusion Code helps you write cleaner, more accurate code while staying focused and productive.
 
 ## Key Features
 
-Working with Code Studio will give you hands-on experience in the following areas: 
+Working with Syncfusion Code will give you hands-on experience in the following areas: 
 
 -  **Autocomplete Mode**: AI‑powered code suggestions as you type, based on your current project.  
 Learn more on the [Autocomplete](/code-studio/features/autocomplete) page.
@@ -84,6 +84,6 @@ Learn more on the [Quick Fix](/code-studio/how-to-guides/quick-fix-error) page.
 
 ## Get started
 
-Ready to try Code Studio?
+Ready to try Syncfusion Code?
 
-- Go to the [Quick Start](/code-studio/getting-started/quick-start) page to set up Code Studio and create your first code snippet with AI assistance.
+- Go to the [Quick Start](/code-studio/getting-started/quick-start) page to set up Syncfusion Code and create your first code snippet with AI assistance.

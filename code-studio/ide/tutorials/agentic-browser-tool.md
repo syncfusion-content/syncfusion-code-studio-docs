@@ -19,7 +19,7 @@ Acting as a bridge between your code and a live browser, the agent can automatic
 By the end of this tutorial, you will be able to:
 
 - Understand how Agentic Browser Tools work  
-- Enable and use browser tools in Code Studio  
+- Enable and use browser tools in Syncfusion Code  
 - Build a web application using an AI agent  
 - Automatically test your application using the integrated browser  
 - Identify and fix issues based on real-time browser feedback  
@@ -44,7 +44,7 @@ The agent can now use these tools to interact with, navigate, and perform action
 
 ### Step 2: Build a Calculator Using the Agent
 
-- Create and open a new project folder in Code Studio  
+- Create and open a new project folder in Syncfusion Code  
 - Open the **Chat view**  
 - Request the agent to build a calculator app  
 

@@ -1,12 +1,12 @@
 ---
-title: Enhancing Security Reviews and Code Quality with Automated Hooks in Code Studio
+title: Enhancing Security Reviews and Code Quality with Automated Hooks in Syncfusion Code
 description: Configure hooks in Syncfusion Code to block unsafe tool calls, protect env files, and enforce security rules during AI-assisted development.
 platform: syncfusion-code-studio
 keywords: hooks, security, code-quality, pre-tool-use, env-files, automation, agent-mode
 tocname: code-studio-ide-toc
 ---
 
-# Enhancing Security Reviews and Code Quality with Automated Hooks in Code Studio
+# Enhancing Security Reviews and Code Quality with Automated Hooks in Syncfusion Code
 
 ## Overview
 
@@ -32,7 +32,7 @@ In this tutorial, you'll configure a **Pre-Tool Use** hook that blocks any tool 
 
 By the end of this tutorial, you will be able to:
 
-- Enable and configure **Hooks** in Code Studio.
+- Enable and configure **Hooks** in Syncfusion Code.
 - Create a **Pre-Tool Use** hook that inspects tool requests before they run.
 - Block attempts to read `.env` (and other sensitive files) from AI tools.
 - Provide clear feedback to the user when a request is blocked.
@@ -42,16 +42,16 @@ By the end of this tutorial, you will be able to:
 ## Key Concepts
 
 **Hook**
-A small script that Code Studio calls at specific points in the agent workflow. Hooks let you intercept, inspect, and optionally block agent actions before they execute.
+A small script that Syncfusion Code calls at specific points in the agent workflow. Hooks let you intercept, inspect, and optionally block agent actions before they execute.
 
 **Pre-Tool Use event**
-A hook lifecycle event that fires *before* any tool call runs. Your script receives details about the upcoming call and returns a decision (allow or deny) before Code Studio proceeds.
+A hook lifecycle event that fires *before* any tool call runs. Your script receives details about the upcoming call and returns a decision (allow or deny) before Syncfusion Code proceeds.
 
 **permissionDecision**
-The field in your hook's JSON (JavaScript Object Notation) output that tells Code Studio whether to allow or deny a tool call. Supported values are `"allow"` and `"deny"`.
+The field in your hook's JSON (JavaScript Object Notation) output that tells Syncfusion Code whether to allow or deny a tool call. Supported values are `"allow"` and `"deny"`.
 
 **stdin / stdout**
-Standard input and standard output streams. Code Studio passes tool-call details to your hook script via stdin and reads your hook's decision from stdout.
+Standard input and standard output streams. Syncfusion Code passes tool-call details to your hook script via stdin and reads your hook's decision from stdout.
 
 ## Steps to Enhance Security with Hooks
 
@@ -173,13 +173,13 @@ Next, you will create a hook that runs **before** any tool is executed.
 
   <img src="./tutorials-images/enhance-security-with-hooks-pretooluse-event.png" alt="Pre-Tool Use event selected while creating a new hook" />
 
-4. Choose where to store the hook files. Select or enter the folder path `./.codestudio/hooks/` so Code Studio places hook scripts and configuration in the project-scoped hooks directory.
+4. Choose where to store the hook files. Select or enter the folder path `./.codestudio/hooks/` so Syncfusion Code places hook scripts and configuration in the project-scoped hooks directory.
 
 5. Enter a descriptive name for your hook, such as **BlockEnvFileAccess**.
 
   <img src="./tutorials-images/enhance-security-with-hooks-blockenvfileaccess-hook.png" alt="New hook named BlockEnvFileAccess shown in the Hooks list" />
 
-6. Code Studio scaffolds the necessary hook configuration, typically under a folder such as `.codestudio/hooks/`.
+6. Syncfusion Code scaffolds the necessary hook configuration, typically under a folder such as `.codestudio/hooks/`.
 
 
 > **Note:** The exact filename and folder may differ slightly depending on your configuration, but the file will be associated with the **Pre-Tool Use** event you selected.
@@ -188,7 +188,7 @@ Next, you will create a hook that runs **before** any tool is executed.
 
 Now wire the Pre-Tool Use event to your PowerShell script using the hooks configuration.
 
-1. Open your Code Studio hooks configuration file (for example, `.codestudio/hooks/BlockEnvFileAccess.json`).
+1. Open your Syncfusion Code hooks configuration file (for example, `.codestudio/hooks/BlockEnvFileAccess.json`).
 2. Under the `hooks` section, add or update a **Pre-Tool Use** entry similar to the following:
 
    ```json
@@ -209,7 +209,7 @@ Now wire the Pre-Tool Use event to your PowerShell script using the hooks config
 
 #### What This Configuration Does
 
-- `type: "command"` tells Code Studio to run a shell command when the **Pre-Tool Use** event fires.
+- `type: "command"` tells Syncfusion Code to run a shell command when the **Pre-Tool Use** event fires.
 - `command` runs your PowerShell script (`BlockEnvFileAccess.ps1`) with `ExecutionPolicy Bypass` so it can execute even if your system has a more restrictive default policy.
 - `timeout: 10` limits the hook to 10 seconds; increase this if your script needs more time.
 
@@ -217,9 +217,9 @@ Now wire the Pre-Tool Use event to your PowerShell script using the hooks config
 
 ### Step 4: Review the Hook Input and Output Format
 
-Review the JSON structures that Code Studio sends to and expects from your hook script before running a live test.
+Review the JSON structures that Syncfusion Code sends to and expects from your hook script before running a live test.
 
-When a tool is about to run (for example, a file read or search), Code Studio:
+When a tool is about to run (for example, a file read or search), Syncfusion Code:
 
 1. Collects details about the upcoming tool call, such as:
    - Tool name (for example, `read/readFile` or `search/fileSearch`).

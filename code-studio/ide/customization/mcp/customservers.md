@@ -12,9 +12,9 @@ tocname: code-studio-ide-toc
 
 ## Purpose
 
-[Model Context Protocol (MCP)](https://modelcontextprotocol.io/docs/getting-started/intro) is an open standard that enables AI models to interact with external tools and services through a unified interface. In Code Studio, MCP servers extend your workspace by integrating with external APIs.
+[Model Context Protocol (MCP)](https://modelcontextprotocol.io/docs/getting-started/intro) is an open standard that enables AI models to interact with external tools and services through a unified interface. In Syncfusion Code, MCP servers extend your workspace by integrating with external APIs.
 
-**Custom MCP Servers** let you add and manage MCP servers in Code Studio.
+**Custom MCP Servers** let you add and manage MCP servers in Syncfusion Code.
 
 You can add a custom MCP server using one of these connection types, based on how the server is hosted and delivered:
 
@@ -26,7 +26,7 @@ You can add a custom MCP server using one of these connection types, based on ho
 
 ## When to use
 
-Use a Custom MCP Server to integrate external tools or services into Code Studio. Choose this option whenever an MCP server exists for the tool or service you want to connect.
+Use a Custom MCP Server to integrate external tools or services into Syncfusion Code. Choose this option whenever an MCP server exists for the tool or service you want to connect.
 
 ## Prerequisites
 
@@ -123,11 +123,11 @@ Runs an MCP server via .NET packages.
 
 ## Step-by-Step Guide: Postman MCP Server with CodeStudio
 
-This example shows how to configure the Postman MCP Server (via an npm package) as a Custom MCP Server in Code Studio. Once connected, you can use the Code Studio chat agent to interact with Postman directly—automating API testing and validation tasks without leaving your workspace.
+This example shows how to configure the Postman MCP Server (via an npm package) as a Custom MCP Server in Syncfusion Code. Once connected, you can use the Syncfusion Code chat agent to interact with Postman directly—automating API testing and validation tasks without leaving your workspace.
 
 Follow the steps below to configure the Postman MCP Server in CodeStudio,
 
-**Step 1:** In Code Studio Extension, click the Settings icon and select MCP Servers 
+**Step 1:** In Syncfusion Code Extension, click the Settings icon and select MCP Servers 
 
 <img src="../reference-images/mcp-server-option-from-settings.png" alt="custom server" />
 
@@ -167,7 +167,7 @@ Step 4: Review the Terms and Conditions, then click Accept and proceed.
 
 <img src="../reference-images/mcp-postman-region-choosing.png" alt="custom server" />
 
-**Step 10:** Enter a Server ID. This is a label you choose in Code Studio to identify the custom server (not a Postman ID). 
+**Step 10:** Enter a Server ID. This is a label you choose in Syncfusion Code to identify the custom server (not a Postman ID). 
 
 <img src="../reference-images/mcp-server-id.png" alt="custom server" />
 
@@ -207,11 +207,11 @@ You can create your own collection and add API requests by following Postman’s
 
 ### Generate test scripts
 
-- In this section, you will use Code Studio and the Postman MCP Server to generate standardized test scripts for the **User Management API** collection.
+- In this section, you will use Syncfusion Code and the Postman MCP Server to generate standardized test scripts for the **User Management API** collection.
 
-- When you give the prompt, Code Studio generates test scripts for all API requests in the collection.
+- When you give the prompt, Syncfusion Code generates test scripts for all API requests in the collection.
 
-- Code Studio then applies the generated scripts in Postman under each API request’s **Test Scripts** tab.
+- Syncfusion Code then applies the generated scripts in Postman under each API request’s **Test Scripts** tab.
 
 **Sample prompt**
 
@@ -255,6 +255,6 @@ To remove a custom MCP server:
 
 1. Click Manage next to the MCP server.
 2. Select Uninstall.
-3. The server is removed from your device and Code Studio.
+3. The server is removed from your device and Syncfusion Code.
 
 <img src="../reference-images/uninstall-custom.png" alt="custom server" />
