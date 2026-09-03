@@ -10,7 +10,7 @@ tocname: code-studio-ide-toc
 
 # How to resolve Code Studio app corruption.
 
-When Syncfusion Code Studio becomes corrupted or stops functioning correctly, a full reset of the application may be required. This guide explains how to completely remove Code Studio's program files and configuration data so you can reinstall with a clean state.
+When Syncfusion Code becomes corrupted or stops functioning correctly, a full reset of the application may be required. This guide explains how to completely remove Code Studio's program files and configuration data so you can reinstall with a clean state.
 
 ## Problem Summary
 
@@ -34,33 +34,33 @@ You need to delete the main application folders to completely resolve the issue.
 
 #### Windows
 
-Delete the Syncfusion Code Studio folders at these locations:
+Delete the Syncfusion Code folders at these locations:
 
 **Program Files:**
 ```
-C:\Program Files\Syncfusion Code Studio
+C:\Program Files\Syncfusion Code
 ```
 <img src="./troubleshoot-images/cache-image-programfiles.png" alt="cache">
 
 **AppData Roaming:**
 ```
-C:\Users\YourName\AppData\Roaming\Syncfusion Code Studio
+C:\Users\YourName\AppData\Roaming\Syncfusion Code
 ```
 <img src="./troubleshoot-images/cache-image-roaming.png" alt="cache">
 
 #### macOS
 
-Delete the Syncfusion Code Studio folders at these locations:
+Delete the Syncfusion Code folders at these locations:
 
 **Applications:**
 ```
-/Applications/Syncfusion Code Studio
+/Applications/Syncfusion Code
 ```
 <img src="./troubleshoot-images/cache-image-macapplication.png" alt="cache">
 
 **Application Support:**
 ```
-/Users/YourName/Library/Application Support/Syncfusion Code Studio
+/Users/YourName/Library/Application Support/Syncfusion Code
 ```
 <img src="./troubleshoot-images/cache-image-macroaming.png" alt="cache">
 
@@ -71,7 +71,7 @@ Delete the Syncfusion Code Studio folders at these locations:
 Once you've completed above step:
 
 1. Restart your computer to ensure all files are properly released
-2. Reinstall Syncfusion Code Studio, refer to the [Syncfusion Code Studio Install and Configure](/code-studio/getting-started/install-and-configuration) 
+2. Reinstall Syncfusion Code, refer to the [Syncfusion Code Install and Configure](/code-studio/getting-started/install-and-configuration) 
 3. Launch the application - it will create fresh configuration files and cache
 
 

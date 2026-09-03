@@ -2,7 +2,7 @@
 title: How to access session history files in Code Studio
 description: Explains how to access and manage session history in Code Studio v2.0.0+, including the unified sessions list.
 platform: syncfusion-code-studio
-keywords: Syncfusion Code Studio, session history, workspace chats, show chats, sessions, troubleshoot
+keywords: Syncfusion Code, session history, workspace chats, show chats, sessions, troubleshoot
 tocname: code-studio-ide-toc
 ---
 

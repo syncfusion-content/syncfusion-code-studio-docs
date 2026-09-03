@@ -1,6 +1,6 @@
 ---
-title: Syncfusion Code Studio Checkpoints
-description: The Checkpoints feature in Syncfusion Code Studio allows you to automatically track, preview, and restore your workspace state at key moments.
+title: Syncfusion Code Checkpoints
+description: The Checkpoints feature in Syncfusion Code allows you to automatically track, preview, and restore your workspace state at key moments.
 platform: syncfusion-code-studio
 keywords: code, IDE, AI, developer-tools, syncfusion, code-assistance, productivity, checkpoints, versioning, history, workspace, file-recovery, diff, restore
 tocname: code-studio-ide-toc
@@ -11,7 +11,7 @@ tocname: code-studio-ide-toc
 
 ## Overview 
 
-The Checkpoints and Editing Requests features in Syncfusion Code Studio provide powerful tools for managing your development workflow. Checkpoints automatically record the state of your workspace at important moments, while Editing Requests allows you to revise previous chat instructions and revert the workspace to the state before those instructions were applied. Together, these features create a safe, traceable, and flexible environment that supports iterative development and experimentation. 
+The Checkpoints and Editing Requests features in Syncfusion Code provide powerful tools for managing your development workflow. Checkpoints automatically record the state of your workspace at important moments, while Editing Requests allows you to revise previous chat instructions and revert the workspace to the state before those instructions were applied. Together, these features create a safe, traceable, and flexible environment that supports iterative development and experimentation. 
 
  
 ## Use Cases 

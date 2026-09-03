@@ -1,5 +1,5 @@
 ---
-title: Syncfusion Code Studio User Settings Reference
+title: Syncfusion Code User Settings Reference
 description: "Professional guide for customizing development environment settings and optimizing workflow efficiency"
 classification: "User Guide - Configuration Documentation"
 platform: syncfusion-code-studio
@@ -190,7 +190,7 @@ The following settings are available on the User Settings page.
 ### Help & Support
 
 - **Documentation**  
-  Access the official Syncfusion Code Studio documentation for configuration guidance and usage instructions.
+  Access the official Syncfusion Code documentation for configuration guidance and usage instructions.
 
 - **Have an Issue?**  
   If you encounter any problems, you can easily reach out to our support team at [support.syncfusion.com](https://support.syncfusion.com).

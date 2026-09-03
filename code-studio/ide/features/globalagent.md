@@ -1,6 +1,6 @@
 ---
-title: Syncfusion Code Studio Global Agent
-description: Agent rule in Syncfusion Code Studio is a Markdown based file format designed to provide structured, project specific instructions for AI coding agents.
+title: Syncfusion Code Global Agent
+description: Agent rule in Syncfusion Code is a Markdown based file format designed to provide structured, project specific instructions for AI coding agents.
 platform: syncfusion-code-studio
 keywords: "code, IDE, AI, developer-tools, syncfusion, code-assistance, productivity, UI-generation, bug-fixing, documentation"
 tocname: code-studio-ide-toc

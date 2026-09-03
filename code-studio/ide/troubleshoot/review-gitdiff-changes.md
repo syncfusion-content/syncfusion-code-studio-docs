@@ -1,6 +1,6 @@
 ---
 title: Review Git Diff Changes
-description: Guide on reviewing Git diff changes in Syncfusion Code Studio.
+description: Guide on reviewing Git diff changes in Syncfusion Code.
 platform: syncfusion-code-studio
 keywords: git diff, review changes, code studio, version control, ai assistance, code modifications
 tocname: code-studio-ide-toc

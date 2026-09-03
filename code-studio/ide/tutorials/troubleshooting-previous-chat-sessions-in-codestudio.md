@@ -1,6 +1,6 @@
 ---
 title: Troubleshooting Previous Chat Sessions
-description: Learn how to identify, review, and resolve issues that occurred in earlier chat sessions within Syncfusion Code Studio. This tutorial guides you through accessing past conversations, diagnosing common problems, and applying corrective steps to ensure smooth continuity in your development workflow.
+description: Learn how to identify, review, and resolve issues that occurred in earlier chat sessions within Syncfusion Code. This tutorial guides you through accessing past conversations, diagnosing common problems, and applying corrective steps to ensure smooth continuity in your development workflow.
 platform: syncfusion-code-studio
 keywords:  chat sessions, troubleshooting, developer workflow, session management, AI assistance
 tocname: code-studio-ide-toc

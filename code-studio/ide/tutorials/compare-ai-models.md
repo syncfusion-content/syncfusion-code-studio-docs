@@ -1,6 +1,6 @@
 ---
 title: Compare AI models for different tasks
-description: Compare AI models in Syncfusion Code Studio and learn when to use Claude, Gemini, and GPT families for coding, debugging, refactoring, and fast iterations with examples.
+description: Compare AI models in Syncfusion Code and learn when to use Claude, Gemini, and GPT families for coding, debugging, refactoring, and fast iterations with examples.
 platform: syncfusion-code-studio
 keywords: "compare-ai-models, choose-model, claude-haiku-4.5, claude-sonnet-4.5, gemini-2.5-flash, gemini-2.5-pro, gemini-3-flash, gpt-4.1, gpt-5, gpt-5-mini, gpt-5.1-codex, gpt-5.2, code-generation, debugging, refactoring, reasoning, low-latency"
 tocname: code-studio-ide-toc

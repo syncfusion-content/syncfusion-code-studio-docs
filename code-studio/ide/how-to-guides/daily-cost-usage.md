@@ -1,6 +1,6 @@
 ---
 title: "Track Daily Cost and Token Usage"
-description: "How to view and filter daily costs and token usage in Syncfusion Code Studio"
+description: "How to view and filter daily costs and token usage in Syncfusion Code"
 classification: "User Guide - How To Documentation"
 platform: syncfusion-code-studio
 keywords: cost-usage, daily-cost, token-usage, budget, dashboard, analytics

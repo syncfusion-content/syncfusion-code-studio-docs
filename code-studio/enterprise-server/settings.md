@@ -1,6 +1,6 @@
 ---
 title: Code Studio Enterprise Settings
-description: Manage profile, organization, credits, billing, and subscriptions in Syncfusion Code Studio Enterprise.
+description: Manage profile, organization, credits, billing, and subscriptions in Syncfusion Code Enterprise.
 platform: syncfusion-code-studio
 keywords: settings, profile, organization, credits, billing, subscription, plans,payments, enterprise, syncfusion, code-studio
 tocname: code-studio-enterprise-server-toc

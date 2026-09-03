@@ -2,7 +2,7 @@
 title: How to Migrate Agent Files from v1.x.x to v2.0.0+
 Description: Explains how to migrate Agent files from Code Studio v1.x.x to v2.0.0 and later versions by renaming the Agent file to agents.md and enabling the required Agents settings.
 platform: syncfusion-code-studio
-keywords: Syncfusion Code Studio, agent rules, Agent MD, agents.md, troubleshoot
+keywords: Syncfusion Code, agent rules, Agent MD, agents.md, troubleshoot
 tocname: code-studio-ide-toc
 ---
 

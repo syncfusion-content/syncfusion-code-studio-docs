@@ -1,6 +1,6 @@
 ---
 title: Fixing Documentation Gaps How AI Generates Accurate Developer Documentation Instantly
-description: Learn how to use a custom Codebase Documenter agent in Syncfusion Code Studio to generate clear, beginner-friendly documentation for any codebase.
+description: Learn how to use a custom Codebase Documenter agent in Syncfusion Code to generate clear, beginner-friendly documentation for any codebase.
 platform: syncfusion-code-studio
 keywords: documentation, custom-agent, codebase-docs, ai-documentation, code-studio, knowledge-sharing
 tocname: code-studio-ide-toc
@@ -10,7 +10,7 @@ tocname: code-studio-ide-toc
 
 ## Overview
 
-Many teams have at least one project that nobody wants to touch because **the code is complex and the documentation is out of date—or missing entirely**. This tutorial shows you how to use a **Codebase Documenter** custom agent in Syncfusion Code Studio to turn that kind of codebase into clear, beginner-friendly documentation.
+Many teams have at least one project that nobody wants to touch because **the code is complex and the documentation is out of date—or missing entirely**. This tutorial shows you how to use a **Codebase Documenter** custom agent in Syncfusion Code to turn that kind of codebase into clear, beginner-friendly documentation.
 
 Instead of manually writing long README files and architecture notes, you will:
 

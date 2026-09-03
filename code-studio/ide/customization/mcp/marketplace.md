@@ -1,6 +1,6 @@
 ---
 title: MCP Marketplace
-description: "Guide for discovering, installing, and managing MCP servers in Syncfusion Code Studio via the marketplace interface."
+description: "Guide for discovering, installing, and managing MCP servers in Syncfusion Code via the marketplace interface."
 control: IDE
 documentation: Getting Started
 platform: syncfusion-code-studio
@@ -21,13 +21,13 @@ MCP servers are essential in the following scenarios:
 
 ## Prerequisites 
 Before installing MCP servers from the marketplace, ensure that:
-- You are using the latest version of Syncfusion Code Studio
+- You are using the latest version of Syncfusion Code
 - You have any required authentication credentials ready (Personal Access Tokens, API keys, or other tokens as needed by specific servers)
 - Node.js and npm are installed on your system, as certain MCP servers depend on npm packages for functionality
 - Help Link for installing Node.js and npm : [Install Node.js](https://nodejs.org/en/download)
 
 ## Steps to Install an MCP Server from Marketplace
-- Click the **Syncfusion Code Studio** icon on the top right side  to open the Syncfusion Code Studio chat window.
+- Click the **Syncfusion Code** icon on the top right side  to open the Syncfusion Code chat window.
 
   <img src="../reference-images/marketplace1.png" alt="marketplace" >
 

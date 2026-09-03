@@ -1,6 +1,6 @@
 ---
 title: Skills in Code Studio
-description: Skills in Syncfusion Code Studio enhance your development experience by providing intelligent assistance and automation.
+description: Skills in Syncfusion Code enhance your development experience by providing intelligent assistance and automation.
 platform: syncfusion-code-studio
 control: IDE
 documentation: Customization

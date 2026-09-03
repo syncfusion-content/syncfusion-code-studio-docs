@@ -1,16 +1,16 @@
 ---
-title: Using OpenSpec Inside Syncfusion Code Studio Complete Guide
-description: Learn how to use OpenSpec inside Syncfusion Code Studio to propose, plan, build, and archive AI-powered code changes safely and predictably.
+title: Using OpenSpec Inside Syncfusion Code Complete Guide
+description: Learn how to use OpenSpec inside Syncfusion Code to propose, plan, build, and archive AI-powered code changes safely and predictably.
 platform: syncfusion-code-studio
 keywords: openspec, slash-commands, propose, apply, archive, explore
 tocname: code-studio-ide-toc
 ---
 
-# Using OpenSpec Inside Syncfusion Code Studio: A Complete Guide
+# Using OpenSpec Inside Syncfusion Code: A Complete Guide
 
 ## Overview 
 
-This tutorial will guide you through using **OpenSpec** inside **Syncfusion Code Studio** to create, plan, and execute AI (Artificial Intelligence)-assisted changes in a safe, structured, and predictable way. 
+This tutorial will guide you through using **OpenSpec** inside **Syncfusion Code** to create, plan, and execute AI (Artificial Intelligence)-assisted changes in a safe, structured, and predictable way. 
 
 [**OpenSpec**](https://github.com/Fission-AI/OpenSpec?tab=readme-ov-file) is a structured workflow tool that helps you work with AI to build software more predictably. Think of it as a project manager for AI coding. It helps you avoid common AI coding problems like **hallucinations, lost context, and unstructured changes**. Instead of letting AI make random edits, you'll learn a workflow that plans everything first, implements changes step-by-step, and organizes all work in markdown files you can review and track.
 
@@ -70,7 +70,7 @@ npm install -g @fission-ai/openspec@latest
 ```bash
 openspec init
 ```
-3. The initialization wizard will ask you to choose an AI extension. Since Syncfusion Code Studio includes GitHub Copilot integration, select the **GitHub Copilot** option:
+3. The initialization wizard will ask you to choose an AI extension. Since Syncfusion Code includes GitHub Copilot integration, select the **GitHub Copilot** option:
 
 <img src="./tutorials-images/Extension-Option.png" alt="Select GitHub Copilot as your AI extension during OpenSpec initialization" />
 

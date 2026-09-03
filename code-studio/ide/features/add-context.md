@@ -1,8 +1,8 @@
 ---
-title: Adding More Context Providers in Syncfusion Code Studio
-description: Learn how to add more context providers to enhance AI understanding of your project in Syncfusion Code Studio by editing the config.yaml file.
+title: Adding More Context Providers in Syncfusion Code
+description: Learn how to add more context providers to enhance AI understanding of your project in Syncfusion Code by editing the config.yaml file.
 platform: syncfusion-code-studio
-keywords: syncfusion, syncfusion Code Studio, context providers, add context, config.yaml, ai, developer-tools, productivity
+keywords: syncfusion, Syncfusion Code, context providers, add context, config.yaml, ai, developer-tools, productivity
 tocname: code-studio-ide-toc
 ---
 
@@ -179,5 +179,5 @@ Selecting one routes your request to that domain expert.
 
 
 ## Releted Features
- - [Inline Chat](/code-studio/features/inlinechat) Inline Chat in Syncfusion Code Studio lets you talk to AI directly inside your code or terminal without switching screens.
+ - [Inline Chat](/code-studio/features/inlinechat) Inline Chat in Syncfusion Code lets you talk to AI directly inside your code or terminal without switching screens.
  - [Generate Code](/code-studio/features/generatecode) The Generate Code feature speeds up development by automatically handling repetitive tasks and giving instant AI-powered help right inside your editor.

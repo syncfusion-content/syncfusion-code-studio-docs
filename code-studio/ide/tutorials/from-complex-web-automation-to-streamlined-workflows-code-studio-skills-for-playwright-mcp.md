@@ -1,6 +1,6 @@
 ---
 title: From Complex Web Automation to Streamlined Workflows Code Studio Skills for Playwright MCP
-description: Learn how to use Playwright MCP with Agent mode in Syncfusion Code Studio to generate, execute, and manage web automation tests with AI assistance.
+description: Learn how to use Playwright MCP with Agent mode in Syncfusion Code to generate, execute, and manage web automation tests with AI assistance.
 platform: syncfusion-code-studio
 keywords: playwright-mcp, agent-mode, web-automation, ai-testing, mcp-server
 tocname: code-studio-ide-toc

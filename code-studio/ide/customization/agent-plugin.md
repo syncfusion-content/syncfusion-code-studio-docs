@@ -2,7 +2,7 @@
 title: Autopilot and Agent Permissions
 description: Learn how to configure and control agent autonomy in code studio using the new Autopilot and permissions picker. This tutorial walks you through enabling Autopilot with chat.autopilot.enabled, choosing between Default Approvals, Bypass Approvals, or Autopilot (Preview), and understanding the security implications of each mode
 platform: syncfusion-code-studio
-keywords: syncfusion, syncfusion Code Studio,Autopilot, agent permissions, bypass approvals, agent-scoped hooks, agent debugging 
+keywords: syncfusion, Syncfusion Code,Autopilot, agent permissions, bypass approvals, agent-scoped hooks, agent debugging 
 tocname: code-studio-ide-toc
 ---
 # Agent Plugins 

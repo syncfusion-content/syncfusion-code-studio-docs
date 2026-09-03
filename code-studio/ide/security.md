@@ -1,6 +1,6 @@
 ---
-title: Security in Syncfusion Code Studio
-description: Learn about the key security considerations, risks, protections, and best practices when working with AI-assisted development in Syncfusion Code Studio.
+title: Security in Syncfusion Code
+description: Learn about the key security considerations, risks, protections, and best practices when working with AI-assisted development in Syncfusion Code.
 platform: syncfusion-code-studio
 keywords: security, code-studio-security, ai-security, mcp-security, auto-approval-risks, supply-chain-risks, prompt-injection, workspace-trust, permission-management, secure-development
 tocname: code-studio-ide-toc

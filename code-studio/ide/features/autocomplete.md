@@ -1,6 +1,6 @@
 ---
-title: Syncfusion Code Studio Autocomplete mode
-description: Autocomplete mode in Syncfusion Code Studio offers real-time, inline code suggestions as you type.
+title: Syncfusion Code Autocomplete mode
+description: Autocomplete mode in Syncfusion Code offers real-time, inline code suggestions as you type.
 platform: syncfusion-code-studio
 keywords: code, IDE, AI, developer-tools, syncfusion, code-assistance, productivity, UI-generation, bug-fixing, documentation
 tocname: code-studio-ide-toc
@@ -9,7 +9,7 @@ tocname: code-studio-ide-toc
 # Autocomplete
 
 ## Overview
-Syncfusion Code Studio provides an AI‑powered Autocomplete system designed to accelerate coding by offering intelligent inline suggestions and completing code based on context. The feature supports multiple programming languages and frameworks, helping developers write faster, cleaner, and more consistent code.
+Syncfusion Code provides an AI‑powered Autocomplete system designed to accelerate coding by offering intelligent inline suggestions and completing code based on context. The feature supports multiple programming languages and frameworks, helping developers write faster, cleaner, and more consistent code.
 Key capabilities include:
 
 - Inline code suggestions (ghost text)
@@ -79,7 +79,7 @@ Code Studio may automatically generate the corresponding class with:
 <img src="./feature-images/Gif/autocomplete4.gif" alt="Autocomplete"  />
 
 ## Next Edit Suggestion
-- Next Edit Suggestions in Syncfusion Code Studio help you move quickly through related edits by predicting where your next change should occur and suggesting what that change might be.
+- Next Edit Suggestions in Syncfusion Code help you move quickly through related edits by predicting where your next change should occur and suggesting what that change might be.
 
 - This feature keeps you in the flow of editing—especially when making sequential updates, correcting mistakes, or refactoring code across multiple lines.
 
@@ -155,7 +155,7 @@ Code Studio identifies when a variable has been renamed and suggests updating al
 - **Validate propagated changes:** Next Edit Suggestions may update related code across the file or project. Review these changes to ensure they match your design intent.
 
 ## Releted Features
- - [Inline Chat](/code-studio/features/inlinechat) Inline Chat in Syncfusion Code Studio lets you talk to AI directly inside your code or terminal without switching screens.
+ - [Inline Chat](/code-studio/features/inlinechat) Inline Chat in Syncfusion Code lets you talk to AI directly inside your code or terminal without switching screens.
  - [Generate Code](/code-studio/features/generatecode) The Generate Code feature speeds up development by automatically handling repetitive tasks and giving instant AI-powered help right inside your editor.
 
 

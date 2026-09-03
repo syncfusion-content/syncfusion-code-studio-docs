@@ -1,12 +1,12 @@
 ---
-title: Fixing Bugs in Seconds Smart Error Resolution with Syncfusion Code Studio AI
-description: Learn how Syncfusion Code Studio AI instantly identifies and resolves errors, helping developers fix bugs in seconds with AI-powered quick fixes and smart debugging.
+title: Fixing Bugs in Seconds Smart Error Resolution with Syncfusion Code AI
+description: Learn how Syncfusion Code AI instantly identifies and resolves errors, helping developers fix bugs in seconds with AI-powered quick fixes and smart debugging.
 platform: syncfusion-code-studio
 keywords: bug-fixing, error-resolution, quick-fix, problems-panel, context, agent-mode, attachment
 tocname: code-studio-ide-toc
 ---
 
-# Fixing Bugs in Seconds: Smart Error Resolution with Syncfusion Code Studio AI
+# Fixing Bugs in Seconds: Smart Error Resolution with Syncfusion Code AI
 
 ## Overview
 

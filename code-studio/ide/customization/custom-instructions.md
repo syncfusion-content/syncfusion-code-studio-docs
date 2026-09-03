@@ -1,6 +1,6 @@
 ---
 title: Custom Instruction
-description: Details about configuring rules that define the behavior and constraints for language models in Syncfusion Code Studio IDE.
+description: Details about configuring rules that define the behavior and constraints for language models in Syncfusion Code IDE.
 platform: syncfusion-code-studio
 control: IDE
 documentation: Getting Started
@@ -12,7 +12,7 @@ tocname: code-studio-ide-toc
  
 ## Purpose
 
-Custom Instructions allow you to define guidelines and rules that automatically influence how the AI generates code and handles development tasks in Syncfusion Code Studio.
+Custom Instructions allow you to define guidelines and rules that automatically influence how the AI generates code and handles development tasks in Syncfusion Code.
 
 They serve the following key purposes:
 

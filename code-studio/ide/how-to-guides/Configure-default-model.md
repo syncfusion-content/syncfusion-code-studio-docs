@@ -20,7 +20,7 @@ Setting a default model ensures that your preferred model appears as the pre-sel
 
 Before starting, ensure:
 
-* Syncfusion Code Studio is installed and configured on your system. If you have not yet downloaded Code Studio, refer to the [Syncfusion Code Studio Install and Configure](https://help.syncfusion.com/code-studio/getting-started/install-and-configuration)
+* Syncfusion Code is installed and configured on your system. If you have not yet downloaded Code Studio, refer to the [Syncfusion Code Install and Configure](https://help.syncfusion.com/code-studio/getting-started/install-and-configuration)
 * You have a valid API key from the chat model provider you want to use (e.g., [OpenAI](https://platform.openai.com/api-keys), [Anthropic](https://console.anthropic.com/dashboard), [OpenRouter](https://openrouter.ai/settings/keys)).
 
 ## Steps for Configure Default Models
@@ -35,7 +35,7 @@ Before starting, ensure:
 
 * Go to the [Models](https://app.sfcodestudio.com/models) section and click Manage Default Settings.
 
- >**Note**: If you have not configured your model, please refer to [Configure LLM Providers and Models in Syncfusion Code Studio]( https://help.syncfusion.com/code-studio/enterprise-server/providersandmodels ) for guidance on adding models.
+ >**Note**: If you have not configured your model, please refer to [Configure LLM Providers and Models in Syncfusion Code]( https://help.syncfusion.com/code-studio/enterprise-server/providersandmodels ) for guidance on adding models.
     
     <img src="./howtoguide-images/dashboard-models.png" alt="models-section">
 

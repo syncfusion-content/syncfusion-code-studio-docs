@@ -1,5 +1,5 @@
 ---
-title: Syncfusion Code Studio Custom Prompts
+title: Syncfusion Code Custom Prompts
 description: "Guide for creating and using AI-driven prompt templates to standardize development workflows"
 platform: syncfusion-code-studio
 keywords: custom-prompts, ai-assistance, templates, workflows, best-practices
@@ -10,7 +10,7 @@ tocname: code-studio-ide-toc
 # Custom Prompt Files
 
 ## Purpose
-Prompt Files in Syncfusion Code Studio are reusable AI instructions you can save and run anytime. They act like templates for common tasks such as generating code, reviewing code, or documentation.
+Prompt Files in Syncfusion Code are reusable AI instructions you can save and run anytime. They act like templates for common tasks such as generating code, reviewing code, or documentation.
 
 Why they matter: Instead of typing the same request again and again, you save it once as a Prompt File.
 

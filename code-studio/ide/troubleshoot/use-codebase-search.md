@@ -1,6 +1,6 @@
 ---
 title: Codebase Search
-description: Guide on using Codebase Search in Syncfusion Code Studio.
+description: Guide on using Codebase Search in Syncfusion Code.
 platform: syncfusion-code-studio
 keywords: codebase search, search codebase, code exploration, project navigation, ai assistance, code understanding
 tocname: code-studio-ide-toc

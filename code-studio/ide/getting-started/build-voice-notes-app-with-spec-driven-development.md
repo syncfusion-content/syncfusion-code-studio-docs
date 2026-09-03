@@ -1,6 +1,6 @@
 ---
 title: Build Your First App Using Spec-Driven Development
-description: "Learn how to build a Voice Notes web app using Spec-Driven Development (SDD) approach with Syncfusion Code Studio"
+description: "Learn how to build a Voice Notes web app using Spec-Driven Development (SDD) approach with Syncfusion Code"
 classification: "User Guide - Tutorial"
 platform: syncfusion-code-studio
 keywords: spec-driven-development, ai-development, voice-notes-app, openspec, code-generation, agent-mode
@@ -11,7 +11,7 @@ tocname: code-studio-ide-toc
 
 ## Overview
 
-Ready to build your first app? In this guide, you'll create a **Voice Notes web app** directly in **Syncfusion Code Studio** using a simple, step-by-step approach. Code Studio guides you through planning, building, and organizing your project using clear commands that make the whole process stress-free.
+Ready to build your first app? In this guide, you'll create a **Voice Notes web app** directly in **Syncfusion Code** using a simple, step-by-step approach. Code Studio guides you through planning, building, and organizing your project using clear commands that make the whole process stress-free.
 
 You'll move from idea to working application by following **Spec-Driven Development (SDD)** — a beginner-friendly approach where you describe what you want to build, and Code Studio generates the code for you. No complex setup. No guesswork. Just clear instructions and working code.
 
@@ -21,7 +21,7 @@ You'll move from idea to working application by following **Spec-Driven Developm
 
 Before getting started, make sure that:
 
-1. **Syncfusion Code Studio is installed**  
+1. **Syncfusion Code is installed**  
    If it’s not installed, refer to the [installation guide](/code-studio/getting-started/install-and-configuration) to set it up properly.
 
 2.	Node.js >= 20.19.0 is installed.

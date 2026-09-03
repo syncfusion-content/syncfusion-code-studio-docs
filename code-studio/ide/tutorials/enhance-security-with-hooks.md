@@ -1,6 +1,6 @@
 ---
 title: Enhancing Security Reviews and Code Quality with Automated Hooks in Code Studio
-description: Configure hooks in Syncfusion Code Studio to block unsafe tool calls, protect env files, and enforce security rules during AI-assisted development.
+description: Configure hooks in Syncfusion Code to block unsafe tool calls, protect env files, and enforce security rules during AI-assisted development.
 platform: syncfusion-code-studio
 keywords: hooks, security, code-quality, pre-tool-use, env-files, automation, agent-mode
 tocname: code-studio-ide-toc
@@ -10,7 +10,7 @@ tocname: code-studio-ide-toc
 
 ## Overview
 
-AI agents in Syncfusion Code Studio can read files, run tools, and generate code on your behalf. Without guardrails, an agent might accidentally:
+AI agents in Syncfusion Code can read files, run tools, and generate code on your behalf. Without guardrails, an agent might accidentally:
 
 - Read sensitive files such as `.env` or credential files.
 - Run risky shell commands.

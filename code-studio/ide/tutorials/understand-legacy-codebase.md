@@ -1,6 +1,6 @@
 ---
 title: Understanding Legacy Code Faster - Analyze Any Codebase with AI
-description: Learn how to quickly understand unfamiliar legacy codebases, identify performance and quality issues, and plan safe refactoring strategies using Syncfusion Code Studio's AI-powered analysis.
+description: Learn how to quickly understand unfamiliar legacy codebases, identify performance and quality issues, and plan safe refactoring strategies using Syncfusion Code's AI-powered analysis.
 platform: syncfusion-code-studio
 keywords: legacy-code, codebase-analysis, code-understanding, refactoring, performance-optimization, code-audit
 tocname: code-studio-ide-toc
@@ -14,7 +14,7 @@ You just joined a new team—or took over a critical project. You're staring at 
 
 **The real problem:** When developers can't quickly grasp what code does, every change becomes risky. New hires take weeks to get productive. Refactoring feels impossible. And the codebase keeps getting messier because no one wants to touch code they don't fully understand.
 
-With Syncfusion Code Studio, you can understand any module in few minutes by asking intelligent questions and getting comprehensive answers about your entire codebase.
+With Syncfusion Code, you can understand any module in few minutes by asking intelligent questions and getting comprehensive answers about your entire codebase.
 
 In this tutorial, you'll discover four powerful approaches:
 

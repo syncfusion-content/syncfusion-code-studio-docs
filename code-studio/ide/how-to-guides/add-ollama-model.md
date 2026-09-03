@@ -1,6 +1,6 @@
 ---
 title: How to Configure Ollama Models in Code Studio
-description: Instructions to configure ollama models within Syncfusion Code Studio. Use this feature to connect your preferred ollama model.
+description: Instructions to configure ollama models within Syncfusion Code. Use this feature to connect your preferred ollama model.
 platform: syncfusion-code-studio
 control: IDE
 documentation: Getting Started

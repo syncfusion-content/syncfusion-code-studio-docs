@@ -1,6 +1,6 @@
 ---
 title: Hooks
-description: Reference documentation for configuring hooks in Syncfusion Code Studio to run custom shell commands at agent lifecycle events.
+description: Reference documentation for configuring hooks in Syncfusion Code to run custom shell commands at agent lifecycle events.
 platform: syncfusion-code-studio
 control: IDE
 documentation: Getting Started
@@ -12,7 +12,7 @@ tocname: code-studio-ide-toc
 
 ## Overview
 
-Hooks let you run custom shell commands at specific lifecycle points during an agent session in Syncfusion Code Studio. Use hooks to automate repetitive tasks, enforce security policies, validate tool usage, and integrate external systems into AI-assisted workflows.
+Hooks let you run custom shell commands at specific lifecycle points during an agent session in Syncfusion Code. Use hooks to automate repetitive tasks, enforce security policies, validate tool usage, and integrate external systems into AI-assisted workflows.
 
 Unlike instructions or prompts, hooks execute deterministically. They run at defined events, receive structured JSON input, and can return JSON output that influences how the session continues.
 
@@ -32,7 +32,7 @@ Hooks are useful when you need to:
 
 Before you configure hooks, make sure that:
 
-1. Syncfusion Code Studio with a workspace is open and you have write access to the workspace.
+1. Syncfusion Code with a workspace is open and you have write access to the workspace.
 2. Agent mode and tool usage are available in your environment.
 3. Familiar with the shell used on your operating system:
 	 - Windows: PowerShell (`.ps1`)

@@ -1,6 +1,6 @@
 ---
 title: Chronicle - Coding History and Productivity Insights in Code Studio
-description: Discover how Chronicle in Syncfusion Code Studio tracks your coding history, provides standup summaries, and delivers personalized productivity tips to enhance your workflow.
+description: Discover how Chronicle in Syncfusion Code tracks your coding history, provides standup summaries, and delivers personalized productivity tips to enhance your workflow.
 platform: syncfusion-code-studio
 keywords: chronicle, coding-history, productivity-tips, standup-report, workflow-analysis, code-studio
 tocname: code-studio-ide-toc
@@ -11,7 +11,7 @@ tocname: code-studio-ide-toc
 
 ## Overview
 
-Chronicle is a feature in Syncfusion Code Studio that keeps a detailed history of everything you do in your workspace. It records your changes, actions, and the context around your coding so you can review, retrace steps, or share exactly what happened. Chronicle makes your coding journey visible and easy to review, helping you learn, debug, and collaborate better.
+Chronicle is a feature in Syncfusion Code that keeps a detailed history of everything you do in your workspace. It records your changes, actions, and the context around your coding so you can review, retrace steps, or share exactly what happened. Chronicle makes your coding journey visible and easy to review, helping you learn, debug, and collaborate better.
 
 ## Use Cases
 

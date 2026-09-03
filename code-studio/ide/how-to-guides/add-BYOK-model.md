@@ -1,5 +1,5 @@
 ---
-title: Add BYOK Model in Syncfusion Code Studio
+title: Add BYOK Model in Syncfusion Code
 description: Admin guide to add BYOK (Bring Your Own Key) models and connect providers in Code Studio.
 platform: syncfusion-code-studio
 keywords: byok, add model, providers, configuration, admin, enterprise, syncfusion, code-studio, api keys, openai, anthropic,openrouter

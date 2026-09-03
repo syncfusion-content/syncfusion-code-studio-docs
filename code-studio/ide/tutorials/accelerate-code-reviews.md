@@ -1,6 +1,6 @@
 ---
 title: Accelerating Code Reviews - Instant AI-Driven Insights with Code Studio
-description: Learn how to get instant, intelligent code reviews in Syncfusion Code Studio using Git diffs, custom review agents, and inline suggestions to catch bugs before they ship.
+description: Learn how to get instant, intelligent code reviews in Syncfusion Code using Git diffs, custom review agents, and inline suggestions to catch bugs before they ship.
 platform: syncfusion-code-studio
 keywords: code-review, ai-review, custom-agents, git-diff, code-quality, bug-detection
 tocname: code-studio-ide-toc

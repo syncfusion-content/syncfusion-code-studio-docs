@@ -1,6 +1,6 @@
 ---
 title: Project Manager Extension
-description: Project Manager in Syncfusion Code Studio is a structured SDLC workflow panel that guides AI-assisted development from project setup to shipping, with built-in quality gates, skill-driven execution, and full task history.
+description: Project Manager in Syncfusion Code is a structured SDLC workflow panel that guides AI-assisted development from project setup to shipping, with built-in quality gates, skill-driven execution, and full task history.
 platform: syncfusion-code-studio
 keywords: "code, IDE, AI, developer-tools, syncfusion, project-manager, SDLC, workflow, knowledge, plugins, history, settings"
 tocname: code-studio-ide-toc
@@ -10,7 +10,7 @@ tocname: code-studio-ide-toc
 
 ## Overview
 
-Project Manager is a built-in extension in Syncfusion Code Studio that helps you build software in a structured, step-by-step way with AI assistance. Instead of asking the agent to do everything at once, it breaks your work into clear stages such as defining requirements, planning tasks, writing code, and reviewing results, so nothing gets missed.
+Project Manager is a built-in extension in Syncfusion Code that helps you build software in a structured, step-by-step way with AI assistance. Instead of asking the agent to do everything at once, it breaks your work into clear stages such as defining requirements, planning tasks, writing code, and reviewing results, so nothing gets missed.
 
 You describe what you want to build, and Project Manager figures out how much process is needed based on the type and complexity of your task. Simple fixes get a lightweight flow. Bigger or riskier changes get more review steps.
 

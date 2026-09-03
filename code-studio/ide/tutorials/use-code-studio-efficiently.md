@@ -8,7 +8,7 @@ tocname: code-studio-ide-toc
 
 # Using Code Studio Efficiently: Budget Management and Cost-Saving Best Practices
 
-You've started using Syncfusion Code Studio and love how it speeds up your work. But then you check your credit balance and realize you're burning through them faster than expected. Every vague question costs credits. Every trial-and-error conversation adds up. And you're wondering: how can I get better results while using fewer credits?
+You've started using Syncfusion Code and love how it speeds up your work. But then you check your credit balance and realize you're burning through them faster than expected. Every vague question costs credits. Every trial-and-error conversation adds up. And you're wondering: how can I get better results while using fewer credits?
 
 **The real problem:** Most developers don't realize that HOW you ask Code Studio matters more than WHETHER you ask it. A vague prompt takes 3 back-and-forth messages and uses 3x the credits. A well-written prompt gets it right the first time. It's not about using Code Studio less—it's about using it smarter.
 

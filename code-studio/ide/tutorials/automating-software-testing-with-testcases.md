@@ -41,7 +41,7 @@ Create a Custom Agent named Software Testing Agent in CodeStudio to automate tes
 
 > **Note**: Selecting the User Data option will create the Custom Agent, and the agent file will be saved inside this location and made available as a custom agent in the Modes dropdown.
 >
-> `C:\Users\Your_UserName\AppData\Roaming\Syncfusion Code Studio\User\prompts`
+> `C:\Users\Your_UserName\AppData\Roaming\Syncfusion Code\User\prompts`
 
 **Step 4:** Give the name for your Custom Agent. We are naming the custom agent as **test-generator** and click Enter.
 

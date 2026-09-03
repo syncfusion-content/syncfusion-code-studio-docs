@@ -1,5 +1,5 @@
 ---
-title: "Syncfusion Code Studio Quick Start"
+title: "Syncfusion Code Quick Start"
 description: "Professional developer guide for AI-driven error resolution and debugging assistance in real-time development workflows"
 classification: "User Guide - Feature Documentation"
 platform: syncfusion-code-studio
@@ -9,13 +9,13 @@ tocname: code-studio-ide-toc
 
 # Quick Start 
 
-**Syncfusion Code Studio** is an intelligent, AI‑powered coding companion designed to make your development process faster and easier. Instead of writing every line manually or searching for solutions, Code Studio works alongside you—understanding your intent, offering meaningful suggestions, and helping you learn as you build.
+**Syncfusion Code** is an intelligent, AI‑powered coding companion designed to make your development process faster and easier. Instead of writing every line manually or searching for solutions, Code Studio works alongside you—understanding your intent, offering meaningful suggestions, and helping you learn as you build.
 
 ## Prerequisites
 
 Before getting started, make sure that:
 
-1. **Syncfusion Code Studio is installed**  
+1. **Syncfusion Code is installed**  
    If it’s not installed, refer to the [installation guide](/code-studio/getting-started/install-and-configuration) to set it up properly.
 
 2. **A local project folder is ready**  
@@ -38,8 +38,8 @@ By the end of this quick start guide, you’ll learn how to:
 Follow the steps below to open your project and start working inside the Code Studio environment.
 
 1. **Open the application based on your OS**
-   - **Windows:**  Go to the **Start Menu**, search for **Syncfusion Code Studio**, and launch it.
-   - **macOS:** Open **Applications** or **Launchpad**, find **Syncfusion Code Studio**, and open it.
+   - **Windows:**  Go to the **Start Menu**, search for **Syncfusion Code**, and launch it.
+   - **macOS:** Open **Applications** or **Launchpad**, find **Syncfusion Code**, and open it.
 
 2. **Access the File Menu** - At the top menu bar, click **"File"**.
 

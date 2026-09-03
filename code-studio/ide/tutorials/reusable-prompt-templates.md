@@ -1,6 +1,6 @@
 ---
 title: From Repetition to Speed - Boost Productivity with Reusable Prompt Templates
-description: Learn how to create and use custom prompt templates in Syncfusion Code Studio to save time, standardize workflows, and build a personal library of reusable AI instructions.
+description: Learn how to create and use custom prompt templates in Syncfusion Code to save time, standardize workflows, and build a personal library of reusable AI instructions.
 platform: syncfusion-code-studio
 keywords: custom-prompts, reusable-templates, productivity, workflow-automation, ai-assistance, prompt-libraries
 tocname: code-studio-ide-toc

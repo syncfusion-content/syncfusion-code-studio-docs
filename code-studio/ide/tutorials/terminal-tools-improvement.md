@@ -1,6 +1,6 @@
 ---
 title: Terminal Tools Improvements - Seamless Background Terminal Management in Code Studio
-description: Learn how Syncfusion Code Studio now enables interactive background terminal sessions, instant notifications, and automated workflows for uninterrupted development.
+description: Learn how Syncfusion Code now enables interactive background terminal sessions, instant notifications, and automated workflows for uninterrupted development.
 platform: syncfusion-code-studio
 keywords: terminal-tools, background-terminal, notifications, automation, agent, code-studio
 tocname: code-studio-ide-toc

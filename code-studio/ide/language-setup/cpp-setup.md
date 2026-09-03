@@ -1,22 +1,22 @@
 ---
-title: "C++ Development Setup in Syncfusion Code Studio"
-description: "Complete guide to set up C++ development environment with compiler installation, configuration, and AI-assisted coding in Syncfusion Code Studio"
+title: "C++ Development Setup in Syncfusion Code"
+description: "Complete guide to set up C++ development environment with compiler installation, configuration, and AI-assisted coding in Syncfusion Code"
 classification: "User Guide - Getting Started"
 platform: syncfusion-code-studio
 keywords: cpp-setup, c-plus-plus, compiler-installation, mingw, xcode, visual-studio, ai-debugging, cpp-development
 tocname: code-studio-ide-toc
 ---
 
-# C++ Development Setup in Syncfusion Code Studio
+# C++ Development Setup in Syncfusion Code
 
 ## Overview
 
-Syncfusion Code Studio provides intelligent AI-powered assistance for C++ development, helping you write, debug, and optimize C++ code faster. Whether you're building system applications, game engines, or performance-critical software, Code Studio's AI features work alongside your C++ compiler to enhance your productivity.
+Syncfusion Code provides intelligent AI-powered assistance for C++ development, helping you write, debug, and optimize C++ code faster. Whether you're building system applications, game engines, or performance-critical software, Code Studio's AI features work alongside your C++ compiler to enhance your productivity.
 
 This guide walks you through setting up a complete C++ development environment—from installing compilers to writing your first AI-assisted C++ program. Once configured, you'll be able to leverage Code Studio's autocomplete, debugging assistance, code explanations, and smart refactoring for all your C++ projects.
 
 > **Prerequisites:** 
-> - Syncfusion Code Studio must be installed. If not, see the [installation guide](/code-studio/getting-started/install-and-configuration).
+> - Syncfusion Code must be installed. If not, see the [installation guide](/code-studio/getting-started/install-and-configuration).
 > - **Disk Space:** 2-5 GB for compiler installation (Windows: MinGW-w64 ~2GB; macOS: Xcode Command Line Tools ~5GB)
 
 
@@ -114,7 +114,7 @@ With the compiler installed, the next step is to set up Code Studio to work seam
 
 > **Why Not Use Microsoft's C/C++ Extension?**
 >
-> Syncfusion Code Studio is a fork of Visual Studio Code with enhanced AI capabilities. Code Studio cannot use certain Microsoft proprietary extensions due to licensing restrictions. 
+> Syncfusion Code is a fork of Visual Studio Code with enhanced AI capabilities. Code Studio cannot use certain Microsoft proprietary extensions due to licensing restrictions. 
 >
 > Microsoft's C/C++ extension (`ms-vscode.cpptools`) is only licensed for use in official VS Code builds. Attempting to install it in Code Studio will result in errors or the extension simply won't function.
 >
@@ -123,7 +123,7 @@ With the compiler installed, the next step is to set up Code Studio to work seam
 
 ### Step 1: Install CodeLLDB Extension
 
-1. Open **Syncfusion Code Studio**
+1. Open **Syncfusion Code**
 2. Click the **Extensions** icon in the sidebar (or press `Ctrl+Shift+X` / `Cmd+Shift+X`)
 3. Search for **"CodeLLDB"** (by vadimcn)
 
@@ -316,7 +316,7 @@ Debugging is where Code Studio truly shines. Let's walk through setting breakpoi
 
 ## Next Steps
 
-Now that Your C++ development environment is now fully configured in Syncfusion Code Studio. Here's what you can explore next:
+Now that Your C++ development environment is now fully configured in Syncfusion Code. Here's what you can explore next:
 
 - **Build Real Projects:** Start developing C++ applications with full debugging support - see [tutorials](/code-studio/tutorials/generate-your-first-code-using-agent) to get started
 - **Leverage AI Features:** Use Code Studio's [autocomplete](/code-studio/features/autocomplete), [code explanation](/code-studio/features/ask), and refactoring capabilities to speed up development

@@ -1,5 +1,5 @@
 ---
-title: Use OpenRouter Free Models in Syncfusion Code Studio
+title: Use OpenRouter Free Models in Syncfusion Code
 description: Instructions to use Code Studio effectively while minimizing or eliminating costs through free models.
 platform: syncfusion-code-studio
 control: IDE
@@ -8,7 +8,7 @@ keywords: code, IDE, freemodel, openrouter
 tocname: code-studio-enterprise-server-toc
 ---
 
-# Use OpenRouter Free Models in Syncfusion Code Studio
+# Use OpenRouter Free Models in Syncfusion Code
  
 ## Why this Matters
 AI model costs can add up quickly during development. This guide shows you how to use Code Studio effectively while minimizing or eliminating costs through free models.

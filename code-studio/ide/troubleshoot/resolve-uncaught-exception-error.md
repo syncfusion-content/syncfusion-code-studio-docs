@@ -36,14 +36,14 @@ Users may encounter an `Uncaught Exception` error when Code Studio is launching 
 
 1. **Windows**:
    - Open **Windows Settings** → **Apps**.
-   - Find and select **Syncfusion Code Studio**.
+   - Find and select **Syncfusion Code**.
    - Click **Uninstall** and follow the user prompts to remove the application.
 
       <img src="./troubleshoot-images/uncaughtexception2.png" alt="Uninstall Code Studio from Windows Settings" />
 
 2. **macOS**:
    - Open **Finder** → **Applications**.
-   - Locate **Syncfusion Code Studio**.
+   - Locate **Syncfusion Code**.
    - Open context menu and click **Move to Trash** or **Move to Bin** to remove the application.
 
       <img src="./troubleshoot-images/cache-image-macapplication.png" alt="Uninstall Code Studio from macOS Applications" />
@@ -54,7 +54,7 @@ Delete cache and configuration folders to ensure a clean reinstallation. See [Ho
 
 #### Step 3: Reinstall Code Studio
 
-1. Reinstall Syncfusion Code Studio, refer to the [Syncfusion Code Studio Install and Configure](/code-studio/getting-started/install-and-configuration).
+1. Reinstall Syncfusion Code, refer to the [Syncfusion Code Install and Configure](/code-studio/getting-started/install-and-configuration).
 2. Launch the application and verify it starts without errors.
 
 ## Verification

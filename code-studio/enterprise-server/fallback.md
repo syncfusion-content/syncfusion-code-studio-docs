@@ -1,5 +1,5 @@
 ---
-title: Configuring Fallback Policies in Syncfusion Code Studio
+title: Configuring Fallback Policies in Syncfusion Code
 description: Set up resilient AI workflows by defining fallback and retry rules that automatically switch to backup models when the primary model fails.
 platform: syncfusion-code-studio
 keywords: fallback, failover, retries, policy, models, routing, reliability, code-studio, enterprise-server

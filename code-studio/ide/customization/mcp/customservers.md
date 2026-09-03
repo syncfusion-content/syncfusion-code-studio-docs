@@ -1,6 +1,6 @@
 ---
 title: Custom MCP Servers
-description: "Instructions for connecting remote, NPM, and local MCP servers to Syncfusion Code Studio for enhanced accessibility and control."
+description: "Instructions for connecting remote, NPM, and local MCP servers to Syncfusion Code for enhanced accessibility and control."
 control: IDE
 documentation: Getting Started
 platform: syncfusion-code-studio
@@ -185,7 +185,7 @@ Step 4: Review the Terms and Conditions, then click Accept and proceed.
 
 ### How to access the MCP tools 
 
-**Step 1** : Click the Syncfusion Code Studio icon. The chat window is displayed.
+**Step 1** : Click the Syncfusion Code icon. The chat window is displayed.
 
 <img src="../reference-images/marketplace1.png" alt="Tools" >
 

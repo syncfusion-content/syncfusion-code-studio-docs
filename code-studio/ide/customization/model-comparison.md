@@ -1,6 +1,6 @@
 ---
 title: Model Comparison
-description: Compare AI models in Syncfusion Code Studio and choose the right model for coding, debugging, refactoring, and agentic tasks.
+description: Compare AI models in Syncfusion Code and choose the right model for coding, debugging, refactoring, and agentic tasks.
 platform: syncfusion-code-studio
 keywords: "model-comparison, compare-ai-models, choose-model, claude-haiku-4.5, claude-opus-4.1, claude-opus-4.5, claude-sonnet-4.5, claude-sonnet-4.6, gemini-3-flash, gemini-3.1-flash-lite, gemini-3.1-pro, gpt-4.1, gpt-5, gpt-5-mini, gpt-5.1-codex, gpt-5.2, gpt-5.2-codex, gpt-5.3-codex, gpt-5.4, gpt-5.4-mini, gpt-5.4-nano, code-generation, debugging, refactoring, reasoning, low-latency"
 tocname: code-studio-ide-toc

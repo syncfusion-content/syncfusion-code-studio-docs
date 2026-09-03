@@ -1,13 +1,13 @@
 ---
-title: Syncfusion Code Studio Custom Agent
-description: Custom Agent Mode in Syncfusion Code Studio is an autonomous AI assistant that can analyze, edit, and execute changes across your codebase with minimal input.
+title: Syncfusion Code Custom Agent
+description: Custom Agent Mode in Syncfusion Code is an autonomous AI assistant that can analyze, edit, and execute changes across your codebase with minimal input.
 platform: syncfusion-code-studio
 keywords: "code, IDE, AI, developer-tools, syncfusion, code-assistance, productivity, UI-generation, bug-fixing, documentation"
 tocname: code-studio-ide-toc
 ---
 # Custom Agents
 
-Custom Agents are specialized versions of Syncfusion Code Studio that deliver consistent expertise across end-to-end workflows. They are assigned to specific tasks and retain their configuration throughout the process. This reduces setup time, enforces team standards, and makes outcomes repeatable.
+Custom Agents are specialized versions of Syncfusion Code that deliver consistent expertise across end-to-end workflows. They are assigned to specific tasks and retain their configuration throughout the process. This reduces setup time, enforces team standards, and makes outcomes repeatable.
 
 By switching to the right agent (e.g., Planner, Security Reviewer, Architect), you get the correct behavior, tool access, and expertise — without manual reconfiguration each time.
 

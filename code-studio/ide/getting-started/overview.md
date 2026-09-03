@@ -1,16 +1,16 @@
 ---
 title: Code Studio Overview
-description: Learn about all key features of Syncfusion Code Studio including Autocomplete, Ask, Edit, Agent, Plan, Generate Code, Quick Fix, and Custom Agents.
+description: Learn about all key features of Syncfusion Code including Autocomplete, Ask, Edit, Agent, Plan, Generate Code, Quick Fix, and Custom Agents.
 platform: syncfusion-code-studio
-keywords: "syncfusion code studio features, ai powered ide, code generation, ai agents, quick fix, autocomplete, plan mode"
+keywords: "Syncfusion Code features, ai powered ide, code generation, ai agents, quick fix, autocomplete, plan mode"
 tocname: code-studio-ide-toc
 ---
 
-# Welcome to Syncfusion Code Studio
+# Welcome to Syncfusion Code
 
 ## Overview
 
-Syncfusion Code Studio is an AI-powered integrated development environment (IDE) with built-in assistance to support modern software development workflows. It understands your codebase and provides context-aware suggestions to help you design, implement, and refine features—while keeping developers in control.
+Syncfusion Code is an AI-powered integrated development environment (IDE) with built-in assistance to support modern software development workflows. It understands your codebase and provides context-aware suggestions to help you design, implement, and refine features—while keeping developers in control.
 
 Deeply integrated with Syncfusion’s component library, Code Studio helps teams build robust, scalable applications by automating common tasks such as UI generation, bug fixing, and documentation.
 
