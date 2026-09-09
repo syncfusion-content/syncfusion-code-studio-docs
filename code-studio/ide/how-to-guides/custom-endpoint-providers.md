@@ -39,6 +39,7 @@ Enter your API key and select the endpoint supported by your model provider.For 
 
 <img src="./howtoguide-images/custom-endpoint-api.png" alt="custom-endpoint-api">
 
+<img src="./howtoguide-images/custom-endpoint-api-selection.png" alt="custom-endpoint-api-selection">
 
 ### Step 4
 Add the required model configuration to the JSON file, including:
