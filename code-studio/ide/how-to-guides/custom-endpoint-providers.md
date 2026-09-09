@@ -1,6 +1,6 @@
 ---
 title: Custom Endpoint Providers
-Description: Guide to configuring and using Custom Endpoint models in Code Studio with your own API key and provider-specific endpoint configuration.
+Description: Guide to configuring and using Custom Endpoint models in Syncfusion Code with your own API key and provider-specific endpoint configuration.
 platform: syncfusion-code-studio
 keywords: custom endpoint, custom model, api key, chat completions, responses api, messages api, model provider
 tocname: code-studio-ide-toc
@@ -9,7 +9,7 @@ tocname: code-studio-ide-toc
 # Custom Endpoint Providers
 
 ## Overview
-This guide provides step-by-step instructions to configure and use a Custom Endpoint model inside Code Studio with your own API key. The Custom Endpoint provider supports endpoints compatible with the Chat Completions, Responses, and Messages APIs, allowing you to connect models from different providers through a single configuration.
+This guide provides step-by-step instructions to configure and use a Custom Endpoint model inside Syncfusion Code with your own API key. The Custom Endpoint provider supports endpoints compatible with the Chat Completions, Responses, and Messages APIs, allowing you to connect models from different providers through a single configuration.
 
 ## When to Use
 
@@ -19,13 +19,13 @@ This guide provides step-by-step instructions to configure and use a Custom Endp
 
 ## Prerequisites
 
-- Code Studio
-- API Key
+- Syncfusion Code
+- Valid API key from your model provider (used to authenticate and access the model endpoint)
 
 ## Configure Custom Endpoint
 
 ### Step 1
-Open Code Studio and click **Manage Language Model**.
+Open Syncfusion Code and click **Manage Language Model**.
 
 <img src="./howtoguide-images/custom-endpoint-setting.png" alt="custom-endpoint-setting">
 
