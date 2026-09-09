@@ -140,7 +140,7 @@ Code Studio identifies when a variable has been renamed and suggests updating al
 
 3. Choose **Code Studio: Change Completions Model**.
 
-   <img src="./feature-images/auto-configaure4.png" alt="Autocomplete"  />
+   <img src="./feature-images/auto-configure4.png" alt="Autocomplete"  />
 
 4. Choose the model you prefer from the dropdown list.
 
