@@ -59,6 +59,34 @@ This same instant response also works for other terminal events, not just `Ctrl 
 > - A process crashes → agent reports the error and suggests a fix. 
 
 
+# Improvements
+
+## Terminal Output Compression (Preview)
+
+Terminal Output Compression (Preview) automatically reduces verbose terminal output before sending it to AI chat, preserving more context for code understanding.
+
+It compresses outputs from commands such as:
+- `git diff`
+- `ls -l`
+- `npm install`
+
+The feature removes unchanged, redundant, and low-value content. A banner highlights the applied compression filters and provides guidance for accessing the original output when needed.
+
+## Steps to Follow
+
+1. Open Syncfusion Code.
+2. Open **Settings** using `Ctrl + ,`.
+3. Search for **`chat.tools.compressOutput.enabled`**.
+4. Enable the setting to compress terminal output before it is sent to chat.
+5. Open the Chat view.
+6. Run the prompt:
+
+   ```text
+   show me the git log --oneline
+   ```
+
+ <img src="./tutorials-images/terminal_compression.png" alt="agent response" />
+
 ## What’s Next?
 - [Generate Your First Code Change Using Agent](/code-studio/tutorials/generate-your-first-code-using-agent.md) — Guide the agent to implement and verify a small change end-to-end.
 - [Fixing Bugs with AI](/code-studio/tutorials/fixing-bugs-with-ai.md) — Use the agent to identify, patch, and validate defects safely.
