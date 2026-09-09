@@ -19,7 +19,6 @@ This guide provides step-by-step instructions to configure and use a Custom Endp
 
 ## Prerequisites
 
-- Syncfusion Code
 - Valid API key from your model provider (used to authenticate and access the model endpoint)
 
 ## Configure Custom Endpoint
@@ -35,9 +34,26 @@ Click **Add Models** and select **Custom Endpoints** from the dropdown menu.
 <img src="./howtoguide-images/custom-endpoint-selection.png" alt="custom-endpoint-selection">
 
 ### Step 3
-Enter your API key and select the endpoint supported by your model provider.For example: Claude models support the **Messages** endpoint.
+Enter your API key and select the endpoint supported by your model provider.
 
 <img src="./howtoguide-images/custom-endpoint-api.png" alt="custom-endpoint-api">
+
+## Supported API Types
+When configuring a Custom Endpoint, select the API type that matches the endpoint supported by your model provider.
+
+### Chat Completions API
+
+Use this option for providers that support the OpenAI-compatible Chat Completions format. This API is commonly used for conversational AI interactions where messages are exchanged between the user and the model.
+
+### Responses API
+
+Use this option for providers that support the Responses API. This API provides a unified interface for generating model outputs and supports advanced response handling capabilities.
+
+### Messages API
+
+Use this option for providers that use a Messages-based request format, such as Anthropic Claude models. The Messages API structures conversations as a sequence of messages exchanged between the user and the model.
+
+> **Note:** Ensure that the selected API type matches the endpoint supported by your model provider. Choosing an incompatible API type may result in authentication or request errors.
 
 <img src="./howtoguide-images/custom-endpoint-api-selection.png" alt="custom-endpoint-api-selection">
 
