@@ -117,7 +117,13 @@ Code Studio provides three permission levels, each balancing automation with con
 
 - Review the work, Files created or modified, terminal output and logs shown in the Chat view, Whether the results match your original request.
 
+## Improvements
 
+## Advanced Autopilot
+
+- Improved Autopilot's ability to evaluate task completion and automatically continue execution when further steps are needed.
+
+- Added support for Advanced Autopilot through the `chat.autopilot.advanced.enabled` setting, enabling more intelligent task validation and autonomous workflow handling.
 
 ## What's Next
 
