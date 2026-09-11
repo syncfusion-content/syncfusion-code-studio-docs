@@ -33,11 +33,8 @@ This document explains:
 
 ## What “Context” Means
 
-**Context** is the extra information you attach to your chat message—such as a file, an error, a screenshot, or a terminal log—so the AI analyzes the **right** thing and responds precisely. You’ll get **better answers** when Chat can look at **the specific code**, **the exact error,** or **the UI you’re seeing**
-Examples
-•	Asking about a function? Attach the file or symbol.
-•	Seeing a build error? Attach the Problems item or terminal output.
-•	Confused by the UI? Attach a screenshot.
+**Context** is the extra information you attach to your chat message—such as a file, an error, a screenshot, or a terminal log—so the AI analyzes the **right** thing and responds precisely. You’ll get **better answers** when Chat can look at **the specific code**, **the exact error,** or **the UI you’re seeing**.
+
 
 ### Examples
 - Asking about a function? → Attach **the file or symbol**  
