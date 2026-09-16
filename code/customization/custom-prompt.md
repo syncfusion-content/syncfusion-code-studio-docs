@@ -1,5 +1,5 @@
 ---
-title: Syncfusion Code Studio Custom Prompts
+title: Syncfusion Code Custom Prompts
 description: "Guide for creating and using AI-driven prompt templates to standardize development workflows"
 platform: syncfusion-code-studio
 keywords: custom-prompts, ai-assistance, templates, workflows, best-practices
@@ -9,7 +9,7 @@ keywords: custom-prompts, ai-assistance, templates, workflows, best-practices
 # Custom Prompt Files
 
 ## Purpose
-Prompt Files in Syncfusion Code Studio are reusable AI instructions you can save and run anytime. They act like templates for common tasks such as generating code, reviewing code, or documentation.
+Prompt Files in Syncfusion Code are reusable AI instructions you can save and run anytime. They act like templates for common tasks such as generating code, reviewing code, or documentation.
 
 Why they matter: Instead of typing the same request again and again, you save it once as a Prompt File.
 
@@ -29,7 +29,7 @@ Prompt Files are helpful when you want to:
 ## Steps to Create and Use Prompt Files
 
 ### Step 1: Open Chat Window
-Open your project in Code Studio. Open the Code Studio Chat window.
+Open your project in Syncfusion Code. Open the Syncfusion Code Chat window.
 <img src="./reference-images/customprompt1.png" alt="Custom Prompt" />
 
 ### Step 2: Select Prompt Files
@@ -40,7 +40,7 @@ Click the Settings button at the top. In the menu, choose **Agent Customizations
 ### Step 3: Create a New Prompt File
 Click **Generate Prompt**. You’ll see two storage options:
 
-- **ProjectSpecific (.codestudio/prompts)** → stored in the current project folder, usable only in that project
+- **ProjectSpecific (.sfcode/prompts)** → stored in the current project folder, usable only in that project
 - **Global (User Data)** → stored globally, usable across any project
 
 Creation steps (same for both):
