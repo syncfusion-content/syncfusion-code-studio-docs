@@ -209,13 +209,13 @@ The **Knowledge** tab shows the AI-generated knowledge files for the current pro
 | `stack.md` | Languages, frameworks, dependencies, build tools, and npm scripts |
 | `conventions.md` | Naming, formatting, file organization, testing patterns, and documentation style |
 | `boundaries.md` | Always-do / Ask-first / Never-do rules for the agent in this project |
-| `codestudio-instructions.md` | Project-specific agent instructions used in every workflow |
+| `sfcode-instructions.md` | Project-specific agent instructions used in every workflow |
 
  
 
 ### Generating Knowledge
 
-If no knowledge files exist yet, click **Generate Knowledge**. The agent scans your workspace and writes all five files to `.codestudio/knowledge/`.
+If no knowledge files exist yet, click **Generate Knowledge**. The agent scans your workspace and writes all five files to `.sfcode/knowledge/`.
 
  <img src="./feature-images/pm-knowledge-empty.png" alt="Knowledge: No Knowledge Yet" />
 

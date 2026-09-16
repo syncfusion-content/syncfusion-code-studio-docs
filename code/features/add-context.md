@@ -167,7 +167,7 @@ Chat participants are **not the same as tools**. Tools are triggered automatical
 ### How @mentions work
 To use a chat participant, simply type **@** in the chat input box. Syncfusion Code will show a list of available participants such as:
 - **@terminal** – for shell/CLI questions  
-- **@codestudio** – for editor settings & features  
+- **@syncfusioncode** – for editor settings & features  
 
 Selecting one routes your request to that domain expert.
 
