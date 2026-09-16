@@ -19,6 +19,7 @@ The Integrated Browser lets you open and interact with web pages directly inside
 - Share an open browser page with an agent so it can read content, click through flows, and verify its own changes autonomously.
 - Debug front-end JavaScript directly from the browser's Developer Tools or via Code Studio's debugger.
 - Open and preview a local HTML file instantly, without installing a separate preview extension.
+- Launch a web application, test its UI, and fix issues without leaving Code Studio.
 
 ## How to Use the Integrated Browser
 
@@ -62,7 +63,13 @@ Use the `workbench.browser.maxHistoryEntries` setting to adjust the maximum numb
 
 <img src="./feature-images/integrated-browser-history.png" alt="Browser history view grouped by day with filter input" />
 
-### Step 3: Emulate Devices for Responsive Testing
+### Step 3: Launch, Test, and Fix Your Web Application
+
+Start your development server from the terminal, then select the `localhost` link in the terminal output — the Integrated Browser opens automatically and loads your running app. Interact with the application the same way a user would: navigate between pages, fill out forms, and trigger actions to reproduce issues. Use the **Toggle Developer Tools** button in the browser toolbar to inspect the DOM, review styles, and monitor network requests. When you spot a problem, switch to the relevant source file in Code Studio, apply the fix, and save — the browser reloads automatically so you can see the result immediately. To bring console output into chat for AI-assisted diagnosis, select **Add Console Logs to Chat** from the toolbar.
+
+<img src="./feature-images/Gif/integrated-browser-dev-workflow.gif" alt="Full development loop in the Integrated Browser: launching the app, testing the UI, and fixing an issue" />
+
+### Step 4: Emulate Devices for Responsive Testing
 
 The Integrated Browser includes built-in device emulation to help you test your web app's responsiveness across different screen sizes and device types without switching to an external browser.
 
@@ -78,7 +85,7 @@ For example, if you are building a responsive dashboard and want to verify its l
 
 > **Note:** Agents can also trigger device emulation programmatically via Playwright code. This is useful in agentic workflows where the agent needs to catch mobile responsiveness issues and iterate automatically.
 
-### Step 4: Add Browser Content to Chat
+### Step 5: Add Browser Content to Chat
 
 The browser toolbar provides an **Add to Chat** split button with actions that let you attach different types of browser content to your chat prompt, giving the AI precise visual context about your web app.
 
@@ -100,7 +107,7 @@ Use the following settings to control what is included with each element:
 - `chat.sendElementsToChat.attachCSS` — include CSS styles for selected elements.
 - `chat.sendElementsToChat.attachImages` — include screenshots of selected elements.
 
-### Step 5: Share the Browser with Agents
+### Step 6: Share the Browser with Agents
 
 Agents do not automatically have access to the Integrated Browser — you must explicitly share a page before an agent can read and interact with it. This keeps sensitive browser data private.
 
@@ -116,7 +123,7 @@ Agents are aware of how many browser tabs you have open but have not shared. Whe
 
 <img src="./feature-images/integrated-browser-agent-prompt.png" alt="Chat prompt asking whether to share an existing browser tab with an agent" />
 
-### Step 6: Configure Session Storage and Permissions
+### Step 7: Configure Session Storage and Permissions
 
 **Session storage**
 
