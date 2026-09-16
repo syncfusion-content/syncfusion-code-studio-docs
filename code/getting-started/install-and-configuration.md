@@ -24,7 +24,7 @@ By the end of this tutorial, you’ll learn how to:
 ## Installation Steps (For both macOS & Windows)
 
 ### Step 1: Download the Installer
-- Visit the official [Syncfusion Code website](https://www.syncfusion.com/code-studio/).
+- Visit the official [Syncfusion Code website](https://www.syncfusion.com/code/).
 - Click **“Get Started Now”** to open the Syncfusion Code enterprise page.
 
   <img src="gettingstarted-images/get started.png" alt="Install"/>
