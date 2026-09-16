@@ -1,6 +1,6 @@
 ---
 title: Generate Your First Code Change Using Agent
-description: Learn how to use Agent mode in Syncfusion Code Studio to generate, review, and manage code changes with AI assistance.
+description: Learn how to use Agent mode in Syncfusion Code to generate, review, and manage code changes with AI assistance.
 platform: syncfusion-code-studio
 keywords: agent-mode, ai-coding, code-generation, code-review, checkpoints
 ---
@@ -9,18 +9,18 @@ keywords: agent-mode, ai-coding, code-generation, code-review, checkpoints
 
 ## Overview 
 
-Ready to supercharge your coding? In this tutorial, we'll walk you through one of the most exciting features of Syncfusion Code Studio: **Agent mode**. Imagine having an AI teammate that can understand what you want to build, write the code for you, and even show you exactly what changed before applying those changes. That's what Agent mode does!
+Ready to supercharge your coding? In this tutorial, we'll walk you through one of the most exciting features of Syncfusion Code: **Agent mode**. Imagine having an AI teammate that can understand what you want to build, write the code for you, and even show you exactly what changed before applying those changes. That's what Agent mode does!
 
 By the end of this tutorial, you'll be comfortable using Agent mode to make your first AI-powered code changes. Let's get started!
 
-For deeper understanding of Agent mode capabilities, check out [Agent](/code-studio/features/agent).
+For deeper understanding of Agent mode capabilities, check out [Agent](/code/features/agent).
 
 
 ## What You Will Learn
 
 By the end of this tutorial, you'll be able to:
 
-- Switch on Agent mode in Code Studio (it's just one click!)
+- Switch on Agent mode in Syncfusion Code (it's just one click!)
 - Write clear instructions for the AI to understand what you want
 - See exactly what changes the Agent wants to make in a side-by-side view
 - Approve changes you like with Keep, or reject ones you don't with Undo
@@ -33,7 +33,7 @@ By the end of this tutorial, you'll be able to:
 
 Let's turn on Agent mode! This is the gateway to AI-powered coding.
 
-1. **Open Syncfusion Code Studio** with your project or any folder you'd like to experiment with.
+1. **Open Syncfusion Code** with your project or any folder you'd like to experiment with.
 2. Click the mode selector in the interface.
 3. Select **Agent Mode** from the dropdown menu. Agent Mode enables autonomous coding capabilities, allowing the AI to analyze, edit, and manage your codebase.
 
@@ -116,8 +116,8 @@ Once you've approved all the changes you want, the Agent put together a helpful 
 You've mastered the basics, but there's so much more to explore:
 
 **Want to dive deeper into checkpoints?**
-  → Head to [Checkpoints](/code-studio/features/checkpoints) to learn how to manage multiple versions of your code like a pro.
+  → Head to [Checkpoints](/code/features/checkpoints) to learn how to manage multiple versions of your code like a pro.
 
 **Curious about what else Agent mode can do?**
-  → Check out the [Agent](/code-studio/features/agent) feature guide for advanced tips and tricks.
+  → Check out the [Agent](/code/features/agent) feature guide for advanced tips and tricks.
 

@@ -1,6 +1,6 @@
 ---
 title: Copy Final Response in Chat
-description: Learn about how to copy final response in chat used in code studio
+description: Learn about how to copy final response in chat used in Syncfusion Code
 platform: syncfusion-code-studio
 keywords: chat view, agent output, full conversation, final response
 ---

@@ -1,14 +1,14 @@
 ---
-title: Automating software testing without writing test cases manually in CodeStudio
-description: Learn how to generate unit and integration tests in Code Studio using a custom agent.
+title: Automating software testing without writing test cases manually in Syncfusion Code
+description: Learn how to generate unit and integration tests in Syncfusion Code using a custom agent.
 platform: syncfusion-code-studio
-keywords: testing, test-generation, automation, code-studio, custom-agent, unit-tests, integration-tests, prompts
+keywords: testing, test-generation, automation, syncfusion-code, custom-agent, unit-tests, integration-tests, prompts
 ---
 
-# Automating software testing without writing test cases manually in CodeStudio
+# Automating software testing without writing test cases manually in Syncfusion Code
 
 ## Overview
-CodeStudio simplifies software testing by automatically generating test cases for you—no manual writing required. You just open your project in CodeStudio, and it creates appropriate tests that verify both success and failure scenarios. This saves time, makes testing easy for beginners, and helps keep your project high quality with consistent, ready-to-run tests.
+Syncfusion Code simplifies software testing by automatically generating test cases for you—no manual writing required. You just open your project in Syncfusion Code, and it creates appropriate tests that verify both success and failure scenarios. This saves time, makes testing easy for beginners, and helps keep your project high quality with consistent, ready-to-run tests.
 
 ## Prerequisites
 Let's make sure you have everything you need:
@@ -17,14 +17,14 @@ Let's make sure you have everything you need:
 
 ## What You'll Learn
 In this tutorial, you'll discover how to:
-- Use CodeStudio to automatically generate test cases without writing any test code manually.
-- Let CodeStudio create reliable unit and integration tests for your application components.
+- Use Syncfusion Code to automatically generate test cases without writing any test code manually.
+- Let Syncfusion Code create reliable unit and integration tests for your application components.
 - Save significant time on testing while ensuring good coverage for both success and failure scenarios.
 - Apply this simple AI-driven approach to improve testing in your projects, even as a beginner.
 
-## Steps on How to Automate software testing without writing test cases manually in CodeStudio
+## Steps on How to Automate software testing without writing test cases manually in Syncfusion Code
 
-Create a Custom Agent named Software Testing Agent in CodeStudio to automate test case generation. To know more about Custom Agents, see the [official Custom Agent documentation](/code-studio/reference/configure-properties/custom-agents).
+Create a Custom Agent named Software Testing Agent in Syncfusion Code to automate test case generation. To know more about Custom Agents, see the [official Custom Agent documentation](/code/reference/configure-properties/custom-agents).
 
 **Step 1:** Click on the Modes dropdown and then click on Configure Custom Agents.
 
@@ -34,13 +34,13 @@ Create a Custom Agent named Software Testing Agent in CodeStudio to automate tes
 
 <img src="tutorials-images/CreateNewCustomAgent.png" alt="Create New Custom Agent" />
 
-**Step 3:** Select a location to create the agent file. I am selecting .codestudio\agents, which creates an agent file inside the project location.
+**Step 3:** Select a location to create the agent file. I am selecting .sfcode\agents, which creates an agent file inside the project location.
 
 <img src="tutorials-images/customAgentLocationChoosing.png" alt="Choose agent location" />
 
 > **Note**: Selecting the User Data option will create the Custom Agent, and the agent file will be saved inside this location and made available as a custom agent in the Modes dropdown.
 >
-> `C:\Users\Your_UserName\AppData\Roaming\Syncfusion Code Studio\User\prompts`
+> `C:\Users\Your_UserName\AppData\Roaming\Syncfusion Code\User\prompts`
 
 **Step 4:** Give the name for your Custom Agent. We are naming the custom agent as **test-generator** and click Enter.
 
@@ -49,11 +49,11 @@ Create a Custom Agent named Software Testing Agent in CodeStudio to automate tes
 **Step 5:**  A test-generator Custom Agent md file will be created with sample instructions.
 Now replace the sample content with the actual instructions for what your Custom Agent should do.
 
-Before: The file opens with default/sample instructions provided by CodeStudio.
+Before: The file opens with default/sample instructions provided by Syncfusion Code.
 
 <img src="tutorials-images/SampleCustomAgentFile.png" alt="Sample custom agent file" />
 
-After: Replace the [custom agent file](https://github.com/syncfusion/code-studio-library/blob/master/agents/testing/react/test-generator.agent.md) completely with your actual custom agent instructions. We have used CodeStudio AI to generate these instructions.
+After: Replace the [custom agent file](https://github.com/syncfusion/code-studio-library/blob/master/agents/testing/react/test-generator.agent.md) completely with your actual custom agent instructions. We have used Syncfusion Code AI to generate these instructions.
 
 <img src="tutorials-images/After-Giving-Instruction.gif" alt="After giving instructions" />
 
@@ -75,9 +75,9 @@ The project has three main processes:
 - Forgot Password — enter email to request a reset link (mock only)
 - Reset Password — set a new password using a token from the URL (mock only)
 
-All backend calls use a simple mock of API (`src/utils/api.ts`) with artificial delays and hardcoded rules — no real server or email system is involved. This makes it perfect for learning how CodeStudio creates tests for forms, validation, success, and error cases.
+All backend calls use a simple mock of API (`src/utils/api.ts`) with artificial delays and hardcoded rules — no real server or email system is involved. This makes it perfect for learning how Syncfusion Code creates tests for forms, validation, success, and error cases.
 
-**Step 7:** Select the test-generator Custom Agent and give the below prompt in the chat input box. Now, CodeStudio will **generate test cases** for Reset Password, Forgot Password, and Login and **run those generated tests.**
+**Step 7:** Select the test-generator Custom Agent and give the below prompt in the chat input box. Now, Syncfusion Code will **generate test cases** for Reset Password, Forgot Password, and Login and **run those generated tests.**
 
 **Prompt Used:**
 
@@ -94,4 +94,4 @@ Following testcases scenarios have been covered in the test cases generation, su
 
 <img src="tutorials-images/CodeGenerationDemo.gif" alt="Code generation demo" />
 
-In this tutorial, you’ve seen how CodeStudio simplifies software testing by automatically generating reliable unit and integration test cases — no manual writing needed. With just a few simple prompts and the custom agent, this AI-powered approach saves time, reduces effort, and makes high-quality testing accessible even for beginners.
+In this tutorial, you’ve seen how Syncfusion Code simplifies software testing by automatically generating reliable unit and integration test cases — no manual writing needed. With just a few simple prompts and the custom agent, this AI-powered approach saves time, reduces effort, and makes high-quality testing accessible even for beginners.
