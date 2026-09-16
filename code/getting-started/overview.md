@@ -50,7 +50,7 @@ Learn more on the [Context](/code/features/add-context) page.
 Learn more on the [Enterprise Server](/code/enterprise-server/getting-started) page.
 
 -  **Built‑in Tools**: Perform file edits, searches, terminal commands, and more directly from the agent.  
-See [Tools](/code/reference/configure-properties/toolssupport).
+See [Tools](/code/customization/toolssupport).
 
 -  **Checkpoints**: Automatically capture, compare, and restore your workspace state to track changes and recover easily.  
 Learn more in [Checkpoints](/code/features/checkpoints).
@@ -67,19 +67,19 @@ Learn more on the [Generate Code](/code/features/generatecode) Generate Code pag
 -  **Quick Fix**: Instantly detect and resolve errors with context‑aware AI suggestions, inline previews, and explanations—so you can fix issues without leaving your editor.  
 Learn more on the [Quick Fix](/code/how-to-guides/quick-fix-error) page.
 
--  **MCP Integration**: Discover and manage servers via the [MCP Marketplace](/code/reference/configure-properties/mcp/marketplace) or connect [Custom Servers](/code/reference/configure-properties/mcp/customservers) including NPM package,pip package, docker image, HTTP, command.
+-  **MCP Integration**: Discover and manage servers via the [MCP Marketplace](/code/customization/mcp/marketplace) or connect [Custom Servers](/code/customization/mcp/customservers) including NPM package,pip package, docker image, HTTP, command.
 
--   **Custom Agent**: Pre‑configured AI agents for specific tasks that follow fixed rules, tools, and behaviors—ensuring consistent, repeatable workflows across teams. Learn more on the [Custom Agent](/code/reference/configure-properties/custom-agents) page.
+-   **Custom Agent**: Pre‑configured AI agents for specific tasks that follow fixed rules, tools, and behaviors—ensuring consistent, repeatable workflows across teams. Learn more on the [Custom Agent](/code/customization/custom-agents) page.
 
 - **Agent Skills**: Reusable, task-specific instruction sets that extend the agent's capabilities—such as running tests, generating docs, or enforcing code standards—without modifying the core agent configuration.  
-  Learn more on the [Agent Skills](/code/reference/configure-properties/skills) page.
+  Learn more on the [Agent Skills](/code/customization/skills) page.
 
 - **Hooks**: Automated scripts triggered at defined points in the agent workflow (before or after a tool call) to enforce policies, validate outputs, or run custom logic—keeping AI actions consistent and auditable.  
-  Learn more on the [Hooks](/code/reference/configure-properties/hooks) page.
+  Learn more on the [Hooks](/code/customization/hooks) page.
 
--  **Custom Instructions**: Custom instructions define reusable guidelines that shape how AI generates code and performs development tasks, eliminating the need to repeat context in every prompt. They can be applied automatically to all chats, targeted to specific files, or manually attached to individual prompts. Learn more on the [Custom Instructions](/code/reference/configure-properties/custom-instructions) page.
+-  **Custom Instructions**: Custom instructions define reusable guidelines that shape how AI generates code and performs development tasks, eliminating the need to repeat context in every prompt. They can be applied automatically to all chats, targeted to specific files, or manually attached to individual prompts. Learn more on the [Custom Instructions](/code/customization/custom-instructions) page.
 
--  **Custom Prompts**: Prompt files are on‑demand, reusable Markdown prompts that standardize specific development tasks like code generation and reviews. Learn more on the [Custom Prompt](/code/reference/configure-properties/custom-prompt) page.
+-  **Custom Prompts**: Prompt files are on‑demand, reusable Markdown prompts that standardize specific development tasks like code generation and reviews. Learn more on the [Custom Prompt](/code/customization/custom-prompt) page.
 
 ## Get started
 
