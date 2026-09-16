@@ -23,13 +23,13 @@ Use budget alerts when you want an email notification as soon as spending crosse
 - **Team Owners Access:** Can configure alerts, and create, edit, and assign budgets specifically for their team members.
 - **Team Leads and Users Access:** Can only view budgets.
 
-- **Budget configured:** Refer to the [Create Budget](/code-studio/enterprise-server/createbudget) guide to create and assign a budget for the team or the individual user before setting an alert.
+- **Budget configured:** Refer to the [Create Budget](/code/enterprise-server/createbudget) guide to create and assign a budget for the team or the individual user before setting an alert.
 
 ## Steps to Configure Budget Alerts for Teams and Individual Users
 
 ### Steps to Configure Budget Alerts for Teams:
 
-**Step 1:** Go to the [Budget tab](https://app.sfcodestudio.com/budget) in CodeStudio dashboard. Team budgets are displayed on a table, with a **three-dot (More options)** menu on the right side of each row.
+**Step 1:** Go to the [Budget tab](https://app.sfcodestudio.com/budget) in Syncfusion Code dashboard. Team budgets are displayed on a table, with a **three-dot (More options)** menu on the right side of each row.
 
 <img src="./howtoguide-images/three-dots-icon-teams.png" alt="budget-alert"  />
 

@@ -1,6 +1,6 @@
 ---
-title: Syncfusion Code Studio Checkpoints
-description: The Checkpoints feature in Syncfusion Code Studio allows you to automatically track, preview, and restore your workspace state at key moments.
+title: Syncfusion Code Checkpoints
+description: The Checkpoints feature in Syncfusion Code allows you to automatically track, preview, and restore your workspace state at key moments.
 platform: syncfusion-code-studio
 keywords: code, IDE, AI, developer-tools, syncfusion, code-assistance, productivity, checkpoints, versioning, history, workspace, file-recovery, diff, restore
 ---
@@ -127,4 +127,4 @@ You can save a chat session as a reusable prompt to reuse for similar tasks.
 
 Review and edit the generated prompt file as needed, then save it to your workspace.
 
-Learn more about prompt file in [Custom Prompts](/code-studio/reference/configure-properties/custom-prompt) documentation.
+Learn more about prompt file in [Custom Prompts](/code/customization/custom-prompt) documentation.
