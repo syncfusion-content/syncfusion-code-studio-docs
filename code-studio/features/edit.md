@@ -29,7 +29,7 @@ Edit Mode is an AI-powered feature in Syncfusion Code Studio that helps develope
 
 <img src="./feature-images/editMode.png" alt="Edit Mode" />
 
-**Step 2** : In the chat input box, type the instruction you want the AI to perform. For example, “Optimize this for better performance.” After typing your prompt, click the “Send” button. The agent will treat this instruction as an edit request and start editing.
+**Step 3** : In the chat input box, type the instruction you want the AI to perform. For example, “Optimize this for better performance.” After typing your prompt, click the “Send” button. The agent will treat this instruction as an edit request and start editing.
 
 <img src="./feature-images/chatInput.png" alt="Chat Input" />
 
