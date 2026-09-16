@@ -9,19 +9,19 @@ keywords: syncfusion-code, prompt-migration, markdown, yaml, developer-tools, sy
 # Migrate Legacy Prompt Files: Troubleshooting Guide
 
 ## Problem Summary
-Legacy Syncfusion Code prompt files (`.prompt` in `.codestudio/prompts/`) from versions before 2.0.0 are not recognized or usable in Syncfusion Code 2.0.0 and later, which requires the new `.prompt.md` format with YAML frontmatter and Markdown support. Users may find their old prompts missing, not appearing in chat, or not functioning as expected.
+Legacy Syncfusion Code prompt files (`.prompt` in `.sfcode/prompts/`) from versions before 2.0.0 are not recognized or usable in Syncfusion Code 2.0.0 and later, which requires the new `.prompt.md` format with YAML frontmatter and Markdown support. Users may find their old prompts missing, not appearing in chat, or not functioning as expected.
 
 ## Possible Causes
-- Prompt files are still in the legacy `.prompt` format (`.codestudio/prompts/`)
+- Prompt files are still in the legacy `.prompt` format (`.sfcode/prompts/`)
 - Files are not saved with the `.prompt.md` extension
-- Prompts are not placed in the correct directory (`.codestudio/prompts/` for workspace, user profile folder for user prompts)
+- Prompts are not placed in the correct directory (`.sfcode/prompts/` for workspace, user profile folder for user prompts)
 
 ## Resolution Steps
 
 Follow these steps to migrate and restore prompt functionality:
 
 ### 1. Locate Your Legacy Prompt Files
-- **Workspace prompts:** `.codestudio/prompts/` (in your workspace folder)
+- **Workspace prompts:** `.sfcode/prompts/` (in your workspace folder)
 - **File Extension:** `.prompt`
 
 ### 2. Open and Copy Prompt Content
@@ -30,7 +30,7 @@ Follow these steps to migrate and restore prompt functionality:
 
 ### 3. Create a New Prompt File in Syncfusion Code
 You can create prompts as either **Workspace** or **User** prompts:
-- **Workspace Prompt:** `.codestudio/prompts/` 
+- **Workspace Prompt:** `.sfcode/prompts/` 
 - **User Prompt:** User profile folder (available across all workspaces)
 
 1. Open Syncfusion Code

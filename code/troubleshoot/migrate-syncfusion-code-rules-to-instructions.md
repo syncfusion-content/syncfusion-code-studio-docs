@@ -32,14 +32,14 @@ In versions prior to 2.0.0, Syncfusion Code stored rule configurations in two le
 **Windows**
 
 ```
-C:\Users\<YourName>\.sfcodestudio\.codestudio\config.yaml
+C:\Users\<YourName>\.sfcode\.sfcode\config.yaml
 ```
 <img src="./troubleshoot-images/rules1.png" alt="docsindexing" style="display:block; margin: 12px auto;" /><br/>
 
 **macOS**
 
 ```
-/Users/<YourName>/.sfcodestudio/.codestudio/config.yaml
+/Users/<YourName>/.sfcode/.sfcode/config.yaml
 ```
 <img src="./troubleshoot-images/rules2.png" alt="docsindexing" style="display:block; margin: 12px auto;" /><br/>
 
