@@ -1,13 +1,13 @@
 ---
-title: Syncfusion Code Studio Global Agent
-description: Agent rule in Syncfusion Code Studio is a Markdown based file format designed to provide structured, project specific instructions for AI coding agents.
+title: Syncfusion Code Global Agent
+description: Agent rule in Syncfusion Code is a Markdown based file format designed to provide structured, project specific instructions for AI coding agents.
 platform: syncfusion-code-studio
 keywords: "code, IDE, AI, developer-tools, syncfusion, code-assistance, productivity, UI-generation, bug-fixing, documentation"
 ---
 # Global Agents
 
 ## Overview
-Global Agent refers to agents.md, an open-source, standardized file format designed to streamline collaboration between AI coding agents in **Syncfusion® Code Studio**. It serves as a centralized instruction manual, similar to a `README.md`, but specifically tailored for machine interpretation and execution. By consolidating setup instructions, testing protocols, and coding guidelines into a single file, Global Agent simplifies workflows and ensures consistency across projects.  
+Global Agent refers to agents.md, an open-source, standardized file format designed to streamline collaboration between AI coding agents in **Syncfusion® Code**. It serves as a centralized instruction manual, similar to a `README.md`, but specifically tailored for machine interpretation and execution. By consolidating setup instructions, testing protocols, and coding guidelines into a single file, Global Agent simplifies workflows and ensures consistency across projects.  
 
 ## Use Cases
 - Team Collaboration: Standardizes coding guidelines and workflows across multiple developers, ensuring AI agents interpret instructions consistently.
@@ -22,7 +22,7 @@ Global Agent refers to agents.md, an open-source, standardized file format desig
 
 
 ## How to Configure Global Agents
-Using Global Agent in Code Studio is straightforward:
+Using Global Agent in Syncfusion Code is straightforward:
 
 1. Click Create File
 
@@ -36,7 +36,7 @@ Using Global Agent in Code Studio is straightforward:
 
     <img src="./feature-images/globalagent-instruction.png" alt="instuction" >
 
-4. Go to Settings and click the Code Studio Settings option.
+4. Go to Settings and click the Syncfusion Code Settings option.
 
     <img src="./feature-images/globalagent-settingspath.png" alt="settingpath" >
 
@@ -53,6 +53,6 @@ Using Global Agent in Code Studio is straightforward:
 
 ## Related Features
 
-- [Custom Agent](/code-studio/reference/configure-properties/custom-agents) - Pre‑configured AI agents for specific tasks that follow fixed rules, tools, and behaviors—ensuring consistent, repeatable workflows across teams.
+- [Custom Agent](/code/reference/configure-properties/custom-agents) - Pre‑configured AI agents for specific tasks that follow fixed rules, tools, and behaviors—ensuring consistent, repeatable workflows across teams.
 
-- [Custom Prompt](/code-studio/reference/configure-properties/custom-prompt) - Prompt files are on‑demand, reusable Markdown prompts that standardize specific development tasks like code generation and reviews.
+- [Custom Prompt](/code/reference/configure-properties/custom-prompt) - Prompt files are on‑demand, reusable Markdown prompts that standardize specific development tasks like code generation and reviews.

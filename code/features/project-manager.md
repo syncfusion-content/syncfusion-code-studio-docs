@@ -1,6 +1,6 @@
 ---
 title: Project Manager Extension
-description: Project Manager in Syncfusion Code Studio is a structured SDLC workflow panel that guides AI-assisted development from project setup to shipping, with built-in quality gates, skill-driven execution, and full task history.
+description: Project Manager in Syncfusion Code is a structured SDLC workflow panel that guides AI-assisted development from project setup to shipping, with built-in quality gates, skill-driven execution, and full task history.
 platform: syncfusion-code-studio
 keywords: "code, IDE, AI, developer-tools, syncfusion, project-manager, SDLC, workflow, knowledge, plugins, history, settings"
 ---
@@ -9,7 +9,7 @@ keywords: "code, IDE, AI, developer-tools, syncfusion, project-manager, SDLC, wo
 
 ## Overview
 
-Project Manager is a built-in extension in Syncfusion Code Studio that helps you build software in a structured, step-by-step way with AI assistance. Instead of asking the agent to do everything at once, it breaks your work into clear stages such as defining requirements, planning tasks, writing code, and reviewing results, so nothing gets missed.
+Project Manager is a built-in extension in Syncfusion Code that helps you build software in a structured, step-by-step way with AI assistance. Instead of asking the agent to do everything at once, it breaks your work into clear stages such as defining requirements, planning tasks, writing code, and reviewing results, so nothing gets missed.
 
 You describe what you want to build, and Project Manager figures out how much process is needed based on the type and complexity of your task. Simple fixes get a lightweight flow. Bigger or riskier changes get more review steps.
 
@@ -28,7 +28,7 @@ Use Project Manager when you need to:
 
 ### Step 1: Open Project Manager
 
-Click the **Settings** (gear) icon at the top of the Code Studio panel and select **Project Manager** from the dropdown menu.
+Click the **Settings** (gear) icon at the top of the Syncfusion Code panel and select **Project Manager** from the dropdown menu.
 
  <img src="./feature-images/pm-open.png" alt="Opening Project Manager from the Settings dropdown" />
 
@@ -291,7 +291,7 @@ When enabled (the default), cancelling a task saves its progress and any generat
 
 ## Related Features
 
-- [Agent Mode](/code-studio/features/agent): The AI engine that executes each workflow stage autonomously.
-- [Plan Mode](/code-studio/features/plan): Use Plan Mode to design and refine an implementation plan before the agent writes code.
-- [Custom Instructions](/code-studio/customization/custom-instructions): Add project-level instructions that the agent reads on every task.
-- [Skills](/code-studio/customization/skills): Learn how individual skills are structured and how to author your own.
+- [Agent Mode](/code/features/agent): The AI engine that executes each workflow stage autonomously.
+- [Plan Mode](/code/features/plan): Use Plan Mode to design and refine an implementation plan before the agent writes code.
+- [Custom Instructions](/code/customization/custom-instructions): Add project-level instructions that the agent reads on every task.
+- [Skills](/code/customization/skills): Learn how individual skills are structured and how to author your own.

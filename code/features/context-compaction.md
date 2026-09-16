@@ -1,8 +1,8 @@
 ---
-title: Context Compaction - Optimize Chat Context for Sharper AI in Code Studio
-description: Master the /compact command in Syncfusion Code Studio to streamline chat history, maintain relevant context, and boost AI performance during long coding sessions.
+title: Context Compaction - Optimize Chat Context for Sharper AI in Syncfusion Code
+description: Master the /compact command in Syncfusion Code to streamline chat history, maintain relevant context, and boost AI performance during long coding sessions.
 platform: syncfusion-code-studio
-keywords: context-compaction, chat-history, ai-context, compact-command, productivity, code-studio
+keywords: context-compaction, chat-history, ai-context, compact-command, productivity, syncfusion-code
 ---
 
 
@@ -10,7 +10,7 @@ keywords: context-compaction, chat-history, ai-context, compact-command, product
 
 ## Overview
 
-As your chat sessions in Code Studio grow, the conversation history can become lengthy, making it harder for the AI to focus on the most relevant information. Context Compaction lets you streamline your chat context by summarizing or removing less important messages using the `/compact` command, ensuring the AI remains efficient and accurate throughout long sessions.
+As your chat sessions in Syncfusion Code grow, the conversation history can become lengthy, making it harder for the AI to focus on the most relevant information. Context Compaction lets you streamline your chat context by summarizing or removing less important messages using the `/compact` command, ensuring the AI remains efficient and accurate throughout long sessions.
 
 ## Use Cases
 
@@ -54,4 +54,4 @@ If there is critical context you want preserved, pass it as a note after the com
 Do not wait for the AI to lose track. Compact regularly during long sessions to maintain consistent, high-quality responses.
 
 ## Related Features
-- [Agent Mode](/code-studio/features/agent) - Long agent sessions can accumulate a large amount of context. Use `/compact` to trim the history and keep the agent focused on the current task.
+- [Agent Mode](/code/features/agent) - Long agent sessions can accumulate a large amount of context. Use `/compact` to trim the history and keep the agent focused on the current task.

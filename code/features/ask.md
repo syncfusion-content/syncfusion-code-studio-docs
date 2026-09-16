@@ -71,5 +71,5 @@ Code Studio processes your query and returns:
 
 ## Related Features
 
-- [Edit Mode](/code-studio/features/edit) - Context-aware file editing with workspace integration
-- [Agent Mode](/code-studio/features/agent) - Multi-step task automation with tool execution
+- [Edit Mode](/code/features/edit) - Context-aware file editing with workspace integration
+- [Agent Mode](/code/features/agent) - Multi-step task automation with tool execution
