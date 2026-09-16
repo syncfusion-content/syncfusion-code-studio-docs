@@ -1,6 +1,6 @@
 ---
-title: Integrated Browser - Preview, Test, and Debug Web Apps Inside Code Studio
-description: Use the Integrated Browser in Syncfusion Code Studio to preview web apps, navigate the web, emulate devices, capture screenshots for chat, share pages with agents, and debug front-end code without leaving the editor.
+title: Integrated Browser - Preview, Test, and Debug Web Apps Inside Syncfusion Code
+description: Use the Integrated Browser in Syncfusion Syncfusion Code to preview web apps, navigate the web, emulate devices, capture screenshots for chat, share pages with agents, and debug front-end code without leaving the editor.
 platform: syncfusion-code-studio
 keywords: integrated-browser, browser-preview, web-preview, device-emulation, browser-tools, agent-browser, localhost-preview, code-studio
 ---
@@ -9,27 +9,27 @@ keywords: integrated-browser, browser-preview, web-preview, device-emulation, br
 
 ## Overview
 
-The Integrated Browser lets you open and interact with web pages directly inside Code Studio. Use it to preview web applications, search the web, test authentication flows, emulate devices for responsive testing, attach browser content to AI chat, and share live pages with agents so they can validate and iterate on your work without switching to an external browser.
+The Integrated Browser lets you open and interact with web pages directly inside Syncfusion Code. Use it to preview web applications, search the web, test authentication flows, emulate devices for responsive testing, attach browser content to AI chat, and share live pages with agents so they can validate and iterate on your work without switching to an external browser.
 
 ## Use Cases
 
-- Preview a local web app running on `localhost` in a Code Studio tab without opening an external browser.
+- Preview a local web app running on `localhost` in a Syncfusion Code tab without opening an external browser.
 - Test a page's mobile responsiveness using built-in device emulation.
 - Capture a screenshot or selected element from the browser and attach it to chat to give the AI visual context.
 - Share an open browser page with an agent so it can read content, click through flows, and verify its own changes autonomously.
-- Debug front-end JavaScript directly from the browser's Developer Tools or via Code Studio's debugger.
+- Debug front-end JavaScript directly from the browser's Developer Tools or via Syncfusion Code's debugger.
 - Open and preview a local HTML file instantly, without installing a separate preview extension.
-- Launch a web application, test its UI, and fix issues without leaving Code Studio.
+- Launch a web application, test its UI, and fix issues without leaving Syncfusion Code.
 
 ## How to Use the Integrated Browser
 
 ### Step 1: Open the Integrated Browser
 
-There are several ways to open the Integrated Browser in Code Studio:
+There are several ways to open the Integrated Browser in Syncfusion Code:
 
 - **Command Palette:** Press `Ctrl+Shift+P`, type `Browser: Open Integrated Browser`, and press **Enter**.
 - **Menu:** Select **View > Browser**, or press `Ctrl+Alt+/`.
-- **Title bar:** Select the globe button in the Code Studio title bar. Use the `workbench.browser.showInTitleBar` setting to control whether the globe button is visible.
+- **Title bar:** Select the globe button in the Syncfusion Code title bar. Use the `workbench.browser.showInTitleBar` setting to control whether the globe button is visible.
 - **Localhost links:** Select any `localhost`, `127.0.0.1`, or `0.0.0.0` link in the terminal or chat — it opens automatically in the Integrated Browser. To use an external browser instead, disable `workbench.browser.openLocalhostLinks`.
 - **HTML file:** Right-click an HTML file in the Explorer or editor tab and select **Open in Integrated Browser**, or select the preview icon in the editor title bar when an HTML file is active.
 
@@ -65,7 +65,7 @@ Use the `workbench.browser.maxHistoryEntries` setting to adjust the maximum numb
 
 ### Step 3: Launch, Test, and Fix Your Web Application
 
-Start your development server from the terminal, then select the `localhost` link in the terminal output — the Integrated Browser opens automatically and loads your running app. Interact with the application the same way a user would: navigate between pages, fill out forms, and trigger actions to reproduce issues. Use the **Toggle Developer Tools** button in the browser toolbar to inspect the DOM, review styles, and monitor network requests. When you spot a problem, switch to the relevant source file in Code Studio, apply the fix, and save — the browser reloads automatically so you can see the result immediately. To bring console output into chat for AI-assisted diagnosis, select **Add Console Logs to Chat** from the toolbar.
+Start your development server from the terminal. When the application starts, copy the localhost URL from the terminal output and open it in the Integrated Browser using Ctrl+Shift+P and Browser: Open Integrated Browser. Paste the URL into the browser address bar to load your running app. Interact with the application the same way a user would: navigate between pages, fill out forms, and trigger actions to reproduce issues. Use the Toggle Developer Tools button in the browser toolbar to inspect the DOM, review styles, and monitor network requests. When you spot a problem, switch to the relevant source file in Syncfusion Code, apply the fix, and save. The browser reloads automatically so you can see the result immediately. To bring console output into chat for AI-assisted diagnosis, select Add Console Logs to Chat from the toolbar.
 
 <img src="./feature-images/Gif/integrated-browser-dev-workflow.gif" alt="Full development loop in the Integrated Browser: launching the app, testing the UI, and fixing an issue" />
 
@@ -143,7 +143,7 @@ To clear stored data, select the browser toolbar menu and choose **Clear Storage
 
 **Per-site permissions**
 
-When a page requests access to a hardware or OS API, Code Studio prompts you to allow or deny the request for that specific site — the same way a traditional browser does. Supported APIs include:
+When a page requests access to a hardware or OS API, Syncfusion Code prompts you to allow or deny the request for that specific site — the same way a traditional browser does. Supported APIs include:
 
 - Geolocation
 - Camera and microphone
@@ -167,7 +167,7 @@ Agents cannot access browser tabs unless you share them. Share pages deliberatel
 
 ### 3. Test device responsiveness before deploying
 
-Use the device emulation toolbar to verify your web app's layout on phone and tablet viewports before pushing changes. Running a quick emulation check in Code Studio is faster than switching to a standalone browser and reproducing the same state.
+Use the device emulation toolbar to verify your web app's layout on phone and tablet viewports before pushing changes. Running a quick emulation check in Syncfusion Code is faster than switching to a standalone browser and reproducing the same state.
 
 ### 4. Use web search to look up references without switching context
 

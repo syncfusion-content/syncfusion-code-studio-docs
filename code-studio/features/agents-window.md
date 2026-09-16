@@ -1,6 +1,6 @@
 ---
-title: Syncfusion Code Studio Agents Window
-description: Use the Agents Window in Syncfusion Code Studio to run, monitor, and review AI agent sessions across multiple projects from a single dedicated companion window.
+title: Syncfusion Syncfusion Code Agents Window
+description: Use the Agents Window in Syncfusion Syncfusion Code to run, monitor, and review AI agent sessions across multiple projects from a single dedicated companion window.
 platform: syncfusion-code-studio
 keywords: "agents-window, agent-sessions, multi-project, parallel-sessions, autopilot, quick-chat, session-groups, code-studio"
 ---
@@ -9,7 +9,7 @@ keywords: "agents-window, agent-sessions, multi-project, parallel-sessions, auto
 
 ## Overview
 
-The Agents Window is a dedicated, agent-first companion window in **Syncfusion Code Studio** that gives you a focused space to start, monitor, and review AI agent sessions across multiple local projects at once. Unlike the Chat view in the main editor, the Agents Window is purpose-built for agent-driven workflows: you can run parallel sessions for different local folders, review all code changes in one place, and switch between tasks without losing your conversation history. The window opens alongside your existing editor and shares your authentication, settings, and extensions.
+The Agents Window is a dedicated, agent-first companion window in **Syncfusion Syncfusion Code** that gives you a focused space to start, monitor, and review AI agent sessions across multiple local projects at once. Unlike the Chat view in the main editor, the Agents Window is purpose-built for agent-driven workflows: you can run parallel sessions for different local folders, review all code changes in one place, and switch between tasks without losing your conversation history. The window opens alongside your existing editor and shares your authentication, settings, and extensions.
 
 ## Use Cases
 
@@ -24,11 +24,11 @@ The Agents Window is a dedicated, agent-first companion window in **Syncfusion C
 
 ### Step 1: Open the Agents Window
 
-Select the **Open in Agents** button in the Code Studio title bar. The Agents Window opens as a dedicated companion window alongside your main editor.
+Select the **Open in Agents** button in the Syncfusion Code title bar. The Agents Window opens as a dedicated companion window alongside your main editor.
 
 > **Note:** You can also open the Agents Window from the Command Palette (**Ctrl+Shift+P**) using **Chat: Open Agents window**, or from a terminal with `sfcode --agents`.
 
-<img src="./feature-images/agents-window-open.png" alt="Open in Agents button in the Code Studio title bar" />
+<img src="./feature-images/agents-window-open.png" alt="Open in Agents button in the Syncfusion Code title bar" />
 
 The window has five main areas: the **Sessions list** on the left (sessions grouped by workspace by default), the **Chat area** in the center (the active conversation), the **Changes panel** (code diffs for the active session), the **Files panel** (a file browser for the session's workspace), and the **Terminal** bar at the bottom.
 
@@ -36,7 +36,7 @@ The window has five main areas: the **Sessions list** on the left (sessions grou
 
 Select **New** at the top of the Sessions sidebar (or press **Ctrl+N**) to start a new session. Select a **Local** folder as the primary workspace — this is where the agent runs and writes files.
 
-> **Note:** When opening a folder for the first time, Code Studio may display a Workspace Trust prompt. Review and confirm trust before the agent begins work in that folder.
+> **Note:** When opening a folder for the first time, Syncfusion Code may display a Workspace Trust prompt. Review and confirm trust before the agent begins work in that folder.
 
 Type a prompt that describes what you want the agent to accomplish, then press **Enter** to submit it. For example: *"Add input validation and a unit test for the registration form."* The session appears in the Sessions list with a live status indicator while the agent works.
 
@@ -70,7 +70,7 @@ To change the permission level, select the permissions dropdown in the Chat inpu
 
 For long or complex tasks where you want the agent to keep working until the goal is truly complete — not just until a turn limit is reached — enable **Advanced Autopilot** via `chat.autopilot.advanced.enabled` in Settings. Advanced Autopilot uses a background evaluation model that checks whether the task is finished and loops up to three additional times if work remains. The current objective is shown in a tooltip above the chat so you always know what the agent is working toward.
 
-> **Note:** Advanced Autopilot is disabled by default. Enable it in Code Studio Settings under `chat.autopilot.advanced.enabled`.
+> **Note:** Advanced Autopilot is disabled by default. Enable it in Syncfusion Code Settings under `chat.autopilot.advanced.enabled`.
 
 ### Step 6: Organize Sessions with Groups and Quick Chats
 
@@ -96,7 +96,7 @@ Create named groups from the Sessions list context menu and drag related session
 
 ### 4. Keep Default Approvals mode enabled for safer terminal commands
 
-When the permission level is set to **Default Approvals**, Code Studio automatically sandboxes agent-run terminal commands on macOS and Linux — blocking outbound network access and restricting filesystem writes to your workspace folder. The agent escalates to an approval prompt only when a command needs to operate outside the sandbox. Use Default Approvals for day-to-day tasks to get this protection without giving up agent autonomy.
+When the permission level is set to **Default Approvals**, Syncfusion Code automatically sandboxes agent-run terminal commands on macOS and Linux — blocking outbound network access and restricting filesystem writes to your workspace folder. The agent escalates to an approval prompt only when a command needs to operate outside the sandbox. Use Default Approvals for day-to-day tasks to get this protection without giving up agent autonomy.
 
 ## Related Features
 
@@ -104,4 +104,4 @@ When the permission level is set to **Default Approvals**, Code Studio automatic
 - [Plan Mode](/code-studio/features/plan) - Request a step-by-step plan before the agent executes changes. Plan Mode works inside Agents Window sessions as well.
 - [Checkpoints](/code-studio/features/checkpoints) - Automatically created at each agent turn, checkpoints let you roll back to any earlier state during a session.
 - [Context Compaction](/code-studio/features/context-compaction) - Use `/compact` to summarize long sessions and keep the agent focused on what matters as conversation history grows.
-- [Autopilot and Agent Permissions](/code-studio/tutorials/autopilot-and-agent-permission) - A step-by-step walkthrough of permission levels and approval flows across Code Studio agent modes.
+- [Autopilot and Agent Permissions](/code-studio/tutorials/autopilot-and-agent-permission) - A step-by-step walkthrough of permission levels and approval flows across Syncfusion Code agent modes.
