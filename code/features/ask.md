@@ -1,6 +1,6 @@
 ---
-title: Syncfusion Code Studio Ask Mode
-description: Ask Mode in Code Studio provides AI-powered explanations, code examples, and best practices in a non-invasive conversational interface that does not modify workspace files.
+title: Syncfusion Code Ask Mode
+description: Ask Mode in Syncfusion Code provides AI-powered explanations, code examples, and best practices in a non-invasive conversational interface that does not modify workspace files.
 platform: syncfusion-code-studio
 keywords: code, IDE, AI, developer-tools, syncfusion, code-assistance, productivity, UI-generation, bug-fixing, documentation
 ---
@@ -9,7 +9,7 @@ keywords: code, IDE, AI, developer-tools, syncfusion, code-assistance, productiv
 
 ## Overview
 
-Ask Mode is a conversational interface within Code Studio that provides immediate technical guidance without modifying your workspace. It delivers explanations, code examples, and best practice recommendations based on your queries, operating independently of your project files. This mode is designed for knowledge acquisition and exploration rather than direct code manipulation.
+Ask Mode is a conversational interface within Syncfusion Code that provides immediate technical guidance without modifying your workspace. It delivers explanations, code examples, and best practice recommendations based on your queries, operating independently of your project files. This mode is designed for knowledge acquisition and exploration rather than direct code manipulation.
 
 ## Use Cases
 
@@ -26,7 +26,7 @@ Ask Mode is a conversational interface within Code Studio that provides immediat
 
 ### Step 1: Activate Ask Mode
 
-- Launch Code Studio IDE
+- Launch Syncfusion Code IDE
 - Select **Ask** from the agent dropdown menu in the chat panel
 
     <img src="./feature-images/ask1.png" alt="Ask Mode Selection" />
@@ -44,7 +44,7 @@ Type your query using natural language. For optimal results:
 
 ### Step 3: Review the Response
 
-Code Studio processes your query and returns:
+Syncfusion Code processes your query and returns:
 - Technical explanations with relevant context
 - Executable code snippets with syntax highlighting
 - Best practice recommendations specific to your query
