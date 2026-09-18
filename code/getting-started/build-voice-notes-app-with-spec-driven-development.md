@@ -21,7 +21,7 @@ You'll move from idea to working application by following **Spec-Driven Developm
 Before getting started, make sure that:
 
 1. **Syncfusion Code is installed**  
-   If it’s not installed, refer to the [installation guide](/code/getting-started/install-and-configuration) to set it up properly.
+   If it’s not installed, refer to the [installation guide](/code-studio/getting-started/install-and-configuration) to set it up properly.
 
 2.	Node.js >= 20.19.0 is installed.
 
@@ -59,7 +59,7 @@ OpenSpec is a tool built for Spec-Driven Development. It helps you organize your
 
 Think of OpenSpec as the planning and organization system that makes SDD work smoothly. It keeps everything clear and prevents miscommunication between you and the AI.
 
-For more information about OpenSpec, visit our [Using OpenSpec in Syncfusion Code](/code/tutorials/using-openspec-inside-syncfusion-code) guide.
+For more information about OpenSpec, visit our [Using OpenSpec in Syncfusion Code](/code-studio/tutorials/using-openspec-inside-syncfusion-code) guide.
 
 
 ## Build Your First App in Syncfusion Code
