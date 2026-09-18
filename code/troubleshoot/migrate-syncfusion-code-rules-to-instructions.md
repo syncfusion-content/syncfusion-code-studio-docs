@@ -18,7 +18,7 @@ In versions prior to 2.0.0, Syncfusion Code stored rule configurations in two le
 ### Step 1: Create a New Instruction File
 
 - Open Syncfusion Code.
-- Create a new instruction file following the [Custom Instructions](/code/customization/custom-instructions)
+- Create a new instruction file following the [Custom Instructions](/code-studio/customization/custom-instructions)
 
 > Note: Custom Instructions are supported only in version 2.0.0 or later.  If you are using an older version, please update to the latest version of Syncfusion Code.
 

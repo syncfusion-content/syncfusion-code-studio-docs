@@ -12,7 +12,7 @@ This guide explains how to migrate Agent files from Syncfusion Code v1.x.x to v2
 ## Problem Summary
 After upgrading to Syncfusion Code v2.0.0 and later versions, Agent rules may stop working unless you rename your Agent files and update the **Agents** settings.
 
-> **Note:** Agent files from v1.x.x aren’t migrated automatically in v2.0.0+. To restore Agent rules, follow the resolution steps below. Refer to the [v2.0.0 release notes](/code/release-notes/v2.0.0) for migration details.
+> **Note:** Agent files from v1.x.x aren’t migrated automatically in v2.0.0+. To restore Agent rules, follow the resolution steps below. Refer to the [v2.0.0 release notes](/code-studio/release-notes/v2.0.0) for migration details.
 
 ## Resolution Steps
 

@@ -13,7 +13,7 @@ This guide explains how to view and manage session history after upgrading to Sy
 
 After upgrading to Syncfusion Code v2.0.0+, chat sessions from earlier versions (before v2.0.0) may not appear in the session history.
 
-> **Note:** Session history created prior to v2.0.0 cannot be migrated to the Syncfusion Code v2.0.0+ session history. Refer to the [v2.0.0 release notes](/code/release-notes/v2.0.0) for migration details.
+> **Note:** Session history created prior to v2.0.0 cannot be migrated to the Syncfusion Code v2.0.0+ session history. Refer to the [v2.0.0 release notes](/code-studio/release-notes/v2.0.0) for migration details.
 
 ## Accessing Session History
 
