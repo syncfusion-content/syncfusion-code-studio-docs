@@ -1,5 +1,5 @@
 ---
-title: Syncfusion Code Studio User Settings Reference
+title: Syncfusion Code User Settings Reference
 description: "Professional guide for customizing development environment settings and optimizing workflow efficiency"
 classification: "User Guide - Configuration Documentation"
 platform: syncfusion-code-studio
@@ -33,7 +33,7 @@ The User Settings page can be accessed in three ways:
 
 ### 1. From the Account
 
-- Click the Code Studio Account icon.
+- Click the Syncfusion Code Account icon.
 
 <img src="./reference-images/settings-account.png" alt="UserSettings" >
 
@@ -43,8 +43,8 @@ The User Settings page can be accessed in three ways:
 
 ### 2. From the Toggle Sidebar
 
-- Click the **gear icon** on the left sidebar of the Code Studio window.
-- Select Code Studio Settings from the menu.
+- Click the **gear icon** on the left sidebar of the Syncfusion Code window.
+- Select Syncfusion Code Settings from the menu.
 
 <img src="./reference-images/settings-sidebar.png" alt="UserSettings" >
 
@@ -54,7 +54,7 @@ The User Settings page can be accessed in three ways:
 
 ### 3. From the Chat Window
 
-- Navigate to the **Code Studio Chat Window**.
+- Navigate to the **Syncfusion Code Chat Window**.
 - Click the **gear icon** located at the top right corner.
 - Select Open Settings. 
 
@@ -112,7 +112,7 @@ The following settings are available on the User Settings page.
 
 #### Agent File Locations
 - Specify locations of agent files (*.agents.md). Relative paths are resolved from the root folder of your workspace.
-- Default: `.codestudio/agents .github/agents .claude/agents ~/.claude/agents ~/.copilot/agents ~/.codestudio/agents`
+- Default: `.sfcode/agents .github/agents .claude/agents ~/.claude/agents ~/.copilot/agents ~/.sfcode/agents`
 
 #### Use Chat Hooks
 - Controls whether chat hooks are executed at strategic points during an agent's workflow. Hooks are loaded from the files configured in Hook File Locations.
@@ -132,15 +132,15 @@ The following settings are available on the User Settings page.
 
 ### Instructions & Skills
 
-#### Use codestudio-instructions.md File 
-- Controls whether instructions from `.codestudio/codestudio-instructions.md` are added to Code Studio requests. 
+#### Use sfcode-instructions.md File 
+- Controls whether instructions from `.sfcode/sfcode-instructions.md` are added to Syncfusion Code requests. 
 - Default: `Enabled`
 
-> **Note:** Keep your instructions short and precise. Poor instructions can degrade Code Studio quality and performance. 
+> **Note:** Keep your instructions short and precise. Poor instructions can degrade Syncfusion Code quality and performance. 
 
 #### Instruction File Locations 
 - Specify locations of instruction files (`*.instructions.md`) that can be attached in chat sessions.
-- Default: `.codestudio/instructions .github/instructions .claude/rules ~/.claude/rules ~/.copilot/instructions ~/.codestudio/instructions`
+- Default: `.sfcode/instructions .github/instructions .claude/rules ~/.claude/rules ~/.copilot/instructions ~/.sfcode/instructions`
 
 #### Use Agent Skills
 - Controls whether skills are provided as specialized capabilities to the chat requests. The language model can load these skills on-demand if the `read` tool is available.
@@ -148,7 +148,7 @@ The following settings are available on the User Settings page.
 
 #### Skill File Locations
 - Each path should contain skill subfolders with SKILL.md files (e.g., add my-skills if you have my-skills/skilla/SKILL.md). Relative paths are resolved from the root folder(s) of your workspace.
-- Default: `.codestudio/skills .agents/skills .claude/skills ~/.codestudio/skills ~/.agents/skills ~/.claude/skills ~/.copilot/skills`
+- Default: `.sfcode/skills .agents/skills .claude/skills ~/.sfcode/skills ~/.agents/skills ~/.claude/skills ~/.copilot/skills`
 
 
 <img src="./reference-images/settings-skills1.png" alt="UserSettings" >
@@ -159,14 +159,14 @@ The following settings are available on the User Settings page.
 
 ### Autocomplete
 
-- When enabled, Code Studio provides inline code suggestions across all supported languages.
+- When enabled, Syncfusion Code provides inline code suggestions across all supported languages.
 - Default: `Enabled`
 
 <img src="./reference-images/settings-autocomplete1.png" alt="UserSettings" >
 
 ### Indexing
 
-- When enabled, Code Studio will start an indexing process to scan and embed workspace files for accurate search results. 
+- When enabled, Syncfusion Code will start an indexing process to scan and embed workspace files for accurate search results. 
 
 <img src="./reference-images/settings-indexing1.png" alt="UserSettings" >
 
@@ -181,7 +181,7 @@ The following settings are available on the User Settings page.
 
 ### Telemetry
 
-- When enabled, Code Studio collects anonymous telemetry data to improve the product.
+- When enabled, Syncfusion Code collects anonymous telemetry data to improve the product.
 - Default: `Enabled`
 
 <img src="./reference-images/settings-telemetry1.png" alt="UserSettings" >
@@ -189,7 +189,7 @@ The following settings are available on the User Settings page.
 ### Help & Support
 
 - **Documentation**  
-  Access the official Syncfusion Code Studio documentation for configuration guidance and usage instructions.
+  Access the official Syncfusion Code documentation for configuration guidance and usage instructions.
 
 - **Have an Issue?**  
   If you encounter any problems, you can easily reach out to our support team at [support.syncfusion.com](https://support.syncfusion.com).
