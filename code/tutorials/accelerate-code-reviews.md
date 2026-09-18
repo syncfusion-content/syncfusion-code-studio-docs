@@ -112,7 +112,7 @@ A custom agent is like a specialized reviewer you configure once, then use forev
 - ✓ Great for teams
 - ✓ Remembers all your standards
 
-For detailed steps on creating custom agents, see [Custom Agents](/code/reference/configure-properties/custom-agents).
+For detailed steps on creating custom agents, see [Custom Agents](/code/customization/custom-agents).
 
 Now we can see how a custom agent reviews your code. Below is a complete code review agent you can copy and use. It checks for security, performance, quality, tests, and documentation every time.
 

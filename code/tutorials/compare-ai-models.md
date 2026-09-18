@@ -13,7 +13,7 @@ Each AI model available in Syncfusion Code has distinct strengths. To help you d
 
 These examples illustrate how models differ in their reasoning style, response depth, and ability to handle various input types. Use them to compare output quality and choose the right model for your specific workflow.
 
-For a full list of supported models and side-by-side feature comparisons, see the [Model Comparison](/code/reference/configure-properties/model-comparison) page in the reference section.
+For a full list of supported models and side-by-side feature comparisons, see the [Model Comparison](/code/customization/model-comparison) page in the customization section.
 
 
 
