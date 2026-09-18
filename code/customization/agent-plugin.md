@@ -186,9 +186,9 @@ After installation, you will notice the new plugin capabilities in the following
 
 For more information on features that work with agent plugins, refer to the following: 
 
-- **[Agent Skills](/code/customization/skills)**: Learn how to create reusable, specialized tasks for agents. 
+- **[Agent Skills](/code-studio/customization/skills)**: Learn how to create reusable, specialized tasks for agents. 
 
-- **[Custom Agents](/code/customization/custom-agents)**: Understand how to build domain-specific AI personas. 
+- **[Custom Agents](/code-studio/customization/custom-agents)**: Understand how to build domain-specific AI personas. 
 
-- **[MCP Servers](code/customization/mcp/customservers)**: Discover how to integrate mcp tools and data sources. 
+- **[MCP Servers](code-studio/customization/mcp/customservers)**: Discover how to integrate mcp tools and data sources. 
  

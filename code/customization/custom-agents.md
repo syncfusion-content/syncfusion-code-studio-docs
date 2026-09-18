@@ -171,11 +171,11 @@ For a quick start, explore our public repository of predefined agent templates. 
 
 Predefined agents are available in our GitHub repository:
 
-**🔗 [Browse Predefined Agents](https://github.com/syncfusion/code-agent-library)**
+**🔗 [Browse Predefined Agents](https://github.com/syncfusion/code-studio-agent-library)**
 
 ### How to Use Predefined Agents
 
-1. **Browse the Repository**: Visit the [agents repository](https://github.com/syncfusion/code-agent-library) to explore available agents
+1. **Browse the Repository**: Visit the [agents repository](https://github.com/syncfusion/code-studio-agent-library) to explore available agents
 2. **Download Agent Files**: Copy the `.agent.md` files you want to use
 3. **Add to Your Project**: Place files in `YOUR-PROJECT/.sfcode/agents/` folder
 4. **Activate**: The agents will automatically appear in your agent dropdown once saved
