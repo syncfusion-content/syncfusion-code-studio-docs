@@ -61,6 +61,6 @@ Use this method when you want to branch off from an earlier decision point witho
 
 ## What's Next
 
-- [Checkpoints and Editing Requests](/code/features/checkpoints) - Restore your workspace to earlier states within a single session
-- [Agent Mode](/code/features/agent) - Combine forked sessions with agent mode for autonomous exploration of different approaches
-- [Manage Chat Session](/code/how-to-guides/manage-chat-session) - Organize, rename, and manage multiple chat sessions effectively
+- [Checkpoints and Editing Requests](/code-studio/features/checkpoints) - Restore your workspace to earlier states within a single session
+- [Agent Mode](/code-studio/features/agent) - Combine forked sessions with agent mode for autonomous exploration of different approaches
+- [Manage Chat Session](/code-studio/how-to-guides/manage-chat-session) - Organize, rename, and manage multiple chat sessions effectively

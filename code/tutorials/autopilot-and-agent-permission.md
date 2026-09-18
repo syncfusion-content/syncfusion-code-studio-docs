@@ -122,4 +122,4 @@ Syncfusion Code provides three permission levels, each balancing automation with
 
 - Agent Debug Log — Shows detailed logs of what Autopilot was thinking and why it made decisions.
 
-- **[Hooks](/code/customization/hooks)** — Lets you create custom approval rules (advanced feature). Example: "Always require approval before editing production files, but auto-approve test files."
+- **[Hooks](/code-studio/customization/hooks)** — Lets you create custom approval rules (advanced feature). Example: "Always require approval before editing production files, but auto-approve test files."

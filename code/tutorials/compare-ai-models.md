@@ -13,7 +13,7 @@ Each AI model available in Syncfusion Code has distinct strengths. To help you d
 
 These examples illustrate how models differ in their reasoning style, response depth, and ability to handle various input types. Use them to compare output quality and choose the right model for your specific workflow.
 
-For a full list of supported models and side-by-side feature comparisons, see the [Model Comparison](/code/customization/model-comparison) page in the customization section.
+For a full list of supported models and side-by-side feature comparisons, see the [Model Comparison](/code-studio/customization/model-comparison) page in the customization section.
 
 
 
@@ -688,6 +688,6 @@ You have successfully completed this tutorial when you can:
 
 Now that you understand how different AI models behave and when to use them:
 
-1. **Explore Advanced Features**: Try using the [Agent](/code/features/agent) feature with reasoning-focused models like GPT-5 or GPT-5.2 for autonomous multi-step workflows.
+1. **Explore Advanced Features**: Try using the [Agent](/code-studio/features/agent) feature with reasoning-focused models like GPT-5 or GPT-5.2 for autonomous multi-step workflows.
 
 As task complexity increases, adjusting your model choice can significantly improve both productivity and code quality.

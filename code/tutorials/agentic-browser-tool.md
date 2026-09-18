@@ -77,5 +77,5 @@ If any issues are detected, the agent can:
 
 ## What’s Next
 
-- **[Agent](/code/features/agent)** – Discover advanced workflows and capabilities of the agent  
-- **[Custom Agent](/code/customization/custom-agents)** – Establish clear rules and instructions for consistent and constrained behavior
+- **[Agent](/code-studio/features/agent)** – Discover advanced workflows and capabilities of the agent  
+- **[Custom Agent](/code-studio/customization/custom-agents)** – Establish clear rules and instructions for consistent and constrained behavior

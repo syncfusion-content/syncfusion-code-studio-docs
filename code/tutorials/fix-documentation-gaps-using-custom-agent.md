@@ -19,7 +19,7 @@ Instead of manually writing long README files and architecture notes, you will:
 
 By the end, you will have a **repeatable workflow** to keep your documentation fresh without turning developers into full-time writers.
 
-For a deeper understanding of the features used in this tutorial, see [Custom Agents](/code/customization/custom-agents) and [Checkpoints](/code/features/checkpoints).
+For a deeper understanding of the features used in this tutorial, see [Custom Agents](/code-studio/customization/custom-agents) and [Checkpoints](/code-studio/features/checkpoints).
 
 ## Prerequisites
 
@@ -59,7 +59,7 @@ In this step, you will create the configuration file that turns a generic model 
    - Final path: `.sfcode/agents/`.
 3. **Create or download the agent template:**
    - Create a custom agent for documentation, or obtain the `Codebase Documenter` agent from the agent library.
-   - Download the custom Codebase Documenter agent from the [Codebase Documenter agent template](https://github.com/syncfusion/code-library/blob/master/agents/documentation/codebase-documenter.agent.md).
+   - Download the custom Codebase Documenter agent from the [Codebase Documenter agent template](https://github.com/syncfusion/code-studio-library/blob/master/agents/documentation/codebase-documenter.agent.md).
 4. **Place the template in your project:**
    - Copy `Codebase-Documenter.agent.md` into the `.sfcode/agents` folder.
 5. **Open the agent file in the editor:**
@@ -111,7 +111,7 @@ Now that the agent is defined in your project, you can start using it from the *
 
 <img src="./tutorials-images/fix-docs-agent-select.png" alt="Chat Panel showing Codebase Documenter selected in the Agent mode dropdown" />
 
-> **Note:** If you do not see the agent in the dropdown, double-check that the `.agent.md` file is inside `.sfcode/agents/`, the file name ends with `.agent.md`, and there are no syntax errors in the metadata block at the top. For a deeper understanding of agent behavior, see [Custom Agents](/code/customization/custom-agents).
+> **Note:** If you do not see the agent in the dropdown, double-check that the `.agent.md` file is inside `.sfcode/agents/`, the file name ends with `.agent.md`, and there are no syntax errors in the metadata block at the top. For a deeper understanding of agent behavior, see [Custom Agents](/code-studio/customization/custom-agents).
 
 ### Step 4: Ask the Agent to Document Your Codebase
 
@@ -196,7 +196,7 @@ Documentation is only useful if it stays up to date. This step shows you how to 
 
 Keep momentum by trying one of these next steps:
 
-- Generate your first code change: Walk through creating and applying a safe code diff with the agent. See [Generate Your First Code Using Agent](/code/tutorials/generate-your-first-code-using-agent).
-- Fix bugs with AI: Locate, explain, and patch defects end-to-end. See [Fixing Bugs with AI](/code/tutorials/fixing-bugs-with-ai).
-- Accelerate code reviews: Summarize diffs, surface risks, and propose improvements. See [Accelerate Code Reviews](/code/tutorials/accelerate-code-reviews).
+- Generate your first code change: Walk through creating and applying a safe code diff with the agent. See [Generate Your First Code Using Agent](/code-studio/tutorials/generate-your-first-code-using-agent).
+- Fix bugs with AI: Locate, explain, and patch defects end-to-end. See [Fixing Bugs with AI](/code-studio/tutorials/fixing-bugs-with-ai).
+- Accelerate code reviews: Summarize diffs, surface risks, and propose improvements. See [Accelerate Code Reviews](/code-studio/tutorials/accelerate-code-reviews).
 

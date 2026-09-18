@@ -120,6 +120,6 @@ The more relevant context the AI has, the more accurate its suggestions will be.
 
 ## What's Next
 
-- Use [Autocomplete](/code/features/autocomplete) to catch errors as you type and reduce bugs before they occur.
-- Explore [Agent mode](/code/tutorials/generate-your-first-code-using-agent) for generating and fixing code autonomously across your project.
-- Use the [Ask feature](/code/features/ask) to have the AI explain error messages and suggest solutions in detail.
+- Use [Autocomplete](/code-studio/features/autocomplete) to catch errors as you type and reduce bugs before they occur.
+- Explore [Agent mode](/code-studio/tutorials/generate-your-first-code-using-agent) for generating and fixing code autonomously across your project.
+- Use the [Ask feature](/code-studio/features/ask) to have the AI explain error messages and suggest solutions in detail.

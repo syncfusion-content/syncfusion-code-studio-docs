@@ -116,7 +116,7 @@ Syncfusion Code offers different ways to interact—Ask, Edit, Plan, and Agent. 
 
 **When to use each mode:**
 
-**[Ask Mode](/code/features/ask)**
+**[Ask Mode](/code-studio/features/ask)**
 Use this when you need to understand something, brainstorm ideas, or ask questions about your code.
 
 Examples:
@@ -126,7 +126,7 @@ Examples:
 
 Best for: Questions, understanding
 
-**[Edit Mode](/code/features/edit)**
+**[Edit Mode](/code-studio/features/edit)**
 Use this when you need to edit a specific code block or a specific file.
 
 Examples:
@@ -136,7 +136,7 @@ Examples:
 
 Best for: Quick, focused edits in one place
 
-**[Plan Mode](/code/features/plan)**
+**[Plan Mode](/code-studio/features/plan)**
 Use this when facing a complex feature that spans multiple files.
 
 Examples:
@@ -146,7 +146,7 @@ Examples:
 Best for: architectural decisions
 
 
-**[Agent Mode](/code/features/agent)**
+**[Agent Mode](/code-studio/features/agent)**
 Use this when you need autonomous, multi-file changes with the AI making decisions.
 
 Examples:

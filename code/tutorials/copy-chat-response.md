@@ -55,6 +55,6 @@ Navigate to the Chat view in your editor where the agent responses are displayed
 ---
 
 ### What's Next
-- **[Agent](/code/features/agent)** – Explore advanced workflows and capabilities of the agent  
-- **[Manage Chat Session](/code/how-to-guides/manage-chat-session)** - Organize, rename, and manage multiple chat sessions effectively
+- **[Agent](/code-studio/features/agent)** – Explore advanced workflows and capabilities of the agent  
+- **[Manage Chat Session](/code-studio/how-to-guides/manage-chat-session)** - Organize, rename, and manage multiple chat sessions effectively
 modify with this to new content

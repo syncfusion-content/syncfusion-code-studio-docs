@@ -14,13 +14,13 @@ This tutorial teaches you how to set up and manage your development team in Sync
 
 This tutorial is perfect for team leads and admins who want to get their team collaboration up and running quickly.
 
-For more details on the features covered in this tutorial, see [User & Teams Management](/code/enterprise-server/userandteams) and [Dashboard Analytics](/code/enterprise-server/dashboard).
+For more details on the features covered in this tutorial, see [User & Teams Management](/code-studio/enterprise-server/userandteams) and [Dashboard Analytics](/code-studio/enterprise-server/dashboard).
 
 ## Prerequisites
 
 Before starting, ensure you have:
 
-- **Syncfusion Code Enterprise account** — If not set up, see [Enterprise Server Getting Started Guide](/code/enterprise-server/getting-started)
+- **Syncfusion Code Enterprise account** — If not set up, see [Enterprise Server Getting Started Guide](/code-studio/enterprise-server/getting-started)
 - **Admin or Team Lead role** — You'll need one of these roles to create teams and invite users
 
 ## What You Will Learn
@@ -73,7 +73,7 @@ Teams are organizational units that group developers working together. They help
 
 ### How to Create Teams
 
-**To create teams with detailed step-by-step instructions and screenshots,** see [User & Teams - Team Management Documentation](/code/enterprise-server/userandteams)
+**To create teams with detailed step-by-step instructions and screenshots,** see [User & Teams - Team Management Documentation](/code-studio/enterprise-server/userandteams)
 
 
 ### Step 2: Invite Users
@@ -104,7 +104,7 @@ Syncfusion Code provides two ways to add members to your teams:
 
 ### How to Invite Users
 
-**To invite users with detailed step-by-step instructions and screenshots,** see [User & Teams Documentation](/code/enterprise-server/userandteams)
+**To invite users with detailed step-by-step instructions and screenshots,** see [User & Teams Documentation](/code-studio/enterprise-server/userandteams)
 
 
 ### Step 3: Monitor Token Usage
@@ -145,7 +145,7 @@ The Dashboard displays comprehensive usage data:
 
 ### How to Access Usage Data
 
-**To monitor token usage with detailed instructions on accessing all metrics and reports,** see [Dashboard Documentation](/code/enterprise-server/dashboard)
+**To monitor token usage with detailed instructions on accessing all metrics and reports,** see [Dashboard Documentation](/code-studio/enterprise-server/dashboard)
 
 
 ### Step 4: Manage Team Members
@@ -190,4 +190,4 @@ The Dashboard supports these key operations:
 
 ### How to Manage Members
 
-**To perform member management tasks with detailed workflows and screenshots,** see [User & Teams Documentation](/code/enterprise-server/userandteams)
+**To perform member management tasks with detailed workflows and screenshots,** see [User & Teams Documentation](/code-studio/enterprise-server/userandteams)

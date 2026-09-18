@@ -59,6 +59,6 @@ This same instant response also works for other terminal events, not just `Ctrl 
 
 
 ## What’s Next?
-- [Generate Your First Code Change Using Agent](/code/tutorials/generate-your-first-code-using-agent) — Guide the agent to implement and verify a small change end-to-end.
-- [Fixing Bugs with AI](/code/tutorials/fixing-bugs-with-ai) — Use the agent to identify, patch, and validate defects safely.
-- [Compare AI Models for Different Tasks](/code/tutorials/compare-ai-models) — Evaluate model quality, cost, and speed for your workflows.
+- [Generate Your First Code Change Using Agent](/code-studio/tutorials/generate-your-first-code-using-agent) — Guide the agent to implement and verify a small change end-to-end.
+- [Fixing Bugs with AI](/code-studio/tutorials/fixing-bugs-with-ai) — Use the agent to identify, patch, and validate defects safely.
+- [Compare AI Models for Different Tasks](/code-studio/tutorials/compare-ai-models) — Evaluate model quality, cost, and speed for your workflows.

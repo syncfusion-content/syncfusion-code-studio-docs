@@ -24,7 +24,7 @@ In this tutorial, you'll discover how to:
 
 ## Steps on How to Automate software testing without writing test cases manually in Syncfusion Code
 
-Create a Custom Agent named Software Testing Agent in Syncfusion Code to automate test case generation. To know more about Custom Agents, see the [official Custom Agent documentation](/code/customization/custom-agents).
+Create a Custom Agent named Software Testing Agent in Syncfusion Code to automate test case generation. To know more about Custom Agents, see the [official Custom Agent documentation](/code-studio/customization/custom-agents).
 
 **Step 1:** Click on the Modes dropdown and then click on Configure Custom Agents.
 
@@ -53,7 +53,7 @@ Before: The file opens with default/sample instructions provided by Syncfusion C
 
 <img src="tutorials-images/SampleCustomAgentFile.png" alt="Sample custom agent file" />
 
-After: Replace the [custom agent file](https://github.com/syncfusion/code-library/blob/master/agents/testing/react/test-generator.agent.md) completely with your actual custom agent instructions. We have used Syncfusion Code AI to generate these instructions.
+After: Replace the [custom agent file](https://github.com/syncfusion/code-studio-library/blob/master/agents/testing/react/test-generator.agent.md) completely with your actual custom agent instructions. We have used Syncfusion Code AI to generate these instructions.
 
 <img src="tutorials-images/After-Giving-Instruction.gif" alt="After giving instructions" />
 
