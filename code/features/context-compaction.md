@@ -54,4 +54,4 @@ If there is critical context you want preserved, pass it as a note after the com
 Do not wait for the AI to lose track. Compact regularly during long sessions to maintain consistent, high-quality responses.
 
 ## Related Features
-- [Agent Mode](/code/features/agent) - Long agent sessions can accumulate a large amount of context. Use `/compact` to trim the history and keep the agent focused on the current task.
+- [Agent Mode](/code-studio/features/agent) - Long agent sessions can accumulate a large amount of context. Use `/compact` to trim the history and keep the agent focused on the current task.

@@ -53,6 +53,6 @@ Using Global Agent in Syncfusion Code is straightforward:
 
 ## Related Features
 
-- [Custom Agent](/code/customization/custom-agents) - Pre‑configured AI agents for specific tasks that follow fixed rules, tools, and behaviors—ensuring consistent, repeatable workflows across teams.
+- [Custom Agent](/code-studio/customization/custom-agents) - Pre‑configured AI agents for specific tasks that follow fixed rules, tools, and behaviors—ensuring consistent, repeatable workflows across teams.
 
-- [Custom Prompt](/code/customization/custom-prompt) - Prompt files are on‑demand, reusable Markdown prompts that standardize specific development tasks like code generation and reviews.
+- [Custom Prompt](/code-studio/customization/custom-prompt) - Prompt files are on‑demand, reusable Markdown prompts that standardize specific development tasks like code generation and reviews.

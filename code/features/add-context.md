@@ -175,5 +175,5 @@ Selecting one routes your request to that domain expert.
 
 
 ## Releted Features
- - [Inline Chat](/code/features/inlinechat) Inline Chat in Syncfusion Code lets you talk to AI directly inside your code or terminal without switching screens.
- - [Generate Code](/code/features/generatecode) The Generate Code feature speeds up development by automatically handling repetitive tasks and giving instant AI-powered help right inside your editor.
+ - [Inline Chat](/code-studio/features/inlinechat) Inline Chat in Syncfusion Code lets you talk to AI directly inside your code or terminal without switching screens.
+ - [Generate Code](/code-studio/features/generatecode) The Generate Code feature speeds up development by automatically handling repetitive tasks and giving instant AI-powered help right inside your editor.

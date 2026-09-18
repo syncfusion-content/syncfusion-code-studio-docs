@@ -63,7 +63,7 @@ Run `/chronicle:tips` weekly to get actionable feedback on your workflow pattern
 If you are not sure when or why a change was made, ask Chronicle directly — for example, `/chronicle when did I last edit the auth module?`
 
 ## Related Features
-- [Agent Mode](/code/features/agent) - Chronicle helps you trace what the agent did across sessions. Use it to review agent-driven changes or reconstruct the sequence of edits made during an autonomous task.
-- [Checkpoints](/code/features/checkpoints) - Use Checkpoints alongside Chronicle to both restore workspace states and understand what changed between sessions.
+- [Agent Mode](/code-studio/features/agent) - Chronicle helps you trace what the agent did across sessions. Use it to review agent-driven changes or reconstruct the sequence of edits made during an autonomous task.
+- [Checkpoints](/code-studio/features/checkpoints) - Use Checkpoints alongside Chronicle to both restore workspace states and understand what changed between sessions.
  the AI explain error messages and suggest solutions in detail.
  

@@ -291,7 +291,7 @@ When enabled (the default), cancelling a task saves its progress and any generat
 
 ## Related Features
 
-- [Agent Mode](/code/features/agent): The AI engine that executes each workflow stage autonomously.
-- [Plan Mode](/code/features/plan): Use Plan Mode to design and refine an implementation plan before the agent writes code.
-- [Custom Instructions](/code/customization/custom-instructions): Add project-level instructions that the agent reads on every task.
-- [Skills](/code/customization/skills): Learn how individual skills are structured and how to author your own.
+- [Agent Mode](/code-studio/features/agent): The AI engine that executes each workflow stage autonomously.
+- [Plan Mode](/code-studio/features/plan): Use Plan Mode to design and refine an implementation plan before the agent writes code.
+- [Custom Instructions](/code-studio/customization/custom-instructions): Add project-level instructions that the agent reads on every task.
+- [Skills](/code-studio/customization/skills): Learn how individual skills are structured and how to author your own.

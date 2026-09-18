@@ -90,4 +90,4 @@ Consider creating the ToDo application,
 
 ## Related Features
 
-- [Custom Agent](/code/customization/custom-agents): Define rules/instructions for consistent, constrained behavior.
+- [Custom Agent](/code-studio/customization/custom-agents): Define rules/instructions for consistent, constrained behavior.

@@ -67,7 +67,7 @@ After Syncfusion Code generates a shell command:
    <img src="./feature-images/inlinechat5.png" alt="inlinechat"  />
 
 ## Releted Features
-- [Add context to your chat prompt](/code/features/add-context) - Enhance your prompt by providing extra details. This helps Syncfusion Code generate more accurate results and keeps your workspace aligned with your goals.
+- [Add context to your chat prompt](/code-studio/features/add-context) - Enhance your prompt by providing extra details. This helps Syncfusion Code generate more accurate results and keeps your workspace aligned with your goals.
 
 
 

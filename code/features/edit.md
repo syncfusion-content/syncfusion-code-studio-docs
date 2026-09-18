@@ -60,9 +60,9 @@ Edit Mode is an AI-powered feature in Syncfusion Code that helps developers modi
 <img src="./feature-images/keepUndo.png" alt="Chat Input" />
 
 ## Related Features
-- [Add Context](/code/features/add-context): Provide additional files for more accurate edits
-- [Quick Fix](/code/how-to-guides/quick-fix-error): Instantly resolve detected issues
-- [Inline Chat](/code/features/inlinechat): Get in-line code suggestions
+- [Add Context](/code-studio/features/add-context): Provide additional files for more accurate edits
+- [Quick Fix](/code-studio/how-to-guides/quick-fix-error): Instantly resolve detected issues
+- [Inline Chat](/code-studio/features/inlinechat): Get in-line code suggestions
 
 ## Best Practices
 
