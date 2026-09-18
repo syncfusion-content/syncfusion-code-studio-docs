@@ -1,8 +1,8 @@
 ---
-title: Terminal Tools Improvements - Seamless Background Terminal Management in Code Studio
-description: Learn how Syncfusion Code Studio now enables interactive background terminal sessions, instant notifications, and automated workflows for uninterrupted development.
+title: Terminal Tools Improvements - Seamless Background Terminal Management in Syncfusion Code
+description: Learn how Syncfusion Code now enables interactive background terminal sessions, instant notifications, and automated workflows for uninterrupted development.
 platform: syncfusion-code-studio
-keywords: terminal-tools, background-terminal, notifications, automation, agent, code-studio
+keywords: terminal-tools, background-terminal, notifications, automation, agent, syncfusion-code
 ---
 
 
@@ -11,7 +11,7 @@ keywords: terminal-tools, background-terminal, notifications, automation, agent,
 # Terminal Tools Improvements for Background Sessions
 
 ## Overview
-When the Code Studio agent runs terminal commands, those commands sometimes move to the background, either because they are long-running tasks or because a foreground terminal timed out. In versions prior to 2.0.4, the agent could only read the output of those background terminals but could not interact with them. This meant that if a background terminal was waiting for a password, a confirmation, or any other input, the agent was stuck. Starting from version 2.0.4, this limitation has been resolved.
+When the Syncfusion Code agent runs terminal commands, those commands sometimes move to the background, either because they are long-running tasks or because a foreground terminal timed out. In versions prior to 2.0.4, the agent could only read the output of those background terminals but could not interact with them. This meant that if a background terminal was waiting for a password, a confirmation, or any other input, the agent was stuck. Starting from version 2.0.4, this limitation has been resolved.
 
 This solves that problem with two key improvements:
 1. **Send input to background terminals**: The agent can now send input directly to a background terminal, not just read from it.
@@ -26,12 +26,12 @@ By the end of this guide, you will understand:
 
 ## Key Concepts
 - **Background Terminal**: A terminal session that’s running, but not currently visible (for example, switched to a different tab or minimized).
-- **Notification**: A pop-up or alert in Code Studio that warns you when something in the background terminal needs your attention (like needing a password or confirming an action).
+- **Notification**: A pop-up or alert in Syncfusion Code that warns you when something in the background terminal needs your attention (like needing a password or confirming an action).
 
 ## Steps
 
 ### Step 1: Ask the Agent to Run a Command via Chat
-In the Code Studio chat panel, ask the agent to run a long-running terminal command. 
+In the Syncfusion Code chat panel, ask the agent to run a long-running terminal command. 
 
 For example: Run npm run dev for me.
 
@@ -59,6 +59,6 @@ This same instant response also works for other terminal events, not just `Ctrl 
 
 
 ## What’s Next?
-- [Generate Your First Code Change Using Agent](/code-studio/tutorials/generate-your-first-code-using-agent.md) — Guide the agent to implement and verify a small change end-to-end.
-- [Fixing Bugs with AI](/code-studio/tutorials/fixing-bugs-with-ai.md) — Use the agent to identify, patch, and validate defects safely.
-- [Compare AI Models for Different Tasks](/code-studio/tutorials/compare-ai-models.md) — Evaluate model quality, cost, and speed for your workflows.
+- [Generate Your First Code Change Using Agent](/code-studio/tutorials/generate-your-first-code-using-agent) — Guide the agent to implement and verify a small change end-to-end.
+- [Fixing Bugs with AI](/code-studio/tutorials/fixing-bugs-with-ai) — Use the agent to identify, patch, and validate defects safely.
+- [Compare AI Models for Different Tasks](/code-studio/tutorials/compare-ai-models) — Evaluate model quality, cost, and speed for your workflows.

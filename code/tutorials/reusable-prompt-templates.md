@@ -1,6 +1,6 @@
 ---
 title: From Repetition to Speed - Boost Productivity with Reusable Prompt Templates
-description: Learn how to create and use custom prompt templates in Syncfusion Code Studio to save time, standardize workflows, and build a personal library of reusable AI instructions.
+description: Learn how to create and use custom prompt templates in Syncfusion Code to save time, standardize workflows, and build a personal library of reusable AI instructions.
 platform: syncfusion-code-studio
 keywords: custom-prompts, reusable-templates, productivity, workflow-automation, ai-assistance, prompt-libraries
 ---
@@ -16,7 +16,7 @@ What if you could save those instructions once and reuse them forever?
 
 That's what **Reusable Templates** do. They let you encode your team's best practices, standards, and workflows once — then automatically apply them across all your work. No more repetition. No more inconsistency.
 
-In this tutorial, you'll learn four different ways to reuse templates in Code Studio:
+In this tutorial, you'll learn four different ways to reuse templates in Syncfusion Code:
 
 - **Custom Prompts** — Quick templates you invoke manually
 - **Custom Agents** — Create specialized AI personalities agents (Reviewer, Planner, etc.)
@@ -31,7 +31,7 @@ We will see how to pick the right template type for your problem, and you'll sav
 
 By the end of this tutorial, you'll be able to:
 
-- Understand four ways to reuse your instructions in Code Studio
+- Understand four ways to reuse your instructions in Syncfusion Code
 - Know which template type solves your specific problem
 - Save hours per week by eliminating repetitive typing
 - Standardize your team's practices and workflows
@@ -51,7 +51,7 @@ By the end of this tutorial, you'll be able to:
 
 **Best for:** Tasks you do occasionally, personal use.
 
-To create and setup the custom prompt, see [Custom Prompts](/code-studio/reference/configure-properties/custom-prompt) for detailed steps.
+To create and setup the custom prompt, see [Custom Prompts](/code-studio/customization/custom-prompt) for detailed steps.
 
 Now we can see how a custom prompt saves and reuses your prompts. Below is a complete documentation template you can copy and use to add consistent comments to your code every time.
 
@@ -117,7 +117,7 @@ When you run this template:
 
 **Best for:** Team workflows, consistent role-based tasks, shared standards
 
-To create and setup the agents, see [Custom Agents](/code-studio/reference/configure-properties/custom-agents) for detailed steps.
+To create and setup the agents, see [Custom Agents](/code-studio/customization/custom-agents) for detailed steps.
 
 Now we can see how a custom agent generates production-ready code. Below is a complete code generator template you can copy and use to write clean, well-structured code every time.
 
@@ -186,7 +186,7 @@ When you switch to this agent:
 
 **Best for:** Project-wide standards, automatic enforcement
 
-To create and setup the custom instructions, see [Custom Instruction](/code-studio/reference/configure-properties/custom-instructions) for detailed steps.
+To create and setup the custom instructions, see [Custom Instruction](/code-studio/customization/custom-instructions) for detailed steps.
 
 Now we can see how custom instructions automatically enforce your standards. Below is a complete Python standards template you can copy and use to ensure every Python file follows your team's conventions.
 
@@ -268,7 +268,7 @@ When you add this instruction file:
 
 **Best for:** Specialized tasks that activate contextually, occasional workflows.
 
-To create and setup the skills, see [Skills](/code-studio/reference/configure-properties/skills) for detailed steps.
+To create and setup the skills, see [Skills](/code-studio/customization/skills) for detailed steps.
 
 Now we can see how a skill generates test cases for you. Below is a complete test case generator template you can copy and use to write comprehensive tests automatically.
 

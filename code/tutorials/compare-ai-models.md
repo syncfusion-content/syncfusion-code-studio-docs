@@ -1,6 +1,6 @@
 ---
 title: Compare AI models for different tasks
-description: Compare AI models in Syncfusion Code Studio and learn when to use Claude, Gemini, and GPT families for coding, debugging, refactoring, and fast iterations with examples.
+description: Compare AI models in Syncfusion Code and learn when to use Claude, Gemini, and GPT families for coding, debugging, refactoring, and fast iterations with examples.
 platform: syncfusion-code-studio
 keywords: "compare-ai-models, choose-model, claude-haiku-4.5, claude-sonnet-4.5, gemini-2.5-flash, gemini-2.5-pro, gemini-3-flash, gpt-4.1, gpt-5, gpt-5-mini, gpt-5.1-codex, gpt-5.2, code-generation, debugging, refactoring, reasoning, low-latency"
 ---
@@ -9,11 +9,11 @@ keywords: "compare-ai-models, choose-model, claude-haiku-4.5, claude-sonnet-4.5,
 
 ## Overview
 
-Each AI model available in Code Studio has distinct strengths. To help you decide which model to use, this tutorial provides real-world examples of common developer tasks along with sample prompts, expected responses, and guidance on why a particular model is a good fit.
+Each AI model available in Syncfusion Code has distinct strengths. To help you decide which model to use, this tutorial provides real-world examples of common developer tasks along with sample prompts, expected responses, and guidance on why a particular model is a good fit.
 
 These examples illustrate how models differ in their reasoning style, response depth, and ability to handle various input types. Use them to compare output quality and choose the right model for your specific workflow.
 
-For a full list of supported models and side-by-side feature comparisons, see the [Model Comparison](/code-studio/reference/configure-properties/model-comparison) page in the reference section.
+For a full list of supported models and side-by-side feature comparisons, see the [Model Comparison](/code-studio/customization/model-comparison) page in the customization section.
 
 
 
@@ -21,7 +21,7 @@ For a full list of supported models and side-by-side feature comparisons, see th
 
 By the end of this tutorial, you will be able to:
 
-- Identify the strengths and optimal use cases for each AI model in Code Studio
+- Identify the strengths and optimal use cases for each AI model in Syncfusion Code
 - Choose the right model based on task complexity, latency needs, and reasoning requirements
 - Apply model selection strategies to real development scenarios
 - Recognize when to switch models mid-task for better results
@@ -31,7 +31,7 @@ No prior AI expertise is required. This tutorial focuses on practical decision-m
 
 ## Model Capabilities with Examples
 
-Below are the AI models available in Code Studio, explained through realistic tasks, example prompts, and expected results. Each section explains **why** a particular model fits a specific task type.
+Below are the AI models available in Syncfusion Code, explained through realistic tasks, example prompts, and expected results. Each section explains **why** a particular model fits a specific task type.
 
 ### Claude Haiku 4.5
 
