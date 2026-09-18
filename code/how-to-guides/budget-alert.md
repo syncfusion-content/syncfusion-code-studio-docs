@@ -23,7 +23,7 @@ Use budget alerts when you want an email notification as soon as spending crosse
 - **Team Owners Access:** Can configure alerts, and create, edit, and assign budgets specifically for their team members.
 - **Team Leads and Users Access:** Can only view budgets.
 
-- **Budget configured:** Refer to the [Create Budget](/code/enterprise-server/createbudget) guide to create and assign a budget for the team or the individual user before setting an alert.
+- **Budget configured:** Refer to the [Create Budget](/code-studio/enterprise-server/createbudget) guide to create and assign a budget for the team or the individual user before setting an alert.
 
 ## Steps to Configure Budget Alerts for Teams and Individual Users
 

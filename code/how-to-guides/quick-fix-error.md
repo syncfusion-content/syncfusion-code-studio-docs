@@ -117,4 +117,4 @@ After completing these steps:
 
 **Solution:** Provide more context by selecting a larger code region before invoking Explain, then re-run. Optionally, ask for an alternative with specific constraints in chat.
 
->**Note:** For complex errors involving multiple interdependent issues, consider using Agent mode for more comprehensive code analysis and refactoring. See [Agent Mode](/code/features/agent) for details.
+>**Note:** For complex errors involving multiple interdependent issues, consider using Agent mode for more comprehensive code analysis and refactoring. See [Agent Mode](/code-studio/features/agent) for details.
