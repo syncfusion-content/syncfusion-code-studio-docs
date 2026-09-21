@@ -7,7 +7,7 @@ keywords: "code, IDE, AI, developer-tools, syncfusion, code-assistance, producti
 # Global Agents
 
 ## Overview
-Global Agent refers to agents.md, an open-source, standardized file format designed to streamline collaboration between AI coding agents in **SyncfusionÂ® Code**. It serves as a centralized instruction manual, similar to a `README.md`, but specifically tailored for machine interpretation and execution. By consolidating setup instructions, testing protocols, and coding guidelines into a single file, Global Agent simplifies workflows and ensures consistency across projects.  
+Global Agent refers to agents.md, an open-source, standardized file format designed to streamline collaboration between AI coding agents in **Syncfusion® Code**. It serves as a centralized instruction manual, similar to a `README.md`, but specifically tailored for machine interpretation and execution. By consolidating setup instructions, testing protocols, and coding guidelines into a single file, Global Agent simplifies workflows and ensures consistency across projects.  
 
 ## Use Cases
 - Team Collaboration: Standardizes coding guidelines and workflows across multiple developers, ensuring AI agents interpret instructions consistently.
