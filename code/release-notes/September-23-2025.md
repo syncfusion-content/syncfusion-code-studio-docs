@@ -4,7 +4,7 @@ Description: Enhanced Code Studio with improved context usage UI, extension mana
 platform: syncfusion-code-studio
 ---
 
-## Release Updates - September 23, 2025
+# Release Updates - September 23, 2025
 
 - **Code Studio built for enterprise:** Confidently scale AI development across your organization with centralized control, security, and visibility. For more details, please refer to our documentation on [enterprise server](/code-studio/teams-and-enterprise/getting-started).
   - **LLM connections & model management:** Connect to any provider with your own keys (BYO-key), manage models from one control plane, set access rules, and monitor usage with built-in analytics.
