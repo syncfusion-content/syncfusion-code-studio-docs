@@ -40,7 +40,7 @@ You can create prompts as either **Workspace** or **User** prompts:
 5. Choose Workspace or User
 6. Enter a filename (no extension needed)
 
-> **Note:** For detailed instructions on creating and configuring prompt files, see the [Custom Prompt Files](/code-studio/customization/custom-prompt) guide.
+> **Note:** For detailed instructions on creating and configuring prompt files, see the [Custom Prompt Files](/code-studio/customize/custom-prompt) guide.
 
 ### 4. Paste and Format Content in New File
 1. Add YAML frontmatter at the top:

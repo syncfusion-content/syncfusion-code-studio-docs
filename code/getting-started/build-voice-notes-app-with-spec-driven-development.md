@@ -59,7 +59,7 @@ OpenSpec is a tool built for Spec-Driven Development. It helps you organize your
 
 Think of OpenSpec as the planning and organization system that makes SDD work smoothly. It keeps everything clear and prevents miscommunication between you and the AI.
 
-For more information about OpenSpec, visit our [Using OpenSpec in Syncfusion Code](/code-studio/tutorials/using-openspec-inside-syncfusion-code) guide.
+For more information about OpenSpec, visit our [Using OpenSpec in Syncfusion Code](/code-studio/integrations-and-apis/using-openspec-inside-syncfusion-code) guide.
 
 
 ## Build Your First App in Syncfusion Code

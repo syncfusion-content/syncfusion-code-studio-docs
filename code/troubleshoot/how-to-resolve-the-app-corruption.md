@@ -25,7 +25,7 @@ Application corruption can occur when essential Syncfusion Code files—such as 
 
 ### Step 1: Backup Custom Configurations
 
-If you have [custom agents](/code-studio/customization/custom-agents) or settings, backup before proceeding.
+If you have [custom agents](/code-studio/customize/custom-agents) or settings, backup before proceeding.
 
 ### Step 2: Delete Application Folders
 
