@@ -9,7 +9,7 @@ keywords: context-aware-prompting, bug-fixing, prompt-optimization, syncfusion-c
 
 ## Overview
 
-Have you ever asked an AI to "fix this code" and gotten a completely different answer each time? When you tell the AI "fix this function" without any context, the results are unpredictable â€” it may rewrite your function entirely, change your formula, or add error handling you don't need.
+Have you ever asked an AI to "fix this code" and gotten a completely different answer each time? When you tell the AI "fix this function" without any context, the results are unpredictable - it may rewrite your function entirely, change your formula, or add error handling you don't need.
 
 Context-aware prompting means giving the AI clear instructions about what the code currently does, what is broken, what you want fixed, and what you do not want changed. With this approach, the AI produces focused, consistent results every time.
 
@@ -37,7 +37,7 @@ By the end of this tutorial, you'll be able to:
 
 ## Key Concepts
 
-- **Context-aware prompting**: A technique for writing AI prompts that include the current code, specific bugs to fix, desired behavior, and constraints â€” so the AI produces focused, repeatable results.
+- **Context-aware prompting**: A technique for writing AI prompts that include the current code, specific bugs to fix, desired behavior, and constraints - so the AI produces focused, repeatable results.
 - **NaN (Not a Number)**: A JavaScript value returned when a numeric operation receives a non-numeric input, such as when a string is used in arithmetic without conversion.
 - **Operator precedence**: The order in which JavaScript evaluates mathematical operators. For example, `discount / 100 * price` may not compute as intended without explicit parentheses.
 - **Prompt constraints**: Instructions in a prompt that tell the AI what not to change, such as keeping the existing formula structure or avoiding external dependencies.
@@ -74,7 +74,7 @@ console.log(calculateFinalPrice(-50, 10));        // Bug: Negative price
 ```
 
 3. **Run the code:**
-   - Open the integrated terminal by pressing `` Ctrl+` `` (Windows/Linux) or `` Cmd+` `` (Mac), or go to `Terminal` â†’ `New Terminal` in the top menu.
+   - Open the integrated terminal by pressing `` Ctrl+` `` (Windows/Linux) or `` Cmd+` `` (Mac), or go to `Terminal` -> `New Terminal` in the top menu.
    - Ensure you are in the directory where you saved `priceCalculator.js`, then run:
 
 ```bash
@@ -130,10 +130,10 @@ CONSTRAINTS:
 - Set default discount to 0 if missing
 
 EXPECTED BEHAVIOR:
-- calculateFinalPrice(100, 20) â†’ 80
-- calculateFinalPrice("100", 20) â†’ 80
-- calculateFinalPrice(100, undefined) â†’ 100
-- calculateFinalPrice(-50, 10) â†’ 0 (no negative prices)
+- calculateFinalPrice(100, 20) -> 80
+- calculateFinalPrice("100", 20) -> 80
+- calculateFinalPrice(100, undefined) -> 100
+- calculateFinalPrice(-50, 10) -> 0 (no negative prices)
 ```
 
 4. Select the entire `calculateFinalPrice` function in your `priceCalculator.js` file, then send the prompt.
@@ -171,6 +171,6 @@ All four test cases now pass. The function no longer produces `NaN` or negative 
 
 ## What's Next?
 
-- [Generate Your First Code Change Using Agent](/code-studio/agentic-toolbox/agent-guides/generate-your-first-code-using-agent) â€” Let AI write new code for you.
-- [Compare AI Models for Different Tasks](/code-studio/ai-workflow-tutorials/compare-ai-models) â€” Choose the best AI model for your use case.
-- [From Repetition to Speed: Reusable Prompt Templates](/code-studio/monitoring-and-optimization/reusable-prompt-templates) â€” Save your context-aware prompts as reusable templates.
+- [Generate Your First Code Change Using Agent](/code-studio/agentic-toolbox/agent-guides/generate-your-first-code-using-agent) - Let AI write new code for you.
+- [Compare AI Models for Different Tasks](/code-studio/ai-workflow-tutorials/compare-ai-models) - Choose the best AI model for your use case.
+- [From Repetition to Speed: Reusable Prompt Templates](/code-studio/monitoring-and-optimization/reusable-prompt-templates) - Save your context-aware prompts as reusable templates.

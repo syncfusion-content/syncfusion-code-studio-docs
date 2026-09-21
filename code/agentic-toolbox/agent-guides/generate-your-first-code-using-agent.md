@@ -60,7 +60,7 @@ Let's turn on Agent mode! This is the gateway to AI-powered coding.
 
    <img src="../agentic-toolbox-images/firstagentchange2.png" alt="Agent processing request" />
 
-**This is where the AI earns its name!** The Agent is actively exploring and planning changesâ€”just like a developer reviewing your code before making updates.
+**This is where the AI earns its name!** The Agent is actively exploring and planning changes-just like a developer reviewing your code before making updates.
 
 
 
@@ -78,7 +78,7 @@ Here's where *you* stay in control. The Agent shows you everything it wants to c
 
    <img src="../agentic-toolbox-images/firstagentchange3.png" alt="Review changes" />
 
-**You have full control here!** Think of yourself as a code reviewerâ€”you're making sure the AI's work meets your standards before it's applied.
+**You have full control here!** Think of yourself as a code reviewer-you're making sure the AI's work meets your standards before it's applied.
 
 
 
@@ -95,7 +95,7 @@ Once you've approved all the changes you want, the Agent put together a helpful 
 
    > **What if something's wrong?** Don't panic! This is why we have checkpoints (coming up next). You can easily restore to a previous state if needed.
 
-**Great work!** You've successfully guided the AI through its first task and validated the results. This is how professional developers workâ€”with careful review and verification.
+**Great work!** You've successfully guided the AI through its first task and validated the results. This is how professional developers work-with careful review and verification.
 
 
 
@@ -116,8 +116,8 @@ Once you've approved all the changes you want, the Agent put together a helpful 
 You've mastered the basics, but there's so much more to explore:
 
 **Want to dive deeper into checkpoints?**
-   â†’ Head to [Checkpoints](/code-studio/agentic-toolbox/core-capabilities/checkpoints) to learn how to manage multiple versions of your code like a pro.
+   -> Head to [Checkpoints](/code-studio/agentic-toolbox/core-capabilities/checkpoints) to learn how to manage multiple versions of your code like a pro.
 
 **Curious about what else Agent mode can do?**
-   â†’ Check out the [Agent](/code-studio/agentic-toolbox/chat-interactions/agent) feature guide for advanced tips and tricks.
+   -> Check out the [Agent](/code-studio/agentic-toolbox/chat-interactions/agent) feature guide for advanced tips and tricks.
 

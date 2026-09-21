@@ -49,7 +49,7 @@ Chronicle will answer in plain language based on your coding sessions.
 
 <img src="../agentic-toolbox-images/chronicle.png" alt="Chronicle Custom Question" />
 
-> **Tip:** You can ask anything about your recent work â€” for example, `/chronicle what PRs did I work on this week?`
+> **Tip:** You can ask anything about your recent work - for example, `/chronicle what PRs did I work on this week?`
 
 ## Best Practices
 
@@ -60,7 +60,7 @@ Run `/chronicle:standup` before your daily standup to get a ready-to-share summa
 Run `/chronicle:tips` weekly to get actionable feedback on your workflow patterns and refine how you use Syncfusion Code`s AI tools.
 
 ### 3. Use custom questions to trace decisions
-If you are not sure when or why a change was made, ask Chronicle directly â€” for example, `/chronicle when did I last edit the auth module?`
+If you are not sure when or why a change was made, ask Chronicle directly - for example, `/chronicle when did I last edit the auth module?`
 
 ## Related Features
 - [Agent Mode](/code-studio/agentic-toolbox/chat-interactions/agent) - Chronicle helps you trace what the agent did across sessions. Use it to review agent-driven changes or reconstruct the sequence of edits made during an autonomous task.

@@ -74,7 +74,7 @@ Once you submit your troubleshooting query, Syncfusion Code will analyze the deb
 
     <img src="./troubleshoot-images/agent-log.png" alt="Troubleshoot Previous session with Agent Debug log" />
 
-These insights are generated from debug logsâ€”detailed JSONL records stored in your system that capture every event during your chat session.
+These insights are generated from debug logs-detailed JSONL records stored in your system that capture every event during your chat session.
 <img src="./troubleshoot-images/jsonl-file.png" alt="Troubleshoot Previous session with Agent Debug log" />
 
 

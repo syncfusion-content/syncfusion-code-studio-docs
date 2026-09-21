@@ -20,11 +20,11 @@ It reduces repetitive work, improves code quality, and provides instant AI assis
 - Remove repetitive tasks  
 - Get instant help inside your editor  
 
-Itâ€™s like having a **junior developer**, and a **senior reviewer**.
+It's like having a **junior developer**, and a **senior reviewer**.
 
 ## How to Use Automate Code Fixes and Reviews
 
-1. **Rightâ€‘click** on the code you want help with.   
+1. **Right-click** on the code you want help with.   
 3. Choose what you want the AI to do:
    - **Fix**  
    - **Review**  
@@ -59,10 +59,10 @@ When you choose **Review**, the AI:
 - Suggests refactoring for cleaner structure  
 - Points out performance issues  
 - Highlights unused variables or repeated logic  
-- Provides bestâ€‘practice recommendations  
+- Provides best-practice recommendations  
 
 <img src="../agentic-toolbox-images/generatecode-review.png" alt="review" />
 
 ## Releted Features
 - [Inline Chat](/code-studio/agentic-toolbox/chat-interactions/inlinechat) Inline Chat in Syncfusion Code lets you talk to AI directly inside your code or terminal without switching screens.
-- [Autocomplete](/code-studio/agentic-toolbox/core-capabilities/autocomplete) Syncfusion Codeâ€™s AI Autocomplete speeds up development by giving smart inline suggestions, completing code from context, generating code from comments, and offering styleâ€‘aware alternatives for faster, cleaner coding.
+- [Autocomplete](/code-studio/agentic-toolbox/core-capabilities/autocomplete) Syncfusion Code's AI Autocomplete speeds up development by giving smart inline suggestions, completing code from context, generating code from comments, and offering style-aware alternatives for faster, cleaner coding.

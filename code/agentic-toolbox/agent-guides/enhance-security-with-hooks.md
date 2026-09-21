@@ -144,8 +144,8 @@ At a high level, this script:
 
 - Reads the PreToolUse JSON **input** from stdin.
 - Extracts:
-  - `tool_name` â€“ which tool is about to run.
-  - `tool_input` â€“ the arguments the tool will use (for example, requested file paths).
+  - `tool_name` - which tool is about to run.
+  - `tool_input` - the arguments the tool will use (for example, requested file paths).
 - Converts the tool input to a lowercase string and scans it for patterns that look like `.env` files:
   - The default pattern (`\.env["/\\.]`) matches `.env` followed by `"`, `/`, `\\`, or `.`.
 - If a match is found:
@@ -256,7 +256,7 @@ Because the hook runs **before** the tool executes, this is the ideal place to e
 
 ### Step 5: Test the Hook in a Real Session
 
-Now you will verify that your hook works as expected from the userâ€™s point of view.
+Now you will verify that your hook works as expected from the user's point of view.
 
 1. Open the **Chat Panel** and ensure that **Hooks** are enabled for your project.
 
@@ -292,6 +292,6 @@ Here are some ideas:
 
 ## What's Next
 
-- [Generate Your First Code Change Using Agent](/code-studio/agentic-toolbox/agent-guides/generate-your-first-code-using-agent) â€” Guide the agent to implement and verify a small change end-to-end.
-- [Fixing Bugs with AI](/code-studio/agentic-toolbox/agent-guides/fixing-bugs-with-ai) â€” Use the agent to identify, patch, and validate defects safely.
-- [Compare AI Models for Different Tasks](/code-studio/ai-workflow-tutorials/compare-ai-models) â€” Evaluate model quality, cost, and speed for your workflows.
+- [Generate Your First Code Change Using Agent](/code-studio/agentic-toolbox/agent-guides/generate-your-first-code-using-agent) - Guide the agent to implement and verify a small change end-to-end.
+- [Fixing Bugs with AI](/code-studio/agentic-toolbox/agent-guides/fixing-bugs-with-ai) - Use the agent to identify, patch, and validate defects safely.
+- [Compare AI Models for Different Tasks](/code-studio/ai-workflow-tutorials/compare-ai-models) - Evaluate model quality, cost, and speed for your workflows.

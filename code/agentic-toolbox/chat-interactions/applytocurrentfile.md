@@ -15,7 +15,7 @@ The **Syncfusion Code** provides an efficient way to apply suggested code direct
 - **Insert Code Instantly:** Place AI-suggested code directly into your open file with one click.
 - **Speed Up Workflow:** Reduce manual copy-paste and keep coding without interruption.
 - **Review and Accept Easily:** Quickly check and apply code changes to your active project files.
-- **Minimize Errors:** Ensure code is placed exactly where itâ€™s needed, reducing mistakes during integration.
+- **Minimize Errors:** Ensure code is placed exactly where it's needed, reducing mistakes during integration.
 
 ## How to Apply Changes to the Current File
  

@@ -45,7 +45,7 @@ Telemetry can be disabled through the application settings at any time.
    <img src="./monitoring-and-optimization-images/telemetry-setting.png" alt="telemetry"  />
 
 2. Navigate to the telemetry section.
-3. Locate the option **â€Enable Anonymous Telemetryâ€** and toggle it **off**.
+3. Locate the option **"Enable Anonymous Telemetry"** and toggle it **off**.
 Changes take effect immediately and can be reversed at any time.
 
    <img src="./monitoring-and-optimization-images/enable-telemetry.png" alt="telemetry"  />

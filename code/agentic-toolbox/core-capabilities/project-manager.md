@@ -58,7 +58,7 @@ When you select **Start New Project**, a form appears with two fields: a require
 
 ### Step 4: Start a Task
 
-After setup, go to the **New Task** tab and describe your objective in the text area. If you used **Start New Project** in the previous step, the agent provides a ready-to-use objective at the end of setup â€” paste it into the text box to continue. Then click **Start Task**. The agent looks at your request and decides how many steps are needed based on how complex or risky the task is, then works through each stage on its own.
+After setup, go to the **New Task** tab and describe your objective in the text area. If you used **Start New Project** in the previous step, the agent provides a ready-to-use objective at the end of setup - paste it into the text box to continue. Then click **Start Task**. The agent looks at your request and decides how many steps are needed based on how complex or risky the task is, then works through each stage on its own.
 
 **Tips for writing a good objective:**
 - Be specific about the feature, bug, or change
@@ -73,14 +73,14 @@ When your objective is long enough, a **Plugin Selector** appears so you can add
 
  <img src="../agentic-toolbox-images/pm-new-task.png" alt="New Task: Start a workflow" />
 
-Once the task starts, the agent moves through a series of stages automatically. Each stage has a clear purpose, and the agent saves a document at the end of each one so you can see exactly what was decided or done. The most common workflow runs through five stages: **Define â†’ Plan â†’ Build â†’ Verify â†’ Review**. For Thorough and Maximum process levels, a sixth **Ship** stage is added after Review to run a pre-launch checklist before the task is marked done.
+Once the task starts, the agent moves through a series of stages automatically. Each stage has a clear purpose, and the agent saves a document at the end of each one so you can see exactly what was decided or done. The most common workflow runs through five stages: **Define -> Plan -> Build -> Verify -> Review**. For Thorough and Maximum process levels, a sixth **Ship** stage is added after Review to run a pre-launch checklist before the task is marked done.
 
 At the start of each stage, a **Send to Agent** button appears. Clicking it triggers the agent to begin its work for that stage.
 
 Once the agent finishes, you will see the following action buttons at the bottom of the stage:
 
-- **Approve & Continue** â€” confirms the stage is done and moves the workflow to the next stage. This button is available on every stage once the agent has finished its work.
-- **Regenerate** â€” asks the agent to redo the current stage. A text box appears so you can describe what to change before the agent tries again.
+- **Approve & Continue** - confirms the stage is done and moves the workflow to the next stage. This button is available on every stage once the agent has finished its work.
+- **Regenerate** - asks the agent to redo the current stage. A text box appears so you can describe what to change before the agent tries again.
 
 #### Define
 
@@ -136,7 +136,7 @@ In this stage, the agent checks that everything it built actually works correctl
 
 In this stage, the agent reads through all the code it wrote and checks the quality.
 
-- The agent looks at the changed code from several angles â€” whether it does what the spec said, whether it is easy to read and maintain, whether it could cause any security problems, and whether the important cases are covered by tests.
+- The agent looks at the changed code from several angles - whether it does what the spec said, whether it is easy to read and maintain, whether it could cause any security problems, and whether the important cases are covered by tests.
 - The agent saves a **review document** with all its findings and presents it to you.
 - Any must-fix issues need to be resolved before the task can be marked as done.
 - Once you are happy with the review, click **Approve & Continue** to complete the task.

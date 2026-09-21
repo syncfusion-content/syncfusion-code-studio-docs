@@ -8,7 +8,7 @@ keywords: quick-fix, error-resolution, syntax-errors, code-assistance, debugging
 
 # Quick Fix Your Errors
 
-This guide covers two distinct workflows in Syncfusion Code: **Quick Fix** for fast, one-click corrections, and **Explain** for understanding the root cause with rationale and a proposed fix. Use them independently based on your goalâ€”fix immediately, or learn why before you change code.
+This guide covers two distinct workflows in Syncfusion Code: **Quick Fix** for fast, one-click corrections, and **Explain** for understanding the root cause with rationale and a proposed fix. Use them independently based on your goal-fix immediately, or learn why before you change code.
 
 ## When to Use
 

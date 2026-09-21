@@ -34,9 +34,9 @@ Use this approach when you have a single, isolated error to resolve.
 1. Open your project which has errors in Syncfusion Code.
 
 2. Move your mouse cursor over any red underlined error in your code. Syncfusion Code AI displays the following options:
-   - **Quick Fix** â€” Apply an immediate fix for the specific error.
-   - **Fix** â€” Get a detailed AI-generated solution.
-   - **View Problem** â€” See the error details in the **Problems panel**.
+   - **Quick Fix** - Apply an immediate fix for the specific error.
+   - **Fix** - Get a detailed AI-generated solution.
+   - **View Problem** - See the error details in the **Problems panel**.
 
 3. Click **Quick Fix** to apply the fix instantly.
 
@@ -86,7 +86,7 @@ Use this approach when errors require understanding of multiple files or your pr
 
 **Method 2: Use Suggested Context**
 
-1. Open the file with errors. The **Chat Panel** will suggest the file as context â€” click the file name in the chat to add it:
+1. Open the file with errors. The **Chat Panel** will suggest the file as context - click the file name in the chat to add it:
 
    <img src="../agentic-toolbox-images/suggestion-context.png" alt="File suggestion appearing in the Chat Panel for adding as context" />
 

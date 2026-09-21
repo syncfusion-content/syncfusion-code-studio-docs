@@ -29,18 +29,18 @@ Edit Mode is an AI-powered feature in Syncfusion Code that helps developers modi
 
 <img src="../agentic-toolbox-images/editMode.png" alt="Edit Mode" />
 
-**Step 2** : In the chat input box, type the instruction you want the AI to perform. For example, â€œOptimize this for better performance.â€ After typing your prompt, click the â€œSendâ€ button. The agent will treat this instruction as an edit request and start editing.
+**Step 2** : In the chat input box, type the instruction you want the AI to perform. For example, "Optimize this for better performance." After typing your prompt, click the "Send" button. The agent will treat this instruction as an edit request and start editing.
 
 <img src="../agentic-toolbox-images/chatInput.png" alt="Chat Input" />
 
 **Step 4** : Once you send the prompt, the AI interprets the instruction and applies the necessary changes to the currently active file in your editor.
 > **Note:** Before entering a prompt in Edit Mode, make sure the correct file is selected and active in the editor.
 
-**Step 5** : If your instruction involves additional files â€“ for example, editing helper functions, updating shared components, or modifying logic across modulesâ€”you can include those files by clicking â€œ+â€. This option allows you to provide more context so the AI understands how different files relate to your request.
+**Step 5** : If your instruction involves additional files - for example, editing helper functions, updating shared components, or modifying logic across modules-you can include those files by clicking "+". This option allows you to provide more context so the AI understands how different files relate to your request.
 
 
 
-**Step 6** : After clicking â€œ+â€, choose the files you want the AI to refer to or modify.
+**Step 6** : After clicking "+", choose the files you want the AI to refer to or modify.
 
 <img src="../agentic-toolbox-images/addFile.png" alt="Chat Input" />
 
@@ -50,12 +50,12 @@ Edit Mode is an AI-powered feature in Syncfusion Code that helps developers modi
 
 ## Edit previews and Change indicators
 
-â€¢ Suggested changes are displayed with highlights for added or removed lines. This allows precise control over all modifications.
+- Suggested changes are displayed with highlights for added or removed lines. This allows precise control over all modifications.
   Each block includes:
   1. **Keep**: Click to apply suggested changes in file
   2. **Undo**: Click to remove suggested changes.
 
-â€¢ Each file includes navigation arrows that allow you to jump directly between edited lines. Instead of scrolling, you can use the Up and Down arrows to navigate between changes within the file.
+- Each file includes navigation arrows that allow you to jump directly between edited lines. Instead of scrolling, you can use the Up and Down arrows to navigate between changes within the file.
 
 <img src="../agentic-toolbox-images/keepUndo.png" alt="Chat Input" />
 
@@ -66,9 +66,9 @@ Edit Mode is an AI-powered feature in Syncfusion Code that helps developers modi
 
 ## Best Practices
 
-â€¢ **Write short, clear prompts** â€“ Clear and concise prompts help the AI understand your exact intention, resulting in more accurate edits. Avoid long or vague instructions for better outcomes.
+- **Write short, clear prompts** - Clear and concise prompts help the AI understand your exact intention, resulting in more accurate edits. Avoid long or vague instructions for better outcomes.
 
-â€¢ **Add only relevant files for context** â€“ Providing only necessary files through Add Context keeps the AI focused and prevents unrelated or incorrect edits.
+- **Add only relevant files for context** - Providing only necessary files through Add Context keeps the AI focused and prevents unrelated or incorrect edits.
 
-â€¢ **Review all changes thoroughly** â€“ Even with AI assistance, itâ€™s important to verify each suggested change to ensure the modifications match your expectations and maintain code quality.
+- **Review all changes thoroughly** - Even with AI assistance, it's important to verify each suggested change to ensure the modifications match your expectations and maintain code quality.
 

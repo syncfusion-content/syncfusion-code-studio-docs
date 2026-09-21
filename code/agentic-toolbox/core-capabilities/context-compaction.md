@@ -48,7 +48,7 @@ After compaction, your chat will retain the most important and recent informatio
 When you move on to a different part of your project, run `/compact` to clear out earlier conversation history and give the AI a clean, focused context.
 
 ### 2. Add custom instructions when compacting
-If there is critical context you want preserved, pass it as a note after the command â€” for example, `/compact keep the authentication flow requirements`.
+If there is critical context you want preserved, pass it as a note after the command - for example, `/compact keep the authentication flow requirements`.
 
 ### 3. Use compaction proactively, not reactively
 Do not wait for the AI to lose track. Compact regularly during long sessions to maintain consistent, high-quality responses.

@@ -14,14 +14,14 @@ Every time you work on a task, you give the AI the same instructions. "Generate 
 
 What if you could save those instructions once and reuse them forever?
 
-That's what **Reusable Templates** do. They let you encode your team's best practices, standards, and workflows once â€” then automatically apply them across all your work. No more repetition. No more inconsistency.
+That's what **Reusable Templates** do. They let you encode your team's best practices, standards, and workflows once - then automatically apply them across all your work. No more repetition. No more inconsistency.
 
 In this tutorial, you'll learn four different ways to reuse templates in Syncfusion Code:
 
-- **Custom Prompts** â€” Quick templates you invoke manually
-- **Custom Agents** â€” Create specialized AI personalities agents (Reviewer, Planner, etc.)
-- **Custom Instructions** â€” Automatically apply rules for every AI response
-- **Skills** â€” Task-specific helpers automatically apply when needed
+- **Custom Prompts** - Quick templates you invoke manually
+- **Custom Agents** - Create specialized AI personalities agents (Reviewer, Planner, etc.)
+- **Custom Instructions** - Automatically apply rules for every AI response
+- **Skills** - Task-specific helpers automatically apply when needed
 
 We will see how to pick the right template type for your problem, and you'll save time.
 
@@ -39,7 +39,7 @@ By the end of this tutorial, you'll be able to:
 
 ## Ways to Reuse Your Templates
 
-### Method 1: Custom Prompts â€” Manual Templates You Invoke
+### Method 1: Custom Prompts - Manual Templates You Invoke
 
 **Use when:** You need quick, on-demand templates that you manually invoke.
 
@@ -104,9 +104,9 @@ When you run this template:
 - Each comment explains: what it does, what inputs, what returns, how to use
 - Comments use simple language beginners can understand
 
-### Method 2: Custom Agents â€” Specialized AI Agents for Particular Task
+### Method 2: Custom Agents - Specialized AI Agents for Particular Task
 
-**Use when:** Your team needs a specific "mode" â€” like a "Planner" or "Reviewer" â€” that always approaches tasks the same way.
+**Use when:** Your team needs a specific "mode" - like a "Planner" or "Reviewer" - that always approaches tasks the same way.
 
 **How it works:**
 
@@ -174,7 +174,7 @@ When you switch to this agent:
 - The agent explains the approach behind the code
 
 
-### Method 3: Custom Instructions â€” Auto-Applied Standards
+### Method 3: Custom Instructions - Auto-Applied Standards
 
 **Use when:** You want standards/rules that automatically apply to every AI response.
 
@@ -182,7 +182,7 @@ When you switch to this agent:
 
 - Create a Custom Instruction file
 - Add your rules and standards
-- AI automatically applies them to ALL chat requests in those filesâ€”no manual invocation needed
+- AI automatically applies them to ALL chat requests in those files-no manual invocation needed
 
 **Best for:** Project-wide standards, automatic enforcement
 
@@ -247,10 +247,10 @@ When you add this instruction file:
 
 - Every Python file automatically has these standards applied
 - AI reminds you about PEP 8, docstrings, and testing when helping
-- You don't need to repeat yourselfâ€”the rules are always in context
+- You don't need to repeat yourself-the rules are always in context
 
 
-### Method 4: Skills â€” Smart Workflows
+### Method 4: Skills - Smart Workflows
 
 **Use when:** You need specialized help for specific tasks that activate either manually or automatically based on what you're doing.
 

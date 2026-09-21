@@ -46,7 +46,7 @@ Syncfusion Code provides a suite of tools to streamline your workflow. You can u
 
 - Built-in tools are automatically available in chat.
 - They cover common development tasks and are optimized for working within your workspace.
-- No installation or configuration is required â€” they are ready to use as soon as you start.
+- No installation or configuration is required - they are ready to use as soon as you start.
 
 ### 2. MCP Tools
 

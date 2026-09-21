@@ -19,12 +19,12 @@ The Checkpoints and Editing Requests features in Syncfusion Code provide powerfu
 
 - Roll back to a known state when trying different approaches without worrying about breaking the workspace. 
 
-- Quickly restore to a safe state if AI-generated edits or manual changes donâ€™t work as expected 
+- Quickly restore to a safe state if AI-generated edits or manual changes don't work as expected 
 
 
 
 ## Editing a Previous Chat Request
-Syncfusion Code allows you to edit any previous chat request in your conversation history. When you modify an earlier request, Syncfusion Code treats it as a new instruction and sends it again to the AI model. The workspace is then reverted to the state it was in before the original requestâ€”undoing any file changes made by that request and the requests that came after it.
+Syncfusion Code allows you to edit any previous chat request in your conversation history. When you modify an earlier request, Syncfusion Code treats it as a new instruction and sends it again to the AI model. The workspace is then reverted to the state it was in before the original request-undoing any file changes made by that request and the requests that came after it.
 
 ### How to Edit Previous Chat request ?
 
@@ -72,7 +72,7 @@ Syncfusion Code lets you quickly reverse or reapply your most recent action. Use
 Always confirm which point in your project timeline you're reverting to so no important changes are unintentionally lost.
 
 ### 2. Use editing requests to refine earlier instructions
-If an AI-generated update wasn't what you expected, modify the earlier request instead of creating new ones on top of itâ€”this keeps your workspace clean and consistent.
+If an AI-generated update wasn't what you expected, modify the earlier request instead of creating new ones on top of it-this keeps your workspace clean and consistent.
 
 ### 3. Restore and redo changes carefully
 When restoring a checkpoint, verify the impact on recently edited files. If needed, use the **Redo** option to reapply reverted changes safely.

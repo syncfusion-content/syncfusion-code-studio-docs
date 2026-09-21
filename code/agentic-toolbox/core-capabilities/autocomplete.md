@@ -8,14 +8,14 @@ keywords: code, IDE, AI, developer-tools, syncfusion, code-assistance, productiv
 # Autocomplete
 
 ## Overview
-Syncfusion Code provides an AIâ€‘powered Autocomplete system designed to accelerate coding by offering intelligent inline suggestions and completing code based on context. The feature supports multiple programming languages and frameworks, helping developers write faster, cleaner, and more consistent code.
+Syncfusion Code provides an AI-powered Autocomplete system designed to accelerate coding by offering intelligent inline suggestions and completing code based on context. The feature supports multiple programming languages and frameworks, helping developers write faster, cleaner, and more consistent code.
 Key capabilities include:
 
 - Inline code suggestions (ghost text)
 - Automatic code completion for functions, loops, and patterns
 - Code generation from comments
-- Styleâ€‘aware suggestions that match your existing coding patterns
-- Multiâ€‘suggestion alternatives
+- Style-aware suggestions that match your existing coding patterns
+- Multi-suggestion alternatives
 - Next Edit Suggestions for guided sequential editing and refactoring
 
 ## Use Cases
@@ -31,7 +31,7 @@ By writing descriptive comments, Syncfusion Code can generate classes, fields, a
 Next Edit Suggestions help predict and guide your next change.
 
 5. Sequential Edits Across Code
-When performing multiâ€‘step updatesâ€”like renaming, refactoring, or modifying patternsâ€”Syncfusion Code highlights and suggests the next best edit to maintain flow.
+When performing multi-step updates-like renaming, refactoring, or modifying patterns-Syncfusion Code highlights and suggests the next best edit to maintain flow.
 
 
 
@@ -45,12 +45,12 @@ Inline suggestions appear as light, faded (ghost) text directly at the cursor wh
 2. A faded (ghost) suggestion will appear based on your context.
 3. **Accept full suggestion:** Press `Tab`
 4. **Dismiss suggestion:** Press `Esc`
-5. **Accept suggestion word-by-word:** Press `Ctrl/Cmd + â†’`
+5. **Accept suggestion word-by-word:** Press `Ctrl/Cmd + ->`
 
    <img src="../agentic-toolbox-images/autocomplete1.gif" alt="Autocomplete"  />
 
 ### Maintaining Coding Style Consistency
-Syncfusion Code analyzes your existing code patternsâ€”such as parameter names, method structure, and naming conventionsâ€”and automatically suggests completions that match your style. This ensures consistent code quality across your project.
+Syncfusion Code analyzes your existing code patterns-such as parameter names, method structure, and naming conventions-and automatically suggests completions that match your style. This ensures consistent code quality across your project.
 
 **Example:**
 If your method `calculateTotal` uses parameters like **price** and **quantity**, then when you start writing a new method such as `calculateDiscountedTotal`, Syncfusion Code will suggest the same parameter names to maintain consistency.
@@ -80,7 +80,7 @@ Syncfusion Code may automatically generate the corresponding class with:
 ## Next Edit Suggestion
 - Next Edit Suggestions in Syncfusion Code help you move quickly through related edits by predicting where your next change should occur and suggesting what that change might be.
 
-- This feature keeps you in the flow of editingâ€”especially when making sequential updates, correcting mistakes, or refactoring code across multiple lines.
+- This feature keeps you in the flow of editing-especially when making sequential updates, correcting mistakes, or refactoring code across multiple lines.
 
 ### How Next Edit Suggestions Work
 
@@ -104,7 +104,7 @@ For example, if you rename a variable in one place, Syncfusion Code suggests upd
 
    <img src="../agentic-toolbox-images/autocomplete6.gif" alt="Autocomplete"  />
 
-   **Correcting incorrect variable declaration:** Syncfusion Code identifies cases where the developerâ€™s intent is clear, but the code is written incorrectly due to a typo or swapped identifier.
+   **Correcting incorrect variable declaration:** Syncfusion Code identifies cases where the developer's intent is clear, but the code is written incorrectly due to a typo or swapped identifier.
 
    **Example:** The developer intends to return a constant value, but accidentally types `cont` instead of `const` and refers to the function name instead of the variable. Syncfusion Code infers the intended logic and suggests the corrected declaration and return value:
 

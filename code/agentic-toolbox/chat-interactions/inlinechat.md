@@ -13,11 +13,11 @@ keywords: inline-edit, right-click-actions, ai-assistance, contextual-editing, c
 Inline Chat in Syncfusion Code is designed to bring AI assistance directly into your workflow. Instead of switching panels or navigating away from your code, you can interact with AI right inside the editor or terminal. This seamless integration helps you stay focused, get context-aware suggestions, and streamline both coding and command-line tasks.
 
 ## Use Cases
-- Debugging Code Quickly â€“ Use Inline Chat to identify errors and generate fixes directly in the editor without switching panels. 
+- Debugging Code Quickly - Use Inline Chat to identify errors and generate fixes directly in the editor without switching panels. 
 
-- Automating Terminal Workflows â€“ Generate shell commands or scripts in the integrated terminal to speed up repetitive tasks. 
+- Automating Terminal Workflows - Generate shell commands or scripts in the integrated terminal to speed up repetitive tasks. 
 
-- Refactoring Existing Code â€“ Select a block of code and request improvements, optimizations. 
+- Refactoring Existing Code - Select a block of code and request improvements, optimizations. 
 
 
 
@@ -29,7 +29,7 @@ When you use Inline Chat inside the editor, Syncfusion Code scopes your request 
 1. **Open a file** in the Syncfusion Code editor.
 2. Open Inline Chat by doing one of the following:
    - Press `Ctrl + I`
-   - Or **Right-click** inside the editor â†’ **Open Inline Chat**
+   - Or **Right-click** inside the editor -> **Open Inline Chat**
 
    <img src="../agentic-toolbox-images/inlinechat1.png" alt="inlinechat"  />
    
@@ -49,11 +49,11 @@ After processing your request, Syncfusion Code shows an inline diff view. You ca
 
 
 ## Using Inline Chat in the Terminal
-Terminal Inline Chat helps you work with shell commands, scripts, and terminal workflows directly inside Syncfusion Codeâ€™s integrated terminal.
+Terminal Inline Chat helps you work with shell commands, scripts, and terminal workflows directly inside Syncfusion Code's integrated terminal.
 
 ### How to Use Terminal Inline Chat
 **Steps:**
-1. Open the terminal (**View â†’ Terminal** or `Ctrl + ```).
+1. Open the terminal (**View -> Terminal** or `Ctrl + ```).
 2. Start Terminal Inline Chat using `Ctrl + I`.
 3. Type your command request and press **Enter**.
 
