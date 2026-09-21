@@ -102,15 +102,15 @@ A custom agent is like a specialized reviewer you configure once, then use forev
 
 **#changes (Method 1):**
 
-- - Quick and instant
-- - No setup needed
-- - Great for one-off reviews
+- Quick and instant
+- No setup needed
+- Great for one-off reviews
 
 **Custom Agent (Method 2):**
 
-- - Consistent reviews every time
-- - Great for teams
-- - Remembers all your standards
+- Consistent reviews every time
+- Great for teams
+- Remembers all your standards
 
 For detailed steps on creating custom agents, see [Custom Agents](/code-studio/customize/custom-agents).
 
