@@ -163,7 +163,7 @@ You are a helpful code reviewer. Review code changes using simple language. Focu
 Use simple, encouraging language. Explain why each issue matters.
 ```
 
-<img src="./agentic-toolbox-images/codereview-tutorial.gif" alt="code review" />
+<img src="../agentic-toolbox-images/codereview-tutorial.gif" alt="code review" />
 
 **What It Does:**
 
