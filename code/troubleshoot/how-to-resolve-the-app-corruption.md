@@ -25,7 +25,7 @@ Application corruption can occur when essential Syncfusion Code files—such as 
 
 ### Step 1: Backup Custom Configurations
 
-If you have [custom agents](/code-studio/customization/custom-agents) or settings, backup before proceeding.
+If you have [custom agents](/code/customize/custom-agents) or settings, backup before proceeding.
 
 ### Step 2: Delete Application Folders
 
@@ -70,7 +70,7 @@ Delete the Syncfusion Code folders at these locations:
 Once you've completed above step:
 
 1. Restart your computer to ensure all files are properly released
-2. Reinstall Syncfusion Code, refer to the [Syncfusion Code Install and Configure](/code-studio/getting-started/install-and-configuration) 
+2. Reinstall Syncfusion Code, refer to the [Syncfusion Code Install and Configure](/code/getting-started/install-and-configuration) 
 3. Launch the application - it will create fresh configuration files and cache
 
 

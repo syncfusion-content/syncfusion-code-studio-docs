@@ -15,7 +15,7 @@ keywords: ask-code, error-resolution, ai-debugging, code-quality, developer-prod
 Before getting started, make sure that:
 
 1. **Syncfusion Code is installed**  
-   If it’s not installed, refer to the [installation guide](/code-studio/getting-started/install-and-configuration) to set it up properly.
+   If it’s not installed, refer to the [installation guide](/code/getting-started/install-and-configuration) to set it up properly.
 
 2. **A local project folder is ready**  
    Syncfusion Code works best with an existing project or a fresh folder for coding.
@@ -68,7 +68,7 @@ Your selected project will open in the editor where you can:
 
 ### Built-in Agent Modes
 Syncfusion Code provides five built‑in agents   **Autocomplete**, **Ask**, **Edit**, **Agent**, **Plan** .
-You can also create [custom agents](/code-studio/customization/custom-agents) for specialized workflows.
+You can also create [custom agents](/code/customize/custom-agents) for specialized workflows.
 
 <img src="gettingstarted-images/builtInAgents.png" alt="Built in Agents" />
 
@@ -83,7 +83,7 @@ This reduces typing effort and ensures consistency.
 
 <img src="gettingstarted-images/autocomplete.png" alt="Autocomplete" />
 
-*Learn more about [Autocomplete](/code-studio/features/autocomplete)*
+*Learn more about [Autocomplete](/code/agentic-toolbox/core-capabilities/autocomplete)*
 
 
 ### 2. Ask Mode
@@ -97,7 +97,7 @@ This reduces typing effort and ensures consistency.
 
 <img src="gettingstarted-images/ask.png" alt="Ask" />
 
-*Learn more about [Ask](/code-studio/features/ask)*
+*Learn more about [Ask](/code/agentic-toolbox/chat-interactions/ask)*
 
 ### 3. Edit Mode
 
@@ -110,7 +110,7 @@ Syncfusion Code shows suggested changes clearly, letting you apply or undo them 
 
 <img src="gettingstarted-images/edit.png" alt="Edit" />
 
-*Learn more about [Edit](/code-studio/features/edit)*
+*Learn more about [Edit](/code/agentic-toolbox/chat-interactions/edit)*
 
 ### 4. Agent Mode
 
@@ -123,7 +123,7 @@ Ideal for scaffolding features, refactoring modules, or managing structured work
 
 <img src="gettingstarted-images/agent.png" alt="Agent" />
 
-*Learn more about [Agent](/code-studio/features/agent)*
+*Learn more about [Agent](/code/agentic-toolbox/chat-interactions/agent)*
 
 ### 5. Plan Mode
 
@@ -135,7 +135,7 @@ Ideal for scaffolding features, refactoring modules, or managing structured work
 
 <img src="gettingstarted-images/PlanMode.png" alt="Plan" />
 
-*Learn more about [Plan](/code-studio/features/plan)*
+*Learn more about [Plan](/code/agentic-toolbox/chat-interactions/plan)*
 
 ## Inline Chat
 
@@ -147,7 +147,7 @@ You’ll see improved code inline with **Accept** and **Dismiss** options.
 
 <img src="gettingstarted-images/inlineChat.png" alt="InlineChat" />
 
-*Learn more about [Inline Chat](/code-studio/features/inlinechat)*
+*Learn more about [Inline Chat](/code/agentic-toolbox/chat-interactions/inlinechat)*
 
 ## Add Context
 
@@ -159,11 +159,11 @@ You’ll see improved code inline with **Accept** and **Dismiss** options.
 
 <img src="gettingstarted-images/addContext.png" alt="Add context" />
 
-*Learn more about [Add Context](/code-studio/features/add-context)*
+*Learn more about [Add Context](/code/agentic-toolbox/chat-interactions/add-context)*
 
 ## Next Steps
 
 Now that you've explored the basics:
 
-- Learn how to create your first automated change with [Agent](/code-studio/features/agent).  
+- Learn how to create your first automated change with [Agent](/code/agentic-toolbox/chat-interactions/agent).  
 

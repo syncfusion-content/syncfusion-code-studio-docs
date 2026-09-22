@@ -49,11 +49,11 @@ Users may encounter an `Uncaught Exception` error when Syncfusion Code is launch
 
 #### Step 2: Remove Syncfusion Code Cache Files
 
-Delete cache and configuration folders to ensure a clean reinstallation. See [How to Resolve the App Corruption](/code-studio/troubleshoot/how-to-resolve-the-app-corruption) for detailed steps.
+Delete cache and configuration folders to ensure a clean reinstallation. See [How to Resolve the App Corruption](/code/troubleshoot/how-to-resolve-the-app-corruption) for detailed steps.
 
 #### Step 3: Reinstall Syncfusion Code
 
-1. Reinstall Syncfusion Code, refer to the [Syncfusion Code Install and Configure](/code-studio/getting-started/install-and-configuration).
+1. Reinstall Syncfusion Code, refer to the [Syncfusion Code Install and Configure](/code/getting-started/install-and-configuration).
 2. Launch the application and verify it starts without errors.
 
 ## Verification
