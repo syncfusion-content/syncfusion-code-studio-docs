@@ -77,5 +77,5 @@ If any issues are detected, the agent can:
 
 ## What’s Next
 
-- **[Agent](/code-studio/agentic-toolbox/chat-interactions/agent)** – Discover advanced workflows and capabilities of the agent
-- **[Custom Agent](/code-studio/customize/custom-agents)** – Establish clear rules and instructions for consistent and constrained behavior
+- **[Agent](/code/agentic-toolbox/chat-interactions/agent)** – Discover advanced workflows and capabilities of the agent
+- **[Custom Agent](/code/customize/custom-agents)** – Establish clear rules and instructions for consistent and constrained behavior

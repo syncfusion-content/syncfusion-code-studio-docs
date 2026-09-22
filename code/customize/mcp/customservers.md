@@ -118,7 +118,7 @@ Runs an MCP server via .NET packages.
 **Installation Steps:**  
 - Download .NET SDK 10+ from Microsoft’s [official site](https://dotnet.microsoft.com/en-us/download/dotnet/10.0). 
 
-> **Note:** Custom servers installed via **npm**, **pip**, or **Docker** rely on AI model–assisted execution. If your [Premium model usage budget](/code-studio/monitoring-and-optimization/buy-more-credits) is exhausted, these configurations can’t be completed until additional budget is available.
+> **Note:** Custom servers installed via **npm**, **pip**, or **Docker** rely on AI model–assisted execution. If your [Premium model usage budget](/code/monitoring-and-optimization/buy-more-credits) is exhausted, these configurations can’t be completed until additional budget is available.
 
 ## Step-by-Step Guide: Postman MCP Server with Syncfusion Code
 

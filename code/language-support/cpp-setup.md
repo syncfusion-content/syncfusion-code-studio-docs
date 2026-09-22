@@ -15,7 +15,7 @@ Syncfusion Code provides intelligent AI-powered assistance for C++ development, 
 This guide walks you through setting up a complete C++ development environment—from installing compilers to writing your first AI-assisted C++ program. Once configured, you'll be able to leverage Syncfusion Code's autocomplete, debugging assistance, code explanations, and smart refactoring for all your C++ projects.
 
 > **Prerequisites:** 
-> - Syncfusion Code must be installed. If not, see the [installation guide](/code-studio/getting-started/install-and-configuration).
+> - Syncfusion Code must be installed. If not, see the [installation guide](/code/getting-started/install-and-configuration).
 > - **Disk Space:** 2-5 GB for compiler installation (Windows: MinGW-w64 ~2GB; macOS: Xcode Command Line Tools ~5GB)
 
 
@@ -317,10 +317,10 @@ Debugging is where Syncfusion Code truly shines. Let's walk through setting brea
 
 Now that Your C++ development environment is now fully configured in Syncfusion Code. Here's what you can explore next:
 
-- **Build Real Projects:** Start developing C++ applications with full debugging support - see [Generate Your First Code Using Agent](/code-studio/agentic-toolbox/agent-guides/generate-your-first-code-using-agent) to get started
-- **Leverage AI Features:** Use Syncfusion Code's [Autocomplete](/code-studio/agentic-toolbox/core-capabilities/autocomplete), [Ask](/code-studio/agentic-toolbox/chat-interactions/ask), and refactoring capabilities to speed up development
-- **Explore Agent Mode:** For complex multi-file projects, try [Agent mode](/code-studio/agentic-toolbox/chat-interactions/agent) for advanced refactoring and architectural improvements
-- **Learn More:** Check out the [Quick Start Guide](/code-studio/getting-started/quick-start) and [overview](/code-studio/getting-started/overview) for additional capabilities
+- **Build Real Projects:** Start developing C++ applications with full debugging support - see [Generate Your First Code Using Agent](/code/agentic-toolbox/agent-guides/generate-your-first-code-using-agent) to get started
+- **Leverage AI Features:** Use Syncfusion Code's [Autocomplete](/code/agentic-toolbox/core-capabilities/autocomplete), [Ask](/code/agentic-toolbox/chat-interactions/ask), and refactoring capabilities to speed up development
+- **Explore Agent Mode:** For complex multi-file projects, try [Agent mode](/code/agentic-toolbox/chat-interactions/agent) for advanced refactoring and architectural improvements
+- **Learn More:** Check out the [Quick Start Guide](/code/getting-started/quick-start) and [overview](/code/getting-started/overview) for additional capabilities
 
 ## Troubleshooting
 

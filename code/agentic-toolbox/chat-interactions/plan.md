@@ -66,7 +66,7 @@ The Plan Agent will show you:
 * Select **Start Implementation** button
 * The command will appear in the chat box and the mode will automatically switch to **Agent Mode** . Click Enter for execute your plan.
 
-    **Note:** For more information, refer to the [Syncfusion Code Agent Mode](/code-studio/agentic-toolbox/chat-interactions/agent)
+    **Note:** For more information, refer to the [Syncfusion Code Agent Mode](/code/agentic-toolbox/chat-interactions/agent)
 
     <img src="../agentic-toolbox-images/plan-implementation.png" alt="Start Implementation" />
 
@@ -90,11 +90,11 @@ The Plan Agent will show you:
 * Executes the approved plan with AI-powered code generation
 * Automatically activated after plan approval
 
-    **Note:** For more information on agent mode features, visit the [Syncfusion Code Agent Mode](/code-studio/agentic-toolbox/chat-interactions/agent).
+    **Note:** For more information on agent mode features, visit the [Syncfusion Code Agent Mode](/code/agentic-toolbox/chat-interactions/agent).
 
 ### Ask Mode
 
 * Ask is optimized for answering questions about your codebase, coding, and general technology concepts
 * Use Ask when you want to understand how something works, explore ideas, or get help with coding tasks
 
-    **Note:** For more information on ask mode features, visit the [Syncfusion Code Ask Mode](/code-studio/agentic-toolbox/chat-interactions/ask).
+    **Note:** For more information on ask mode features, visit the [Syncfusion Code Ask Mode](/code/agentic-toolbox/chat-interactions/ask).

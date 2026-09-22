@@ -28,12 +28,12 @@ Before beginning this tutorial, ensure the following:
 
 By the end of this tutorial, you'll be able to:
 
-- Use Syncfusion Code's [Inline Chat](/code-studio/agentic-toolbox/chat-interactions/inlinechat) to understand unfamiliar or complex code instantly
+- Use Syncfusion Code's [Inline Chat](/code/agentic-toolbox/chat-interactions/inlinechat) to understand unfamiliar or complex code instantly
 - Eliminate repeated logic by extracting it into reusable functions
 - Simplify verbose code to make it shorter and easier to read
 - Break large, multi-purpose functions into focused, single-responsibility units
 - Rename symbols intelligently across your entire project in one step
-- Use [Agent mode](/code-studio/agentic-toolbox/chat-interactions/agent) to perform multi-file, large-scale refactoring automatically
+- Use [Agent mode](/code/agentic-toolbox/chat-interactions/agent) to perform multi-file, large-scale refactoring automatically
 
 
 ## Understanding Syncfusion Code's AI-Features
@@ -41,20 +41,20 @@ By the end of this tutorial, you'll be able to:
 Before you begin refactoring, it's important to understand the two main AI-features you'll use:
 
 ### Inline Chat
-**[Inline Chat](/code-studio/agentic-toolbox/chat-interactions/inlinechat)** is a lightweight AI assistant that appears directly in your code editor as an input box overlay. You open it with `Ctrl+I` (Windows/Linux) or `Cmd+I` (Mac). Once open, you can type natural language instructions or use slash commands (like `/explain` or `/fix`) to modify the code you've selected. Inline Chat works on **a single file or selection** at a time and shows you a side-by-side diff preview before applying any changes.
+**[Inline Chat](/code/agentic-toolbox/chat-interactions/inlinechat)** is a lightweight AI assistant that appears directly in your code editor as an input box overlay. You open it with `Ctrl+I` (Windows/Linux) or `Cmd+I` (Mac). Once open, you can type natural language instructions or use slash commands (like `/explain` or `/fix`) to modify the code you've selected. Inline Chat works on **a single file or selection** at a time and shows you a side-by-side diff preview before applying any changes.
 
 ### Chat Panel
 The **Chat Panel** is a separate sidebar panel in Syncfusion Code where you can have ongoing conversations with the AI. You can use it to ask questions, get explanations, or give instructions. It supports two modes:
-- **[Ask mode](/code-studio/agentic-toolbox/chat-interactions/ask)**: For questions, explanations, and single-file changes
-- **[Agent mode](/code-studio/agentic-toolbox/chat-interactions/agent)**: For complex, multi-file refactoring that requires the AI to autonomously plan and execute changes across multiple files
+- **[Ask mode](/code/agentic-toolbox/chat-interactions/ask)**: For questions, explanations, and single-file changes
+- **[Agent mode](/code/agentic-toolbox/chat-interactions/agent)**: For complex, multi-file refactoring that requires the AI to autonomously plan and execute changes across multiple files
 
-> **Tip:** Use [Inline Chat](/code-studio/agentic-toolbox/chat-interactions/inlinechat) for quick, focused changes to code you've selected. Use [Agent mode](/code-studio/agentic-toolbox/chat-interactions/agent) in the Chat Panel for larger refactoring tasks that involve multiple files.
+> **Tip:** Use [Inline Chat](/code/agentic-toolbox/chat-interactions/inlinechat) for quick, focused changes to code you've selected. Use [Agent mode](/code/agentic-toolbox/chat-interactions/agent) in the Chat Panel for larger refactoring tasks that involve multiple files.
 
 ## Steps to Refactor Code
 
 ### Step 1: Understand Code Before You Refactor
 
-Before changing any code, you must understand what it does. Syncfusion Code's [Inline Chat](/code-studio/agentic-toolbox/chat-interactions/inlinechat) gives you an instant, plain-English explanation of any selected block of code - removing the guesswork before you begin.
+Before changing any code, you must understand what it does. Syncfusion Code's [Inline Chat](/code/agentic-toolbox/chat-interactions/inlinechat) gives you an instant, plain-English explanation of any selected block of code - removing the guesswork before you begin.
 
 
 ### Step 2: Eliminate Repeated Code with Extracted Functions
@@ -225,7 +225,7 @@ Poor variable and function names silently reduce code quality over time. Names l
 
 ### Step 6: Large-Scale Refactoring with Agent Mode
 
-For bigger refactoring jobs that span multiple files - such as standardizing error handling patterns, migrating to a new API, or updating deprecated library methods across your entire codebase - **[Agent mode](/code-studio/agentic-toolbox/chat-interactions/agent)** is the right tool.
+For bigger refactoring jobs that span multiple files - such as standardizing error handling patterns, migrating to a new API, or updating deprecated library methods across your entire codebase - **[Agent mode](/code/agentic-toolbox/chat-interactions/agent)** is the right tool.
 
 #### Example: Standardize Error Handling Across Multiple Files
 
@@ -242,14 +242,14 @@ Suppose your codebase has inconsistent error handling – some functions use `tr
 
 2. Open your project in Syncfusion Code.
 3. Open the Chat Panel (if it's not already visible, press `Ctrl+Shift+P` (Windows/Linux) or `Cmd+Shift+P` (Mac) to open the **Command Palette** - a search box that appears at the top of the editor – then type "Chat: Focus on Chat View" and press Enter).
-4. Select **[Agent](/code-studio/agentic-toolbox/chat-interactions/agent)** from the mode selector dropdown.
+4. Select **[Agent](/code/agentic-toolbox/chat-interactions/agent)** from the mode selector dropdown.
 5. Type the following prompt in the chat input and press Enter:
 
    ```
    Refactor error handling across all files in src/services to use a consistent pattern: wrap all async operations in try-catch blocks, log errors using console.error with meaningful messages, and return standardized error objects with status and message properties.
    ```
 
-6. Watch [Agent mode](/code-studio/agentic-toolbox/chat-interactions/agent) work. It will automatically:
+6. Watch [Agent mode](/code/agentic-toolbox/chat-interactions/agent) work. It will automatically:
    - Scan all relevant files in the `src` folder
    - Identify functions that are missing or have inconsistent error handling
    - Plan the changes needed across each file
@@ -262,6 +262,6 @@ Suppose your codebase has inconsistent error handling – some functions use `tr
 
 ## What's Next
 
-- [Generate Your First Code Change Using Agent](/code-studio/agentic-toolbox/agent-guides/generate-your-first-code-using-agent) – Let AI write new code for you.
-- [Quick Fix Error Guide](/code-studio/agentic-toolbox/chat-interactions/quick-fix-error) – Catch and fix bugs early with AI assistance.
-- [Agent Mode](/code-studio/agentic-toolbox/chat-interactions/agent) – Explore advanced Agent workflows and capabilities.
+- [Generate Your First Code Change Using Agent](/code/agentic-toolbox/agent-guides/generate-your-first-code-using-agent) – Let AI write new code for you.
+- [Quick Fix Error Guide](/code/agentic-toolbox/chat-interactions/quick-fix-error) – Catch and fix bugs early with AI assistance.
+- [Agent Mode](/code/agentic-toolbox/chat-interactions/agent) – Explore advanced Agent workflows and capabilities.

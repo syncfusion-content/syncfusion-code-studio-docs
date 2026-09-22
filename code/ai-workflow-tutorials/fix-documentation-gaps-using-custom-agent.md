@@ -19,7 +19,7 @@ Instead of manually writing long README files and architecture notes, you will:
 
 By the end, you will have a **repeatable workflow** to keep your documentation fresh without turning developers into full-time writers.
 
-For a deeper understanding of the features used in this tutorial, see [Custom Agents](/code-studio/customize/custom-agents) and [Checkpoints](/code-studio/agentic-toolbox/core-capabilities/checkpoints).
+For a deeper understanding of the features used in this tutorial, see [Custom Agents](/code/customize/custom-agents) and [Checkpoints](/code/agentic-toolbox/core-capabilities/checkpoints).
 
 ## Prerequisites
 
@@ -111,7 +111,7 @@ Now that the agent is defined in your project, you can start using it from the *
 
 <img src="./tutorials-images/fix-docs-agent-select.png" alt="Chat Panel showing Codebase Documenter selected in the Agent mode dropdown" />
 
-> **Note:** If you do not see the agent in the dropdown, double-check that the `.agent.md` file is inside `.sfcode/agents/`, the file name ends with `.agent.md`, and there are no syntax errors in the metadata block at the top. For a deeper understanding of agent behavior, see [Custom Agents](/code-studio/customize/custom-agents).
+> **Note:** If you do not see the agent in the dropdown, double-check that the `.agent.md` file is inside `.sfcode/agents/`, the file name ends with `.agent.md`, and there are no syntax errors in the metadata block at the top. For a deeper understanding of agent behavior, see [Custom Agents](/code/customize/custom-agents).
 
 ### Step 4: Ask the Agent to Document Your Codebase
 
@@ -196,7 +196,7 @@ Documentation is only useful if it stays up to date. This step shows you how to 
 
 Keep momentum by trying one of these next steps:
 
-- Generate your first code change: Walk through creating and applying a safe code diff with the agent. See [Generate Your First Code Using Agent](/code-studio/agentic-toolbox/agent-guides/generate-your-first-code-using-agent).
-- Fix bugs with AI: Locate, explain, and patch defects end-to-end. See [Fixing Bugs with AI](/code-studio/agentic-toolbox/agent-guides/fixing-bugs-with-ai).
-- Accelerate code reviews: Summarize diffs, surface risks, and propose improvements. See [Accelerate Code Reviews](/code-studio/agentic-toolbox/agent-guides/accelerate-code-reviews).
+- Generate your first code change: Walk through creating and applying a safe code diff with the agent. See [Generate Your First Code Using Agent](/code/agentic-toolbox/agent-guides/generate-your-first-code-using-agent).
+- Fix bugs with AI: Locate, explain, and patch defects end-to-end. See [Fixing Bugs with AI](/code/agentic-toolbox/agent-guides/fixing-bugs-with-ai).
+- Accelerate code reviews: Summarize diffs, surface risks, and propose improvements. See [Accelerate Code Reviews](/code/agentic-toolbox/agent-guides/accelerate-code-reviews).
 

@@ -27,7 +27,7 @@ Before you begin, ensure you have the following:
 
 - An active administrator account on Syncfusion Code.
 - A valid API key from your LLM provider (e.g., OpenAI, Anthropic).
-- *(Optional)* An OpenRouter API key for accessing multiple models through a single integration. Follow the detailed instructions [here](/code-studio/teams-and-enterprise/freemodel) to obtain an OpenRouter API key.
+- *(Optional)* An OpenRouter API key for accessing multiple models through a single integration. Follow the detailed instructions [here](/code/teams-and-enterprise/freemodel) to obtain an OpenRouter API key.
 
 ## How to Add BYOK Models
 
@@ -117,7 +117,7 @@ After adding the model, verify that it appears in the Syncfusion Code IDE:
 
 ## Related links
 
-- Learn how to [configure default models](/code-studio/monitoring-and-optimization/Configure-default-model) for your team.
-- Explore [provider and model management](/code-studio/teams-and-enterprise/providersandmodels) for advanced configurations.
-- [Free Models with OpenRouter](/code-studio/teams-and-enterprise/freemodel)
-- [User and Team Management](/code-studio/teams-and-enterprise/userandteams)
+- Learn how to [configure default models](/code/monitoring-and-optimization/Configure-default-model) for your team.
+- Explore [provider and model management](/code/teams-and-enterprise/providersandmodels) for advanced configurations.
+- [Free Models with OpenRouter](/code/teams-and-enterprise/freemodel)
+- [User and Team Management](/code/teams-and-enterprise/userandteams)

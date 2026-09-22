@@ -171,6 +171,6 @@ All four test cases now pass. The function no longer produces `NaN` or negative 
 
 ## What's Next?
 
-- [Generate Your First Code Change Using Agent](/code-studio/agentic-toolbox/agent-guides/generate-your-first-code-using-agent) - Let AI write new code for you.
-- [Compare AI Models for Different Tasks](/code-studio/ai-workflow-tutorials/compare-ai-models) - Choose the best AI model for your use case.
-- [From Repetition to Speed: Reusable Prompt Templates](/code-studio/monitoring-and-optimization/reusable-prompt-templates) - Save your context-aware prompts as reusable templates.
+- [Generate Your First Code Change Using Agent](/code/agentic-toolbox/agent-guides/generate-your-first-code-using-agent) - Let AI write new code for you.
+- [Compare AI Models for Different Tasks](/code/ai-workflow-tutorials/compare-ai-models) - Choose the best AI model for your use case.
+- [From Repetition to Speed: Reusable Prompt Templates](/code/monitoring-and-optimization/reusable-prompt-templates) - Save your context-aware prompts as reusable templates.

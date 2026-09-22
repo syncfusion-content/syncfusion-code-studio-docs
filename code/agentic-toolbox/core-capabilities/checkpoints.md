@@ -78,4 +78,4 @@ If an AI-generated update wasn't what you expected, modify the earlier request i
 When restoring a checkpoint, verify the impact on recently edited files. If needed, use the **Redo** option to reapply reverted changes safely.
 
 ## Releted Features
-- [Agent Mode](/code-studio/agentic-toolbox/chat-interactions/agent) - File changes can occur as the AI assists with coding tasks in agent mode. Checkpoints become especially useful here because they let you restore the workspace to a safe state if needed, or redo changes that were rolled back. This ensures you stay in control even when the agent is making edits.
+- [Agent Mode](/code/agentic-toolbox/chat-interactions/agent) - File changes can occur as the AI assists with coding tasks in agent mode. Checkpoints become especially useful here because they let you restore the workspace to a safe state if needed, or redo changes that were rolled back. This ensures you stay in control even when the agent is making edits.

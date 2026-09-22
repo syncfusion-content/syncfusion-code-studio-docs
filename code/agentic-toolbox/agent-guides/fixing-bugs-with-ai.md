@@ -120,6 +120,6 @@ The more relevant context the AI has, the more accurate its suggestions will be.
 
 ## What's Next
 
-- Use [Autocomplete](/code-studio/agentic-toolbox/core-capabilities/autocomplete) to catch errors as you type and reduce bugs before they occur.
-- Explore [Agent mode](/code-studio/agentic-toolbox/agent-guides/generate-your-first-code-using-agent) for generating and fixing code autonomously across your project.
-- Use the [Ask feature](/code-studio/agentic-toolbox/chat-interactions/ask) to have the AI explain error messages and suggest solutions in detail.
+- Use [Autocomplete](/code/agentic-toolbox/core-capabilities/autocomplete) to catch errors as you type and reduce bugs before they occur.
+- Explore [Agent mode](/code/agentic-toolbox/agent-guides/generate-your-first-code-using-agent) for generating and fixing code autonomously across your project.
+- Use the [Ask feature](/code/agentic-toolbox/chat-interactions/ask) to have the AI explain error messages and suggest solutions in detail.

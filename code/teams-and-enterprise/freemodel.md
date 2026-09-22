@@ -34,7 +34,7 @@ AI model costs can add up quickly during development. This guide shows you how t
  
 ## OpenRouter Free Tier Models
  
-OpenRouter's free tier unlocks powerful, hosted models that are free (with fair usage limits to keep things sustainable). It's perfect for testing and prototyping without cost. You can easily connect the free models to Code Studio by following this [Configuration steps](/code-studio/teams-and-enterprise/providersandmodels).
+OpenRouter's free tier unlocks powerful, hosted models that are free (with fair usage limits to keep things sustainable). It's perfect for testing and prototyping without cost. You can easily connect the free models to Code Studio by following this [Configuration steps](/code/teams-and-enterprise/providersandmodels).
  
  
 **Note:** These free models generally deliver about 60% proper results, so use them for prototyping and non-sensitive tasks rather than production.

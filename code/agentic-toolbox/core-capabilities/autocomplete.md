@@ -154,7 +154,7 @@ Syncfusion Code identifies when a variable has been renamed and suggests updatin
 - **Validate propagated changes:** Next Edit Suggestions may update related code across the file or project. Review these changes to ensure they match your design intent.
 
 ## Releted Features
- - [Inline Chat](/code-studio/agentic-toolbox/chat-interactions/inlinechat) Inline Chat in Syncfusion Code lets you talk to AI directly inside your code or terminal without switching screens.
- - [Generate Code](/code-studio/agentic-toolbox/agent-guides/generatecode) The Generate Code feature speeds up development by automatically handling repetitive tasks and giving instant AI-powered help right inside your editor.
+ - [Inline Chat](/code/agentic-toolbox/chat-interactions/inlinechat) Inline Chat in Syncfusion Code lets you talk to AI directly inside your code or terminal without switching screens.
+ - [Generate Code](/code/agentic-toolbox/agent-guides/generatecode) The Generate Code feature speeds up development by automatically handling repetitive tasks and giving instant AI-powered help right inside your editor.
 
 

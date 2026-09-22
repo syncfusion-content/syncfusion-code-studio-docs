@@ -13,7 +13,7 @@ Ready to supercharge your coding? In this tutorial, we'll walk you through one o
 
 By the end of this tutorial, you'll be comfortable using Agent mode to make your first AI-powered code changes. Let's get started!
 
-For deeper understanding of Agent mode capabilities, check out [Agent](/code-studio/agentic-toolbox/chat-interactions/agent).
+For deeper understanding of Agent mode capabilities, check out [Agent](/code/agentic-toolbox/chat-interactions/agent).
 
 
 ## What You Will Learn
@@ -116,8 +116,8 @@ Once you've approved all the changes you want, the Agent put together a helpful 
 You've mastered the basics, but there's so much more to explore:
 
 **Want to dive deeper into checkpoints?**
-   → Head to [Checkpoints](/code-studio/agentic-toolbox/core-capabilities/checkpoints) to learn how to manage multiple versions of your code like a pro.
+   → Head to [Checkpoints](/code/agentic-toolbox/core-capabilities/checkpoints) to learn how to manage multiple versions of your code like a pro.
 
 **Curious about what else Agent mode can do?**
-   → Check out the [Agent](/code-studio/agentic-toolbox/chat-interactions/agent) feature guide for advanced tips and tricks.
+   → Check out the [Agent](/code/agentic-toolbox/chat-interactions/agent) feature guide for advanced tips and tricks.
 

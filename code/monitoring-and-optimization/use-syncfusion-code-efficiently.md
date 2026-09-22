@@ -116,7 +116,7 @@ Syncfusion Code offers different ways to interact—Ask, Edit, Plan, and Agent. 
 
 **When to use each mode:**
 
-**[Ask Mode](/code-studio/agentic-toolbox/chat-interactions/ask)**
+**[Ask Mode](/code/agentic-toolbox/chat-interactions/ask)**
 Use this when you need to understand something, brainstorm ideas, or ask questions about your code.
 
 Examples:
@@ -126,7 +126,7 @@ Examples:
 
 Best for: Questions, understanding
 
-**[Edit Mode](/code-studio/agentic-toolbox/chat-interactions/edit)**
+**[Edit Mode](/code/agentic-toolbox/chat-interactions/edit)**
 Use this when you need to edit a specific code block or a specific file.
 
 Examples:
@@ -136,7 +136,7 @@ Examples:
 
 Best for: Quick, focused edits in one place
 
-**[Plan Mode](/code-studio/agentic-toolbox/chat-interactions/plan)**
+**[Plan Mode](/code/agentic-toolbox/chat-interactions/plan)**
 Use this when facing a complex feature that spans multiple files.
 
 Examples:
@@ -146,7 +146,7 @@ Examples:
 Best for: architectural decisions
 
 
-**[Agent Mode](/code-studio/agentic-toolbox/chat-interactions/agent)**
+**[Agent Mode](/code/agentic-toolbox/chat-interactions/agent)**
 Use this when you need autonomous, multi-file changes with the AI making decisions.
 
 Examples:

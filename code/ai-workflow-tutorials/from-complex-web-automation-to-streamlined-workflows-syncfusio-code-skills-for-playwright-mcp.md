@@ -9,7 +9,7 @@ keywords: playwright-mcp, agent-mode, web-automation, ai-testing, mcp-server
 
 ## Overview 
 
-Ready to transform your web testing workflow? In this tutorial, you'll learn how to use Playwright Model Context Protocol (MCP) with Syncfusion Code's [Agent mode](/code-studio/agentic-toolbox/chat-interactions/agent) to generate, execute, and manage web automation tests with AI assistance. Playwright MCP acts as a bridge that enables Syncfusion Code's AI to perform real-world browser automation tasks based on your natural language instructions.
+Ready to transform your web testing workflow? In this tutorial, you'll learn how to use Playwright Model Context Protocol (MCP) with Syncfusion Code's [Agent mode](/code/agentic-toolbox/chat-interactions/agent) to generate, execute, and manage web automation tests with AI assistance. Playwright MCP acts as a bridge that enables Syncfusion Code's AI to perform real-world browser automation tasks based on your natural language instructions.
 
 > **Key concept — Playwright MCP Server:** A specific MCP implementation that brings Playwright's browser automation capabilities to AI agents. It acts as a translator between natural language commands and browser actions. When you tell the AI to "verify the login button exists," the Playwright MCP Server converts this into executable Playwright code that navigates pages, clicks elements, fills forms, and captures results.
 
@@ -234,7 +234,7 @@ Once the agent finishes its work, you'll have a complete, executable Playwright 
 
 ## What's Next
 
-- [Generate Your First Code Change Using Agent](/code-studio/agentic-toolbox/agent-guides/generate-your-first-code-using-agent) — Let AI write new code for you.
-- [Agent Mode](/code-studio/agentic-toolbox/chat-interactions/agent) — Explore advanced Agent mode capabilities and workflows.
-- [Improving Code Maintainability with Automated Clean Code Refactoring](/code-studio/agentic-toolbox/agent-guides/improving-code-maintainability-with-automated-clean-code-refactoring) — Use AI to improve code quality automatically.
+- [Generate Your First Code Change Using Agent](/code/agentic-toolbox/agent-guides/generate-your-first-code-using-agent) — Let AI write new code for you.
+- [Agent Mode](/code/agentic-toolbox/chat-interactions/agent) — Explore advanced Agent mode capabilities and workflows.
+- [Improving Code Maintainability with Automated Clean Code Refactoring](/code/agentic-toolbox/agent-guides/improving-code-maintainability-with-automated-clean-code-refactoring) — Use AI to improve code quality automatically.
 

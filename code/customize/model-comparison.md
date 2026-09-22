@@ -143,4 +143,4 @@ For single-step reasoning or debugging, see [Deep reasoning and debugging](#task
 
 If you're not sure which model to start with, GPT-4.1 or Claude Sonnet 4.6 are good general-purpose defaults. Switch to a deeper reasoning model like GPT-5 or Claude Opus 4.5 when a task requires more thorough analysis.
 
-- To get started with Syncfusion Code, see [Quick Start](/code-studio/getting-started/quick-start)
+- To get started with Syncfusion Code, see [Quick Start](/code/getting-started/quick-start)

@@ -60,9 +60,9 @@ Edit Mode is an AI-powered feature in Syncfusion Code that helps developers modi
 <img src="../agentic-toolbox-images/keepUndo.png" alt="Chat Input" />
 
 ## Related Features
-- [Add Context](/code-studio/agentic-toolbox/chat-interactions/add-context): Provide additional files for more accurate edits
-- [Quick Fix](/code-studio/agentic-toolbox/chat-interactions/quick-fix-error): Instantly resolve detected issues
-- [Inline Chat](/code-studio/agentic-toolbox/chat-interactions/inlinechat): Get in-line code suggestions
+- [Add Context](/code/agentic-toolbox/chat-interactions/add-context): Provide additional files for more accurate edits
+- [Quick Fix](/code/agentic-toolbox/chat-interactions/quick-fix-error): Instantly resolve detected issues
+- [Inline Chat](/code/agentic-toolbox/chat-interactions/inlinechat): Get in-line code suggestions
 
 ## Best Practices
 

@@ -36,7 +36,7 @@ The tools are designed to automate and simplify common development tasks, allowi
 
 ## Prerequisites
 
-1. **For MCP Tools** - MCP servers must be installed and configured before they can be used. See [MCP Marketplace](/code-studio/customize/mcp/marketplace) for installation instructions.
+1. **For MCP Tools** - MCP servers must be installed and configured before they can be used. See [MCP Marketplace](/code/customize/mcp/marketplace) for installation instructions.
 
 ## Types of Tools
 

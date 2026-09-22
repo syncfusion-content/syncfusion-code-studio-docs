@@ -29,60 +29,60 @@ By combining these capabilities, Syncfusion Code helps you write cleaner, more a
 Working with Syncfusion Code will give you hands-on experience in the following areas: 
 
 -  **Autocomplete Mode**: AI‑powered code suggestions as you type, based on your current project.  
-Learn more on the [Autocomplete](/code-studio/agentic-toolbox/core-capabilities/autocomplete) page.
+Learn more on the [Autocomplete](/code/agentic-toolbox/core-capabilities/autocomplete) page.
 
 -  **Ask Mode**: Get quick answers, explanations, and ready-to-use code snippets through simple questions in the IDE—no project files required.  
-Learn more on the [Ask](/code-studio/agentic-toolbox/chat-interactions/ask) page.
+Learn more on the [Ask](/code/agentic-toolbox/chat-interactions/ask) page.
 
 -  **Edit Mode**: Use AI prompts to modify source code with previewed changes, letting you keep or undo each edit for precise control and high accuracy.  
-Learn more on the [Edit](/code-studio/agentic-toolbox/chat-interactions/edit) page.
+Learn more on the [Edit](/code/agentic-toolbox/chat-interactions/edit) page.
 
 -  **Agent Mode**: The AI agent understands your codebase and autonomously performs multi‑step tasks. It can read files, reason about logic, and use built‑in tools (like file search, code edit, or UI generation) to complete complex workflows end‑to‑end.  
-Learn more on the [Agent](/code-studio/agentic-toolbox/chat-interactions/agent) page.
+Learn more on the [Agent](/code/agentic-toolbox/chat-interactions/agent) page.
 
 -  **Plan Mode**: Research tasks, identify requirements, and break work into clear, reviewable steps before writing any code—ensuring safer and more reliable implementation.  
-Learn more on the [Plan](/code-studio/agentic-toolbox/chat-interactions/plan) page.
+Learn more on the [Plan](/code/agentic-toolbox/chat-interactions/plan) page.
 
 -  **Provide Context to Chat**: Attach files, folders, code symbols, errors, screenshots, or tool outputs so the AI understands what you’re working on and gives accurate, relevant guidance.  
-Learn more on the [Context](/code-studio/agentic-toolbox/chat-interactions/add-context) page.
+Learn more on the [Context](/code/agentic-toolbox/chat-interactions/add-context) page.
 
 -  **Enterprise Server**: Centralized administration for organizations, including users and teams, providers and models, budgets, alerts, and dashboards.  
-Learn more on the [Enterprise Server](/code-studio/teams-and-enterprise/getting-started) page.
+Learn more on the [Enterprise Server](/code/teams-and-enterprise/getting-started) page.
 
 -  **Built‑in Tools**: Perform file edits, searches, terminal commands, and more directly from the agent.  
-See [Tools](/code-studio/agentic-toolbox/core-capabilities/toolssupport).
+See [Tools](/code/agentic-toolbox/core-capabilities/toolssupport).
 
 -  **Checkpoints**: Automatically capture, compare, and restore your workspace state to track changes and recover easily.  
-Learn more in [Checkpoints](/code-studio/agentic-toolbox/core-capabilities/checkpoints).
+Learn more in [Checkpoints](/code/agentic-toolbox/core-capabilities/checkpoints).
 
 -  **Inline Chat**: Apply AI‑powered fixes, optimizations, and docs right from the editor’s context menu.  
-See [Inline Chat](/code-studio/agentic-toolbox/chat-interactions/inlinechat).
+See [Inline Chat](/code/agentic-toolbox/chat-interactions/inlinechat).
 
 -  **Telemetry**: Anonymous usage analytics to improve product quality; can be disabled anytime.  
-See [Telemetry](/code-studio/monitoring-and-optimization/telemetry).
+See [Telemetry](/code/monitoring-and-optimization/telemetry).
 
 -  **Generate Code**: Automate common coding tasks like fixing issues, reviewing code, generating documentation, and creating tests—directly inside your editor for faster, higher‑quality development.
-Learn more on the [Generate Code](/code-studio/agentic-toolbox/agent-guides/generatecode) Generate Code page.
+Learn more on the [Generate Code](/code/agentic-toolbox/agent-guides/generatecode) Generate Code page.
 
 -  **Quick Fix**: Instantly detect and resolve errors with context‑aware AI suggestions, inline previews, and explanations—so you can fix issues without leaving your editor.  
-Learn more on the [Quick Fix](/code-studio/agentic-toolbox/chat-interactions/quick-fix-error) page.
+Learn more on the [Quick Fix](/code/agentic-toolbox/chat-interactions/quick-fix-error) page.
 
--  **MCP Integration**: Discover and manage servers via the [MCP Marketplace](/code-studio/customize/mcp/marketplace) or connect [Custom Servers](/code-studio/customize/mcp/customservers) including NPM package,pip package, docker image, HTTP, command.
+-  **MCP Integration**: Discover and manage servers via the [MCP Marketplace](/code/customize/mcp/marketplace) or connect [Custom Servers](/code/customize/mcp/customservers) including NPM package,pip package, docker image, HTTP, command.
 
--   **Custom Agent**: Pre‑configured AI agents for specific tasks that follow fixed rules, tools, and behaviors—ensuring consistent, repeatable workflows across teams. Learn more on the [Custom Agent](/code-studio/customize/custom-agents) page.
+-   **Custom Agent**: Pre‑configured AI agents for specific tasks that follow fixed rules, tools, and behaviors—ensuring consistent, repeatable workflows across teams. Learn more on the [Custom Agent](/code/customize/custom-agents) page.
 
 - **Agent Skills**: Reusable, task-specific instruction sets that extend the agent's capabilities—such as running tests, generating docs, or enforcing code standards—without modifying the core agent configuration.  
-  Learn more on the [Agent Skills](/code-studio/customize/skills) page.
+  Learn more on the [Agent Skills](/code/customize/skills) page.
 
 - **Hooks**: Automated scripts triggered at defined points in the agent workflow (before or after a tool call) to enforce policies, validate outputs, or run custom logic—keeping AI actions consistent and auditable.  
-  Learn more on the [Hooks](/code-studio/customize/hooks) page.
+  Learn more on the [Hooks](/code/customize/hooks) page.
 
--  **Custom Instructions**: Custom instructions define reusable guidelines that shape how AI generates code and performs development tasks, eliminating the need to repeat context in every prompt. They can be applied automatically to all chats, targeted to specific files, or manually attached to individual prompts. Learn more on the [Custom Instructions](/code-studio/customize/custom-instructions) page.
+-  **Custom Instructions**: Custom instructions define reusable guidelines that shape how AI generates code and performs development tasks, eliminating the need to repeat context in every prompt. They can be applied automatically to all chats, targeted to specific files, or manually attached to individual prompts. Learn more on the [Custom Instructions](/code/customize/custom-instructions) page.
 
--  **Custom Prompts**: Prompt files are on‑demand, reusable Markdown prompts that standardize specific development tasks like code generation and reviews. Learn more on the [Custom Prompt](/code-studio/customize/custom-prompt) page.
+-  **Custom Prompts**: Prompt files are on‑demand, reusable Markdown prompts that standardize specific development tasks like code generation and reviews. Learn more on the [Custom Prompt](/code/customize/custom-prompt) page.
 
 ## Get started
 
 Ready to try Syncfusion Code?
 
-- Go to the [Quick Start](/code-studio/getting-started/quick-start) page to set up Syncfusion Code and create your first code snippet with AI assistance.
+- Go to the [Quick Start](/code/getting-started/quick-start) page to set up Syncfusion Code and create your first code snippet with AI assistance.

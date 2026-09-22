@@ -67,7 +67,7 @@ After Syncfusion Code generates a shell command:
    <img src="../agentic-toolbox-images/inlinechat5.png" alt="inlinechat"  />
 
 ## Releted Features
-- [Add context to your chat prompt](/code-studio/agentic-toolbox/chat-interactions/add-context) - Enhance your prompt by providing extra details. This helps Syncfusion Code generate more accurate results and keeps your workspace aligned with your goals.
+- [Add context to your chat prompt](/code/agentic-toolbox/chat-interactions/add-context) - Enhance your prompt by providing extra details. This helps Syncfusion Code generate more accurate results and keeps your workspace aligned with your goals.
 
 
 

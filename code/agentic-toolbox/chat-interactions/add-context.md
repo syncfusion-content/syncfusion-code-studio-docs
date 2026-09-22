@@ -175,6 +175,6 @@ Selecting one routes your request to that domain expert.
 
 
 ## Releted Features
- - [Inline Chat](/code-studio/agentic-toolbox/chat-interactions/inlinechat) Inline Chat in Syncfusion Code lets you talk toAI
+ - [Inline Chat](/code/agentic-toolbox/chat-interactions/inlinechat) Inline Chat in Syncfusion Code lets you talk toAI
  directly inside your code or terminal without switching screens.
- - [Generate Code](/code-studio/agentic-toolbox/agent-guides/generatecode) The Generate Code feature speeds up development by automatically handling repetitive tasks and giving instant AI-powered help right inside your editor.
+ - [Generate Code](/code/agentic-toolbox/agent-guides/generatecode) The Generate Code feature speeds up development by automatically handling repetitive tasks and giving instant AI-powered help right inside your editor.

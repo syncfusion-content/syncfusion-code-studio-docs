@@ -172,6 +172,6 @@ Check your project structure to verify the archiving worked correctly:
 
 You've mastered the basics of OpenSpec in Syncfusion Code! Here are some recommended next steps to expand your skills:
 
-- Learn how to combine OpenSpec with autonomous AI coding in [Generate Your First Code Using Agent](/code-studio/agentic-toolbox/agent-guides/generate-your-first-code-using-agent).
-- Check out [Manage Chat Sessions](/code-studio/monitoring-and-optimization/manage-chat-session) to organize your conversations.
+- Learn how to combine OpenSpec with autonomous AI coding in [Generate Your First Code Using Agent](/code/agentic-toolbox/agent-guides/generate-your-first-code-using-agent).
+- Check out [Manage Chat Sessions](/code/monitoring-and-optimization/manage-chat-session) to organize your conversations.
 - For advanced users, learn about customizing OpenSpec commands in the [OpenSpec Commands Documentation](https://github.com/Fission-AI/OpenSpec/blob/main/docs/commands.md).

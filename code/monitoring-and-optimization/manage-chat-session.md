@@ -127,4 +127,4 @@ You can save a chat session as a reusable prompt to reuse for similar tasks.
 
 Review and edit the generated prompt file as needed, then save it to your workspace.
 
-Learn more about prompt file in [Custom Prompts](/code-studio/customize/custom-prompt) documentation.
+Learn more about prompt file in [Custom Prompts](/code/customize/custom-prompt) documentation.

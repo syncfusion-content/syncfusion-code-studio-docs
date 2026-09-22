@@ -15,7 +15,7 @@ Syncfusion Code provides intelligent AI-powered assistance for Go development, h
 This guide walks you through setting up a complete Go development environment—from installing the Go compiler to writing your first Go program. Once configured, you'll be able to leverage Syncfusion Code's autocomplete, debugging assistance, code explanations, and smart refactoring for all your Go projects.
 
 > **Prerequisites:** 
-> - Syncfusion Code must be installed. If not, see the [installation guide](/code-studio/getting-started/install-and-configuration).
+> - Syncfusion Code must be installed. If not, see the [installation guide](/code/getting-started/install-and-configuration).
 > - **Disk Space:** ~500 MB for Go installation
 
 ## What You'll Learn
@@ -236,10 +236,10 @@ Debugging is where Syncfusion Code truly shines. Let's walk through setting up d
 
 Now that Your Go development environment is now fully configured in Syncfusion Code. Here's what you can explore next:
 
-- **Build Real Projects:** Start developing Go applications with full debugging support - see [Generate Your First Code Using Agent](/code-studio/agentic-toolbox/agent-guides/generate-your-first-code-using-agent) to get started
-- **Leverage AI Features:** Use Syncfusion Code's [Autocomplete](/code-studio/agentic-toolbox/core-capabilities/autocomplete), [Ask](/code-studio/agentic-toolbox/chat-interactions/ask), and refactoring capabilities to speed up development
-- **Explore Agent Mode:** For complex multi-package projects, try [Agent mode](/code-studio/agentic-toolbox/chat-interactions/agent) for advanced refactoring and architectural improvements
-- **Learn More:** Check out the [Quick Start Guide](/code-studio/getting-started/quick-start) and [overview](/code-studio/getting-started/overview) for additional capabilities
+- **Build Real Projects:** Start developing Go applications with full debugging support - see [Generate Your First Code Using Agent](/code/agentic-toolbox/agent-guides/generate-your-first-code-using-agent) to get started
+- **Leverage AI Features:** Use Syncfusion Code's [Autocomplete](/code/agentic-toolbox/core-capabilities/autocomplete), [Ask](/code/agentic-toolbox/chat-interactions/ask), and refactoring capabilities to speed up development
+- **Explore Agent Mode:** For complex multi-package projects, try [Agent mode](/code/agentic-toolbox/chat-interactions/agent) for advanced refactoring and architectural improvements
+- **Learn More:** Check out the [Quick Start Guide](/code/getting-started/quick-start) and [overview](/code/getting-started/overview) for additional capabilities
 
 ### Recommended Go Resources
 

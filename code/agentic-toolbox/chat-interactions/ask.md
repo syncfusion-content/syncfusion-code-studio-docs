@@ -71,5 +71,5 @@ Syncfusion Code processes your query and returns:
 
 ## Related Features
 
-- [Edit Mode](/code-studio/agentic-toolbox/chat-interactions/edit) - Context-aware file editing with workspace integration
-- [Agent Mode](/code-studio/agentic-toolbox/chat-interactions/agent) - Multi-step task automation with tool execution
+- [Edit Mode](/code/agentic-toolbox/chat-interactions/edit) - Context-aware file editing with workspace integration
+- [Agent Mode](/code/agentic-toolbox/chat-interactions/agent) - Multi-step task automation with tool execution

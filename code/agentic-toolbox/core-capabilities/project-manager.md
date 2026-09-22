@@ -291,7 +291,7 @@ When enabled (the default), cancelling a task saves its progress and any generat
 
 ## Related Features
 
-- [Agent Mode](/code-studio/agentic-toolbox/chat-interactions/agent): The AI engine that executes each workflow stage autonomously.
-- [Plan Mode](/code-studio/agentic-toolbox/chat-interactions/plan): Use Plan Mode to design and refine an implementation plan before the agent writes code.
-- [Custom Instructions](/code-studio/customize/custom-instructions): Add project-level instructions that the agent reads on every task.
-- [Skills](/code-studio/customize/skills): Learn how individual skills are structured and how to author your own.
+- [Agent Mode](/code/agentic-toolbox/chat-interactions/agent): The AI engine that executes each workflow stage autonomously.
+- [Plan Mode](/code/agentic-toolbox/chat-interactions/plan): Use Plan Mode to design and refine an implementation plan before the agent writes code.
+- [Custom Instructions](/code/customize/custom-instructions): Add project-level instructions that the agent reads on every task.
+- [Skills](/code/customize/skills): Learn how individual skills are structured and how to author your own.

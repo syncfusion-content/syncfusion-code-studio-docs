@@ -247,7 +247,7 @@ After you configure hooks, verify them with a simple test flow.
 
 ## Related Topics
 
-- [Custom Instructions](/code-studio/customize/custom-instructions)
-- [Tools Support](/code-studio/agentic-toolbox/core-capabilities/toolssupport)
-- [Enhancing Security Reviews and Code Quality with Automated Hooks in Syncfusion Code](/code-studio/agentic-toolbox/agent-guides/enhance-security-with-hooks)
-- [Custom Agents](/code-studio/customize/custom-agents)
+- [Custom Instructions](/code/customize/custom-instructions)
+- [Tools Support](/code/agentic-toolbox/core-capabilities/toolssupport)
+- [Enhancing Security Reviews and Code Quality with Automated Hooks in Syncfusion Code](/code/agentic-toolbox/agent-guides/enhance-security-with-hooks)
+- [Custom Agents](/code/customize/custom-agents)

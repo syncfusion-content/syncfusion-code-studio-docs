@@ -51,7 +51,7 @@ By the end of this tutorial, you'll be able to:
 
 **Best for:** Tasks you do occasionally, personal use.
 
-To create and setup the custom prompt, see [Custom Prompts](/code-studio/customize/custom-prompt) for detailed steps.
+To create and setup the custom prompt, see [Custom Prompts](/code/customize/custom-prompt) for detailed steps.
 
 Now we can see how a custom prompt saves and reuses your prompts. Below is a complete documentation template you can copy and use to add consistent comments to your code every time.
 
@@ -117,7 +117,7 @@ When you run this template:
 
 **Best for:** Team workflows, consistent role-based tasks, shared standards
 
-To create and setup the agents, see [Custom Agents](/code-studio/customize/custom-agents) for detailed steps.
+To create and setup the agents, see [Custom Agents](/code/customize/custom-agents) for detailed steps.
 
 Now we can see how a custom agent generates production-ready code. Below is a complete code generator template you can copy and use to write clean, well-structured code every time.
 
@@ -186,7 +186,7 @@ When you switch to this agent:
 
 **Best for:** Project-wide standards, automatic enforcement
 
-To create and setup the custom instructions, see [Custom Instruction](/code-studio/customize/custom-instructions) for detailed steps.
+To create and setup the custom instructions, see [Custom Instruction](/code/customize/custom-instructions) for detailed steps.
 
 Now we can see how custom instructions automatically enforce your standards. Below is a complete Python standards template you can copy and use to ensure every Python file follows your team's conventions.
 
@@ -268,7 +268,7 @@ When you add this instruction file:
 
 **Best for:** Specialized tasks that activate contextually, occasional workflows.
 
-To create and setup the skills, see [Skills](/code-studio/customize/skills) for detailed steps.
+To create and setup the skills, see [Skills](/code/customize/skills) for detailed steps.
 
 Now we can see how a skill generates test cases for you. Below is a complete test case generator template you can copy and use to write comprehensive tests automatically.
 

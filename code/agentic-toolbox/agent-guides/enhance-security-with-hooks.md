@@ -292,6 +292,6 @@ Here are some ideas:
 
 ## What's Next
 
-- [Generate Your First Code Change Using Agent](/code-studio/agentic-toolbox/agent-guides/generate-your-first-code-using-agent) – Guide the agent to implement and verify a small change end-to-end.
-- [Fixing Bugs with AI](/code-studio/agentic-toolbox/agent-guides/fixing-bugs-with-ai) – Use the agent to identify, patch, and validate defects safely.
-- [Compare AI Models for Different Tasks](/code-studio/ai-workflow-tutorials/compare-ai-models) – Evaluate model quality, cost, and speed for your workflows.
+- [Generate Your First Code Change Using Agent](/code/agentic-toolbox/agent-guides/generate-your-first-code-using-agent) – — Guide the agent to implement and verify a small change end-to-end.
+- [Fixing Bugs with AI](/code/agentic-toolbox/agent-guides/fixing-bugs-with-ai) – Use the agent to identify, patch, and validate defects safely.
+- [Compare AI Models for Different Tasks](/code/ai-workflow-tutorials/compare-ai-models) – Evaluate model quality, cost, and speed for your workflows.
