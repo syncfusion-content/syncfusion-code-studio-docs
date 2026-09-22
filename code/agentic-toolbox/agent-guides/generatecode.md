@@ -20,11 +20,11 @@ It reduces repetitive work, improves code quality, and provides instant AI assis
 - Remove repetitive tasks  
 - Get instant help inside your editor  
 
-It's like having a **junior developer**, and a **senior reviewer**.
+It’s like having a **junior developer**, and a **senior reviewer**.
 
 ## How to Use Automate Code Fixes and Reviews
 
-1. **Right-click** on the code you want help with.   
+1. **Right‑click** on the code you want help with.   
 3. Choose what you want the AI to do:
    - **Fix**  
    - **Review**  
@@ -59,7 +59,7 @@ When you choose **Review**, the AI:
 - Suggests refactoring for cleaner structure  
 - Points out performance issues  
 - Highlights unused variables or repeated logic  
-- Provides best-practice recommendations  
+- Provides best‑practice recommendations  
 
 <img src="../agentic-toolbox-images/generatecode-review.png" alt="review" />
 

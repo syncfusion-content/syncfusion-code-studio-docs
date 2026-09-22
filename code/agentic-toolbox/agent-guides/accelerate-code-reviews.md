@@ -16,7 +16,7 @@ You've just finished implementing a complex feature across 15 files. The code wo
 
 What if you could get instant, intelligent feedback before you even commit? What if you had an AI reviewer that remembers and enforces your team's coding standards automatically? That's exactly what we'll show you in this tutorial.
 
-In a few minutes, you'll learn three powerful ways to review your code instantly in Syncfusion Code-catching bugs, security issues, and quality problems before they ever reach a pull request. No more waiting. No more bottlenecks.
+In a few minutes, you'll learn three powerful ways to review your code instantly in Syncfusion Code—catching bugs, security issues, and quality problems before they ever reach a pull request. No more waiting. No more bottlenecks.
 
 ## Prerequisites
 
@@ -35,9 +35,9 @@ By the end of this tutorial, you'll be able to:
 
 ## Key Concepts
 
-**#changes** - A special tool in Syncfusion Code that shares your uncommitted Git changes with the AI so it can review everything you modified in one go.
+**#changes** — A special tool in Syncfusion Code that shares your uncommitted Git changes with the AI so it can review everything you modified in one go.
 
-**Custom Review Agent** - A reusable, named reviewer you configure once to apply your team's security, performance, testing, and documentation rules consistently.
+**Custom Review Agent** — A reusable, named reviewer you configure once to apply your team's security, performance, testing, and documentation rules consistently.
 
 
 ## Let's Get Started with Code Reviews
@@ -65,9 +65,9 @@ Your project is now Git-ready! Time to review your first changes.
 
 #### Method 1: Do Your First Instant Code Review with #changes
 
-The `#changes` tool is like having a code reviewer look at your Git diff instantly. No waiting, no pull requests-just immediate feedback.
+The `#changes` tool is like having a code reviewer look at your Git diff instantly. No waiting, no pull requests—just immediate feedback.
 
-1. Make some code changes if you haven't already. Edit a file, add a function, fix a bug-anything works for practice.
+1. Make some code changes if you haven't already. Edit a file, add a function, fix a bug—anything works for practice.
 
 2. Open the Chat panel in Syncfusion Code (Ctrl+Shift+I on Windows, Cmd+Shift+I on macOS).
 
@@ -102,15 +102,15 @@ A custom agent is like a specialized reviewer you configure once, then use forev
 
 **#changes (Method 1):**
 
-- Quick and instant
-- No setup needed
-- Great for one-off reviews
+- ✓ Quick and instant
+- ✓ No setup needed
+- ✓ Great for one-off reviews
 
 **Custom Agent (Method 2):**
 
-- Consistent reviews every time
-- Great for teams
-- Remembers all your standards
+- ✓ Consistent reviews every time
+- ✓ Great for teams
+- ✓ Remembers all your standards
 
 For detailed steps on creating custom agents, see [Custom Agents](/code-studio/customize/custom-agents).
 
