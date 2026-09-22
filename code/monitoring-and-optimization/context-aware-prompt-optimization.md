@@ -74,7 +74,7 @@ console.log(calculateFinalPrice(-50, 10));        // Bug: Negative price
 ```
 
 3. **Run the code:**
-   - Open the integrated terminal by pressing `` Ctrl+` `` (Windows/Linux) or `` Cmd+` `` (Mac), or go to `Terminal` -> `New Terminal` in the top menu.
+   - Open the integrated terminal by pressing `` Ctrl+` `` (Windows/Linux) or `` Cmd+` `` (Mac), or go to `Terminal` → `New Terminal` in the top menu.
    - Ensure you are in the directory where you saved `priceCalculator.js`, then run:
 
 ```bash
@@ -130,10 +130,10 @@ CONSTRAINTS:
 - Set default discount to 0 if missing
 
 EXPECTED BEHAVIOR:
-- calculateFinalPrice(100, 20) -> 80
-- calculateFinalPrice("100", 20) -> 80
-- calculateFinalPrice(100, undefined) -> 100
-- calculateFinalPrice(-50, 10) -> 0 (no negative prices)
+- calculateFinalPrice(100, 20) → 80
+- calculateFinalPrice("100", 20) → 80
+- calculateFinalPrice(100, undefined) → 100
+- calculateFinalPrice(-50, 10) → 0 (no negative prices)
 ```
 
 4. Select the entire `calculateFinalPrice` function in your `priceCalculator.js` file, then send the prompt.

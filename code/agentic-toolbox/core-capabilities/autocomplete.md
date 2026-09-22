@@ -45,7 +45,7 @@ Inline suggestions appear as light, faded (ghost) text directly at the cursor wh
 2. A faded (ghost) suggestion will appear based on your context.
 3. **Accept full suggestion:** Press `Tab`
 4. **Dismiss suggestion:** Press `Esc`
-5. **Accept suggestion word-by-word:** Press `Ctrl/Cmd + ->`
+5. **Accept suggestion word-by-word:** Press `Ctrl/Cmd + →`
 
    <img src="../agentic-toolbox-images/autocomplete1.gif" alt="Autocomplete"  />
 

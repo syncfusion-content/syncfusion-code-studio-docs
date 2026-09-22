@@ -34,7 +34,7 @@ Follow these steps to invite a new user to your organization.
 - You are redirected to the web dashboard where credits and usage information is displayed.
 
 ### Step 2 : Open the Users Panel
-- Navigate to the **Users** section in your organization's dashboard.
+- Navigate to the **Users** section in your organization’s dashboard.
 
 <img src="./monitoring-and-optimization-images/inviteuser1.png" alt="inviteuser" style="display:block; margin: 12px auto;" />
 
@@ -61,11 +61,11 @@ Follow these steps to invite a new user to your organization.
 <img src="./monitoring-and-optimization-images/inviteuser6.png" alt="inviteuser" style="display:block; margin: 12px auto;" />
 
 ### Step 5 : Select Role
-- Choose the user's role (e.g., User, Team Lead, Admin).
+- Choose the user’s role (e.g., User, Team Lead, Admin).
 
 <img src="./monitoring-and-optimization-images/inviteuser7.png" alt="inviteuser" style="display:block; margin: 12px auto;" />
 
-### Step 6 : Enter User's Email
+### Step 6 : Enter User’s Email
 - Type the email address of the person you want to invite and click **Add**.
 
 <img src="./monitoring-and-optimization-images/inviteuser8.png" alt="inviteuser" style="display:block; margin: 12px auto;" />
@@ -76,7 +76,7 @@ Follow these steps to invite a new user to your organization.
 <img src="./monitoring-and-optimization-images/inviteuser9.png" alt="inviteuser" style="display:block; margin: 12px auto;" />
 
 ### Step 8 : User Accepts the Invitation
-The invited user receives an email with an **"Accept Invite"** link.
+The invited user receives an email with an **“Accept Invite”** link.
 
 Once they complete onboarding:
 

@@ -73,7 +73,7 @@ When your objective is long enough, a **Plugin Selector** appears so you can add
 
  <img src="../agentic-toolbox-images/pm-new-task.png" alt="New Task: Start a workflow" />
 
-Once the task starts, the agent moves through a series of stages automatically. Each stage has a clear purpose, and the agent saves a document at the end of each one so you can see exactly what was decided or done. The most common workflow runs through five stages: **Define -> Plan -> Build -> Verify -> Review**. For Thorough and Maximum process levels, a sixth **Ship** stage is added after Review to run a pre-launch checklist before the task is marked done.
+Once the task starts, the agent moves through a series of stages automatically. Each stage has a clear purpose, and the agent saves a document at the end of each one so you can see exactly what was decided or done. The most common workflow runs through five stages: **Define → Plan → Build → Verify → Review**. For Thorough and Maximum process levels, a sixth **Ship** stage is added after Review to run a pre-launch checklist before the task is marked done.
 
 At the start of each stage, a **Send to Agent** button appears. Clicking it triggers the agent to begin its work for that stage.
 

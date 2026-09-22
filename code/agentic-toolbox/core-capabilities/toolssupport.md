@@ -130,7 +130,7 @@ Before you can use tools in chat, you need to enable them in the **Chat view**. 
 
 <img src="../agentic-toolbox-images/tools4.png" alt="Tools" >
 
-**Tip** : Use the search box to quickly filter the list of tools.
+**💡Tip** : Use the search box to quickly filter the list of tools.
 
 ### How to Use Tools in Your Prompt 
 

@@ -116,8 +116,8 @@ Once you've approved all the changes you want, the Agent put together a helpful 
 You've mastered the basics, but there's so much more to explore:
 
 **Want to dive deeper into checkpoints?**
-   → Head to [Checkpoints](/code/agentic-toolbox/core-capabilities/checkpoints) to learn how to manage multiple versions of your code like a pro.
+  → Head to [Checkpoints](/code/agentic-toolbox/core-capabilities/checkpoints) to learn how to manage multiple versions of your code like a pro.
 
 **Curious about what else Agent mode can do?**
-   → Check out the [Agent](/code/agentic-toolbox/chat-interactions/agent) feature guide for advanced tips and tricks.
+  → Check out the [Agent](/code/agentic-toolbox/chat-interactions/agent) feature guide for advanced tips and tricks.
 

@@ -12,7 +12,7 @@ keywords: cost-usage, daily-cost, token-usage, budget, dashboard, analytics
 Daily credit and token tracking help you understand how much AI usage you are consuming.
 It shows you:
 - Total tokens used today
-- Credits spent for today's usage
+- Credits spent for today’s usage
 - Usage patterns and unusual spikes
 - Ways to optimize and reduce credit usage
 
@@ -45,18 +45,18 @@ Follow these steps to view your credits and token usage in Syncfusion Code:
 <img src="./monitoring-and-optimization-images/Dashboard-navigate1.png">
 - You are redirected to the web dashboard where credits and usage information is displayed.
 
-### Step 4: Select Today's Date
+### Step 4: Select Today’s Date
 - In the dashboard, locate the date filter at the top of the page.
 - Click the date field and select **This week**.
 <img src="./monitoring-and-optimization-images/Date-filter1.png">
 
 ### Step 5: Select your name in the User field from the Filter.
 <img src="./monitoring-and-optimization-images/user-profile.png">
-- The dashboard refreshes to show today's credit usage.
+- The dashboard refreshes to show today’s credit usage.
 
 ### Step 6: Select the chat session from the Filter.
 <img src="./monitoring-and-optimization-images/chat-session.png">
-- The dashboard refreshes to show today's credit usage for the chat session.
+- The dashboard refreshes to show today’s credit usage for the chat session.
 
 ### Step 7: View Daily Credit Usage
 - After setting the date to **Today**, you see the total credit incurred today.
