@@ -9,9 +9,9 @@ keywords: refactoring, clean-code, code-maintainability, automated-refactoring, 
 
 ## Overview
 
-Is your codebase getting harder to read, test, or extend? That's a sign it's time to **refactor**. **Refactoring** is the process of restructuring your existing code to improve its clarity, structure, and maintainability - without changing what it actually does.
+Is your codebase getting harder to read, test, or extend? That's a sign it's time to **refactor**. **Refactoring** is the process of restructuring your existing code to improve its clarity, structure, and maintainability – without changing what it actually does.
 
-Syncfusion Code makes this process faster and more consistent through its built-in AI-powered tools. In this tutorial, you'll walk through practical, real-world examples of how Syncfusion Code automatically detects and fixes the most common code quality problems: repeated logic, bloated functions, and poor naming - all with just a few keystrokes.
+Syncfusion Code makes this process faster and more consistent through its built-in AI-powered tools. In this tutorial, you'll walk through practical, real-world examples of how Syncfusion Code automatically detects and fixes the most common code quality problems: repeated logic, bloated functions, and poor naming – all with just a few keystrokes.
 
 By the end of this tutorial, you'll have a concrete set of refactoring techniques you can apply immediately to your own projects.
 
@@ -59,13 +59,13 @@ Before changing any code, you must understand what it does. Syncfusion Code's [I
 
 ### Step 2: Eliminate Repeated Code with Extracted Functions
 
-**Code duplication** - the same logic copy-pasted in multiple places - is one of the most common maintainability problems. When the same operation appears more than once, every bug fix or change must be applied in every location, which is time-consuming and error-prone.
+**Code duplication** – the same logic copy-pasted in multiple places – is one of the most common maintainability problems. When the same operation appears more than once, every bug fix or change must be applied in every location, which is time-consuming and error-prone.
 
 Syncfusion Code can detect duplicated logic and extract it into a single, reusable function automatically.
 
 The following example calculates EMI (Equated Monthly Installment) for two different loans with duplicated calculation logic.
 
-#### Example - Before Refactoring
+#### Example – Before Refactoring
 
 ```typescript
 // Before: Duplicated EMI calculation logic
@@ -91,7 +91,7 @@ console.log(monthlyPayment2);
 
 1. Select the entire file contents in the editor (`Ctrl+A` / `Cmd+A`).
    
-   > **Tip:** When you select the entire file, Syncfusion Code's AI can analyze all the functions and automatically identify patterns where the same logic appears multiple times. You don't need to manually highlight each duplicate - the AI does this detection for you.
+   > **Tip:** When you select the entire file, Syncfusion Code's AI can analyze all the functions and automatically identify patterns where the same logic appears multiple times. You don't need to manually highlight each duplicate – the AI does this detection for you.
 
 2. Open Inline Chat with `Ctrl+I` (Windows/Linux) or `Cmd+I` (Mac). The input box will appear over your editor.
 3. Type the following prompt and press Enter:
@@ -109,9 +109,9 @@ console.log(monthlyPayment2);
 
 ### Step 3: Make Verbose Code More Concise
 
-Long-winded code with unnecessary variables, redundant checks, or outdated syntax is harder to scan and review. Syncfusion Code can rewrite unnecessarily verbose code into a compact, idiomatic form - without removing any functionality.
+Long-winded code with unnecessary variables, redundant checks, or outdated syntax is harder to scan and review. Syncfusion Code can rewrite unnecessarily verbose code into a compact, idiomatic form – without removing any functionality.
 
-#### Example - Before Refactoring
+#### Example – Before Refactoring
 
 ```typescript
 // Before: Verbose code with unnecessary intermediate variables and string concatenation
@@ -159,7 +159,7 @@ A function that does too many things at once is called a **god function**. It's 
 
 The solution is the **Single Responsibility Principle (SRP)**: each function should do exactly one thing. Syncfusion Code can split a god function into smaller, focused units automatically.
 
-#### Example - Before Refactoring
+#### Example – Before Refactoring
 
 ```typescript
 // Before: A "god function" that does too many things
@@ -207,7 +207,7 @@ calculateLoanDetails(300000, 5.5, 15);
 
 Poor variable and function names silently reduce code quality over time. Names like `d`, `tmp`, `fn`, or `process` tell the next developer nothing about what they represent. Syncfusion Code can suggest meaningful names and rename every reference across your entire project in a single action.
 
-1. Place the cursor on the symbol you want to rename - this can be a variable, function name, class, or parameter.
+1. Place the cursor on the symbol you want to rename – this can be a variable, function name, class, or parameter.
 2. Press `F2` to trigger the rename action.
 3. Syncfusion Code displays a list of AI-suggested alternative names in a dropdown.
 
@@ -217,11 +217,11 @@ Poor variable and function names silently reduce code quality over time. Names l
 
    <img src="../agentic-toolbox-images/symbol-rename-input.png" alt="Rename input field with a new descriptive name entered, ready to apply" />
 
-5. Press Enter to confirm. The symbol is automatically renamed **everywhere it is used** in the project - across all files.
+5. Press Enter to confirm. The symbol is automatically renamed **everywhere it is used** in the project – across all files.
 
    <img src="../agentic-toolbox-images/symbol-rename-result.png" alt="Editor showing all references to the renamed symbol updated consistently across multiple files" />
 
-> **Note:** The rename operation is scope-aware - it only affects the specific symbol you selected, not other variables that happen to have the same name elsewhere in your code.
+> **Note:** The rename operation is scope-aware – it only affects the specific symbol you selected, not other variables that happen to have the same name elsewhere in your code.
 
 ### Step 6: Large-Scale Refactoring with Agent Mode
 
@@ -229,7 +229,7 @@ For bigger refactoring jobs that span multiple files - such as standardizing err
 
 #### Example: Standardize Error Handling Across Multiple Files
 
-Suppose your codebase has inconsistent error handling - some functions use `try-catch` blocks, others silently swallow errors, and error messages lack context. The goal is to apply a single, consistent error handling pattern across all service files.
+Suppose your codebase has inconsistent error handling – some functions use `try-catch` blocks, others silently swallow errors, and error messages lack context. The goal is to apply a single, consistent error handling pattern across all service files.
 
 **Steps:**
 
@@ -241,7 +241,7 @@ Suppose your codebase has inconsistent error handling - some functions use `try-
    ```
 
 2. Open your project in Syncfusion Code.
-3. Open the Chat Panel (if it's not already visible, press `Ctrl+Shift+P` (Windows/Linux) or `Cmd+Shift+P` (Mac) to open the **Command Palette** - a search box that appears at the top of the editor - then type "Chat: Focus on Chat View" and press Enter).
+3. Open the Chat Panel (if it's not already visible, press `Ctrl+Shift+P` (Windows/Linux) or `Cmd+Shift+P` (Mac) to open the **Command Palette** - a search box that appears at the top of the editor – then type "Chat: Focus on Chat View" and press Enter).
 4. Select **[Agent](/code-studio/agentic-toolbox/chat-interactions/agent)** from the mode selector dropdown.
 5. Type the following prompt in the chat input and press Enter:
 
@@ -254,14 +254,14 @@ Suppose your codebase has inconsistent error handling - some functions use `try-
    - Identify functions that are missing or have inconsistent error handling
    - Plan the changes needed across each file
    - Propose edits to each file in sequence
-   - **Create automatic checkpoints** as it works - these are restore points you can return to if you want to undo all changes from the Agent session
+   - **Create automatic checkpoints** as it works – these are restore points you can return to if you want to undo all changes from the Agent session
 
-7. Review each proposed change in the side-by-side diff view - click Keep to accept or Undo to reject individual file changes.
+7. Review each proposed change in the side-by-side diff view – click Keep to accept or Undo to reject individual file changes.
 
    <img src="../agentic-toolbox-images/agent-mode-error-handling.png" alt="Agent mode diff view showing standardized try-catch error handling applied across multiple service files" />
 
 ## What's Next
 
-- [Generate Your First Code Change Using Agent](/code-studio/agentic-toolbox/agent-guides/generate-your-first-code-using-agent) - Let AI write new code for you.
-- [Quick Fix Error Guide](/code-studio/agentic-toolbox/chat-interactions/quick-fix-error) - Catch and fix bugs early with AI assistance.
-- [Agent Mode](/code-studio/agentic-toolbox/chat-interactions/agent) - Explore advanced Agent workflows and capabilities.
+- [Generate Your First Code Change Using Agent](/code-studio/agentic-toolbox/agent-guides/generate-your-first-code-using-agent) – Let AI write new code for you.
+- [Quick Fix Error Guide](/code-studio/agentic-toolbox/chat-interactions/quick-fix-error) – Catch and fix bugs early with AI assistance.
+- [Agent Mode](/code-studio/agentic-toolbox/chat-interactions/agent) – Explore advanced Agent workflows and capabilities.

@@ -9,7 +9,7 @@ keywords: "code, IDE, AI, developer-tools, syncfusion, code-assistance, producti
 
 ## Overview 
 
-Agent Mode is an autonomous AI that plans and executes multi-step coding tasks across your project. It explores your codebase, makes changes with workspace tools, and adapts to errors-while you review and approve each step. Enable it in Settings > Agents, switch to Agent mode in chat, then describe your goal.
+Agent Mode is an autonomous AI that plans and executes multi-step coding tasks across your project. It explores your codebase, makes changes with workspace tools, and adapts to errors–while you review and approve each step. Enable it in Settings > Agents, switch to Agent mode in chat, then describe your goal.
 
 ## Use Cases
 
@@ -25,7 +25,7 @@ Agent Mode is an autonomous AI that plans and executes multi-step coding tasks a
 
 **Autonomous Operation** - Agents can independently explore your codebase, identify the files related to your request, and determine what needs to be changed. Instead of requiring detailed, step-by-step instructions, they plan the workflow automatically and execute tasks in a structured sequence. This allows them to handle complex operations with minimal user input.
 
-**Tool Access** - Agents can use all available workspace tools - including file search, editors, and integrated terminals - to complete tasks end to-end. They can open files, apply modifications, generate new code, run commands, and orchestrate multi-step actions by leveraging your existing development environment.
+**Tool Access** - Agents can use all available workspace tools – including file search, editors, and integrated terminals – to complete tasks end to-end. They can open files, apply modifications, generate new code, run commands, and orchestrate multi-step actions by leveraging your existing development environment.
 
 **Contextual Understanding** - Agents analyze surrounding code, project structure, naming conventions, and dependencies to understand how different parts of your project relate to each other. This awareness helps them make changes that fit your code style, avoid breaking existing logic, and maintain consistency across modules.
 
@@ -70,13 +70,13 @@ Consider creating the ToDo application,
 - Create a new project folder.
 - Open the project folder in Syncfusion Code.
 - Enter the prompt in the chat input field to scaffold the todo app. For example:
-  *"Create a simple todo app with HTML, CSS and JavaScript. Include an input field to add todos, a list to display them, and a delete button for each item"* and Click **"Send"**.
+  *“Create a simple todo app with HTML, CSS and JavaScript. Include an input field to add todos, a list to display them, and a delete button for each item”* and Click **"Send"**.
 
 > **Note**: Make sure agents are enabled in your Syncfusion Code settings.
 
 <img src="../agentic-toolbox-images/inputPrompt.png" alt="Input Prompt" />
 
-- By default, Agent mode will ask for your permission before using any tool. Click **"Allow"** to approve the action, or **"Skip"** to deny it.
+- By default, Agent mode will ask for your permission before using any tool. Click **“Allow”** to approve the action, or **“Skip”** to deny it.
 
     <img src="../agentic-toolbox-images/allowSkip.png" alt="Allow or Skip" />
 

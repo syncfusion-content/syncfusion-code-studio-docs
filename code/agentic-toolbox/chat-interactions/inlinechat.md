@@ -13,11 +13,11 @@ keywords: inline-edit, right-click-actions, ai-assistance, contextual-editing, c
 Inline Chat in Syncfusion Code is designed to bring AI assistance directly into your workflow. Instead of switching panels or navigating away from your code, you can interact with AI right inside the editor or terminal. This seamless integration helps you stay focused, get context-aware suggestions, and streamline both coding and command-line tasks.
 
 ## Use Cases
-- Debugging Code Quickly - Use Inline Chat to identify errors and generate fixes directly in the editor without switching panels. 
+- Debugging Code Quickly — Use Inline Chat to identify errors and generate fixes directly in the editor without switching panels. 
 
-- Automating Terminal Workflows - Generate shell commands or scripts in the integrated terminal to speed up repetitive tasks. 
+- Automating Terminal Workflows — Generate shell commands or scripts in the integrated terminal to speed up repetitive tasks. 
 
-- Refactoring Existing Code - Select a block of code and request improvements, optimizations. 
+- Refactoring Existing Code – Select a block of code and request improvements, optimizations. 
 
 
 

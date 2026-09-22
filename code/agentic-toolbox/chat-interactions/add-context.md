@@ -9,12 +9,12 @@ keywords: syncfusion, syncfusion Code, context providers, add context, config.ya
 
 ## Overview
 
-Syncfusion Code includes an AI powered chat that can help you understand your project, write code, fix issues, and answer questions. For the chat to give the best and most accurate responses, it needs to understand what you are currently working on. This is where providing context helps. By adding the relevant files, folders, or code snippets-such as the file you're editing or the parts of your project related to your question-you allow the chat to see the right information. The more context you provide, the better the chat can analyze your code, understand your problem, and guide you effectively.
+Syncfusion Code includes an AI powered chat that can help you understand your project, write code, fix issues, and answer questions. For the chat to give the best and most accurate responses, it needs to understand what you are currently working on. This is where providing context helps. By adding the relevant files, folders, or code snippets–such as the file you’re editing or the parts of your project related to your question–you allow the chat to see the right information. The more context you provide, the better the chat can analyze your code, understand your problem, and guide you effectively.
 
 This document explains:
 
 - Use cases
-- What "Context" means  
+- What “Context” means  
 - Different types of contexts (files, folders, screenshots, problems, symbols, tools)  
 - How to add context to the chat  
 - How to use `@` and `#` to attach context  
@@ -31,28 +31,28 @@ This document explains:
 
 
 
-## What "Context" Means
+## What “Context” Means
 
-**Context** is the extra information you attach to your chat message-such as a file, an error, a screenshot, or a terminal log-so the AI analyzes the **right** thing and responds precisely. You'll get **better answers** when Chat can look at **the specific code**, **the exact error,** or **the UI you're seeing**.
+**Context** is the extra information you attach to your chat message–such as a file, an error, a screenshot, or a terminal log–so the AI analyzes the **right** thing and responds precisely. You’ll get **better answers** when Chat can look at **the specific code**, **the exact error,** or **the UI you’re seeing**.
 
 
 ### Examples
-- Asking about a function? -> Attach **the file or symbol**  
-- Seeing a build error? -> Attach **the Problems item** or **terminal output**  
-- Confused by the UI? -> Attach **a screenshot**
+- Asking about a function? → Attach **the file or symbol**  
+- Seeing a build error? → Attach **the Problems item** or **terminal output**  
+- Confused by the UI? → Attach **a screenshot**
 
 
 ## Types of Context in Syncfusion Code
 
 You can use the **Add Context(+)** button to include extra information that helps the chat understand your request better. When you click this button, you will see options like:
 
-- **Files** - select individual code files  
-- **Folders** - select your entire project folder or a specific folder  
-- **Instructions** - add any instruction files shown in your workspace  
-- **Screenshot Window** - capture your screen and attach it  
-- **Problems** - add issues that appear in the Terminal or Problems panel  
-- **Symbols** - choose functions, components, variables from your project  
-- **Tools** - attach tool-related contexts if needed  
+- **Files** – select individual code files  
+- **Folders** – select your entire project folder or a specific folder  
+- **Instructions** – add any instruction files shown in your workspace  
+- **Screenshot Window** – capture your screen and attach it  
+- **Problems** – add issues that appear in the Terminal or Problems panel  
+- **Symbols** – choose functions, components, variables from your project  
+- **Tools** – attach tool-related contexts if needed  
 
 You can select **any** of these based on what you want to share with the chat.
 
@@ -62,7 +62,7 @@ You can select **any** of these based on what you want to share with the chat.
 
 ### 1. Automatic Context
 
-Implicit context is the context that Syncfusion Code adds automatically. When you have a file open in the editor, Syncfusion Code will suggest that **active file** at the bottom of the chat. You can simply click the plus button in it to include the file as context without doing anything extra. This makes it easy for the chat to understand which file you're working on and give better answers.
+Implicit context is the context that Syncfusion Code adds automatically. When you have a file open in the editor, Syncfusion Code will suggest that **active file** at the bottom of the chat. You can simply click the plus button in it to include the file as context without doing anything extra. This makes it easy for the chat to understand which file you’re working on and give better answers.
 
 <img src="../agentic-toolbox-images/auto-context.png" alt="check1"  />
 
@@ -77,14 +77,14 @@ Implicit context is the context that Syncfusion Code adds automatically. When yo
 
 <img src="../agentic-toolbox-images/var-context.png" alt="#-conetxt"  />
 
-#### **2. Right-click a file or folder**
-- Right-click the file or folder  
-- Select **"Add File to Chat"** or **"Add Folder to Chat"**
+#### **2. Right‑click a file or folder**
+- Right‑click the file or folder  
+- Select **“Add File to Chat”** or **“Add Folder to Chat”**
 
 <img src="../agentic-toolbox-images/add-file.png" alt="addfile"  />
 <img src="../agentic-toolbox-images/add-folder.png" alt="addfolder"  />
 
-#### **3. Use the "Add context(+)" button**
+#### **3. Use the “Add context(+)” button**
 - Click **Add context*(+)* button in the chat  
 - Choose **Files & Folders**  
 - A list of available items appears  
@@ -126,7 +126,7 @@ This includes TypeScript errors, build errors, ESLint issues, and more.
 
 ### 5. Symbols Context
 
-Symbols Context lets you add specific parts of your code-like functions, variables, or components-to the chat. This helps the AI understand exactly which code piece you are asking about.
+Symbols Context lets you add specific parts of your code–like functions, variables, or components-to the chat. This helps the AI understand exactly which code piece you are asking about.
 
 #### Steps to Add Symbols Context
 1. Click **Add Context(+)** button
@@ -137,7 +137,7 @@ Symbols Context lets you add specific parts of your code-like functions, variabl
 
 ### 6. Tools Context
 
-Tools Context lets you add information from different tools inside Syncfusion Code-such as the terminal, debugger, or build tools. This helps the AI understand issues that are related to your development tools instead of your code.
+Tools Context lets you add information from different tools inside Syncfusion Code–such as the terminal, debugger, or build tools. This helps the AI understand issues that are related to your development tools instead of your code.
 
 #### Steps to Add Tools Context
 1. Click the **Add Context(+)** button  
@@ -146,28 +146,28 @@ Tools Context lets you add information from different tools inside Syncfusion Co
 
 <img src="../agentic-toolbox-images/tools.png" alt="tools"  />
 
-## #-mentions in chat
+## #‑mentions in chat
 
-**#** is the **context items** trigger. Type # in the chat box to **insert files, folders, symbols, tools, terminal output, source control changes,** and more-without leaving the keyboard. You can also drag and drop files/folders into Chat. 
+**#** is the **context items** trigger. Type # in the chat box to **insert files, folders, symbols, tools, terminal output, source control changes,** and more–without leaving the keyboard. You can also drag and drop files/folders into Chat. 
 
 ### Quick patterns
-- `#file:<name>` - attach a specific file  
-- `#folder:<name>` - attach a folder  
-- `#symbol:<name>` - attach a symbol (open its file first for best results)  
+- `#file:<name>` – attach a specific file  
+- `#folder:<name>` – attach a folder  
+- `#symbol:<name>` – attach a symbol (open its file first for best results)  
 
 
 
 <img src="../agentic-toolbox-images/var-context.png" alt="#-conetxt"  />
 
-## @-mentions in chat
+## @‑mentions in chat
 
 **@-mentions** allow you to directly invoke specialized chat participants in Syncfusion Code. These participants act as **domain experts** that you can route your question to. When you @ mention one of them, your message is handed off to that expert assistant, and it provides a response based on its specific area of knowledge.
 Chat participants are **not the same as tools**. Tools are triggered automatically as part of an agent flow, whereas chat participants respond only when you explicitly mention them using **@**.
 
 ### How @mentions work
 To use a chat participant, simply type **@** in the chat input box. Syncfusion Code will show a list of available participants such as:
-- **@terminal** - for shell/CLI questions  
-- **@syncfusioncode** - for editor settings & features  
+- **@terminal** – for shell/CLI questions  
+- **@syncfusioncode** – for editor settings & features  
 
 Selecting one routes your request to that domain expert.
 
@@ -175,5 +175,6 @@ Selecting one routes your request to that domain expert.
 
 
 ## Releted Features
-- [Inline Chat](/code-studio/agentic-toolbox/chat-interactions/inlinechat) Inline Chat in Syncfusion Code lets you talk to AI directly inside your code or terminal without switching screens.
-- [Generate Code](/code-studio/agentic-toolbox/agent-guides/generatecode) The Generate Code feature speeds up development by automatically handling repetitive tasks and giving instant AI-powered help right inside your editor.
+ - [Inline Chat](/code-studio/agentic-toolbox/chat-interactions/inlinechat) Inline Chat in Syncfusion Code lets you talk toAI
+ directly inside your code or terminal without switching screens.
+ - [Generate Code](/code-studio/agentic-toolbox/agent-guides/generatecode) The Generate Code feature speeds up development by automatically handling repetitive tasks and giving instant AI-powered help right inside your editor.

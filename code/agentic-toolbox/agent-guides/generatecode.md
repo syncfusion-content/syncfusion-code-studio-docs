@@ -64,5 +64,5 @@ When you choose **Review**, the AI:
 <img src="../agentic-toolbox-images/generatecode-review.png" alt="review" />
 
 ## Releted Features
-- [Inline Chat](/code-studio/agentic-toolbox/chat-interactions/inlinechat) Inline Chat in Syncfusion Code lets you talk to AI directly inside your code or terminal without switching screens.
-- [Autocomplete](/code-studio/agentic-toolbox/core-capabilities/autocomplete) Syncfusion Code's AI Autocomplete speeds up development by giving smart inline suggestions, completing code from context, generating code from comments, and offering style-aware alternatives for faster, cleaner coding.
+ - [Inline Chat](/code-studio/agentic-toolbox/chat-interactions/inlinechat) Inline Chat in Syncfusion Code lets you talk to AI directly inside your code or terminal without switching screens.
+ - [Autocomplete](/code-studio/agentic-toolbox/core-capabilities/autocomplete) Syncfusion Code's AI Autocomplete speeds up development by giving smart inline suggestions, completing code from context, generating code from comments, and offering style-aware alternatives for faster, cleaner coding.
