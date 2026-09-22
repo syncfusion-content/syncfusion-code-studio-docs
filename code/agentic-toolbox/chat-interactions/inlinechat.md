@@ -49,7 +49,7 @@ After processing your request, Syncfusion Code shows an inline diff view. You ca
 
 
 ## Using Inline Chat in the Terminal
-Terminal Inline Chat helps you work with shell commands, scripts, and terminal workflows directly inside Syncfusion Code's integrated terminal.
+Terminal Inline Chat helps you work with shell commands, scripts, and terminal workflows directly inside Syncfusion Code’s integrated terminal.
 
 ### How to Use Terminal Inline Chat
 **Steps:**

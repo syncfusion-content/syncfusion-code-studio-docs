@@ -19,7 +19,7 @@ The Checkpoints and Editing Requests features in Syncfusion Code provide powerfu
 
 - Roll back to a known state when trying different approaches without worrying about breaking the workspace. 
 
-- Quickly restore to a safe state if AI-generated edits or manual changes don't work as expected 
+- Quickly restore to a safe state if AI-generated edits or manual changes don’t work as expected 
 
 
 

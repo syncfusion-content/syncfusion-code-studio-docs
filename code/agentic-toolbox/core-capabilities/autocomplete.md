@@ -104,7 +104,7 @@ For example, if you rename a variable in one place, Syncfusion Code suggests upd
 
    <img src="../agentic-toolbox-images/autocomplete6.gif" alt="Autocomplete"  />
 
-   **Correcting incorrect variable declaration:** Syncfusion Code identifies cases where the developer's intent is clear, but the code is written incorrectly due to a typo or swapped identifier.
+   **Correcting incorrect variable declaration:** Syncfusion Code identifies cases where the developer’s intent is clear, but the code is written incorrectly due to a typo or swapped identifier.
 
    **Example:** The developer intends to return a constant value, but accidentally types `cont` instead of `const` and refers to the function name instead of the variable. Syncfusion Code infers the intended logic and suggests the corrected declaration and return value:
 
