@@ -1,11 +1,11 @@
 ---
-title: Release Notes v1.0.2
-Description: Bug fixes for AI Assistant parsing, GPT-5 parameter handling, and improvements to Credit Token Usage API in Syncfusion Code.
+title: Syncfusion Code Studio Release Notes - October 24, 2025
+Description: Bug fixes for AI Assistant parsing, GPT-5 parameter handling, and improvements to Credit Token Usage API in Code Studio.
 platform: syncfusion-code-studio
 ---
 
 
-# What's New in v1.0.2
+# Release Updates - October 24, 2025
 
 ## Breaking Changes
  

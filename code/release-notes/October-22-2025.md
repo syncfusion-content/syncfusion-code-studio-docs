@@ -1,22 +1,21 @@
 ---
-title: Release Notes v1.0.1
-Description: Introducing premium AI models, new pricing plans, credits management system, and improved model configuration options in Syncfusion Code.
+title: Syncfusion Code Studio Release Notes - October 22, 2025
+Description: Introducing premium AI models, new pricing plans, credits management system, and improved model configuration options in Code Studio.
 platform: syncfusion-code-studio
 ---
 
 
-# What's New in v1.0.1
+# Release Updates - October 22, 2025
 
+## Enhancements & Optimizations 
 
-## Improvements:
-
-## Premium Models
-Use Premium AI Models Instantly – No Setup Needed! Experience the power of top-tier AI models right inside Syncfusion Code Enterprise Server. No need to bring your own API keys — just recharge your credits and start using premium models like GPT-5, Claude, and Gemini instantly. Fast, reliable, and fully managed by Syncfusion Code — so you can focus on building, not configuring.
+### Premium Models
+Use Premium AI Models Instantly – No Setup Needed! Experience the power of top-tier AI models right inside Code Studio Enterprise Server. No need to bring your own API keys — just recharge your credits and start using premium models like GPT-5, Claude, and Gemini instantly. Fast, reliable, and fully managed by Code Studio — so you can focus on building, not configuring.
 
  <img src="./releasenotes-images/Premiummodel.png" alt="release notes" >
 
-## New Pricing Plans
-We've introduced new pricing tiers in Syncfusion Code to provide flexibility for different user needs:
+### New Pricing Plans
+We've introduced new pricing tiers in Code Studio to provide flexibility for different user needs:
 
 - **Free Plan** ($0/user/month): For individuals exploring the platform.  
 - **Basic Plan** ($20/user/month): For small teams starting with AI-powered development.  
@@ -26,35 +25,35 @@ We've introduced new pricing tiers in Syncfusion Code to provide flexibility for
 
 <img src="./releasenotes-images/pricing.png" alt="release notes" >
 
-## Credits Management
-We've added a new Credits option in Syncfusion Code to help you easily manage your usage balance and top up credits directly from your account.
+### Credits Management
+We've added a new Credits option in Code Studio to help you easily manage your usage balance and top up credits directly from your account.
 
 **Key highlights**:
 - View your remaining credits balance in real time.  
 - Add credits instantly with preset options ($50, $100, $500) or enter a custom amount.  
 - Payment history section to track all your past transactions and credit top-ups.  
 
-This update makes it easier to monitor your credits and maintain uninterrupted access to Syncfusion Code features.
+This update makes it easier to monitor your credits and maintain uninterrupted access to Code Studio features.
 
 <img src="./releasenotes-images/credit.png" alt="release notes" >
 
-## Model Modes and Default Settings
+### Model Modes and Default Settings
 
-### Modes Option in Add Model:
+#### Modes Option in Add Model:
 Choose operation modes (Chat, Edit, Apply, Autocomplete) when adding a model to specify where it will be used in the IDE.  
 
 <img src="./releasenotes-images/modeaddmodel.gif" alt="release notes" >
 
-### Default Model Settings:
+#### Default Model Settings:
 Configure and manage default models for each operation type — Chat, Edit, Apply, and Autocomplete — under the new Manage Default Settings dialog.  
 
 <img src="./releasenotes-images/defaultmodel.gif" alt="release notes" >
 
-These updates make Syncfusion Code's AI model configuration more flexible, consistent, and tailored to your workflow.
+These updates make Code Studio's AI model configuration more flexible, consistent, and tailored to your workflow.
 
 ## Bug fixes: 
 ### Azure Provider Deployment Issue:
 For Azure Open AI models, the deployment value was not being added to the config file, causing the model's name to be used as the default deployment value. This has been resolved. Now, when a user specifies a deployment value, it is correctly added to the config file and used as the deployment value.
 
-## Removed Features
+## Deprecations
 The Enhanced Prompt and Automatic Memory features have been removed to simplify the user experience and improve overall performance.
