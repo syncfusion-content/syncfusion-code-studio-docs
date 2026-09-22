@@ -9,12 +9,12 @@ platform: syncfusion-code-studio
 
 ## Enhancements & Optimizations 
 
-## Premium Models
+### Premium Models
 Use Premium AI Models Instantly – No Setup Needed! Experience the power of top-tier AI models right inside Code Studio Enterprise Server. No need to bring your own API keys — just recharge your credits and start using premium models like GPT-5, Claude, and Gemini instantly. Fast, reliable, and fully managed by Code Studio — so you can focus on building, not configuring.
 
  <img src="./releasenotes-images/Premiummodel.png" alt="release notes" >
 
-## New Pricing Plans
+### New Pricing Plans
 We've introduced new pricing tiers in Code Studio to provide flexibility for different user needs:
 
 - **Free Plan** ($0/user/month): For individuals exploring the platform.  
@@ -25,7 +25,7 @@ We've introduced new pricing tiers in Code Studio to provide flexibility for dif
 
 <img src="./releasenotes-images/pricing.png" alt="release notes" >
 
-## Credits Management
+### Credits Management
 We've added a new Credits option in Code Studio to help you easily manage your usage balance and top up credits directly from your account.
 
 **Key highlights**:
@@ -37,14 +37,14 @@ This update makes it easier to monitor your credits and maintain uninterrupted a
 
 <img src="./releasenotes-images/credit.png" alt="release notes" >
 
-## Model Modes and Default Settings
+### Model Modes and Default Settings
 
-### Modes Option in Add Model:
+#### Modes Option in Add Model:
 Choose operation modes (Chat, Edit, Apply, Autocomplete) when adding a model to specify where it will be used in the IDE.  
 
 <img src="./releasenotes-images/modeaddmodel.gif" alt="release notes" >
 
-### Default Model Settings:
+#### Default Model Settings:
 Configure and manage default models for each operation type — Chat, Edit, Apply, and Autocomplete — under the new Manage Default Settings dialog.  
 
 <img src="./releasenotes-images/defaultmodel.gif" alt="release notes" >

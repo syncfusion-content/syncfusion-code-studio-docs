@@ -8,7 +8,7 @@ platform: syncfusion-code-studio
 
 ## Enhancements & Optimizations 
 
-## Global Agent Rules
+### Global Agent Rules
 Global Agent Rules are now supported in Code Studio. Introduce them via a plain **AGENTS.md** Markdown file—simply drop it in your project root or subdirectories for easy, readable instructions that guide AI code generation and tasks. Unlike structured Project Rules, this lightweight approach requires no metadata or complex setup, making it ideal for maintaining consistent guidelines across your project without repeating context in every chat.
 
 ### Key Notes
@@ -17,7 +17,7 @@ Global Agent Rules are now supported in Code Studio. Introduce them via a plain 
 
 <img src="./releasenotes-images/agentmd.png" alt="release notes" >
 
-## Quick Tool Access with # Suggestions in Chat
+### Quick Tool Access with # Suggestions in Chat
 We've supercharged your chat experience with inline tool suggestions: type `#` to open a dropdown of available tools, select one, and it auto-inserts as `#{ToolName}` followed by your prompt for seamless integration. Building on our `@` context providers, this `#` trigger keeps things distinct and speedy, ensuring consistent tool selection and sharper AI responses by eliminating guesswork. It sends a structured request that enhances response accuracy—no extra setup needed; just type and go!  
 
 <img src="./releasenotes-images/inlinetool.png" alt="release notes" >
