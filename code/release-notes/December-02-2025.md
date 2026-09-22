@@ -1,10 +1,10 @@
 ---
-title: Syncfusion Code Studio Release Notes - December 2, 2025
+title: Syncfusion Code Studio Release Notes - December 02, 2025
 Description: This update to Code Studio introduces Global Agent Rules via AGENTS.md for lightweight, project-wide guidance, inline tool suggestions for faster access in chat, and a redesigned subscription popup with scenario-specific guidance.
 platform: syncfusion-code-studio
 ---
 
-# Release Updates - December 2, 2025
+# Release Updates - December 02, 2025
 
 ## Enhancements & Optimizations 
 
@@ -22,7 +22,7 @@ We've supercharged your chat experience with inline tool suggestions: type `#` t
 
 <img src="./releasenotes-images/inlinetool.png" alt="release notes" >
 
-# Bug Fixes
+## Bug Fixes
 - Fixed an issue where relevant controls were missing from UI Builder's Context Mode responses. The tool now intelligently selects and adds only the most fitting components, ensuring outputs remain focused, efficient, and aligned with your query for smoother UI builds.  
 - Now you can select **Default BYOK model** from the dashboard's **Manage Default Settings**. This now flows through correctly, appearing as the default in the Code Studio Extension for a unified AI setup across your tools.  
 <img src="./releasenotes-images/defaultmodel.png" alt="release notes" >

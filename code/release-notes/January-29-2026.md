@@ -1,16 +1,15 @@
 ---
-title: Syncfusion Code Studio Release Notes -  January 29, 2026
+title: Syncfusion Code Studio Release Notes - January 29, 2026
 Description: Code Studio with an intuitive UI and smarter AI-powered workflows. Packed with powerful features designed to help you code faster and with more clarity.
 platform: syncfusion-code-studio
 ---
 
 # Release Updates - January 29, 2026
 
-## Overview
-
 We've completely revamped Code Studio with an intuitive UI and smarter AI-powered workflows. Packed with powerful features designed to help you code faster and with more clarity.
 
 ## Breaking Changes
+
 ### Migration Update
 - **Authentication Reset:** After the auto-update to v2.0.0, existing authenticated accounts will be logged out due to session expiration. Reauthentication is required to continue using Code Studio Chat.
 - **Conversation History:** Existing conversation sessions from previous versions are not accessible after migration.
@@ -23,6 +22,7 @@ We've completely revamped Code Studio with an intuitive UI and smarter AI-powere
 <img src="./releasenotes-images/model-configuration.png" alt="release notes" >
 
 ## New Capabilities 
+
 ### Plan Mode
 The Code Studio IDE now introduces [Plan Mode](/code-studio/agentic-toolbox/chat-interactions/plan), a smarter way to start coding with confidence. Instead of jumping straight into implementation, Plan Mode helps you research tasks, outline requirements, and break work into clear steps. You'll receive a draft plan to review, edit, or approve—ensuring nothing changes in your code until you're ready. By beginning with a clear plan, you reduce mistakes, stay organized, and make complex projects easier to manage. 
  
@@ -58,6 +58,7 @@ Code Studio now introduces a redesigned [Add Context](/code-studio/agentic-toolb
 <img src="./releasenotes-images/add-context.png" alt="release notes" >
 
 ## Enhancements & Optimizations 
+
 ### Redesigned Chat UI
 - The Code Studio chat interface has been refreshed with a new design, making interactions more intuitive and efficient.
 
