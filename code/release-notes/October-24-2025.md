@@ -1,5 +1,5 @@
 ---
-title: Syncfusion Code Release Notes -  October 24, 2025
+title: Syncfusion Code Studio Release Notes -  October 24, 2025
 Description: Bug fixes for AI Assistant parsing, GPT-5 parameter handling, and improvements to Credit Token Usage API in Code Studio.
 platform: syncfusion-code-studio
 ---

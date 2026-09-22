@@ -1,5 +1,5 @@
 ---
-title: Syncfusion Code Release Notes - December 2, 2025
+title: Syncfusion Code Studio Release Notes - December 2, 2025
 Description: This update to Code Studio introduces Global Agent Rules via AGENTS.md for lightweight, project-wide guidance, inline tool suggestions for faster access in chat, and a redesigned subscription popup with scenario-specific guidance.
 platform: syncfusion-code-studio
 ---

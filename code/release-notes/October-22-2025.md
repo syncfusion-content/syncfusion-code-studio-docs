@@ -1,5 +1,5 @@
 ---
-title: Syncfusion Code Release Notes -  October 22, 2025
+title: Syncfusion Code Studio Release Notes -  October 22, 2025
 Description: Introducing premium AI models, new pricing plans, credits management system, and improved model configuration options in Code Studio.
 platform: syncfusion-code-studio
 ---

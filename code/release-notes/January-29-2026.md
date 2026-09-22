@@ -1,5 +1,5 @@
 ---
-title: Syncfusion Code Release Notes -  January 29, 2026
+title: Syncfusion Code Studio Release Notes -  January 29, 2026
 Description: Code Studio with an intuitive UI and smarter AI-powered workflows. Packed with powerful features designed to help you code faster and with more clarity.
 platform: syncfusion-code-studio
 ---
