@@ -1,5 +1,5 @@
 ---
-title: Syncfusion Code Install and Configure
+title: BoldCreate Install and Configure
 description: "Professional developer guide for AI-driven error resolution and debugging assistance in real-time development workflows"
 classification: "User Guide - Feature Documentation"
 platform: syncfusion-code-studio
@@ -9,7 +9,7 @@ keywords: ask-code, error-resolution, ai-debugging, code-quality, developer-prod
 # Install and Configure
 
 ## Overview
-Getting started with Syncfusion Code is quick and easy. This guide will show you, how to download, install, and set up the IDE on both Windows and macOS. Whether you’re new to Syncfusion Code or setting it up on a fresh system, this simple walkthrough will help you get everything ready in just a few minutes—so you can start building right away!
+Getting started with BoldCreate is quick and easy. This guide will show you, how to download, install, and set up the IDE on both Windows and macOS. Whether you’re new to BoldCreate or setting it up on a fresh system, this simple walkthrough will help you get everything ready in just a few minutes—so you can start building right away!
 
 ## Prerequisites
 
@@ -17,26 +17,26 @@ Getting started with Syncfusion Code is quick and easy. This guide will show you
 
 ## What You’ll Learn
 By the end of this tutorial, you’ll learn how to:
-- Create your Syncfusion Code account.
-- Download and install Syncfusion Code IDE.
+- Create your BoldCreate account.
+- Download and install BoldCreate IDE.
 - Sign in and start using the IDE.
 
 ## Installation Steps (For both macOS & Windows)
 
 ### Step 1: Download the Installer
-- Visit the official [Syncfusion Code website](https://www.syncfusion.com/code/).
-- Click **“Get Started Now”** to open the Syncfusion Code enterprise page.
+- Visit the official [BoldCreate website](https://www.syncfusion.com/code/).
+- Click **“Get Started Now”** to open the BoldCreate enterprise page.
 
   <img src="gettingstarted-images/get started.png" alt="Install"/>
 
   > **Note**: The enterprise page is for organizations to monitor and manage AI usage.
 
-- If you already have Syncfusion Code Account, choose one of these sign-in options to sign-in with Syncfusion Code Enterprise server or else click **“SIGN UP”** to create one:
+- If you already have BoldCreate Account, choose one of these sign-in options to sign-in with BoldCreate Enterprise server or else click **“SIGN UP”** to create one:
    - **Microsoft Account:** Use your personal, work, or school Microsoft credentials.
    - **GitHub Account:** Sign in with your GitHub credentials.
    - **Syncfusion Account:** Create a new account using your email and password.
    <img src="gettingstarted-images/loginform.png" alt="install" />
-- Click **Download Syncfusion Code**.
+- Click **Download BoldCreate**.
 <img src="gettingstarted-images/download ide.png" alt="install" />
 
 - Download your preferred operating system.
@@ -60,8 +60,8 @@ By the end of this tutorial, you’ll learn how to:
 - Click **Install** and wait for completion.
 <img src="gettingstarted-images/windows-install.gif" alt="install" />
 
-### Step 3: Sign In with Syncfusion Code IDE
-- After installing Syncfusion Code IDE, the **Welcome Page** will appear.
+### Step 3: Sign In with BoldCreate IDE
+- After installing BoldCreate IDE, the **Welcome Page** will appear.
 <img src="gettingstarted-images/welcomepage.png" alt="install" />
 - To activate your account and enable all features, you’ll need to sign in inside the IDE. Choose one of these sign-in options:
 
@@ -70,23 +70,23 @@ By the end of this tutorial, you’ll learn how to:
   - **Syncfusion Account:** Create a new account using your email and password.
 
 
-### Step 4: Start Using Syncfusion Code
-After installing Syncfusion Code, you can start using it immediately.
-- Open the Syncfusion Code IDE and access the Syncfusion Code chat box, which acts as your built-in AI assistant for coding tasks.
+### Step 4: Start Using BoldCreate
+After installing BoldCreate, you can start using it immediately.
+- Open the BoldCreate IDE and access the BoldCreate chat box, which acts as your built-in AI assistant for coding tasks.
 - Type your first query in the chat panel.
 <img src="gettingstarted-images/firstchat.png" alt="install" />
-- If Syncfusion Code responds, your subscription is active.
-- If the Syncfusion Code IDE chat box does not respond, you will see a message prompting you to subscribe to a plan for full access to features.
+- If BoldCreate responds, your subscription is active.
+- If the BoldCreate IDE chat box does not respond, you will see a message prompting you to subscribe to a plan for full access to features.
 
 - Select **Upgrade**.
 <img src="gettingstarted-images/upgrade.png" alt="install" />
 - Choose the subscription plan you prefer.
 <img src="gettingstarted-images/subs.png" alt="install" />
 
-To know more about the Syncfusion Code Subscription plans, click on **View Subscription Options**.
+To know more about the BoldCreate Subscription plans, click on **View Subscription Options**.
 
 ## Next Steps
 
-Once you have installed Syncfusion Code, the following topics will help you explore its features and get the most out of your development workflow:
+Once you have installed BoldCreate, the following topics will help you explore its features and get the most out of your development workflow:
 
 [Generate you first code change using agent](/code/agentic-toolbox/agent-guides/generate-your-first-code-using-agent)

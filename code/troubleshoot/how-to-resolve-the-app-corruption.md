@@ -1,5 +1,5 @@
 ---
-title: How to resolve Syncfusion Code app corruption
+title: How to resolve BoldCreate app corruption
 Description: Guide to fix application corruption on Windows and macOS.
 platform: syncfusion-code-studio
 keywords: cache, corruption, troubleshoot
@@ -7,13 +7,13 @@ keywords: cache, corruption, troubleshoot
 
 
 
-# How to resolve Syncfusion Code app corruption.
+# How to resolve BoldCreate app corruption.
 
-When Syncfusion Code becomes corrupted or stops functioning correctly, a full reset of the application may be required. This guide explains how to completely remove Syncfusion Code's program files and configuration data so you can reinstall with a clean state.
+When BoldCreate becomes corrupted or stops functioning correctly, a full reset of the application may be required. This guide explains how to completely remove BoldCreate's program files and configuration data so you can reinstall with a clean state.
 
 ## Problem Summary
 
-Application corruption can occur when essential Syncfusion Code files—such as installation components, configuration data, or cache folders—become damaged or inconsistent. These issues may prevent the IDE from launching, updating, or functioning normally. This guide explains how to fully remove all relevant directories so that a clean reinstallation can rebuild fresh, working files and resolve corruption‑related problems.
+Application corruption can occur when essential BoldCreate files—such as installation components, configuration data, or cache folders—become damaged or inconsistent. These issues may prevent the IDE from launching, updating, or functioning normally. This guide explains how to fully remove all relevant directories so that a clean reinstallation can rebuild fresh, working files and resolve corruption‑related problems.
 
 ## Possible Causes
 
@@ -33,33 +33,33 @@ You need to delete the main application folders to completely resolve the issue.
 
 #### Windows
 
-Delete the Syncfusion Code folders at these locations:
+Delete the BoldCreate folders at these locations:
 
 **Program Files:**
 ```
-C:\Program Files\Syncfusion Code 
+C:\Program Files\BoldCreate 
 ```
 <img src="./troubleshoot-images/cache-image-programfiles.png" alt="cache">
 
 **AppData Roaming:**
 ```
-C:\Users\YourName\AppData\Roaming\Syncfusion Code 
+C:\Users\YourName\AppData\Roaming\BoldCreate 
 ```
 <img src="./troubleshoot-images/cache-image-roaming.png" alt="cache">
 
 #### macOS
 
-Delete the Syncfusion Code folders at these locations:
+Delete the BoldCreate folders at these locations:
 
 **Applications:**
 ```
-/Applications/Syncfusion Code
+/Applications/BoldCreate
 ```
 <img src="./troubleshoot-images/cache-image-macapplication.png" alt="cache">
 
 **Application Support:**
 ```
-/Users/YourName/Library/Application Support/Syncfusion Code 
+/Users/YourName/Library/Application Support/BoldCreate 
 ```
 <img src="./troubleshoot-images/cache-image-macroaming.png" alt="cache">
 
@@ -70,7 +70,7 @@ Delete the Syncfusion Code folders at these locations:
 Once you've completed above step:
 
 1. Restart your computer to ensure all files are properly released
-2. Reinstall Syncfusion Code, refer to the [Syncfusion Code Install and Configure](/code/getting-started/install-and-configuration) 
+2. Reinstall BoldCreate, refer to the [BoldCreate Install and Configure](/code/getting-started/install-and-configuration) 
 3. Launch the application - it will create fresh configuration files and cache
 
 

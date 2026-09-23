@@ -1,5 +1,5 @@
 ---
-title: "Syncfusion Code Quick Start"
+title: "BoldCreate Quick Start"
 description: "Professional developer guide for AI-driven error resolution and debugging assistance in real-time development workflows"
 classification: "User Guide - Feature Documentation"
 platform: syncfusion-code-studio
@@ -8,17 +8,17 @@ keywords: ask-code, error-resolution, ai-debugging, code-quality, developer-prod
 
 # Quick Start 
 
-**Syncfusion Code** is an intelligent, AI‑powered coding companion designed to make your development process faster and easier. Instead of writing every line manually or searching for solutions, Syncfusion Code works alongside you—understanding your intent, offering meaningful suggestions, and helping you learn as you build.
+**BoldCreate** is an intelligent, AI‑powered coding companion designed to make your development process faster and easier. Instead of writing every line manually or searching for solutions, BoldCreate works alongside you—understanding your intent, offering meaningful suggestions, and helping you learn as you build.
 
 ## Prerequisites
 
 Before getting started, make sure that:
 
-1. **Syncfusion Code is installed**  
+1. **BoldCreate is installed**  
    If it’s not installed, refer to the [installation guide](/code/getting-started/install-and-configuration) to set it up properly.
 
 2. **A local project folder is ready**  
-   Syncfusion Code works best with an existing project or a fresh folder for coding.
+   BoldCreate works best with an existing project or a fresh folder for coding.
 
 3. **Basic familiarity with writing code**  
    You don’t need to be an expert—just comfortable editing files and understanding simple programming concepts.
@@ -32,13 +32,13 @@ By the end of this quick start guide, you’ll learn how to:
 - Perform targeted code improvements with Inline Chat directly in the editor
 - Add necessary files or folders from your workspace as context to make AI suggestions more accurate and project-aware
 
-## Step 1: Open a Project in Syncfusion Code
+## Step 1: Open a Project in BoldCreate
 
-Follow the steps below to open your project and start working inside the Syncfusion Code environment.
+Follow the steps below to open your project and start working inside the BoldCreate environment.
 
 1. **Open the application based on your OS**
-   - **Windows:**  Go to the **Start Menu**, search for **Syncfusion Code**, and launch it.
-   - **macOS:** Open **Applications** or **Launchpad**, find **Syncfusion Code**, and open it.
+   - **Windows:**  Go to the **Start Menu**, search for **BoldCreate**, and launch it.
+   - **macOS:** Open **Applications** or **Launchpad**, find **BoldCreate**, and open it.
 
 2. **Access the File Menu** - At the top menu bar, click **"File"**.
 
@@ -46,14 +46,14 @@ Follow the steps below to open your project and start working inside the Syncfus
 
 4. **Choose your project folder**
 
-5. **Or you can directly open your project folder using 'Open Folder' button under the Syncfusion Code logo**
+5. **Or you can directly open your project folder using 'Open Folder' button under the BoldCreate logo**
 
 
 > **Note: Open folder directly from File Explorer / Finder using terminal**
 > - **Windows**  
->  In File Explorer → type `cmd` in the address bar → Enter → then run: `sfcode .`
+>  In File Explorer → type `cmd` in the address bar → Enter → then run: `boldcreate .`
 >- **macOS**  
->  Right-click inside folder → Services → New Terminal at Folder → then run: `sfcode .`
+>  Right-click inside folder → Services → New Terminal at Folder → then run: `boldcreate .`
 
 ### Result:
 Your selected project will open in the editor where you can:
@@ -67,7 +67,7 @@ Your selected project will open in the editor where you can:
 ## Step 2: Explore Core Features
 
 ### Built-in Agent Modes
-Syncfusion Code provides five built‑in agents   **Autocomplete**, **Ask**, **Edit**, **Agent**, **Plan** .
+BoldCreate provides five built‑in agents   **Autocomplete**, **Ask**, **Edit**, **Agent**, **Plan** .
 You can also create [custom agents](/code/customize/custom-agents) for specialized workflows.
 
 <img src="gettingstarted-images/builtInAgents.png" alt="Built in Agents" />
@@ -104,7 +104,7 @@ This reduces typing effort and ensures consistency.
 - Edit Mode allows you to modify existing code simply by describing the changes.
 
 - You can update logic, restructure components, clean up syntax, or improve performance without editing manually.  
-Syncfusion Code shows suggested changes clearly, letting you apply or undo them step by step.
+BoldCreate shows suggested changes clearly, letting you apply or undo them step by step.
 
 **For Example:**  Give, *“Improve the performance of this”* as prompt, Edit Mode rewrites it neatly while preserving behavior.
 
@@ -151,7 +151,7 @@ You’ll see improved code inline with **Accept** and **Dismiss** options.
 
 ## Add Context
 
-- Add Context lets Syncfusion Code understand more of your project by including additional files or folders from your workspace in the request.
+- Add Context lets BoldCreate understand more of your project by including additional files or folders from your workspace in the request.
 
 - This leads to smarter, interconnected suggestions.
 

@@ -1,5 +1,5 @@
 ---
-title: Syncfusion Code Apply to Current File
+title: BoldCreate Apply to Current File
 description: "Guide for instantly applying AI-suggested code changes directly into your open file to streamline development workflows"
 classification: "User Guide - Feature Documentation"
 platform: syncfusion-code-studio
@@ -8,7 +8,7 @@ keywords: apply-to-current-file, ai-assistance, code-insertion, workflow-automat
 
 # Apply To Current File
  
-The **Syncfusion Code** provides an efficient way to apply suggested code directly into your currently opened file. With a single click, changes are applied in place so you can review, adjust, and continue coding without copy-paste.
+The **BoldCreate** provides an efficient way to apply suggested code directly into your currently opened file. With a single click, changes are applied in place so you can review, adjust, and continue coding without copy-paste.
  
 
 ## Purpose
@@ -19,9 +19,9 @@ The **Syncfusion Code** provides an efficient way to apply suggested code direct
 
 ## How to Apply Changes to the Current File
  
-### 1. Open Syncfusion Code Extension
+### 1. Open BoldCreate Extension
  
-Click the **Syncfusion Code** icon on the left toolbar to open the Syncfusion Code chat window.
+Click the **BoldCreate** icon on the left toolbar to open the BoldCreate chat window.
  <img src="../agentic-toolbox-images/apply1.png" alt="apply" >
 
 ### 2. Enter Your Query
@@ -31,7 +31,7 @@ In the chat window, ask for specific tasks, such as code optimization, debugging
  
 ### 3. Apply Changes
  
-Once Syncfusion Code provides a code solution or modification in the chat, review the changes to ensure they meet your requirements and click the **Apply** button to insert the provided code directly into the currently opened file in your IDE.
+Once BoldCreate provides a code solution or modification in the chat, review the changes to ensure they meet your requirements and click the **Apply** button to insert the provided code directly into the currently opened file in your IDE.
 <img src="../agentic-toolbox-images/apply3.png" alt="apply" >
  
 ### 4. Verify the Changes

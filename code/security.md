@@ -1,19 +1,19 @@
 ---
-title: Security in Syncfusion Code
-description: Learn about the key security considerations, risks, protections, and best practices when working with AI-assisted development in Syncfusion Code.
+title: Security in BoldCreate
+description: Learn about the key security considerations, risks, protections, and best practices when working with AI-assisted development in BoldCreate.
 platform: syncfusion-code-studio
 keywords: security, syncfusion-code-security, ai-security, mcp-security, auto-approval-risks, supply-chain-risks, prompt-injection, workspace-trust, permission-management, secure-development
 ---
 
 
-# Syncfusion Code Security
-This document provides a clear overview of the key security considerations when working with AI-assisted development in Syncfusion Code. It explains the risks, built‑in protections, and best practices you should follow to stay safe while benefiting from AI‑powered workflows.
+# BoldCreate Security
+This document provides a clear overview of the key security considerations when working with AI-assisted development in BoldCreate. It explains the risks, built‑in protections, and best practices you should follow to stay safe while benefiting from AI‑powered workflows.
 
 ## Why Security Matters
 AI agents in development tools can automate tasks, modify files, and run commands. While this greatly improves productivity, it also increases the risk of accidental or malicious actions. Understanding how these systems work—and the protections around them—helps you use them safely.
 
 ## Execution & Access Risks
-When you use AI agents in Syncfusion Code, they can perform:
+When you use AI agents in BoldCreate, they can perform:
 
 ### File Operations
 - Create, edit, or delete files in your workspace.
@@ -88,8 +88,8 @@ Malicious instructions hidden inside comments, files, or tool outputs can trick 
 - External data exploitation: Using untrusted web content to alter behavior.
 
 ## Built‑In Security Protections
-- Syncfusion Code includes multiple safety layers to reduce the risk of harmful actions.
-- Syncfusion Code does not use your workspace data, code, or context for model training.
+- BoldCreate includes multiple safety layers to reduce the risk of harmful actions.
+- BoldCreate does not use your workspace data, code, or context for model training.
 
 ## Trust Boundaries
 - Workspace Trust: Restricts execution until you trust the folder.
@@ -135,4 +135,4 @@ Even with strong protections, you play a key role in staying secure.
 - This disables agents and prevents prompt injection attacks.
 
 ## Summary
-AI-powered development is powerful but introduces new security challenges. Syncfusion Code helps protect you with trust boundaries, controlled scope, permissions, transparency, and secret management. As a developer, staying alert, reviewing actions, and only enabling what you trust will help you maintain a safe and productive workflow.
+AI-powered development is powerful but introduces new security challenges. BoldCreate helps protect you with trust boundaries, controlled scope, permissions, transparency, and secret management. As a developer, staying alert, reviewing actions, and only enabling what you trust will help you maintain a safe and productive workflow.

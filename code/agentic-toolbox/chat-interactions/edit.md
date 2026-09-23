@@ -1,6 +1,6 @@
 ---
-title: Syncfusion Code Edit Mode
-description: Edit mode in Syncfusion Code allows you to make targeted changes to your codebase with the help of AI.
+title: BoldCreate Edit Mode
+description: Edit mode in BoldCreate allows you to make targeted changes to your codebase with the help of AI.
 platform: syncfusion-code-studio
 keywords: code, IDE, AI, developer-tools, syncfusion, code-assistance, productivity, UI-generation, bug-fixing, documentation
 ---
@@ -9,7 +9,7 @@ keywords: code, IDE, AI, developer-tools, syncfusion, code-assistance, productiv
 
 ## Overview
 
-Edit Mode is an AI-powered feature in Syncfusion Code that helps developers modify source code using natural language prompts. It enables targeted, bulk, or repetitive changes with a consistent workflow, allowing users to preview, keep, or undo each suggested change for maximum control and accuracy.
+Edit Mode is an AI-powered feature in BoldCreate that helps developers modify source code using natural language prompts. It enables targeted, bulk, or repetitive changes with a consistent workflow, allowing users to preview, keep, or undo each suggested change for maximum control and accuracy.
 
 ## Use Cases
 
@@ -23,7 +23,7 @@ Edit Mode is an AI-powered feature in Syncfusion Code that helps developers modi
 
 ## How to Use the Edit mode
 
-**Step 1:** Open Syncfusion Code in your machine.
+**Step 1:** Open BoldCreate in your machine.
 
 **Step 2:** Switch to **Edit** mode in the chat panel.
 
