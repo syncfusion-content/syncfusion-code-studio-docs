@@ -1,6 +1,6 @@
 ---
 title: From Repetition to Speed - Boost Productivity with Reusable Prompt Templates
-description: Learn how to create and use custom prompt templates in Syncfusion Code to save time, standardize workflows, and build a personal library of reusable AI instructions.
+description: Learn how to create and use custom prompt templates in BoldCreate to save time, standardize workflows, and build a personal library of reusable AI instructions.
 platform: syncfusion-code-studio
 keywords: custom-prompts, reusable-templates, productivity, workflow-automation, ai-assistance, prompt-libraries
 ---
@@ -16,7 +16,7 @@ What if you could save those instructions once and reuse them forever?
 
 That's what **Reusable Templates** do. They let you encode your team's best practices, standards, and workflows once - then automatically apply them across all your work. No more repetition. No more inconsistency.
 
-In this tutorial, you'll learn four different ways to reuse templates in Syncfusion Code:
+In this tutorial, you'll learn four different ways to reuse templates in BoldCreate:
 
 - **Custom Prompts** - Quick templates you invoke manually
 - **Custom Agents** - Create specialized AI personalities agents (Reviewer, Planner, etc.)
@@ -31,7 +31,7 @@ We will see how to pick the right template type for your problem, and you'll sav
 
 By the end of this tutorial, you'll be able to:
 
-- Understand four ways to reuse your instructions in Syncfusion Code
+- Understand four ways to reuse your instructions in BoldCreate
 - Know which template type solves your specific problem
 - Save hours per week by eliminating repetitive typing
 - Standardize your team's practices and workflows
@@ -44,7 +44,7 @@ By the end of this tutorial, you'll be able to:
 **Use when:** You need quick, on-demand templates that you manually invoke.
 
 **How it works:**
-- Open your project in code stuio
+- Open your project in BoldCreate
 - Save an instruction or query as a Custom Prompt
 - Select your prompt in the chat
 - AI uses that prompt template for your current task

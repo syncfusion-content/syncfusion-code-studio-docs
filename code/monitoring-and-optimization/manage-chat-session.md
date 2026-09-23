@@ -1,8 +1,8 @@
 ---
-title: Syncfusion Code Checkpoints
-description: The Checkpoints feature in Syncfusion Code allows you to automatically track, preview, and restore your workspace state at key moments.
+title: BoldCreate Checkpoints
+description: The Checkpoints feature in BoldCreate allows you to automatically track, preview, and restore your workspace state at key moments.
 platform: syncfusion-code-studio
-keywords: code, IDE, AI, developer-tools, syncfusion, code-assistance, productivity, checkpoints, versioning, history, workspace, file-recovery, diff, restore
+keywords: boldcreate, IDE, AI, developer-tools, syncfusion, code-assistance, productivity, checkpoints, versioning, history, workspace, file-recovery, diff, restore
 ---
 
 # Manage Chat Sessions

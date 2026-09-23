@@ -1,19 +1,19 @@
 ---
 title: Custom MCP Servers
-description: "Instructions for connecting remote, NPM, and local MCP servers to Syncfusion Code for enhanced accessibility and control."
+description: "Instructions for connecting remote, NPM, and local MCP servers to BoldCreate for enhanced accessibility and control."
 control: IDE
 documentation: Getting Started
 platform: syncfusion-code-studio
-keywords: custom-mcp-server, remote-server, npm-server, local-server, syncfusion-code, server-management
+keywords: custom-mcp-server, remote-server, npm-server, local-server, boldcreate, server-management
 ---
 
 # Custom MCP Server
 
 ## Purpose
 
-[Model Context Protocol (MCP)](https://modelcontextprotocol.io/docs/getting-started/intro) is an open standard that enables AI models to interact with external tools and services through a unified interface. In Syncfusion Code, MCP servers extend your workspace by integrating with external APIs.
+[Model Context Protocol (MCP)](https://modelcontextprotocol.io/docs/getting-started/intro) is an open standard that enables AI models to interact with external tools and services through a unified interface. In BoldCreate, MCP servers extend your workspace by integrating with external APIs.
 
-**Custom MCP Servers** let you add and manage MCP servers in Syncfusion Code.
+**Custom MCP Servers** let you add and manage MCP servers in BoldCreate.
 
 You can add a custom MCP server using one of these connection types, based on how the server is hosted and delivered:
 
@@ -25,7 +25,7 @@ You can add a custom MCP server using one of these connection types, based on ho
 
 ## When to use
 
-Use a Custom MCP Server to integrate external tools or services into Syncfusion Code. Choose this option whenever an MCP server exists for the tool or service you want to connect.
+Use a Custom MCP Server to integrate external tools or services into BoldCreate. Choose this option whenever an MCP server exists for the tool or service you want to connect.
 
 ## Prerequisites
 
@@ -120,13 +120,13 @@ Runs an MCP server via .NET packages.
 
 > **Note:** Custom servers installed via **npm**, **pip**, or **Docker** rely on AI model–assisted execution. If your [Premium model usage budget](/code/monitoring-and-optimization/buy-more-credits) is exhausted, these configurations can’t be completed until additional budget is available.
 
-## Step-by-Step Guide: Postman MCP Server with Syncfusion Code
+## Step-by-Step Guide: Postman MCP Server with BoldCreate
 
-This example shows how to configure the Postman MCP Server (via an npm package) as a Custom MCP Server in Syncfusion Code. Once connected, you can use the Syncfusion Code chat agent to interact with Postman directly—automating API testing and validation tasks without leaving your workspace.
+This example shows how to configure the Postman MCP Server (via an npm package) as a Custom MCP Server in BoldCreate. Once connected, you can use the BoldCreate chat agent to interact with Postman directly—automating API testing and validation tasks without leaving your workspace.
 
-Follow the steps below to configure the Postman MCP Server in Syncfusion Code,
+Follow the steps below to configure the Postman MCP Server in BoldCreate,
 
-**Step 1:** In Syncfusion Code Extension, click the Settings icon and select MCP Servers 
+**Step 1:** In BoldCreate Extension, click the Settings icon and select MCP Servers 
 
 <img src="../customize-images/mcp-server-option-from-settings.png" alt="custom server" />
 
@@ -166,7 +166,7 @@ Step 4: Review the Terms and Conditions, then click Accept and proceed.
 
 <img src="../customize-images/mcp-postman-region-choosing.png" alt="custom server" />
 
-**Step 10:** Enter a Server ID. This is a label you choose in Syncfusion Code to identify the custom server (not a Postman ID). 
+**Step 10:** Enter a Server ID. This is a label you choose in BoldCreate to identify the custom server (not a Postman ID). 
 
 <img src="../customize-images/mcp-server-id.png" alt="custom server" />
 
@@ -184,7 +184,7 @@ Step 4: Review the Terms and Conditions, then click Accept and proceed.
 
 ### How to access the MCP tools 
 
-**Step 1** : Click the Syncfusion Code icon. The chat window is displayed.
+**Step 1** : Click the BoldCreate icon. The chat window is displayed.
 
 <img src="../customize-images/marketplace1.png" alt="Tools" >
 
@@ -206,11 +206,11 @@ You can create your own collection and add API requests by following Postman’s
 
 ### Generate test scripts
 
-- In this section, you will use Syncfusion Code and the Postman MCP Server to generate standardized test scripts for the **User Management API** collection.
+- In this section, you will use BoldCreate and the Postman MCP Server to generate standardized test scripts for the **User Management API** collection.
 
-- When you give the prompt, Syncfusion Code generates test scripts for all API requests in the collection.
+- When you give the prompt, BoldCreate generates test scripts for all API requests in the collection.
 
-- Syncfusion Code then applies the generated scripts in Postman under each API request’s **Test Scripts** tab.
+- BoldCreate then applies the generated scripts in Postman under each API request’s **Test Scripts** tab.
 
 **Sample prompt**
 
@@ -254,6 +254,6 @@ To remove a custom MCP server:
 
 1. Click Manage next to the MCP server.
 2. Select Uninstall.
-3. The server is removed from your device and Syncfusion Code.
+3. The server is removed from your device and BoldCreate.
 
 <img src="../customize-images/uninstall-custom.png" alt="custom server" />

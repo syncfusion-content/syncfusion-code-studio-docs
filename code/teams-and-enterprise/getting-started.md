@@ -1,17 +1,17 @@
 ---
-title: Getting started with Syncfusion Code Studio
-description: Set up your account, download the app, and configure your organization to begin using Code Studio for AI-assisted development.
+title: Getting started with BoldCreate
+description: Set up your account, download the app, and configure your organization to begin using BoldCreate for AI-assisted development.
 platform: syncfusion-code-studio
-keywords: getting started, onboarding, setup, account, dashboard, profile, settings, download, syncfusion, Code Studio
+keywords: getting started, onboarding, setup, account, dashboard, profile, settings, download, syncfusion, boldcreate
 ---
 
 # Getting Started
 
-Start using Code Studio
+Start using BoldCreate
 
 ### 1. Create and Access Your Account
 
-To start using Code Studio, visit: [Syncfusion Code Studio](https://app.sfcodestudio.com)
+To start using BoldCreate, visit: [BoldCreate](https://app.sfcodestudio.com)
 
 **Sign-In Options**  
 You can sign in using one of the following methods:

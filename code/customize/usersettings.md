@@ -1,5 +1,5 @@
 ---
-title: Syncfusion Code User Settings Reference
+title: BoldCreate User Settings Reference
 description: "Professional guide for customizing development environment settings and optimizing workflow efficiency"
 classification: "User Guide - Configuration Documentation"
 platform: syncfusion-code-studio
@@ -33,7 +33,7 @@ The User Settings page can be accessed in three ways:
 
 ### 1. From the Account
 
-- Click the Syncfusion Code Account icon.
+- Click the BoldCreate Account icon.
 
 <img src="./customize-images/settings-account.png" alt="UserSettings" >
 
@@ -43,8 +43,8 @@ The User Settings page can be accessed in three ways:
 
 ### 2. From the Toggle Sidebar
 
-- Click the **gear icon** on the left sidebar of the Syncfusion Code window.
-- Select Syncfusion Code Settings from the menu.
+- Click the **gear icon** on the left sidebar of the BoldCreate window.
+- Select BoldCreate Settings from the menu.
 
 <img src="./customize-images/settings-sidebar.png" alt="UserSettings" >
 
@@ -54,7 +54,7 @@ The User Settings page can be accessed in three ways:
 
 ### 3. From the Chat Window
 
-- Navigate to the **Syncfusion Code Chat Window**.
+- Navigate to the **BoldCreate Chat Window**.
 - Click the **gear icon** located at the top right corner.
 - Select Open Settings. 
 
@@ -112,7 +112,7 @@ The following settings are available on the User Settings page.
 
 #### Agent File Locations
 - Specify locations of agent files (*.agents.md). Relative paths are resolved from the root folder of your workspace.
-- Default: `.sfcode/agents .github/agents .claude/agents ~/.claude/agents ~/.copilot/agents ~/.sfcode/agents`
+- Default: `.boldcreate/agents .github/agents .claude/agents ~/.claude/agents ~/.copilot/agents ~/.boldcreate/agents`
 
 #### Use Chat Hooks
 - Controls whether chat hooks are executed at strategic points during an agent's workflow. Hooks are loaded from the files configured in Hook File Locations.
@@ -132,15 +132,15 @@ The following settings are available on the User Settings page.
 
 ### Instructions & Skills
 
-#### Use sfcode-instructions.md File 
-- Controls whether instructions from `.sfcode/sfcode-instructions.md` are added to Syncfusion Code requests. 
+#### Use boldcreate-instructions.md File 
+- Controls whether instructions from `.boldcreate/boldcreate-instructions.md` are added to BoldCreate requests. 
 - Default: `Enabled`
 
-> **Note:** Keep your instructions short and precise. Poor instructions can degrade Syncfusion Code quality and performance. 
+> **Note:** Keep your instructions short and precise. Poor instructions can degrade BoldCreate quality and performance. 
 
 #### Instruction File Locations 
 - Specify locations of instruction files (`*.instructions.md`) that can be attached in chat sessions.
-- Default: `.sfcode/instructions .github/instructions .claude/rules ~/.claude/rules ~/.copilot/instructions ~/.sfcode/instructions`
+- Default: `.boldcreate/instructions .github/instructions .claude/rules ~/.claude/rules ~/.copilot/instructions ~/.boldcreate/instructions`
 
 #### Use Agent Skills
 - Controls whether skills are provided as specialized capabilities to the chat requests. The language model can load these skills on-demand if the `read` tool is available.
@@ -148,7 +148,7 @@ The following settings are available on the User Settings page.
 
 #### Skill File Locations
 - Each path should contain skill subfolders with SKILL.md files (e.g., add my-skills if you have my-skills/skilla/SKILL.md). Relative paths are resolved from the root folder(s) of your workspace.
-- Default: `.sfcode/skills .agents/skills .claude/skills ~/.sfcode/skills ~/.agents/skills ~/.claude/skills ~/.copilot/skills`
+- Default: `.boldcreate/skills .agents/skills .claude/skills ~/.boldcreate/skills ~/.agents/skills ~/.claude/skills ~/.copilot/skills`
 
 
 <img src="./customize-images/settings-skills1.png" alt="UserSettings" >
@@ -159,14 +159,14 @@ The following settings are available on the User Settings page.
 
 ### Autocomplete
 
-- When enabled, Syncfusion Code provides inline code suggestions across all supported languages.
+- When enabled, BoldCreate provides inline code suggestions across all supported languages.
 - Default: `Enabled`
 
 <img src="./customize-images/settings-autocomplete1.png" alt="UserSettings" >
 
 ### Indexing
 
-- When enabled, Syncfusion Code will start an indexing process to scan and embed workspace files for accurate search results. 
+- When enabled, BoldCreate will start an indexing process to scan and embed workspace files for accurate search results. 
 
 <img src="./customize-images/settings-indexing1.png" alt="UserSettings" >
 
@@ -181,7 +181,7 @@ The following settings are available on the User Settings page.
 
 ### Telemetry
 
-- When enabled, Syncfusion Code collects anonymous telemetry data to improve the product.
+- When enabled, BoldCreate collects anonymous telemetry data to improve the product.
 - Default: `Enabled`
 
 <img src="./customize-images/settings-telemetry1.png" alt="UserSettings" >
@@ -189,7 +189,7 @@ The following settings are available on the User Settings page.
 ### Help & Support
 
 - **Documentation**  
-  Access the official Syncfusion Code documentation for configuration guidance and usage instructions.
+  Access the official BoldCreate documentation for configuration guidance and usage instructions.
 
 - **Have an Issue?**  
   If you encounter any problems, you can easily reach out to our support team at [support.syncfusion.com](https://support.syncfusion.com).

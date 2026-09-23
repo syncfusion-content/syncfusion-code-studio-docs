@@ -1,17 +1,17 @@
 ---
 title: Custom Instruction
-description: Details about configuring rules that define the behavior and constraints for language models in Syncfusion Code IDE.
+description: Details about configuring rules that define the behavior and constraints for language models in BoldCreate IDE.
 platform: syncfusion-code-studio
 control: IDE
 documentation: Getting Started
-keywords: code, IDE, installation, windows, setup, getting-started
+keywords: boldcreate, IDE, installation, windows, setup, getting-started
 ---
 
 # Custom Instructions
  
 ## Purpose
 
-Custom Instructions allow you to define guidelines and rules that automatically influence how the AI generates code and handles development tasks in Syncfusion Code.
+Custom Instructions allow you to define guidelines and rules that automatically influence how the AI generates code and handles development tasks in BoldCreate.
 
 They serve the following key purposes:
 
@@ -28,16 +28,16 @@ There are two types of instruction files:
 - Apply rules to the entire project.  
 - Once configured, the AI assistant automatically follows these guidelines for **all chats** and **code contexts** in the repo.
 - use this when you want one consistent set of standards across the whole project.  
-- **File Type:** `sfcode-instructions.md`  
-- **Location:** `.sfcode/sfcode-instructions.md` (at the project root)
+- **File Type:** `boldcreate-instructions.md`  
+- **Location:** `.boldcreate/boldcreate-instructions.md` (at the project root)
 
 ### 2. Path-specific Instructions
 - Apply rules only when certain files or folders are in context.  
 - Useful when different parts of your project (e.g., frontend vs backend) need different coding standards.  
 - **File Type:** `*.instructions.md`  
-- **Location:** `.sfcode/instructions/`  
-  - Example: `.sfcode/instructions/python.instructions.md`  
-  - Example: `.sfcode/instructions/frontend.instructions.md`
+- **Location:** `.boldcreate/instructions/`  
+  - Example: `.boldcreate/instructions/python.instructions.md`  
+  - Example: `.boldcreate/instructions/frontend.instructions.md`
 
 ## When to use Custom Instructions
 
@@ -56,13 +56,13 @@ Use Custom Instructions when you want to:
 
 ## Enabling Custom Instruction Files
 
-**Step 1:** Open **settings** at the bottom left in Syncfusion Code.  
+**Step 1:** Open **settings** at the bottom left in BoldCreate.  
 
 <img src="./customize-images/instruction_option.png" alt="instruction_option" >
 
-**Step 2:** Select **Syncfusion Code Settings** in the pop-up options.
+**Step 2:** Select **BoldCreate Settings** in the pop-up options.
 
-<img src="./customize-images/instruction_code_settings.png" alt="instruction_code_settings" >
+<img src="./customize-images/instruction_boldcreate_settings.png" alt="instruction_boldcreate_settings" >
 
 **Step 3:** Click **Instructions & Skills** in the settings options.
 
@@ -96,15 +96,15 @@ You will see three options:
 
 ## How to Configure Project-wise Instruction File
 
-**Step 1:** Open the `sfcode-instructions.md` file.
+**Step 1:** Open the `boldcreate-instructions.md` file.
 
-- Open your project in Syncfusion Code. Click the settings option at the top in the chat and select **agent customizations**.
+- Open your project in BoldCreate. Click the settings option at the top in the chat and select **agent customizations**.
 
     <img src="./customize-images/instruction_chat_option.png" alt="instruction_chat_option" >
 
 - Click the “Generate instructions” and select New instruction(workspace) in the pop up.
 
-**Step 2:** Now Syncfusion Code will automatically create and open `sfcode-instructions.md`.  
+**Step 2:** Now BoldCreate will automatically create and open `boldcreate-instructions.md`.  
 
 <img src="./customize-images/instruction_repo_file.png" alt="instruction_repo_file">
 
@@ -130,9 +130,9 @@ You will see three options:
 - There are two options to save your instruction. You can choose any one of them based on your preference.
 
     - **Option 1: Workspace:** 
-        - Save to `.sfcode/instructions/` folder in your project.
+        - Save to `.boldcreate/instructions/` folder in your project.
         - Use when: Sharing with your **team** while committing your source.
-        - Location: `YOUR-PROJECT/.sfcode/instructions instruction-name.instructions.md`.
+        - Location: `YOUR-PROJECT/.boldcreate/instructions instruction-name.instructions.md`.
     - **Option 2: User Profile:**
         - Saves to: Your user profile folder.
         - Use when: Using across multiple projects.

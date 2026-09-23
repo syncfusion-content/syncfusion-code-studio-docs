@@ -1,16 +1,16 @@
 ---
-title: Use OpenRouter Free Models in Syncfusion Code Studio
-description: Instructions to use Code Studio effectively while minimizing or eliminating costs through free models.
+title: Use OpenRouter Free Models in BoldCreate
+description: Instructions to use BoldCreate effectively while minimizing or eliminating costs through free models.
 platform: syncfusion-code-studio
 control: IDE
 documentation: Getting Started
-keywords: code, IDE, freemodel, openrouter
+keywords: boldcreate, IDE, freemodel, openrouter
 ---
 
-# Use OpenRouter Free Models in Syncfusion Code Studio
+# Use OpenRouter Free Models in BoldCreate
  
 ## Why this Matters
-AI model costs can add up quickly during development. This guide shows you how to use Code Studio effectively while minimizing or eliminating costs through free models.
+AI model costs can add up quickly during development. This guide shows you how to use BoldCreate effectively while minimizing or eliminating costs through free models.
  
 ## When to use
 - You need instant access for coding models with no token limits.
@@ -34,7 +34,7 @@ AI model costs can add up quickly during development. This guide shows you how t
  
 ## OpenRouter Free Tier Models
  
-OpenRouter's free tier unlocks powerful, hosted models that are free (with fair usage limits to keep things sustainable). It's perfect for testing and prototyping without cost. You can easily connect the free models to Code Studio by following this [Configuration steps](/code/teams-and-enterprise/providersandmodels).
+OpenRouter's free tier unlocks powerful, hosted models that are free (with fair usage limits to keep things sustainable). It's perfect for testing and prototyping without cost. You can easily connect the free models to BoldCreate by following this [Configuration steps](/code/teams-and-enterprise/providersandmodels).
  
  
 **Note:** These free models generally deliver about 60% proper results, so use them for prototyping and non-sensitive tasks rather than production.
