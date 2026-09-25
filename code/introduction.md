@@ -1,6 +1,6 @@
 ---
-title: BoldCreate - Introduction Documentation
-description: BoldCreate is an AI-powered IDE combining intelligent code generation, smart workflow management, and enterprise-scale governance to help teams build better software faster.
+title: Documentation and Guides | BoldCreate
+description: Learn how BoldCreate turns ideas into working software with AI assistance, team collaboration, enterprise governance, and cost management, all in one place.
 platform: syncfusion-code-studio
 
 ---
