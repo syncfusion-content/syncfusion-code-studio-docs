@@ -1,6 +1,6 @@
 ---
-title: Syncfusion Code Checkpoints
-description: The Checkpoints feature in Syncfusion Code allows you to automatically track, preview, and restore your workspace state at key moments.
+title: BoldCreate Checkpoints
+description: The Checkpoints feature in BoldCreate allows you to automatically track, preview, and restore your workspace state at key moments.
 platform: syncfusion-code-studio
 keywords: code, IDE, AI, developer-tools, syncfusion, code-assistance, productivity, checkpoints, versioning, history, workspace, file-recovery, diff, restore
 ---
@@ -10,7 +10,7 @@ keywords: code, IDE, AI, developer-tools, syncfusion, code-assistance, productiv
 
 ## Overview 
 
-The Checkpoints and Editing Requests features in Syncfusion Code provide powerful tools for managing your development workflow. Checkpoints automatically record the state of your workspace at important moments, while Editing Requests allows you to revise previous chat instructions and revert the workspace to the state before those instructions were applied. Together, these features create a safe, traceable, and flexible environment that supports iterative development and experimentation. 
+The Checkpoints and Editing Requests features in BoldCreate provide powerful tools for managing your development workflow. Checkpoints automatically record the state of your workspace at important moments, while Editing Requests allows you to revise previous chat instructions and revert the workspace to the state before those instructions were applied. Together, these features create a safe, traceable, and flexible environment that supports iterative development and experimentation. 
 
  
 ## Use Cases 
@@ -24,7 +24,7 @@ The Checkpoints and Editing Requests features in Syncfusion Code provide powerfu
 
 
 ## Editing a Previous Chat Request
-Syncfusion Code allows you to edit any previous chat request in your conversation history. When you modify an earlier request, Syncfusion Code treats it as a new instruction and sends it again to the AI model. The workspace is then reverted to the state it was in before the original request-undoing any file changes made by that request and the requests that came after it.
+BoldCreate allows you to edit any previous chat request in your conversation history. When you modify an earlier request, BoldCreate treats it as a new instruction and sends it again to the AI model. The workspace is then reverted to the state it was in before the original request-undoing any file changes made by that request and the requests that came after it.
 
 ### How to Edit Previous Chat request ?
 
@@ -37,9 +37,9 @@ Syncfusion Code allows you to edit any previous chat request in your conversatio
    <img src="../agentic-toolbox-images/checkpoint1.gif" alt="checkpoint"  />
 
 ## Restoring a Checkpoint
-When you restore a checkpoint, Syncfusion Code returns your workspace to the exact state it was in when that checkpoint was created. Any file changes made after that point are undone, allowing you to safely roll back to a known good version.
+When you restore a checkpoint, BoldCreate returns your workspace to the exact state it was in when that checkpoint was created. Any file changes made after that point are undone, allowing you to safely roll back to a known good version.
 
-### How to use Restore Check Point in Syncfusion Code ?
+### How to use Restore Check Point in BoldCreate ?
 
 **Steps**:
 
@@ -53,7 +53,7 @@ When you restore a checkpoint, Syncfusion Code returns your workspace to the exa
 3. Confirm that you want to restore the checkpoint and undo any file changes made after that point. Notice that the chat request is removed from the conversation history, and the workspace files are restored to their state at the time of the checkpoint
 
 ## Redo Changes After Restoring a Checkpoint
-After restoring the previous checkpoint, Syncfusion Code allows you to redo the changes that were undone. This is helpful if you restored the checkpoint by mistake or want to reapply the edits you rolled back.
+After restoring the previous checkpoint, BoldCreate allows you to redo the changes that were undone. This is helpful if you restored the checkpoint by mistake or want to reapply the edits you rolled back.
 
 ### How to redo changes After Restoring a Checkpoint ?
 
@@ -62,7 +62,7 @@ After restoring the previous checkpoint, Syncfusion Code allows you to redo the 
    <img src="../agentic-toolbox-images/checkpoint3.png" alt="checkpoint"  />
 
 ## How to Undo and Redo the Last Request
-Syncfusion Code lets you quickly reverse or reapply your most recent action. Use Undo Last Request to roll back the workspace to the state before the change was applied. If you change your mind, select Redo Last Request to bring the workspace back to the state with those changes. This helps you stay flexible and in control while experimenting with edits.
+BoldCreate lets you quickly reverse or reapply your most recent action. Use Undo Last Request to roll back the workspace to the state before the change was applied. If you change your mind, select Redo Last Request to bring the workspace back to the state with those changes. This helps you stay flexible and in control while experimenting with edits.
 
 <img src="../agentic-toolbox-images/checkpoint4.png" alt="checkpoint"  />
 

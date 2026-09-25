@@ -1,6 +1,6 @@
 ---
-title: Syncfusion Code Agent Mode
-description: Agent Mode in Syncfusion Code is an autonomous AI assistant that can analyze, edit, and execute changes across your codebase with minimal input.
+title: BoldCreate Agent Mode
+description: Agent Mode in BoldCreate is an autonomous AI assistant that can analyze, edit, and execute changes across your codebase with minimal input.
 platform: syncfusion-code-studio
 keywords: "code, IDE, AI, developer-tools, syncfusion, code-assistance, productivity, UI-generation, bug-fixing, documentation"
 ---
@@ -50,9 +50,9 @@ Agent Mode is an autonomous AI that plans and executes multi-step coding tasks a
 
 ## How to Enable Agent mode?
 
-**Step 1** : Open settings and select Syncfusion Code settings.
+**Step 1** : Open settings and select BoldCreate settings.
 
-<img src="../agentic-toolbox-images/auto-configure1.png" alt="Syncfusion Code Settings" />
+<img src="../agentic-toolbox-images/auto-configure1.png" alt="BoldCreate Settings" />
 
 
 **Step 2** : Select Agents in sidebar list items and Enable agent mode.
@@ -68,11 +68,11 @@ Agent Mode is an autonomous AI that plans and executes multi-step coding tasks a
 
 Consider creating the ToDo application,
 - Create a new project folder.
-- Open the project folder in Syncfusion Code.
+- Open the project folder in BoldCreate.
 - Enter the prompt in the chat input field to scaffold the todo app. For example:
   *“Create a simple todo app with HTML, CSS and JavaScript. Include an input field to add todos, a list to display them, and a delete button for each item”* and Click **"Send"**.
 
-> **Note**: Make sure agents are enabled in your Syncfusion Code settings.
+> **Note**: Make sure agents are enabled in your BoldCreate settings.
 
 <img src="../agentic-toolbox-images/inputPrompt.png" alt="Input Prompt" />
 
@@ -86,7 +86,7 @@ Consider creating the ToDo application,
 
 - Run your application in terminal; now you have a working ToDo app. By using an agent, you can interactively generate and refine your code in real-time.
 
-> **Note:** Projects created in Syncfusion Code are compatible with other IDEs (for example, Visual Studio and VS Code), allowing you to open and work on the same project across different development environments.
+> **Note:** Projects created in BoldCreate are compatible with other IDEs (for example, Visual Studio and VS Code), allowing you to open and work on the same project across different development environments.
 
 ## Related Features
 

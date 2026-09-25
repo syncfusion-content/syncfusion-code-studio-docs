@@ -1,6 +1,6 @@
 ---
-title: Syncfusion Code Global Agent
-description: Agent rule in Syncfusion Code is a Markdown based file format designed to provide structured, project specific instructions for AI coding agents.
+title: BoldCreate Global Agent
+description: Agent rule in BoldCreate is a Markdown based file format designed to provide structured, project specific instructions for AI coding agents.
 platform: syncfusion-code-studio
 keywords: "code, IDE, AI, developer-tools, syncfusion, code-assistance, productivity, UI-generation, bug-fixing, documentation"
 ---
@@ -22,7 +22,7 @@ Global Agent refers to agents.md, an open-source, standardized file format desig
 
 
 ## How to Configure Global Agents
-Using Global Agent in Syncfusion Code is straightforward:
+Using Global Agent in BoldCreate is straightforward:
 
 1. Click Create File
 
@@ -36,7 +36,7 @@ Using Global Agent in Syncfusion Code is straightforward:
 
     <img src="../agentic-toolbox-images/globalagent-instruction.png" alt="instuction" >
 
-4. Go to Settings and click the Syncfusion Code Settings option.
+4. Go to Settings and click the BoldCreate Settings option.
 
     <img src="../agentic-toolbox-images/globalagent-settingspath.png" alt="settingpath" >
 

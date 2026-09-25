@@ -1,15 +1,15 @@
 ---
-title: Adding More Context Providers in Syncfusion Code 
-description: Learn how to add more context providers to enhance AI understanding of your project in Syncfusion Code by editing the config.yaml file.
+title: Adding More Context Providers in BoldCreate 
+description: Learn how to add more context providers to enhance AI understanding of your project in BoldCreate by editing the config.yaml file.
 platform: syncfusion-code-studio
-keywords: syncfusion, syncfusion Code, context providers, add context, config.yaml, ai, developer-tools, productivity
+keywords: syncfusion, BoldCreate, context providers, add context, config.yaml, ai, developer-tools, productivity
 ---
 
 # Provide Context to Chat
 
 ## Overview
 
-Syncfusion Code includes an AI powered chat that can help you understand your project, write code, fix issues, and answer questions. For the chat to give the best and most accurate responses, it needs to understand what you are currently working on. This is where providing context helps. By adding the relevant files, folders, or code snippets–such as the file you’re editing or the parts of your project related to your question–you allow the chat to see the right information. The more context you provide, the better the chat can analyze your code, understand your problem, and guide you effectively.
+BoldCreate includes an AI powered chat that can help you understand your project, write code, fix issues, and answer questions. For the chat to give the best and most accurate responses, it needs to understand what you are currently working on. This is where providing context helps. By adding the relevant files, folders, or code snippets–such as the file you’re editing or the parts of your project related to your question–you allow the chat to see the right information. The more context you provide, the better the chat can analyze your code, understand your problem, and guide you effectively.
 
 This document explains:
 
@@ -42,7 +42,7 @@ This document explains:
 - Confused by the UI? → Attach **a screenshot**
 
 
-## Types of Context in Syncfusion Code
+## Types of Context in BoldCreate
 
 You can use the **Add Context(+)** button to include extra information that helps the chat understand your request better. When you click this button, you will see options like:
 
@@ -62,7 +62,7 @@ You can select **any** of these based on what you want to share with the chat.
 
 ### 1. Automatic Context
 
-Implicit context is the context that Syncfusion Code adds automatically. When you have a file open in the editor, Syncfusion Code will suggest that **active file** at the bottom of the chat. You can simply click the plus button in it to include the file as context without doing anything extra. This makes it easy for the chat to understand which file you’re working on and give better answers.
+Implicit context is the context that BoldCreate adds automatically. When you have a file open in the editor, BoldCreate will suggest that **active file** at the bottom of the chat. You can simply click the plus button in it to include the file as context without doing anything extra. This makes it easy for the chat to understand which file you’re working on and give better answers.
 
 <img src="../agentic-toolbox-images/auto-context.png" alt="check1"  />
 
@@ -72,7 +72,7 @@ Implicit context is the context that Syncfusion Code adds automatically. When yo
 
 #### **1. Type # in the chat**
 - Type **#** in the chat input  
-- Syncfusion Code shows a list of open files and workspace files  
+- BoldCreate shows a list of open files and workspace files  
 - Click the file or folder you want to add  
 
 <img src="../agentic-toolbox-images/var-context.png" alt="#-conetxt"  />
@@ -99,7 +99,7 @@ Screenshot Context allows you to capture your screen or use an image from your c
 #### Steps to Add Screenshot Context
 
 1. Capture a screenshot or copy an image to your clipboard  
-2. Open the chat panel in Syncfusion Code  
+2. Open the chat panel in BoldCreate  
 3. Click **Add Context(+)** button  
 4. Select:
    - **Screenshot Window** (to capture a new screenshot)
@@ -137,7 +137,7 @@ Symbols Context lets you add specific parts of your code–like functions, varia
 
 ### 6. Tools Context
 
-Tools Context lets you add information from different tools inside Syncfusion Code–such as the terminal, debugger, or build tools. This helps the AI understand issues that are related to your development tools instead of your code.
+Tools Context lets you add information from different tools inside BoldCreate–such as the terminal, debugger, or build tools. This helps the AI understand issues that are related to your development tools instead of your code.
 
 #### Steps to Add Tools Context
 1. Click the **Add Context(+)** button  
@@ -161,13 +161,13 @@ Tools Context lets you add information from different tools inside Syncfusion Co
 
 ## @‑mentions in chat
 
-**@-mentions** allow you to directly invoke specialized chat participants in Syncfusion Code. These participants act as **domain experts** that you can route your question to. When you @ mention one of them, your message is handed off to that expert assistant, and it provides a response based on its specific area of knowledge.
+**@-mentions** allow you to directly invoke specialized chat participants in BoldCreate. These participants act as **domain experts** that you can route your question to. When you @ mention one of them, your message is handed off to that expert assistant, and it provides a response based on its specific area of knowledge.
 Chat participants are **not the same as tools**. Tools are triggered automatically as part of an agent flow, whereas chat participants respond only when you explicitly mention them using **@**.
 
 ### How @mentions work
-To use a chat participant, simply type **@** in the chat input box. Syncfusion Code will show a list of available participants such as:
+To use a chat participant, simply type **@** in the chat input box. BoldCreate will show a list of available participants such as:
 - **@terminal** – for shell/CLI questions  
-- **@syncfusioncode** – for editor settings & features  
+- **@boldcreate** – for editor settings & features  
 
 Selecting one routes your request to that domain expert.
 
@@ -175,6 +175,6 @@ Selecting one routes your request to that domain expert.
 
 
 ## Releted Features
- - [Inline Chat](/code/agentic-toolbox/chat-interactions/inlinechat) Inline Chat in Syncfusion Code lets you talk toAI
+ - [Inline Chat](/code/agentic-toolbox/chat-interactions/inlinechat) Inline Chat in BoldCreate lets you talk toAI
  directly inside your code or terminal without switching screens.
  - [Generate Code](/code/agentic-toolbox/agent-guides/generatecode) The Generate Code feature speeds up development by automatically handling repetitive tasks and giving instant AI-powered help right inside your editor.

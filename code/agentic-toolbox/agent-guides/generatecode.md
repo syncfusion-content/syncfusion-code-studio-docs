@@ -1,5 +1,5 @@
 ---
-title: Syncfusion Code Automate Code Fixes and Reviews
+title: BoldCreate Automate Code Fixes and Reviews
 description: The Automate Code Fixes and Reviews feature helps developers work faster by automating common coding tasks.
 platform: syncfusion-code-studio
 keywords: code, IDE, AI, developer-tools, syncfusion, code-assistance, productivity, UI-generation, bug-fixing, documentation, code-reviw, testing, generate-code
@@ -64,5 +64,5 @@ When you choose **Review**, the AI:
 <img src="../agentic-toolbox-images/generatecode-review.png" alt="review" />
 
 ## Releted Features
- - [Inline Chat](/code/agentic-toolbox/chat-interactions/inlinechat) Inline Chat in Syncfusion Code lets you talk to AI directly inside your code or terminal without switching screens.
- - [Autocomplete](/code/agentic-toolbox/core-capabilities/autocomplete) Syncfusion Code's AI Autocomplete speeds up development by giving smart inline suggestions, completing code from context, generating code from comments, and offering style-aware alternatives for faster, cleaner coding.
+ - [Inline Chat](/code/agentic-toolbox/chat-interactions/inlinechat) Inline Chat in BoldCreate lets you talk to AI directly inside your code or terminal without switching screens.
+ - [Autocomplete](/code/agentic-toolbox/core-capabilities/autocomplete) BoldCreate's AI Autocomplete speeds up development by giving smart inline suggestions, completing code from context, generating code from comments, and offering style-aware alternatives for faster, cleaner coding.

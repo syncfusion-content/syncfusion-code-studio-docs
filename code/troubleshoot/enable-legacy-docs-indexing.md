@@ -7,7 +7,7 @@ keywords: docs-indexing, fetch-tool, embeddings, url, troubleshoot, syncfusion-c
 # How to Enable Legacy Docs Indexing Within the Updated Platform
 
 ## Problem Summary
-Starting with version **2.0.0**, Syncfusion Code no longer uses the legacy **Docs Context Provider**.  In earlier versions prior to 2.0.0, users could add documentation URLs through the **@** menu, which generated local embeddings for contextual responses.  The latest release replaces this with the Realtime **Fetch Tool**, introducing a new approach to documentation indexing.
+Starting with version **2.0.0**, BoldCreate no longer uses the legacy **Docs Context Provider**.  In earlier versions prior to 2.0.0, users could add documentation URLs through the **@** menu, which generated local embeddings for contextual responses.  The latest release replaces this with the Realtime **Fetch Tool**, introducing a new approach to documentation indexing.
 
 ## Possible Causes
 
@@ -24,7 +24,7 @@ Starting with version **2.0.0**, Syncfusion Code no longer uses the legacy **Doc
 
 ## Resolution Steps
 
-### Step 1 : Open the Syncfusion Code Chat Interface
+### Step 1 : Open the BoldCreate Chat Interface
 
 ### Step 2 : Type `#fetch` Followed by a Valid URL
 This triggers the Fetch Tool to pull content from the specified page.

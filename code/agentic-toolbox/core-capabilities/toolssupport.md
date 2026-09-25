@@ -1,6 +1,6 @@
 ---
-title: Introduction to Tools in Syncfusion Code
-description: Learn how to use the built-in and MCP tools in Syncfusion Code to streamline your development workflow and automate tasks efficiently.
+title: Introduction to Tools in BoldCreate
+description: Learn how to use the built-in and MCP tools in BoldCreate to streamline your development workflow and automate tasks efficiently.
 platform: syncfusion-code-studio
 keywords: tools, syncfusion, syncfusion-code, development, automation, workflow, built-in-tools, MCP
 ---
@@ -9,7 +9,7 @@ keywords: tools, syncfusion, syncfusion-code, development, automation, workflow,
 
 ## Purpose
 
-The Tools Support feature in Syncfusion Code empowers developers to perform specific actions within the development environment, such as creating folders, reading files, searching within files, and interacting with browsers. This guide provides a step-by-step approach to use the built-in and MCP tools, enabling you to streamline your development workflow and automate tasks efficiently with simple prompts.
+The Tools Support feature in BoldCreate empowers developers to perform specific actions within the development environment, such as creating folders, reading files, searching within files, and interacting with browsers. This guide provides a step-by-step approach to use the built-in and MCP tools, enabling you to streamline your development workflow and automate tasks efficiently with simple prompts.
 
 ## When to use
 
@@ -40,7 +40,7 @@ The tools are designed to automate and simplify common development tasks, allowi
 
 ## Types of Tools
 
-Syncfusion Code provides a suite of tools to streamline your workflow. You can use two types of tools in chat:
+BoldCreate provides a suite of tools to streamline your workflow. You can use two types of tools in chat:
  
 ### 1. Built-In Tools
 
@@ -51,7 +51,7 @@ Syncfusion Code provides a suite of tools to streamline your workflow. You can u
 ### 2. MCP Tools
 
 - Model Context Protocol (MCP) is an open standard that enables AI models to use external tools and services through a unified interface.
-- MCP servers provide tools that you can add to Syncfusion Code to extend chat with additional capabilities.
+- MCP servers provide tools that you can add to BoldCreate to extend chat with additional capabilities.
 - To use MCP tools, you must install and configure MCP servers first.
 - MCP servers can run locally on your machine or be hosted remotely.
 
@@ -74,8 +74,8 @@ Below is a list of available tools and their descriptions for reference:
       <td>Delegate tasks to other agent.</td>
     </tr>
     <tr>
-      <td>syncfusioncode</td>
-      <td>Use Syncfusion Code features</td>
+      <td>boldcreate</td>
+      <td>Use BoldCreate features</td>
     </tr>
     <tr>
       <td>edit</td>
@@ -114,7 +114,7 @@ Before you can use tools in chat, you need to enable them in the **Chat view**. 
 
 #### How to access the tools picker
 
-**Step 1** : Click the Syncfusion Code icon. The chat window is displayed.
+**Step 1** : Click the BoldCreate icon. The chat window is displayed.
 
 <img src="../agentic-toolbox-images/tools2.png" alt="Tools" >
 
