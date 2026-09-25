@@ -247,7 +247,7 @@ After you configure hooks, verify them with a simple test flow.
 
 ## Related Topics
 
-- [Custom Instructions](/code-studio/reference/configure-properties/custom-instructions)
-- [Tools Support](/code-studio/reference/configure-properties/toolssupport)
+- [Custom Instructions](/code-studio/customization/custom-instructions)
+- [Tools Support](/code-studio/customization/toolssupport)
 - [Enhancing Security Reviews and Code Quality with Automated Hooks in Code Studio](/code-studio/tutorials/enhance-security-with-hooks)
-- [Custom Agents](/code-studio/reference/configure-properties/custom-agents)
+- [Custom Agents](/code-studio/customization/custom-agents)

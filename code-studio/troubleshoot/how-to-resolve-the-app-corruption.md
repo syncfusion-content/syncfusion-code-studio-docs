@@ -25,7 +25,7 @@ Application corruption can occur when essential Code Studio files—such as inst
 
 ### Step 1: Backup Custom Configurations
 
-If you have [custom agents](/code-studio/reference/configure-properties/custom-agents) or settings, backup before proceeding.
+If you have [custom agents](/code-studio/customization/custom-agents) or settings, backup before proceeding.
 
 ### Step 2: Delete Application Folders
 

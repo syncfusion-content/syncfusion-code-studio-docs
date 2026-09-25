@@ -24,7 +24,7 @@ In this tutorial, you'll discover how to:
 
 ## Steps on How to Automate software testing without writing test cases manually in CodeStudio
 
-Create a Custom Agent named Software Testing Agent in CodeStudio to automate test case generation. To know more about Custom Agents, see the [official Custom Agent documentation](/code-studio/reference/configure-properties/custom-agents).
+Create a Custom Agent named Software Testing Agent in CodeStudio to automate test case generation. To know more about Custom Agents, see the [official Custom Agent documentation](/code-studio/customization/custom-agents).
 
 **Step 1:** Click on the Modes dropdown and then click on Configure Custom Agents.
 

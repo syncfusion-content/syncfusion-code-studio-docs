@@ -68,7 +68,7 @@ Your selected project will open in the editor where you can:
 
 ### Built-in Agent Modes
 Code Studio provides five built‑in agents   **Autocomplete**, **Ask**, **Edit**, **Agent**, **Plan** .
-You can also create [custom agents](/code-studio/reference/configure-properties/custom-agents) for specialized workflows.
+You can also create [custom agents](/code-studio/customization/custom-agents) for specialized workflows.
 
 <img src="gettingstarted-images/builtInAgents.png" alt="Built in Agents" />
 

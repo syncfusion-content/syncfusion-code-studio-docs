@@ -19,7 +19,7 @@ Instead of manually writing long README files and architecture notes, you will:
 
 By the end, you will have a **repeatable workflow** to keep your documentation fresh without turning developers into full-time writers.
 
-For a deeper understanding of the features used in this tutorial, see [Custom Agents](/code-studio/reference/configure-properties/custom-agents) and [Checkpoints](/code-studio/features/checkpoints).
+For a deeper understanding of the features used in this tutorial, see [Custom Agents](/code-studio/customization/custom-agents) and [Checkpoints](/code-studio/features/checkpoints).
 
 ## Prerequisites
 
@@ -111,7 +111,7 @@ Now that the agent is defined in your project, you can start using it from the *
 
 <img src="./tutorials-images/fix-docs-agent-select.png" alt="Chat Panel showing Codebase Documenter selected in the Agent mode dropdown" />
 
-> **Note:** If you do not see the agent in the dropdown, double-check that the `.agent.md` file is inside `.codestudio/agents/`, the file name ends with `.agent.md`, and there are no syntax errors in the metadata block at the top. For a deeper understanding of agent behavior, see [Custom Agents](/code-studio/reference/configure-properties/custom-agents).
+> **Note:** If you do not see the agent in the dropdown, double-check that the `.agent.md` file is inside `.codestudio/agents/`, the file name ends with `.agent.md`, and there are no syntax errors in the metadata block at the top. For a deeper understanding of agent behavior, see [Custom Agents](/code-studio/customization/custom-agents).
 
 ### Step 4: Ask the Agent to Document Your Codebase
 
