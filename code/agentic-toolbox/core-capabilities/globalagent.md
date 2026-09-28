@@ -2,7 +2,7 @@
 title: BoldCreate Global Agent
 description: Agent rule in BoldCreate is a Markdown based file format designed to provide structured, project specific instructions for AI coding agents.
 platform: syncfusion-code-studio
-keywords: "code, IDE, AI, developer-tools, syncfusion, code-assistance, productivity, UI-generation, bug-fixing, documentation"
+keywords: "boldcreate, IDE, AI, developer-tools, syncfusion, code-assistance, productivity, UI-generation, bug-fixing, documentation"
 ---
 # Global Agents
 

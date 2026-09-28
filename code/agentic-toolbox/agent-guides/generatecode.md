@@ -2,7 +2,7 @@
 title: BoldCreate Automate Code Fixes and Reviews
 description: The Automate Code Fixes and Reviews feature helps developers work faster by automating common coding tasks.
 platform: syncfusion-code-studio
-keywords: code, IDE, AI, developer-tools, syncfusion, code-assistance, productivity, UI-generation, bug-fixing, documentation, code-reviw, testing, generate-code
+keywords: boldcreate, IDE, AI, developer-tools, syncfusion, code-assistance, productivity, UI-generation, bug-fixing, documentation, code-reviw, testing, generate-code
 ---
 
 # Automate Code Fixes and Reviews

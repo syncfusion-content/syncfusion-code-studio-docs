@@ -2,7 +2,7 @@
 title: "How to enable legacy Docs Indexing within the updated platform"
 description: "Professional guide to enable legacy docs indexing with the fetch tool."
 platform: syncfusion-code-studio
-keywords: docs-indexing, fetch-tool, embeddings, url, troubleshoot, syncfusion-code
+keywords: docs-indexing, fetch-tool, embeddings, url, troubleshoot, boldcreate
 ---
 # How to Enable Legacy Docs Indexing Within the Updated Platform
 

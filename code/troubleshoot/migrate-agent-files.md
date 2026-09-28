@@ -2,7 +2,7 @@
 title: How to Migrate Agent Files from v1.x.x to v2.0.0+
 Description: Explains how to migrate Agent files from BoldCreate v1.x.x to v2.0.0 and later versions by renaming the Agent file to agents.md and enabling the required Agents settings.
 platform: syncfusion-code-studio
-keywords: BoldCreate, agent rules, Agent MD, agents.md, troubleshoot
+keywords: boldcreate, agent rules, Agent MD, agents.md, troubleshoot
 ---
 
 # How to Migrate Agent Files from v1.x.x to v2.0.0+

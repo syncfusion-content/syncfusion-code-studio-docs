@@ -2,7 +2,7 @@
 title: Migrate Legacy Prompt Files to New Format
 description: Step-by-step guide to migrate BoldCreate prompts from the old `.prompt` format to the new `.prompt.md` format with YAML frontmatter and Markdown support.
 platform: syncfusion-code-studio
-keywords: syncfusion-code, prompt-migration, markdown, yaml, developer-tools, syncfusion, documentation
+keywords: boldcreate, prompt-migration, markdown, yaml, developer-tools, syncfusion, documentation
 ---
 
 

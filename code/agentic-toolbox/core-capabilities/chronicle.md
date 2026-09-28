@@ -2,7 +2,7 @@
 title: Chronicle - Coding History and Productivity Insights in BoldCreate
 description: Discover how Chronicle in BoldCreate tracks your coding history, provides standup summaries, and delivers personalized productivity tips to enhance your workflow.
 platform: syncfusion-code-studio
-keywords: chronicle, coding-history, productivity-tips, standup-report, workflow-analysis, syncfusion-code
+keywords: chronicle, coding-history, productivity-tips, standup-report, workflow-analysis, boldcreate
 ---
 
 

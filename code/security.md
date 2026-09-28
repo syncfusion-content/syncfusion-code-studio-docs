@@ -2,7 +2,7 @@
 title: Security in BoldCreate
 description: Learn about the key security considerations, risks, protections, and best practices when working with AI-assisted development in BoldCreate.
 platform: syncfusion-code-studio
-keywords: security, syncfusion-code-security, ai-security, mcp-security, auto-approval-risks, supply-chain-risks, prompt-injection, workspace-trust, permission-management, secure-development
+keywords: security, boldcreate-security, ai-security, mcp-security, auto-approval-risks, supply-chain-risks, prompt-injection, workspace-trust, permission-management, secure-development
 ---
 
 

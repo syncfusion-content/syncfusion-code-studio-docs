@@ -2,7 +2,7 @@
 title: Context Compaction - Optimize Chat Context for Sharper AI in BoldCreate
 description: Master the /compact command in BoldCreate to streamline chat history, maintain relevant context, and boost AI performance during long coding sessions.
 platform: syncfusion-code-studio
-keywords: context-compaction, chat-history, ai-context, compact-command, productivity, syncfusion-code
+keywords: context-compaction, chat-history, ai-context, compact-command, productivity, boldcreate
 ---
 
 

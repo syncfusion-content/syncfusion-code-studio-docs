@@ -2,7 +2,7 @@
 title: BoldCreate Agent Mode
 description: Agent Mode in BoldCreate is an autonomous AI assistant that can analyze, edit, and execute changes across your codebase with minimal input.
 platform: syncfusion-code-studio
-keywords: "code, IDE, AI, developer-tools, syncfusion, code-assistance, productivity, UI-generation, bug-fixing, documentation"
+keywords: "boldcreate, IDE, AI, developer-tools, syncfusion, code-assistance, productivity, UI-generation, bug-fixing, documentation"
 ---
 
 # Agent Mode

@@ -2,7 +2,7 @@
 title: Adding More Context Providers in BoldCreate 
 description: Learn how to add more context providers to enhance AI understanding of your project in BoldCreate by editing the config.yaml file.
 platform: syncfusion-code-studio
-keywords: syncfusion, BoldCreate, context providers, add context, config.yaml, ai, developer-tools, productivity
+keywords: syncfusion, boldcreate, context providers, add context, config.yaml, ai, developer-tools, productivity
 ---
 
 # Provide Context to Chat

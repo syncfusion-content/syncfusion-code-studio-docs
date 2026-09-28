@@ -3,7 +3,7 @@ title: BoldCreate Install and Configure
 description: "Professional developer guide for AI-driven error resolution and debugging assistance in real-time development workflows"
 classification: "User Guide - Feature Documentation"
 platform: syncfusion-code-studio
-keywords: ask-code, error-resolution, ai-debugging, code-quality, developer-productivity, real-time-assistance
+keywords: ask-boldcreate, error-resolution, ai-debugging, code-quality, developer-productivity, real-time-assistance
 ---
 
 # Install and Configure

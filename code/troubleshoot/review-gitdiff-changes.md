@@ -2,7 +2,7 @@
 title: Review Git Diff Changes
 description: Guide on reviewing Git diff changes in BoldCreate.
 platform: syncfusion-code-studio
-keywords: git diff, review changes, syncfusion-code, version control, ai assistance, code modifications
+keywords: git diff, review changes, boldcreate, version control, ai assistance, code modifications
 ---
 
 # Review Git Diff Changes in BoldCreate

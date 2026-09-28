@@ -2,7 +2,7 @@
 title: "How to Migrate BoldCreate Rules to Instructions"
 description: "Professional guide to migrate legacy rule configurations from config.yaml and .boldcreaterules to Custom Instructions."
 platform: syncfusion-code-studio
-keywords: rules, custom-instructions, troubleshoot, syncfusion-code
+keywords: rules, custom-instructions, troubleshoot, boldcreate
 ---
 
 # How to Migrate BoldCreate Rules to Instructions

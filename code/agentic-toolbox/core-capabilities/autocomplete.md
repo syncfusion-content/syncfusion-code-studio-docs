@@ -2,7 +2,7 @@
 title: BoldCreate Autocomplete mode
 description: Autocomplete mode in BoldCreate offers real-time, inline code suggestions as you type.
 platform: syncfusion-code-studio
-keywords: code, IDE, AI, developer-tools, syncfusion, code-assistance, productivity, UI-generation, bug-fixing, documentation
+keywords: boldcreate, IDE, AI, developer-tools, syncfusion, code-assistance, productivity, UI-generation, bug-fixing, documentation
 ---
 
 # Autocomplete

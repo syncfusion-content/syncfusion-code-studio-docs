@@ -2,7 +2,7 @@
 title: BoldCreate Ask Mode
 description: Ask Mode in BoldCreate provides AI-powered explanations, code examples, and best practices in a non-invasive conversational interface that does not modify workspace files.
 platform: syncfusion-code-studio
-keywords: code, IDE, AI, developer-tools, syncfusion, code-assistance, productivity, UI-generation, bug-fixing, documentation
+keywords: boldcreate, IDE, AI, developer-tools, syncfusion, code-assistance, productivity, UI-generation, bug-fixing, documentation
 ---
 
 # Ask Mode

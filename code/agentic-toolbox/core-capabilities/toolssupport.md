@@ -2,7 +2,7 @@
 title: Introduction to Tools in BoldCreate
 description: Learn how to use the built-in and MCP tools in BoldCreate to streamline your development workflow and automate tasks efficiently.
 platform: syncfusion-code-studio
-keywords: tools, syncfusion, syncfusion-code, development, automation, workflow, built-in-tools, MCP
+keywords: tools, syncfusion, boldcreate, development, automation, workflow, built-in-tools, MCP
 ---
 
 # Tools Support

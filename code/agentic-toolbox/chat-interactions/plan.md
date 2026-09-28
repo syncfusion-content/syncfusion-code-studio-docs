@@ -2,7 +2,7 @@
 title: BoldCreate Plan Mode
 description: Plan Mode in BoldCreate helps you design, review, and refine your steps before moving into execution.
 platform: syncfusion-code-studio
-keywords: code, IDE, AI, developer-tools, syncfusion, code-assistance, productivity, UI-generation, bug-fixing, documentation
+keywords: boldcreate, IDE, AI, developer-tools, syncfusion, code-assistance, productivity, UI-generation, bug-fixing, documentation
 ---
 
 # Plan Mode

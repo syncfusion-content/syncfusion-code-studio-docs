@@ -2,12 +2,10 @@
 title: BoldCreate Overview
 description: Learn about all key features of BoldCreate including Autocomplete, Ask, Edit, Agent, Plan, Generate Code, Quick Fix, and Custom Agents.
 platform: syncfusion-code-studio
-keywords: "BoldCreate features, ai powered ide, code generation, ai agents, quick fix, autocomplete, plan mode"
+keywords: "boldcreate features, ai powered ide, code generation, ai agents, quick fix, autocomplete, plan mode"
 ---
 
-# Welcome to BoldCreate 
-
-## Overview
+# BoldCreate Overview
 
 BoldCreate is an AI-powered integrated development environment (IDE) with built-in assistance to support modern software development workflows. It understands your codebase and provides context-aware suggestions to help you design, implement, and refine features—while keeping developers in control.
 

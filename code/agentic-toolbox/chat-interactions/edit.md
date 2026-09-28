@@ -2,7 +2,7 @@
 title: BoldCreate Edit Mode
 description: Edit mode in BoldCreate allows you to make targeted changes to your codebase with the help of AI.
 platform: syncfusion-code-studio
-keywords: code, IDE, AI, developer-tools, syncfusion, code-assistance, productivity, UI-generation, bug-fixing, documentation
+keywords: boldcreate, IDE, AI, developer-tools, syncfusion, code-assistance, productivity, UI-generation, bug-fixing, documentation
 ---
 
 # Edit Mode
