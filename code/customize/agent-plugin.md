@@ -1,14 +1,14 @@
 ---
 title: Autopilot and Agent Permissions
-description: Learn how to configure and control agent autonomy in Syncfusion Code using the new Autopilot and permissions picker. This tutorial walks you through enabling Autopilot with chat.autopilot.enabled, choosing between Default Approvals, Bypass Approvals, or Autopilot (Preview), and understanding the security implications of each mode
+description: Learn how to configure and control agent autonomy in BoldCreate using the new Autopilot and permissions picker. This tutorial walks you through enabling Autopilot with chat.autopilot.enabled, choosing between Default Approvals, Bypass Approvals, or Autopilot (Preview), and understanding the security implications of each mode
 platform: syncfusion-code-studio
-keywords: syncfusion, syncfusion code, Autopilot, agent permissions, bypass approvals, agent-scoped hooks, agent debugging 
+keywords: syncfusion, boldcreate, Autopilot, agent permissions, bypass approvals, agent-scoped hooks, agent debugging 
 ---
 # Agent Plugins 
 
 ## Purpose 
 
-Agent plugins are bundles of customizations you can install from plugin marketplaces. They extend Syncfusion Code with combinations of slash commands, skills, agents, hooks, and MCP servers, while working alongside your existing customizations. 
+Agent plugins are bundles of customizations you can install from plugin marketplaces. They extend BoldCreate with combinations of slash commands, skills, agents, hooks, and MCP servers, while working alongside your existing customizations. 
 
 **Key Benefits:** - Simplify Configuration — Install complete workflows in one action - Standardize Practices — Enforce consistent coding standards across your team - Share Knowledge — Distribute expertise and best practices organization-wide 
 
@@ -63,7 +63,7 @@ To install a plugin from a marketplace:
 
 - Click the **Install** button to add it to your user profile. 
 
-- Syncfusion Code automatically downloads and registers the plugin. 
+- BoldCreate automatically downloads and registers the plugin. 
 
 <img src="./customize-images/agent-plugin.gif" alt="Plugin List" />
 
@@ -81,7 +81,7 @@ To install a plugin that is not available in a marketplace:
 
     <img src="./customize-images/git-plugin-custom.png" alt="Plugin List" />
 
-- Syncfusion Code automatically clones the repository and installs the plugin. 
+- BoldCreate automatically clones the repository and installs the plugin. 
 
 ### Step 3: Manage Installed Plugins 
 
@@ -99,9 +99,9 @@ To manage your installed plugins:
 
 ### Step 4: Update Plugins 
 
-Syncfusion Code provides two methods to check for plugin updates: 
+BoldCreate provides two methods to check for plugin updates: 
 
-- **Automatic Updates**: Syncfusion Code checks for updates automatically every 24 hours if the `extensions.autoUpdate` setting is enabled. 
+- **Automatic Updates**: BoldCreate checks for updates automatically every 24 hours if the `extensions.autoUpdate` setting is enabled. 
 
 - **On-Demand Updates**: Press `Ctrl+Shift+P` (or `Cmd+Shift+P` on macOS) and run **Extensions: Check for Extension Updates**. 
 
@@ -132,15 +132,15 @@ When you disable a plugin, the following components become inactive:
 
 ## Understanding How Plugins Become Available 
 
-Once you install a plugin, Syncfusion Code processes the plugin's configuration and makes its components available for use. Here is what happens behind the scenes: 
+Once you install a plugin, BoldCreate processes the plugin's configuration and makes its components available for use. Here is what happens behind the scenes: 
 
 ### Plugin Processing 
 
 A typical plugin contains the following components: `plugin.json` (manifest), `agents/` (custom agents), `skills/` (reusable skills), `hooks/` (lifecycle automation), and `.mcp.json` . 
 
-When you install a plugin, Syncfusion Code performs the following steps: 
+When you install a plugin, BoldCreate performs the following steps: 
 
-1. **Configuration Reading**: Syncfusion Code reads the plugin's `plugin.json` file to understand the plugin's structure and components. 
+1. **Configuration Reading**: BoldCreate reads the plugin's `plugin.json` file to understand the plugin's structure and components. 
 
 2. **Component Registration**: The plugin's AI components (agents, skills, and slash commands) are registered and made available for use in your chats. 
 

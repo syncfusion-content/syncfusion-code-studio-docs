@@ -1,13 +1,13 @@
 ---
-title: Create Budget in Syncfusion Code Studio
-description: Learn how to configure team and individual user budgets, set budget periods with auto-renewal, and set up usage alerts in Syncfusion Code Studio Enterprise Server.
+title: Create Budget in BoldCreate
+description: Learn how to configure team and individual user budgets, set budget periods with auto-renewal, and set up usage alerts in BoldCreate Enterprise Server.
 platform: syncfusion-code-studio
-keywords: budget, usage, billing, alerts, teams, users, admin, syncfusion, code-studio, enterprise server, getting started
+keywords: budget, usage, billing, alerts, teams, users, admin, syncfusion, boldcreate , enterprise server, getting started
 ---
 
 # Create Budget
 
-The Budget feature in Code Studio enables administrators to allocate and monitor AI usage budgets for teams and individual users. This helps organizations manage costs effectively and optimize AI resource utilization.
+The Budget feature in BoldCreate enables administrators to allocate and monitor AI usage budgets for teams and individual users. This helps organizations manage costs effectively and optimize AI resource utilization.
 
 > **Note**: Admins can edit and assign budget for all. A Team Owner can add budgets and set alerts for their users, but not for the entire team. Team Lead and User can view their team and user budget.
 
@@ -16,7 +16,7 @@ The Budget feature in Code Studio enables administrators to allocate and monitor
 
 **Steps:**
 
-- Open the **Code Studio** page and navigate to the **Budget** page from the left sidebar.
+- Open the **BoldCreate** page and navigate to the **Budget** page from the left sidebar.
 
    <img src="./enterprise-images/budget.png" alt="budget"  />
 

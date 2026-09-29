@@ -1,13 +1,13 @@
 ---
-title: Code Studio Enterprise Dashboard
-description: Monitor and analyze organization, team, and user metrics such as cost, tokens, requests, and latency in Syncfusion Code Studio.
+title: BoldCreate Enterprise Dashboard
+description: Monitor and analyze organization, team, and user metrics such as cost, tokens, requests, and latency in BoldCreate.
 platform: syncfusion-code-studio
-keywords: dashboard, analytics, monitoring, usage, tokens, requests, latency, teams, users, cost, syncfusion, code-studio, enterprise
+keywords: dashboard, analytics, monitoring, usage, tokens, requests, latency, teams, users, cost, syncfusion, boldcreate, enterprise
 ---
 
 # Dashboard
 
-The Code Studios Dashboard provides a centralized interface for monitoring and analyzing usage metrics across your organization. It enables administrators and team leads to track token consumption, request volumes, latency, and cost metrics, both at the organizational and individual levels.
+The BoldCreate's Dashboard provides a centralized interface for monitoring and analyzing usage metrics across your organization. It enables administrators and team leads to track token consumption, request volumes, latency, and cost metrics, both at the organizational and individual levels.
 
 
 
