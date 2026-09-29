@@ -194,7 +194,7 @@ You will see three options:
 
     - Step 4: Open chat and send message your instruction file will come in the **used reference.**
 
-    <img src="./customize-images/instruction_path_result.png" alt="instruction_path_result" >
+    <img src="./customize-images/instruction_path_result1.png" alt="instruction_path_result" >
 
  ## Custom Instructions Example
 The following examples show how custom instructions can be used.
