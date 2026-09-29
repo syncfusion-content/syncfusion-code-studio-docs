@@ -1,14 +1,14 @@
 ---
-title: Syncfusion Code Telemetry
-description: Syncfusion Code collects anonymous usage data to improve the product experience.
+title: BoldCreate Telemetry
+description: BoldCreate collects anonymous usage data to improve the product experience.
 platform: syncfusion-code-studio
-keywords: code, IDE, AI, developer-tools, syncfusion, code-assistance, productivity, UI-generation, bug-fixing, documentation, telemetry
+keywords: boldcreate, IDE, AI, developer-tools, syncfusion, code-assistance, productivity, UI-generation, bug-fixing, documentation, telemetry
 ---
 
 # Telemetry
 
 ## Overview
-Syncfusion Code collects anonymous usage data to improve product quality and user experience. This data helps the development team understand feature usage, identify performance issues, and prioritize enhancements.
+BoldCreate collects anonymous usage data to improve product quality and user experience. This data helps the development team understand feature usage, identify performance issues, and prioritize enhancements.
 
 Telemetry collection is optional and can be disabled at any time by the user.
 
@@ -18,7 +18,7 @@ Telemetry data is collected and stored using [PostHog](https://posthog.com/), an
 
 ## Data Collection Policy
 
-Syncfusion Code collects a limited set of **anonymous usage metrics** to help improve product performance and user experience. We ensure that **no personal data or user-generated content** (such as code, prompts, or files) is ever collected or stored.
+BoldCreate collects a limited set of **anonymous usage metrics** to help improve product performance and user experience. We ensure that **no personal data or user-generated content** (such as code, prompts, or files) is ever collected or stored.
 
 
 ## Collected Data Types
@@ -40,7 +40,7 @@ Telemetry can be disabled through the application settings at any time.
 
 ### Steps to Disable Telemetry:
 
-1. Open **Settings** in Syncfusion Code.  
+1. Open **Settings** in BoldCreate.  
 
    <img src="./monitoring-and-optimization-images/telemetry-setting.png" alt="telemetry"  />
 

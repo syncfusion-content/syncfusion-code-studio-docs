@@ -1,21 +1,21 @@
 ---
-title: "Go Development Setup in Syncfusion Code"
-description: "Complete guide to set up Go development environment with installation, configuration, and AI-assisted coding in Syncfusion Code"
+title: "Go Development Setup in BoldCreate"
+description: "Complete guide to set up Go development environment with installation, configuration, and AI-assisted coding in BoldCreate"
 classification: "User Guide - Getting Started"
 platform: syncfusion-code-studio
 keywords: go-setup, golang-development, go-installation, go-compiler, ai-debugging, go-programming, gopls
 ---
 
-# Go Development Setup in Syncfusion Code
+# Go Development Setup in BoldCreate
 
 ## Overview
 
-Syncfusion Code provides intelligent AI-powered assistance for Go development, helping you write clean, idiomatic Go code with greater speed and confidence. Whether you're building microservices, CLI tools, web applications, or cloud-native solutions, Syncfusion Code works seamlessly with Go's toolchain to enhance your productivity.
+BoldCreate provides intelligent AI-powered assistance for Go development, helping you write clean, idiomatic Go code with greater speed and confidence. Whether you're building microservices, CLI tools, web applications, or cloud-native solutions, BoldCreate works seamlessly with Go's toolchain to enhance your productivity.
 
-This guide walks you through setting up a complete Go development environment—from installing the Go compiler to writing your first Go program. Once configured, you'll be able to leverage Syncfusion Code's autocomplete, debugging assistance, code explanations, and smart refactoring for all your Go projects.
+This guide walks you through setting up a complete Go development environment—from installing the Go compiler to writing your first Go program. Once configured, you'll be able to leverage BoldCreate's autocomplete, debugging assistance, code explanations, and smart refactoring for all your Go projects.
 
 > **Prerequisites:** 
-> - Syncfusion Code must be installed. If not, see the [installation guide](/code/getting-started/install-and-configuration).
+> - BoldCreate must be installed. If not, see the [installation guide](/code/getting-started/install-and-configuration).
 > - **Disk Space:** ~500 MB for Go installation
 
 ## What You'll Learn
@@ -25,7 +25,7 @@ By the end of this tutorial, you'll learn how to:
 - Install and configure the Go compiler on Windows and macOS
 - Install and configure the Go extension with essential tools
 - Set up Go modules for dependency management
-- Write and run your first Go program in Syncfusion Code
+- Write and run your first Go program in BoldCreate
 - Debug Go applications with breakpoints and variable inspection
 
 ## Download and Install Go
@@ -117,31 +117,31 @@ If you have [Homebrew](https://brew.sh/) installed:
 
 ---
 
-## Configure Go in Syncfusion Code
+## Configure Go in BoldCreate
 
-With Go installed, the next step is to set up Syncfusion Code to work seamlessly with your Go environment. This involves installing the Go extension and essential development tools.
+With Go installed, the next step is to set up BoldCreate to work seamlessly with your Go environment. This involves installing the Go extension and essential development tools.
 
 ### Step 1: Install Go Extension
 
-1. Open **Syncfusion Code**
+1. Open **BoldCreate**
 2. Click the **Extensions** icon in the sidebar (or press `Ctrl+Shift+X` / `Cmd+Shift+X`)
 3. Search for **"Go"** (by the Go Team at Google)
 4. Click **Install**
 
-   <img src="language-images/go-extension-install.png" alt="Syncfusion Code Extensions view showing Go extension by Go Team at Google with Install button" />
+   <img src="language-images/go-extension-install.png" alt="BoldCreate Extensions view showing Go extension by Go Team at Google with Install button" />
 
 
 
 ### Step 2: Install Go Tools
 
-The Go extension requires several tools for full functionality. Syncfusion Code will prompt you to install them automatically.
+The Go extension requires several tools for full functionality. BoldCreate will prompt you to install them automatically.
 
 1. Open the **Command Palette** (`Ctrl+Shift+P` / `Cmd+Shift+P`)
 2. Type: **"Go: Install/Update Tools"**
 3. Select **all tools** from the list (or check all)
 4. Click **OK**
 
-   <img src="language-images/go-install-tools.png" alt="Syncfusion Code dialog showing list of Go tools to install including gopls, dlv, staticcheck" />
+   <img src="language-images/go-install-tools.png" alt="BoldCreate dialog showing list of Go tools to install including gopls, dlv, staticcheck" />
 
 ---
 
@@ -152,7 +152,7 @@ Now that everything is configured, let's create a simple Go program to verify yo
 ### Step 1: Create a Go Module
 
 1. Create a new folder for your project (e.g., `hello.go`)
-2. Open it in Syncfusion Code: **File → Open Folder**
+2. Open it in BoldCreate: **File → Open Folder**
 3. Open the **Terminal** (`Ctrl+`` / ``Cmd+``)
 4. Initialize a Go module:
    ```bash
@@ -166,28 +166,28 @@ This creates a `go.mod` file that tracks dependencies.
 ### Step 2: Create Your First Go File
 
 1. Create a new file: `main.go`
-2. You can write the code yourself or ask Syncfusion Code to help:
+2. You can write the code yourself or ask BoldCreate to help:
 
-   **Try this prompt in Syncfusion Code Chat:**
+   **Try this prompt in BoldCreate Chat:**
    ```
    Create a simple Go hello world program with basic input/output
    ```
 
-   <img src="language-images/go-ai-generate.gif" alt="Syncfusion Code chat showing AI generating a Go program" />
+   <img src="language-images/go-ai-generate.gif" alt="BoldCreate chat showing AI generating a Go program" />
 
-3. Syncfusion Code will generate a basic Go program.
+3. BoldCreate will generate a basic Go program.
 
 
 ## Debug Your Go Code
 
-Debugging is where Syncfusion Code truly shines. Let's walk through setting up debugging and inspecting your program as it runs.
+Debugging is where BoldCreate truly shines. Let's walk through setting up debugging and inspecting your program as it runs.
 
 ### Step 1: Configure Debug Settings
 
 1. Click the **Run and Debug** icon (or press `Ctrl+Shift+D` / `Cmd+Shift+D`)
 2. Click **"create a launch.json file"**
 3. Select **"Go"** from the environment options
-4. Syncfusion Code creates `.vscode/launch.json`
+4. BoldCreate creates `.vscode/launch.json`
 
 **Example launch.json:**
 ```json
@@ -226,7 +226,7 @@ Debugging is where Syncfusion Code truly shines. Let's walk through setting up d
    - Add **Watch** expressions
    - Inspect the **Call Stack** 
 
-   <img src="language-images/go-debugging-breakpoint.gif" alt="Syncfusion Code debug view showing paused execution with variables, call stack, and debug toolbar" />
+   <img src="language-images/go-debugging-breakpoint.gif" alt="BoldCreate debug view showing paused execution with variables, call stack, and debug toolbar" />
 
 ---
 
@@ -234,10 +234,10 @@ Debugging is where Syncfusion Code truly shines. Let's walk through setting up d
 
 ## Next Steps
 
-Now that Your Go development environment is now fully configured in Syncfusion Code. Here's what you can explore next:
+Now that Your Go development environment is now fully configured in BoldCreate. Here's what you can explore next:
 
 - **Build Real Projects:** Start developing Go applications with full debugging support - see [Generate Your First Code Using Agent](/code/agentic-toolbox/agent-guides/generate-your-first-code-using-agent) to get started
-- **Leverage AI Features:** Use Syncfusion Code's [Autocomplete](/code/agentic-toolbox/core-capabilities/autocomplete), [Ask](/code/agentic-toolbox/chat-interactions/ask), and refactoring capabilities to speed up development
+- **Leverage AI Features:** Use BoldCreate's [Autocomplete](/code/agentic-toolbox/core-capabilities/autocomplete), [Ask](/code/agentic-toolbox/chat-interactions/ask), and refactoring capabilities to speed up development
 - **Explore Agent Mode:** For complex multi-package projects, try [Agent mode](/code/agentic-toolbox/chat-interactions/agent) for advanced refactoring and architectural improvements
 - **Learn More:** Check out the [Quick Start Guide](/code/getting-started/quick-start) and [overview](/code/getting-started/overview) for additional capabilities
 
@@ -252,7 +252,7 @@ Now that Your Go development environment is now fully configured in Syncfusion C
 **Module imports showing errors:**
 - Run `go mod tidy` in the terminal
 - Run `go mod download` to fetch dependencies
-- Reload Syncfusion Code: Command Palette → **"Developer: Reload Window"**
+- Reload BoldCreate: Command Palette → **"Developer: Reload Window"**
 
 **Debugger won't start:**
 - Check that your `launch.json` configuration is correct
