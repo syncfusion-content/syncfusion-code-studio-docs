@@ -81,7 +81,6 @@ Implicit context is the context that Code Studio adds automatically. When you ha
 - Right‑click the file or folder  
 - Select **“Add File to Chat”** or **“Add Folder to Chat”**
 
-<img src="./feature-images/add-file.png" alt="addfile"  />
 <img src="./feature-images/add-folder.png" alt="addfolder"  />
 
 #### **3. Use the “Add context(+)” button**
