@@ -5,7 +5,7 @@ platform: syncfusion-code-studio
 keywords: git diff, review changes, boldcreate, version control, ai assistance, code modifications
 ---
 
-# Review Git Diff Changes in BoldCreate
+# Review Git Diff Changes in Bold Create
 
 ## Problem Summary
 
