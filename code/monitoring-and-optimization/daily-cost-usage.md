@@ -1,6 +1,6 @@
 ---
 title: "Track Daily Cost and Token Usage"
-description: "How to view and filter daily costs and token usage in Syncfusion Code"
+description: "How to view and filter daily costs and token usage in BoldCreate"
 classification: "User Guide - How To Documentation"
 platform: syncfusion-code-studio
 keywords: cost-usage, daily-cost, token-usage, budget, dashboard, analytics
@@ -27,14 +27,14 @@ Use this tracking process when:
 
 
 ## Steps to Check Daily Credits and Token Usage
-Follow these steps to view your credits and token usage in Syncfusion Code:
+Follow these steps to view your credits and token usage in BoldCreate:
 
-### Step 1: Open Syncfusion Code
-- Open Syncfusion Code Application.
+### Step 1: Open BoldCreate
+- Open BoldCreate Application.
 - Ensure you are logged in with the correct user credentials.
 
 ### Step 2: Open Account Settings
-- In the top-right corner of Syncfusion Code, click your **avatar**.
+- In the top-right corner of BoldCreate, click your **avatar**.
     
 <img src="./monitoring-and-optimization-images/Avator-icon1.png">
 

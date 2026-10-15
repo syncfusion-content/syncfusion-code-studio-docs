@@ -1,16 +1,16 @@
 ---
-title: "Fixing Collaboration Gaps: Managing Users and Teams in your organization using Syncfusion Code's Enterprise Server"
-description: "Learn how to create teams, invite users, and monitor usage in Syncfusion Code Enterprise Server"
+title: "Fixing Collaboration Gaps: Managing Users and Teams in your organization using BoldCreate's Enterprise Server"
+description: "Learn how to create teams, invite users, and monitor usage in BoldCreate Enterprise Server"
 platform: syncfusion-code-studio
 keywords: teams, users, collaboration, enterprise, dashboard, token-usage, team-management, invitations, admin, team-lead
 ---
 
-# Fixing Collaboration Gaps: Managing Users and Teams in your organization using Syncfusion Code's Enterprise Server
+# Fixing Collaboration Gaps: Managing Users and Teams in your organization using BoldCreate's Enterprise Server
 
 
 ## Overview
 
-This tutorial teaches you how to set up and manage your development team in Syncfusion Code Enterprise Server. Whether you're organizing a small team or multiple departments, you'll learn everything needed to get your team collaborating effectively.
+This tutorial teaches you how to set up and manage your development team in BoldCreate Enterprise Server. Whether you're organizing a small team or multiple departments, you'll learn everything needed to get your team collaborating effectively.
 
 This tutorial is perfect for team leads and admins who want to get their team collaboration up and running quickly.
 
@@ -20,7 +20,7 @@ For more details on the features covered in this tutorial, see [User & Teams Man
 
 Before starting, ensure you have:
 
-- **Syncfusion Code Enterprise account** — If not set up, see [Enterprise Server Getting Started Guide](/code/teams-and-enterprise/getting-started)
+- **BoldCreate Enterprise account** — If not set up, see [Enterprise Server Getting Started Guide](/code/teams-and-enterprise/getting-started)
 - **Admin or Team Lead role** — You'll need one of these roles to create teams and invite users
 
 ## What You Will Learn
@@ -39,13 +39,13 @@ Before we begin, let's define the important concepts:
 
 | Term | Definition | Example |
 |------|------------|---------|
-| **Organization** | Your company's workspace in Syncfusion Code | "Acme Corp Development" |
+| **Organization** | Your company's workspace in BoldCreate | "Acme Corp Development" |
 | **Team** | A group of developers working together | "frontend-team", "mobile-team" |
 | **Admin** | Role with full control over the organization | Can manage all teams, billing, and settings |
 | **Team Lead** | Role that manages a specific team | Can only manage their assigned team |
-| **User** | Role for developers using Syncfusion Code | Can code with AI features, view own usage |
+| **User** | Role for developers using BoldCreate | Can code with AI features, view own usage |
 | **Tokens** | Units measuring AI usage (like credits) | Each AI request consumes tokens |
-| **Avatar Icon** | Your profile picture or initials in a circle | Located in top-left corner of Syncfusion Code |
+| **Avatar Icon** | Your profile picture or initials in a circle | Located in top-left corner of BoldCreate |
 | **Dashboard** | Web-based admin interface for managing teams | Where you create teams, invite users, view analytics |
 
 
@@ -80,7 +80,7 @@ Teams are organizational units that group developers working together. They help
 
 ### What Is User Invitation?
 
-Syncfusion Code provides two ways to add members to your teams:
+BoldCreate provides two ways to add members to your teams:
 - **Invite New Users** — Send email invitations to people who don't have accounts yet
 - **Add Existing Users** — Assign existing organization members to additional teams
 
@@ -94,7 +94,7 @@ Syncfusion Code provides two ways to add members to your teams:
 ### Common Use Cases
 
 **Invite New Users When:**
-- Onboarding new employees who need Syncfusion Code access
+- Onboarding new employees who need BoldCreate access
 - Expanding your organization with new hires
 
 **Add Existing Users When:**
@@ -152,7 +152,7 @@ The Dashboard displays comprehensive usage data:
 
 ### What Is Team Member Management?
 
-As your organization evolves, you'll need to perform ongoing maintenance tasks like moving people between teams, updating permissions, or removing access. Syncfusion Code provides flexible management options through the Dashboard.
+As your organization evolves, you'll need to perform ongoing maintenance tasks like moving people between teams, updating permissions, or removing access. BoldCreate provides flexible management options through the Dashboard.
 
 ### Why Manage Team Members?
 
@@ -168,7 +168,7 @@ The Dashboard supports these key operations:
 
 | Task | When to Use It | Impact |
 |------|----------------|--------|
-| **Move User to Different Team** | Developer switches projects | User sees new team in Syncfusion Code; access to old team removed |
+| **Move User to Different Team** | Developer switches projects | User sees new team in BoldCreate; access to old team removed |
 | **Remove from Team** | Project ends, but user stays in organization | Removed from specific team; other team memberships unaffected |
 | **Change User Role** | Promotions or permission adjustments | New role takes effect immediately; historical data preserved |
 | **Delete User from Organization** | Employee termination | Complete removal; cannot be undone; must re-invite to restore |

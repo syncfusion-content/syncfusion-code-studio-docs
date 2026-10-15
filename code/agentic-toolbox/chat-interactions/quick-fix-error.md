@@ -1,6 +1,6 @@
 ---
 title: Quick Fix Your Errors
-description: Resolve syntax errors and code issues in Syncfusion Code using the Quick Fix feature with AI assistance.
+description: Resolve syntax errors and code issues in BoldCreate using the Quick Fix feature with AI assistance.
 platform: syncfusion-code-studio
 category: how-to-guide
 keywords: quick-fix, error-resolution, syntax-errors, code-assistance, debugging
@@ -8,7 +8,7 @@ keywords: quick-fix, error-resolution, syntax-errors, code-assistance, debugging
 
 # Quick Fix Your Errors
 
-This guide covers two distinct workflows in Syncfusion Code: **Quick Fix** for fast, one-click corrections, and **Explain** for understanding the root cause with rationale and a proposed fix. Use them independently based on your goal-fix immediately, or learn why before you change code.
+This guide covers two distinct workflows in BoldCreate: **Quick Fix** for fast, one-click corrections, and **Explain** for understanding the root cause with rationale and a proposed fix. Use them independently based on your goal-fix immediately, or learn why before you change code.
 
 ## When to Use
 
@@ -24,9 +24,9 @@ Use the Quick Fix feature when:
 
 ### Step 1: Identify the Error
 
-Open your project in Syncfusion Code.
+Open your project in BoldCreate.
 
-Syncfusion Code automatically highlights errors with:
+BoldCreate automatically highlights errors with:
 
 - Red squiggly underlines beneath problematic code.
 - Error icons in the editor gutter or problems panel.
@@ -111,7 +111,7 @@ After completing these steps:
 
 ### Quick Fix option does not appear when clicking the error
 
-**Solution:** Ensure Syncfusion Code has fully analyzed the file. Wait a moment, then click the error again. If the issue persists, reload the file or restart Syncfusion Code.
+**Solution:** Ensure BoldCreate has fully analyzed the file. Wait a moment, then click the error again. If the issue persists, reload the file or restart BoldCreate.
 
 ### The Explain analysis does not match the surrounding context
 

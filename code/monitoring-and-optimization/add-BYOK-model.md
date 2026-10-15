@@ -1,15 +1,15 @@
 ---
-title: Add BYOK Model in Syncfusion Code
-description: Admin guide to add BYOK (Bring Your Own Key) models and connect providers in Syncfusion Code.
+title: Add BYOK Model in BoldCreate
+description: Admin guide to add BYOK (Bring Your Own Key) models and connect providers in BoldCreate.
 platform: syncfusion-code-studio
-keywords: byok, add model, providers, configuration, admin, enterprise, syncfusion, syncfusion-code, api keys, openai, anthropic,openrouter
+keywords: byok, add model, providers, configuration, admin, enterprise, syncfusion, boldcreate, api keys, openai, anthropic,openrouter
 ---
 
 # Add BYOK Model
 
 ## Overview
 
-This guide provides step-by-step instructions for administrators to configure Large Language Model (LLM) providers within Syncfusion Code using the **Bring Your Own Key (BYOK)** feature.
+This guide provides step-by-step instructions for administrators to configure Large Language Model (LLM) providers within BoldCreate using the **Bring Your Own Key (BYOK)** feature.
 
 > **Note:** Only administrators can configure LLM providers.
 
@@ -17,7 +17,7 @@ This guide provides step-by-step instructions for administrators to configure La
 
 Use this guide when you need to:
 
-- Connect new LLM providers (e.g., OpenAI, Anthropic,Openrouter) to Syncfusion Code.
+- Connect new LLM providers (e.g., OpenAI, Anthropic,Openrouter) to BoldCreate.
 - Add custom models from your preferred AI providers for your organization.
 - Manage API keys for enterprise-level AI integrations.
 
@@ -25,7 +25,7 @@ Use this guide when you need to:
 
 Before you begin, ensure you have the following:
 
-- An active administrator account on Syncfusion Code.
+- An active administrator account on BoldCreate.
 - A valid API key from your LLM provider (e.g., OpenAI, Anthropic).
 - *(Optional)* An OpenRouter API key for accessing multiple models through a single integration. Follow the detailed instructions [here](/code/teams-and-enterprise/freemodel) to obtain an OpenRouter API key.
 
@@ -33,7 +33,7 @@ Before you begin, ensure you have the following:
 
 ### Step 1: Open the Dashboard
 
-1. Open **Syncfusion Code** in your machine.
+1. Open **BoldCreate** in your machine.
 
 2. Click the **Account** tab in the top right of the application.
    <img src="./monitoring-and-optimization-images/Avator-icon1.png" alt="Open Dashboard" />
@@ -47,7 +47,7 @@ Before you begin, ensure you have the following:
 
 ### Step 2: Add an LLM Provider
 
-Follow these steps to add a new LLM provider to Syncfusion Code:
+Follow these steps to add a new LLM provider to BoldCreate:
 
 1. Navigate to the **LLM Keys** page under the **BYOK** section in the admin dashboard.
 
@@ -97,11 +97,11 @@ After configuring your LLM provider, follow these steps to add a model:
 
 
 
-### Step 4: Verify the Model in Syncfusion Code IDE
+### Step 4: Verify the Model in BoldCreate IDE
 
-After adding the model, verify that it appears in the Syncfusion Code IDE:
+After adding the model, verify that it appears in the BoldCreate IDE:
 
-1. Open the **Syncfusion Code IDE**.
+1. Open the **BoldCreate IDE**.
 
 2. Click the **model selection dropdown** in the chat or editor panel.
 

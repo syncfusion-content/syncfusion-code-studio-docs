@@ -1,6 +1,6 @@
 ---
 title: Project Manager Extension
-description: Project Manager in Syncfusion Code is a structured SDLC workflow panel that guides AI-assisted development from project setup to shipping, with built-in quality gates, skill-driven execution, and full task history.
+description: Project Manager in BoldCreate is a structured SDLC workflow panel that guides AI-assisted development from project setup to shipping, with built-in quality gates, skill-driven execution, and full task history.
 platform: syncfusion-code-studio
 keywords: "code, IDE, AI, developer-tools, syncfusion, project-manager, SDLC, workflow, knowledge, plugins, history, settings"
 ---
@@ -9,7 +9,7 @@ keywords: "code, IDE, AI, developer-tools, syncfusion, project-manager, SDLC, wo
 
 ## Overview
 
-Project Manager is a built-in extension in Syncfusion Code that helps you build software in a structured, step-by-step way with AI assistance. Instead of asking the agent to do everything at once, it breaks your work into clear stages such as defining requirements, planning tasks, writing code, and reviewing results, so nothing gets missed.
+Project Manager is a built-in extension in BoldCreate that helps you build software in a structured, step-by-step way with AI assistance. Instead of asking the agent to do everything at once, it breaks your work into clear stages such as defining requirements, planning tasks, writing code, and reviewing results, so nothing gets missed.
 
 You describe what you want to build, and Project Manager figures out how much process is needed based on the type and complexity of your task. Simple fixes get a lightweight flow. Bigger or riskier changes get more review steps.
 
@@ -28,7 +28,7 @@ Use Project Manager when you need to:
 
 ### Step 1: Open Project Manager
 
-Click the **Settings** (gear) icon at the top of the Syncfusion Code panel and select **Project Manager** from the dropdown menu.
+Click the **Settings** (gear) icon at the top of the BoldCreate panel and select **Project Manager** from the dropdown menu.
 
  <img src="../agentic-toolbox-images/pm-open.png" alt="Opening Project Manager from the Settings dropdown" />
 
@@ -209,13 +209,13 @@ The **Knowledge** tab shows the AI-generated knowledge files for the current pro
 | `stack.md` | Languages, frameworks, dependencies, build tools, and npm scripts |
 | `conventions.md` | Naming, formatting, file organization, testing patterns, and documentation style |
 | `boundaries.md` | Always-do / Ask-first / Never-do rules for the agent in this project |
-| `sfcode-instructions.md` | Project-specific agent instructions used in every workflow |
+| `boldcreate-instructions.md` | Project-specific agent instructions used in every workflow |
 
  
 
 ### Generating Knowledge
 
-If no knowledge files exist yet, click **Generate Knowledge**. The agent scans your workspace and writes all five files to `.sfcode/knowledge/`.
+If no knowledge files exist yet, click **Generate Knowledge**. The agent scans your workspace and writes all five files to `.boldcreate/knowledge/`.
 
  <img src="../agentic-toolbox-images/pm-knowledge-empty.png" alt="Knowledge: No Knowledge Yet" />
 

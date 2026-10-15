@@ -1,8 +1,8 @@
 ---
 title: Agentic Browser Tool
-description: Learn about how Agentic Browser Tool used in Syncfusion Code
+description: Learn about how Agentic Browser Tool used in BoldCreate
 platform: syncfusion-code-studio
-keywords: AI agent, syncfusion code, testing, ui-intergation, Bug detection
+keywords: AI agent, boldcreate, testing, ui-intergation, Bug detection
 ---
 
 # Agentic Browser Tool Overview
@@ -18,7 +18,7 @@ Acting as a bridge between your code and a live browser, the agent can automatic
 By the end of this tutorial, you will be able to:
 
 - Understand how Agentic Browser Tools work  
-- Enable and use browser tools in Syncfusion Code  
+- Enable and use browser tools in BoldCreate  
 - Build a web application using an AI agent  
 - Automatically test your application using the integrated browser  
 - Identify and fix issues based on real-time browser feedback  
@@ -43,7 +43,7 @@ The agent can now use these tools to interact with, navigate, and perform action
 
 ### Step 2: Build a Calculator Using the Agent
 
-- Create and open a new project folder in Syncfusion Code  
+- Create and open a new project folder in BoldCreate  
 - Open the **Chat view**  
 - Request the agent to build a calculator app  
 

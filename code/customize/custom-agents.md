@@ -1,12 +1,12 @@
 ---
-title: Syncfusion Code Custom Agent
-description: Custom Agent Mode in Syncfusion Code is an autonomous AI assistant that can analyze, edit, and execute changes across your codebase with minimal input.
+title: BoldCreate Custom Agent
+description: Custom Agent Mode in BoldCreate is an autonomous AI assistant that can analyze, edit, and execute changes across your codebase with minimal input.
 platform: syncfusion-code-studio
-keywords: "code, IDE, AI, developer-tools, syncfusion, code-assistance, productivity, UI-generation, bug-fixing, documentation"
+keywords: "boldcreate, IDE, AI, developer-tools, syncfusion, code-assistance, productivity, UI-generation, bug-fixing, documentation"
 ---
 # Custom Agents
 
-Custom Agents are specialized versions of Syncfusion Code that deliver consistent expertise across end-to-end workflows. They are assigned to specific tasks and retain their configuration throughout the process. This reduces setup time, enforces team standards, and makes outcomes repeatable.
+Custom Agents are specialized versions of BoldCreate that deliver consistent expertise across end-to-end workflows. They are assigned to specific tasks and retain their configuration throughout the process. This reduces setup time, enforces team standards, and makes outcomes repeatable.
 
 By switching to the right agent (e.g., Planner, Security Reviewer, Architect), you get the correct behavior, tool access, and expertise — without manual reconfiguration each time.
 
@@ -65,9 +65,9 @@ Choose **one** of these methods:
 ### Step 2: Choose Where to Save Your Agent
 
 **Option 1: Workspace** (recommended for team sharing)
-- Saves to: `YOUR-PROJECT/.sfcode/agents/` folder in your project.
+- Saves to: `YOUR-PROJECT/.boldcreate/agents/` folder in your project.
 - Use when: Sharing with your **team** while committing your source.
-- Location: `YOUR-PROJECT/.sfcode/agents/your-agent-name.agent.md`
+- Location: `YOUR-PROJECT/.boldcreate/agents/your-agent-name.agent.md`
 
 **Option 2: User Profile** (personal, cross-project)
 - Saves to your user profile folder
@@ -112,7 +112,7 @@ Select your preferred location → click **Continue**.
 ### Step 5: Save and Activate
 
 - Save the file (Ctrl+S or ⌘S).
-- Syncfusion Code automatically detects the new agent.
+- BoldCreate automatically detects the new agent.
 - Open Chat view and click the agent dropdown.
 - Your new agent appears in the list.
 
@@ -121,7 +121,7 @@ Select your preferred location → click **Continue**.
 ## Using Your Custom Agents
 
 **To Use the CodeReview Agent:**
-- Open Chat view in Syncfusion Code.
+- Open Chat view in BoldCreate.
 - Click the agent dropdown.
 
 <img src="./customize-images/agent_dropdown_option.png" alt="agent_dropdown_option" />
@@ -177,7 +177,7 @@ Predefined agents are available in our GitHub repository:
 
 1. **Browse the Repository**: Visit the [agents repository](https://github.com/syncfusion/code-studio-agent-library) to explore available agents
 2. **Download Agent Files**: Copy the `.agent.md` files you want to use
-3. **Add to Your Project**: Place files in `YOUR-PROJECT/.sfcode/agents/` folder
+3. **Add to Your Project**: Place files in `YOUR-PROJECT/.boldcreate/agents/` folder
 4. **Activate**: The agents will automatically appear in your agent dropdown once saved
 
 ## Best Practices for Agent Configuration

@@ -2,7 +2,7 @@
 title: "Invite New User to Your Organization"
 description: "Guide for administrators,team leads and team owner to invite new users, configure role, and streamline team member onboarding within an organization"
 platform: syncfusion-code-studio
-keywords: invite-users, syncfusion-code, organization, syncfusion
+keywords: invite-users, boldcreate, organization, syncfusion
 ---
 # Invite New User to Your Organization
 ## Overview  
@@ -14,17 +14,17 @@ This guide explains how administrators,team leads and team owner can invite new 
 ## Prerequisites 
 - You are an Admin / Team Lead / Team Owner. 
 - You have the email address of the person you want to invite
-- Your Syncfusion Code organization is active. 
+- Your BoldCreate organization is active. 
 - A modern web browser with internet access. 
 
 
 ## Steps to Invite a New User
 Follow these steps to invite a new user to your organization.
 
-### Step 1 : Open Syncfusion Code Dashboard
-- Open Syncfusion Code Application.
+### Step 1 : Open BoldCreate Dashboard
+- Open BoldCreate Application.
 - Ensure you are logged in with the correct user credentials.
-- In the top-right corner of Syncfusion Code, click your **avatar**.
+- In the top-right corner of BoldCreate, click your **avatar**.
     
 <img src="./monitoring-and-optimization-images/Avator-icon1.png">
 

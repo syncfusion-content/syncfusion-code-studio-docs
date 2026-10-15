@@ -9,24 +9,24 @@ keywords: default model, model selection, configuration
 
 ## Overview
 
-This guide explains how to configure default models using API keys (BYOK – Bring Your Own Key) from your chosen provider into Syncfusion Code Enterprise. You'll learn how to set default models for different modes to streamline your workflow.
+This guide explains how to configure default models using API keys (BYOK – Bring Your Own Key) from your chosen provider into BoldCreate Enterprise. You'll learn how to set default models for different modes to streamline your workflow.
 
 ## When to Use Default Models
 
-Setting a default model ensures that your preferred model appears as the pre-selected option in the model dropdown whenever Syncfusion Code IDE opens or reopens. While you can switch to another model during a session, the default model will be automatically restored the next time you start Syncfusion Code.
+Setting a default model ensures that your preferred model appears as the pre-selected option in the model dropdown whenever BoldCreate IDE opens or reopens. While you can switch to another model during a session, the default model will be automatically restored the next time you start BoldCreate.
 
 ## Prerequisites
 
 Before starting, ensure:
 
-* Syncfusion Code is installed and configured on your system. If you have not yet downloaded Syncfusion Code, refer to the [Syncfusion Code Install and Configure](/code/getting-started/install-and-configuration)
+* BoldCreate is installed and configured on your system. If you have not yet downloaded BoldCreate, refer to the [BoldCreate Install and Configure](/code/getting-started/install-and-configuration)
 * You have a valid API key from the chat model provider you want to use (e.g., [OpenAI](https://platform.openai.com/api-keys), [Anthropic](https://console.anthropic.com/dashboard), [OpenRouter](https://openrouter.ai/settings/keys)).
 
 ## Steps for Configure Default Models
 
-### Step 1: Open Syncfusion Code Enterprise Server dashboard
+### Step 1: Open BoldCreate Enterprise Server dashboard
 
-* Open [Syncfusion Code Enterprise Server](https://app.sfcodestudio.com/dashboard)
+* Open [BoldCreate Enterprise Server](https://app.sfcodestudio.com/dashboard)
 <img src="./monitoring-and-optimization-images/dashboard.png" alt="cache">
 
 
@@ -34,7 +34,7 @@ Before starting, ensure:
 
 * Go to the [Models](https://app.sfcodestudio.com/models) section and click Manage Default Settings.
 
- >**Note**: If you have not configured your model, please refer to [Configure LLM Providers and Models in Syncfusion Code](/code/teams-and-enterprise/providersandmodels) for guidance on adding models.
+ >**Note**: If you have not configured your model, please refer to [Configure LLM Providers and Models in BoldCreate](/code/teams-and-enterprise/providersandmodels) for guidance on adding models.
 
 
     
@@ -58,7 +58,7 @@ Before starting, ensure:
 
     <img src="./monitoring-and-optimization-images/dashboard-manage-update.png" alt="cache">
 
-* You have successfully configured your default models! Your selected models will now appear automatically when you launch Syncfusion Code IDE. 
+* You have successfully configured your default models! Your selected models will now appear automatically when you launch BoldCreate IDE. 
     
     <img src="./monitoring-and-optimization-images/model_in_drop_down.png" alt="cache">
 

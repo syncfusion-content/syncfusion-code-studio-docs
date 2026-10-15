@@ -1,17 +1,17 @@
 ---
-title: Code Studio Enterprise Settings
-description: Manage profile, organization, credits, billing, and subscriptions in Syncfusion Code Studio Enterprise.
+title: BoldCreate Enterprise Settings
+description: Manage profile, organization, credits, billing, and subscriptions in BoldCreate Enterprise.
 platform: syncfusion-code-studio
-keywords: settings, profile, organization, credits, billing, subscription, plans,payments, enterprise, syncfusion, code-studio
+keywords: settings, profile, organization, credits, billing, subscription, plans,payments, enterprise, syncfusion, boldcreate
 ---
 
 # Settings
 
-The Settings area centralizes account and organization configuration for Code Studio Enterprise. Use it to manage your profile, organization details, credits, and billing/subscription plans.
+The Settings area centralizes account and organization configuration for BoldCreate Enterprise. Use it to manage your profile, organization details, credits, and billing/subscription plans.
 
 ## How to Access
 
-- Open the [Code Studio page](https://app.sfcodestudio.com) and navigate to Settings from the left sidebar
+- Open the [BoldCreate page](https://app.sfcodestudio.com) and navigate to Settings from the left sidebar
 - Select one of the tabs: Profile, Organization, Credits, or Billing & Subscription
 
 ## 1. Profile
@@ -108,7 +108,7 @@ Add-on credits fund model usage across your organization.
       <td>$0</td>
       <td>
         <ul>
-          <li>Full access to Code Studio IDE & Enterprise Server</li>
+          <li>Full access to BoldCreate IDE & Enterprise Server</li>
           <li>Five AI modes: Chat, Edit, Agent, Plan, Autocomplete</li>
           <li>Image input support</li>
           <li>MCP server integration</li>

@@ -1,15 +1,15 @@
 ---
-title: Enhancing Security Reviews and Code Quality with Automated Hooks in Syncfusion Code
-description: Configure hooks in Syncfusion Code to block unsafe tool calls, protect env files, and enforce security rules during AI-assisted development.
+title: Enhancing Security Reviews and Code Quality with Automated Hooks in BoldCreate
+description: Configure hooks in BoldCreate to block unsafe tool calls, protect env files, and enforce security rules during AI-assisted development.
 platform: syncfusion-code-studio
 keywords: hooks, security, code-quality, pre-tool-use, env-files, automation, agent-mode
 ---
 
-# Enhancing Security Reviews and Code Quality with Automated Hooks in Syncfusion Code
+# Enhancing Security Reviews and Code Quality with Automated Hooks in BoldCreate
 
 ## Overview
 
-AI agents in Syncfusion Code can read files, run tools, and generate code on your behalf. Without guardrails, an agent might accidentally:
+AI agents in BoldCreate can read files, run tools, and generate code on your behalf. Without guardrails, an agent might accidentally:
 
 - Read sensitive files such as `.env` or credential files.
 - Run risky shell commands.
@@ -31,7 +31,7 @@ In this tutorial, you'll configure a **Pre-Tool Use** hook that blocks any tool 
 
 By the end of this tutorial, you will be able to:
 
-- Enable and configure **Hooks** in Syncfusion Code.
+- Enable and configure **Hooks** in BoldCreate.
 - Create a **Pre-Tool Use** hook that inspects tool requests before they run.
 - Block attempts to read `.env` (and other sensitive files) from AI tools.
 - Provide clear feedback to the user when a request is blocked.
@@ -41,16 +41,16 @@ By the end of this tutorial, you will be able to:
 ## Key Concepts
 
 **Hook**
-A small script that Syncfusion Code calls at specific points in the agent workflow. Hooks let you intercept, inspect, and optionally block agent actions before they execute.
+A small script that BoldCreate calls at specific points in the agent workflow. Hooks let you intercept, inspect, and optionally block agent actions before they execute.
 
 **Pre-Tool Use event**
-A hook lifecycle event that fires *before* any tool call runs. Your script receives details about the upcoming call and returns a decision (allow or deny) before Syncfusion Code proceeds.
+A hook lifecycle event that fires *before* any tool call runs. Your script receives details about the upcoming call and returns a decision (allow or deny) before BoldCreate proceeds.
 
 **permissionDecision**
-The field in your hook's JSON (JavaScript Object Notation) output that tells Syncfusion Code whether to allow or deny a tool call. Supported values are `"allow"` and `"deny"`.
+The field in your hook's JSON (JavaScript Object Notation) output that tells BoldCreate whether to allow or deny a tool call. Supported values are `"allow"` and `"deny"`.
 
 **stdin / stdout**
-Standard input and standard output streams. Syncfusion Code passes tool-call details to your hook script via stdin and reads your hook's decision from stdout.
+Standard input and standard output streams. BoldCreate passes tool-call details to your hook script via stdin and reads your hook's decision from stdout.
 
 ## Steps to Enhance Security with Hooks
 
@@ -172,13 +172,13 @@ Next, you will create a hook that runs **before** any tool is executed.
 
   <img src="../agentic-toolbox-images/enhance-security-with-hooks-pretooluse-event.png" alt="Pre-Tool Use event selected while creating a new hook" />
 
-4. Choose where to store the hook files. Select or enter the folder path `./.sfcode/hooks/` so Syncfusion Code places hook scripts and configuration in the project-scoped hooks directory.
+4. Choose where to store the hook files. Select or enter the folder path `./.boldcreate/hooks/` so BoldCreate places hook scripts and configuration in the project-scoped hooks directory.
 
 5. Enter a descriptive name for your hook, such as **BlockEnvFileAccess**.
 
   <img src="../agentic-toolbox-images/enhance-security-with-hooks-blockenvfileaccess-hook.png" alt="New hook named BlockEnvFileAccess shown in the Hooks list" />
 
-6. Syncfusion Code scaffolds the necessary hook configuration, typically under a folder such as `.sfcode/hooks/`.
+6. BoldCreate scaffolds the necessary hook configuration, typically under a folder such as `.boldcreate/hooks/`.
 
 
 > **Note:** The exact filename and folder may differ slightly depending on your configuration, but the file will be associated with the **Pre-Tool Use** event you selected.
@@ -187,7 +187,7 @@ Next, you will create a hook that runs **before** any tool is executed.
 
 Now wire the Pre-Tool Use event to your PowerShell script using the hooks configuration.
 
-1. Open your Syncfusion Code hooks configuration file (for example, `.sfcode/hooks/BlockEnvFileAccess.json`).
+1. Open your BoldCreate hooks configuration file (for example, `.boldcreate/hooks/BlockEnvFileAccess.json`).
 2. Under the `hooks` section, add or update a **Pre-Tool Use** entry similar to the following:
 
    ```json
@@ -208,7 +208,7 @@ Now wire the Pre-Tool Use event to your PowerShell script using the hooks config
 
 #### What This Configuration Does
 
-- `type: "command"` tells Syncfusion Code to run a shell command when the **Pre-Tool Use** event fires.
+- `type: "command"` tells BoldCreate to run a shell command when the **Pre-Tool Use** event fires.
 - `command` runs your PowerShell script (`BlockEnvFileAccess.ps1`) with `ExecutionPolicy Bypass` so it can execute even if your system has a more restrictive default policy.
 - `timeout: 10` limits the hook to 10 seconds; increase this if your script needs more time.
 
@@ -216,9 +216,9 @@ Now wire the Pre-Tool Use event to your PowerShell script using the hooks config
 
 ### Step 4: Review the Hook Input and Output Format
 
-Review the JSON structures that Syncfusion Code sends to and expects from your hook script before running a live test.
+Review the JSON structures that BoldCreate sends to and expects from your hook script before running a live test.
 
-When a tool is about to run (for example, a file read or search), Syncfusion Code:
+When a tool is about to run (for example, a file read or search), BoldCreate:
 
 1. Collects details about the upcoming tool call, such as:
    - Tool name (for example, `read/readFile` or `search/fileSearch`).

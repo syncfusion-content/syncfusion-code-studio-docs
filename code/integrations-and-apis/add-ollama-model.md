@@ -1,20 +1,20 @@
 ---
-title: How to Configure Ollama Models in Syncfusion Code
-description: Instructions to configure ollama models within Syncfusion Code. Use this feature to connect your preferred ollama model.
+title: How to Configure Ollama Models in BoldCreate
+description: Instructions to configure ollama models within BoldCreate. Use this feature to connect your preferred ollama model.
 platform: syncfusion-code-studio
 control: IDE
 documentation: Getting Started
-keywords: code, IDE, opensource, models, ollama
+keywords: boldcreate, IDE, opensource, models, ollama
 ---
 
 
 
 
-# How to Configure Ollama Models in Syncfusion Code
+# How to Configure Ollama Models in BoldCreate
  
 ## Overview
 
-This guide provides step-by-step instructions to configure and use **Ollama** models inside **Syncfusion Code**. By connecting Ollama, you can run powerful open-source language models locally on your machine. This enables private, offline-capable, and cost-free AI assistance without relying on external cloud providers or API keys.
+This guide provides step-by-step instructions to configure and use **Ollama** models inside **BoldCreate**. By connecting Ollama, you can run powerful open-source language models locally on your machine. This enables private, offline-capable, and cost-free AI assistance without relying on external cloud providers or API keys.
  
 ## When to Use
 - When you want free, unlimited usage with no API costs or rate limits – perfect for long coding sessions or agent workflows.
@@ -48,16 +48,16 @@ Refer the ollama's official documentation below to download and install Ollama o
 
 - Recommended models – [deepseek-r1](https://ollama.com/library/deepseek-r1), [qwen 2.5](https://ollama.com/library/qwen2.5)
 
-- Syncfusion Code up-to-date (latest stable release recommended).
+- BoldCreate up-to-date (latest stable release recommended).
  
-> **Note:** Ollama models currently work in Ask and Edit mode only in Syncfusion Code.
+> **Note:** Ollama models currently work in Ask and Edit mode only in BoldCreate.
  
-## Configure Ollama Model in Syncfusion Code
+## Configure Ollama Model in BoldCreate
 - Click the model dropdown in chat box and click 'Manage Models' option.
 
   <img src="integration-images/manageModels.png" alt="Manage Models">
  
-- A Language Models page will open. This page provides information about the configured Providers and their models in Syncfusion Code.
+- A Language Models page will open. This page provides information about the configured Providers and their models in BoldCreate.
 
    <img src="integration-images/LanguageModels.png" alt="LanguageModels">
 

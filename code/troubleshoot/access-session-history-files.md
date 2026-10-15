@@ -1,19 +1,19 @@
 ---
-title: How to access session history files in Syncfusion Code
-description: Explains how to access and manage session history in Syncfusion Code v2.0.0+, including the unified sessions list.
+title: How to access session history files in BoldCreate
+description: Explains how to access and manage session history in BoldCreate v2.0.0+, including the unified sessions list.
 platform: syncfusion-code-studio
-keywords: Syncfusion Code, session history, workspace chats, show chats, sessions, troubleshoot
+keywords: BoldCreate, session history, workspace chats, show chats, sessions, troubleshoot
 ---
 
-# How to access session history files in Syncfusion Code
+# How to access session history files in BoldCreate
 
-This guide explains how to view and manage session history after upgrading to Syncfusion Code v2.0.0+.
+This guide explains how to view and manage session history after upgrading to BoldCreate v2.0.0+.
 
 ## Problem Summary
 
-After upgrading to Syncfusion Code v2.0.0+, chat sessions from earlier versions (before v2.0.0) may not appear in the session history.
+After upgrading to BoldCreate v2.0.0+, chat sessions from earlier versions (before v2.0.0) may not appear in the session history.
 
-> **Note:** Session history created prior to v2.0.0 cannot be migrated to the Syncfusion Code v2.0.0+ session history. Refer to the [v2.0.0 release notes](/code/release-notes/v2.0.0) for migration details.
+> **Note:** Session history created prior to v2.0.0 cannot be migrated to the BoldCreate v2.0.0+ session history. Refer to the [v2.0.0 release notes](/code/release-notes/v2.0.0) for migration details.
 
 ## Accessing Session History
 

@@ -1,24 +1,24 @@
 ---
-title: How to Resolve the Uncaught Exception Error During Syncfusion Code AutoUpdate
-description: Guide to fix the Uncaught Exception error that occurs when Syncfusion Code is launched during automatic updates. Includes quick fixes and clean reinstallation steps.
+title: How to Resolve the Uncaught Exception Error During BoldCreate AutoUpdate
+description: Guide to fix the Uncaught Exception error that occurs when BoldCreate is launched during automatic updates. Includes quick fixes and clean reinstallation steps.
 platform: syncfusion-code-studio
 keywords: uncaught exception, autoupdate, troubleshoot, update error
 ---
 
-# How to Resolve the Uncaught Exception Error During Syncfusion Code AutoUpdate
+# How to Resolve the Uncaught Exception Error During BoldCreate AutoUpdate
 
-This guide explains how to resolve the `Uncaught Exception` error that occurs when Syncfusion Code is launched during its automatic update process.
+This guide explains how to resolve the `Uncaught Exception` error that occurs when BoldCreate is launched during its automatic update process.
 
 ## Problem Summary
 
-Users may encounter an `Uncaught Exception` error when Syncfusion Code is launching during its automatic update process. This occurs if the application is opened before the update is fully completed, causing conflicts while essential files are still being modified. The issue can temporarily prevent Syncfusion Code from starting and may require a simple wait-and-retry approach or a clean reinstallation if it persists. 
+Users may encounter an `Uncaught Exception` error when BoldCreate is launching during its automatic update process. This occurs if the application is opened before the update is fully completed, causing conflicts while essential files are still being modified. The issue can temporarily prevent BoldCreate from starting and may require a simple wait-and-retry approach or a clean reinstallation if it persists. 
 
 <img src="./troubleshoot-images/uncaughtexception1.png" alt="Uncaught Exception during auto update" />
 
 ## Possible Causes
 
 - **Update In Progress**: The automatic update process is still replacing application files.
-- **Premature Launch**: Syncfusion Code was opened before the update completed.
+- **Premature Launch**: BoldCreate was opened before the update completed.
 - **File Conflicts**: Temporary file locks or conflicts occurred during file replacement.
 
 ## Resolution Steps
@@ -27,46 +27,46 @@ Users may encounter an `Uncaught Exception` error when Syncfusion Code is launch
 
 1. Close the error dialog.
 2. Wait a few minutes for the automatic update to complete in the background.
-3. Relaunch Syncfusion Code. It will start successfully with the latest version and automatically launch without requiring any user interaction.
+3. Relaunch BoldCreate. It will start successfully with the latest version and automatically launch without requiring any user interaction.
 
 ### If the Issue Persists (Clean Reinstallation)
 
-#### Step 1: Uninstall Syncfusion Code
+#### Step 1: Uninstall BoldCreate
 
 1. **Windows**:
    - Open **Windows Settings** → **Apps**.
-   - Find and select **Syncfusion Code**.
+   - Find and select **BoldCreate**.
    - Click **Uninstall** and follow the user prompts to remove the application.
 
-      <img src="./troubleshoot-images/uncaughtexception2.png" alt="Uninstall Syncfusion Code from Windows Settings" />
+      <img src="./troubleshoot-images/uncaughtexception2.png" alt="Uninstall BoldCreate from Windows Settings" />
 
 2. **macOS**:
    - Open **Finder** → **Applications**.
-   - Locate **Syncfusion Code**.
+   - Locate **BoldCreate**.
    - Open context menu and click **Move to Trash** or **Move to Bin** to remove the application.
 
-      <img src="./troubleshoot-images/cache-image-macapplication.png" alt="Uninstall Syncfusion Code from macOS Applications" />
+      <img src="./troubleshoot-images/cache-image-macapplication.png" alt="Uninstall BoldCreate from macOS Applications" />
 
-#### Step 2: Remove Syncfusion Code Cache Files
+#### Step 2: Remove BoldCreate Cache Files
 
 Delete cache and configuration folders to ensure a clean reinstallation. See [How to Resolve the App Corruption](/code/troubleshoot/how-to-resolve-the-app-corruption) for detailed steps.
 
-#### Step 3: Reinstall Syncfusion Code
+#### Step 3: Reinstall BoldCreate
 
-1. Reinstall Syncfusion Code, refer to the [Syncfusion Code Install and Configure](/code/getting-started/install-and-configuration).
+1. Reinstall BoldCreate, refer to the [BoldCreate Install and Configure](/code/getting-started/install-and-configuration).
 2. Launch the application and verify it starts without errors.
 
 ## Verification
 
 To confirm the issue is resolved:
 
-- Syncfusion Code launches without the "Uncaught Exception" dialog.
+- BoldCreate launches without the "Uncaught Exception" dialog.
 - The application shows the expected latest version in **Help** → **About** (after an update).
 - Subsequent launches are successful without intermittent errors.
 
 ## Best Practices
 
-- **Avoid Interrupting Updates**: Do not open Syncfusion Code while an update is in progress.
+- **Avoid Interrupting Updates**: Do not open BoldCreate while an update is in progress.
 - **Allow Full Completion**: Let the update complete fully. The application typically relaunches automatically.
 - **Maintain System Resources**: Ensure sufficient disk space and memory during update operations.
 

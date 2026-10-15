@@ -1,6 +1,6 @@
 ---
 title: How to Add Personal API Key Models in the IDE
-description: Learn how to add and manage your own AI models directly in the Syncfusion Code IDE chat view using personal API keys from providers like OpenAI and Anthropic.
+description: Learn how to add and manage your own AI models directly in the BoldCreate IDE chat view using personal API keys from providers like OpenAI and Anthropic.
 platform: syncfusion-code-studio
 keywords: how-to, personal-models, API-keys, IDE, chat-view, OpenAI, Anthropic
 ---
@@ -9,9 +9,9 @@ keywords: how-to, personal-models, API-keys, IDE, chat-view, OpenAI, Anthropic
 
 ## Overview
 
-Syncfusion Code allows you to integrate AI models from various providers directly in the IDE chat view using your own personal API keys. This feature gives you access to specific models that may not be available in your organization's configuration. You can add, manage, and use these models alongside your organization's models for enhanced flexibility and experimentation.
+BoldCreate allows you to integrate AI models from various providers directly in the IDE chat view using your own personal API keys. This feature gives you access to specific models that may not be available in your organization's configuration. You can add, manage, and use these models alongside your organization's models for enhanced flexibility and experimentation.
 
-> **Note:** This feature is available in the IDE chat view only. It is not available in the Syncfusion Code Enterprise Server dashboard.
+> **Note:** This feature is available in the IDE chat view only. It is not available in the BoldCreate Enterprise Server dashboard.
 
 ## When to Use
 
@@ -33,7 +33,7 @@ Use Personal API Key Models models when you need to:
 
    <img src="integration-images/manageModels.png" alt="Manage Models">
 
-2. A Language Models page will open. This page provides information about the configured Providers and their models in Syncfusion Code.
+2. A Language Models page will open. This page provides information about the configured Providers and their models in BoldCreate.
 
    <img src="integration-images/LanguageModels.png" alt="LanguageModels">
 
